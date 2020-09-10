@@ -21,6 +21,7 @@ plugins {
     // nicer test outputs during running and completion
     // Homepage: https://github.com/radarsh/gradle-test-logger-plugin
     id 'com.adarshr.test-logger' version '2.1.0'
+    id "org.sonarqube" version "3.0"
 }
 
 gradle.startParameter.showStacktrace = org.gradle.api.logging.configuration.ShowStacktrace.ALWAYS
@@ -771,4 +772,12 @@ task bundleLibreOffice(type: Jar) {
 
     destinationDir = file('lib')
     archiveName = 'libreoffice.jar'
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "Hafmaestro_Group2DAT265"
+    property "sonar.organization", "hafmaestro"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
 }
