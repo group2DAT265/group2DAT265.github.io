@@ -1,3 +1,6 @@
+[![Quality gate](http://157.230.19.67:9000/api/project_badges/quality_gate?project=dat265group2)](http://157.230.19.67:9000/dashboard?id=dat265group2)
+
+
 # JabRef Bibliography Management
 
 Sebastian was here!
