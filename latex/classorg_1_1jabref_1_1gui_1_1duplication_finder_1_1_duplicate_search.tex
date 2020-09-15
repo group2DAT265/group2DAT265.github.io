@@ -1,0 +1,141 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search}{}\doxysection{org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search}\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+Inheritance diagram for org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Duplicate\+Search\+Result}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a75c7ed50a2036fbb6f2407590df08b34}{Duplicate\+Search}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_abc1526fb46e7a62284473d783cc1c578}{frame}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_abefcc864957ca23b671b9e45e08567eb}{dialog\+Service}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a727697d5b2768f6c2f7354686c815d4a}{state\+Manager}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a7ccdea14d7ce759a135e36adde7228dc}{execute}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a954cc0d606f8a9e92204d06a5554dc7e}{search\+Possible\+Duplicates}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode}{Bib\+Database\+Mode}} database\+Mode)
+\item 
+Duplicate\+Search\+Result \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_ae374a8c9066376971416af78d46be44d}{verify\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_aa114ef2590d1db41bec09c2d3c2ac3a0}{ask\+Resolve\+Strategy}} (Duplicate\+Search\+Result result, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} first, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} second, \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_resolver_dialog_1_1_duplicate_resolver_type}{Duplicate\+Resolver\+Type}} resolver\+Type)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a133c12c61d809a47f57f16f17d784bc8}{handle\+Duplicates}} (Duplicate\+Search\+Result result)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_abc1526fb46e7a62284473d783cc1c578}{frame}}
+\item 
+final Blocking\+Queue$<$ List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_ab1c50248034e32d7211c33d3210e9c58}{duplicates}} = new Linked\+Blocking\+Queue$<$$>$()
+\item 
+final Atomic\+Boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a25edfe7136220bbdac82dd30f631b414}{library\+Analyzed}} = new Atomic\+Boolean()
+\item 
+final Atomic\+Boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_ac3a3b661dc86a6273903573669932e42}{auto\+Remove\+Exact\+Duplicates}} = new Atomic\+Boolean()
+\item 
+final Atomic\+Integer \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a1548ef79fdcd234dfdc094b8e76d9d20}{duplicate\+Count}} = new Atomic\+Integer()
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_abefcc864957ca23b671b9e45e08567eb}{dialog\+Service}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a727697d5b2768f6c2f7354686c815d4a}{state\+Manager}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a75c7ed50a2036fbb6f2407590df08b34}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a75c7ed50a2036fbb6f2407590df08b34}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!DuplicateSearch@{DuplicateSearch}}
+\index{DuplicateSearch@{DuplicateSearch}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{DuplicateSearch()}{DuplicateSearch()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+Duplicate\+Search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}}}]{frame,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_aa114ef2590d1db41bec09c2d3c2ac3a0}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_aa114ef2590d1db41bec09c2d3c2ac3a0}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!askResolveStrategy@{askResolveStrategy}}
+\index{askResolveStrategy@{askResolveStrategy}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{askResolveStrategy()}{askResolveStrategy()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+ask\+Resolve\+Strategy (\begin{DoxyParamCaption}\item[{Duplicate\+Search\+Result}]{result,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{first,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{second,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_resolver_dialog_1_1_duplicate_resolver_type}{Duplicate\+Resolver\+Type}}}]{resolver\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a7ccdea14d7ce759a135e36adde7228dc}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a7ccdea14d7ce759a135e36adde7228dc}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!execute@{execute}}
+\index{execute@{execute}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+execute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a133c12c61d809a47f57f16f17d784bc8}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a133c12c61d809a47f57f16f17d784bc8}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!handleDuplicates@{handleDuplicates}}
+\index{handleDuplicates@{handleDuplicates}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{handleDuplicates()}{handleDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+handle\+Duplicates (\begin{DoxyParamCaption}\item[{Duplicate\+Search\+Result}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a954cc0d606f8a9e92204d06a5554dc7e}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a954cc0d606f8a9e92204d06a5554dc7e}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!searchPossibleDuplicates@{searchPossibleDuplicates}}
+\index{searchPossibleDuplicates@{searchPossibleDuplicates}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{searchPossibleDuplicates()}{searchPossibleDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+search\+Possible\+Duplicates (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode}{Bib\+Database\+Mode}}}]{database\+Mode }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_ae374a8c9066376971416af78d46be44d}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_ae374a8c9066376971416af78d46be44d}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!verifyDuplicates@{verifyDuplicates}}
+\index{verifyDuplicates@{verifyDuplicates}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{verifyDuplicates()}{verifyDuplicates()}}
+{\footnotesize\ttfamily Duplicate\+Search\+Result org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+verify\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_ac3a3b661dc86a6273903573669932e42}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_ac3a3b661dc86a6273903573669932e42}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!autoRemoveExactDuplicates@{autoRemoveExactDuplicates}}
+\index{autoRemoveExactDuplicates@{autoRemoveExactDuplicates}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{autoRemoveExactDuplicates}{autoRemoveExactDuplicates}}
+{\footnotesize\ttfamily final Atomic\+Boolean org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+auto\+Remove\+Exact\+Duplicates = new Atomic\+Boolean()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_abefcc864957ca23b671b9e45e08567eb}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_abefcc864957ca23b671b9e45e08567eb}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a1548ef79fdcd234dfdc094b8e76d9d20}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a1548ef79fdcd234dfdc094b8e76d9d20}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!duplicateCount@{duplicateCount}}
+\index{duplicateCount@{duplicateCount}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{duplicateCount}{duplicateCount}}
+{\footnotesize\ttfamily final Atomic\+Integer org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+duplicate\+Count = new Atomic\+Integer()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_ab1c50248034e32d7211c33d3210e9c58}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_ab1c50248034e32d7211c33d3210e9c58}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!duplicates@{duplicates}}
+\index{duplicates@{duplicates}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{duplicates}{duplicates}}
+{\footnotesize\ttfamily final Blocking\+Queue$<$List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ $>$ org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+duplicates = new Linked\+Blocking\+Queue$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_abc1526fb46e7a62284473d783cc1c578}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_abc1526fb46e7a62284473d783cc1c578}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!frame@{frame}}
+\index{frame@{frame}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{frame}{frame}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+frame\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a25edfe7136220bbdac82dd30f631b414}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a25edfe7136220bbdac82dd30f631b414}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!libraryAnalyzed@{libraryAnalyzed}}
+\index{libraryAnalyzed@{libraryAnalyzed}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{libraryAnalyzed}{libraryAnalyzed}}
+{\footnotesize\ttfamily final Atomic\+Boolean org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+library\+Analyzed = new Atomic\+Boolean()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a727697d5b2768f6c2f7354686c815d4a}\label{classorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_search_a727697d5b2768f6c2f7354686c815d4a}} 
+\index{org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}!stateManager@{stateManager}}
+\index{stateManager@{stateManager}!org.jabref.gui.duplicationFinder.DuplicateSearch@{org.jabref.gui.duplicationFinder.DuplicateSearch}}
+\doxysubsubsection{\texorpdfstring{stateManager}{stateManager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} org.\+jabref.\+gui.\+duplication\+Finder.\+Duplicate\+Search.\+state\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/duplication\+Finder/\mbox{\hyperlink{_duplicate_search_8java}{Duplicate\+Search.\+java}}\end{DoxyCompactItemize}

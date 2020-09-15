@@ -1,0 +1,41 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_query_parser}{}\doxysection{org.\+jabref.\+logic.\+importer.\+Query\+Parser Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_query_parser}\index{org.jabref.logic.importer.QueryParser@{org.jabref.logic.importer.QueryParser}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_complex_search_query}{Complex\+Search\+Query}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_query_parser_a59b98a78619541a9ac1f48052e693be8}{parse\+Query\+String\+Into\+Complex\+Query}} (String query\+String)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class converts a query string written in lucene syntax into a complex search query.
+
+For simplicity this is limited to fielded data and the boolean A\+ND operator. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_query_parser_a59b98a78619541a9ac1f48052e693be8}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_query_parser_a59b98a78619541a9ac1f48052e693be8}} 
+\index{org.jabref.logic.importer.QueryParser@{org.jabref.logic.importer.QueryParser}!parseQueryStringIntoComplexQuery@{parseQueryStringIntoComplexQuery}}
+\index{parseQueryStringIntoComplexQuery@{parseQueryStringIntoComplexQuery}!org.jabref.logic.importer.QueryParser@{org.jabref.logic.importer.QueryParser}}
+\doxysubsubsection{\texorpdfstring{parseQueryStringIntoComplexQuery()}{parseQueryStringIntoComplexQuery()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_complex_search_query}{Complex\+Search\+Query}}$>$ org.\+jabref.\+logic.\+importer.\+Query\+Parser.\+parse\+Query\+String\+Into\+Complex\+Query (\begin{DoxyParamCaption}\item[{String}]{query\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parses the given query string into a complex query using lucene. Note\+: For unique fields, the alphabetically first instance in the query string is used in the complex query.
+
+
+\begin{DoxyParams}{Parameters}
+{\em query\+String} & The given query string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A complex query containing all fields of the query string 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Query\+Node\+Exception} & Error during parsing \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/\mbox{\hyperlink{_query_parser_8java}{Query\+Parser.\+java}}\end{DoxyCompactItemize}

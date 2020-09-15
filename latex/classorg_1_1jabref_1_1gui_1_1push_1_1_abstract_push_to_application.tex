@@ -1,0 +1,233 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application}{}\doxysection{org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application}\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+Inheritance diagram for org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=0.985916cm]{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a14b5bb689f673365acf07b4417b24d31}{Abstract\+Push\+To\+Application}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_af050891d4115f34b743e91f06b43c5aa}{dialog\+Service}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a87abb44c07fe523ba6b2bce50bbbc098}{get\+Name}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a5103a77878afa758fc63a0f91a68e100}{get\+Tooltip}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a24030c6513644570e47711e32d8421eb}{push\+Entries}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries, String key\+String)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a55b46c08b63ed4d394b20af01a442a18}{operation\+Completed}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a3e5a386fc029d6f2e5cbd9e5358f6210}{requires\+Citation\+Keys}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_aa6686ef8afe54c9f510fef1f8088b1f2}{get\+Command\+Line}} (String key\+String)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_af3f159efa6e4c2fa14d81c9c76848896}{get\+Command\+Name}} ()
+\item 
+abstract void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a9f96e753a30740e8440054d676ee12bb}{init\+Parameters}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_ae0ab3c1e14c76e890a5bfa7d7599bd54}{get\+Cite\+Command}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_adb35136c4372a601b5234fd2408a6aa3}{could\+Not\+Call}}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a21c07d4f5bde52611337a6093e089237}{could\+Not\+Connect}}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_ac8af5eddd710585fc2216e448c8122ca}{not\+Defined}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a038dc8ca356cd7ea38b72b19a1e640cc}{command\+Path}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_ab81beb48c9c498b271a214c8f8b8ea5a}{command\+Path\+Preference\+Key}}
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_af050891d4115f34b743e91f06b43c5aa}{dialog\+Service}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_aad5cdc7d4b1299a9bd5a008334deef1b}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Abstract\+Push\+To\+Application.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Abstract class for pushing entries into different editors. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a14b5bb689f673365acf07b4417b24d31}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a14b5bb689f673365acf07b4417b24d31}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!AbstractPushToApplication@{AbstractPushToApplication}}
+\index{AbstractPushToApplication@{AbstractPushToApplication}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{AbstractPushToApplication()}{AbstractPushToApplication()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+Abstract\+Push\+To\+Application (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_ae0ab3c1e14c76e890a5bfa7d7599bd54}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_ae0ab3c1e14c76e890a5bfa7d7599bd54}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!getCiteCommand@{getCiteCommand}}
+\index{getCiteCommand@{getCiteCommand}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{getCiteCommand()}{getCiteCommand()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+get\+Cite\+Command (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_aa6686ef8afe54c9f510fef1f8088b1f2}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_aa6686ef8afe54c9f510fef1f8088b1f2}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!getCommandLine@{getCommandLine}}
+\index{getCommandLine@{getCommandLine}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{getCommandLine()}{getCommandLine()}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+get\+Command\+Line (\begin{DoxyParamCaption}\item[{String}]{key\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Function to get the command to be executed for pushing keys to be cited
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+String} & String containing the Bibtex keys to be pushed to the application \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String array with the command to call and its arguments 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_win_edt_a4fbb268fddd5c47298bf1281cf0754a7}{org.\+jabref.\+gui.\+push.\+Push\+To\+Win\+Edt}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_te_xstudio_abd592d3dddf954e76fc5fbeaa83ab7ff}{org.\+jabref.\+gui.\+push.\+Push\+To\+Te\+Xstudio}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_texmaker_a46839bb26cbd417621bab6108eb923df}{org.\+jabref.\+gui.\+push.\+Push\+To\+Texmaker}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_af3f159efa6e4c2fa14d81c9c76848896}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_af3f159efa6e4c2fa14d81c9c76848896}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!getCommandName@{getCommandName}}
+\index{getCommandName@{getCommandName}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{getCommandName()}{getCommandName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+get\+Command\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Function to get the command name in case it is different from the application name
+
+\begin{DoxyReturn}{Returns}
+String with the command name 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_emacs_a1b257594c4412634f41562a4bd560c88}{org.\+jabref.\+gui.\+push.\+Push\+To\+Emacs}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a87abb44c07fe523ba6b2bce50bbbc098}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a87abb44c07fe523ba6b2bce50bbbc098}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!getName@{getName}}
+\index{getName@{getName}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1push_1_1_push_to_application_aec94ec0156acdfae0dc85dbc773d46b3}{org.\+jabref.\+gui.\+push.\+Push\+To\+Application}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a5103a77878afa758fc63a0f91a68e100}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a5103a77878afa758fc63a0f91a68e100}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!getTooltip@{getTooltip}}
+\index{getTooltip@{getTooltip}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{getTooltip()}{getTooltip()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+get\+Tooltip (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1push_1_1_push_to_application_a175b6a6070b399f760bfa1b4e4f115ce}{org.\+jabref.\+gui.\+push.\+Push\+To\+Application}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a9f96e753a30740e8440054d676ee12bb}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a9f96e753a30740e8440054d676ee12bb}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!initParameters@{initParameters}}
+\index{initParameters@{initParameters}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{initParameters()}{initParameters()}}
+{\footnotesize\ttfamily abstract void org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+init\+Parameters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}, {\ttfamily [protected]}}
+
+Function to initialize parameters. Currently it is expected that command\+Path\+Preference\+Key is set to the path of the application. 
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_win_edt_a68c795bc0cbcfe2ecf9d20470c13e4c4}{org.\+jabref.\+gui.\+push.\+Push\+To\+Win\+Edt}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_vim_a4dc277f0907c9663b4199d1e8d797ca6}{org.\+jabref.\+gui.\+push.\+Push\+To\+Vim}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_te_xstudio_a664bfa789c7b18ab051f5279fe051761}{org.\+jabref.\+gui.\+push.\+Push\+To\+Te\+Xstudio}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_texmaker_a4561f30210f616055708ea74e2636d09}{org.\+jabref.\+gui.\+push.\+Push\+To\+Texmaker}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_lyx_a18bfb3155ef195f180e005b309abe21f}{org.\+jabref.\+gui.\+push.\+Push\+To\+Lyx}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_emacs_a61e09cb546551b9360cb9a69f4150b70}{org.\+jabref.\+gui.\+push.\+Push\+To\+Emacs}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a55b46c08b63ed4d394b20af01a442a18}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a55b46c08b63ed4d394b20af01a442a18}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!operationCompleted@{operationCompleted}}
+\index{operationCompleted@{operationCompleted}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{operationCompleted()}{operationCompleted()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+operation\+Completed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Reporting etc., this method is called on the event dispatch thread after \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a24030c6513644570e47711e32d8421eb}{push\+Entries()}} returns. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1push_1_1_push_to_application_a4bc3378a857556aa0178670a7129ac8b}{org.\+jabref.\+gui.\+push.\+Push\+To\+Application}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_vim_a89def2d8caed82774bbd937f29df4d78}{org.\+jabref.\+gui.\+push.\+Push\+To\+Vim}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_lyx_a2e2062fd68f1124ba7ec13ca57e7aba9}{org.\+jabref.\+gui.\+push.\+Push\+To\+Lyx}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_emacs_af4aa43461c2ed056a60cf18b84908918}{org.\+jabref.\+gui.\+push.\+Push\+To\+Emacs}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a24030c6513644570e47711e32d8421eb}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a24030c6513644570e47711e32d8421eb}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!pushEntries@{pushEntries}}
+\index{pushEntries@{pushEntries}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{pushEntries()}{pushEntries()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+push\+Entries (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database,  }\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries,  }\item[{String}]{key\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+The actual operation. This method will not be called on the event dispatch thread, so it should not do G\+UI operations without utilizing invoke\+Later(). 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1push_1_1_push_to_application_ad11984a3f7fbdd9ec9a95405d9280d05}{org.\+jabref.\+gui.\+push.\+Push\+To\+Application}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_vim_a29a5b8c67cc2509fb5445abb188735a5}{org.\+jabref.\+gui.\+push.\+Push\+To\+Vim}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_emacs_af34ba05171cb96778cb6c8a22a07554a}{org.\+jabref.\+gui.\+push.\+Push\+To\+Emacs}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_lyx_afe933f8b2b81b07b6966fecc2f347761}{org.\+jabref.\+gui.\+push.\+Push\+To\+Lyx}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a3e5a386fc029d6f2e5cbd9e5358f6210}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a3e5a386fc029d6f2e5cbd9e5358f6210}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!requiresCitationKeys@{requiresCitationKeys}}
+\index{requiresCitationKeys@{requiresCitationKeys}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{requiresCitationKeys()}{requiresCitationKeys()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+requires\+Citation\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check whether this operation requires citation keys to be set for the entries. If true is returned an error message will be displayed if keys are missing.
+
+\begin{DoxyReturn}{Returns}
+true if citation keys are required for this operation. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1push_1_1_push_to_application_abe9bd460aeaed5205a04912519b5482d}{org.\+jabref.\+gui.\+push.\+Push\+To\+Application}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a038dc8ca356cd7ea38b72b19a1e640cc}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a038dc8ca356cd7ea38b72b19a1e640cc}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!commandPath@{commandPath}}
+\index{commandPath@{commandPath}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{commandPath}{commandPath}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+command\+Path\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_ab81beb48c9c498b271a214c8f8b8ea5a}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_ab81beb48c9c498b271a214c8f8b8ea5a}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!commandPathPreferenceKey@{commandPathPreferenceKey}}
+\index{commandPathPreferenceKey@{commandPathPreferenceKey}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{commandPathPreferenceKey}{commandPathPreferenceKey}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+command\+Path\+Preference\+Key\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_adb35136c4372a601b5234fd2408a6aa3}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_adb35136c4372a601b5234fd2408a6aa3}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!couldNotCall@{couldNotCall}}
+\index{couldNotCall@{couldNotCall}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{couldNotCall}{couldNotCall}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+could\+Not\+Call\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a21c07d4f5bde52611337a6093e089237}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_a21c07d4f5bde52611337a6093e089237}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!couldNotConnect@{couldNotConnect}}
+\index{couldNotConnect@{couldNotConnect}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{couldNotConnect}{couldNotConnect}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+could\+Not\+Connect\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_af050891d4115f34b743e91f06b43c5aa}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_af050891d4115f34b743e91f06b43c5aa}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+dialog\+Service\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_aad5cdc7d4b1299a9bd5a008334deef1b}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_aad5cdc7d4b1299a9bd5a008334deef1b}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Abstract\+Push\+To\+Application.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_ac8af5eddd710585fc2216e448c8122ca}\label{classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application_ac8af5eddd710585fc2216e448c8122ca}} 
+\index{org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}!notDefined@{notDefined}}
+\index{notDefined@{notDefined}!org.jabref.gui.push.AbstractPushToApplication@{org.jabref.gui.push.AbstractPushToApplication}}
+\doxysubsubsection{\texorpdfstring{notDefined}{notDefined}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+push.\+Abstract\+Push\+To\+Application.\+not\+Defined\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/push/\mbox{\hyperlink{_abstract_push_to_application_8java}{Abstract\+Push\+To\+Application.\+java}}\end{DoxyCompactItemize}

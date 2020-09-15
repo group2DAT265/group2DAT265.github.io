@@ -1,0 +1,97 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version}{}\doxysection{org.\+jabref.\+logic.\+util.\+Java\+Version Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version}\index{org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a6a06cca6ab6ffbae33d94b0992cfbfc8}{Java\+Version}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a967b12bf355726a3df7c535e2d1117cc}{Java\+Version}} (final String version)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_ae3f162d473e9b6d6f85329a9f1a611d0}{is\+Java9}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a722dd3fc5cae70cdff5f79a5211af98b}{is\+At\+Least}} (final String version)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_aaed75e1c04e93801f77c08d2da2ddd74}{get\+Java\+Version}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_aeb307723476b466c264bbcb7d4948272}{get\+Java\+Installation\+Directory}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a22f6a2de512ace7a27cd404e5004aaa6}{J\+A\+V\+A\+\_\+\+V\+E\+R\+S\+I\+ON}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a051cafb752ce1f9f997ea037324c5c53}{D\+E\+L\+I\+M\+I\+T\+ER}} = Pattern.\+compile(\char`\"{}\mbox{[}.\+\_\+\textbackslash{}\textbackslash{}-\/+\mbox{]}\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides simple checks to ensure the correct version for Jab\+Ref is available. Currently, we need to make sure that we have Java 1.\+8 but not Java 9. The functions here are not intended for direct use. Instead, they are called inside \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_build_info}{Build\+Info}}, which has the required java version string (e.\+g. 1.\+8.\+0\+\_\+144) available through the build system. The version check should always happen through the {\ttfamily Globals\+::\+B\+U\+I\+L\+D\+\_\+\+I\+N\+FO} instance which is available at a very early stage in the Jab\+Ref startup. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a6a06cca6ab6ffbae33d94b0992cfbfc8}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a6a06cca6ab6ffbae33d94b0992cfbfc8}} 
+\index{org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}!JavaVersion@{JavaVersion}}
+\index{JavaVersion@{JavaVersion}!org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}}
+\doxysubsubsection{\texorpdfstring{JavaVersion()}{JavaVersion()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+util.\+Java\+Version.\+Java\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a967b12bf355726a3df7c535e2d1117cc}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a967b12bf355726a3df7c535e2d1117cc}} 
+\index{org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}!JavaVersion@{JavaVersion}}
+\index{JavaVersion@{JavaVersion}!org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}}
+\doxysubsubsection{\texorpdfstring{JavaVersion()}{JavaVersion()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+util.\+Java\+Version.\+Java\+Version (\begin{DoxyParamCaption}\item[{final String}]{version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_aeb307723476b466c264bbcb7d4948272}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_aeb307723476b466c264bbcb7d4948272}} 
+\index{org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}!getJavaInstallationDirectory@{getJavaInstallationDirectory}}
+\index{getJavaInstallationDirectory@{getJavaInstallationDirectory}!org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}}
+\doxysubsubsection{\texorpdfstring{getJavaInstallationDirectory()}{getJavaInstallationDirectory()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+util.\+Java\+Version.\+get\+Java\+Installation\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_aaed75e1c04e93801f77c08d2da2ddd74}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_aaed75e1c04e93801f77c08d2da2ddd74}} 
+\index{org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}!getJavaVersion@{getJavaVersion}}
+\index{getJavaVersion@{getJavaVersion}!org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}}
+\doxysubsubsection{\texorpdfstring{getJavaVersion()}{getJavaVersion()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+util.\+Java\+Version.\+get\+Java\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a722dd3fc5cae70cdff5f79a5211af98b}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a722dd3fc5cae70cdff5f79a5211af98b}} 
+\index{org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}!isAtLeast@{isAtLeast}}
+\index{isAtLeast@{isAtLeast}!org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}}
+\doxysubsubsection{\texorpdfstring{isAtLeast()}{isAtLeast()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+util.\+Java\+Version.\+is\+At\+Least (\begin{DoxyParamCaption}\item[{final String}]{version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+A very optimistic test for ensuring we at least have a minimal required Java version. It will not fail when we cannot determine the result. In essence, this method splits a version string using \{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a051cafb752ce1f9f997ea037324c5c53}{\} and compares two version number by number.  version Should be in the form X.\+X.\+X\+\_\+\+X\+XX where X are integers.  true if the numbers in version available for comparison are all greater-\/equals the currently running Java version. }}\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_ae3f162d473e9b6d6f85329a9f1a611d0}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_ae3f162d473e9b6d6f85329a9f1a611d0}} 
+\index{org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}!isJava9@{isJava9}}
+\index{isJava9@{isJava9}!org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}}
+\doxysubsubsection{\texorpdfstring{isJava9()}{isJava9()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+util.\+Java\+Version.\+is\+Java9 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Tries to determine if we are running on Java 9. This test should return false, when we cannot extract the correct Java version. Note that Java 9 has a different version scheme like \char`\"{}9-\/internal\char`\"{}.
+
+\begin{DoxyReturn}{Returns}
+true if Java 9 is used 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a051cafb752ce1f9f997ea037324c5c53}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a051cafb752ce1f9f997ea037324c5c53}} 
+\index{org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}!DELIMITER@{DELIMITER}}
+\index{DELIMITER@{DELIMITER}!org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}}
+\doxysubsubsection{\texorpdfstring{DELIMITER}{DELIMITER}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+util.\+Java\+Version.\+D\+E\+L\+I\+M\+I\+T\+ER = Pattern.\+compile(\char`\"{}\mbox{[}.\+\_\+\textbackslash{}\textbackslash{}-\/+\mbox{]}\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a22f6a2de512ace7a27cd404e5004aaa6}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_java_version_a22f6a2de512ace7a27cd404e5004aaa6}} 
+\index{org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}!JAVA\_VERSION@{JAVA\_VERSION}}
+\index{JAVA\_VERSION@{JAVA\_VERSION}!org.jabref.logic.util.JavaVersion@{org.jabref.logic.util.JavaVersion}}
+\doxysubsubsection{\texorpdfstring{JAVA\_VERSION}{JAVA\_VERSION}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+util.\+Java\+Version.\+J\+A\+V\+A\+\_\+\+V\+E\+R\+S\+I\+ON\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/util/\mbox{\hyperlink{_java_version_8java}{Java\+Version.\+java}}\end{DoxyCompactItemize}

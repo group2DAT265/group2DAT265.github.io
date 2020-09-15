@@ -1,0 +1,152 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler}{}\doxysection{org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler}\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_abc7bbe65ed2f5fced3553000c0e14996}{Import\+Handler}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a504d608df8859e0f69d16ffa5f40db40}{dialog\+Service}}, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a967969fa809435e13eb80182c6a1865e}{database}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_external_file_types}{External\+File\+Types}} external\+File\+Types, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a219fb426231b712a485efc68cad79b3c}{preferences\+Service}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} fileupdate\+Monitor, Undo\+Manager \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a1c97269795cd058dc8d559503ea0ff45}{undo\+Manager}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_ab9b9d87adb4f85477efa3cb45c3b4e9b}{state\+Manager}})
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_external_files_entry_linker}{External\+Files\+Entry\+Linker}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a2fb6df077c71fb42e5dc993a46fb907f}{get\+Linker}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_aaed3d8d8a2655c8e468196e46cedb39e}{import\+As\+New\+Entries}} (List$<$ Path $>$ \mbox{\hyperlink{org_8jsoup__jsoup_8txt_a79ad920b1e4be3bd0474c41517b68ac3}{files}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a49845caf3714787c1e1e7c5f393a0fd1}{import\+Entries}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_ae538c211b3105d0e2607f621ba7ca42b}{create\+Empty\+Entry\+With\+Link}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_acf268815fb0e2e82ff8c428ca59cabe6}{add\+To\+Groups}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries, \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} $>$ groups)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a34c9d15efe4d1e83e2782de62ffafc9f}{generate\+Keys}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a967969fa809435e13eb80182c6a1865e}{database}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a219fb426231b712a485efc68cad79b3c}{preferences\+Service}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a504d608df8859e0f69d16ffa5f40db40}{dialog\+Service}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a092f5a1df1cb217ef01c4943128c6865}{file\+Update\+Monitor}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_external_files_entry_linker}{External\+Files\+Entry\+Linker}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_afeb09a1adacc0522cee67fe9b83b1397}{linker}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1externalfiles_1_1_external_files_content_importer}{External\+Files\+Content\+Importer}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_af92eac60965d07bf0d90f959ec5a3f0c}{content\+Importer}}
+\item 
+final Undo\+Manager \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a1c97269795cd058dc8d559503ea0ff45}{undo\+Manager}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_ab9b9d87adb4f85477efa3cb45c3b4e9b}{state\+Manager}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_abc7bbe65ed2f5fced3553000c0e14996}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_abc7bbe65ed2f5fced3553000c0e14996}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!ImportHandler@{ImportHandler}}
+\index{ImportHandler@{ImportHandler}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{ImportHandler()}{ImportHandler()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+Import\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_external_file_types}{External\+File\+Types}}}]{external\+File\+Types,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}}}]{preferences\+Service,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}}}]{fileupdate\+Monitor,  }\item[{Undo\+Manager}]{undo\+Manager,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_acf268815fb0e2e82ff8c428ca59cabe6}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_acf268815fb0e2e82ff8c428ca59cabe6}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!addToGroups@{addToGroups}}
+\index{addToGroups@{addToGroups}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{addToGroups()}{addToGroups()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+add\+To\+Groups (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries,  }\item[{\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} $>$}]{groups }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_ae538c211b3105d0e2607f621ba7ca42b}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_ae538c211b3105d0e2607f621ba7ca42b}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!createEmptyEntryWithLink@{createEmptyEntryWithLink}}
+\index{createEmptyEntryWithLink@{createEmptyEntryWithLink}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{createEmptyEntryWithLink()}{createEmptyEntryWithLink()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+create\+Empty\+Entry\+With\+Link (\begin{DoxyParamCaption}\item[{Path}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a34c9d15efe4d1e83e2782de62ffafc9f}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a34c9d15efe4d1e83e2782de62ffafc9f}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!generateKeys@{generateKeys}}
+\index{generateKeys@{generateKeys}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{generateKeys()}{generateKeys()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+generate\+Keys (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Generate keys for given entries.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entries} & entries to generate keys for \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a2fb6df077c71fb42e5dc993a46fb907f}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a2fb6df077c71fb42e5dc993a46fb907f}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!getLinker@{getLinker}}
+\index{getLinker@{getLinker}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{getLinker()}{getLinker()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_external_files_entry_linker}{External\+Files\+Entry\+Linker}} org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+get\+Linker (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_aaed3d8d8a2655c8e468196e46cedb39e}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_aaed3d8d8a2655c8e468196e46cedb39e}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!importAsNewEntries@{importAsNewEntries}}
+\index{importAsNewEntries@{importAsNewEntries}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{importAsNewEntries()}{importAsNewEntries()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+import\+As\+New\+Entries (\begin{DoxyParamCaption}\item[{List$<$ Path $>$}]{files }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a49845caf3714787c1e1e7c5f393a0fd1}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a49845caf3714787c1e1e7c5f393a0fd1}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!importEntries@{importEntries}}
+\index{importEntries@{importEntries}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{importEntries()}{importEntries()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+import\+Entries (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_af92eac60965d07bf0d90f959ec5a3f0c}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_af92eac60965d07bf0d90f959ec5a3f0c}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!contentImporter@{contentImporter}}
+\index{contentImporter@{contentImporter}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{contentImporter}{contentImporter}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1externalfiles_1_1_external_files_content_importer}{External\+Files\+Content\+Importer}} org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+content\+Importer\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a967969fa809435e13eb80182c6a1865e}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a967969fa809435e13eb80182c6a1865e}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!database@{database}}
+\index{database@{database}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{database}{database}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+database\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a504d608df8859e0f69d16ffa5f40db40}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a504d608df8859e0f69d16ffa5f40db40}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a092f5a1df1cb217ef01c4943128c6865}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a092f5a1df1cb217ef01c4943128c6865}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!fileUpdateMonitor@{fileUpdateMonitor}}
+\index{fileUpdateMonitor@{fileUpdateMonitor}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{fileUpdateMonitor}{fileUpdateMonitor}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+file\+Update\+Monitor\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_afeb09a1adacc0522cee67fe9b83b1397}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_afeb09a1adacc0522cee67fe9b83b1397}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!linker@{linker}}
+\index{linker@{linker}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{linker}{linker}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_external_files_entry_linker}{External\+Files\+Entry\+Linker}} org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+linker\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a219fb426231b712a485efc68cad79b3c}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a219fb426231b712a485efc68cad79b3c}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!preferencesService@{preferencesService}}
+\index{preferencesService@{preferencesService}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{preferencesService}{preferencesService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+preferences\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_ab9b9d87adb4f85477efa3cb45c3b4e9b}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_ab9b9d87adb4f85477efa3cb45c3b4e9b}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!stateManager@{stateManager}}
+\index{stateManager@{stateManager}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{stateManager}{stateManager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+state\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a1c97269795cd058dc8d559503ea0ff45}\label{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler_a1c97269795cd058dc8d559503ea0ff45}} 
+\index{org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}!undoManager@{undoManager}}
+\index{undoManager@{undoManager}!org.jabref.gui.externalfiles.ImportHandler@{org.jabref.gui.externalfiles.ImportHandler}}
+\doxysubsubsection{\texorpdfstring{undoManager}{undoManager}}
+{\footnotesize\ttfamily final Undo\+Manager org.\+jabref.\+gui.\+externalfiles.\+Import\+Handler.\+undo\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/externalfiles/\mbox{\hyperlink{_import_handler_8java}{Import\+Handler.\+java}}\end{DoxyCompactItemize}

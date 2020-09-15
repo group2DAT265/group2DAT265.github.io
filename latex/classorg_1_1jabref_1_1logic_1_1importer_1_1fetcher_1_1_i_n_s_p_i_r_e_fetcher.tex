@@ -1,0 +1,164 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher}\index{org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a1a6269e1e52247f7602a754ec27638ad}{I\+N\+S\+P\+I\+R\+E\+Fetcher}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} preferences)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a2930104feba0a86d30b0dee7133341c7}{get\+Name}} ()
+\item 
+Optional$<$ \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file}{Help\+File}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a1ab9844bb06733790484574867483374}{get\+Help\+Page}} ()
+\item 
+\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a4c3eb574e848962403f09c738bab3d2b}{get\+U\+R\+L\+For\+Query}} (String query)  throws U\+R\+I\+Syntax\+Exception, Malformed\+U\+R\+L\+Exception, Fetcher\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download}{U\+R\+L\+Download}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_aa8c3e8a6b937696e1434691cdb4b194f}{get\+Url\+Download}} (\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} url)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a5cd800b8b0690519019123d35f7bc3e9}{do\+Post\+Cleanup}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser}{Parser}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a0c74f376761621b52aa9c51fbfbd334e}{get\+Parser}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_adcbfa14d4b30414639016cb2f351ed77}{import\+Format\+Preferences}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a5a2e7a5a3bb23314e8604034722a673b}{I\+N\+S\+P\+I\+R\+E\+\_\+\+H\+O\+ST}} = \char`\"{}https\+://inspirehep.\+net/api/literature/\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Fetches data from the I\+N\+S\+P\+I\+RE database. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a1a6269e1e52247f7602a754ec27638ad}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a1a6269e1e52247f7602a754ec27638ad}} 
+\index{org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}!INSPIREFetcher@{INSPIREFetcher}}
+\index{INSPIREFetcher@{INSPIREFetcher}!org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}}
+\doxysubsubsection{\texorpdfstring{INSPIREFetcher()}{INSPIREFetcher()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a5cd800b8b0690519019123d35f7bc3e9}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a5cd800b8b0690519019123d35f7bc3e9}} 
+\index{org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}!doPostCleanup@{doPostCleanup}}
+\index{doPostCleanup@{doPostCleanup}!org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}}
+\doxysubsubsection{\texorpdfstring{doPostCleanup()}{doPostCleanup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher.\+do\+Post\+Cleanup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Performs a cleanup of the fetched entry. 
+
+Only systematic errors of the fetcher should be corrected here (i.\+e. if information is consistently contained in the wrong field or the wrong format) but not cosmetic issues which may depend on the user\textquotesingle{}s taste (for example, LateX code vs H\+T\+ML in the abstract). 
+
+Try to reuse existing \mbox{\hyperlink{}{Formatter}} for the cleanup. For example, 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{new} FieldFormatterCleanup(StandardField.TITLE, \textcolor{keyword}{new} RemoveBracesFormatter()).cleanup(\mbox{\hyperlink{namespacejabref_host_ae5a8819641ec01f8c9f4777dabf9e6a0}{entry}}); }
+\end{DoxyCode}
+ 
+
+By default, no cleanup is done.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & the entry to be cleaned-\/up \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher_ae041c72c65c925ae33304ff73944c34b}{org.\+jabref.\+logic.\+importer.\+Search\+Based\+Parser\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a1ab9844bb06733790484574867483374}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a1ab9844bb06733790484574867483374}} 
+\index{org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}!getHelpPage@{getHelpPage}}
+\index{getHelpPage@{getHelpPage}!org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}}
+\doxysubsubsection{\texorpdfstring{getHelpPage()}{getHelpPage()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file}{Help\+File}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher.\+get\+Help\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the help page for this fetcher.
+
+\begin{DoxyReturn}{Returns}
+the \mbox{\hyperlink{}{Help\+File}} enum constant for the help page 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a10fe1737a47dac8e4bf8ad4f24626cbe}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a2930104feba0a86d30b0dee7133341c7}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a2930104feba0a86d30b0dee7133341c7}} 
+\index{org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the localized name of this fetcher. The title can be used to display the fetcher in the menu and in the side pane.
+
+\begin{DoxyReturn}{Returns}
+the localized name 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a9512c95b5bf85e727c975fe2db72e6bf}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a0c74f376761621b52aa9c51fbfbd334e}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a0c74f376761621b52aa9c51fbfbd334e}} 
+\index{org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}!getParser@{getParser}}
+\index{getParser@{getParser}!org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}}
+\doxysubsubsection{\texorpdfstring{getParser()}{getParser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser}{Parser}} org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher.\+get\+Parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the parser used to convert the response to a list of \mbox{\hyperlink{}{Bib\+Entry}}. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher_a9171da7277b773fe25db7a5b63add35a}{org.\+jabref.\+logic.\+importer.\+Search\+Based\+Parser\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_aa8c3e8a6b937696e1434691cdb4b194f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_aa8c3e8a6b937696e1434691cdb4b194f}} 
+\index{org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}!getUrlDownload@{getUrlDownload}}
+\index{getUrlDownload@{getUrlDownload}!org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}}
+\doxysubsubsection{\texorpdfstring{getUrlDownload()}{getUrlDownload()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download}{U\+R\+L\+Download}} org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher.\+get\+Url\+Download (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}}}]{url }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructs an \mbox{\hyperlink{}{U\+R\+L\+Download}} object for downloading content based on the given U\+RL. Overwrite, if you need to send additional headers for the download. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a828698dcb67e448b64931b5f02b7a4ec}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a4c3eb574e848962403f09c738bab3d2b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a4c3eb574e848962403f09c738bab3d2b}} 
+\index{org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}!getURLForQuery@{getURLForQuery}}
+\index{getURLForQuery@{getURLForQuery}!org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}}
+\doxysubsubsection{\texorpdfstring{getURLForQuery()}{getURLForQuery()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher.\+get\+U\+R\+L\+For\+Query (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception, Malformed\+U\+R\+L\+Exception, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructs a U\+RL based on the query.
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & the search query \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher_ae5836cc31f430e6538bbaac54828e774}{org.\+jabref.\+logic.\+importer.\+Search\+Based\+Parser\+Fetcher}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_adcbfa14d4b30414639016cb2f351ed77}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_adcbfa14d4b30414639016cb2f351ed77}} 
+\index{org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}!importFormatPreferences@{importFormatPreferences}}
+\index{importFormatPreferences@{importFormatPreferences}!org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}}
+\doxysubsubsection{\texorpdfstring{importFormatPreferences}{importFormatPreferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher.\+import\+Format\+Preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a5a2e7a5a3bb23314e8604034722a673b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher_a5a2e7a5a3bb23314e8604034722a673b}} 
+\index{org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}!INSPIRE\_HOST@{INSPIRE\_HOST}}
+\index{INSPIRE\_HOST@{INSPIRE\_HOST}!org.jabref.logic.importer.fetcher.INSPIREFetcher@{org.jabref.logic.importer.fetcher.INSPIREFetcher}}
+\doxysubsubsection{\texorpdfstring{INSPIRE\_HOST}{INSPIRE\_HOST}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+I\+N\+S\+P\+I\+R\+E\+Fetcher.\+I\+N\+S\+P\+I\+R\+E\+\_\+\+H\+O\+ST = \char`\"{}https\+://inspirehep.\+net/api/literature/\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_i_n_s_p_i_r_e_fetcher_8java}{I\+N\+S\+P\+I\+R\+E\+Fetcher.\+java}}\end{DoxyCompactItemize}

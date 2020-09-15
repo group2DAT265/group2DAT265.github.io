@@ -1,0 +1,78 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Bibsonomy\+Scraper Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper}\index{org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_ab10a6ffc14c661492aac8aec1dcd8e5f}{get\+Entry}} (String entry\+Url, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} import\+Format\+Preferences)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_a1cf68ea0a6df6a0b9a92228e868cb006}{Bibsonomy\+Scraper}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_a76e6f17eaa2a138a2a30c65dd51544d4}{B\+I\+B\+S\+O\+N\+O\+M\+Y\+\_\+\+S\+C\+R\+A\+P\+ER}} = \char`\"{}https\+://scraper.\+bibsonomy.\+org/service?url=\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_af0abdf517fdb4f09baa6c10c899374ee}{B\+I\+B\+S\+O\+N\+O\+M\+Y\+\_\+\+S\+C\+R\+A\+P\+E\+R\+\_\+\+P\+O\+ST}} = \char`\"{}\&format=bibtex\char`\"{}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_abae1349df566eef897835a89f2adde6e}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Bibsonomy\+Scraper.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Convenience class for getting Bib\+TeX entries from the Bib\+Sonomy scraper, from an U\+RL pointing to an entry. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_a1cf68ea0a6df6a0b9a92228e868cb006}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_a1cf68ea0a6df6a0b9a92228e868cb006}} 
+\index{org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}!BibsonomyScraper@{BibsonomyScraper}}
+\index{BibsonomyScraper@{BibsonomyScraper}!org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}}
+\doxysubsubsection{\texorpdfstring{BibsonomyScraper()}{BibsonomyScraper()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+importer.\+fetcher.\+Bibsonomy\+Scraper.\+Bibsonomy\+Scraper (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_ab10a6ffc14c661492aac8aec1dcd8e5f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_ab10a6ffc14c661492aac8aec1dcd8e5f}} 
+\index{org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}!getEntry@{getEntry}}
+\index{getEntry@{getEntry}!org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}}
+\doxysubsubsection{\texorpdfstring{getEntry()}{getEntry()}}
+{\footnotesize\ttfamily static Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Bibsonomy\+Scraper.\+get\+Entry (\begin{DoxyParamCaption}\item[{String}]{entry\+Url,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}}}]{import\+Format\+Preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Return a Bib\+Entry by looking up the given url from the Bib\+Sonomy scraper.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry\+Url} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_a76e6f17eaa2a138a2a30c65dd51544d4}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_a76e6f17eaa2a138a2a30c65dd51544d4}} 
+\index{org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}!BIBSONOMY\_SCRAPER@{BIBSONOMY\_SCRAPER}}
+\index{BIBSONOMY\_SCRAPER@{BIBSONOMY\_SCRAPER}!org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}}
+\doxysubsubsection{\texorpdfstring{BIBSONOMY\_SCRAPER}{BIBSONOMY\_SCRAPER}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Bibsonomy\+Scraper.\+B\+I\+B\+S\+O\+N\+O\+M\+Y\+\_\+\+S\+C\+R\+A\+P\+ER = \char`\"{}https\+://scraper.\+bibsonomy.\+org/service?url=\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_af0abdf517fdb4f09baa6c10c899374ee}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_af0abdf517fdb4f09baa6c10c899374ee}} 
+\index{org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}!BIBSONOMY\_SCRAPER\_POST@{BIBSONOMY\_SCRAPER\_POST}}
+\index{BIBSONOMY\_SCRAPER\_POST@{BIBSONOMY\_SCRAPER\_POST}!org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}}
+\doxysubsubsection{\texorpdfstring{BIBSONOMY\_SCRAPER\_POST}{BIBSONOMY\_SCRAPER\_POST}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Bibsonomy\+Scraper.\+B\+I\+B\+S\+O\+N\+O\+M\+Y\+\_\+\+S\+C\+R\+A\+P\+E\+R\+\_\+\+P\+O\+ST = \char`\"{}\&format=bibtex\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_abae1349df566eef897835a89f2adde6e}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_bibsonomy_scraper_abae1349df566eef897835a89f2adde6e}} 
+\index{org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fetcher.BibsonomyScraper@{org.jabref.logic.importer.fetcher.BibsonomyScraper}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fetcher.\+Bibsonomy\+Scraper.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Bibsonomy\+Scraper.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_bibsonomy_scraper_8java}{Bibsonomy\+Scraper.\+java}}\end{DoxyCompactItemize}

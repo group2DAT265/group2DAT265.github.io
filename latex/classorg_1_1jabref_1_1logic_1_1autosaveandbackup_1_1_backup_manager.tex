@@ -1,0 +1,225 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager}{}\doxysection{org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager}\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_ae2eaee786c4af4418b0afc03b720916c}{listen}} (@Suppress\+Warnings(\char`\"{}unused\char`\"{}) Bib\+Database\+Context\+Changed\+Event event)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager}{Backup\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_af5099d2ef9ffe4fd2684fed5a52b4012}{start}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a80f0d43002354dfcf848a1aa56982712}{bib\+Database\+Context}}, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_types_manager}{Bib\+Entry\+Types\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a798db65e1c3402733b92c600a919d2d5}{entry\+Types\+Manager}}, \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_adf755750e29044a830937fb27344e0a6}{preferences}})
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a4873287bde4ade6676981ec1ad959735}{shutdown}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a80f0d43002354dfcf848a1aa56982712}{bib\+Database\+Context}})
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a9be5c6504b3167e6d43eeaa96ea01ca2}{backup\+File\+Differs}} (Path original\+Path)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_ac827bffdfd5c99f611c3af4c001f7825}{restore\+Backup}} (Path original\+Path)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a093e3ea381b51196123f72b7dcf26fe0}{Backup\+Manager}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a80f0d43002354dfcf848a1aa56982712}{bib\+Database\+Context}}, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_types_manager}{Bib\+Entry\+Types\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a798db65e1c3402733b92c600a919d2d5}{entry\+Types\+Manager}}, \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_adf755750e29044a830937fb27344e0a6}{preferences}})
+\item 
+Optional$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a433e459a2efe7be4da6d9fd285d83369}{determine\+Backup\+Path}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_adfd2ad8337c3c30c3b331dd190fc811c}{perform\+Backup}} (Path backup\+Path)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a92b1ca5429eec029987bbd4b8a0dacb2}{log\+If\+Critical}} (Path backup\+Path, I\+O\+Exception e)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a286dc7c276f20b13f307858edc0cb861}{start\+Backup\+Task}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_ab4d3ed421095ab4c8facbd0353cccdbe}{shutdown}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a0a24f976d0f5839ecf299a472ef3a703}{delete\+Backup\+File}} (Path backup\+Path)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a80f0d43002354dfcf848a1aa56982712}{bib\+Database\+Context}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_adf755750e29044a830937fb27344e0a6}{preferences}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a414901b6b60f29f6ad882809b703b35e}{throttler}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter}{Coarse\+Change\+Filter}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_aaeb1687fa0af9d02809174088af286cf}{change\+Filter}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_types_manager}{Bib\+Entry\+Types\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a798db65e1c3402733b92c600a919d2d5}{entry\+Types\+Manager}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_aba648074b12e10ec309e8c63d93fc2c9}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Backup\+Manager.\+class)
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_af0cf4a7c079665537b22b3a4b3197097}{A\+U\+T\+O\+S\+A\+V\+E\+\_\+\+F\+I\+L\+E\+\_\+\+E\+X\+T\+E\+N\+S\+I\+ON}} = \char`\"{}.sav\char`\"{}
+\item 
+static Set$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager}{Backup\+Manager}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a5c1078afca7050200dd21f606d52ea9b}{running\+Instances}} = new Hash\+Set$<$$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Backups the given bib database file from \mbox{\hyperlink{}{Bib\+Database\+Context}} on every \mbox{\hyperlink{}{Bib\+Database\+Context\+Changed\+Event}}. An intelligent \mbox{\hyperlink{}{Executor\+Service}} with a \mbox{\hyperlink{}{Blocking\+Queue}} prevents a high load while making backups and rejects all redundant backup tasks. This class does not manage the .bak file which is created when opening a database. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a093e3ea381b51196123f72b7dcf26fe0}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a093e3ea381b51196123f72b7dcf26fe0}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!BackupManager@{BackupManager}}
+\index{BackupManager@{BackupManager}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{BackupManager()}{BackupManager()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+Backup\+Manager (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{bib\+Database\+Context,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_types_manager}{Bib\+Entry\+Types\+Manager}}}]{entry\+Types\+Manager,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a9be5c6504b3167e6d43eeaa96ea01ca2}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a9be5c6504b3167e6d43eeaa96ea01ca2}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!backupFileDiffers@{backupFileDiffers}}
+\index{backupFileDiffers@{backupFileDiffers}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{backupFileDiffers()}{backupFileDiffers()}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+backup\+File\+Differs (\begin{DoxyParamCaption}\item[{Path}]{original\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Checks whether a backup file exists for the given database file. If it exists, it is checked whether it is different from the original.
+
+
+\begin{DoxyParams}{Parameters}
+{\em original\+Path} & Path to the file a backup should be checked for. Example\+: jabref.\+bib. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if backup file exists A\+ND differs from original\+Path. {\ttfamily false} is the \char`\"{}default\char`\"{} return value in the good case. In the case of an exception {\ttfamily true} is returned to ensure that the user checks the output. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a0a24f976d0f5839ecf299a472ef3a703}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a0a24f976d0f5839ecf299a472ef3a703}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!deleteBackupFile@{deleteBackupFile}}
+\index{deleteBackupFile@{deleteBackupFile}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{deleteBackupFile()}{deleteBackupFile()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+delete\+Backup\+File (\begin{DoxyParamCaption}\item[{Path}]{backup\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a433e459a2efe7be4da6d9fd285d83369}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a433e459a2efe7be4da6d9fd285d83369}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!determineBackupPath@{determineBackupPath}}
+\index{determineBackupPath@{determineBackupPath}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{determineBackupPath()}{determineBackupPath()}}
+{\footnotesize\ttfamily Optional$<$Path$>$ org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+determine\+Backup\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_ae2eaee786c4af4418b0afc03b720916c}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_ae2eaee786c4af4418b0afc03b720916c}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!listen@{listen}}
+\index{listen@{listen}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{listen()}{listen()}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+listen (\begin{DoxyParamCaption}\item[{@Suppress\+Warnings(\char`\"{}unused\char`\"{}) Bib\+Database\+Context\+Changed\+Event}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a92b1ca5429eec029987bbd4b8a0dacb2}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a92b1ca5429eec029987bbd4b8a0dacb2}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!logIfCritical@{logIfCritical}}
+\index{logIfCritical@{logIfCritical}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{logIfCritical()}{logIfCritical()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+log\+If\+Critical (\begin{DoxyParamCaption}\item[{Path}]{backup\+Path,  }\item[{I\+O\+Exception}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_adfd2ad8337c3c30c3b331dd190fc811c}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_adfd2ad8337c3c30c3b331dd190fc811c}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!performBackup@{performBackup}}
+\index{performBackup@{performBackup}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{performBackup()}{performBackup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+perform\+Backup (\begin{DoxyParamCaption}\item[{Path}]{backup\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_ac827bffdfd5c99f611c3af4c001f7825}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_ac827bffdfd5c99f611c3af4c001f7825}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!restoreBackup@{restoreBackup}}
+\index{restoreBackup@{restoreBackup}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{restoreBackup()}{restoreBackup()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+restore\+Backup (\begin{DoxyParamCaption}\item[{Path}]{original\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Restores the backup file by copying and overwriting the original one.
+
+
+\begin{DoxyParams}{Parameters}
+{\em original\+Path} & Path to the file which should be equalized to the backup file. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_ab4d3ed421095ab4c8facbd0353cccdbe}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_ab4d3ed421095ab4c8facbd0353cccdbe}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{shutdown()}{shutdown()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+shutdown (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Unregisters the \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager}{Backup\+Manager}} from the event\+Bus of \mbox{\hyperlink{}{Bib\+Database\+Context}} and deletes the backup file. This method should only be used when closing a database/\+Jab\+Ref legally. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a4873287bde4ade6676981ec1ad959735}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a4873287bde4ade6676981ec1ad959735}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{shutdown()}{shutdown()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+shutdown (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{bib\+Database\+Context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Shuts down the \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager}{Backup\+Manager}} which is associated with the given \mbox{\hyperlink{}{Bib\+Database\+Context}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bib\+Database\+Context} & Associated \mbox{\hyperlink{}{Bib\+Database\+Context}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_af5099d2ef9ffe4fd2684fed5a52b4012}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_af5099d2ef9ffe4fd2684fed5a52b4012}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!start@{start}}
+\index{start@{start}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{start()}{start()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager}{Backup\+Manager}} org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+start (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{bib\+Database\+Context,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_types_manager}{Bib\+Entry\+Types\+Manager}}}]{entry\+Types\+Manager,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Starts the \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager}{Backup\+Manager}} which is associated with the given \mbox{\hyperlink{}{Bib\+Database\+Context}}. As long as no database file is present in \mbox{\hyperlink{}{Bib\+Database\+Context}}, the \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager}{Backup\+Manager}} will do nothing.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bib\+Database\+Context} & Associated \mbox{\hyperlink{}{Bib\+Database\+Context}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a286dc7c276f20b13f307858edc0cb861}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a286dc7c276f20b13f307858edc0cb861}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!startBackupTask@{startBackupTask}}
+\index{startBackupTask@{startBackupTask}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{startBackupTask()}{startBackupTask()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+start\+Backup\+Task (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_af0cf4a7c079665537b22b3a4b3197097}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_af0cf4a7c079665537b22b3a4b3197097}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!AUTOSAVE\_FILE\_EXTENSION@{AUTOSAVE\_FILE\_EXTENSION}}
+\index{AUTOSAVE\_FILE\_EXTENSION@{AUTOSAVE\_FILE\_EXTENSION}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{AUTOSAVE\_FILE\_EXTENSION}{AUTOSAVE\_FILE\_EXTENSION}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+A\+U\+T\+O\+S\+A\+V\+E\+\_\+\+F\+I\+L\+E\+\_\+\+E\+X\+T\+E\+N\+S\+I\+ON = \char`\"{}.sav\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a80f0d43002354dfcf848a1aa56982712}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a80f0d43002354dfcf848a1aa56982712}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!bibDatabaseContext@{bibDatabaseContext}}
+\index{bibDatabaseContext@{bibDatabaseContext}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{bibDatabaseContext}{bibDatabaseContext}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+bib\+Database\+Context\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_aaeb1687fa0af9d02809174088af286cf}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_aaeb1687fa0af9d02809174088af286cf}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!changeFilter@{changeFilter}}
+\index{changeFilter@{changeFilter}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{changeFilter}{changeFilter}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter}{Coarse\+Change\+Filter}} org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+change\+Filter\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a798db65e1c3402733b92c600a919d2d5}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a798db65e1c3402733b92c600a919d2d5}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!entryTypesManager@{entryTypesManager}}
+\index{entryTypesManager@{entryTypesManager}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{entryTypesManager}{entryTypesManager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_types_manager}{Bib\+Entry\+Types\+Manager}} org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+entry\+Types\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_aba648074b12e10ec309e8c63d93fc2c9}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_aba648074b12e10ec309e8c63d93fc2c9}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Backup\+Manager.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_adf755750e29044a830937fb27344e0a6}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_adf755750e29044a830937fb27344e0a6}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a5c1078afca7050200dd21f606d52ea9b}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a5c1078afca7050200dd21f606d52ea9b}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!runningInstances@{runningInstances}}
+\index{runningInstances@{runningInstances}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{runningInstances}{runningInstances}}
+{\footnotesize\ttfamily Set$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager}{Backup\+Manager}}$>$ org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+running\+Instances = new Hash\+Set$<$$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a414901b6b60f29f6ad882809b703b35e}\label{classorg_1_1jabref_1_1logic_1_1autosaveandbackup_1_1_backup_manager_a414901b6b60f29f6ad882809b703b35e}} 
+\index{org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}!throttler@{throttler}}
+\index{throttler@{throttler}!org.jabref.logic.autosaveandbackup.BackupManager@{org.jabref.logic.autosaveandbackup.BackupManager}}
+\doxysubsubsection{\texorpdfstring{throttler}{throttler}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}} org.\+jabref.\+logic.\+autosaveandbackup.\+Backup\+Manager.\+throttler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/autosaveandbackup/\mbox{\hyperlink{_backup_manager_8java}{Backup\+Manager.\+java}}\end{DoxyCompactItemize}

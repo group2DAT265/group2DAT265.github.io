@@ -1,0 +1,136 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter}{}\doxysection{org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Cleanup\+Url\+Formatter Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter}\index{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}}
+Inheritance diagram for org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Cleanup\+Url\+Formatter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_ab17db2659bbc3ea9cc71bdac808d4704}{get\+Name}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_a2d4de6940e7f3db41a716831b551bc9a}{get\+Key}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_ae7d7c1c7e7315563edb9f877650974b7}{format}} (String value)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_a3ff1aaca4370d537f228b77a20f382ec}{get\+Description}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_a2a03f59ba29a1313b70aa195d13cd4dd}{get\+Example\+Input}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Log \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_af04115357b54799f320e98c616da7930}{L\+O\+G\+G\+ER}} = Log\+Factory.\+get\+Log(Cleanup\+Url\+Formatter.\+class)
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_aabea350449bdcca9d33f1bdd7920213a}{P\+A\+T\+T\+E\+R\+N\+\_\+\+U\+RL}} = Pattern.\+compile(\char`\"{}(?\+:url$\vert$to)=(\mbox{[}$^\wedge$\&\mbox{]}$\ast$)\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Cleanup U\+RL link 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_ae7d7c1c7e7315563edb9f877650974b7}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_ae7d7c1c7e7315563edb9f877650974b7}} 
+\index{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}!format@{format}}
+\index{format@{format}!org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Cleanup\+Url\+Formatter.\+format (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Formats a field value by with a particular formatter transformation. 
+
+Calling this method with a null argument results in a Null\+Pointer\+Exception.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the input String \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the formatted output String 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a8347cbf9c19d43850d3fcede03520e6f}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_a3ff1aaca4370d537f228b77a20f382ec}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_a3ff1aaca4370d537f228b77a20f382ec}} 
+\index{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Cleanup\+Url\+Formatter.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a description of the formatter.
+
+\begin{DoxyReturn}{Returns}
+the description string, always non empty 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_ada4da9404fd8afa2584c78568ff4f369}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_a2a03f59ba29a1313b70aa195d13cd4dd}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_a2a03f59ba29a1313b70aa195d13cd4dd}} 
+\index{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}!getExampleInput@{getExampleInput}}
+\index{getExampleInput@{getExampleInput}!org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}}
+\doxysubsubsection{\texorpdfstring{getExampleInput()}{getExampleInput()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Cleanup\+Url\+Formatter.\+get\+Example\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns an example input string of the formatter. This example is used as input to the formatter to demonstrate its functionality
+
+\begin{DoxyReturn}{Returns}
+the example input string, always non empty 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_adaef8aad8e38f4b74c12c95db9ca79c8}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_a2d4de6940e7f3db41a716831b551bc9a}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_a2d4de6940e7f3db41a716831b551bc9a}} 
+\index{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}!getKey@{getKey}}
+\index{getKey@{getKey}!org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}}
+\doxysubsubsection{\texorpdfstring{getKey()}{getKey()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Cleanup\+Url\+Formatter.\+get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a unique key for the formatter that can be used for its identification
+
+\begin{DoxyReturn}{Returns}
+the key of the formatter, always not null 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a059a1b2d1ef8251447788325f26f0e50}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_ab17db2659bbc3ea9cc71bdac808d4704}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_ab17db2659bbc3ea9cc71bdac808d4704}} 
+\index{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Cleanup\+Url\+Formatter.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a human readable name of the formatter usable for e.\+g. in the G\+UI
+
+\begin{DoxyReturn}{Returns}
+the name of the formatter, always not null 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a71fdb0ef1b321680d1811b8e462706b3}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_af04115357b54799f320e98c616da7930}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_af04115357b54799f320e98c616da7930}} 
+\index{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Log org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Cleanup\+Url\+Formatter.\+L\+O\+G\+G\+ER = Log\+Factory.\+get\+Log(Cleanup\+Url\+Formatter.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_aabea350449bdcca9d33f1bdd7920213a}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter_aabea350449bdcca9d33f1bdd7920213a}} 
+\index{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}!PATTERN\_URL@{PATTERN\_URL}}
+\index{PATTERN\_URL@{PATTERN\_URL}!org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter@{org.jabref.logic.formatter.bibtexfields.CleanupUrlFormatter}}
+\doxysubsubsection{\texorpdfstring{PATTERN\_URL}{PATTERN\_URL}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Cleanup\+Url\+Formatter.\+P\+A\+T\+T\+E\+R\+N\+\_\+\+U\+RL = Pattern.\+compile(\char`\"{}(?\+:url$\vert$to)=(\mbox{[}$^\wedge$\&\mbox{]}$\ast$)\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/formatter/bibtexfields/\mbox{\hyperlink{_cleanup_url_formatter_8java}{Cleanup\+Url\+Formatter.\+java}}\end{DoxyCompactItemize}

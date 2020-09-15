@@ -1,0 +1,97 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model}{}\doxysection{org.\+jabref.\+gui.\+bibtexextractor.\+Bibtex\+Extractor\+View\+Model Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model}\index{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_abee8fed7f3d48255a4f353f5619899db}{Bibtex\+Extractor\+View\+Model}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} bibdatabase\+Context, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_afbd19220f4408be5655388314a828761}{dialog\+Service}}, \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} jab\+Ref\+Preferences, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} file\+Update\+Monitor, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_ab503ffe914d0d7f1978ae7f0e325807b}{task\+Executor}}, Undo\+Manager undo\+Manager, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} state\+Manager)
+\item 
+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_ac23e63a3e6cbdb2d4dc3a911e6909d1e}{input\+Text\+Property}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a2b51c484f0cae4df9ffa3f25e5aea604}{start\+Parsing}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_ad62f414fa2299ce8388634f025df3a20}{track\+New\+Entry}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} bib\+Entry)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a60f1382301d732876b144fc11d29b99f}{input\+Text\+Property}} = new Simple\+String\+Property(\char`\"{}\char`\"{})
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_afbd19220f4408be5655388314a828761}{dialog\+Service}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_grobid_citation_fetcher}{Grobid\+Citation\+Fetcher}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a5053732eb65e153baae8ab996a156047}{current\+Citationfetcher}}
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_ab503ffe914d0d7f1978ae7f0e325807b}{task\+Executor}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler}{Import\+Handler}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a80e8c65e395e40fb93538bc063b9db8f}{import\+Handler}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_abee8fed7f3d48255a4f353f5619899db}\label{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_abee8fed7f3d48255a4f353f5619899db}} 
+\index{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}!BibtexExtractorViewModel@{BibtexExtractorViewModel}}
+\index{BibtexExtractorViewModel@{BibtexExtractorViewModel}!org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}}
+\doxysubsubsection{\texorpdfstring{BibtexExtractorViewModel()}{BibtexExtractorViewModel()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+bibtexextractor.\+Bibtex\+Extractor\+View\+Model.\+Bibtex\+Extractor\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{bibdatabase\+Context,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}}}]{jab\+Ref\+Preferences,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}}}]{file\+Update\+Monitor,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}}}]{task\+Executor,  }\item[{Undo\+Manager}]{undo\+Manager,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_ac23e63a3e6cbdb2d4dc3a911e6909d1e}\label{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_ac23e63a3e6cbdb2d4dc3a911e6909d1e}} 
+\index{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}!inputTextProperty@{inputTextProperty}}
+\index{inputTextProperty@{inputTextProperty}!org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}}
+\doxysubsubsection{\texorpdfstring{inputTextProperty()}{inputTextProperty()}}
+{\footnotesize\ttfamily String\+Property org.\+jabref.\+gui.\+bibtexextractor.\+Bibtex\+Extractor\+View\+Model.\+input\+Text\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a2b51c484f0cae4df9ffa3f25e5aea604}\label{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a2b51c484f0cae4df9ffa3f25e5aea604}} 
+\index{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}!startParsing@{startParsing}}
+\index{startParsing@{startParsing}!org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}}
+\doxysubsubsection{\texorpdfstring{startParsing()}{startParsing()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+bibtexextractor.\+Bibtex\+Extractor\+View\+Model.\+start\+Parsing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_ad62f414fa2299ce8388634f025df3a20}\label{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_ad62f414fa2299ce8388634f025df3a20}} 
+\index{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}!trackNewEntry@{trackNewEntry}}
+\index{trackNewEntry@{trackNewEntry}!org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}}
+\doxysubsubsection{\texorpdfstring{trackNewEntry()}{trackNewEntry()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+bibtexextractor.\+Bibtex\+Extractor\+View\+Model.\+track\+New\+Entry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{bib\+Entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a5053732eb65e153baae8ab996a156047}\label{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a5053732eb65e153baae8ab996a156047}} 
+\index{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}!currentCitationfetcher@{currentCitationfetcher}}
+\index{currentCitationfetcher@{currentCitationfetcher}!org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}}
+\doxysubsubsection{\texorpdfstring{currentCitationfetcher}{currentCitationfetcher}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_grobid_citation_fetcher}{Grobid\+Citation\+Fetcher}} org.\+jabref.\+gui.\+bibtexextractor.\+Bibtex\+Extractor\+View\+Model.\+current\+Citationfetcher\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_afbd19220f4408be5655388314a828761}\label{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_afbd19220f4408be5655388314a828761}} 
+\index{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+bibtexextractor.\+Bibtex\+Extractor\+View\+Model.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a80e8c65e395e40fb93538bc063b9db8f}\label{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a80e8c65e395e40fb93538bc063b9db8f}} 
+\index{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}!importHandler@{importHandler}}
+\index{importHandler@{importHandler}!org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}}
+\doxysubsubsection{\texorpdfstring{importHandler}{importHandler}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler}{Import\+Handler}} org.\+jabref.\+gui.\+bibtexextractor.\+Bibtex\+Extractor\+View\+Model.\+import\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a60f1382301d732876b144fc11d29b99f}\label{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_a60f1382301d732876b144fc11d29b99f}} 
+\index{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}!inputTextProperty@{inputTextProperty}}
+\index{inputTextProperty@{inputTextProperty}!org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}}
+\doxysubsubsection{\texorpdfstring{inputTextProperty}{inputTextProperty}}
+{\footnotesize\ttfamily final String\+Property org.\+jabref.\+gui.\+bibtexextractor.\+Bibtex\+Extractor\+View\+Model.\+input\+Text\+Property = new Simple\+String\+Property(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_ab503ffe914d0d7f1978ae7f0e325807b}\label{classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_bibtex_extractor_view_model_ab503ffe914d0d7f1978ae7f0e325807b}} 
+\index{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}!taskExecutor@{taskExecutor}}
+\index{taskExecutor@{taskExecutor}!org.jabref.gui.bibtexextractor.BibtexExtractorViewModel@{org.jabref.gui.bibtexextractor.BibtexExtractorViewModel}}
+\doxysubsubsection{\texorpdfstring{taskExecutor}{taskExecutor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} org.\+jabref.\+gui.\+bibtexextractor.\+Bibtex\+Extractor\+View\+Model.\+task\+Executor\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/bibtexextractor/\mbox{\hyperlink{_bibtex_extractor_view_model_8java}{Bibtex\+Extractor\+View\+Model.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,59 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup}{}\doxysection{org.\+jabref.\+logic.\+cleanup.\+Doi\+Cleanup Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup}\index{org.jabref.logic.cleanup.DoiCleanup@{org.jabref.logic.cleanup.DoiCleanup}}
+Inheritance diagram for org.\+jabref.\+logic.\+cleanup.\+Doi\+Cleanup\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup_a972c9bdb4928ddb91ce8da473611f4af}{cleanup}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup_a6e0a29aa9f6a83cf243d500b4b3e4e85}{remove\+Field\+Value}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}} $>$ changes)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final List$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup_aa5c74b9b2be1997219d1725aac4a0a59}{F\+I\+E\+L\+DS}} = Arrays.\+as\+List(\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field_a6232b588ed543ccdeaf9eff76c8a6edd}{Standard\+Field.\+N\+O\+TE}}, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field_a09df4f298b0037f46c51feafd1ca4ea3}{Standard\+Field.\+U\+RL}}, new \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_unknown_field}{Unknown\+Field}}(\char`\"{}ee\char`\"{}))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Formats the D\+OI (e.\+g. removes http part) and also moves D\+O\+Is from note, url or ee field to the doi field. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup_a972c9bdb4928ddb91ce8da473611f4af}\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup_a972c9bdb4928ddb91ce8da473611f4af}} 
+\index{org.jabref.logic.cleanup.DoiCleanup@{org.jabref.logic.cleanup.DoiCleanup}!cleanup@{cleanup}}
+\index{cleanup@{cleanup}!org.jabref.logic.cleanup.DoiCleanup@{org.jabref.logic.cleanup.DoiCleanup}}
+\doxysubsubsection{\texorpdfstring{cleanup()}{cleanup()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}}$>$ org.\+jabref.\+logic.\+cleanup.\+Doi\+Cleanup.\+cleanup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Cleanup the entry. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_job_afa4b721d338b2011e03dcde1d0c481a1}{org.\+jabref.\+logic.\+cleanup.\+Cleanup\+Job}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup_a6e0a29aa9f6a83cf243d500b4b3e4e85}\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup_a6e0a29aa9f6a83cf243d500b4b3e4e85}} 
+\index{org.jabref.logic.cleanup.DoiCleanup@{org.jabref.logic.cleanup.DoiCleanup}!removeFieldValue@{removeFieldValue}}
+\index{removeFieldValue@{removeFieldValue}!org.jabref.logic.cleanup.DoiCleanup@{org.jabref.logic.cleanup.DoiCleanup}}
+\doxysubsubsection{\texorpdfstring{removeFieldValue()}{removeFieldValue()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+cleanup.\+Doi\+Cleanup.\+remove\+Field\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field,  }\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}} $>$}]{changes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup_aa5c74b9b2be1997219d1725aac4a0a59}\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_doi_cleanup_aa5c74b9b2be1997219d1725aac4a0a59}} 
+\index{org.jabref.logic.cleanup.DoiCleanup@{org.jabref.logic.cleanup.DoiCleanup}!FIELDS@{FIELDS}}
+\index{FIELDS@{FIELDS}!org.jabref.logic.cleanup.DoiCleanup@{org.jabref.logic.cleanup.DoiCleanup}}
+\doxysubsubsection{\texorpdfstring{FIELDS}{FIELDS}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}$>$ org.\+jabref.\+logic.\+cleanup.\+Doi\+Cleanup.\+F\+I\+E\+L\+DS = Arrays.\+as\+List(\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field_a6232b588ed543ccdeaf9eff76c8a6edd}{Standard\+Field.\+N\+O\+TE}}, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field_a09df4f298b0037f46c51feafd1ca4ea3}{Standard\+Field.\+U\+RL}}, new \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_unknown_field}{Unknown\+Field}}(\char`\"{}ee\char`\"{}))\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Fields to check for D\+O\+Is. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/cleanup/\mbox{\hyperlink{_doi_cleanup_8java}{Doi\+Cleanup.\+java}}\end{DoxyCompactItemize}

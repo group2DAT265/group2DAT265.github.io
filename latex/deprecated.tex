@@ -1,0 +1,51 @@
+
+\begin{DoxyRefList}
+\item[Class \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_globals}{org.jabref.gui.Globals}} ]\label{deprecated__deprecated000001}%
+\Hypertarget{deprecated__deprecated000001}%
+try to use \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} and \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{org.\+jabref.\+preferences.\+Preferences\+Service}}  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame_aa2038b1ce3c23c1204ca7e2c4b35ed6a}{org.jabref.gui.Jab\+Ref\+Frame.get\+Tabbed\+Pane}} ()]\label{deprecated__deprecated000002}%
+\Hypertarget{deprecated__deprecated000002}%
+do not operate on tabs but on Bib\+Database\+Contexts  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_theme_aa9ae7d4cf6c26000c978c16529104a65}{org.jabref.gui.util.Theme.install\+Css}} (Scene scene)]\label{deprecated__deprecated000003}%
+\Hypertarget{deprecated__deprecated000003}%
+Remove as soon \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_globals}{Globals}} refactored. 
+\item[Class \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception}{org.jabref.logic.bibtex.Invalid\+Field\+Value\+Exception}} ]\label{deprecated__deprecated000004}%
+\Hypertarget{deprecated__deprecated000004}%
+implement as \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_integrity_check}{org.\+jabref.\+logic.\+integrity.\+Integrity\+Check}} instead.  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_exporter_factory_a0a383f9f40866f3d207cb553e3e92fe2}{org.jabref.logic.exporter.Exporter\+Factory.entry\+Number}} ]\label{deprecated__deprecated000005}%
+\Hypertarget{deprecated__deprecated000005}%
+find a better way to do this  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences_a575229bfeb88f9fb40bc2ad56a566256}{org.jabref.logic.importer.Import\+Format\+Preferences.get\+Custom\+Import\+List}} ()]\label{deprecated__deprecated000006}%
+\Hypertarget{deprecated__deprecated000006}%
+importer should not know about the other custom importers  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences_a217f0c3b11ad8b136d5aa65649d56db7}{org.jabref.logic.importer.Import\+Format\+Preferences.is\+Keyword\+Sync\+Enabled}} ()]\label{deprecated__deprecated000007}%
+\Hypertarget{deprecated__deprecated000007}%
+importer should not keyword synchronization; this is a post-\/import action  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_open_database_adc17f455c604d27ead4ff2ab81436fc2}{org.jabref.logic.importer.Open\+Database.load\+Database}} (String name, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} import\+Format\+Preferences, File\+Update\+Monitor file\+Monitor)]\label{deprecated__deprecated000008}%
+\Hypertarget{deprecated__deprecated000008}%
+use \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_open_database_a3e90615524f60a66dbdd2139b6ac3f75}{load\+Database(\+Path, Import\+Format\+Preferences, File\+Update\+Monitor)}} instead  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result_a50b748caa3cd52eeaef31f04fdd0495d}{org.jabref.logic.importer.Parser\+Result.get\+File}} ()]\label{deprecated__deprecated000009}%
+\Hypertarget{deprecated__deprecated000009}%
+use \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result_a6220b7e806a11af86d1a74f9a7812e02}{get\+Path()}}\} instead  
+\item[Class \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1specialfields_1_1_special_fields_utils}{org.jabref.logic.specialfields.Special\+Fields\+Utils}} ]\label{deprecated__deprecated000010}%
+\Hypertarget{deprecated__deprecated000010}%
+the class should be refactored and partly integrated into Bib\+Entry instead of synchronizing special fields with the keyword field, the Bib\+Entry class should have a method set\+Special\+Field(field, new\+Value, sync\+To\+Keyword) which directly performs the correct action i.\+e.\+sets the field to new\+Value(in the case sync\+To\+Keyword=false)or adds new\+Value to keywords(sync=true)  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_afbb48fc8594f57a35976e25407d40f45}{org.jabref.logic.util.io.File\+Util.rename\+File}} (Path from\+File, Path to\+File, boolean replace\+Existing)]\label{deprecated__deprecated000011}%
+\Hypertarget{deprecated__deprecated000011}%
+Use \mbox{\hyperlink{}{Files\#move(\+Path, Path, Copy\+Option...)}} instead and handle exception properly  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a4a17c8046e69b8e5472177cd06c612b4}{org.jabref.logic.util.io.File\+Util.rename\+File\+With\+Exception}} (Path from\+File, Path to\+File, boolean replace\+Existing)]\label{deprecated__deprecated000012}%
+\Hypertarget{deprecated__deprecated000012}%
+Directly use \mbox{\hyperlink{}{Files\#move(\+Path, Path, Copy\+Option...)}}  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2579503c31ba966b82f6db91f698f2c8}{org.jabref.model.database.Bib\+Database.get\+Text}} (String to\+Resolve, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database)]\label{deprecated__deprecated000013}%
+\Hypertarget{deprecated__deprecated000013}%
+use \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aca50fa429361d4a3f0c47a17a052dfa9}{Bib\+Database\#resolve\+For\+Strings(\+String)}}  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context_aaf94da1dfbfffb937eb96b84937f8942}{org.jabref.model.database.Bib\+Database\+Context.get\+File\+Directories}} (File\+Preferences preferences)]\label{deprecated__deprecated000014}%
+\Hypertarget{deprecated__deprecated000014}%
+use \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context_a9869be0030c63a31bee3e498ac7277f2}{get\+File\+Directories\+As\+Paths(\+File\+Preferences)}} instead  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file_a9a4d3b9ffe22a987864a72d4a483d34f}{org.jabref.model.entry.Linked\+File.Linked\+File}} (String description, String link, String file\+Type)]\label{deprecated__deprecated000015}%
+\Hypertarget{deprecated__deprecated000015}%
+use the other constructor \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file_adf42950a9703cf4a997dc7c93e8f5297}{Linked\+File(\+String, Path, String)}}  
+\item[Member \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node_a65bc86c251ee6108fc2f8443356e3723}{org.jabref.model.groups.Group\+Tree\+Node.set\+Group}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group}{Abstract\+Group}} new\+Group)]\label{deprecated__deprecated000016}%
+\Hypertarget{deprecated__deprecated000016}%
+use \mbox{\hyperlink{}{set\+Group(\+Abstract\+Group, boolean, boolean, List)}}\} instead 
+\end{DoxyRefList}

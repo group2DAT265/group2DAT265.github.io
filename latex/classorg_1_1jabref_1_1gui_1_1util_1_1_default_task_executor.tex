@@ -1,0 +1,164 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor}{}\doxysection{org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor}\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+Inheritance diagram for org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a2d29c54992d864de402c7ba3836f72ac}{Default\+Task\+Executor}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a9f6b440ac193285cb2826bfda4a3ec31}{state\+Manager}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_af8f484bba22c243e74df0a032bab7e1c}{shutdown}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_abb18acd6d81e2788951c115aa443b490}{create\+Throttler}} (int delay)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static$<$ V $>$ V \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a28bd59af5f80ce6ff033eeab02dba7f6}{run\+In\+Java\+F\+X\+Thread}} (Callable$<$ V $>$ callable)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a8f65b8bdeebbfdc7d6c468ab25e057cc}{run\+And\+Wait\+In\+Java\+F\+X\+Thread}} (Runnable action)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a9d618ac5fd46671df3a9c52d5eac2a72}{run\+In\+Java\+F\+X\+Thread}} (Runnable runnable)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Exception \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_ab1d548028730681d848e3ffb3a619512}{convert\+To\+Exception}} (Throwable throwable)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Executor\+Service \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_ad2adb698197a18e2f7dc9c6f2357181c}{executor}} = Executors.\+new\+Fixed\+Thread\+Pool(5)
+\item 
+final Scheduled\+Executor\+Service \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a298d49dc66a5f35545b345b304557b7a}{scheduled\+Executor}} = Executors.\+new\+Scheduled\+Thread\+Pool(2)
+\item 
+final Weak\+Hash\+Map$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}}, Void $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_ab529cd820effb9ddf3aa3cc7088ac1a8}{throttlers}} = new Weak\+Hash\+Map$<$$>$()
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a9f6b440ac193285cb2826bfda4a3ec31}{state\+Manager}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a592835e5f29c6ca2255570f6b99ef43c}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Default\+Task\+Executor.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A very simple implementation of the \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} interface. Every submitted task is invoked in a separate thread. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a2d29c54992d864de402c7ba3836f72ac}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a2d29c54992d864de402c7ba3836f72ac}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!DefaultTaskExecutor@{DefaultTaskExecutor}}
+\index{DefaultTaskExecutor@{DefaultTaskExecutor}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{DefaultTaskExecutor()}{DefaultTaskExecutor()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+Default\+Task\+Executor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_ab1d548028730681d848e3ffb3a619512}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_ab1d548028730681d848e3ffb3a619512}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!convertToException@{convertToException}}
+\index{convertToException@{convertToException}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{convertToException()}{convertToException()}}
+{\footnotesize\ttfamily Exception org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+convert\+To\+Exception (\begin{DoxyParamCaption}\item[{Throwable}]{throwable }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_abb18acd6d81e2788951c115aa443b490}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_abb18acd6d81e2788951c115aa443b490}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!createThrottler@{createThrottler}}
+\index{createThrottler@{createThrottler}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{createThrottler()}{createThrottler()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}} org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+create\+Throttler (\begin{DoxyParamCaption}\item[{int}]{delay }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates a new task throttler, and registers it so that it gets properly shutdown. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor_a0162bf1a3e021385cb7d6568d7f9da92}{org.\+jabref.\+gui.\+util.\+Task\+Executor}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a8f65b8bdeebbfdc7d6c468ab25e057cc}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a8f65b8bdeebbfdc7d6c468ab25e057cc}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!runAndWaitInJavaFXThread@{runAndWaitInJavaFXThread}}
+\index{runAndWaitInJavaFXThread@{runAndWaitInJavaFXThread}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{runAndWaitInJavaFXThread()}{runAndWaitInJavaFXThread()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+run\+And\+Wait\+In\+Java\+F\+X\+Thread (\begin{DoxyParamCaption}\item[{Runnable}]{action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Runs the specified \mbox{\hyperlink{}{Runnable}} on the Java\+FX application thread and waits for completion.
+
+
+\begin{DoxyParams}{Parameters}
+{\em action} & the \mbox{\hyperlink{}{Runnable}} to run \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if
+\begin{DoxyCode}{1}
+\DoxyCodeLine{action }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a28bd59af5f80ce6ff033eeab02dba7f6}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a28bd59af5f80ce6ff033eeab02dba7f6}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!runInJavaFXThread@{runInJavaFXThread}}
+\index{runInJavaFXThread@{runInJavaFXThread}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{runInJavaFXThread()}{runInJavaFXThread()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static $<$V$>$ V org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+run\+In\+Java\+F\+X\+Thread (\begin{DoxyParamCaption}\item[{Callable$<$ V $>$}]{callable }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a9d618ac5fd46671df3a9c52d5eac2a72}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a9d618ac5fd46671df3a9c52d5eac2a72}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!runInJavaFXThread@{runInJavaFXThread}}
+\index{runInJavaFXThread@{runInJavaFXThread}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{runInJavaFXThread()}{runInJavaFXThread()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+run\+In\+Java\+F\+X\+Thread (\begin{DoxyParamCaption}\item[{Runnable}]{runnable }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_af8f484bba22c243e74df0a032bab7e1c}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_af8f484bba22c243e74df0a032bab7e1c}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{shutdown()}{shutdown()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+shutdown (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Shuts everything down. After termination, this method returns. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor_a06f26a3ee3fe316b61e27f422cf81339}{org.\+jabref.\+gui.\+util.\+Task\+Executor}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_ad2adb698197a18e2f7dc9c6f2357181c}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_ad2adb698197a18e2f7dc9c6f2357181c}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!executor@{executor}}
+\index{executor@{executor}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{executor}{executor}}
+{\footnotesize\ttfamily final Executor\+Service org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+executor = Executors.\+new\+Fixed\+Thread\+Pool(5)\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a592835e5f29c6ca2255570f6b99ef43c}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a592835e5f29c6ca2255570f6b99ef43c}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Default\+Task\+Executor.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a298d49dc66a5f35545b345b304557b7a}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a298d49dc66a5f35545b345b304557b7a}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!scheduledExecutor@{scheduledExecutor}}
+\index{scheduledExecutor@{scheduledExecutor}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{scheduledExecutor}{scheduledExecutor}}
+{\footnotesize\ttfamily final Scheduled\+Executor\+Service org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+scheduled\+Executor = Executors.\+new\+Scheduled\+Thread\+Pool(2)\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a9f6b440ac193285cb2826bfda4a3ec31}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_a9f6b440ac193285cb2826bfda4a3ec31}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!stateManager@{stateManager}}
+\index{stateManager@{stateManager}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{stateManager}{stateManager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+state\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_ab529cd820effb9ddf3aa3cc7088ac1a8}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_default_task_executor_ab529cd820effb9ddf3aa3cc7088ac1a8}} 
+\index{org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}!throttlers@{throttlers}}
+\index{throttlers@{throttlers}!org.jabref.gui.util.DefaultTaskExecutor@{org.jabref.gui.util.DefaultTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{throttlers}{throttlers}}
+{\footnotesize\ttfamily final Weak\+Hash\+Map$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}}, Void$>$ org.\+jabref.\+gui.\+util.\+Default\+Task\+Executor.\+throttlers = new Weak\+Hash\+Map$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/util/\mbox{\hyperlink{_default_task_executor_8java}{Default\+Task\+Executor.\+java}}\end{DoxyCompactItemize}

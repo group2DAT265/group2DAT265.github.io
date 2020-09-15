@@ -1,0 +1,74 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread}{}\doxysection{org.\+jabref.\+logic.\+remote.\+server.\+Remote\+Listener\+Server\+Thread Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread}\index{org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}}
+Inheritance diagram for org.\+jabref.\+logic.\+remote.\+server.\+Remote\+Listener\+Server\+Thread\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_a2fbbbf96de81c39fe3ddd1012ab2afeb}{Remote\+Listener\+Server\+Thread}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_message_handler}{Message\+Handler}} message\+Handler, int \mbox{\hyperlink{_copac_importer_test2_8txt_ae3905c1097e4553775071cdd4da14cd2}{port}})  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_a3f8d55e03c58a2982b5b56ca7f7bde5d}{interrupt}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_ab584315e86c7bd0ce5510ca8feb96e3c}{run}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server}{Remote\+Listener\+Server}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_a7df3354c103bb5841939531f50039fdf}{server}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_ac69d1dea1b02ae99f5edc48b3ccc793b}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Remote\+Listener\+Server\+Thread.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This thread wrapper is required to be able to interrupt the remote listener while listening on a port. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_a2fbbbf96de81c39fe3ddd1012ab2afeb}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_a2fbbbf96de81c39fe3ddd1012ab2afeb}} 
+\index{org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}!RemoteListenerServerThread@{RemoteListenerServerThread}}
+\index{RemoteListenerServerThread@{RemoteListenerServerThread}!org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}}
+\doxysubsubsection{\texorpdfstring{RemoteListenerServerThread()}{RemoteListenerServerThread()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+remote.\+server.\+Remote\+Listener\+Server\+Thread.\+Remote\+Listener\+Server\+Thread (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_message_handler}{Message\+Handler}}}]{message\+Handler,  }\item[{int}]{port }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_a3f8d55e03c58a2982b5b56ca7f7bde5d}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_a3f8d55e03c58a2982b5b56ca7f7bde5d}} 
+\index{org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}!interrupt@{interrupt}}
+\index{interrupt@{interrupt}!org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}}
+\doxysubsubsection{\texorpdfstring{interrupt()}{interrupt()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+remote.\+server.\+Remote\+Listener\+Server\+Thread.\+interrupt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_ab584315e86c7bd0ce5510ca8feb96e3c}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_ab584315e86c7bd0ce5510ca8feb96e3c}} 
+\index{org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}!run@{run}}
+\index{run@{run}!org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+remote.\+server.\+Remote\+Listener\+Server\+Thread.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_ac69d1dea1b02ae99f5edc48b3ccc793b}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_ac69d1dea1b02ae99f5edc48b3ccc793b}} 
+\index{org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+remote.\+server.\+Remote\+Listener\+Server\+Thread.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Remote\+Listener\+Server\+Thread.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_a7df3354c103bb5841939531f50039fdf}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread_a7df3354c103bb5841939531f50039fdf}} 
+\index{org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}!server@{server}}
+\index{server@{server}!org.jabref.logic.remote.server.RemoteListenerServerThread@{org.jabref.logic.remote.server.RemoteListenerServerThread}}
+\doxysubsubsection{\texorpdfstring{server}{server}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server}{Remote\+Listener\+Server}} org.\+jabref.\+logic.\+remote.\+server.\+Remote\+Listener\+Server\+Thread.\+server\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/remote/server/\mbox{\hyperlink{_remote_listener_server_thread_8java}{Remote\+Listener\+Server\+Thread.\+java}}\end{DoxyCompactItemize}

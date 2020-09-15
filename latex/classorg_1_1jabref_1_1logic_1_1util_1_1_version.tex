@@ -1,0 +1,286 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{}\doxysection{org.\+jabref.\+logic.\+util.\+Version Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version}\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_version_1_1_development_stage}{Development\+Stage}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a3b42a982ee28abb3bf51b21d859e9ce3}{is\+Newer\+Than}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} other\+Version)
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aa39ea77fb1da78d25c657ff5d3238a67}{should\+Be\+Updated\+To}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} $>$ available\+Versions)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a73e727357ab9669690aee9ab14a1c4dc}{should\+Be\+Updated\+To}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} other\+Version)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_abf458ced50114cf2c354733e687f51de}{get\+Full\+Version}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a8ae4fba246279459bf7e556cf3688b68}{get\+Major}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a31d17c36f36a159e4abea71a19dc0dfb}{get\+Minor}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_af5741fbc167c8a3f67644e074747d96c}{get\+Patch}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_af22c615df4f6a4c7db2b10c9e134e3ad}{is\+Development\+Version}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_afb8fde56443fb046ac39734ea3d3519d}{get\+Changelog\+Url}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ac9a84638ecbc9a0e74fbd3638dd3304b}{equals}} (Object other)
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ae690936a7f07ed26031ca39f99c51bf4}{hash\+Code}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a45fbd90a9674cbe843f521804d56d5e1}{to\+String}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a48060547c0ce3a1555f3b235f0ad1645}{parse}} (String version)
+\item 
+static List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a3729059481c67cf9ddad958103b9dd49}{get\+All\+Available\+Versions}} ()  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a7afe175f6e56cdb40e5811356140aa74}{J\+A\+B\+R\+E\+F\+\_\+\+D\+O\+W\+N\+L\+O\+A\+D\+\_\+\+U\+RL}} = \char`\"{}https\+://downloads.\+jabref.\+org\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a893543d7faf929ff28a8ddc05b66d0b5}{Version}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a8e41f3e79fac532991fd37c2ad0b7b74}{full\+Version}} = \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_build_info_a8407b9897b8b98c07bbb9f5b2d87bc93}{Build\+Info.\+U\+N\+K\+N\+O\+W\+N\+\_\+\+V\+E\+R\+S\+I\+ON}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aa65588dc8c1a7fc3ee665a9c92f005ce}{major}} = -\/1
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aba9500780b3aecdc7624f56963cfa5df}{minor}} = -\/1
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ac4fd765ad9dacddcea416bb9ff512399}{patch}} = -\/1
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_version_1_1_development_stage}{Development\+Stage}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a6395f65ec1e4e2ed709fdda2cc545d52}{development\+Stage}} = \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_version_1_1_development_stage_a259976437fe1a99cd0b1f68156585d80}{Development\+Stage.\+U\+N\+K\+N\+O\+WN}}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ade7e5b5525089a13c2387ddd65aef185}{is\+Development\+Version}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a3dff79926a14cf7e65894b58092727c7}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Version.\+class)
+\item 
+static final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a6657401929c6cb46131a3f152c97a7a7}{U\+N\+K\+N\+O\+W\+N\+\_\+\+V\+E\+R\+S\+I\+ON}} = new \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}}()
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a65cd8741977ece1a3b12009dab8c1219}{V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}(?$<$major$>$\textbackslash{}\textbackslash{}d+)(\textbackslash{}\textbackslash{}.(?$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aba9500780b3aecdc7624f56963cfa5df}{minor}}$>$\textbackslash{}\textbackslash{}d+))?(\textbackslash{}\textbackslash{}.(?$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ac4fd765ad9dacddcea416bb9ff512399}{patch}}$>$\textbackslash{}\textbackslash{}d+))?(?$<$stage$>$-\/alpha$\vert$-\/beta)?(?$<$dev$>$-\/?dev)?.$\ast$\char`\"{})
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a473855021690f59395bb56d4e9de9a72}{C\+I\+\_\+\+S\+U\+F\+F\+I\+X\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}-\/ci\textbackslash{}\textbackslash{}.\textbackslash{}\textbackslash{}d+\char`\"{})
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ace7f18400168df198c095a51bfdfd8bf}{J\+A\+B\+R\+E\+F\+\_\+\+G\+I\+T\+H\+U\+B\+\_\+\+R\+E\+L\+E\+A\+S\+ES}} = \char`\"{}https\+://\mbox{\hyperlink{net_8java_8dev_8glazedlists__glazedlists__java15_8txt_a5fcbe5a51335ef83aa908815b43568f6}{api.\+github.\+com}}/repos/\mbox{\hyperlink{_readme_8txt_ac2eeadea9f2d17cfd91bd1bfaa3c3186}{Jab\+Ref}}/\mbox{\hyperlink{_readme_8txt_ac2eeadea9f2d17cfd91bd1bfaa3c3186}{Jab\+Ref}}/releases\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the Application \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} with the major and minor number, the full \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} String and if it\textquotesingle{}s a developer version 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a893543d7faf929ff28a8ddc05b66d0b5}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a893543d7faf929ff28a8ddc05b66d0b5}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!Version@{Version}}
+\index{Version@{Version}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{Version()}{Version()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+util.\+Version.\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Dummy constructor to create a local object (and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a6657401929c6cb46131a3f152c97a7a7}{Version\#\+U\+N\+K\+N\+O\+W\+N\+\_\+\+V\+E\+R\+S\+I\+ON}}) 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ac9a84638ecbc9a0e74fbd3638dd3304b}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ac9a84638ecbc9a0e74fbd3638dd3304b}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!equals@{equals}}
+\index{equals@{equals}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+util.\+Version.\+equals (\begin{DoxyParamCaption}\item[{Object}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a3729059481c67cf9ddad958103b9dd49}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a3729059481c67cf9ddad958103b9dd49}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!getAllAvailableVersions@{getAllAvailableVersions}}
+\index{getAllAvailableVersions@{getAllAvailableVersions}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{getAllAvailableVersions()}{getAllAvailableVersions()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}}$>$ org.\+jabref.\+logic.\+util.\+Version.\+get\+All\+Available\+Versions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Grabs all the available releases from the Git\+Hub repository \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_afb8fde56443fb046ac39734ea3d3519d}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_afb8fde56443fb046ac39734ea3d3519d}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!getChangelogUrl@{getChangelogUrl}}
+\index{getChangelogUrl@{getChangelogUrl}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{getChangelogUrl()}{getChangelogUrl()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+util.\+Version.\+get\+Changelog\+Url (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+The link to the changelog on Git\+Hub to this specific version (\href{https://github.com/JabRef/jabref/blob/vX.X/CHANGELOG.md}{\texttt{ https\+://github.\+com/\+Jab\+Ref/jabref/blob/v\+X.\+X/\+C\+H\+A\+N\+G\+E\+L\+O\+G.\+md}}) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_abf458ced50114cf2c354733e687f51de}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_abf458ced50114cf2c354733e687f51de}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!getFullVersion@{getFullVersion}}
+\index{getFullVersion@{getFullVersion}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{getFullVersion()}{getFullVersion()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+util.\+Version.\+get\+Full\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a8ae4fba246279459bf7e556cf3688b68}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a8ae4fba246279459bf7e556cf3688b68}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!getMajor@{getMajor}}
+\index{getMajor@{getMajor}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{getMajor()}{getMajor()}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+util.\+Version.\+get\+Major (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a31d17c36f36a159e4abea71a19dc0dfb}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a31d17c36f36a159e4abea71a19dc0dfb}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!getMinor@{getMinor}}
+\index{getMinor@{getMinor}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{getMinor()}{getMinor()}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+util.\+Version.\+get\+Minor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_af5741fbc167c8a3f67644e074747d96c}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_af5741fbc167c8a3f67644e074747d96c}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!getPatch@{getPatch}}
+\index{getPatch@{getPatch}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{getPatch()}{getPatch()}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+util.\+Version.\+get\+Patch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ae690936a7f07ed26031ca39f99c51bf4}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ae690936a7f07ed26031ca39f99c51bf4}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+util.\+Version.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_af22c615df4f6a4c7db2b10c9e134e3ad}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_af22c615df4f6a4c7db2b10c9e134e3ad}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!isDevelopmentVersion@{isDevelopmentVersion}}
+\index{isDevelopmentVersion@{isDevelopmentVersion}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{isDevelopmentVersion()}{isDevelopmentVersion()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+util.\+Version.\+is\+Development\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a3b42a982ee28abb3bf51b21d859e9ce3}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a3b42a982ee28abb3bf51b21d859e9ce3}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!isNewerThan@{isNewerThan}}
+\index{isNewerThan@{isNewerThan}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{isNewerThan()}{isNewerThan()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+util.\+Version.\+is\+Newer\+Than (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}}}]{other\+Version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+true if this version is newer than the passed one 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a48060547c0ce3a1555f3b235f0ad1645}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a48060547c0ce3a1555f3b235f0ad1645}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!parse@{parse}}
+\index{parse@{parse}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} org.\+jabref.\+logic.\+util.\+Version.\+parse (\begin{DoxyParamCaption}\item[{String}]{version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em version} & must be in form of following pattern\+:
+\begin{DoxyCode}{1}
+\DoxyCodeLine{(\(\backslash\)d+)(\(\backslash\).(\(\backslash\)d+))?(\(\backslash\).(\(\backslash\)d+))?(-\/alpha|-\/beta)?(-\/?dev)? }
+\end{DoxyCode}
+ (e.\+g., 3.\+3; 3.\+4-\/dev) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the parsed version or \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a6657401929c6cb46131a3f152c97a7a7}{Version\#\+U\+N\+K\+N\+O\+W\+N\+\_\+\+V\+E\+R\+S\+I\+ON}} if an error occurred 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aa39ea77fb1da78d25c657ff5d3238a67}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aa39ea77fb1da78d25c657ff5d3238a67}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!shouldBeUpdatedTo@{shouldBeUpdatedTo}}
+\index{shouldBeUpdatedTo@{shouldBeUpdatedTo}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{shouldBeUpdatedTo()}{shouldBeUpdatedTo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}}$>$ org.\+jabref.\+logic.\+util.\+Version.\+should\+Be\+Updated\+To (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} $>$}]{available\+Versions }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks if this version should be updated to one of the given ones. Ignoring the other \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} if this one is Stable and the other one is not.
+
+\begin{DoxyReturn}{Returns}
+The version this one should be updated to, or an empty Optional 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a73e727357ab9669690aee9ab14a1c4dc}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a73e727357ab9669690aee9ab14a1c4dc}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!shouldBeUpdatedTo@{shouldBeUpdatedTo}}
+\index{shouldBeUpdatedTo@{shouldBeUpdatedTo}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{shouldBeUpdatedTo()}{shouldBeUpdatedTo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+util.\+Version.\+should\+Be\+Updated\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}}}]{other\+Version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks if this version should be updated to the given one. Ignoring the other \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} if this one is Stable and the other one is not.
+
+\begin{DoxyReturn}{Returns}
+True if this version should be updated to the given one 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a45fbd90a9674cbe843f521804d56d5e1}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a45fbd90a9674cbe843f521804d56d5e1}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!toString@{toString}}
+\index{toString@{toString}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+util.\+Version.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a473855021690f59395bb56d4e9de9a72}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a473855021690f59395bb56d4e9de9a72}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!CI\_SUFFIX\_PATTERN@{CI\_SUFFIX\_PATTERN}}
+\index{CI\_SUFFIX\_PATTERN@{CI\_SUFFIX\_PATTERN}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{CI\_SUFFIX\_PATTERN}{CI\_SUFFIX\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+util.\+Version.\+C\+I\+\_\+\+S\+U\+F\+F\+I\+X\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}-\/ci\textbackslash{}\textbackslash{}.\textbackslash{}\textbackslash{}d+\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a6395f65ec1e4e2ed709fdda2cc545d52}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a6395f65ec1e4e2ed709fdda2cc545d52}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!developmentStage@{developmentStage}}
+\index{developmentStage@{developmentStage}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{developmentStage}{developmentStage}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_version_1_1_development_stage}{Development\+Stage}} org.\+jabref.\+logic.\+util.\+Version.\+development\+Stage = \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_version_1_1_development_stage_a259976437fe1a99cd0b1f68156585d80}{Development\+Stage.\+U\+N\+K\+N\+O\+WN}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a8e41f3e79fac532991fd37c2ad0b7b74}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a8e41f3e79fac532991fd37c2ad0b7b74}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!fullVersion@{fullVersion}}
+\index{fullVersion@{fullVersion}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{fullVersion}{fullVersion}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+util.\+Version.\+full\+Version = \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_build_info_a8407b9897b8b98c07bbb9f5b2d87bc93}{Build\+Info.\+U\+N\+K\+N\+O\+W\+N\+\_\+\+V\+E\+R\+S\+I\+ON}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ade7e5b5525089a13c2387ddd65aef185}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ade7e5b5525089a13c2387ddd65aef185}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!isDevelopmentVersion@{isDevelopmentVersion}}
+\index{isDevelopmentVersion@{isDevelopmentVersion}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{isDevelopmentVersion}{isDevelopmentVersion}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+util.\+Version.\+is\+Development\+Version\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a7afe175f6e56cdb40e5811356140aa74}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a7afe175f6e56cdb40e5811356140aa74}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!JABREF\_DOWNLOAD\_URL@{JABREF\_DOWNLOAD\_URL}}
+\index{JABREF\_DOWNLOAD\_URL@{JABREF\_DOWNLOAD\_URL}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{JABREF\_DOWNLOAD\_URL}{JABREF\_DOWNLOAD\_URL}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+util.\+Version.\+J\+A\+B\+R\+E\+F\+\_\+\+D\+O\+W\+N\+L\+O\+A\+D\+\_\+\+U\+RL = \char`\"{}https\+://downloads.\+jabref.\+org\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ace7f18400168df198c095a51bfdfd8bf}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ace7f18400168df198c095a51bfdfd8bf}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!JABREF\_GITHUB\_RELEASES@{JABREF\_GITHUB\_RELEASES}}
+\index{JABREF\_GITHUB\_RELEASES@{JABREF\_GITHUB\_RELEASES}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{JABREF\_GITHUB\_RELEASES}{JABREF\_GITHUB\_RELEASES}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+util.\+Version.\+J\+A\+B\+R\+E\+F\+\_\+\+G\+I\+T\+H\+U\+B\+\_\+\+R\+E\+L\+E\+A\+S\+ES = \char`\"{}https\+://\mbox{\hyperlink{net_8java_8dev_8glazedlists__glazedlists__java15_8txt_a5fcbe5a51335ef83aa908815b43568f6}{api.\+github.\+com}}/repos/\mbox{\hyperlink{_readme_8txt_ac2eeadea9f2d17cfd91bd1bfaa3c3186}{Jab\+Ref}}/\mbox{\hyperlink{_readme_8txt_ac2eeadea9f2d17cfd91bd1bfaa3c3186}{Jab\+Ref}}/releases\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a3dff79926a14cf7e65894b58092727c7}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a3dff79926a14cf7e65894b58092727c7}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+util.\+Version.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Version.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aa65588dc8c1a7fc3ee665a9c92f005ce}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aa65588dc8c1a7fc3ee665a9c92f005ce}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!major@{major}}
+\index{major@{major}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{major}{major}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+util.\+Version.\+major = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aba9500780b3aecdc7624f56963cfa5df}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aba9500780b3aecdc7624f56963cfa5df}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!minor@{minor}}
+\index{minor@{minor}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{minor}{minor}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+util.\+Version.\+minor = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ac4fd765ad9dacddcea416bb9ff512399}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ac4fd765ad9dacddcea416bb9ff512399}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!patch@{patch}}
+\index{patch@{patch}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{patch}{patch}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+util.\+Version.\+patch = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a6657401929c6cb46131a3f152c97a7a7}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a6657401929c6cb46131a3f152c97a7a7}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!UNKNOWN\_VERSION@{UNKNOWN\_VERSION}}
+\index{UNKNOWN\_VERSION@{UNKNOWN\_VERSION}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{UNKNOWN\_VERSION}{UNKNOWN\_VERSION}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} org.\+jabref.\+logic.\+util.\+Version.\+U\+N\+K\+N\+O\+W\+N\+\_\+\+V\+E\+R\+S\+I\+ON = new \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}}()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a65cd8741977ece1a3b12009dab8c1219}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_version_a65cd8741977ece1a3b12009dab8c1219}} 
+\index{org.jabref.logic.util.Version@{org.jabref.logic.util.Version}!VERSION\_PATTERN@{VERSION\_PATTERN}}
+\index{VERSION\_PATTERN@{VERSION\_PATTERN}!org.jabref.logic.util.Version@{org.jabref.logic.util.Version}}
+\doxysubsubsection{\texorpdfstring{VERSION\_PATTERN}{VERSION\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+util.\+Version.\+V\+E\+R\+S\+I\+O\+N\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}(?$<$major$>$\textbackslash{}\textbackslash{}d+)(\textbackslash{}\textbackslash{}.(?$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_aba9500780b3aecdc7624f56963cfa5df}{minor}}$>$\textbackslash{}\textbackslash{}d+))?(\textbackslash{}\textbackslash{}.(?$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version_ac4fd765ad9dacddcea416bb9ff512399}{patch}}$>$\textbackslash{}\textbackslash{}d+))?(?$<$stage$>$-\/alpha$\vert$-\/beta)?(?$<$dev$>$-\/?dev)?.$\ast$\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/util/\mbox{\hyperlink{_version_8java}{Version.\+java}}\end{DoxyCompactItemize}

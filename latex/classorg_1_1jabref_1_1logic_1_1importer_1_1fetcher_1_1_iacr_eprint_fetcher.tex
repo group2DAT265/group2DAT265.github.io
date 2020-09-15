@@ -1,0 +1,268 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher}\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a719a6aee13b5f03c5085cc7b99139290}{Iacr\+Eprint\+Fetcher}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_ac3662cbe348adf633576af9adf04bc6f}{prefs}})
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a458073abf46e6bb1669e29afa53d9fea}{perform\+Search\+By\+Id}} (String identifier)  throws Fetcher\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a1004c3a5f87e491d627f23245b3c209d}{get\+Name}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a5bbd0ab319e86b57b1b515fa33985a4c}{N\+A\+ME}} = \char`\"{}I\+A\+CR eprints\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_abb352d0d98b3c35093753eed41f542ef}{create\+Entry\+From\+Iacr\+Citation}} (String valid\+Identifier)  throws Fetcher\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a52f5fe03130aaf0ae9b9cdd7666b30fd}{set\+Additional\+Fields}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry, String identifier)  throws Fetcher\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a8bf4269496c64157b8b29d319831db0f}{get\+Version}} (String identifier, String descriptive\+Html)  throws Fetcher\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_adde1072a6972babcc0f194a7cec8af95}{get\+Abstract}} (String descriptive\+Html)  throws Fetcher\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9d66cb8f24a0f3e89be470bbbf208785}{get\+Latest\+Date}} (String date\+String\+As\+In\+Html)  throws Fetcher\+Exception 
+\item 
+Temporal\+Accessor \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a93d5e13c186ec4280f196defeca66d17}{parse\+Single\+Date\+From\+Website}} (String date\+String\+From\+Website)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9cb8590970e10d5c76757af79aa14275}{get\+Html}} (String url)  throws Fetcher\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9965aef4a8a90ffa6f979ea89e1eafdd}{get\+Required\+Value\+Between}} (String \mbox{\hyperlink{_biblioscape_importer_test_optional_fields_8txt_a958a754f010f8c7c8bc1fc3877cc1743}{from}}, String to, String haystack)  throws Fetcher\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a411b0d89902858235294c52829c71209}{is\+From\+Or\+After\+Year2000}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)  throws Fetcher\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_ac3662cbe348adf633576af9adf04bc6f}{prefs}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_abcf993d49a947bbc2a20a19f2f01593c}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Iacr\+Eprint\+Fetcher.\+class)
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_adb410be86c3f0bff9310fba1d006e6f7}{D\+A\+T\+E\+\_\+\+F\+R\+O\+M\+\_\+\+W\+E\+B\+S\+I\+T\+E\+\_\+\+A\+F\+T\+E\+R\+\_\+2000\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}\mbox{[}a-\/z \mbox{]}+(\textbackslash{}\textbackslash{}d\{1,2\} \mbox{[}\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}-\/Za-\/z\mbox{]}\mbox{[}\mbox{\hyperlink{_readme_8txt_a4a72c9f4aeead17626fb9869ba1e4f1f}{a}}-\/z\mbox{]}\{2\} \textbackslash{}\textbackslash{}d\{4\})\char`\"{})
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a54d07df8d766e6c4bf46f215da7b0f97}{D\+A\+T\+E\+\_\+\+F\+R\+O\+M\+\_\+\+W\+E\+B\+S\+I\+T\+E\+\_\+\+B\+E\+F\+O\+R\+E\+\_\+2000\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}\mbox{[}A-\/Za-\/z \mbox{]}+? (\mbox{[}\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}-\/Za-\/z\mbox{]}\mbox{[}\mbox{\hyperlink{_readme_8txt_a4a72c9f4aeead17626fb9869ba1e4f1f}{a}}-\/z\mbox{]}\{2,10\} \textbackslash{}\textbackslash{}d\{1,2\}(th$\vert$st$\vert$nd$\vert$rd)?, \textbackslash{}\textbackslash{}d\{4\})\textbackslash{}\textbackslash{}.?\char`\"{})
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a63d4883893439463cc786a0ebd66036b}{W\+I\+T\+H\+O\+U\+T\+\_\+\+L\+E\+T\+T\+E\+R\+S\+\_\+\+S\+P\+A\+CE}} = Pattern.\+compile(\char`\"{}\mbox{[}$^\wedge$0-\/9/\mbox{]}\char`\"{})
+\item 
+static final Date\+Time\+Formatter \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a3316f6928495096c6ec292fa354d792b}{D\+A\+T\+E\+\_\+\+F\+O\+R\+M\+A\+T\+\_\+\+W\+E\+B\+S\+I\+T\+E\+\_\+\+A\+F\+T\+E\+R\+\_\+2000}} = Date\+Time\+Formatter.\+of\+Pattern(\char`\"{}d M\+MM yyyy\char`\"{}, Locale.\+US)
+\item 
+static final Date\+Time\+Formatter \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_aab2e079831c405591ef17f962580cb8a}{D\+A\+T\+E\+\_\+\+F\+O\+R\+M\+A\+T\+\_\+\+W\+E\+B\+S\+I\+T\+E\+\_\+\+B\+E\+F\+O\+R\+E\+\_\+2000\+\_\+\+L\+O\+N\+G\+\_\+\+M\+O\+N\+T\+HS}} = Date\+Time\+Formatter.\+of\+Pattern(\char`\"{}M\+M\+MM d\mbox{[}\textquotesingle{}th\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}st\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}nd\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}rd\textquotesingle{}\mbox{]} yyyy\char`\"{}, Locale.\+US)
+\item 
+static final Date\+Time\+Formatter \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a2be380a7830ced8ee2cd707ae23fffe0}{D\+A\+T\+E\+\_\+\+F\+O\+R\+M\+A\+T\+\_\+\+W\+E\+B\+S\+I\+T\+E\+\_\+\+B\+E\+F\+O\+R\+E\+\_\+2000\+\_\+\+S\+H\+O\+R\+T\+\_\+\+M\+O\+N\+T\+HS}} = Date\+Time\+Formatter.\+of\+Pattern(\char`\"{}M\+MM d\mbox{[}\textquotesingle{}th\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}st\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}nd\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}rd\textquotesingle{}\mbox{]} yyyy\char`\"{}, Locale.\+US)
+\item 
+static final Date\+Time\+Formatter \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_ac9f23972d51453620452c8bb547cd26a}{D\+A\+T\+E\+\_\+\+F\+O\+R\+M\+A\+T\+\_\+\+B\+I\+B\+T\+EX}} = Date\+Time\+Formatter.\+I\+S\+O\+\_\+\+L\+O\+C\+A\+L\+\_\+\+D\+A\+TE
+\item 
+static final Predicate$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a019aacd3e29bb89d3807f88c6807f7bb}{I\+D\+E\+N\+T\+I\+F\+I\+E\+R\+\_\+\+P\+R\+E\+D\+I\+C\+A\+TE}} = Pattern.\+compile(\char`\"{}\textbackslash{}\textbackslash{}d\{4\}/\textbackslash{}\textbackslash{}d\{3,5\}\char`\"{}).as\+Predicate()
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_aa13506e52237f12f277c1cc3663a53ce}{C\+I\+T\+A\+T\+I\+O\+N\+\_\+\+U\+R\+L\+\_\+\+P\+R\+E\+F\+IX}} = \char`\"{}https\+://eprint.\+iacr.\+org/eprint-\/bin/cite.\+pl?entry=\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a556abcec5f43f7a2319f4617c2e77f38}{D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N\+\_\+\+U\+R\+L\+\_\+\+P\+R\+E\+F\+IX}} = \char`\"{}https\+://eprint.\+iacr.\+org/\char`\"{}
+\item 
+static final Charset \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9eab3cda51f4fdc92d2c414489fc6944}{W\+E\+B\+S\+I\+T\+E\+\_\+\+C\+H\+A\+R\+S\+ET}} = Standard\+Charsets.\+I\+S\+O\+\_\+8859\+\_\+1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a719a6aee13b5f03c5085cc7b99139290}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a719a6aee13b5f03c5085cc7b99139290}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!IacrEprintFetcher@{IacrEprintFetcher}}
+\index{IacrEprintFetcher@{IacrEprintFetcher}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{IacrEprintFetcher()}{IacrEprintFetcher()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+Iacr\+Eprint\+Fetcher (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}}}]{prefs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_abb352d0d98b3c35093753eed41f542ef}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_abb352d0d98b3c35093753eed41f542ef}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!createEntryFromIacrCitation@{createEntryFromIacrCitation}}
+\index{createEntryFromIacrCitation@{createEntryFromIacrCitation}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{createEntryFromIacrCitation()}{createEntryFromIacrCitation()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+create\+Entry\+From\+Iacr\+Citation (\begin{DoxyParamCaption}\item[{String}]{valid\+Identifier }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_adde1072a6972babcc0f194a7cec8af95}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_adde1072a6972babcc0f194a7cec8af95}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!getAbstract@{getAbstract}}
+\index{getAbstract@{getAbstract}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{getAbstract()}{getAbstract()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+get\+Abstract (\begin{DoxyParamCaption}\item[{String}]{descriptive\+Html }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9cb8590970e10d5c76757af79aa14275}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9cb8590970e10d5c76757af79aa14275}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!getHtml@{getHtml}}
+\index{getHtml@{getHtml}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{getHtml()}{getHtml()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+get\+Html (\begin{DoxyParamCaption}\item[{String}]{url }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9d66cb8f24a0f3e89be470bbbf208785}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9d66cb8f24a0f3e89be470bbbf208785}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!getLatestDate@{getLatestDate}}
+\index{getLatestDate@{getLatestDate}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{getLatestDate()}{getLatestDate()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+get\+Latest\+Date (\begin{DoxyParamCaption}\item[{String}]{date\+String\+As\+In\+Html }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a1004c3a5f87e491d627f23245b3c209d}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a1004c3a5f87e491d627f23245b3c209d}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the localized name of this fetcher. The title can be used to display the fetcher in the menu and in the side pane.
+
+\begin{DoxyReturn}{Returns}
+the localized name 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a9512c95b5bf85e727c975fe2db72e6bf}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9965aef4a8a90ffa6f979ea89e1eafdd}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9965aef4a8a90ffa6f979ea89e1eafdd}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!getRequiredValueBetween@{getRequiredValueBetween}}
+\index{getRequiredValueBetween@{getRequiredValueBetween}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{getRequiredValueBetween()}{getRequiredValueBetween()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+get\+Required\+Value\+Between (\begin{DoxyParamCaption}\item[{String}]{from,  }\item[{String}]{to,  }\item[{String}]{haystack }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a8bf4269496c64157b8b29d319831db0f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a8bf4269496c64157b8b29d319831db0f}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!getVersion@{getVersion}}
+\index{getVersion@{getVersion}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{getVersion()}{getVersion()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+get\+Version (\begin{DoxyParamCaption}\item[{String}]{identifier,  }\item[{String}]{descriptive\+Html }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a411b0d89902858235294c52829c71209}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a411b0d89902858235294c52829c71209}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!isFromOrAfterYear2000@{isFromOrAfterYear2000}}
+\index{isFromOrAfterYear2000@{isFromOrAfterYear2000}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{isFromOrAfterYear2000()}{isFromOrAfterYear2000()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+is\+From\+Or\+After\+Year2000 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a93d5e13c186ec4280f196defeca66d17}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a93d5e13c186ec4280f196defeca66d17}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!parseSingleDateFromWebsite@{parseSingleDateFromWebsite}}
+\index{parseSingleDateFromWebsite@{parseSingleDateFromWebsite}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{parseSingleDateFromWebsite()}{parseSingleDateFromWebsite()}}
+{\footnotesize\ttfamily Temporal\+Accessor org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+parse\+Single\+Date\+From\+Website (\begin{DoxyParamCaption}\item[{String}]{date\+String\+From\+Website }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a458073abf46e6bb1669e29afa53d9fea}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a458073abf46e6bb1669e29afa53d9fea}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!performSearchById@{performSearchById}}
+\index{performSearchById@{performSearchById}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{performSearchById()}{performSearchById()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+perform\+Search\+By\+Id (\begin{DoxyParamCaption}\item[{String}]{identifier }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Looks for bibliographic information associated to the given identifier.
+
+
+\begin{DoxyParams}{Parameters}
+{\em identifier} & a string which uniquely identifies the item \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a \mbox{\hyperlink{}{Bib\+Entry}} containing the bibliographic information (or an empty optional if no data was found) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher_af6a71a8b42f5c24f51ce8c0d855af1f1}{org.\+jabref.\+logic.\+importer.\+Id\+Based\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a52f5fe03130aaf0ae9b9cdd7666b30fd}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a52f5fe03130aaf0ae9b9cdd7666b30fd}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!setAdditionalFields@{setAdditionalFields}}
+\index{setAdditionalFields@{setAdditionalFields}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{setAdditionalFields()}{setAdditionalFields()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+set\+Additional\+Fields (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry,  }\item[{String}]{identifier }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_aa13506e52237f12f277c1cc3663a53ce}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_aa13506e52237f12f277c1cc3663a53ce}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!CITATION\_URL\_PREFIX@{CITATION\_URL\_PREFIX}}
+\index{CITATION\_URL\_PREFIX@{CITATION\_URL\_PREFIX}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{CITATION\_URL\_PREFIX}{CITATION\_URL\_PREFIX}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+C\+I\+T\+A\+T\+I\+O\+N\+\_\+\+U\+R\+L\+\_\+\+P\+R\+E\+F\+IX = \char`\"{}https\+://eprint.\+iacr.\+org/eprint-\/bin/cite.\+pl?entry=\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_ac9f23972d51453620452c8bb547cd26a}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_ac9f23972d51453620452c8bb547cd26a}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!DATE\_FORMAT\_BIBTEX@{DATE\_FORMAT\_BIBTEX}}
+\index{DATE\_FORMAT\_BIBTEX@{DATE\_FORMAT\_BIBTEX}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{DATE\_FORMAT\_BIBTEX}{DATE\_FORMAT\_BIBTEX}}
+{\footnotesize\ttfamily final Date\+Time\+Formatter org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+D\+A\+T\+E\+\_\+\+F\+O\+R\+M\+A\+T\+\_\+\+B\+I\+B\+T\+EX = Date\+Time\+Formatter.\+I\+S\+O\+\_\+\+L\+O\+C\+A\+L\+\_\+\+D\+A\+TE\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a3316f6928495096c6ec292fa354d792b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a3316f6928495096c6ec292fa354d792b}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!DATE\_FORMAT\_WEBSITE\_AFTER\_2000@{DATE\_FORMAT\_WEBSITE\_AFTER\_2000}}
+\index{DATE\_FORMAT\_WEBSITE\_AFTER\_2000@{DATE\_FORMAT\_WEBSITE\_AFTER\_2000}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{DATE\_FORMAT\_WEBSITE\_AFTER\_2000}{DATE\_FORMAT\_WEBSITE\_AFTER\_2000}}
+{\footnotesize\ttfamily final Date\+Time\+Formatter org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+D\+A\+T\+E\+\_\+\+F\+O\+R\+M\+A\+T\+\_\+\+W\+E\+B\+S\+I\+T\+E\+\_\+\+A\+F\+T\+E\+R\+\_\+2000 = Date\+Time\+Formatter.\+of\+Pattern(\char`\"{}d M\+MM yyyy\char`\"{}, Locale.\+US)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_aab2e079831c405591ef17f962580cb8a}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_aab2e079831c405591ef17f962580cb8a}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_LONG\_MONTHS@{DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_LONG\_MONTHS}}
+\index{DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_LONG\_MONTHS@{DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_LONG\_MONTHS}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_LONG\_MONTHS}{DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_LONG\_MONTHS}}
+{\footnotesize\ttfamily final Date\+Time\+Formatter org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+D\+A\+T\+E\+\_\+\+F\+O\+R\+M\+A\+T\+\_\+\+W\+E\+B\+S\+I\+T\+E\+\_\+\+B\+E\+F\+O\+R\+E\+\_\+2000\+\_\+\+L\+O\+N\+G\+\_\+\+M\+O\+N\+T\+HS = Date\+Time\+Formatter.\+of\+Pattern(\char`\"{}M\+M\+MM d\mbox{[}\textquotesingle{}th\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}st\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}nd\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}rd\textquotesingle{}\mbox{]} yyyy\char`\"{}, Locale.\+US)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a2be380a7830ced8ee2cd707ae23fffe0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a2be380a7830ced8ee2cd707ae23fffe0}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_SHORT\_MONTHS@{DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_SHORT\_MONTHS}}
+\index{DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_SHORT\_MONTHS@{DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_SHORT\_MONTHS}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_SHORT\_MONTHS}{DATE\_FORMAT\_WEBSITE\_BEFORE\_2000\_SHORT\_MONTHS}}
+{\footnotesize\ttfamily final Date\+Time\+Formatter org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+D\+A\+T\+E\+\_\+\+F\+O\+R\+M\+A\+T\+\_\+\+W\+E\+B\+S\+I\+T\+E\+\_\+\+B\+E\+F\+O\+R\+E\+\_\+2000\+\_\+\+S\+H\+O\+R\+T\+\_\+\+M\+O\+N\+T\+HS = Date\+Time\+Formatter.\+of\+Pattern(\char`\"{}M\+MM d\mbox{[}\textquotesingle{}th\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}st\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}nd\textquotesingle{}\mbox{]}\mbox{[}\textquotesingle{}rd\textquotesingle{}\mbox{]} yyyy\char`\"{}, Locale.\+US)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_adb410be86c3f0bff9310fba1d006e6f7}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_adb410be86c3f0bff9310fba1d006e6f7}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!DATE\_FROM\_WEBSITE\_AFTER\_2000\_PATTERN@{DATE\_FROM\_WEBSITE\_AFTER\_2000\_PATTERN}}
+\index{DATE\_FROM\_WEBSITE\_AFTER\_2000\_PATTERN@{DATE\_FROM\_WEBSITE\_AFTER\_2000\_PATTERN}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{DATE\_FROM\_WEBSITE\_AFTER\_2000\_PATTERN}{DATE\_FROM\_WEBSITE\_AFTER\_2000\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+D\+A\+T\+E\+\_\+\+F\+R\+O\+M\+\_\+\+W\+E\+B\+S\+I\+T\+E\+\_\+\+A\+F\+T\+E\+R\+\_\+2000\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}\mbox{[}a-\/z \mbox{]}+(\textbackslash{}\textbackslash{}d\{1,2\} \mbox{[}\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}-\/Za-\/z\mbox{]}\mbox{[}\mbox{\hyperlink{_readme_8txt_a4a72c9f4aeead17626fb9869ba1e4f1f}{a}}-\/z\mbox{]}\{2\} \textbackslash{}\textbackslash{}d\{4\})\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a54d07df8d766e6c4bf46f215da7b0f97}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a54d07df8d766e6c4bf46f215da7b0f97}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!DATE\_FROM\_WEBSITE\_BEFORE\_2000\_PATTERN@{DATE\_FROM\_WEBSITE\_BEFORE\_2000\_PATTERN}}
+\index{DATE\_FROM\_WEBSITE\_BEFORE\_2000\_PATTERN@{DATE\_FROM\_WEBSITE\_BEFORE\_2000\_PATTERN}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{DATE\_FROM\_WEBSITE\_BEFORE\_2000\_PATTERN}{DATE\_FROM\_WEBSITE\_BEFORE\_2000\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+D\+A\+T\+E\+\_\+\+F\+R\+O\+M\+\_\+\+W\+E\+B\+S\+I\+T\+E\+\_\+\+B\+E\+F\+O\+R\+E\+\_\+2000\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}\mbox{[}A-\/Za-\/z \mbox{]}+? (\mbox{[}\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}-\/Za-\/z\mbox{]}\mbox{[}\mbox{\hyperlink{_readme_8txt_a4a72c9f4aeead17626fb9869ba1e4f1f}{a}}-\/z\mbox{]}\{2,10\} \textbackslash{}\textbackslash{}d\{1,2\}(th$\vert$st$\vert$nd$\vert$rd)?, \textbackslash{}\textbackslash{}d\{4\})\textbackslash{}\textbackslash{}.?\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a556abcec5f43f7a2319f4617c2e77f38}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a556abcec5f43f7a2319f4617c2e77f38}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!DESCRIPTION\_URL\_PREFIX@{DESCRIPTION\_URL\_PREFIX}}
+\index{DESCRIPTION\_URL\_PREFIX@{DESCRIPTION\_URL\_PREFIX}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{DESCRIPTION\_URL\_PREFIX}{DESCRIPTION\_URL\_PREFIX}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N\+\_\+\+U\+R\+L\+\_\+\+P\+R\+E\+F\+IX = \char`\"{}https\+://eprint.\+iacr.\+org/\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a019aacd3e29bb89d3807f88c6807f7bb}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a019aacd3e29bb89d3807f88c6807f7bb}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!IDENTIFIER\_PREDICATE@{IDENTIFIER\_PREDICATE}}
+\index{IDENTIFIER\_PREDICATE@{IDENTIFIER\_PREDICATE}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{IDENTIFIER\_PREDICATE}{IDENTIFIER\_PREDICATE}}
+{\footnotesize\ttfamily final Predicate$<$String$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+I\+D\+E\+N\+T\+I\+F\+I\+E\+R\+\_\+\+P\+R\+E\+D\+I\+C\+A\+TE = Pattern.\+compile(\char`\"{}\textbackslash{}\textbackslash{}d\{4\}/\textbackslash{}\textbackslash{}d\{3,5\}\char`\"{}).as\+Predicate()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_abcf993d49a947bbc2a20a19f2f01593c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_abcf993d49a947bbc2a20a19f2f01593c}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Iacr\+Eprint\+Fetcher.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a5bbd0ab319e86b57b1b515fa33985a4c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a5bbd0ab319e86b57b1b515fa33985a4c}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!NAME@{NAME}}
+\index{NAME@{NAME}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{NAME}{NAME}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+N\+A\+ME = \char`\"{}I\+A\+CR eprints\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_ac3662cbe348adf633576af9adf04bc6f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_ac3662cbe348adf633576af9adf04bc6f}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!prefs@{prefs}}
+\index{prefs@{prefs}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{prefs}{prefs}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+prefs\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9eab3cda51f4fdc92d2c414489fc6944}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a9eab3cda51f4fdc92d2c414489fc6944}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!WEBSITE\_CHARSET@{WEBSITE\_CHARSET}}
+\index{WEBSITE\_CHARSET@{WEBSITE\_CHARSET}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{WEBSITE\_CHARSET}{WEBSITE\_CHARSET}}
+{\footnotesize\ttfamily final Charset org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+W\+E\+B\+S\+I\+T\+E\+\_\+\+C\+H\+A\+R\+S\+ET = Standard\+Charsets.\+I\+S\+O\+\_\+8859\+\_\+1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a63d4883893439463cc786a0ebd66036b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a63d4883893439463cc786a0ebd66036b}} 
+\index{org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}!WITHOUT\_LETTERS\_SPACE@{WITHOUT\_LETTERS\_SPACE}}
+\index{WITHOUT\_LETTERS\_SPACE@{WITHOUT\_LETTERS\_SPACE}!org.jabref.logic.importer.fetcher.IacrEprintFetcher@{org.jabref.logic.importer.fetcher.IacrEprintFetcher}}
+\doxysubsubsection{\texorpdfstring{WITHOUT\_LETTERS\_SPACE}{WITHOUT\_LETTERS\_SPACE}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher.\+W\+I\+T\+H\+O\+U\+T\+\_\+\+L\+E\+T\+T\+E\+R\+S\+\_\+\+S\+P\+A\+CE = Pattern.\+compile(\char`\"{}\mbox{[}$^\wedge$0-\/9/\mbox{]}\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_iacr_eprint_fetcher_8java}{Iacr\+Eprint\+Fetcher.\+java}}\end{DoxyCompactItemize}

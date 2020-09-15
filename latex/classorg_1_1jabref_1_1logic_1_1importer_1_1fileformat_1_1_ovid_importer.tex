@@ -1,0 +1,245 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer}\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_ae3aa5a8e0e110be16fbb9ea2515271be}{get\+Name}} ()
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aa9366fe6dfa0b5f0bf80775e7313d805}{get\+File\+Type}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a59441f7047306d808052b6f356e60534}{get\+Description}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aacb95d272ac59263cb757e255f848a53}{is\+Recognized\+Format}} (Buffered\+Reader reader)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aca22e4102b35bce619cac065d1ec3904}{import\+Database}} (Buffered\+Reader reader)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a163c7145ce8b31a8160d58139c397413}{fix\+Names}} (String content)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_adb2da6495e28f89cfe5d554705420272}{O\+V\+I\+D\+\_\+\+S\+O\+U\+R\+C\+E\+\_\+\+P\+A\+T\+T\+E\+RN}}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_afa61438f09a583acdf8ebe98c14898fa}{O\+V\+I\+D\+\_\+\+S\+O\+U\+R\+C\+E\+\_\+\+P\+A\+T\+T\+E\+R\+N\+\_\+\+N\+O\+\_\+\+I\+S\+S\+UE}}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_ae965b028a03d1bc037e953a62e9355e7}{O\+V\+I\+D\+\_\+\+S\+O\+U\+R\+C\+E\+\_\+\+P\+A\+T\+T\+E\+R\+N\+\_\+2}}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a97d8d3c383619a190b9c293be1d79ff8}{I\+N\+C\+O\+L\+L\+E\+C\+T\+I\+O\+N\+\_\+\+P\+A\+T\+T\+E\+RN}}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a52c9dec86ef4667ae3b1c8260c662929}{B\+O\+O\+K\+\_\+\+P\+A\+T\+T\+E\+RN}}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aee7ca285d7fbef3f00b6b5fa2b03bd29}{O\+V\+I\+D\+\_\+\+P\+A\+T\+T\+E\+R\+N\+\_\+\+S\+T\+R\+I\+NG}} = \char`\"{}$<$\mbox{[}0-\/9\mbox{]}+$>$\char`\"{}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_abae36d6511f0fd1609a442531d19ddc6}{O\+V\+I\+D\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aee7ca285d7fbef3f00b6b5fa2b03bd29}{O\+V\+I\+D\+\_\+\+P\+A\+T\+T\+E\+R\+N\+\_\+\+S\+T\+R\+I\+NG}})
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aef8d54a1e26623ed2861c0622f77d5dc}{M\+A\+X\+\_\+\+I\+T\+E\+MS}} = 50
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Imports an Ovid file. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a163c7145ce8b31a8160d58139c397413}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a163c7145ce8b31a8160d58139c397413}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!fixNames@{fixNames}}
+\index{fixNames@{fixNames}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{fixNames()}{fixNames()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+fix\+Names (\begin{DoxyParamCaption}\item[{String}]{content }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+Convert a string of author names into a Bib\+Te\+X-\/compatible format.
+
+
+\begin{DoxyParams}{Parameters}
+{\em content} & The name string. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The formatted names. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a59441f7047306d808052b6f356e60534}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a59441f7047306d808052b6f356e60534}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the description of the import format. 
+
+The description should specify 
+\begin{DoxyItemize}
+\item what kind of entries from what sources and based on what specification it is able to import 
+\item by what criteria it \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aacb95d272ac59263cb757e255f848a53}{recognizes}} an import format 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+description of the import format 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a353c848ebec4d458953971932b28ce03}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aa9366fe6dfa0b5f0bf80775e7313d805}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aa9366fe6dfa0b5f0bf80775e7313d805}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!getFileType@{getFileType}}
+\index{getFileType@{getFileType}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{getFileType()}{getFileType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+get\+File\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the type of files that this importer can read
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{}{File\+Type}} corresponding to the importer 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac655d5b73afa6ceb9ccae747ea27be8f}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_ae3aa5a8e0e110be16fbb9ea2515271be}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_ae3aa5a8e0e110be16fbb9ea2515271be}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the name of this import format.
+
+The name must be unique.
+
+\begin{DoxyReturn}{Returns}
+format name, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a0224f9749eef18ca9f90b8ddb1771484}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aca22e4102b35bce619cac065d1ec3904}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aca22e4102b35bce619cac065d1ec3904}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the source. 
+
+This method can be called in two different contexts -\/ either when importing in a specified format, or when importing in unknown format. In the latter case, Jab\+Ref cycles through all available import formats. No error messages or feedback is displayed from individual import formats in this case. 
+
+If importing in a specified format and an empty library is returned, Jab\+Ref reports that no entries were found. 
+
+This method should never return null.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the input to read from \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aacb95d272ac59263cb757e255f848a53}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aacb95d272ac59263cb757e255f848a53}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!isRecognizedFormat@{isRecognizedFormat}}
+\index{isRecognizedFormat@{isRecognizedFormat}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{isRecognizedFormat()}{isRecognizedFormat()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+is\+Recognized\+Format (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check whether the source is in the correct format for this importer. 
+
+The effect of this method is primarily to avoid unnecessary processing of files when searching for a suitable import format. If this method returns false, the import routine will move on to the next import format. 
+
+Thus the correct behaviour is to return false if it is certain that the file is not of the suitable type, and true otherwise. Returning true is the safe choice if not certain. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a52c9dec86ef4667ae3b1c8260c662929}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a52c9dec86ef4667ae3b1c8260c662929}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!BOOK\_PATTERN@{BOOK\_PATTERN}}
+\index{BOOK\_PATTERN@{BOOK\_PATTERN}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{BOOK\_PATTERN}{BOOK\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+B\+O\+O\+K\+\_\+\+P\+A\+T\+T\+E\+RN\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Pattern.compile(}
+\DoxyCodeLine{            \textcolor{stringliteral}{"{}\(\backslash\)\(\backslash\)(([0-\/9][0-\/9][0-\/9][0-\/9])\(\backslash\)\(\backslash\))\(\backslash\)\(\backslash\). [A-\/Za-\/z, ]+([0-\/9]+) pp\(\backslash\)\(\backslash\). ([\(\backslash\)\(\backslash\)w, ]+): ([\(\backslash\)\(\backslash\)w, ]+)"{}})}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a97d8d3c383619a190b9c293be1d79ff8}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a97d8d3c383619a190b9c293be1d79ff8}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!INCOLLECTION\_PATTERN@{INCOLLECTION\_PATTERN}}
+\index{INCOLLECTION\_PATTERN@{INCOLLECTION\_PATTERN}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{INCOLLECTION\_PATTERN}{INCOLLECTION\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+I\+N\+C\+O\+L\+L\+E\+C\+T\+I\+O\+N\+\_\+\+P\+A\+T\+T\+E\+RN\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Pattern.compile(}
+\DoxyCodeLine{            \textcolor{stringliteral}{"{}(.+)\(\backslash\)\(\backslash\)(([0-\/9][0-\/9][0-\/9][0-\/9])\(\backslash\)\(\backslash\))\(\backslash\)\(\backslash\). ([ \(\backslash\)\(\backslash\)w\&\(\backslash\)\(\backslash\)-\/,:]+)\(\backslash\)\(\backslash\).[ ]+\(\backslash\)\(\backslash\)(pp. ([0-\/9]+\(\backslash\)\(\backslash\)-\/?[0-\/9]+?)\(\backslash\)\(\backslash\)).[A-\/Za-\/z0-\/9, ]+pp\(\backslash\)\(\backslash\). "{}}}
+\DoxyCodeLine{                    + \textcolor{stringliteral}{"{}([\(\backslash\)\(\backslash\)w, ]+): ([\(\backslash\)\(\backslash\)w, ]+)"{}})}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aef8d54a1e26623ed2861c0622f77d5dc}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aef8d54a1e26623ed2861c0622f77d5dc}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!MAX\_ITEMS@{MAX\_ITEMS}}
+\index{MAX\_ITEMS@{MAX\_ITEMS}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{MAX\_ITEMS}{MAX\_ITEMS}}
+{\footnotesize\ttfamily final int org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+M\+A\+X\+\_\+\+I\+T\+E\+MS = 50\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_abae36d6511f0fd1609a442531d19ddc6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_abae36d6511f0fd1609a442531d19ddc6}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!OVID\_PATTERN@{OVID\_PATTERN}}
+\index{OVID\_PATTERN@{OVID\_PATTERN}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{OVID\_PATTERN}{OVID\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+O\+V\+I\+D\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aee7ca285d7fbef3f00b6b5fa2b03bd29}{O\+V\+I\+D\+\_\+\+P\+A\+T\+T\+E\+R\+N\+\_\+\+S\+T\+R\+I\+NG}})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aee7ca285d7fbef3f00b6b5fa2b03bd29}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aee7ca285d7fbef3f00b6b5fa2b03bd29}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!OVID\_PATTERN\_STRING@{OVID\_PATTERN\_STRING}}
+\index{OVID\_PATTERN\_STRING@{OVID\_PATTERN\_STRING}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{OVID\_PATTERN\_STRING}{OVID\_PATTERN\_STRING}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+O\+V\+I\+D\+\_\+\+P\+A\+T\+T\+E\+R\+N\+\_\+\+S\+T\+R\+I\+NG = \char`\"{}$<$\mbox{[}0-\/9\mbox{]}+$>$\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_adb2da6495e28f89cfe5d554705420272}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_adb2da6495e28f89cfe5d554705420272}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!OVID\_SOURCE\_PATTERN@{OVID\_SOURCE\_PATTERN}}
+\index{OVID\_SOURCE\_PATTERN@{OVID\_SOURCE\_PATTERN}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{OVID\_SOURCE\_PATTERN}{OVID\_SOURCE\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+O\+V\+I\+D\+\_\+\+S\+O\+U\+R\+C\+E\+\_\+\+P\+A\+T\+T\+E\+RN\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Pattern}
+\DoxyCodeLine{            .compile(\textcolor{stringliteral}{"{}Source ([ \(\backslash\)\(\backslash\)w\&\(\backslash\)\(\backslash\)-\/,:]+)\(\backslash\)\(\backslash\).[ ]+([0-\/9]+)\(\backslash\)\(\backslash\)(([\(\backslash\)\(\backslash\)w\(\backslash\)\(\backslash\)-\/]+)\(\backslash\)\(\backslash\)):([0-\/9]+\(\backslash\)\(\backslash\)-\/?[0-\/9]+?)\(\backslash\)\(\backslash\),.*([0-\/9][0-\/9][0-\/9][0-\/9])"{}})}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_ae965b028a03d1bc037e953a62e9355e7}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_ae965b028a03d1bc037e953a62e9355e7}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!OVID\_SOURCE\_PATTERN\_2@{OVID\_SOURCE\_PATTERN\_2}}
+\index{OVID\_SOURCE\_PATTERN\_2@{OVID\_SOURCE\_PATTERN\_2}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{OVID\_SOURCE\_PATTERN\_2}{OVID\_SOURCE\_PATTERN\_2}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+O\+V\+I\+D\+\_\+\+S\+O\+U\+R\+C\+E\+\_\+\+P\+A\+T\+T\+E\+R\+N\+\_\+2\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Pattern.compile(}
+\DoxyCodeLine{            \textcolor{stringliteral}{"{}([ \(\backslash\)\(\backslash\)w\&\(\backslash\)\(\backslash\)-\/,]+)\(\backslash\)\(\backslash\). Vol ([0-\/9]+)\(\backslash\)\(\backslash\)(([\(\backslash\)\(\backslash\)w\(\backslash\)\(\backslash\)-\/]+)\(\backslash\)\(\backslash\)) ([A-\/Za-\/z]+) ([0-\/9][0-\/9][0-\/9][0-\/9]), ([0-\/9]+\(\backslash\)\(\backslash\)-\/?[0-\/9]+)"{}})}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_afa61438f09a583acdf8ebe98c14898fa}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_afa61438f09a583acdf8ebe98c14898fa}} 
+\index{org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}!OVID\_SOURCE\_PATTERN\_NO\_ISSUE@{OVID\_SOURCE\_PATTERN\_NO\_ISSUE}}
+\index{OVID\_SOURCE\_PATTERN\_NO\_ISSUE@{OVID\_SOURCE\_PATTERN\_NO\_ISSUE}!org.jabref.logic.importer.fileformat.OvidImporter@{org.jabref.logic.importer.fileformat.OvidImporter}}
+\doxysubsubsection{\texorpdfstring{OVID\_SOURCE\_PATTERN\_NO\_ISSUE}{OVID\_SOURCE\_PATTERN\_NO\_ISSUE}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer.\+O\+V\+I\+D\+\_\+\+S\+O\+U\+R\+C\+E\+\_\+\+P\+A\+T\+T\+E\+R\+N\+\_\+\+N\+O\+\_\+\+I\+S\+S\+UE\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Pattern}
+\DoxyCodeLine{            .compile(\textcolor{stringliteral}{"{}Source ([ \(\backslash\)\(\backslash\)w\&\(\backslash\)\(\backslash\)-\/,:]+)\(\backslash\)\(\backslash\).[ ]+([0-\/9]+):([0-\/9]+\(\backslash\)\(\backslash\)-\/?[0-\/9]+?)\(\backslash\)\(\backslash\),.*([0-\/9][0-\/9][0-\/9][0-\/9])"{}})}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fileformat/\mbox{\hyperlink{_ovid_importer_8java}{Ovid\+Importer.\+java}}\end{DoxyCompactItemize}

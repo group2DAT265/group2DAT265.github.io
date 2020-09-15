@@ -1,0 +1,135 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor}{}\doxysection{org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor}\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+Inheritance diagram for org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a12ede2698b94f8308139d92731de9c20}{Identifier\+Editor}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} task\+Executor, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} dialog\+Service, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_suggestion_provider}{Suggestion\+Provider}}$<$?$>$ suggestion\+Provider, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_field_checkers}{Field\+Checkers}} field\+Checkers, \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} preferences)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_view_model}{Identifier\+Editor\+View\+Model}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a2ad28ec660aa91731ab26c82f4d9ff1c}{get\+View\+Model}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a80be041e4e00f95f07a4e2cb32922603}{bind\+To\+Entry}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_abd6a5734ede1dc4887ee18519b3558e6}{entry}})
+\item 
+Parent \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_ab76c3a851e9216cd90da18b15581d145}{get\+Node}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_affde7fde2df385bc87ab2dd32eddbb7c}{fetch\+Information\+By\+Identifier}} (Action\+Event event)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a5bb8089e2184db2dc69b30ec8b4d2581}{lookup\+Identifier}} (Action\+Event event)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a887de7f9e33845c74de22d0f53ac769f}{open\+External\+Link}} (Action\+Event event)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_view_model}{Identifier\+Editor\+View\+Model}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_ae3a309c41e673dcf944ee295a30d5469}{view\+Model}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_area}{Editor\+Text\+Area}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_ad71a52cede9c861b78166083c067cb6f}{text\+Area}}
+\item 
+Button \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a3ba8c41d4562b8fbd310ea355b60e4ee}{fetch\+Information\+By\+Identifier\+Button}}
+\item 
+Button \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a87b40eeb4f00eb92489e5de7d8e2b032}{lookup\+Identifier\+Button}}
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_abd6a5734ede1dc4887ee18519b3558e6}{entry}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a12ede2698b94f8308139d92731de9c20}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a12ede2698b94f8308139d92731de9c20}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!IdentifierEditor@{IdentifierEditor}}
+\index{IdentifierEditor@{IdentifierEditor}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{IdentifierEditor()}{IdentifierEditor()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+Identifier\+Editor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}}}]{task\+Executor,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_suggestion_provider}{Suggestion\+Provider}}$<$?$>$}]{suggestion\+Provider,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_field_checkers}{Field\+Checkers}}}]{field\+Checkers,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a80be041e4e00f95f07a4e2cb32922603}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a80be041e4e00f95f07a4e2cb32922603}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!bindToEntry@{bindToEntry}}
+\index{bindToEntry@{bindToEntry}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{bindToEntry()}{bindToEntry()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+bind\+To\+Entry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_field_editor_f_x_a4a8c69dd62e19dcf654217f69fa0e97b}{org.\+jabref.\+gui.\+fieldeditors.\+Field\+Editor\+FX}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_affde7fde2df385bc87ab2dd32eddbb7c}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_affde7fde2df385bc87ab2dd32eddbb7c}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!fetchInformationByIdentifier@{fetchInformationByIdentifier}}
+\index{fetchInformationByIdentifier@{fetchInformationByIdentifier}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{fetchInformationByIdentifier()}{fetchInformationByIdentifier()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+fetch\+Information\+By\+Identifier (\begin{DoxyParamCaption}\item[{Action\+Event}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_ab76c3a851e9216cd90da18b15581d145}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_ab76c3a851e9216cd90da18b15581d145}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!getNode@{getNode}}
+\index{getNode@{getNode}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{getNode()}{getNode()}}
+{\footnotesize\ttfamily Parent org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+get\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_field_editor_f_x_a9e16f4ebcdbeb72e216509948f4af058}{org.\+jabref.\+gui.\+fieldeditors.\+Field\+Editor\+FX}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a2ad28ec660aa91731ab26c82f4d9ff1c}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a2ad28ec660aa91731ab26c82f4d9ff1c}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!getViewModel@{getViewModel}}
+\index{getViewModel@{getViewModel}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{getViewModel()}{getViewModel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_view_model}{Identifier\+Editor\+View\+Model}} org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+get\+View\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a5bb8089e2184db2dc69b30ec8b4d2581}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a5bb8089e2184db2dc69b30ec8b4d2581}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!lookupIdentifier@{lookupIdentifier}}
+\index{lookupIdentifier@{lookupIdentifier}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{lookupIdentifier()}{lookupIdentifier()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+lookup\+Identifier (\begin{DoxyParamCaption}\item[{Action\+Event}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a887de7f9e33845c74de22d0f53ac769f}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a887de7f9e33845c74de22d0f53ac769f}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!openExternalLink@{openExternalLink}}
+\index{openExternalLink@{openExternalLink}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{openExternalLink()}{openExternalLink()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+open\+External\+Link (\begin{DoxyParamCaption}\item[{Action\+Event}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_abd6a5734ede1dc4887ee18519b3558e6}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_abd6a5734ede1dc4887ee18519b3558e6}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!entry@{entry}}
+\index{entry@{entry}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{entry}{entry}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+entry\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a3ba8c41d4562b8fbd310ea355b60e4ee}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a3ba8c41d4562b8fbd310ea355b60e4ee}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!fetchInformationByIdentifierButton@{fetchInformationByIdentifierButton}}
+\index{fetchInformationByIdentifierButton@{fetchInformationByIdentifierButton}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{fetchInformationByIdentifierButton}{fetchInformationByIdentifierButton}}
+{\footnotesize\ttfamily Button org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+fetch\+Information\+By\+Identifier\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a87b40eeb4f00eb92489e5de7d8e2b032}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_a87b40eeb4f00eb92489e5de7d8e2b032}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!lookupIdentifierButton@{lookupIdentifierButton}}
+\index{lookupIdentifierButton@{lookupIdentifierButton}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{lookupIdentifierButton}{lookupIdentifierButton}}
+{\footnotesize\ttfamily Button org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+lookup\+Identifier\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_ad71a52cede9c861b78166083c067cb6f}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_ad71a52cede9c861b78166083c067cb6f}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!textArea@{textArea}}
+\index{textArea@{textArea}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{textArea}{textArea}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_area}{Editor\+Text\+Area}} org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+text\+Area\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_ae3a309c41e673dcf944ee295a30d5469}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_ae3a309c41e673dcf944ee295a30d5469}} 
+\index{org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}!viewModel@{viewModel}}
+\index{viewModel@{viewModel}!org.jabref.gui.fieldeditors.IdentifierEditor@{org.jabref.gui.fieldeditors.IdentifierEditor}}
+\doxysubsubsection{\texorpdfstring{viewModel}{viewModel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_view_model}{Identifier\+Editor\+View\+Model}} org.\+jabref.\+gui.\+fieldeditors.\+Identifier\+Editor.\+view\+Model\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/fieldeditors/\mbox{\hyperlink{_identifier_editor_8java}{Identifier\+Editor.\+java}}\end{DoxyCompactItemize}

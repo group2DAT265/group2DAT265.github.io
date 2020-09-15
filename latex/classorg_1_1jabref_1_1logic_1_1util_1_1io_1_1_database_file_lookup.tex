@@ -1,0 +1,85 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup}{}\doxysection{org.\+jabref.\+logic.\+util.\+io.\+Database\+File\+Lookup Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup}\index{org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_a1f0abe776e2e81d8d4f8d97331c6480b}{Database\+File\+Lookup}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database\+Context, \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_file_preferences}{File\+Preferences}} file\+Preferences)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_a93d8362d2b2d57d7927ae0c7a0ecda3b}{lookup\+Database}} (File \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_a8613a215f348ce3e4b5d21d108e8d807}{parse\+File\+Field}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Set$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_ab74b06d3987e3448b0acff7b8d7928bb}{file\+Cache}} = new Hash\+Set$<$$>$()
+\item 
+final List$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_abc52cedc2833ec6ec114493583335016}{possible\+File\+Paths}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Search class for files. ~\newline
+ ~\newline
+ This class provides some functionality to search in a \mbox{\hyperlink{}{Bib\+Database}} for files. ~\newline
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_a1f0abe776e2e81d8d4f8d97331c6480b}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_a1f0abe776e2e81d8d4f8d97331c6480b}} 
+\index{org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}!DatabaseFileLookup@{DatabaseFileLookup}}
+\index{DatabaseFileLookup@{DatabaseFileLookup}!org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}}
+\doxysubsubsection{\texorpdfstring{DatabaseFileLookup()}{DatabaseFileLookup()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+util.\+io.\+Database\+File\+Lookup.\+Database\+File\+Lookup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_file_preferences}{File\+Preferences}}}]{file\+Preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates an instance by passing a \mbox{\hyperlink{}{Bib\+Database}} which will be used for the searches. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_a93d8362d2b2d57d7927ae0c7a0ecda3b}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_a93d8362d2b2d57d7927ae0c7a0ecda3b}} 
+\index{org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}!lookupDatabase@{lookupDatabase}}
+\index{lookupDatabase@{lookupDatabase}!org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}}
+\doxysubsubsection{\texorpdfstring{lookupDatabase()}{lookupDatabase()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+util.\+io.\+Database\+File\+Lookup.\+lookup\+Database (\begin{DoxyParamCaption}\item[{File}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns whether the File {\ttfamily file} is present in the database as an attached File to an \mbox{\hyperlink{}{Bib\+Entry}}. ~\newline
+ ~\newline
+ To do this, the field specified by the key {\bfseries{file}} will be searched for the provided file for every \mbox{\hyperlink{}{Bib\+Entry}} in the database. ~\newline
+ ~\newline
+ For the matching, the absolute file paths will be used.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & A \mbox{\hyperlink{}{File}} Object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}, if the file Object is stored in at least one entry in the database, otherwise {\ttfamily false}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_a8613a215f348ce3e4b5d21d108e8d807}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_a8613a215f348ce3e4b5d21d108e8d807}} 
+\index{org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}!parseFileField@{parseFileField}}
+\index{parseFileField@{parseFileField}!org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}}
+\doxysubsubsection{\texorpdfstring{parseFileField()}{parseFileField()}}
+{\footnotesize\ttfamily List$<$Path$>$ org.\+jabref.\+logic.\+util.\+io.\+Database\+File\+Lookup.\+parse\+File\+Field (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_ab74b06d3987e3448b0acff7b8d7928bb}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_ab74b06d3987e3448b0acff7b8d7928bb}} 
+\index{org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}!fileCache@{fileCache}}
+\index{fileCache@{fileCache}!org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}}
+\doxysubsubsection{\texorpdfstring{fileCache}{fileCache}}
+{\footnotesize\ttfamily final Set$<$Path$>$ org.\+jabref.\+logic.\+util.\+io.\+Database\+File\+Lookup.\+file\+Cache = new Hash\+Set$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_abc52cedc2833ec6ec114493583335016}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_database_file_lookup_abc52cedc2833ec6ec114493583335016}} 
+\index{org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}!possibleFilePaths@{possibleFilePaths}}
+\index{possibleFilePaths@{possibleFilePaths}!org.jabref.logic.util.io.DatabaseFileLookup@{org.jabref.logic.util.io.DatabaseFileLookup}}
+\doxysubsubsection{\texorpdfstring{possibleFilePaths}{possibleFilePaths}}
+{\footnotesize\ttfamily final List$<$Path$>$ org.\+jabref.\+logic.\+util.\+io.\+Database\+File\+Lookup.\+possible\+File\+Paths\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/util/io/\mbox{\hyperlink{_database_file_lookup_8java}{Database\+File\+Lookup.\+java}}\end{DoxyCompactItemize}

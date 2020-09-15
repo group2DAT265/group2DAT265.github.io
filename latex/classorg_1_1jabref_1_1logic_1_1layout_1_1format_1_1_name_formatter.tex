@@ -1,0 +1,166 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter}{}\doxysection{org.\+jabref.\+logic.\+layout.\+format.\+Name\+Formatter Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter}\index{org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}}
+Inheritance diagram for org.\+jabref.\+logic.\+layout.\+format.\+Name\+Formatter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_aad421b6147c9e3dc052ac530a36b1048}{format}} (String to\+Format, String in\+Parameters)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a3ab003316001355557aac38c142823fd}{format}} (String field\+Text)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_ad36e976243c7377ef804c0ba9e42b475}{set\+Parameter}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a4911f2f16b1cf2defc736ec85acb9281}{parameter}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Map$<$ String, String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a4bab9f5d9f4bd1fde6cca24406f6ab85}{get\+Name\+Formatters}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_preferences}{Name\+Formatter\+Preferences}} prefs)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a354a75648f9ee07eded044f374274b86}{D\+E\+F\+A\+U\+L\+T\+\_\+\+F\+O\+R\+M\+AT}} = \char`\"{}1@$\ast$@\{ff \}\{vv \}\{ll\}\{, jj\}@@$\ast$@1@\{ff \}\{vv \}\{ll\}\{, jj\}@$\ast$@, \{ff \}\{vv \}\{ll\}\{, jj\}\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a08b5e28158878d7c09f10b6988a69743}{format}} (String to\+Format, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author_list}{Author\+List}} al, String\mbox{[}$\,$\mbox{]} formats)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a4911f2f16b1cf2defc736ec85acb9281}{parameter}} = \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a354a75648f9ee07eded044f374274b86}{Name\+Formatter.\+D\+E\+F\+A\+U\+L\+T\+\_\+\+F\+O\+R\+M\+AT}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This layout formatter uses the Bibtex name.\+format\$ method and provides ultimate flexibility\+:
+
+The formatter needs a parameter to be passed in that follows the following format\+:
+
+{\ttfamily $<$case1$>$\&lt;range11$>$"{}$<$format$>$\char`\"{}@<range12$>$@\char`\"{}$<$format$>$"{}\&lt;range13$>$...@}
+
+{\ttfamily $<$case2$>$\&lt;range21$>$...} and so on.
+
+Individual cases are separated by @ and items in a case by .
+
+Cases are just integers or the character $\ast$ and will tell the formatter to apply the following formats if there are less or equal authors given to it. The cases must be in strict increasing order with the $\ast$ in the last position.
+
+For instance\+:
+
+case1 = 2 case2 = 3 case3 = $\ast$
+
+Ranges are either $<$integer$>$..$<$integer$>$, $<$integer$>$ or the character $\ast$ using a 1 based index for indexing authors from the given authorlist. Integer indexes can be negative to denote them to start from the end of the list where -\/1 is the last author.
+
+For instance with an authorlist of \char`\"{}\+Joe Doe and Mary Jane and Bruce Bar and Arthur Kay\char`\"{}\+:
+
+1..3 will affect Joe, Mary and Bruce
+
+4..4 will affect Arthur
+
+
+\begin{DoxyItemize}
+\item will affect all of them
+\end{DoxyItemize}
+
+2..-\/1 will affect Mary, Bruce and Arthur
+
+The $<$format$>$ uses the Bibtex formatter format\+:
+
+The four letter v, f, l, j indicate the name parts von, first, last, jr which are used within curly braces. A single letter v, f, l, j indicates that the name should be abbreviated. To put a quote in the format string quote it using "{} (mh. this doesn\textquotesingle{}t work yet)
+
+I give some examples but would rather point you to the bibtex documentation.
+
+\char`\"{}\{ll\}, \{f\}.\char`\"{} Will turn \char`\"{}\+Joe Doe\char`\"{} into \char`\"{}\+Doe, J.\char`\"{}
+
+Complete example\+:
+
+To turn\+:
+
+\char`\"{}\+Joe Doe and Mary Jane and Bruce Bar and Arthur Kay\char`\"{}
+
+into
+
+\char`\"{}\+Doe, J., Jane, M., Bar, B. and Kay, A.\char`\"{}
+
+you would use
+
+1@$\ast$ll\}, \{f\}.@2@1ll\}, \{f\}.@2@ and \{ll\}, \{f\}.@$\ast$@1..-\/3ll\}, \{f\}., -\/2ll\}, \{f\}.-\/1@ and \{ll\}, \{f\}.
+
+Yeah this is trouble-\/some to write, but should work.
+
+For more examples see the test-\/cases. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a3ab003316001355557aac38c142823fd}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a3ab003316001355557aac38c142823fd}} 
+\index{org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}!format@{format}}
+\index{format@{format}!org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+Name\+Formatter.\+format (\begin{DoxyParamCaption}\item[{String}]{field\+Text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Failure Mode\+: 
+
+Formatters should be robust in the sense that they always return some relevant string. 
+
+If the formatter can detect an invalid input it should return the original string otherwise it may simply return a wrong output.
+
+
+\begin{DoxyParams}{Parameters}
+{\em field\+Text} & The text to layout. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The layouted text. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_ae94ffc8b15278725ad6d0d2f3f776711}{org.\+jabref.\+logic.\+layout.\+Layout\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a08b5e28158878d7c09f10b6988a69743}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a08b5e28158878d7c09f10b6988a69743}} 
+\index{org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}!format@{format}}
+\index{format@{format}!org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+layout.\+format.\+Name\+Formatter.\+format (\begin{DoxyParamCaption}\item[{String}]{to\+Format,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author_list}{Author\+List}}}]{al,  }\item[{String\mbox{[}$\,$\mbox{]}}]{formats }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_aad421b6147c9e3dc052ac530a36b1048}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_aad421b6147c9e3dc052ac530a36b1048}} 
+\index{org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}!format@{format}}
+\index{format@{format}!org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+Name\+Formatter.\+format (\begin{DoxyParamCaption}\item[{String}]{to\+Format,  }\item[{String}]{in\+Parameters }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a4bab9f5d9f4bd1fde6cca24406f6ab85}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a4bab9f5d9f4bd1fde6cca24406f6ab85}} 
+\index{org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}!getNameFormatters@{getNameFormatters}}
+\index{getNameFormatters@{getNameFormatters}!org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}}
+\doxysubsubsection{\texorpdfstring{getNameFormatters()}{getNameFormatters()}}
+{\footnotesize\ttfamily static Map$<$String, String$>$ org.\+jabref.\+logic.\+layout.\+format.\+Name\+Formatter.\+get\+Name\+Formatters (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_preferences}{Name\+Formatter\+Preferences}}}]{prefs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_ad36e976243c7377ef804c0ba9e42b475}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_ad36e976243c7377ef804c0ba9e42b475}} 
+\index{org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}!setParameter@{setParameter}}
+\index{setParameter@{setParameter}!org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}}
+\doxysubsubsection{\texorpdfstring{setParameter()}{setParameter()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+layout.\+format.\+Name\+Formatter.\+set\+Parameter (\begin{DoxyParamCaption}\item[{String}]{parameter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a354a75648f9ee07eded044f374274b86}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a354a75648f9ee07eded044f374274b86}} 
+\index{org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}!DEFAULT\_FORMAT@{DEFAULT\_FORMAT}}
+\index{DEFAULT\_FORMAT@{DEFAULT\_FORMAT}!org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}}
+\doxysubsubsection{\texorpdfstring{DEFAULT\_FORMAT}{DEFAULT\_FORMAT}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+layout.\+format.\+Name\+Formatter.\+D\+E\+F\+A\+U\+L\+T\+\_\+\+F\+O\+R\+M\+AT = \char`\"{}1@$\ast$@\{ff \}\{vv \}\{ll\}\{, jj\}@@$\ast$@1@\{ff \}\{vv \}\{ll\}\{, jj\}@$\ast$@, \{ff \}\{vv \}\{ll\}\{, jj\}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a4911f2f16b1cf2defc736ec85acb9281}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a4911f2f16b1cf2defc736ec85acb9281}} 
+\index{org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}!parameter@{parameter}}
+\index{parameter@{parameter}!org.jabref.logic.layout.format.NameFormatter@{org.jabref.logic.layout.format.NameFormatter}}
+\doxysubsubsection{\texorpdfstring{parameter}{parameter}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+Name\+Formatter.\+parameter = \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_name_formatter_a354a75648f9ee07eded044f374274b86}{Name\+Formatter.\+D\+E\+F\+A\+U\+L\+T\+\_\+\+F\+O\+R\+M\+AT}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/layout/format/\mbox{\hyperlink{_name_formatter_8java}{Name\+Formatter.\+java}}\end{DoxyCompactItemize}

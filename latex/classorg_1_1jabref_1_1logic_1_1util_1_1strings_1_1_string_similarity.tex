@@ -1,0 +1,63 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity}{}\doxysection{org.\+jabref.\+logic.\+util.\+strings.\+String\+Similarity Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity}\index{org.jabref.logic.util.strings.StringSimilarity@{org.jabref.logic.util.strings.StringSimilarity}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_ab7260e9c915bd18a59595aaf23588fbd}{is\+Similar}} (String \mbox{\hyperlink{_readme_8txt_a4a72c9f4aeead17626fb9869ba1e4f1f}{a}}, String b)
+\item 
+double \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_ad0b0641c8fe3212518e6ee9e10969a63}{edit\+Distance\+Ignore\+Case}} (String \mbox{\hyperlink{_readme_8txt_a4a72c9f4aeead17626fb9869ba1e4f1f}{a}}, String b)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Levenshtein \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_a88651489fd0d336fa3ddbca5140e767c}{M\+E\+T\+R\+I\+C\+\_\+\+D\+I\+S\+T\+A\+N\+CE}} = new Levenshtein()
+\item 
+final int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_a54cec578bbcfdbf1ac81c03b68cd4278}{M\+E\+T\+R\+I\+C\+\_\+\+T\+H\+R\+E\+S\+H\+O\+LD}} = 4
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_ad0b0641c8fe3212518e6ee9e10969a63}\label{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_ad0b0641c8fe3212518e6ee9e10969a63}} 
+\index{org.jabref.logic.util.strings.StringSimilarity@{org.jabref.logic.util.strings.StringSimilarity}!editDistanceIgnoreCase@{editDistanceIgnoreCase}}
+\index{editDistanceIgnoreCase@{editDistanceIgnoreCase}!org.jabref.logic.util.strings.StringSimilarity@{org.jabref.logic.util.strings.StringSimilarity}}
+\doxysubsubsection{\texorpdfstring{editDistanceIgnoreCase()}{editDistanceIgnoreCase()}}
+{\footnotesize\ttfamily double org.\+jabref.\+logic.\+util.\+strings.\+String\+Similarity.\+edit\+Distance\+Ignore\+Case (\begin{DoxyParamCaption}\item[{String}]{a,  }\item[{String}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_ab7260e9c915bd18a59595aaf23588fbd}\label{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_ab7260e9c915bd18a59595aaf23588fbd}} 
+\index{org.jabref.logic.util.strings.StringSimilarity@{org.jabref.logic.util.strings.StringSimilarity}!isSimilar@{isSimilar}}
+\index{isSimilar@{isSimilar}!org.jabref.logic.util.strings.StringSimilarity@{org.jabref.logic.util.strings.StringSimilarity}}
+\doxysubsubsection{\texorpdfstring{isSimilar()}{isSimilar()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+util.\+strings.\+String\+Similarity.\+is\+Similar (\begin{DoxyParamCaption}\item[{String}]{a,  }\item[{String}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+String similarity based on Levenshtein, ignore\+Case, and fixed metric threshold of 4.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & String to compare \\
+\hline
+{\em b} & String to compare \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if Strings are considered as similar by the algorithm 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_a88651489fd0d336fa3ddbca5140e767c}\label{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_a88651489fd0d336fa3ddbca5140e767c}} 
+\index{org.jabref.logic.util.strings.StringSimilarity@{org.jabref.logic.util.strings.StringSimilarity}!METRIC\_DISTANCE@{METRIC\_DISTANCE}}
+\index{METRIC\_DISTANCE@{METRIC\_DISTANCE}!org.jabref.logic.util.strings.StringSimilarity@{org.jabref.logic.util.strings.StringSimilarity}}
+\doxysubsubsection{\texorpdfstring{METRIC\_DISTANCE}{METRIC\_DISTANCE}}
+{\footnotesize\ttfamily final Levenshtein org.\+jabref.\+logic.\+util.\+strings.\+String\+Similarity.\+M\+E\+T\+R\+I\+C\+\_\+\+D\+I\+S\+T\+A\+N\+CE = new Levenshtein()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_a54cec578bbcfdbf1ac81c03b68cd4278}\label{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_string_similarity_a54cec578bbcfdbf1ac81c03b68cd4278}} 
+\index{org.jabref.logic.util.strings.StringSimilarity@{org.jabref.logic.util.strings.StringSimilarity}!METRIC\_THRESHOLD@{METRIC\_THRESHOLD}}
+\index{METRIC\_THRESHOLD@{METRIC\_THRESHOLD}!org.jabref.logic.util.strings.StringSimilarity@{org.jabref.logic.util.strings.StringSimilarity}}
+\doxysubsubsection{\texorpdfstring{METRIC\_THRESHOLD}{METRIC\_THRESHOLD}}
+{\footnotesize\ttfamily final int org.\+jabref.\+logic.\+util.\+strings.\+String\+Similarity.\+M\+E\+T\+R\+I\+C\+\_\+\+T\+H\+R\+E\+S\+H\+O\+LD = 4\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/util/strings/\mbox{\hyperlink{_string_similarity_8java}{String\+Similarity.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,127 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory}{}\doxysection{org.\+jabref.\+gui.\+actions.\+Action\+Factory Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory}\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a8b3bf6fdef9df6fe23471b51bd96bb5d}{Action\+Factory}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_repository}{Key\+Binding\+Repository}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a8e0748b00730f60cf0acac15c3afa535}{key\+Binding\+Repository}})
+\item 
+Menu\+Item \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_ae65dc68de8c69eaabb1e4c9e003342b9}{configure\+Menu\+Item}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}} action, Command command, Menu\+Item menu\+Item)
+\item 
+Menu\+Item \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_af9477ae5087366433444096664f7cc31}{create\+Menu\+Item}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}} action, Command command)
+\item 
+Check\+Menu\+Item \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a6d234ef7f69cb1f316e98e371c396cd9}{create\+Check\+Menu\+Item}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}} action, Command command, boolean selected)
+\item 
+Menu \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a21cab42c68ed696001368ec72dda0681}{create\+Menu}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}} action)
+\item 
+Menu \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a85c614c8c0b6d8afd5fa79f0afc17cdb}{create\+Sub\+Menu}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}} action, Menu\+Item... children)
+\item 
+Button \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a8c8e2c8628d894a5221a9f1b92128bb3}{create\+Icon\+Button}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}} action, Command command)
+\item 
+Button\+Base \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a22cc1239a39d0c71e388ae31705f1900}{configure\+Icon\+Button}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}} action, Command command, Button\+Base button)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a50d3ba0a343f8149dc2cec445fbb0897}{set\+Graphic}} (Menu\+Item node, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}} action)
+\item 
+static Label \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a7ea8092261b3ce774ce7bcafb9af42ab}{get\+Associated\+Node}} (Menu\+Item menu\+Item)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_repository}{Key\+Binding\+Repository}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a8e0748b00730f60cf0acac15c3afa535}{key\+Binding\+Repository}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a385f894c286b71565d1015debc777205}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Action\+Factory.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Helper class to create and style controls according to an \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a8b3bf6fdef9df6fe23471b51bd96bb5d}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a8b3bf6fdef9df6fe23471b51bd96bb5d}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!ActionFactory@{ActionFactory}}
+\index{ActionFactory@{ActionFactory}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{ActionFactory()}{ActionFactory()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+Action\+Factory (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_repository}{Key\+Binding\+Repository}}}]{key\+Binding\+Repository }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a22cc1239a39d0c71e388ae31705f1900}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a22cc1239a39d0c71e388ae31705f1900}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!configureIconButton@{configureIconButton}}
+\index{configureIconButton@{configureIconButton}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{configureIconButton()}{configureIconButton()}}
+{\footnotesize\ttfamily Button\+Base org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+configure\+Icon\+Button (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}}}]{action,  }\item[{Command}]{command,  }\item[{Button\+Base}]{button }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_ae65dc68de8c69eaabb1e4c9e003342b9}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_ae65dc68de8c69eaabb1e4c9e003342b9}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!configureMenuItem@{configureMenuItem}}
+\index{configureMenuItem@{configureMenuItem}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{configureMenuItem()}{configureMenuItem()}}
+{\footnotesize\ttfamily Menu\+Item org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+configure\+Menu\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}}}]{action,  }\item[{Command}]{command,  }\item[{Menu\+Item}]{menu\+Item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a6d234ef7f69cb1f316e98e371c396cd9}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a6d234ef7f69cb1f316e98e371c396cd9}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!createCheckMenuItem@{createCheckMenuItem}}
+\index{createCheckMenuItem@{createCheckMenuItem}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{createCheckMenuItem()}{createCheckMenuItem()}}
+{\footnotesize\ttfamily Check\+Menu\+Item org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+create\+Check\+Menu\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}}}]{action,  }\item[{Command}]{command,  }\item[{boolean}]{selected }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a8c8e2c8628d894a5221a9f1b92128bb3}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a8c8e2c8628d894a5221a9f1b92128bb3}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!createIconButton@{createIconButton}}
+\index{createIconButton@{createIconButton}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{createIconButton()}{createIconButton()}}
+{\footnotesize\ttfamily Button org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+create\+Icon\+Button (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}}}]{action,  }\item[{Command}]{command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a21cab42c68ed696001368ec72dda0681}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a21cab42c68ed696001368ec72dda0681}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!createMenu@{createMenu}}
+\index{createMenu@{createMenu}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{createMenu()}{createMenu()}}
+{\footnotesize\ttfamily Menu org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+create\+Menu (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}}}]{action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_af9477ae5087366433444096664f7cc31}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_af9477ae5087366433444096664f7cc31}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!createMenuItem@{createMenuItem}}
+\index{createMenuItem@{createMenuItem}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{createMenuItem()}{createMenuItem()}}
+{\footnotesize\ttfamily Menu\+Item org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+create\+Menu\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}}}]{action,  }\item[{Command}]{command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a85c614c8c0b6d8afd5fa79f0afc17cdb}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a85c614c8c0b6d8afd5fa79f0afc17cdb}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!createSubMenu@{createSubMenu}}
+\index{createSubMenu@{createSubMenu}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{createSubMenu()}{createSubMenu()}}
+{\footnotesize\ttfamily Menu org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+create\+Sub\+Menu (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}}}]{action,  }\item[{Menu\+Item...}]{children }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a7ea8092261b3ce774ce7bcafb9af42ab}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a7ea8092261b3ce774ce7bcafb9af42ab}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!getAssociatedNode@{getAssociatedNode}}
+\index{getAssociatedNode@{getAssociatedNode}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{getAssociatedNode()}{getAssociatedNode()}}
+{\footnotesize\ttfamily static Label org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+get\+Associated\+Node (\begin{DoxyParamCaption}\item[{Menu\+Item}]{menu\+Item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a50d3ba0a343f8149dc2cec445fbb0897}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a50d3ba0a343f8149dc2cec445fbb0897}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!setGraphic@{setGraphic}}
+\index{setGraphic@{setGraphic}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{setGraphic()}{setGraphic()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+set\+Graphic (\begin{DoxyParamCaption}\item[{Menu\+Item}]{node,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}}}]{action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+For some reason the graphic is not set correctly by the \mbox{\hyperlink{}{Action\+Utils}} class, so we have to fix this by hand 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a8e0748b00730f60cf0acac15c3afa535}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a8e0748b00730f60cf0acac15c3afa535}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!keyBindingRepository@{keyBindingRepository}}
+\index{keyBindingRepository@{keyBindingRepository}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{keyBindingRepository}{keyBindingRepository}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_repository}{Key\+Binding\+Repository}} org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+key\+Binding\+Repository\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a385f894c286b71565d1015debc777205}\label{classorg_1_1jabref_1_1gui_1_1actions_1_1_action_factory_a385f894c286b71565d1015debc777205}} 
+\index{org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.actions.ActionFactory@{org.jabref.gui.actions.ActionFactory}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+actions.\+Action\+Factory.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Action\+Factory.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/actions/\mbox{\hyperlink{_action_factory_8java}{Action\+Factory.\+java}}\end{DoxyCompactItemize}

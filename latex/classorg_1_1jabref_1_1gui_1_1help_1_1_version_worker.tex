@@ -1,0 +1,121 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker}{}\doxysection{org.\+jabref.\+gui.\+help.\+Version\+Worker Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker}\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a2d1c22af09b7c647e673f648435e77c8}{Version\+Worker}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_ad445fab4000d6da54aacf4f99c1db9b7}{installed\+Version}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a1136c0cea75f799696d5c3408c2c48f3}{to\+Be\+Ignored}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a4d4d804e431f850bc0d9d955b9480fab}{dialog\+Service}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_aa28d2aee5cf0908ad310b3742e0bf553}{task\+Executor}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a01988ac04064f4678b2ca942acd91b49}{check\+For\+New\+Version\+Async}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_af4cfa960f76c2e820fc41aeba45bdcf9}{check\+For\+New\+Version\+Delayed}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a6f55cc4cbec2e23a1b5be3b00ea1330d}{get\+New\+Version}} ()  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a049ce56b99ec08efb5f65275cec28e80}{show\+Connection\+Error}} (Exception exception, boolean manual\+Execution)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a992b99b8f9b4923c4aee5b8c9d3a1275}{show\+Update\+Info}} (Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} $>$ newer\+Version, boolean manual\+Execution)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_ad445fab4000d6da54aacf4f99c1db9b7}{installed\+Version}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a1136c0cea75f799696d5c3408c2c48f3}{to\+Be\+Ignored}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a4d4d804e431f850bc0d9d955b9480fab}{dialog\+Service}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_aa28d2aee5cf0908ad310b3742e0bf553}{task\+Executor}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a9b7bde667bece4fb755f99221f18e5e8}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Version\+Worker.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This worker checks if there is a new version of Jab\+Ref available. If there is it will display a dialog to the user offering him multiple options to proceed (see changelog, go to the download page, ignore this version, and remind later).
+
+If the versions check is executed manually and this is the latest version it will also display a dialog to inform the user. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a2d1c22af09b7c647e673f648435e77c8}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a2d1c22af09b7c647e673f648435e77c8}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!VersionWorker@{VersionWorker}}
+\index{VersionWorker@{VersionWorker}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{VersionWorker()}{VersionWorker()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+help.\+Version\+Worker.\+Version\+Worker (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}}}]{installed\+Version,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}}}]{to\+Be\+Ignored,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}}}]{task\+Executor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a01988ac04064f4678b2ca942acd91b49}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a01988ac04064f4678b2ca942acd91b49}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!checkForNewVersionAsync@{checkForNewVersionAsync}}
+\index{checkForNewVersionAsync@{checkForNewVersionAsync}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{checkForNewVersionAsync()}{checkForNewVersionAsync()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+help.\+Version\+Worker.\+check\+For\+New\+Version\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_af4cfa960f76c2e820fc41aeba45bdcf9}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_af4cfa960f76c2e820fc41aeba45bdcf9}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!checkForNewVersionDelayed@{checkForNewVersionDelayed}}
+\index{checkForNewVersionDelayed@{checkForNewVersionDelayed}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{checkForNewVersionDelayed()}{checkForNewVersionDelayed()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+help.\+Version\+Worker.\+check\+For\+New\+Version\+Delayed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a6f55cc4cbec2e23a1b5be3b00ea1330d}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a6f55cc4cbec2e23a1b5be3b00ea1330d}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!getNewVersion@{getNewVersion}}
+\index{getNewVersion@{getNewVersion}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{getNewVersion()}{getNewVersion()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}}$>$ org.\+jabref.\+gui.\+help.\+Version\+Worker.\+get\+New\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Returns a newer version excluding any non-\/stable versions, except if the installed one is unstable too. If no newer version was found, then an empty optional is returned. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a049ce56b99ec08efb5f65275cec28e80}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a049ce56b99ec08efb5f65275cec28e80}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!showConnectionError@{showConnectionError}}
+\index{showConnectionError@{showConnectionError}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{showConnectionError()}{showConnectionError()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+help.\+Version\+Worker.\+show\+Connection\+Error (\begin{DoxyParamCaption}\item[{Exception}]{exception,  }\item[{boolean}]{manual\+Execution }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Prints the connection problem to the status bar and shows a dialog if it was executed manually \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a992b99b8f9b4923c4aee5b8c9d3a1275}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a992b99b8f9b4923c4aee5b8c9d3a1275}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!showUpdateInfo@{showUpdateInfo}}
+\index{showUpdateInfo@{showUpdateInfo}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{showUpdateInfo()}{showUpdateInfo()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+help.\+Version\+Worker.\+show\+Update\+Info (\begin{DoxyParamCaption}\item[{Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} $>$}]{newer\+Version,  }\item[{boolean}]{manual\+Execution }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Prints up-\/to-\/date to the status bar (and shows a dialog it was executed manually) if there is now new version. Shows a \char`\"{}\+New Version\char`\"{} \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog}{Dialog}} to the user if there is. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a4d4d804e431f850bc0d9d955b9480fab}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a4d4d804e431f850bc0d9d955b9480fab}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+help.\+Version\+Worker.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_ad445fab4000d6da54aacf4f99c1db9b7}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_ad445fab4000d6da54aacf4f99c1db9b7}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!installedVersion@{installedVersion}}
+\index{installedVersion@{installedVersion}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{installedVersion}{installedVersion}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} org.\+jabref.\+gui.\+help.\+Version\+Worker.\+installed\+Version\hspace{0.3cm}{\ttfamily [private]}}
+
+The current version of the installed Jab\+Ref \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a9b7bde667bece4fb755f99221f18e5e8}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a9b7bde667bece4fb755f99221f18e5e8}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+help.\+Version\+Worker.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Version\+Worker.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_aa28d2aee5cf0908ad310b3742e0bf553}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_aa28d2aee5cf0908ad310b3742e0bf553}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!taskExecutor@{taskExecutor}}
+\index{taskExecutor@{taskExecutor}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{taskExecutor}{taskExecutor}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} org.\+jabref.\+gui.\+help.\+Version\+Worker.\+task\+Executor\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a1136c0cea75f799696d5c3408c2c48f3}\label{classorg_1_1jabref_1_1gui_1_1help_1_1_version_worker_a1136c0cea75f799696d5c3408c2c48f3}} 
+\index{org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}!toBeIgnored@{toBeIgnored}}
+\index{toBeIgnored@{toBeIgnored}!org.jabref.gui.help.VersionWorker@{org.jabref.gui.help.VersionWorker}}
+\doxysubsubsection{\texorpdfstring{toBeIgnored}{toBeIgnored}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} org.\+jabref.\+gui.\+help.\+Version\+Worker.\+to\+Be\+Ignored\hspace{0.3cm}{\ttfamily [private]}}
+
+The version which was previously ignored by the user 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/help/\mbox{\hyperlink{_version_worker_8java}{Version\+Worker.\+java}}\end{DoxyCompactItemize}

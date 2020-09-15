@@ -1,0 +1,81 @@
+\hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator}{}\doxysection{org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+Comparator Class Reference}
+\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator}\index{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a76fa9afa8bbb3c87b78f588effaf2184}{Comparator}} (String field, String value, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparison_operator}{Comparison\+Operator}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a9dd5d45dd89a082ac024955c237e1713}{operator}}, boolean case\+Sensitive, boolean regex)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_aeae4eb95bc14cb174a734c1c77e53a5c}{compare}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_aa5ad0511cd7d9c8b88454b03e8d2d9a0}{match\+Field\+Value}} (String content)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Predicate$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a7a248f64745c3fd26927f93ccae976ca}{match\+Field\+Key}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparison_operator}{Comparison\+Operator}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a9dd5d45dd89a082ac024955c237e1713}{operator}}
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a3d89b82344ffb5954116822881f64006}{field\+Pattern}}
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a9d974539d608e079f8e0d2aee7b5ac2c}{value\+Pattern}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a76fa9afa8bbb3c87b78f588effaf2184}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a76fa9afa8bbb3c87b78f588effaf2184}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}!Comparator@{Comparator}}
+\index{Comparator@{Comparator}!org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}}
+\doxysubsubsection{\texorpdfstring{Comparator()}{Comparator()}}
+{\footnotesize\ttfamily org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+Comparator.\+Comparator (\begin{DoxyParamCaption}\item[{String}]{field,  }\item[{String}]{value,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparison_operator}{Comparison\+Operator}}}]{operator,  }\item[{boolean}]{case\+Sensitive,  }\item[{boolean}]{regex }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_aeae4eb95bc14cb174a734c1c77e53a5c}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_aeae4eb95bc14cb174a734c1c77e53a5c}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}!compare@{compare}}
+\index{compare@{compare}!org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}}
+\doxysubsubsection{\texorpdfstring{compare()}{compare()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+Comparator.\+compare (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a7a248f64745c3fd26927f93ccae976ca}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a7a248f64745c3fd26927f93ccae976ca}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}!matchFieldKey@{matchFieldKey}}
+\index{matchFieldKey@{matchFieldKey}!org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}}
+\doxysubsubsection{\texorpdfstring{matchFieldKey()}{matchFieldKey()}}
+{\footnotesize\ttfamily Predicate$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}$>$ org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+Comparator.\+match\+Field\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_aa5ad0511cd7d9c8b88454b03e8d2d9a0}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_aa5ad0511cd7d9c8b88454b03e8d2d9a0}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}!matchFieldValue@{matchFieldValue}}
+\index{matchFieldValue@{matchFieldValue}!org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}}
+\doxysubsubsection{\texorpdfstring{matchFieldValue()}{matchFieldValue()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+Comparator.\+match\+Field\+Value (\begin{DoxyParamCaption}\item[{String}]{content }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a3d89b82344ffb5954116822881f64006}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a3d89b82344ffb5954116822881f64006}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}!fieldPattern@{fieldPattern}}
+\index{fieldPattern@{fieldPattern}!org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}}
+\doxysubsubsection{\texorpdfstring{fieldPattern}{fieldPattern}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+Comparator.\+field\+Pattern\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a9dd5d45dd89a082ac024955c237e1713}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a9dd5d45dd89a082ac024955c237e1713}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}!operator@{operator}}
+\index{operator@{operator}!org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}}
+\doxysubsubsection{\texorpdfstring{operator}{operator}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparison_operator}{Comparison\+Operator}} org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+Comparator.\+operator\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a9d974539d608e079f8e0d2aee7b5ac2c}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator_a9d974539d608e079f8e0d2aee7b5ac2c}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}!valuePattern@{valuePattern}}
+\index{valuePattern@{valuePattern}!org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator@{org.jabref.model.search.rules.GrammarBasedSearchRule.Comparator}}
+\doxysubsubsection{\texorpdfstring{valuePattern}{valuePattern}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+Comparator.\+value\+Pattern\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/model/search/rules/\mbox{\hyperlink{_grammar_based_search_rule_8java}{Grammar\+Based\+Search\+Rule.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,177 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane}{}\doxysection{org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane}\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+Inheritance diagram for org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a8ad7251eee0963020092b95ea81e7af7}{Group\+Side\+Pane}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager}{Side\+Pane\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component_a737354886336e95dc6c61cd25196cf16}{manager}}, \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a2e7ccf19cf795aee6f231d8660870c89}{preferences}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a2fbb466dfdf08f2629afae34d2b12ae8}{dialog\+Service}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a066b47c6c84c9b2fab9713f55c35239c}{after\+Opening}} ()
+\item 
+Priority \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_adeb1558c09c75bebfb34e6b1b9afa8da}{get\+Resize\+Policy}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a4f125d0e3cc66edabb0f762ac10b6d17}{before\+Closing}} ()
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a68fa6467fccab756cd64afe7967d9ef4}{get\+Toggle\+Action}} ()
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a9e37105713c42beb729d26ab62774b20}{get\+Type}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Node $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a7b545911fd2abe348deed661c1257cf3}{get\+Additional\+Header\+Buttons}} ()
+\item 
+Node \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_ac90971c96e0b883c92a12d3921d873d3}{create\+Content\+Pane}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a59c7fadce46981148e44996203acb0ef}{toggle\+Union\+Intersection}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a8a7d3095f866acd1d60f3b2ff0996b89}{set\+Graphics\+And\+Tooltip\+For\+Button}} (\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1groups_1_1_group_view_mode}{Group\+View\+Mode}} mode)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a2e7ccf19cf795aee6f231d8660870c89}{preferences}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a2fbb466dfdf08f2629afae34d2b12ae8}{dialog\+Service}}
+\item 
+final Button \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a55406da6ae8845735f889c4dcb469e2b}{intersection\+Union\+Toggle}} = Icon\+Theme.\+Jab\+Ref\+Icons.\+G\+R\+O\+U\+P\+\_\+\+I\+N\+T\+E\+R\+S\+E\+C\+T\+I\+O\+N.\+as\+Button()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The groups side pane. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a8ad7251eee0963020092b95ea81e7af7}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a8ad7251eee0963020092b95ea81e7af7}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!GroupSidePane@{GroupSidePane}}
+\index{GroupSidePane@{GroupSidePane}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{GroupSidePane()}{GroupSidePane()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+Group\+Side\+Pane (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager}{Side\+Pane\+Manager}}}]{manager,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}}}]{preferences,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a066b47c6c84c9b2fab9713f55c35239c}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a066b47c6c84c9b2fab9713f55c35239c}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!afterOpening@{afterOpening}}
+\index{afterOpening@{afterOpening}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{afterOpening()}{afterOpening()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+after\+Opening (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Override this method if the component needs to do any actions after it is shown. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component_a8c32447cf6e363b67e4ade9a75f10872}{org.\+jabref.\+gui.\+Side\+Pane\+Component}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a4f125d0e3cc66edabb0f762ac10b6d17}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a4f125d0e3cc66edabb0f762ac10b6d17}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!beforeClosing@{beforeClosing}}
+\index{beforeClosing@{beforeClosing}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{beforeClosing()}{beforeClosing()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+before\+Closing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Override this method if the component needs to make any changes before it can close. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component_a93cc6117685fd858c5c94e6da855d12d}{org.\+jabref.\+gui.\+Side\+Pane\+Component}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_ac90971c96e0b883c92a12d3921d873d3}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_ac90971c96e0b883c92a12d3921d873d3}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!createContentPane@{createContentPane}}
+\index{createContentPane@{createContentPane}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{createContentPane()}{createContentPane()}}
+{\footnotesize\ttfamily Node org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+create\+Content\+Pane (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Create the content of this component
+
+@impl\+Note The \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager}{Side\+Pane\+Manager}} always creates an instance of every side component (e.\+g., to get the toggle action) but we only want to create the content view if the component is shown to save resources. This is the reason for the lazy loading. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component_abce9c6f80d0fbd64eea10b3839730e0d}{org.\+jabref.\+gui.\+Side\+Pane\+Component}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a7b545911fd2abe348deed661c1257cf3}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a7b545911fd2abe348deed661c1257cf3}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!getAdditionalHeaderButtons@{getAdditionalHeaderButtons}}
+\index{getAdditionalHeaderButtons@{getAdditionalHeaderButtons}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{getAdditionalHeaderButtons()}{getAdditionalHeaderButtons()}}
+{\footnotesize\ttfamily List$<$Node$>$ org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+get\+Additional\+Header\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component_aaf84acb0255f3ef5bccd065725129bad}{org.\+jabref.\+gui.\+Side\+Pane\+Component}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_adeb1558c09c75bebfb34e6b1b9afa8da}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_adeb1558c09c75bebfb34e6b1b9afa8da}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!getResizePolicy@{getResizePolicy}}
+\index{getResizePolicy@{getResizePolicy}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{getResizePolicy()}{getResizePolicy()}}
+{\footnotesize\ttfamily Priority org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+get\+Resize\+Policy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Specifies how to this side pane component behaves if there is additional vertical space. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component_a120ca6ddba7f2ca4a97820037ff4b577}{org.\+jabref.\+gui.\+Side\+Pane\+Component}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a68fa6467fccab756cd64afe7967d9ef4}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a68fa6467fccab756cd64afe7967d9ef4}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!getToggleAction@{getToggleAction}}
+\index{getToggleAction@{getToggleAction}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{getToggleAction()}{getToggleAction()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1actions_1_1_action}{Action}} org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+get\+Toggle\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+the action to toggle this \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component_a7c96313441732c949e4588c67d83102d}{org.\+jabref.\+gui.\+Side\+Pane\+Component}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a9e37105713c42beb729d26ab62774b20}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a9e37105713c42beb729d26ab62774b20}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!getType@{getType}}
+\index{getType@{getType}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}} org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+the type of this component 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component_a2b3a2329cbb610a90b3f5ac43e22441b}{org.\+jabref.\+gui.\+Side\+Pane\+Component}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a8a7d3095f866acd1d60f3b2ff0996b89}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a8a7d3095f866acd1d60f3b2ff0996b89}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!setGraphicsAndTooltipForButton@{setGraphicsAndTooltipForButton}}
+\index{setGraphicsAndTooltipForButton@{setGraphicsAndTooltipForButton}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{setGraphicsAndTooltipForButton()}{setGraphicsAndTooltipForButton()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+set\+Graphics\+And\+Tooltip\+For\+Button (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1groups_1_1_group_view_mode}{Group\+View\+Mode}}}]{mode }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a59c7fadce46981148e44996203acb0ef}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a59c7fadce46981148e44996203acb0ef}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!toggleUnionIntersection@{toggleUnionIntersection}}
+\index{toggleUnionIntersection@{toggleUnionIntersection}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{toggleUnionIntersection()}{toggleUnionIntersection()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+toggle\+Union\+Intersection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a2fbb466dfdf08f2629afae34d2b12ae8}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a2fbb466dfdf08f2629afae34d2b12ae8}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a55406da6ae8845735f889c4dcb469e2b}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a55406da6ae8845735f889c4dcb469e2b}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!intersectionUnionToggle@{intersectionUnionToggle}}
+\index{intersectionUnionToggle@{intersectionUnionToggle}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{intersectionUnionToggle}{intersectionUnionToggle}}
+{\footnotesize\ttfamily final Button org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+intersection\+Union\+Toggle = Icon\+Theme.\+Jab\+Ref\+Icons.\+G\+R\+O\+U\+P\+\_\+\+I\+N\+T\+E\+R\+S\+E\+C\+T\+I\+O\+N.\+as\+Button()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a2e7ccf19cf795aee6f231d8660870c89}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane_a2e7ccf19cf795aee6f231d8660870c89}} 
+\index{org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.gui.groups.GroupSidePane@{org.jabref.gui.groups.GroupSidePane}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} org.\+jabref.\+gui.\+groups.\+Group\+Side\+Pane.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/groups/\mbox{\hyperlink{_group_side_pane_8java}{Group\+Side\+Pane.\+java}}\end{DoxyCompactItemize}

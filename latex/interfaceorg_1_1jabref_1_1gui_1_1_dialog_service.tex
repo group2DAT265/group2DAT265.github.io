@@ -1,0 +1,478 @@
+\hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{}\doxysection{org.\+jabref.\+gui.\+Dialog\+Service Interface Reference}
+\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+Inheritance diagram for org.\+jabref.\+gui.\+Dialog\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ Optional$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a08763105093533918b7d1a666067b96f}{show\+Choice\+Dialog\+And\+Wait}} (String title, String content, String ok\+Button\+Label, \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} default\+Choice, \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ choices)
+\item 
+default$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ Optional$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a055b4301bef74fa963e9da6722b8f60a}{show\+Choice\+Dialog\+And\+Wait}} (String title, String content, String ok\+Button\+Label, \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ choices)
+\item 
+Optional$<$ String $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa55f282be5659059b4fa736dd8bc681d}{show\+Input\+Dialog\+And\+Wait}} (String title, String content)
+\item 
+Optional$<$ String $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a198c36e3022999b5433dd5a1bbb3b8cc}{show\+Input\+Dialog\+With\+Default\+And\+Wait}} (String title, String content, String default\+Value)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ac44e4a7062473be02240c681827e8c93}{show\+Information\+Dialog\+And\+Wait}} (String title, String content)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a16bfc6d233269ae3dccae64467331c5e}{show\+Warning\+Dialog\+And\+Wait}} (String title, String content)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_afbd2817388b296b88316483c7884da76}{show\+Error\+Dialog\+And\+Wait}} (String title, String content)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ae2cb5148ce988c1a34ab25e624ef027f}{show\+Error\+Dialog\+And\+Wait}} (String message, Throwable exception)
+\item 
+default void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa515113672930ebe1deb576dfb47e91b}{show\+Error\+Dialog\+And\+Wait}} (Exception exception)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a6b59fbaf2f4d019c48abe8174a3463e6}{show\+Error\+Dialog\+And\+Wait}} (String title, String content, Throwable exception)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ab075814175510cb3cdd96047aaa025b3}{show\+Error\+Dialog\+And\+Wait}} (String message)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a81679264886250dea0ff26dae96474bb}{show\+Confirmation\+Dialog\+And\+Wait}} (String title, String content)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a263df4abf359e29c914db412627657bd}{show\+Confirmation\+Dialog\+And\+Wait}} (String title, String content, String ok\+Button\+Label)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa108951c8f749c951606f26b514245b3}{show\+Confirmation\+Dialog\+And\+Wait}} (String title, String content, String ok\+Button\+Label, String cancel\+Button\+Label)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa10fd02896a10fc4529e0a59e4f24979}{show\+Confirmation\+Dialog\+With\+Opt\+Out\+And\+Wait}} (String title, String content, String opt\+Out\+Message, Consumer$<$ Boolean $>$ opt\+Out\+Action)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a7fa013fe24e834c74a0ec497207eab6e}{show\+Confirmation\+Dialog\+With\+Opt\+Out\+And\+Wait}} (String title, String content, String ok\+Button\+Label, String cancel\+Button\+Label, String opt\+Out\+Message, Consumer$<$ Boolean $>$ opt\+Out\+Action)
+\item 
+Optional$<$ Button\+Type $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa189460d5c987a394368ca9c3911c925}{show\+Custom\+Button\+Dialog\+And\+Wait}} (Alert.\+Alert\+Type type, String title, String content, Button\+Type... button\+Types)
+\item 
+Optional$<$ Button\+Type $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a0085475739379b5fdd2863ff0eecf78c}{show\+Custom\+Dialog\+And\+Wait}} (String title, Dialog\+Pane content\+Pane, Button\+Type... button\+Types)
+\item 
+$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a486088ab76b1e6829b31e5e2304c0461}{R}} $>$ Optional$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a486088ab76b1e6829b31e5e2304c0461}{R}} $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_adb447092a607ae875da0ccf2c213e24c}{show\+Custom\+Dialog\+And\+Wait}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog}{Dialog}}$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a486088ab76b1e6829b31e5e2304c0461}{R}} $>$ dialog)
+\item 
+$<$ V $>$ void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_abdbb4b76690b7c832064324068dc9d40}{show\+Progress\+Dialog}} (String title, String content, Task$<$ V $>$ task)
+\item 
+$<$ V $>$ Optional$<$ Button\+Type $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a2da25ff24e4b91580803ace285070a88}{show\+Background\+Progress\+Dialog\+And\+Wait}} (String title, String content, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} state\+Manager)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a3d900e81c530ef8ed20cedbf8e14b604}{notify}} (String message)
+\item 
+Optional$<$ Path $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a1f9e8c52eaa23106f3e2ad134c2cf2c2}{show\+File\+Save\+Dialog}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration}{File\+Dialog\+Configuration}} file\+Dialog\+Configuration)
+\item 
+Optional$<$ Path $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ae718a112b91c216274a5addfaceb4bab}{show\+File\+Open\+Dialog}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration}{File\+Dialog\+Configuration}} file\+Dialog\+Configuration)
+\item 
+List$<$ Path $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a5cbad1d8a0d72fae1dde8b2ddb436b4b}{show\+File\+Open\+Dialog\+And\+Get\+Multiple\+Files}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration}{File\+Dialog\+Configuration}} file\+Dialog\+Configuration)
+\item 
+Optional$<$ Path $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a0a5e77036e23d396bf83f2f4f08c3a93}{show\+Directory\+Selection\+Dialog}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_directory_dialog_configuration}{Directory\+Dialog\+Configuration}} directory\+Dialog\+Configuration)
+\item 
+boolean \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ae3a5ea03a51f300ad764ab24b3481d56}{show\+Print\+Dialog}} (Printer\+Job job)
+\item 
+Optional$<$ Path $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a1cd78c85efb97632f107125fa3f9c3d7}{show\+File\+Open\+From\+Archive\+Dialog}} (Path archive\+Path)  throws I\+O\+Exception
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This interface provides methods to create dialogs and show them to the user. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a3d900e81c530ef8ed20cedbf8e14b604}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a3d900e81c530ef8ed20cedbf8e14b604}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!notify@{notify}}
+\index{notify@{notify}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{notify()}{notify()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Dialog\+Service.\+notify (\begin{DoxyParamCaption}\item[{String}]{message }\end{DoxyParamCaption})}
+
+Notify the user in an non-\/blocking way (i.\+e., in form of toast in a snackbar).
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & the message to show. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_ac3afd15b62df39b1b9ef54f726fe601a}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a2da25ff24e4b91580803ace285070a88}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a2da25ff24e4b91580803ace285070a88}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showBackgroundProgressDialogAndWait@{showBackgroundProgressDialogAndWait}}
+\index{showBackgroundProgressDialogAndWait@{showBackgroundProgressDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showBackgroundProgressDialogAndWait()}{showBackgroundProgressDialogAndWait()}}
+{\footnotesize\ttfamily $<$V$>$ Optional$<$Button\+Type$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Background\+Progress\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager }\end{DoxyParamCaption})}
+
+Constructs and shows a dialog showing the progress of running background tasks. Clicking cancel will cancel the underlying service and close the dialog. The dialog will exit as soon as none of the background tasks are running
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & title of the dialog \\
+\hline
+{\em content} & message to show below the list of background tasks \\
+\hline
+{\em state\+Manager} & The \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} which contains the background tasks \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a055b4301bef74fa963e9da6722b8f60a}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a055b4301bef74fa963e9da6722b8f60a}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showChoiceDialogAndWait@{showChoiceDialogAndWait}}
+\index{showChoiceDialogAndWait@{showChoiceDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showChoiceDialogAndWait()}{showChoiceDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily default$<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ Optional$<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Choice\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content,  }\item[{String}]{ok\+Button\+Label,  }\item[{\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$}]{choices }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+This will create and display new \mbox{\hyperlink{}{Choice\+Dialog}} of type T with a collection of possible choices \mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a08763105093533918b7d1a666067b96f}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a08763105093533918b7d1a666067b96f}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showChoiceDialogAndWait@{showChoiceDialogAndWait}}
+\index{showChoiceDialogAndWait@{showChoiceDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showChoiceDialogAndWait()}{showChoiceDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ Optional$<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Choice\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content,  }\item[{String}]{ok\+Button\+Label,  }\item[{\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}}]{default\+Choice,  }\item[{\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$}]{choices }\end{DoxyParamCaption})}
+
+This will create and display new \mbox{\hyperlink{}{Choice\+Dialog}} of type T with a default choice and a collection of possible choices
+
+@impl\+Note The implementation should accept
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ for
+\begin{DoxyCode}{0}
+\DoxyCodeLine{defaultChoice }
+\end{DoxyCode}
+ , but callers should use \mbox{\hyperlink{}{show\+Choice\+Dialog\+And\+Wait(\+String, String, String, Collection)}}. \mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a81679264886250dea0ff26dae96474bb}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a81679264886250dea0ff26dae96474bb}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showConfirmationDialogAndWait@{showConfirmationDialogAndWait}}
+\index{showConfirmationDialogAndWait@{showConfirmationDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showConfirmationDialogAndWait()}{showConfirmationDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Confirmation\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content }\end{DoxyParamCaption})}
+
+This will create and display a new confirmation dialog. It will include a blue question icon on the left and a OK and Cancel button. To create a confirmation dialog with custom buttons see also \mbox{\hyperlink{}{show\+Custom\+Button\+Dialog\+And\+Wait(\+Alert.\+Alert\+Type, String, String, Button\+Type...)}}
+
+\begin{DoxyReturn}{Returns}
+true if the use clicked \char`\"{}\+O\+K\char`\"{} otherwise false 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_ae2ee6a466f9bcfa253a268a36683dad9}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a263df4abf359e29c914db412627657bd}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a263df4abf359e29c914db412627657bd}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showConfirmationDialogAndWait@{showConfirmationDialogAndWait}}
+\index{showConfirmationDialogAndWait@{showConfirmationDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showConfirmationDialogAndWait()}{showConfirmationDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Confirmation\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content,  }\item[{String}]{ok\+Button\+Label }\end{DoxyParamCaption})}
+
+Create and display a new confirmation dialog. It will include a blue question icon on the left and a OK (with given label) and Cancel button. To create a confirmation dialog with custom buttons see also \mbox{\hyperlink{}{show\+Custom\+Button\+Dialog\+And\+Wait(\+Alert.\+Alert\+Type, String, String, Button\+Type...)}}.
+
+\begin{DoxyReturn}{Returns}
+true if the use clicked \char`\"{}\+O\+K\char`\"{} otherwise false 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_acb712a67487766bc00abc934a46d3020}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa108951c8f749c951606f26b514245b3}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa108951c8f749c951606f26b514245b3}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showConfirmationDialogAndWait@{showConfirmationDialogAndWait}}
+\index{showConfirmationDialogAndWait@{showConfirmationDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showConfirmationDialogAndWait()}{showConfirmationDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Confirmation\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content,  }\item[{String}]{ok\+Button\+Label,  }\item[{String}]{cancel\+Button\+Label }\end{DoxyParamCaption})}
+
+Create and display a new confirmation dialog. It will include a blue question icon on the left and a OK (with given label) and Cancel (also with given label) button. To create a confirmation dialog with custom buttons see also \mbox{\hyperlink{}{show\+Custom\+Button\+Dialog\+And\+Wait(\+Alert.\+Alert\+Type, String, String, Button\+Type...)}}.
+
+\begin{DoxyReturn}{Returns}
+true if the use clicked \char`\"{}\+O\+K\char`\"{} otherwise false 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_a8893c12737a44e96c6a999564247daec}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a7fa013fe24e834c74a0ec497207eab6e}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a7fa013fe24e834c74a0ec497207eab6e}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showConfirmationDialogWithOptOutAndWait@{showConfirmationDialogWithOptOutAndWait}}
+\index{showConfirmationDialogWithOptOutAndWait@{showConfirmationDialogWithOptOutAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showConfirmationDialogWithOptOutAndWait()}{showConfirmationDialogWithOptOutAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Confirmation\+Dialog\+With\+Opt\+Out\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content,  }\item[{String}]{ok\+Button\+Label,  }\item[{String}]{cancel\+Button\+Label,  }\item[{String}]{opt\+Out\+Message,  }\item[{Consumer$<$ Boolean $>$}]{opt\+Out\+Action }\end{DoxyParamCaption})}
+
+Create and display a new confirmation dialog. It will include a blue question icon on the left and a Y\+ES (with given label) and Cancel (also with given label) button. To create a confirmation dialog with custom buttons see also \mbox{\hyperlink{}{show\+Custom\+Button\+Dialog\+And\+Wait(\+Alert.\+Alert\+Type, String, String, Button\+Type...)}}. Moreover, the dialog contains a opt-\/out checkbox with the given text to support \char`\"{}\+Do not ask again\char`\"{}-\/behaviour.
+
+\begin{DoxyReturn}{Returns}
+true if the use clicked \char`\"{}\+Y\+E\+S\char`\"{} otherwise false 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_a2e96ea526eb007c1954173d2036c820d}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa10fd02896a10fc4529e0a59e4f24979}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa10fd02896a10fc4529e0a59e4f24979}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showConfirmationDialogWithOptOutAndWait@{showConfirmationDialogWithOptOutAndWait}}
+\index{showConfirmationDialogWithOptOutAndWait@{showConfirmationDialogWithOptOutAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showConfirmationDialogWithOptOutAndWait()}{showConfirmationDialogWithOptOutAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Confirmation\+Dialog\+With\+Opt\+Out\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content,  }\item[{String}]{opt\+Out\+Message,  }\item[{Consumer$<$ Boolean $>$}]{opt\+Out\+Action }\end{DoxyParamCaption})}
+
+Create and display a new confirmation dialog. It will include a blue question icon on the left and a Y\+ES (with given label) and Cancel (also with given label) button. To create a confirmation dialog with custom buttons see also \mbox{\hyperlink{}{show\+Custom\+Button\+Dialog\+And\+Wait(\+Alert.\+Alert\+Type, String, String, Button\+Type...)}}. Moreover, the dialog contains a opt-\/out checkbox with the given text to support \char`\"{}\+Do not ask again\char`\"{}-\/behaviour.
+
+\begin{DoxyReturn}{Returns}
+true if the use clicked \char`\"{}\+Y\+E\+S\char`\"{} otherwise false 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_a56f04d722050148a0d5ed161b65990c7}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa189460d5c987a394368ca9c3911c925}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa189460d5c987a394368ca9c3911c925}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showCustomButtonDialogAndWait@{showCustomButtonDialogAndWait}}
+\index{showCustomButtonDialogAndWait@{showCustomButtonDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showCustomButtonDialogAndWait()}{showCustomButtonDialogAndWait()}}
+{\footnotesize\ttfamily Optional$<$Button\+Type$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Custom\+Button\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{Alert.\+Alert\+Type}]{type,  }\item[{String}]{title,  }\item[{String}]{content,  }\item[{Button\+Type...}]{button\+Types }\end{DoxyParamCaption})}
+
+This will create and display a new dialog of the specified \mbox{\hyperlink{}{Alert.\+Alert\+Type}} but with user defined buttons as optional \mbox{\hyperlink{}{Button\+Type}}s.
+
+\begin{DoxyReturn}{Returns}
+Optional with the pressed Button as Button\+Type 
+\end{DoxyReturn}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_adb447092a607ae875da0ccf2c213e24c}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_adb447092a607ae875da0ccf2c213e24c}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showCustomDialogAndWait@{showCustomDialogAndWait}}
+\index{showCustomDialogAndWait@{showCustomDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showCustomDialogAndWait()}{showCustomDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a486088ab76b1e6829b31e5e2304c0461}{R}}$>$ Optional$<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a486088ab76b1e6829b31e5e2304c0461}{R}}$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Custom\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog}{Dialog}}$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a486088ab76b1e6829b31e5e2304c0461}{R}} $>$}]{dialog }\end{DoxyParamCaption})}
+
+Shows a custom dialog and returns the result.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dialog} & dialog to show \\
+\hline
+{\em $<$\+R$>$} & type of result \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a0085475739379b5fdd2863ff0eecf78c}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a0085475739379b5fdd2863ff0eecf78c}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showCustomDialogAndWait@{showCustomDialogAndWait}}
+\index{showCustomDialogAndWait@{showCustomDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showCustomDialogAndWait()}{showCustomDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Optional$<$Button\+Type$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Custom\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{Dialog\+Pane}]{content\+Pane,  }\item[{Button\+Type...}]{button\+Types }\end{DoxyParamCaption})}
+
+This will create and display a new dialog showing a custom \mbox{\hyperlink{}{Dialog\+Pane}} and using custom \mbox{\hyperlink{}{Button\+Type}}s.
+
+\begin{DoxyReturn}{Returns}
+Optional with the pressed Button as Button\+Type 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_abe5217b8684990752a81c256a3efd100}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a0a5e77036e23d396bf83f2f4f08c3a93}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a0a5e77036e23d396bf83f2f4f08c3a93}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showDirectorySelectionDialog@{showDirectorySelectionDialog}}
+\index{showDirectorySelectionDialog@{showDirectorySelectionDialog}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showDirectorySelectionDialog()}{showDirectorySelectionDialog()}}
+{\footnotesize\ttfamily Optional$<$Path$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Directory\+Selection\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_directory_dialog_configuration}{Directory\+Dialog\+Configuration}}}]{directory\+Dialog\+Configuration }\end{DoxyParamCaption})}
+
+Shows a new directory selection dialog. The method doesn\textquotesingle{}t return until the displayed open dialog is dismissed. The return value specifies the file chosen by the user or an empty \mbox{\hyperlink{}{Optional}} if no selection has been made.
+
+\begin{DoxyReturn}{Returns}
+the selected directory or an empty \mbox{\hyperlink{}{Optional}} if no directory has been selected 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_a26430e136dd8b1f78654900a5eb8af44}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa515113672930ebe1deb576dfb47e91b}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa515113672930ebe1deb576dfb47e91b}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showErrorDialogAndWait@{showErrorDialogAndWait}}
+\index{showErrorDialogAndWait@{showErrorDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showErrorDialogAndWait()}{showErrorDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily default void org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Error\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{Exception}]{exception }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create and display error dialog displaying the given exception.
+
+
+\begin{DoxyParams}{Parameters}
+{\em exception} & the exception causing the error \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ab075814175510cb3cdd96047aaa025b3}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ab075814175510cb3cdd96047aaa025b3}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showErrorDialogAndWait@{showErrorDialogAndWait}}
+\index{showErrorDialogAndWait@{showErrorDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showErrorDialogAndWait()}{showErrorDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Error\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{message }\end{DoxyParamCaption})}
+
+Create and display error dialog displaying the given message.
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & the error message \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_a8320e1ae2d749a7fa5db2a22e03e5761}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ae2cb5148ce988c1a34ab25e624ef027f}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ae2cb5148ce988c1a34ab25e624ef027f}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showErrorDialogAndWait@{showErrorDialogAndWait}}
+\index{showErrorDialogAndWait@{showErrorDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showErrorDialogAndWait()}{showErrorDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Error\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{message,  }\item[{Throwable}]{exception }\end{DoxyParamCaption})}
+
+Create and display error dialog displaying the given exception.
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & the error message \\
+\hline
+{\em exception} & the exception causing the error \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_ad86861242e6fab833d7ae6bad2779f44}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_afbd2817388b296b88316483c7884da76}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_afbd2817388b296b88316483c7884da76}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showErrorDialogAndWait@{showErrorDialogAndWait}}
+\index{showErrorDialogAndWait@{showErrorDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showErrorDialogAndWait()}{showErrorDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Error\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content }\end{DoxyParamCaption})}
+
+This will create and display a new error dialog. It will include a red error icon on the left and a single OK Button. To create a error dialog with custom buttons see also \mbox{\hyperlink{}{show\+Custom\+Button\+Dialog\+And\+Wait(\+Alert.\+Alert\+Type, String, String, Button\+Type...)}} 
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_abea30942ba7ad3f7ab8baa0a3a334bd1}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a6b59fbaf2f4d019c48abe8174a3463e6}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a6b59fbaf2f4d019c48abe8174a3463e6}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showErrorDialogAndWait@{showErrorDialogAndWait}}
+\index{showErrorDialogAndWait@{showErrorDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showErrorDialogAndWait()}{showErrorDialogAndWait()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Error\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content,  }\item[{Throwable}]{exception }\end{DoxyParamCaption})}
+
+Create and display error dialog displaying the given exception.
+
+
+\begin{DoxyParams}{Parameters}
+{\em exception} & the exception causing the error \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_af4a3ca826f047b154d2e1cc4ddad5d99}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ae718a112b91c216274a5addfaceb4bab}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ae718a112b91c216274a5addfaceb4bab}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showFileOpenDialog@{showFileOpenDialog}}
+\index{showFileOpenDialog@{showFileOpenDialog}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showFileOpenDialog()}{showFileOpenDialog()}}
+{\footnotesize\ttfamily Optional$<$Path$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+File\+Open\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration}{File\+Dialog\+Configuration}}}]{file\+Dialog\+Configuration }\end{DoxyParamCaption})}
+
+Shows a new file open dialog. The method doesn\textquotesingle{}t return until the displayed open dialog is dismissed. The return value specifies the file chosen by the user or an empty \mbox{\hyperlink{}{Optional}} if no selection has been made. After a file was selected, the given file dialog configuration is updated with the selected extension type (if any).
+
+\begin{DoxyReturn}{Returns}
+the selected file or an empty \mbox{\hyperlink{}{Optional}} if no file has been selected 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_a41665e8e6f2c674eb51141ee8a05ee4c}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a5cbad1d8a0d72fae1dde8b2ddb436b4b}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a5cbad1d8a0d72fae1dde8b2ddb436b4b}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showFileOpenDialogAndGetMultipleFiles@{showFileOpenDialogAndGetMultipleFiles}}
+\index{showFileOpenDialogAndGetMultipleFiles@{showFileOpenDialogAndGetMultipleFiles}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showFileOpenDialogAndGetMultipleFiles()}{showFileOpenDialogAndGetMultipleFiles()}}
+{\footnotesize\ttfamily List$<$Path$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+File\+Open\+Dialog\+And\+Get\+Multiple\+Files (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration}{File\+Dialog\+Configuration}}}]{file\+Dialog\+Configuration }\end{DoxyParamCaption})}
+
+Shows a new file open dialog. The method doesn\textquotesingle{}t return until the displayed open dialog is dismissed. The return value specifies the files chosen by the user or an empty \mbox{\hyperlink{}{List}} if no selection has been made.
+
+\begin{DoxyReturn}{Returns}
+the selected files or an empty \mbox{\hyperlink{}{List}} if no file has been selected 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_a91918d73a5b358e358b9ad9eb756a350}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a1cd78c85efb97632f107125fa3f9c3d7}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a1cd78c85efb97632f107125fa3f9c3d7}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showFileOpenFromArchiveDialog@{showFileOpenFromArchiveDialog}}
+\index{showFileOpenFromArchiveDialog@{showFileOpenFromArchiveDialog}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showFileOpenFromArchiveDialog()}{showFileOpenFromArchiveDialog()}}
+{\footnotesize\ttfamily Optional$<$Path$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+File\+Open\+From\+Archive\+Dialog (\begin{DoxyParamCaption}\item[{Path}]{archive\+Path }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+Shows a new dialog that list all files contained in the given archive and which lets the user select one of these files. The method doesn\textquotesingle{}t return until the displayed open dialog is dismissed. The return value specifies the file chosen by the user or an empty \mbox{\hyperlink{}{Optional}} if no selection has been made.
+
+\begin{DoxyReturn}{Returns}
+the selected file or an empty \mbox{\hyperlink{}{Optional}} if no file has been selected 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_af835b29de8b73bf4b8c553aa54c8906e}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a1f9e8c52eaa23106f3e2ad134c2cf2c2}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a1f9e8c52eaa23106f3e2ad134c2cf2c2}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showFileSaveDialog@{showFileSaveDialog}}
+\index{showFileSaveDialog@{showFileSaveDialog}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showFileSaveDialog()}{showFileSaveDialog()}}
+{\footnotesize\ttfamily Optional$<$Path$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+File\+Save\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration}{File\+Dialog\+Configuration}}}]{file\+Dialog\+Configuration }\end{DoxyParamCaption})}
+
+Shows a new file save dialog. The method doesn\textquotesingle{}t return until the displayed file save dialog is dismissed. The return value specifies the file chosen by the user or an empty \mbox{\hyperlink{}{Optional}} if no selection has been made. After a file was selected, the given file dialog configuration is updated with the selected extension type (if any).
+
+\begin{DoxyReturn}{Returns}
+the selected file or an empty \mbox{\hyperlink{}{Optional}} if no file has been selected 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_a0515d79f05f90469b8d7bb4c211f955d}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ac44e4a7062473be02240c681827e8c93}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ac44e4a7062473be02240c681827e8c93}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showInformationDialogAndWait@{showInformationDialogAndWait}}
+\index{showInformationDialogAndWait@{showInformationDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showInformationDialogAndWait()}{showInformationDialogAndWait()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Information\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content }\end{DoxyParamCaption})}
+
+This will create and display a new information dialog. It will include a blue information icon on the left and a single OK Button. To create an information dialog with custom buttons see also \mbox{\hyperlink{}{show\+Custom\+Button\+Dialog\+And\+Wait(\+Alert.\+Alert\+Type, String, String, Button\+Type...)}} 
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_ae5725e7ad64bd2ba2f24031d7605e6dd}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa55f282be5659059b4fa736dd8bc681d}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_aa55f282be5659059b4fa736dd8bc681d}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showInputDialogAndWait@{showInputDialogAndWait}}
+\index{showInputDialogAndWait@{showInputDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showInputDialogAndWait()}{showInputDialogAndWait()}}
+{\footnotesize\ttfamily Optional$<$String$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Input\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content }\end{DoxyParamCaption})}
+
+This will create and display new \mbox{\hyperlink{}{Text\+Input\+Dialog}} with a text fields to enter data 
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_acd3f1fb29e0190e3691bab679f424393}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a198c36e3022999b5433dd5a1bbb3b8cc}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a198c36e3022999b5433dd5a1bbb3b8cc}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showInputDialogWithDefaultAndWait@{showInputDialogWithDefaultAndWait}}
+\index{showInputDialogWithDefaultAndWait@{showInputDialogWithDefaultAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showInputDialogWithDefaultAndWait()}{showInputDialogWithDefaultAndWait()}}
+{\footnotesize\ttfamily Optional$<$String$>$ org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Input\+Dialog\+With\+Default\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content,  }\item[{String}]{default\+Value }\end{DoxyParamCaption})}
+
+This will create and display new \mbox{\hyperlink{}{Text\+Input\+Dialog}} with a text field with a default value to enter data 
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_a4234b98ba7d82a4e8441699533b0fd45}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ae3a5ea03a51f300ad764ab24b3481d56}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_ae3a5ea03a51f300ad764ab24b3481d56}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showPrintDialog@{showPrintDialog}}
+\index{showPrintDialog@{showPrintDialog}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showPrintDialog()}{showPrintDialog()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Print\+Dialog (\begin{DoxyParamCaption}\item[{Printer\+Job}]{job }\end{DoxyParamCaption})}
+
+Displays a Print \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog}{Dialog}}. Allow the user to update job state such as printer and settings. These changes will be available in the appropriate properties after the print dialog has returned. The print dialog is also used to confirm the user wants to proceed with printing.
+
+
+\begin{DoxyParams}{Parameters}
+{\em job} & the print job to customize \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+false if the user opts to cancel printing 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_a7ca656782473cacb1b8ed64525e041db}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_abdbb4b76690b7c832064324068dc9d40}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_abdbb4b76690b7c832064324068dc9d40}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showProgressDialog@{showProgressDialog}}
+\index{showProgressDialog@{showProgressDialog}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showProgressDialog()}{showProgressDialog()}}
+{\footnotesize\ttfamily $<$V$>$ void org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Progress\+Dialog (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content,  }\item[{Task$<$ V $>$}]{task }\end{DoxyParamCaption})}
+
+Constructs and shows a canceable \mbox{\hyperlink{}{Progress\+Dialog}}. Clicking cancel will cancel the underlying service and close the dialog
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & title of the dialog \\
+\hline
+{\em content} & message to show above the progress bar \\
+\hline
+{\em task} & The \mbox{\hyperlink{}{Task}} which executes the work and for which to show the dialog \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a16bfc6d233269ae3dccae64467331c5e}\label{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service_a16bfc6d233269ae3dccae64467331c5e}} 
+\index{org.jabref.gui.DialogService@{org.jabref.gui.DialogService}!showWarningDialogAndWait@{showWarningDialogAndWait}}
+\index{showWarningDialogAndWait@{showWarningDialogAndWait}!org.jabref.gui.DialogService@{org.jabref.gui.DialogService}}
+\doxysubsubsection{\texorpdfstring{showWarningDialogAndWait()}{showWarningDialogAndWait()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Dialog\+Service.\+show\+Warning\+Dialog\+And\+Wait (\begin{DoxyParamCaption}\item[{String}]{title,  }\item[{String}]{content }\end{DoxyParamCaption})}
+
+This will create and display a new information dialog. It will include a yellow warning icon on the left and a single OK Button. To create a warning dialog with custom buttons see also \mbox{\hyperlink{}{show\+Custom\+Button\+Dialog\+And\+Wait(\+Alert.\+Alert\+Type, String, String, Button\+Type...)}} 
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service_ac405bb9143efe842087a225ff436acf2}{org.\+jabref.\+gui.\+Jab\+Ref\+Dialog\+Service}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/\mbox{\hyperlink{_dialog_service_8java}{Dialog\+Service.\+java}}\end{DoxyCompactItemize}

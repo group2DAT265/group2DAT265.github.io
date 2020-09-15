@@ -1,0 +1,176 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter}{}\doxysection{org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter}\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+Inheritance diagram for org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.581921cm]{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a193cf5b2d8b6f3c050d3cbefc60609d1}{format}} (String text)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a2ea22188cf79a22fd01ca09686fd6e41}{get\+Description}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a87a01ecee88b44bb8cd18c95cb17afb8}{get\+Example\+Input}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a6e93d5bda88fafafab994950b840bb90}{get\+Name}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a3c685bfab48ab2c0ea9a5ccb21358509}{get\+Key}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a0e0467a175e0ba15fdb75ffc718396bb}{read\+Tag}} (String text, int position)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_ae60fa6f92c93967052009e2dc21595b3}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Html\+To\+Latex\+Formatter.\+class)
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a7b561289b64f5783258f84536266b10e}{M\+A\+X\+\_\+\+T\+A\+G\+\_\+\+L\+E\+N\+G\+TH}} = 100
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a5d158685314793b140f9326f3cb3a635}{E\+S\+C\+A\+P\+E\+D\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}\&\#(\mbox{[}x\mbox{]}$\ast$)(\mbox{[}0\mbox{]}$\ast$)(\textbackslash{}\textbackslash{}p\{X\+Digit\}+);\char`\"{})
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_aa30e3edea72de49dc8dfcf441834b8f4}{E\+S\+C\+A\+P\+E\+D\+\_\+\+P\+A\+T\+T\+E\+R\+N2}} = Pattern.\+compile(\char`\"{}(.)\&\#(\mbox{[}x\mbox{]}$\ast$)(\mbox{[}0\mbox{]}$\ast$)(\textbackslash{}\textbackslash{}p\{X\+Digit\}+);\char`\"{})
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a2785c719e6422417ab858b8594ebdaec}{E\+S\+C\+A\+P\+E\+D\+\_\+\+P\+A\+T\+T\+E\+R\+N3}} = Pattern.\+compile(\char`\"{}\&\#(\mbox{[}x\mbox{]}$\ast$)(\mbox{[}0\mbox{]}$\ast$)(\textbackslash{}\textbackslash{}p\{X\+Digit\}+);\char`\"{})
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_ac07e4d8cbf0a1c47d333be604fe52afd}{E\+S\+C\+A\+P\+E\+D\+\_\+\+P\+A\+T\+T\+E\+R\+N4}} = Pattern.\+compile(\char`\"{}\&(\textbackslash{}\textbackslash{}w+);\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a193cf5b2d8b6f3c050d3cbefc60609d1}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a193cf5b2d8b6f3c050d3cbefc60609d1}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!format@{format}}
+\index{format@{format}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+format (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Formats a field value by with a particular formatter transformation. 
+
+Calling this method with a null argument results in a Null\+Pointer\+Exception.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the input String \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the formatted output String 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a8347cbf9c19d43850d3fcede03520e6f}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a2ea22188cf79a22fd01ca09686fd6e41}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a2ea22188cf79a22fd01ca09686fd6e41}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a description of the formatter.
+
+\begin{DoxyReturn}{Returns}
+the description string, always non empty 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_ada4da9404fd8afa2584c78568ff4f369}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a87a01ecee88b44bb8cd18c95cb17afb8}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a87a01ecee88b44bb8cd18c95cb17afb8}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!getExampleInput@{getExampleInput}}
+\index{getExampleInput@{getExampleInput}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{getExampleInput()}{getExampleInput()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+get\+Example\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns an example input string of the formatter. This example is used as input to the formatter to demonstrate its functionality
+
+\begin{DoxyReturn}{Returns}
+the example input string, always non empty 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_adaef8aad8e38f4b74c12c95db9ca79c8}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a3c685bfab48ab2c0ea9a5ccb21358509}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a3c685bfab48ab2c0ea9a5ccb21358509}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!getKey@{getKey}}
+\index{getKey@{getKey}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{getKey()}{getKey()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a unique key for the formatter that can be used for its identification
+
+\begin{DoxyReturn}{Returns}
+the key of the formatter, always not null 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a059a1b2d1ef8251447788325f26f0e50}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a6e93d5bda88fafafab994950b840bb90}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a6e93d5bda88fafafab994950b840bb90}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a human readable name of the formatter usable for e.\+g. in the G\+UI
+
+\begin{DoxyReturn}{Returns}
+the name of the formatter, always not null 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a71fdb0ef1b321680d1811b8e462706b3}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a0e0467a175e0ba15fdb75ffc718396bb}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a0e0467a175e0ba15fdb75ffc718396bb}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!readTag@{readTag}}
+\index{readTag@{readTag}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{readTag()}{readTag()}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+read\+Tag (\begin{DoxyParamCaption}\item[{String}]{text,  }\item[{int}]{position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a5d158685314793b140f9326f3cb3a635}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a5d158685314793b140f9326f3cb3a635}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!ESCAPED\_PATTERN@{ESCAPED\_PATTERN}}
+\index{ESCAPED\_PATTERN@{ESCAPED\_PATTERN}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{ESCAPED\_PATTERN}{ESCAPED\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+E\+S\+C\+A\+P\+E\+D\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}\&\#(\mbox{[}x\mbox{]}$\ast$)(\mbox{[}0\mbox{]}$\ast$)(\textbackslash{}\textbackslash{}p\{X\+Digit\}+);\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_aa30e3edea72de49dc8dfcf441834b8f4}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_aa30e3edea72de49dc8dfcf441834b8f4}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!ESCAPED\_PATTERN2@{ESCAPED\_PATTERN2}}
+\index{ESCAPED\_PATTERN2@{ESCAPED\_PATTERN2}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{ESCAPED\_PATTERN2}{ESCAPED\_PATTERN2}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+E\+S\+C\+A\+P\+E\+D\+\_\+\+P\+A\+T\+T\+E\+R\+N2 = Pattern.\+compile(\char`\"{}(.)\&\#(\mbox{[}x\mbox{]}$\ast$)(\mbox{[}0\mbox{]}$\ast$)(\textbackslash{}\textbackslash{}p\{X\+Digit\}+);\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a2785c719e6422417ab858b8594ebdaec}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a2785c719e6422417ab858b8594ebdaec}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!ESCAPED\_PATTERN3@{ESCAPED\_PATTERN3}}
+\index{ESCAPED\_PATTERN3@{ESCAPED\_PATTERN3}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{ESCAPED\_PATTERN3}{ESCAPED\_PATTERN3}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+E\+S\+C\+A\+P\+E\+D\+\_\+\+P\+A\+T\+T\+E\+R\+N3 = Pattern.\+compile(\char`\"{}\&\#(\mbox{[}x\mbox{]}$\ast$)(\mbox{[}0\mbox{]}$\ast$)(\textbackslash{}\textbackslash{}p\{X\+Digit\}+);\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_ac07e4d8cbf0a1c47d333be604fe52afd}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_ac07e4d8cbf0a1c47d333be604fe52afd}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!ESCAPED\_PATTERN4@{ESCAPED\_PATTERN4}}
+\index{ESCAPED\_PATTERN4@{ESCAPED\_PATTERN4}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{ESCAPED\_PATTERN4}{ESCAPED\_PATTERN4}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+E\+S\+C\+A\+P\+E\+D\+\_\+\+P\+A\+T\+T\+E\+R\+N4 = Pattern.\+compile(\char`\"{}\&(\textbackslash{}\textbackslash{}w+);\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_ae60fa6f92c93967052009e2dc21595b3}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_ae60fa6f92c93967052009e2dc21595b3}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Html\+To\+Latex\+Formatter.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a7b561289b64f5783258f84536266b10e}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter_a7b561289b64f5783258f84536266b10e}} 
+\index{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}!MAX\_TAG\_LENGTH@{MAX\_TAG\_LENGTH}}
+\index{MAX\_TAG\_LENGTH@{MAX\_TAG\_LENGTH}!org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter@{org.jabref.logic.formatter.bibtexfields.HtmlToLatexFormatter}}
+\doxysubsubsection{\texorpdfstring{MAX\_TAG\_LENGTH}{MAX\_TAG\_LENGTH}}
+{\footnotesize\ttfamily final int org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Html\+To\+Latex\+Formatter.\+M\+A\+X\+\_\+\+T\+A\+G\+\_\+\+L\+E\+N\+G\+TH = 100\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/formatter/bibtexfields/\mbox{\hyperlink{_html_to_latex_formatter_8java}{Html\+To\+Latex\+Formatter.\+java}}\end{DoxyCompactItemize}

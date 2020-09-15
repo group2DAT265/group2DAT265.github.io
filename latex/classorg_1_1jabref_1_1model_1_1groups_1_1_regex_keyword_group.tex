@@ -1,0 +1,113 @@
+\hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group}{}\doxysection{org.\+jabref.\+model.\+groups.\+Regex\+Keyword\+Group Class Reference}
+\label{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group}\index{org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}}
+Inheritance diagram for org.\+jabref.\+model.\+groups.\+Regex\+Keyword\+Group\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a467810cddf78ee0fac3a0aeee24b1a3d}{Regex\+Keyword\+Group}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_a7305f9ca0de7ae29f786a6a6c433c1e2}{name}}, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1groups_1_1_group_hierarchy_type}{Group\+Hierarchy\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_adc2b7334a3cf4143b05b915818b79e79}{context}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_keyword_group_aaa48a123de9e4c5eafa780dfca492823}{search\+Field}}, String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_keyword_group_aa3d8fbd482ff396e1c8dac9921449ab0}{search\+Expression}}, boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_keyword_group_ad6eba069422eea116f26f59aacdaf774}{case\+Sensitive}})
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a939812503c08faee1584ee92fd0a8772}{contains}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_ab35ce08dd7d0029575387c2e47339f5e}{equals}} (Object o)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group}{Abstract\+Group}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a474ba641e5e01d07172075ad652c8476}{deep\+Copy}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a9d8a1c9fae16b2c1cec8bbaba297ac40}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a4f5d32e590a347de24894179e1a9cdcb}{compile\+Pattern}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_keyword_group_aa3d8fbd482ff396e1c8dac9921449ab0}{search\+Expression}}, boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_keyword_group_ad6eba069422eea116f26f59aacdaf774}{case\+Sensitive}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_ae8d730bfd79cc2d1865d834379dc8b79}{pattern}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Matches entries if the content of a given field is matched by a regular expression. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a467810cddf78ee0fac3a0aeee24b1a3d}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a467810cddf78ee0fac3a0aeee24b1a3d}} 
+\index{org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}!RegexKeywordGroup@{RegexKeywordGroup}}
+\index{RegexKeywordGroup@{RegexKeywordGroup}!org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}}
+\doxysubsubsection{\texorpdfstring{RegexKeywordGroup()}{RegexKeywordGroup()}}
+{\footnotesize\ttfamily org.\+jabref.\+model.\+groups.\+Regex\+Keyword\+Group.\+Regex\+Keyword\+Group (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1groups_1_1_group_hierarchy_type}{Group\+Hierarchy\+Type}}}]{context,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{search\+Field,  }\item[{String}]{search\+Expression,  }\item[{boolean}]{case\+Sensitive }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a4f5d32e590a347de24894179e1a9cdcb}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a4f5d32e590a347de24894179e1a9cdcb}} 
+\index{org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}!compilePattern@{compilePattern}}
+\index{compilePattern@{compilePattern}!org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}}
+\doxysubsubsection{\texorpdfstring{compilePattern()}{compilePattern()}}
+{\footnotesize\ttfamily static Pattern org.\+jabref.\+model.\+groups.\+Regex\+Keyword\+Group.\+compile\+Pattern (\begin{DoxyParamCaption}\item[{String}]{search\+Expression,  }\item[{boolean}]{case\+Sensitive }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a939812503c08faee1584ee92fd0a8772}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a939812503c08faee1584ee92fd0a8772}} 
+\index{org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}!contains@{contains}}
+\index{contains@{contains}!org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}}
+\doxysubsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+groups.\+Regex\+Keyword\+Group.\+contains (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+true if this group contains the specified entry, false otherwise. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_ac06b7d7084ec346c4de0b924e7164f0e}{org.\+jabref.\+model.\+groups.\+Abstract\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a474ba641e5e01d07172075ad652c8476}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a474ba641e5e01d07172075ad652c8476}} 
+\index{org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}!deepCopy@{deepCopy}}
+\index{deepCopy@{deepCopy}!org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}}
+\doxysubsubsection{\texorpdfstring{deepCopy()}{deepCopy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group}{Abstract\+Group}} org.\+jabref.\+model.\+groups.\+Regex\+Keyword\+Group.\+deep\+Copy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+A deep copy of this object. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_ac30d2c04d34d2f0663a0337e0f85f5f8}{org.\+jabref.\+model.\+groups.\+Abstract\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_ab35ce08dd7d0029575387c2e47339f5e}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_ab35ce08dd7d0029575387c2e47339f5e}} 
+\index{org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}!equals@{equals}}
+\index{equals@{equals}!org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+groups.\+Regex\+Keyword\+Group.\+equals (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_a7119a06093278b95dc8efe2309a55966}{org.\+jabref.\+model.\+groups.\+Abstract\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a9d8a1c9fae16b2c1cec8bbaba297ac40}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_a9d8a1c9fae16b2c1cec8bbaba297ac40}} 
+\index{org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jabref.\+model.\+groups.\+Regex\+Keyword\+Group.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_ae2a37a7a45d04fe89f2753c524e164ef}{org.\+jabref.\+model.\+groups.\+Abstract\+Group}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_ae8d730bfd79cc2d1865d834379dc8b79}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group_ae8d730bfd79cc2d1865d834379dc8b79}} 
+\index{org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}!pattern@{pattern}}
+\index{pattern@{pattern}!org.jabref.model.groups.RegexKeywordGroup@{org.jabref.model.groups.RegexKeywordGroup}}
+\doxysubsubsection{\texorpdfstring{pattern}{pattern}}
+{\footnotesize\ttfamily Pattern org.\+jabref.\+model.\+groups.\+Regex\+Keyword\+Group.\+pattern\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/model/groups/\mbox{\hyperlink{_regex_keyword_group_8java}{Regex\+Keyword\+Group.\+java}}\end{DoxyCompactItemize}

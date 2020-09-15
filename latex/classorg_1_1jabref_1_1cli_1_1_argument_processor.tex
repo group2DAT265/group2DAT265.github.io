@@ -1,0 +1,264 @@
+\hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor}{}\doxysection{org.\+jabref.\+cli.\+Argument\+Processor Class Reference}
+\label{classorg_1_1jabref_1_1cli_1_1_argument_processor}\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{enumorg_1_1jabref_1_1cli_1_1_argument_processor_1_1_mode}{Mode}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a22f4a05fbaccaf12a5f4c3713389b629}{Argument\+Processor}} (String\mbox{[}$\,$\mbox{]} args, \mbox{\hyperlink{enumorg_1_1jabref_1_1cli_1_1_argument_processor_1_1_mode}{Mode}} \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_aeeb6efae6e1f2799e1e672ee7195e3e2}{startup\+Mode}})  throws org.\+apache.\+commons.\+cli.\+Parse\+Exception 
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a69c602424ee6ea70dbf5c55e0d31b5a1}{get\+Parser\+Results}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a29aa809d8fa92c2982554c49ca7faa1d}{has\+Parser\+Results}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_aee0b69fea9476a7c204d66e47c1af5c6}{is\+Blank}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_aa9a7b45be4434135014d351bcdae6074}{should\+Shut\+Down}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a3a20361a49698a6f068247a99e21c89d}{process\+Arguments}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a183d176cbee48b2430f9afbb739eed2e}{export\+Matches}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ loaded)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a60fa301ac13c45807fdf5af38172d5a4}{do\+Aux\+Import}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ loaded)
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_acd6cf86df30cf07979646b4bb7b20692}{import\+And\+Open\+Files}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a6ffb560a0f7a52a43e41e7fe10c3692c}{generate\+Aux}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ loaded, String\mbox{[}$\,$\mbox{]} data)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_acdd3cbbfaf1df7a613f1dcdfd3885600}{save\+Database}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} new\+Base, String sub\+Name)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a914c1080346ee296328675bdb8fbfad3}{export\+File}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ loaded, String\mbox{[}$\,$\mbox{]} data)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a4b567a8e05da437364eafc594ee29294}{import\+Preferences}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a2590444871b9be70b9cd7d7952c71ab6}{reset\+Preferences}} (String value)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_ab9341d852e98ce32b04ad2190baf89aa}{automatically\+Set\+File\+Links}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ loaded)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a1709886e1cdbb52fc810b7e53968182c}{regenerate\+Citation\+Keys}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ loaded)
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae55da45910f8aa6f5c8abbe000867af8}{fetch}} (String fetch\+Command)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_ac2e5aa7eb56db3daba4c24dcbe56a21b}{import\+To\+Open\+Base}} (String argument)
+\item 
+static Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a46d5bbb852aaab9d5fb09b65ffb33323}{import\+Bibtex\+To\+Open\+Base}} (String argument)
+\item 
+static Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_abcf2d915a0c70db0a9ad5883a79fdfc5}{import\+File}} (String argument)
+\item 
+static Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a577087a63501872ce1d2eabb20d05649}{import\+File}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, String import\+Format)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i}{Jab\+Ref\+C\+LI}} \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae77936260b8524af0340b1114d5a5cde}{cli}}
+\item 
+final List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae7725a9debe7b0470c2613fe1a3aadaa}{parser\+Results}}
+\item 
+final \mbox{\hyperlink{enumorg_1_1jabref_1_1cli_1_1_argument_processor_1_1_mode}{Mode}} \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_aeeb6efae6e1f2799e1e672ee7195e3e2}{startup\+Mode}}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae6be32607f67cd090c01e3c684e375f1}{no\+G\+U\+I\+Needed}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_argument_processor_a37af229b4798cd69c2a0515936e7aca3}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Argument\+Processor.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a22f4a05fbaccaf12a5f4c3713389b629}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a22f4a05fbaccaf12a5f4c3713389b629}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!ArgumentProcessor@{ArgumentProcessor}}
+\index{ArgumentProcessor@{ArgumentProcessor}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{ArgumentProcessor()}{ArgumentProcessor()}}
+{\footnotesize\ttfamily org.\+jabref.\+cli.\+Argument\+Processor.\+Argument\+Processor (\begin{DoxyParamCaption}\item[{String\mbox{[}$\,$\mbox{]}}]{args,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1cli_1_1_argument_processor_1_1_mode}{Mode}}}]{startup\+Mode }\end{DoxyParamCaption}) throws org.\+apache.\+commons.\+cli.\+Parse\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_ab9341d852e98ce32b04ad2190baf89aa}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_ab9341d852e98ce32b04ad2190baf89aa}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!automaticallySetFileLinks@{automaticallySetFileLinks}}
+\index{automaticallySetFileLinks@{automaticallySetFileLinks}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{automaticallySetFileLinks()}{automaticallySetFileLinks()}}
+{\footnotesize\ttfamily void org.\+jabref.\+cli.\+Argument\+Processor.\+automatically\+Set\+File\+Links (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$}]{loaded }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a60fa301ac13c45807fdf5af38172d5a4}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a60fa301ac13c45807fdf5af38172d5a4}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!doAuxImport@{doAuxImport}}
+\index{doAuxImport@{doAuxImport}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{doAuxImport()}{doAuxImport()}}
+{\footnotesize\ttfamily void org.\+jabref.\+cli.\+Argument\+Processor.\+do\+Aux\+Import (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$}]{loaded }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a914c1080346ee296328675bdb8fbfad3}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a914c1080346ee296328675bdb8fbfad3}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!exportFile@{exportFile}}
+\index{exportFile@{exportFile}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{exportFile()}{exportFile()}}
+{\footnotesize\ttfamily void org.\+jabref.\+cli.\+Argument\+Processor.\+export\+File (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$}]{loaded,  }\item[{String\mbox{[}$\,$\mbox{]}}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a183d176cbee48b2430f9afbb739eed2e}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a183d176cbee48b2430f9afbb739eed2e}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!exportMatches@{exportMatches}}
+\index{exportMatches@{exportMatches}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{exportMatches()}{exportMatches()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+cli.\+Argument\+Processor.\+export\+Matches (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$}]{loaded }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae55da45910f8aa6f5c8abbe000867af8}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae55da45910f8aa6f5c8abbe000867af8}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!fetch@{fetch}}
+\index{fetch@{fetch}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{fetch()}{fetch()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+cli.\+Argument\+Processor.\+fetch (\begin{DoxyParamCaption}\item[{String}]{fetch\+Command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Run an entry fetcher from the command line.
+
+
+\begin{DoxyParams}{Parameters}
+{\em fetch\+Command} & A string containing both the name of the fetcher to use and the search query, separated by a \+: \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A parser result containing the entries fetched or null if an error occurred. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a6ffb560a0f7a52a43e41e7fe10c3692c}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a6ffb560a0f7a52a43e41e7fe10c3692c}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!generateAux@{generateAux}}
+\index{generateAux@{generateAux}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{generateAux()}{generateAux()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+cli.\+Argument\+Processor.\+generate\+Aux (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$}]{loaded,  }\item[{String\mbox{[}$\,$\mbox{]}}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a69c602424ee6ea70dbf5c55e0d31b5a1}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a69c602424ee6ea70dbf5c55e0d31b5a1}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!getParserResults@{getParserResults}}
+\index{getParserResults@{getParserResults}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{getParserResults()}{getParserResults()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+cli.\+Argument\+Processor.\+get\+Parser\+Results (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a29aa809d8fa92c2982554c49ca7faa1d}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a29aa809d8fa92c2982554c49ca7faa1d}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!hasParserResults@{hasParserResults}}
+\index{hasParserResults@{hasParserResults}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{hasParserResults()}{hasParserResults()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+cli.\+Argument\+Processor.\+has\+Parser\+Results (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_acd6cf86df30cf07979646b4bb7b20692}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_acd6cf86df30cf07979646b4bb7b20692}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!importAndOpenFiles@{importAndOpenFiles}}
+\index{importAndOpenFiles@{importAndOpenFiles}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{importAndOpenFiles()}{importAndOpenFiles()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+cli.\+Argument\+Processor.\+import\+And\+Open\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a46d5bbb852aaab9d5fb09b65ffb33323}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a46d5bbb852aaab9d5fb09b65ffb33323}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!importBibtexToOpenBase@{importBibtexToOpenBase}}
+\index{importBibtexToOpenBase@{importBibtexToOpenBase}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{importBibtexToOpenBase()}{importBibtexToOpenBase()}}
+{\footnotesize\ttfamily static Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+cli.\+Argument\+Processor.\+import\+Bibtex\+To\+Open\+Base (\begin{DoxyParamCaption}\item[{String}]{argument }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a577087a63501872ce1d2eabb20d05649}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a577087a63501872ce1d2eabb20d05649}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!importFile@{importFile}}
+\index{importFile@{importFile}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{importFile()}{importFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+cli.\+Argument\+Processor.\+import\+File (\begin{DoxyParamCaption}\item[{Path}]{file,  }\item[{String}]{import\+Format }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_abcf2d915a0c70db0a9ad5883a79fdfc5}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_abcf2d915a0c70db0a9ad5883a79fdfc5}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!importFile@{importFile}}
+\index{importFile@{importFile}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{importFile()}{importFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+cli.\+Argument\+Processor.\+import\+File (\begin{DoxyParamCaption}\item[{String}]{argument }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a4b567a8e05da437364eafc594ee29294}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a4b567a8e05da437364eafc594ee29294}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!importPreferences@{importPreferences}}
+\index{importPreferences@{importPreferences}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{importPreferences()}{importPreferences()}}
+{\footnotesize\ttfamily void org.\+jabref.\+cli.\+Argument\+Processor.\+import\+Preferences (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_ac2e5aa7eb56db3daba4c24dcbe56a21b}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_ac2e5aa7eb56db3daba4c24dcbe56a21b}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!importToOpenBase@{importToOpenBase}}
+\index{importToOpenBase@{importToOpenBase}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{importToOpenBase()}{importToOpenBase()}}
+{\footnotesize\ttfamily static Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+cli.\+Argument\+Processor.\+import\+To\+Open\+Base (\begin{DoxyParamCaption}\item[{String}]{argument }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+Will open a file (like import\+File), but will also request Jab\+Ref to focus on this database
+
+
+\begin{DoxyParams}{Parameters}
+{\em argument} & See import\+File. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Parser\+Result with set\+To\+Open\+Tab(true) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_aee0b69fea9476a7c204d66e47c1af5c6}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_aee0b69fea9476a7c204d66e47c1af5c6}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!isBlank@{isBlank}}
+\index{isBlank@{isBlank}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{isBlank()}{isBlank()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+cli.\+Argument\+Processor.\+is\+Blank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a3a20361a49698a6f068247a99e21c89d}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a3a20361a49698a6f068247a99e21c89d}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!processArguments@{processArguments}}
+\index{processArguments@{processArguments}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{processArguments()}{processArguments()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+cli.\+Argument\+Processor.\+process\+Arguments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a1709886e1cdbb52fc810b7e53968182c}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a1709886e1cdbb52fc810b7e53968182c}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!regenerateCitationKeys@{regenerateCitationKeys}}
+\index{regenerateCitationKeys@{regenerateCitationKeys}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{regenerateCitationKeys()}{regenerateCitationKeys()}}
+{\footnotesize\ttfamily void org.\+jabref.\+cli.\+Argument\+Processor.\+regenerate\+Citation\+Keys (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$}]{loaded }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a2590444871b9be70b9cd7d7952c71ab6}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a2590444871b9be70b9cd7d7952c71ab6}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!resetPreferences@{resetPreferences}}
+\index{resetPreferences@{resetPreferences}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{resetPreferences()}{resetPreferences()}}
+{\footnotesize\ttfamily void org.\+jabref.\+cli.\+Argument\+Processor.\+reset\+Preferences (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_acdd3cbbfaf1df7a613f1dcdfd3885600}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_acdd3cbbfaf1df7a613f1dcdfd3885600}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!saveDatabase@{saveDatabase}}
+\index{saveDatabase@{saveDatabase}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{saveDatabase()}{saveDatabase()}}
+{\footnotesize\ttfamily void org.\+jabref.\+cli.\+Argument\+Processor.\+save\+Database (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{new\+Base,  }\item[{String}]{sub\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_aa9a7b45be4434135014d351bcdae6074}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_aa9a7b45be4434135014d351bcdae6074}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!shouldShutDown@{shouldShutDown}}
+\index{shouldShutDown@{shouldShutDown}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{shouldShutDown()}{shouldShutDown()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+cli.\+Argument\+Processor.\+should\+Shut\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae77936260b8524af0340b1114d5a5cde}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae77936260b8524af0340b1114d5a5cde}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!cli@{cli}}
+\index{cli@{cli}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{cli}{cli}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i}{Jab\+Ref\+C\+LI}} org.\+jabref.\+cli.\+Argument\+Processor.\+cli\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_a37af229b4798cd69c2a0515936e7aca3}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_a37af229b4798cd69c2a0515936e7aca3}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+cli.\+Argument\+Processor.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Argument\+Processor.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae6be32607f67cd090c01e3c684e375f1}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae6be32607f67cd090c01e3c684e375f1}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!noGUINeeded@{noGUINeeded}}
+\index{noGUINeeded@{noGUINeeded}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{noGUINeeded}{noGUINeeded}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+cli.\+Argument\+Processor.\+no\+G\+U\+I\+Needed\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae7725a9debe7b0470c2613fe1a3aadaa}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_ae7725a9debe7b0470c2613fe1a3aadaa}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!parserResults@{parserResults}}
+\index{parserResults@{parserResults}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{parserResults}{parserResults}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+cli.\+Argument\+Processor.\+parser\+Results\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1cli_1_1_argument_processor_aeeb6efae6e1f2799e1e672ee7195e3e2}\label{classorg_1_1jabref_1_1cli_1_1_argument_processor_aeeb6efae6e1f2799e1e672ee7195e3e2}} 
+\index{org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}!startupMode@{startupMode}}
+\index{startupMode@{startupMode}!org.jabref.cli.ArgumentProcessor@{org.jabref.cli.ArgumentProcessor}}
+\doxysubsubsection{\texorpdfstring{startupMode}{startupMode}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{enumorg_1_1jabref_1_1cli_1_1_argument_processor_1_1_mode}{Mode}} org.\+jabref.\+cli.\+Argument\+Processor.\+startup\+Mode\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/cli/\mbox{\hyperlink{_argument_processor_8java}{Argument\+Processor.\+java}}\end{DoxyCompactItemize}

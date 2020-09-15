@@ -1,0 +1,80 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer}{}\doxysection{org.\+jabref.\+logic.\+pdf.\+Entry\+Annotation\+Importer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer}\index{org.jabref.logic.pdf.EntryAnnotationImporter@{org.jabref.logic.pdf.EntryAnnotationImporter}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_aea2821e94372d9bd3398211ffc505ed1}{Entry\+Annotation\+Importer}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_a55de82ff4b8597f49671b75cab35a4e4}{entry}})
+\item 
+Map$<$ Path, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1pdf_1_1_file_annotation}{File\+Annotation}} $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_a8756cf2f248b25defc91f0c55d9bdad2}{import\+Annotations\+From\+Files}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database\+Context, \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_file_preferences}{File\+Preferences}} file\+Preferences)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file}{Linked\+File}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_aa491ecbcd59b9928e718b262b387853e}{get\+Filtered\+File\+List}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_a55de82ff4b8597f49671b75cab35a4e4}{entry}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Here all P\+DF files attached to a Bib\+Entry are scanned for annotations using a \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer}{Pdf\+Annotation\+Importer}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_aea2821e94372d9bd3398211ffc505ed1}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_aea2821e94372d9bd3398211ffc505ed1}} 
+\index{org.jabref.logic.pdf.EntryAnnotationImporter@{org.jabref.logic.pdf.EntryAnnotationImporter}!EntryAnnotationImporter@{EntryAnnotationImporter}}
+\index{EntryAnnotationImporter@{EntryAnnotationImporter}!org.jabref.logic.pdf.EntryAnnotationImporter@{org.jabref.logic.pdf.EntryAnnotationImporter}}
+\doxysubsubsection{\texorpdfstring{EntryAnnotationImporter()}{EntryAnnotationImporter()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+pdf.\+Entry\+Annotation\+Importer.\+Entry\+Annotation\+Importer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & The Bib\+Entry whose attached files are scanned for annotations. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_aa491ecbcd59b9928e718b262b387853e}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_aa491ecbcd59b9928e718b262b387853e}} 
+\index{org.jabref.logic.pdf.EntryAnnotationImporter@{org.jabref.logic.pdf.EntryAnnotationImporter}!getFilteredFileList@{getFilteredFileList}}
+\index{getFilteredFileList@{getFilteredFileList}!org.jabref.logic.pdf.EntryAnnotationImporter@{org.jabref.logic.pdf.EntryAnnotationImporter}}
+\doxysubsubsection{\texorpdfstring{getFilteredFileList()}{getFilteredFileList()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file}{Linked\+File}}$>$ org.\+jabref.\+logic.\+pdf.\+Entry\+Annotation\+Importer.\+get\+Filtered\+File\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Filter files with a web address containing \char`\"{}www.\char`\"{}
+
+\begin{DoxyReturn}{Returns}
+a list of file parsed files 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_a8756cf2f248b25defc91f0c55d9bdad2}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_a8756cf2f248b25defc91f0c55d9bdad2}} 
+\index{org.jabref.logic.pdf.EntryAnnotationImporter@{org.jabref.logic.pdf.EntryAnnotationImporter}!importAnnotationsFromFiles@{importAnnotationsFromFiles}}
+\index{importAnnotationsFromFiles@{importAnnotationsFromFiles}!org.jabref.logic.pdf.EntryAnnotationImporter@{org.jabref.logic.pdf.EntryAnnotationImporter}}
+\doxysubsubsection{\texorpdfstring{importAnnotationsFromFiles()}{importAnnotationsFromFiles()}}
+{\footnotesize\ttfamily Map$<$Path, List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1pdf_1_1_file_annotation}{File\+Annotation}}$>$ $>$ org.\+jabref.\+logic.\+pdf.\+Entry\+Annotation\+Importer.\+import\+Annotations\+From\+Files (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_file_preferences}{File\+Preferences}}}]{file\+Preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Reads the annotations from the files that are attached to a Bib\+Entry.
+
+
+\begin{DoxyParams}{Parameters}
+{\em database\+Context} & The context is needed for the importer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Map from each P\+DF to a list of file annotations 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_a55de82ff4b8597f49671b75cab35a4e4}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_entry_annotation_importer_a55de82ff4b8597f49671b75cab35a4e4}} 
+\index{org.jabref.logic.pdf.EntryAnnotationImporter@{org.jabref.logic.pdf.EntryAnnotationImporter}!entry@{entry}}
+\index{entry@{entry}!org.jabref.logic.pdf.EntryAnnotationImporter@{org.jabref.logic.pdf.EntryAnnotationImporter}}
+\doxysubsubsection{\texorpdfstring{entry}{entry}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+logic.\+pdf.\+Entry\+Annotation\+Importer.\+entry\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/pdf/\mbox{\hyperlink{_entry_annotation_importer_8java}{Entry\+Annotation\+Importer.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,105 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree}{}\doxysection{org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree}\index{org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}}
+Inheritance diagram for org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_ae74e8a7b493e1763199facc805024809}{Undoable\+Modify\+Subtree}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model}{Group\+Tree\+Node\+View\+Model}} group\+Root, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model}{Group\+Tree\+Node\+View\+Model}} subtree, String \mbox{\hyperlink{com_8apple___apple_java_extensions_8txt_acb1a49b0ddb52b756e294b2eae8cb969}{name}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a93bc3ad73404136aca46d2c7a4ff929a}{get\+Presentation\+Name}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_ae6723286ba35d65d0a5dd5142f816bbf}{undo}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a7b5b0db4aa2bb5e19a1d6a199a389b51}{redo}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a526cf8605bd671c386de34d76c7af27f}{m\+\_\+group\+Root}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_ac31b7f1b8a3e425ff47584207c5d386e}{m\+\_\+subtree\+Backup}}
+\item 
+final List$<$ Integer $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a693c8d4988dbf2862463b81ffef48301}{m\+\_\+subtree\+Root\+Path}}
+\item 
+final List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a97648507684ab71d7a6a1f5cbd5f9628}{m\+\_\+modified\+Subtree}} = new Array\+List$<$$>$()
+\item 
+final String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a10fc19817d7f04b78bf6269e1fd75b73}{m\+\_\+name}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_ae74e8a7b493e1763199facc805024809}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_ae74e8a7b493e1763199facc805024809}} 
+\index{org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}!UndoableModifySubtree@{UndoableModifySubtree}}
+\index{UndoableModifySubtree@{UndoableModifySubtree}!org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}}
+\doxysubsubsection{\texorpdfstring{UndoableModifySubtree()}{UndoableModifySubtree()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree.\+Undoable\+Modify\+Subtree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model}{Group\+Tree\+Node\+View\+Model}}}]{group\+Root,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model}{Group\+Tree\+Node\+View\+Model}}}]{subtree,  }\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em subtree} & The root node of the subtree that was modified (this node may not be modified, it is just used as a convenience handle). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a93bc3ad73404136aca46d2c7a4ff929a}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a93bc3ad73404136aca46d2c7a4ff929a}} 
+\index{org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}!getPresentationName@{getPresentationName}}
+\index{getPresentationName@{getPresentationName}!org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}}
+\doxysubsubsection{\texorpdfstring{getPresentationName()}{getPresentationName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree.\+get\+Presentation\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a7b5b0db4aa2bb5e19a1d6a199a389b51}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a7b5b0db4aa2bb5e19a1d6a199a389b51}} 
+\index{org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}!redo@{redo}}
+\index{redo@{redo}!org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}}
+\doxysubsubsection{\texorpdfstring{redo()}{redo()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree.\+redo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_ae6723286ba35d65d0a5dd5142f816bbf}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_ae6723286ba35d65d0a5dd5142f816bbf}} 
+\index{org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}!undo@{undo}}
+\index{undo@{undo}!org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree.\+undo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a526cf8605bd671c386de34d76c7af27f}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a526cf8605bd671c386de34d76c7af27f}} 
+\index{org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}!m\_groupRoot@{m\_groupRoot}}
+\index{m\_groupRoot@{m\_groupRoot}!org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}}
+\doxysubsubsection{\texorpdfstring{m\_groupRoot}{m\_groupRoot}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree.\+m\+\_\+group\+Root\hspace{0.3cm}{\ttfamily [private]}}
+
+A backup of the groups before the modification \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a97648507684ab71d7a6a1f5cbd5f9628}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a97648507684ab71d7a6a1f5cbd5f9628}} 
+\index{org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}!m\_modifiedSubtree@{m\_modifiedSubtree}}
+\index{m\_modifiedSubtree@{m\_modifiedSubtree}!org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}}
+\doxysubsubsection{\texorpdfstring{m\_modifiedSubtree}{m\_modifiedSubtree}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}}$>$ org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree.\+m\+\_\+modified\+Subtree = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+This holds the new subtree (the root\textquotesingle{}s modified children) to allow redo. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a10fc19817d7f04b78bf6269e1fd75b73}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a10fc19817d7f04b78bf6269e1fd75b73}} 
+\index{org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}!m\_name@{m\_name}}
+\index{m\_name@{m\_name}!org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}}
+\doxysubsubsection{\texorpdfstring{m\_name}{m\_name}}
+{\footnotesize\ttfamily final String org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree.\+m\+\_\+name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_ac31b7f1b8a3e425ff47584207c5d386e}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_ac31b7f1b8a3e425ff47584207c5d386e}} 
+\index{org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}!m\_subtreeBackup@{m\_subtreeBackup}}
+\index{m\_subtreeBackup@{m\_subtreeBackup}!org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}}
+\doxysubsubsection{\texorpdfstring{m\_subtreeBackup}{m\_subtreeBackup}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree.\+m\+\_\+subtree\+Backup\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a693c8d4988dbf2862463b81ffef48301}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree_a693c8d4988dbf2862463b81ffef48301}} 
+\index{org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}!m\_subtreeRootPath@{m\_subtreeRootPath}}
+\index{m\_subtreeRootPath@{m\_subtreeRootPath}!org.jabref.gui.groups.UndoableModifySubtree@{org.jabref.gui.groups.UndoableModifySubtree}}
+\doxysubsubsection{\texorpdfstring{m\_subtreeRootPath}{m\_subtreeRootPath}}
+{\footnotesize\ttfamily final List$<$Integer$>$ org.\+jabref.\+gui.\+groups.\+Undoable\+Modify\+Subtree.\+m\+\_\+subtree\+Root\+Path\hspace{0.3cm}{\ttfamily [private]}}
+
+The path to the global groups root node 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/groups/\mbox{\hyperlink{_undoable_modify_subtree_8java}{Undoable\+Modify\+Subtree.\+java}}\end{DoxyCompactItemize}

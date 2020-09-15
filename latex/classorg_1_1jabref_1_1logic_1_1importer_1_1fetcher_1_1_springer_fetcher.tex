@@ -1,0 +1,163 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher}\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a69e72d44aef6d7c53a3411dfde03cee9}{get\+Name}} ()
+\item 
+Optional$<$ \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file}{Help\+File}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_aa6ebf59af831a490ebc04d8f0adf86f4}{get\+Help\+Page}} ()
+\item 
+\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a97df76488985e2f971f30d83f04442a3}{get\+U\+R\+L\+For\+Query}} (String query)  throws U\+R\+I\+Syntax\+Exception, Malformed\+U\+R\+L\+Exception, Fetcher\+Exception 
+\item 
+\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_ad15651e217bf93e81b10e97654e44b08}{get\+Complex\+Query\+U\+RL}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_complex_search_query}{Complex\+Search\+Query}} complex\+Search\+Query)  throws U\+R\+I\+Syntax\+Exception, Malformed\+U\+R\+L\+Exception, Fetcher\+Exception 
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser}{Parser}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a08121215ce3dfbb63d05623c3d0474cf}{get\+Parser}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_ad2e3761e89a96ac2df0485cac4fde9c2}{parse\+Springer\+J\+S\+O\+Nto\+Bibtex}} (J\+S\+O\+N\+Object springer\+Json\+Entry)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_acabf14f049985683add2e9e0e35e88fa}{construct\+Complex\+Query\+String}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_complex_search_query}{Complex\+Search\+Query}} complex\+Search\+Query)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_affa519fc158138bc6be56ea4dac16bff}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Springer\+Fetcher.\+class)
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_aac02ac88fb01a4121098e565792eff19}{A\+P\+I\+\_\+\+U\+RL}} = \char`\"{}http\+://\mbox{\hyperlink{net_8java_8dev_8glazedlists__glazedlists__java15_8txt_a5fcbe5a51335ef83aa908815b43568f6}{api.\+springernature.\+com}}/meta/v1/json\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a2ba3801c6c2b4779519bc0f6dcf60ff9}{A\+P\+I\+\_\+\+K\+EY}} = new \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_build_info}{Build\+Info}}().springer\+Nature\+A\+P\+I\+Key
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Fetches data from the Springer
+
+@impl\+Note see \href{https://dev.springernature.com/}{\texttt{ A\+PI documentation}} for more details 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_acabf14f049985683add2e9e0e35e88fa}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_acabf14f049985683add2e9e0e35e88fa}} 
+\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}!constructComplexQueryString@{constructComplexQueryString}}
+\index{constructComplexQueryString@{constructComplexQueryString}!org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+\doxysubsubsection{\texorpdfstring{constructComplexQueryString()}{constructComplexQueryString()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher.\+construct\+Complex\+Query\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_complex_search_query}{Complex\+Search\+Query}}}]{complex\+Search\+Query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_ad15651e217bf93e81b10e97654e44b08}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_ad15651e217bf93e81b10e97654e44b08}} 
+\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}!getComplexQueryURL@{getComplexQueryURL}}
+\index{getComplexQueryURL@{getComplexQueryURL}!org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+\doxysubsubsection{\texorpdfstring{getComplexQueryURL()}{getComplexQueryURL()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher.\+get\+Complex\+Query\+U\+RL (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_complex_search_query}{Complex\+Search\+Query}}}]{complex\+Search\+Query }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception, Malformed\+U\+R\+L\+Exception, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher_af49bce3134de59db1fe3fdb403908ced}{org.\+jabref.\+logic.\+importer.\+Search\+Based\+Parser\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_aa6ebf59af831a490ebc04d8f0adf86f4}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_aa6ebf59af831a490ebc04d8f0adf86f4}} 
+\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}!getHelpPage@{getHelpPage}}
+\index{getHelpPage@{getHelpPage}!org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+\doxysubsubsection{\texorpdfstring{getHelpPage()}{getHelpPage()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file}{Help\+File}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher.\+get\+Help\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the help page for this fetcher.
+
+\begin{DoxyReturn}{Returns}
+the \mbox{\hyperlink{}{Help\+File}} enum constant for the help page 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a10fe1737a47dac8e4bf8ad4f24626cbe}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a69e72d44aef6d7c53a3411dfde03cee9}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a69e72d44aef6d7c53a3411dfde03cee9}} 
+\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the localized name of this fetcher. The title can be used to display the fetcher in the menu and in the side pane.
+
+\begin{DoxyReturn}{Returns}
+the localized name 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a9512c95b5bf85e727c975fe2db72e6bf}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a08121215ce3dfbb63d05623c3d0474cf}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a08121215ce3dfbb63d05623c3d0474cf}} 
+\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}!getParser@{getParser}}
+\index{getParser@{getParser}!org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+\doxysubsubsection{\texorpdfstring{getParser()}{getParser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser}{Parser}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher.\+get\+Parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the parser used to convert the response to a list of \mbox{\hyperlink{}{Bib\+Entry}}. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher_a9171da7277b773fe25db7a5b63add35a}{org.\+jabref.\+logic.\+importer.\+Search\+Based\+Parser\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a97df76488985e2f971f30d83f04442a3}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a97df76488985e2f971f30d83f04442a3}} 
+\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}!getURLForQuery@{getURLForQuery}}
+\index{getURLForQuery@{getURLForQuery}!org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+\doxysubsubsection{\texorpdfstring{getURLForQuery()}{getURLForQuery()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher.\+get\+U\+R\+L\+For\+Query (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception, Malformed\+U\+R\+L\+Exception, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructs a U\+RL based on the query.
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & the search query \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher_ae5836cc31f430e6538bbaac54828e774}{org.\+jabref.\+logic.\+importer.\+Search\+Based\+Parser\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_ad2e3761e89a96ac2df0485cac4fde9c2}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_ad2e3761e89a96ac2df0485cac4fde9c2}} 
+\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}!parseSpringerJSONtoBibtex@{parseSpringerJSONtoBibtex}}
+\index{parseSpringerJSONtoBibtex@{parseSpringerJSONtoBibtex}!org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+\doxysubsubsection{\texorpdfstring{parseSpringerJSONtoBibtex()}{parseSpringerJSONtoBibtex()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher.\+parse\+Springer\+J\+S\+O\+Nto\+Bibtex (\begin{DoxyParamCaption}\item[{J\+S\+O\+N\+Object}]{springer\+Json\+Entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Convert a J\+S\+O\+N\+Object obtained from \href{http://api.springer.com/metadata/json}{\texttt{ http\+://api.\+springer.\+com/metadata/json}} to a Bib\+Entry
+
+
+\begin{DoxyParams}{Parameters}
+{\em springer\+Json\+Entry} & the J\+S\+O\+N\+Object from search results \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the converted Bib\+Entry 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a2ba3801c6c2b4779519bc0f6dcf60ff9}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_a2ba3801c6c2b4779519bc0f6dcf60ff9}} 
+\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}!API\_KEY@{API\_KEY}}
+\index{API\_KEY@{API\_KEY}!org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+\doxysubsubsection{\texorpdfstring{API\_KEY}{API\_KEY}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher.\+A\+P\+I\+\_\+\+K\+EY = new \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_build_info}{Build\+Info}}().springer\+Nature\+A\+P\+I\+Key\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_aac02ac88fb01a4121098e565792eff19}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_aac02ac88fb01a4121098e565792eff19}} 
+\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}!API\_URL@{API\_URL}}
+\index{API\_URL@{API\_URL}!org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+\doxysubsubsection{\texorpdfstring{API\_URL}{API\_URL}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher.\+A\+P\+I\+\_\+\+U\+RL = \char`\"{}http\+://\mbox{\hyperlink{net_8java_8dev_8glazedlists__glazedlists__java15_8txt_a5fcbe5a51335ef83aa908815b43568f6}{api.\+springernature.\+com}}/meta/v1/json\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_affa519fc158138bc6be56ea4dac16bff}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher_affa519fc158138bc6be56ea4dac16bff}} 
+\index{org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fetcher.SpringerFetcher@{org.jabref.logic.importer.fetcher.SpringerFetcher}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fetcher.\+Springer\+Fetcher.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Springer\+Fetcher.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_springer_fetcher_8java}{Springer\+Fetcher.\+java}}\end{DoxyCompactItemize}

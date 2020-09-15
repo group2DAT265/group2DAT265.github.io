@@ -1,0 +1,151 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model}{}\doxysection{org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model}\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+Inheritance diagram for org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a20b1bd9f52594a2c28a4ec085e1b2d6f}{Error\+Console\+View\+Model}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_add94899bb461ec1f63b2e986e31f0640}{dialog\+Service}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_clip_board_manager}{Clip\+Board\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a96535b50f67e9db49271ff84b2cf2e34}{clip\+Board\+Manager}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_build_info}{Build\+Info}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a50acb957ec438b98526815d1d0a88d7b}{build\+Info}})
+\item 
+List\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_log_event_view_model}{Log\+Event\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a057e36e9db3299026b3b306e0e1e6d42}{all\+Messages\+Data\+Property}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a431d62d79e9c45f9f120d0d49aae650f}{copy\+Log}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a7e3de9be868e04c4cfc0b8a6044d5468}{copy\+Log}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_log_event_view_model}{Log\+Event\+View\+Model}} $>$ messages)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_aba68df298bf97b480b6e90e5fb1febff}{clear\+Log}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_aef715ef60053b4458ea5a26d6d5dfeb8}{report\+Issue}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a21d7ec447187f9e55687e8410ddda241}{get\+Log\+Messages\+As\+String}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_log_event_view_model}{Log\+Event\+View\+Model}} $>$ messages)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Date\+Format \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_af4a5ca4ed4c463cceb4f7f214301f789}{date\+Format}} = new Simple\+Date\+Format(\char`\"{}yyyy\+M\+Mdd\+H\+Hmmss\char`\"{})
+\item 
+final \mbox{\hyperlink{_repec_nep_importer_test2_8txt_acfb6506a6db677e4fb97a406480bff68}{Date}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a75691c18d7ea9f65c069470d5011a837}{date}} = new \mbox{\hyperlink{_repec_nep_importer_test2_8txt_acfb6506a6db677e4fb97a406480bff68}{Date}}()
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_add94899bb461ec1f63b2e986e31f0640}{dialog\+Service}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_clip_board_manager}{Clip\+Board\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a96535b50f67e9db49271ff84b2cf2e34}{clip\+Board\+Manager}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_build_info}{Build\+Info}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a50acb957ec438b98526815d1d0a88d7b}{build\+Info}}
+\item 
+final List\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_log_event_view_model}{Log\+Event\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a6c2a247af30c7d52cac3dbb5ec41fda2}{all\+Messages\+Data}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a9f1d34bcd1831ab8152c645d581e53fe}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Error\+Console\+View\+Model.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a20b1bd9f52594a2c28a4ec085e1b2d6f}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a20b1bd9f52594a2c28a4ec085e1b2d6f}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!ErrorConsoleViewModel@{ErrorConsoleViewModel}}
+\index{ErrorConsoleViewModel@{ErrorConsoleViewModel}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{ErrorConsoleViewModel()}{ErrorConsoleViewModel()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+Error\+Console\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_clip_board_manager}{Clip\+Board\+Manager}}}]{clip\+Board\+Manager,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_build_info}{Build\+Info}}}]{build\+Info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a057e36e9db3299026b3b306e0e1e6d42}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a057e36e9db3299026b3b306e0e1e6d42}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!allMessagesDataProperty@{allMessagesDataProperty}}
+\index{allMessagesDataProperty@{allMessagesDataProperty}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{allMessagesDataProperty()}{allMessagesDataProperty()}}
+{\footnotesize\ttfamily List\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_log_event_view_model}{Log\+Event\+View\+Model}}$>$ org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+all\+Messages\+Data\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_aba68df298bf97b480b6e90e5fb1febff}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_aba68df298bf97b480b6e90e5fb1febff}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!clearLog@{clearLog}}
+\index{clearLog@{clearLog}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{clearLog()}{clearLog()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+clear\+Log (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Clears the current log \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a431d62d79e9c45f9f120d0d49aae650f}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a431d62d79e9c45f9f120d0d49aae650f}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!copyLog@{copyLog}}
+\index{copyLog@{copyLog}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{copyLog()}{copyLog()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+copy\+Log (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Copies the whole log to the clipboard \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a7e3de9be868e04c4cfc0b8a6044d5468}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a7e3de9be868e04c4cfc0b8a6044d5468}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!copyLog@{copyLog}}
+\index{copyLog@{copyLog}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{copyLog()}{copyLog()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+copy\+Log (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_log_event_view_model}{Log\+Event\+View\+Model}} $>$}]{messages }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Copies the given list of \mbox{\hyperlink{}{Log\+Event}}s to the clipboard. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a21d7ec447187f9e55687e8410ddda241}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a21d7ec447187f9e55687e8410ddda241}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!getLogMessagesAsString@{getLogMessagesAsString}}
+\index{getLogMessagesAsString@{getLogMessagesAsString}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{getLogMessagesAsString()}{getLogMessagesAsString()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+get\+Log\+Messages\+As\+String (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_log_event_view_model}{Log\+Event\+View\+Model}} $>$}]{messages }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Concatenates the formatted message of the given \mbox{\hyperlink{}{Log\+Event}}s by using the a new line separator.
+
+\begin{DoxyReturn}{Returns}
+all messages as String 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_aef715ef60053b4458ea5a26d6d5dfeb8}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_aef715ef60053b4458ea5a26d6d5dfeb8}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!reportIssue@{reportIssue}}
+\index{reportIssue@{reportIssue}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{reportIssue()}{reportIssue()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+report\+Issue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Opens a new issue on Git\+Hub and copies log to clipboard. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a6c2a247af30c7d52cac3dbb5ec41fda2}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a6c2a247af30c7d52cac3dbb5ec41fda2}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!allMessagesData@{allMessagesData}}
+\index{allMessagesData@{allMessagesData}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{allMessagesData}{allMessagesData}}
+{\footnotesize\ttfamily final List\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_log_event_view_model}{Log\+Event\+View\+Model}}$>$ org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+all\+Messages\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a50acb957ec438b98526815d1d0a88d7b}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a50acb957ec438b98526815d1d0a88d7b}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!buildInfo@{buildInfo}}
+\index{buildInfo@{buildInfo}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{buildInfo}{buildInfo}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_build_info}{Build\+Info}} org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+build\+Info\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a96535b50f67e9db49271ff84b2cf2e34}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a96535b50f67e9db49271ff84b2cf2e34}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!clipBoardManager@{clipBoardManager}}
+\index{clipBoardManager@{clipBoardManager}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{clipBoardManager}{clipBoardManager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_clip_board_manager}{Clip\+Board\+Manager}} org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+clip\+Board\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a75691c18d7ea9f65c069470d5011a837}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a75691c18d7ea9f65c069470d5011a837}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!date@{date}}
+\index{date@{date}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{date}{date}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{_repec_nep_importer_test2_8txt_acfb6506a6db677e4fb97a406480bff68}{Date}} org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+date = new \mbox{\hyperlink{_repec_nep_importer_test2_8txt_acfb6506a6db677e4fb97a406480bff68}{Date}}()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_af4a5ca4ed4c463cceb4f7f214301f789}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_af4a5ca4ed4c463cceb4f7f214301f789}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!dateFormat@{dateFormat}}
+\index{dateFormat@{dateFormat}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{dateFormat}{dateFormat}}
+{\footnotesize\ttfamily final Date\+Format org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+date\+Format = new Simple\+Date\+Format(\char`\"{}yyyy\+M\+Mdd\+H\+Hmmss\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_add94899bb461ec1f63b2e986e31f0640}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_add94899bb461ec1f63b2e986e31f0640}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a9f1d34bcd1831ab8152c645d581e53fe}\label{classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model_a9f1d34bcd1831ab8152c645d581e53fe}} 
+\index{org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.errorconsole.ErrorConsoleViewModel@{org.jabref.gui.errorconsole.ErrorConsoleViewModel}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+errorconsole.\+Error\+Console\+View\+Model.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Error\+Console\+View\+Model.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/errorconsole/\mbox{\hyperlink{_error_console_view_model_8java}{Error\+Console\+View\+Model.\+java}}\end{DoxyCompactItemize}

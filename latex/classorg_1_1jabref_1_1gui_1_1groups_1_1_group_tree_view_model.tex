@@ -1,0 +1,270 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model}{}\doxysection{org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model}\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+Inheritance diagram for org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a70b5fa61e5d02a77abbe75801da3b197}{Group\+Tree\+View\+Model}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a1a2fb8053a09f58c1707638c51c429ba}{state\+Manager}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aef2e68b7319981baed4372b62c570167}{dialog\+Service}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} preferences\+Service, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a782faa8d7dc677a0f0d952f118042aec}{task\+Executor}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_custom_local_dragboard}{Custom\+Local\+Dragboard}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a91de6b7d58a9b39f66fa82c328fc9650}{local\+Dragboard}})
+\item 
+Object\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a422648f5784ec4b0439308b3889b6507}{root\+Group\+Property}} ()
+\item 
+List\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aeebd72acb1ea1db622e0274dbb63b57a}{selected\+Groups\+Property}} ()
+\item 
+Object\+Property$<$ Predicate$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a6e5112f73b17ecbb9e19897fbc32a276}{filter\+Predicate\+Property}} ()
+\item 
+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a4dee6fc6bec3665de17870e8ae1b5afb}{filter\+Text\+Property}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a51eea74405c3a32ee4a69e64c6e9ea69}{add\+New\+Group\+To\+Root}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a210d58bb0abf3b267eb025f85b6fe2d0}{add\+New\+Subgroup}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} parent)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a19572e3d55adb914e1d91efe280bd0b7}{edit\+Group}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} old\+Group)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a1a221061b92d8495f51022a738282bec}{remove\+Subgroups}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} group)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a9c333bb6c0c06bc698cd4aa5067dd129}{remove\+Group\+Keep\+Subgroups}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} group)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_ad295eccb3cdf8e02fec3830f2e6ad4b3}{remove\+Group\+And\+Subgroups}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} group)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a3002672c49d1861c25cf1174ce6a82d1}{add\+Selected\+Entries}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} group)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_ad9ff2bb36a97b10b948343bd9ca369f0}{remove\+Selected\+Entries}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} group)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a698450709c5041dacb1ec098f6e92af1}{sort\+Alphabetically\+Recursive}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} group)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a5404c3b524e6a28c30db71f49b6025a0}{refresh}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_af26a722903ef9f3c708d305ac5f68ec0}{on\+Selected\+Group\+Changed}} (Observable\+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} $>$ new\+Value)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a976bf4facf18596efc4faf340997fdfa}{on\+Active\+Database\+Changed}} (Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} $>$ new\+Database)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_ae52084c3c6826e6d00d3a746b83131bd}{write\+Group\+Changes\+To\+Meta\+Data}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Object\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aec17e6e0d9a2e0406d44f215ed4a927b}{root\+Group}} = new Simple\+Object\+Property$<$$>$()
+\item 
+final List\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a63b9723f05e79cb5cec8255a8f5645e1}{selected\+Groups}} = new Simple\+List\+Property$<$$>$(F\+X\+Collections.\+observable\+Array\+List())
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a1a2fb8053a09f58c1707638c51c429ba}{state\+Manager}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aef2e68b7319981baed4372b62c570167}{dialog\+Service}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a2b945fd143db9407c2d39c315a885af5}{preferences}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a782faa8d7dc677a0f0d952f118042aec}{task\+Executor}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_custom_local_dragboard}{Custom\+Local\+Dragboard}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a91de6b7d58a9b39f66fa82c328fc9650}{local\+Dragboard}}
+\item 
+final Object\+Property$<$ Predicate$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a88b74a5b151bf77e00f9698e7181720c}{filter\+Predicate}} = new Simple\+Object\+Property$<$$>$()
+\item 
+final String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a874eb9eceeef8b02c7653c37e8aa14e4}{filter\+Text}} = new Simple\+String\+Property()
+\item 
+final Comparator$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_adfda9e9afcc12620424044995f8dc750}{comp\+Alphabet\+Ignore\+Case}}
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aa00cf95476791bd6fb605cea1d69c94e}{current\+Database}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a70b5fa61e5d02a77abbe75801da3b197}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a70b5fa61e5d02a77abbe75801da3b197}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!GroupTreeViewModel@{GroupTreeViewModel}}
+\index{GroupTreeViewModel@{GroupTreeViewModel}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{GroupTreeViewModel()}{GroupTreeViewModel()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+Group\+Tree\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}}}]{preferences\+Service,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}}}]{task\+Executor,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_custom_local_dragboard}{Custom\+Local\+Dragboard}}}]{local\+Dragboard }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a51eea74405c3a32ee4a69e64c6e9ea69}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a51eea74405c3a32ee4a69e64c6e9ea69}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!addNewGroupToRoot@{addNewGroupToRoot}}
+\index{addNewGroupToRoot@{addNewGroupToRoot}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{addNewGroupToRoot()}{addNewGroupToRoot()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+add\+New\+Group\+To\+Root (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Opens \char`\"{}\+New Group Dialog\char`\"{} and add the resulting group to the root \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a210d58bb0abf3b267eb025f85b6fe2d0}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a210d58bb0abf3b267eb025f85b6fe2d0}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!addNewSubgroup@{addNewSubgroup}}
+\index{addNewSubgroup@{addNewSubgroup}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{addNewSubgroup()}{addNewSubgroup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+add\+New\+Subgroup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}}]{parent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Opens \char`\"{}\+New Group Dialog\char`\"{} and add the resulting group to the specified group \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a3002672c49d1861c25cf1174ce6a82d1}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a3002672c49d1861c25cf1174ce6a82d1}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!addSelectedEntries@{addSelectedEntries}}
+\index{addSelectedEntries@{addSelectedEntries}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{addSelectedEntries()}{addSelectedEntries()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+add\+Selected\+Entries (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}}]{group }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a19572e3d55adb914e1d91efe280bd0b7}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a19572e3d55adb914e1d91efe280bd0b7}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!editGroup@{editGroup}}
+\index{editGroup@{editGroup}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{editGroup()}{editGroup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+edit\+Group (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}}]{old\+Group }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Opens \char`\"{}\+Edit Group Dialog\char`\"{} and changes the given group to the edited one. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a6e5112f73b17ecbb9e19897fbc32a276}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a6e5112f73b17ecbb9e19897fbc32a276}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!filterPredicateProperty@{filterPredicateProperty}}
+\index{filterPredicateProperty@{filterPredicateProperty}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{filterPredicateProperty()}{filterPredicateProperty()}}
+{\footnotesize\ttfamily Object\+Property$<$Predicate$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}$>$ $>$ org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+filter\+Predicate\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a4dee6fc6bec3665de17870e8ae1b5afb}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a4dee6fc6bec3665de17870e8ae1b5afb}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!filterTextProperty@{filterTextProperty}}
+\index{filterTextProperty@{filterTextProperty}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{filterTextProperty()}{filterTextProperty()}}
+{\footnotesize\ttfamily String\+Property org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+filter\+Text\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a976bf4facf18596efc4faf340997fdfa}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a976bf4facf18596efc4faf340997fdfa}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!onActiveDatabaseChanged@{onActiveDatabaseChanged}}
+\index{onActiveDatabaseChanged@{onActiveDatabaseChanged}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{onActiveDatabaseChanged()}{onActiveDatabaseChanged()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+on\+Active\+Database\+Changed (\begin{DoxyParamCaption}\item[{Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} $>$}]{new\+Database }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Gets invoked if the user changes the active database. We need to get the new group tree and update the view \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_af26a722903ef9f3c708d305ac5f68ec0}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_af26a722903ef9f3c708d305ac5f68ec0}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!onSelectedGroupChanged@{onSelectedGroupChanged}}
+\index{onSelectedGroupChanged@{onSelectedGroupChanged}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{onSelectedGroupChanged()}{onSelectedGroupChanged()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+on\+Selected\+Group\+Changed (\begin{DoxyParamCaption}\item[{Observable\+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}} $>$}]{new\+Value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Gets invoked if the user selects a different group. We need to notify the \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} about this change so that the main table gets updated. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a5404c3b524e6a28c30db71f49b6025a0}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a5404c3b524e6a28c30db71f49b6025a0}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!refresh@{refresh}}
+\index{refresh@{refresh}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{refresh()}{refresh()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+refresh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_ad295eccb3cdf8e02fec3830f2e6ad4b3}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_ad295eccb3cdf8e02fec3830f2e6ad4b3}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!removeGroupAndSubgroups@{removeGroupAndSubgroups}}
+\index{removeGroupAndSubgroups@{removeGroupAndSubgroups}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{removeGroupAndSubgroups()}{removeGroupAndSubgroups()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+remove\+Group\+And\+Subgroups (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}}]{group }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Removes the specified group and its subgroups (after asking for confirmation). \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a9c333bb6c0c06bc698cd4aa5067dd129}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a9c333bb6c0c06bc698cd4aa5067dd129}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!removeGroupKeepSubgroups@{removeGroupKeepSubgroups}}
+\index{removeGroupKeepSubgroups@{removeGroupKeepSubgroups}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{removeGroupKeepSubgroups()}{removeGroupKeepSubgroups()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+remove\+Group\+Keep\+Subgroups (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}}]{group }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_ad9ff2bb36a97b10b948343bd9ca369f0}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_ad9ff2bb36a97b10b948343bd9ca369f0}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!removeSelectedEntries@{removeSelectedEntries}}
+\index{removeSelectedEntries@{removeSelectedEntries}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{removeSelectedEntries()}{removeSelectedEntries()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+remove\+Selected\+Entries (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}}]{group }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a1a221061b92d8495f51022a738282bec}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a1a221061b92d8495f51022a738282bec}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!removeSubgroups@{removeSubgroups}}
+\index{removeSubgroups@{removeSubgroups}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{removeSubgroups()}{removeSubgroups()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+remove\+Subgroups (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}}]{group }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+T\+O\+DO\+: Add undo\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a422648f5784ec4b0439308b3889b6507}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a422648f5784ec4b0439308b3889b6507}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!rootGroupProperty@{rootGroupProperty}}
+\index{rootGroupProperty@{rootGroupProperty}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{rootGroupProperty()}{rootGroupProperty()}}
+{\footnotesize\ttfamily Object\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}$>$ org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+root\+Group\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aeebd72acb1ea1db622e0274dbb63b57a}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aeebd72acb1ea1db622e0274dbb63b57a}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!selectedGroupsProperty@{selectedGroupsProperty}}
+\index{selectedGroupsProperty@{selectedGroupsProperty}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{selectedGroupsProperty()}{selectedGroupsProperty()}}
+{\footnotesize\ttfamily List\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}$>$ org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+selected\+Groups\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a698450709c5041dacb1ec098f6e92af1}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a698450709c5041dacb1ec098f6e92af1}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!sortAlphabeticallyRecursive@{sortAlphabeticallyRecursive}}
+\index{sortAlphabeticallyRecursive@{sortAlphabeticallyRecursive}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{sortAlphabeticallyRecursive()}{sortAlphabeticallyRecursive()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+sort\+Alphabetically\+Recursive (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}}]{group }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_ae52084c3c6826e6d00d3a746b83131bd}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_ae52084c3c6826e6d00d3a746b83131bd}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!writeGroupChangesToMetaData@{writeGroupChangesToMetaData}}
+\index{writeGroupChangesToMetaData@{writeGroupChangesToMetaData}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{writeGroupChangesToMetaData()}{writeGroupChangesToMetaData()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+write\+Group\+Changes\+To\+Meta\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_adfda9e9afcc12620424044995f8dc750}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_adfda9e9afcc12620424044995f8dc750}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!compAlphabetIgnoreCase@{compAlphabetIgnoreCase}}
+\index{compAlphabetIgnoreCase@{compAlphabetIgnoreCase}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{compAlphabetIgnoreCase}{compAlphabetIgnoreCase}}
+{\footnotesize\ttfamily final Comparator$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}}$>$ org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+comp\+Alphabet\+Ignore\+Case\hspace{0.3cm}{\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= (GroupTreeNode v1, GroupTreeNode v2) -\/> v1}
+\DoxyCodeLine{            .getName()}
+\DoxyCodeLine{            .compareToIgnoreCase(v2.getName())}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aa00cf95476791bd6fb605cea1d69c94e}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aa00cf95476791bd6fb605cea1d69c94e}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!currentDatabase@{currentDatabase}}
+\index{currentDatabase@{currentDatabase}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{currentDatabase}{currentDatabase}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}$>$ org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+current\+Database\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aef2e68b7319981baed4372b62c570167}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aef2e68b7319981baed4372b62c570167}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a88b74a5b151bf77e00f9698e7181720c}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a88b74a5b151bf77e00f9698e7181720c}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!filterPredicate@{filterPredicate}}
+\index{filterPredicate@{filterPredicate}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{filterPredicate}{filterPredicate}}
+{\footnotesize\ttfamily final Object\+Property$<$Predicate$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}$>$ $>$ org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+filter\+Predicate = new Simple\+Object\+Property$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a874eb9eceeef8b02c7653c37e8aa14e4}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a874eb9eceeef8b02c7653c37e8aa14e4}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!filterText@{filterText}}
+\index{filterText@{filterText}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{filterText}{filterText}}
+{\footnotesize\ttfamily final String\+Property org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+filter\+Text = new Simple\+String\+Property()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a91de6b7d58a9b39f66fa82c328fc9650}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a91de6b7d58a9b39f66fa82c328fc9650}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!localDragboard@{localDragboard}}
+\index{localDragboard@{localDragboard}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{localDragboard}{localDragboard}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_custom_local_dragboard}{Custom\+Local\+Dragboard}} org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+local\+Dragboard\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a2b945fd143db9407c2d39c315a885af5}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a2b945fd143db9407c2d39c315a885af5}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aec17e6e0d9a2e0406d44f215ed4a927b}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_aec17e6e0d9a2e0406d44f215ed4a927b}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!rootGroup@{rootGroup}}
+\index{rootGroup@{rootGroup}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{rootGroup}{rootGroup}}
+{\footnotesize\ttfamily final Object\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}$>$ org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+root\+Group = new Simple\+Object\+Property$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a63b9723f05e79cb5cec8255a8f5645e1}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a63b9723f05e79cb5cec8255a8f5645e1}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!selectedGroups@{selectedGroups}}
+\index{selectedGroups@{selectedGroups}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{selectedGroups}{selectedGroups}}
+{\footnotesize\ttfamily final List\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model}{Group\+Node\+View\+Model}}$>$ org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+selected\+Groups = new Simple\+List\+Property$<$$>$(F\+X\+Collections.\+observable\+Array\+List())\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a1a2fb8053a09f58c1707638c51c429ba}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a1a2fb8053a09f58c1707638c51c429ba}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!stateManager@{stateManager}}
+\index{stateManager@{stateManager}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{stateManager}{stateManager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+state\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a782faa8d7dc677a0f0d952f118042aec}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_model_a782faa8d7dc677a0f0d952f118042aec}} 
+\index{org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}!taskExecutor@{taskExecutor}}
+\index{taskExecutor@{taskExecutor}!org.jabref.gui.groups.GroupTreeViewModel@{org.jabref.gui.groups.GroupTreeViewModel}}
+\doxysubsubsection{\texorpdfstring{taskExecutor}{taskExecutor}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} org.\+jabref.\+gui.\+groups.\+Group\+Tree\+View\+Model.\+task\+Executor\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/groups/\mbox{\hyperlink{_group_tree_view_model_8java}{Group\+Tree\+View\+Model.\+java}}\end{DoxyCompactItemize}

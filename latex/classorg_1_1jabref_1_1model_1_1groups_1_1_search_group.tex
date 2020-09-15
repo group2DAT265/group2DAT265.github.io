@@ -1,0 +1,149 @@
+\hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group}{}\doxysection{org.\+jabref.\+model.\+groups.\+Search\+Group Class Reference}
+\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group}\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+Inheritance diagram for org.\+jabref.\+model.\+groups.\+Search\+Group\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a2f0a3f46fa1c9eb09f64ec9725cea81b}{Search\+Group}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_a7305f9ca0de7ae29f786a6a6c433c1e2}{name}}, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1groups_1_1_group_hierarchy_type}{Group\+Hierarchy\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_adc2b7334a3cf4143b05b915818b79e79}{context}}, String search\+Expression, boolean case\+Sensitive, boolean is\+Reg\+Ex)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_acc10247858e0e5473fc50fadd017d331}{get\+Search\+Expression}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_ac49efa31df14aa455555a6d89f8adcbf}{equals}} (Object o)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a60ee7c324cba2aba3cb0a75b8fc3e2c7}{contains}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group}{Abstract\+Group}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_aba9e9972eef621f4682a00c045887f3c}{deep\+Copy}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_aefd21bda1f9e88301b94188f87baae92}{is\+Case\+Sensitive}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_ad789235498a746c3441469db228e581d}{is\+Regular\+Expression}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_acffe99b7231f80d182a1746f89375f1f}{is\+Dynamic}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_af7c828d5261f097f9f7d0f2c8b79ce79}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1_group_search_query}{Group\+Search\+Query}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a0677b5ab303cfc8d64dcc17a70c65076}{query}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a0cd99aafc83a15d04d72e5ce2fd242c8}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Search\+Group.\+class)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+This group matches entries by a complex search pattern, which might include conditions about the values of multiple fields. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a2f0a3f46fa1c9eb09f64ec9725cea81b}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a2f0a3f46fa1c9eb09f64ec9725cea81b}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!SearchGroup@{SearchGroup}}
+\index{SearchGroup@{SearchGroup}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{SearchGroup()}{SearchGroup()}}
+{\footnotesize\ttfamily org.\+jabref.\+model.\+groups.\+Search\+Group.\+Search\+Group (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1groups_1_1_group_hierarchy_type}{Group\+Hierarchy\+Type}}}]{context,  }\item[{String}]{search\+Expression,  }\item[{boolean}]{case\+Sensitive,  }\item[{boolean}]{is\+Reg\+Ex }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a60ee7c324cba2aba3cb0a75b8fc3e2c7}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a60ee7c324cba2aba3cb0a75b8fc3e2c7}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!contains@{contains}}
+\index{contains@{contains}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+groups.\+Search\+Group.\+contains (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+true if this group contains the specified entry, false otherwise. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_ac06b7d7084ec346c4de0b924e7164f0e}{org.\+jabref.\+model.\+groups.\+Abstract\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_aba9e9972eef621f4682a00c045887f3c}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_aba9e9972eef621f4682a00c045887f3c}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!deepCopy@{deepCopy}}
+\index{deepCopy@{deepCopy}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{deepCopy()}{deepCopy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group}{Abstract\+Group}} org.\+jabref.\+model.\+groups.\+Search\+Group.\+deep\+Copy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+A deep copy of this object. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_ac30d2c04d34d2f0663a0337e0f85f5f8}{org.\+jabref.\+model.\+groups.\+Abstract\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_ac49efa31df14aa455555a6d89f8adcbf}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_ac49efa31df14aa455555a6d89f8adcbf}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!equals@{equals}}
+\index{equals@{equals}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+groups.\+Search\+Group.\+equals (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_a7119a06093278b95dc8efe2309a55966}{org.\+jabref.\+model.\+groups.\+Abstract\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_acc10247858e0e5473fc50fadd017d331}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_acc10247858e0e5473fc50fadd017d331}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!getSearchExpression@{getSearchExpression}}
+\index{getSearchExpression@{getSearchExpression}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{getSearchExpression()}{getSearchExpression()}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+groups.\+Search\+Group.\+get\+Search\+Expression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_af7c828d5261f097f9f7d0f2c8b79ce79}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_af7c828d5261f097f9f7d0f2c8b79ce79}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jabref.\+model.\+groups.\+Search\+Group.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_ae2a37a7a45d04fe89f2753c524e164ef}{org.\+jabref.\+model.\+groups.\+Abstract\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_aefd21bda1f9e88301b94188f87baae92}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_aefd21bda1f9e88301b94188f87baae92}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!isCaseSensitive@{isCaseSensitive}}
+\index{isCaseSensitive@{isCaseSensitive}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{isCaseSensitive()}{isCaseSensitive()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+groups.\+Search\+Group.\+is\+Case\+Sensitive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_acffe99b7231f80d182a1746f89375f1f}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_acffe99b7231f80d182a1746f89375f1f}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!isDynamic@{isDynamic}}
+\index{isDynamic@{isDynamic}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{isDynamic()}{isDynamic()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+groups.\+Search\+Group.\+is\+Dynamic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns true if this group is dynamic, i.\+e. uses a search definition or equiv. that might match new entries, or false if this group contains a fixed set of entries and thus will never match a new entry that was not explicitly added to it. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_afacd0396e27ef03cd016d3d956869ed1}{org.\+jabref.\+model.\+groups.\+Abstract\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_ad789235498a746c3441469db228e581d}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_ad789235498a746c3441469db228e581d}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!isRegularExpression@{isRegularExpression}}
+\index{isRegularExpression@{isRegularExpression}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{isRegularExpression()}{isRegularExpression()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+groups.\+Search\+Group.\+is\+Regular\+Expression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a0cd99aafc83a15d04d72e5ce2fd242c8}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a0cd99aafc83a15d04d72e5ce2fd242c8}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+model.\+groups.\+Search\+Group.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Search\+Group.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a0677b5ab303cfc8d64dcc17a70c65076}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_search_group_a0677b5ab303cfc8d64dcc17a70c65076}} 
+\index{org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}!query@{query}}
+\index{query@{query}!org.jabref.model.groups.SearchGroup@{org.jabref.model.groups.SearchGroup}}
+\doxysubsubsection{\texorpdfstring{query}{query}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1_group_search_query}{Group\+Search\+Query}} org.\+jabref.\+model.\+groups.\+Search\+Group.\+query\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/model/groups/\mbox{\hyperlink{_search_group_8java}{Search\+Group.\+java}}\end{DoxyCompactItemize}

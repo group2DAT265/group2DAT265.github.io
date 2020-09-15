@@ -1,0 +1,90 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action}{}\doxysection{org.\+jabref.\+gui.\+Send\+As\+E\+Mail\+Action Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action}\index{org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}}
+Inheritance diagram for org.\+jabref.\+gui.\+Send\+As\+E\+Mail\+Action\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a3b6ed82e08dad3c309104bb5867f71b4}{Send\+As\+E\+Mail\+Action}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a0ce0e6dfb85e2d693a774895a8a91658}{dialog\+Service}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_aad6fb8a6cf1b7f93c04f946459b2e13b}{state\+Manager}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a4cd351061892336821e531a017297704}{execute}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a791270938f7bb79d808ee6e38239dc58}{send\+Email}} ()  throws Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a0ce0e6dfb85e2d693a774895a8a91658}{dialog\+Service}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_aad6fb8a6cf1b7f93c04f946459b2e13b}{state\+Manager}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a936082b344e4d41e7c9eb38e5a586029}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Send\+As\+E\+Mail\+Action.\+class)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Sends the selected entry as email 
+
+It uses the mailto\+:-\/mechanism 
+
+Microsoft Outlook does not support attachments via mailto Therefore, the folder(s), where the file(s) belonging to the entry are stored, are opened. This feature is disabled by default and can be switched on at preferences/external programs 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a3b6ed82e08dad3c309104bb5867f71b4}\label{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a3b6ed82e08dad3c309104bb5867f71b4}} 
+\index{org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}!SendAsEMailAction@{SendAsEMailAction}}
+\index{SendAsEMailAction@{SendAsEMailAction}!org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}}
+\doxysubsubsection{\texorpdfstring{SendAsEMailAction()}{SendAsEMailAction()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+Send\+As\+E\+Mail\+Action.\+Send\+As\+E\+Mail\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a4cd351061892336821e531a017297704}\label{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a4cd351061892336821e531a017297704}} 
+\index{org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}!execute@{execute}}
+\index{execute@{execute}!org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Send\+As\+E\+Mail\+Action.\+execute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a791270938f7bb79d808ee6e38239dc58}\label{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a791270938f7bb79d808ee6e38239dc58}} 
+\index{org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}!sendEmail@{sendEmail}}
+\index{sendEmail@{sendEmail}!org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}}
+\doxysubsubsection{\texorpdfstring{sendEmail()}{sendEmail()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+Send\+As\+E\+Mail\+Action.\+send\+Email (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a0ce0e6dfb85e2d693a774895a8a91658}\label{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a0ce0e6dfb85e2d693a774895a8a91658}} 
+\index{org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+Send\+As\+E\+Mail\+Action.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a936082b344e4d41e7c9eb38e5a586029}\label{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_a936082b344e4d41e7c9eb38e5a586029}} 
+\index{org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+Send\+As\+E\+Mail\+Action.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Send\+As\+E\+Mail\+Action.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_aad6fb8a6cf1b7f93c04f946459b2e13b}\label{classorg_1_1jabref_1_1gui_1_1_send_as_e_mail_action_aad6fb8a6cf1b7f93c04f946459b2e13b}} 
+\index{org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}!stateManager@{stateManager}}
+\index{stateManager@{stateManager}!org.jabref.gui.SendAsEMailAction@{org.jabref.gui.SendAsEMailAction}}
+\doxysubsubsection{\texorpdfstring{stateManager}{stateManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} org.\+jabref.\+gui.\+Send\+As\+E\+Mail\+Action.\+state\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/\mbox{\hyperlink{_send_as_e_mail_action_8java}{Send\+As\+E\+Mail\+Action.\+java}}\end{DoxyCompactItemize}

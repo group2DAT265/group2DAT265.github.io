@@ -1,0 +1,186 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action}{}\doxysection{org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action}\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+Inheritance diagram for org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a4339c8d5b209ad7db91d0e5b93194b57}{Open\+Database\+Action}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a0a0208cf90ca43e528c46f0b0ff84647}{frame}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a140e07bbfdd5c374f9f19784887d822d}{execute}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a2a0f84e6cc383fcd8505cfb39e2b5493}{open\+File}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, boolean raise\+Panel)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a51b44fb8710534f83d6c33d74b009251}{open\+Files}} (List$<$ Path $>$ files\+To\+Open, boolean raise\+Panel)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_ae3a1948d6e0d55a2233fd1cbfe627313}{perform\+Post\+Open\+Actions}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} panel, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} result)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a9526f9346f481af12eee75ff5cca2765}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Open\+Database\+Action.\+class)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Path \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_af2f0a0087d4301c26f8b0996fcd74520}{get\+Initial\+Directory}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a9eba091f4d1c4cb988ba66c1cc4f0551}{open\+The\+File}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, boolean raise\+Panel)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a1a7d54929053f42ea6e20245b5105df6}{load\+Database}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}})  throws Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a5b73ca37d8e1cf6f1c41155cc7e4d7c4}{add\+New\+Database}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} result, final Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, boolean raise\+Panel)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a0a0208cf90ca43e528c46f0b0ff84647}{frame}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a0bba6a45e59ad8ed234a78b48f7e41e1}{dialog\+Service}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final List$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_g_u_i_post_open_action}{G\+U\+I\+Post\+Open\+Action}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_abf5f97cbc7d1b422cb5cf6458954ed97}{P\+O\+S\+T\+\_\+\+O\+P\+E\+N\+\_\+\+A\+C\+T\+I\+O\+NS}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a4339c8d5b209ad7db91d0e5b93194b57}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a4339c8d5b209ad7db91d0e5b93194b57}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!OpenDatabaseAction@{OpenDatabaseAction}}
+\index{OpenDatabaseAction@{OpenDatabaseAction}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{OpenDatabaseAction()}{OpenDatabaseAction()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+Open\+Database\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}}}]{frame }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a5b73ca37d8e1cf6f1c41155cc7e4d7c4}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a5b73ca37d8e1cf6f1c41155cc7e4d7c4}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!addNewDatabase@{addNewDatabase}}
+\index{addNewDatabase@{addNewDatabase}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{addNewDatabase()}{addNewDatabase()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+add\+New\+Database (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}}]{result,  }\item[{final Path}]{file,  }\item[{boolean}]{raise\+Panel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a140e07bbfdd5c374f9f19784887d822d}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a140e07bbfdd5c374f9f19784887d822d}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!execute@{execute}}
+\index{execute@{execute}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+execute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_af2f0a0087d4301c26f8b0996fcd74520}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_af2f0a0087d4301c26f8b0996fcd74520}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!getInitialDirectory@{getInitialDirectory}}
+\index{getInitialDirectory@{getInitialDirectory}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{getInitialDirectory()}{getInitialDirectory()}}
+{\footnotesize\ttfamily Path org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+get\+Initial\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\begin{DoxyReturn}{Returns}
+Path of current panel database directory or the working directory 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a1a7d54929053f42ea6e20245b5105df6}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a1a7d54929053f42ea6e20245b5105df6}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!loadDatabase@{loadDatabase}}
+\index{loadDatabase@{loadDatabase}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{loadDatabase()}{loadDatabase()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+load\+Database (\begin{DoxyParamCaption}\item[{Path}]{file }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a2a0f84e6cc383fcd8505cfb39e2b5493}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a2a0f84e6cc383fcd8505cfb39e2b5493}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!openFile@{openFile}}
+\index{openFile@{openFile}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{openFile()}{openFile()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+open\+File (\begin{DoxyParamCaption}\item[{Path}]{file,  }\item[{boolean}]{raise\+Panel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Opens the given file. If null or 404, nothing happens
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & the file, may be null or not existing \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a51b44fb8710534f83d6c33d74b009251}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a51b44fb8710534f83d6c33d74b009251}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!openFiles@{openFiles}}
+\index{openFiles@{openFiles}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{openFiles()}{openFiles()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+open\+Files (\begin{DoxyParamCaption}\item[{List$<$ Path $>$}]{files\+To\+Open,  }\item[{boolean}]{raise\+Panel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Opens the given files. If one of it is null or 404, nothing happens
+
+
+\begin{DoxyParams}{Parameters}
+{\em files\+To\+Open} & the files\+To\+Open, may be null or not existing \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a9eba091f4d1c4cb988ba66c1cc4f0551}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a9eba091f4d1c4cb988ba66c1cc4f0551}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!openTheFile@{openTheFile}}
+\index{openTheFile@{openTheFile}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{openTheFile()}{openTheFile()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+open\+The\+File (\begin{DoxyParamCaption}\item[{Path}]{file,  }\item[{boolean}]{raise\+Panel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & the file, may be null or not existing \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_ae3a1948d6e0d55a2233fd1cbfe627313}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_ae3a1948d6e0d55a2233fd1cbfe627313}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!performPostOpenActions@{performPostOpenActions}}
+\index{performPostOpenActions@{performPostOpenActions}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{performPostOpenActions()}{performPostOpenActions()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+perform\+Post\+Open\+Actions (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}}}]{panel,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Go through the list of post open actions, and perform those that need to be performed.
+
+
+\begin{DoxyParams}{Parameters}
+{\em panel} & The \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} where the database is shown. \\
+\hline
+{\em result} & The result of the B\+IB file parse operation. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a0bba6a45e59ad8ed234a78b48f7e41e1}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a0bba6a45e59ad8ed234a78b48f7e41e1}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a0a0208cf90ca43e528c46f0b0ff84647}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a0a0208cf90ca43e528c46f0b0ff84647}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!frame@{frame}}
+\index{frame@{frame}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{frame}{frame}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+frame\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a9526f9346f481af12eee75ff5cca2765}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_a9526f9346f481af12eee75ff5cca2765}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Open\+Database\+Action.\+class)\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_abf5f97cbc7d1b422cb5cf6458954ed97}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action_abf5f97cbc7d1b422cb5cf6458954ed97}} 
+\index{org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}!POST\_OPEN\_ACTIONS@{POST\_OPEN\_ACTIONS}}
+\index{POST\_OPEN\_ACTIONS@{POST\_OPEN\_ACTIONS}!org.jabref.gui.importer.actions.OpenDatabaseAction@{org.jabref.gui.importer.actions.OpenDatabaseAction}}
+\doxysubsubsection{\texorpdfstring{POST\_OPEN\_ACTIONS}{POST\_OPEN\_ACTIONS}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_g_u_i_post_open_action}{G\+U\+I\+Post\+Open\+Action}}$>$ org.\+jabref.\+gui.\+importer.\+actions.\+Open\+Database\+Action.\+P\+O\+S\+T\+\_\+\+O\+P\+E\+N\+\_\+\+A\+C\+T\+I\+O\+NS\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Arrays.asList(}
+\DoxyCodeLine{            }
+\DoxyCodeLine{            }
+\DoxyCodeLine{            \textcolor{keyword}{new} MergeReviewIntoCommentAction(),}
+\DoxyCodeLine{            }
+\DoxyCodeLine{            \textcolor{keyword}{new} CheckForNewEntryTypesAction())}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/importer/actions/\mbox{\hyperlink{_open_database_action_8java}{Open\+Database\+Action.\+java}}\end{DoxyCompactItemize}

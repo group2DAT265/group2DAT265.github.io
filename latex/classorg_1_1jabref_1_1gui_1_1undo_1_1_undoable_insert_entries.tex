@@ -1,0 +1,114 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries}{}\doxysection{org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries}\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+Inheritance diagram for org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_ade8efd9efa259cbc8aac5d90e49dde94}{Undoable\+Insert\+Entries}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4356e99803df4804e501bf4804ece0ed}{database}}, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a46f2ab3f804bf636e8d1461a7db4a775}{Undoable\+Insert\+Entries}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4356e99803df4804e501bf4804ece0ed}{database}}, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a8a885f087afe6832da72f83075b4a696}{entries}})
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a91e868a8d2ef56c9cef22fa714f7e11b}{Undoable\+Insert\+Entries}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4356e99803df4804e501bf4804ece0ed}{database}}, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a8a885f087afe6832da72f83075b4a696}{entries}}, boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4e3e104d0bbfe7c3fc0d5c35760bfba4}{paste}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_ae07b4b4822f89fef982a2061def4f641}{get\+Presentation\+Name}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_af6efa86585cb850b7a1ed39358a415c3}{undo}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a7a850e679a8bdc980ad02374b3d8a695}{redo}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4356e99803df4804e501bf4804ece0ed}{database}}
+\item 
+final List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a8a885f087afe6832da72f83075b4a696}{entries}}
+\item 
+final boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4e3e104d0bbfe7c3fc0d5c35760bfba4}{paste}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_af6f86cad1b2dd8ceafd2ecaa5108efd7}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Undoable\+Insert\+Entries.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the removal of entries. The constructor needs references to the database, entries, and a boolean marked true if the undo is from a call to \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4e3e104d0bbfe7c3fc0d5c35760bfba4}{paste()}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_ade8efd9efa259cbc8aac5d90e49dde94}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_ade8efd9efa259cbc8aac5d90e49dde94}} 
+\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}!UndoableInsertEntries@{UndoableInsertEntries}}
+\index{UndoableInsertEntries@{UndoableInsertEntries}!org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+\doxysubsubsection{\texorpdfstring{UndoableInsertEntries()}{UndoableInsertEntries()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries.\+Undoable\+Insert\+Entries (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a46f2ab3f804bf636e8d1461a7db4a775}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a46f2ab3f804bf636e8d1461a7db4a775}} 
+\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}!UndoableInsertEntries@{UndoableInsertEntries}}
+\index{UndoableInsertEntries@{UndoableInsertEntries}!org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+\doxysubsubsection{\texorpdfstring{UndoableInsertEntries()}{UndoableInsertEntries()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries.\+Undoable\+Insert\+Entries (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database,  }\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a91e868a8d2ef56c9cef22fa714f7e11b}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a91e868a8d2ef56c9cef22fa714f7e11b}} 
+\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}!UndoableInsertEntries@{UndoableInsertEntries}}
+\index{UndoableInsertEntries@{UndoableInsertEntries}!org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+\doxysubsubsection{\texorpdfstring{UndoableInsertEntries()}{UndoableInsertEntries()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries.\+Undoable\+Insert\+Entries (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database,  }\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries,  }\item[{boolean}]{paste }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_ae07b4b4822f89fef982a2061def4f641}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_ae07b4b4822f89fef982a2061def4f641}} 
+\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}!getPresentationName@{getPresentationName}}
+\index{getPresentationName@{getPresentationName}!org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+\doxysubsubsection{\texorpdfstring{getPresentationName()}{getPresentationName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries.\+get\+Presentation\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a7a850e679a8bdc980ad02374b3d8a695}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a7a850e679a8bdc980ad02374b3d8a695}} 
+\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}!redo@{redo}}
+\index{redo@{redo}!org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+\doxysubsubsection{\texorpdfstring{redo()}{redo()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries.\+redo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_af6efa86585cb850b7a1ed39358a415c3}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_af6efa86585cb850b7a1ed39358a415c3}} 
+\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}!undo@{undo}}
+\index{undo@{undo}!org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries.\+undo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4356e99803df4804e501bf4804ece0ed}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4356e99803df4804e501bf4804ece0ed}} 
+\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}!database@{database}}
+\index{database@{database}!org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+\doxysubsubsection{\texorpdfstring{database}{database}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries.\+database\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a8a885f087afe6832da72f83075b4a696}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a8a885f087afe6832da72f83075b4a696}} 
+\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}!entries@{entries}}
+\index{entries@{entries}!org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+\doxysubsubsection{\texorpdfstring{entries}{entries}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries.\+entries\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_af6f86cad1b2dd8ceafd2ecaa5108efd7}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_af6f86cad1b2dd8ceafd2ecaa5108efd7}} 
+\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Undoable\+Insert\+Entries.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4e3e104d0bbfe7c3fc0d5c35760bfba4}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries_a4e3e104d0bbfe7c3fc0d5c35760bfba4}} 
+\index{org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}!paste@{paste}}
+\index{paste@{paste}!org.jabref.gui.undo.UndoableInsertEntries@{org.jabref.gui.undo.UndoableInsertEntries}}
+\doxysubsubsection{\texorpdfstring{paste}{paste}}
+{\footnotesize\ttfamily final boolean org.\+jabref.\+gui.\+undo.\+Undoable\+Insert\+Entries.\+paste\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/undo/\mbox{\hyperlink{_undoable_insert_entries_8java}{Undoable\+Insert\+Entries.\+java}}\end{DoxyCompactItemize}

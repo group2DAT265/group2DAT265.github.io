@@ -1,0 +1,214 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test}{}\doxysection{org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test}\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a9901d143fa67b9322bb696ebc7c00c73}{set\+Up}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_af60846c5af900a2850372e4135614d17}{test\+Duplicate\+Detection}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a9d1dcf361044781119ac8a91b690ae04}{test\+Word\+Correlation}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a2b26dfe33d9a8d5aff9f2602409d89cf}{two\+Unrelated\+Entries\+Are\+No\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_ab25a878df52509e0e65fe2efe41b012b}{two\+Unrelated\+Entries\+With\+Different\+Dois\+Are\+No\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a540d58f8e5612a0b417d6361f6e8bdf1}{two\+Unrelated\+Entries\+With\+Equal\+Dois\+Are\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_aed62340e4b3b578d7837392480cdd00d}{two\+Unrelated\+Entries\+With\+Equal\+Pmid\+Are\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a0cfd240cde2cd976775341a022550f81}{two\+Unrelated\+Entries\+With\+Equal\+Eprint\+Are\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a3efda0c2af19164682326de95ae0ce97}{two\+Entries\+With\+Same\+Doi\+But\+Different\+Types\+Are\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_ad186c553135c5c3e8caaf5f283a4c4ad}{two\+Inbooks\+With\+Different\+Chapters\+Are\+Not\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_aa070b0b30952ec56355bcfc798d28474}{two\+Inbooks\+With\+Different\+Pages\+Are\+Not\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a759451a4ea5487d7c631649a328175b4}{two\+Incollections\+With\+Different\+Chapters\+Are\+Not\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a783726a2ebb04ead6e8e189ef5a0eb24}{two\+Incollections\+With\+Different\+Pages\+Are\+Not\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a474e3fc239f5ccfd13b1b1b86423f902}{inbook\+Without\+Chapter\+Could\+Be\+Duplicate\+Of\+Inbook\+With\+Chapter}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a7e881c97ea0fbbdcf088336a53e18e08}{two\+Books\+With\+Different\+Editions\+Are\+Not\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a031f420f78aa83370af7a383dc945924}{same\+Books\+With\+Missing\+Edition\+Are\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a46092277469b45bca6c03d3ce393cb91}{same\+Books\+With\+Partially\+Missing\+Edition\+Are\+Duplicates}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_aa4dbad4610fe1b97ff810c078e13a5a4}{same\+Books\+With\+Different\+Editions\+Are\+Not\+Duplicates}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a8dd38a9a0e813674f767a2eeed8de6fd}{two\+Entries\+With\+Different\+Specific\+Fields\+Are\+Not\+Duplicates}} (final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} cloneable, final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field, final String first\+Value, final String second\+Value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_ad91d55c1b7b59f765ebf20b76ec0fe2e}{simple\+Article}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a409bab0971a37c3a33b54c63fb4f2985}{unrelated\+Article}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a84ffe1bd0c9a2e38e7721502d731e497}{simple\+Inbook}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a89ece0df413b1ac830750914178748ea}{simple\+Incollection}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check}{Duplicate\+Check}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a44d153f246cd17daf3ea1778c545d467}{duplicate\+Checker}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a474e3fc239f5ccfd13b1b1b86423f902}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a474e3fc239f5ccfd13b1b1b86423f902}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!inbookWithoutChapterCouldBeDuplicateOfInbookWithChapter@{inbookWithoutChapterCouldBeDuplicateOfInbookWithChapter}}
+\index{inbookWithoutChapterCouldBeDuplicateOfInbookWithChapter@{inbookWithoutChapterCouldBeDuplicateOfInbookWithChapter}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{inbookWithoutChapterCouldBeDuplicateOfInbookWithChapter()}{inbookWithoutChapterCouldBeDuplicateOfInbookWithChapter()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+inbook\+Without\+Chapter\+Could\+Be\+Duplicate\+Of\+Inbook\+With\+Chapter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_aa4dbad4610fe1b97ff810c078e13a5a4}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_aa4dbad4610fe1b97ff810c078e13a5a4}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!sameBooksWithDifferentEditionsAreNotDuplicates@{sameBooksWithDifferentEditionsAreNotDuplicates}}
+\index{sameBooksWithDifferentEditionsAreNotDuplicates@{sameBooksWithDifferentEditionsAreNotDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{sameBooksWithDifferentEditionsAreNotDuplicates()}{sameBooksWithDifferentEditionsAreNotDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+same\+Books\+With\+Different\+Editions\+Are\+Not\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a031f420f78aa83370af7a383dc945924}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a031f420f78aa83370af7a383dc945924}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!sameBooksWithMissingEditionAreDuplicates@{sameBooksWithMissingEditionAreDuplicates}}
+\index{sameBooksWithMissingEditionAreDuplicates@{sameBooksWithMissingEditionAreDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{sameBooksWithMissingEditionAreDuplicates()}{sameBooksWithMissingEditionAreDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+same\+Books\+With\+Missing\+Edition\+Are\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a46092277469b45bca6c03d3ce393cb91}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a46092277469b45bca6c03d3ce393cb91}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!sameBooksWithPartiallyMissingEditionAreDuplicates@{sameBooksWithPartiallyMissingEditionAreDuplicates}}
+\index{sameBooksWithPartiallyMissingEditionAreDuplicates@{sameBooksWithPartiallyMissingEditionAreDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{sameBooksWithPartiallyMissingEditionAreDuplicates()}{sameBooksWithPartiallyMissingEditionAreDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+same\+Books\+With\+Partially\+Missing\+Edition\+Are\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a9901d143fa67b9322bb696ebc7c00c73}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a9901d143fa67b9322bb696ebc7c00c73}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!setUp@{setUp}}
+\index{setUp@{setUp}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{setUp()}{setUp()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+set\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_af60846c5af900a2850372e4135614d17}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_af60846c5af900a2850372e4135614d17}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!testDuplicateDetection@{testDuplicateDetection}}
+\index{testDuplicateDetection@{testDuplicateDetection}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{testDuplicateDetection()}{testDuplicateDetection()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+test\+Duplicate\+Detection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a9d1dcf361044781119ac8a91b690ae04}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a9d1dcf361044781119ac8a91b690ae04}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!testWordCorrelation@{testWordCorrelation}}
+\index{testWordCorrelation@{testWordCorrelation}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{testWordCorrelation()}{testWordCorrelation()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+test\+Word\+Correlation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a7e881c97ea0fbbdcf088336a53e18e08}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a7e881c97ea0fbbdcf088336a53e18e08}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoBooksWithDifferentEditionsAreNotDuplicates@{twoBooksWithDifferentEditionsAreNotDuplicates}}
+\index{twoBooksWithDifferentEditionsAreNotDuplicates@{twoBooksWithDifferentEditionsAreNotDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoBooksWithDifferentEditionsAreNotDuplicates()}{twoBooksWithDifferentEditionsAreNotDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Books\+With\+Different\+Editions\+Are\+Not\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a8dd38a9a0e813674f767a2eeed8de6fd}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a8dd38a9a0e813674f767a2eeed8de6fd}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoEntriesWithDifferentSpecificFieldsAreNotDuplicates@{twoEntriesWithDifferentSpecificFieldsAreNotDuplicates}}
+\index{twoEntriesWithDifferentSpecificFieldsAreNotDuplicates@{twoEntriesWithDifferentSpecificFieldsAreNotDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoEntriesWithDifferentSpecificFieldsAreNotDuplicates()}{twoEntriesWithDifferentSpecificFieldsAreNotDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Entries\+With\+Different\+Specific\+Fields\+Are\+Not\+Duplicates (\begin{DoxyParamCaption}\item[{final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{cloneable,  }\item[{final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field,  }\item[{final String}]{first\+Value,  }\item[{final String}]{second\+Value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a3efda0c2af19164682326de95ae0ce97}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a3efda0c2af19164682326de95ae0ce97}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoEntriesWithSameDoiButDifferentTypesAreDuplicates@{twoEntriesWithSameDoiButDifferentTypesAreDuplicates}}
+\index{twoEntriesWithSameDoiButDifferentTypesAreDuplicates@{twoEntriesWithSameDoiButDifferentTypesAreDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoEntriesWithSameDoiButDifferentTypesAreDuplicates()}{twoEntriesWithSameDoiButDifferentTypesAreDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Entries\+With\+Same\+Doi\+But\+Different\+Types\+Are\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_ad186c553135c5c3e8caaf5f283a4c4ad}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_ad186c553135c5c3e8caaf5f283a4c4ad}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoInbooksWithDifferentChaptersAreNotDuplicates@{twoInbooksWithDifferentChaptersAreNotDuplicates}}
+\index{twoInbooksWithDifferentChaptersAreNotDuplicates@{twoInbooksWithDifferentChaptersAreNotDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoInbooksWithDifferentChaptersAreNotDuplicates()}{twoInbooksWithDifferentChaptersAreNotDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Inbooks\+With\+Different\+Chapters\+Are\+Not\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_aa070b0b30952ec56355bcfc798d28474}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_aa070b0b30952ec56355bcfc798d28474}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoInbooksWithDifferentPagesAreNotDuplicates@{twoInbooksWithDifferentPagesAreNotDuplicates}}
+\index{twoInbooksWithDifferentPagesAreNotDuplicates@{twoInbooksWithDifferentPagesAreNotDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoInbooksWithDifferentPagesAreNotDuplicates()}{twoInbooksWithDifferentPagesAreNotDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Inbooks\+With\+Different\+Pages\+Are\+Not\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a759451a4ea5487d7c631649a328175b4}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a759451a4ea5487d7c631649a328175b4}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoIncollectionsWithDifferentChaptersAreNotDuplicates@{twoIncollectionsWithDifferentChaptersAreNotDuplicates}}
+\index{twoIncollectionsWithDifferentChaptersAreNotDuplicates@{twoIncollectionsWithDifferentChaptersAreNotDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoIncollectionsWithDifferentChaptersAreNotDuplicates()}{twoIncollectionsWithDifferentChaptersAreNotDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Incollections\+With\+Different\+Chapters\+Are\+Not\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a783726a2ebb04ead6e8e189ef5a0eb24}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a783726a2ebb04ead6e8e189ef5a0eb24}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoIncollectionsWithDifferentPagesAreNotDuplicates@{twoIncollectionsWithDifferentPagesAreNotDuplicates}}
+\index{twoIncollectionsWithDifferentPagesAreNotDuplicates@{twoIncollectionsWithDifferentPagesAreNotDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoIncollectionsWithDifferentPagesAreNotDuplicates()}{twoIncollectionsWithDifferentPagesAreNotDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Incollections\+With\+Different\+Pages\+Are\+Not\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a2b26dfe33d9a8d5aff9f2602409d89cf}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a2b26dfe33d9a8d5aff9f2602409d89cf}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoUnrelatedEntriesAreNoDuplicates@{twoUnrelatedEntriesAreNoDuplicates}}
+\index{twoUnrelatedEntriesAreNoDuplicates@{twoUnrelatedEntriesAreNoDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoUnrelatedEntriesAreNoDuplicates()}{twoUnrelatedEntriesAreNoDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Unrelated\+Entries\+Are\+No\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_ab25a878df52509e0e65fe2efe41b012b}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_ab25a878df52509e0e65fe2efe41b012b}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoUnrelatedEntriesWithDifferentDoisAreNoDuplicates@{twoUnrelatedEntriesWithDifferentDoisAreNoDuplicates}}
+\index{twoUnrelatedEntriesWithDifferentDoisAreNoDuplicates@{twoUnrelatedEntriesWithDifferentDoisAreNoDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoUnrelatedEntriesWithDifferentDoisAreNoDuplicates()}{twoUnrelatedEntriesWithDifferentDoisAreNoDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Unrelated\+Entries\+With\+Different\+Dois\+Are\+No\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a540d58f8e5612a0b417d6361f6e8bdf1}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a540d58f8e5612a0b417d6361f6e8bdf1}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoUnrelatedEntriesWithEqualDoisAreDuplicates@{twoUnrelatedEntriesWithEqualDoisAreDuplicates}}
+\index{twoUnrelatedEntriesWithEqualDoisAreDuplicates@{twoUnrelatedEntriesWithEqualDoisAreDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoUnrelatedEntriesWithEqualDoisAreDuplicates()}{twoUnrelatedEntriesWithEqualDoisAreDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Unrelated\+Entries\+With\+Equal\+Dois\+Are\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a0cfd240cde2cd976775341a022550f81}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a0cfd240cde2cd976775341a022550f81}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoUnrelatedEntriesWithEqualEprintAreDuplicates@{twoUnrelatedEntriesWithEqualEprintAreDuplicates}}
+\index{twoUnrelatedEntriesWithEqualEprintAreDuplicates@{twoUnrelatedEntriesWithEqualEprintAreDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoUnrelatedEntriesWithEqualEprintAreDuplicates()}{twoUnrelatedEntriesWithEqualEprintAreDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Unrelated\+Entries\+With\+Equal\+Eprint\+Are\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_aed62340e4b3b578d7837392480cdd00d}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_aed62340e4b3b578d7837392480cdd00d}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!twoUnrelatedEntriesWithEqualPmidAreDuplicates@{twoUnrelatedEntriesWithEqualPmidAreDuplicates}}
+\index{twoUnrelatedEntriesWithEqualPmidAreDuplicates@{twoUnrelatedEntriesWithEqualPmidAreDuplicates}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{twoUnrelatedEntriesWithEqualPmidAreDuplicates()}{twoUnrelatedEntriesWithEqualPmidAreDuplicates()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+two\+Unrelated\+Entries\+With\+Equal\+Pmid\+Are\+Duplicates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a44d153f246cd17daf3ea1778c545d467}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a44d153f246cd17daf3ea1778c545d467}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!duplicateChecker@{duplicateChecker}}
+\index{duplicateChecker@{duplicateChecker}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{duplicateChecker}{duplicateChecker}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check}{Duplicate\+Check}} org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+duplicate\+Checker\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_ad91d55c1b7b59f765ebf20b76ec0fe2e}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_ad91d55c1b7b59f765ebf20b76ec0fe2e}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!simpleArticle@{simpleArticle}}
+\index{simpleArticle@{simpleArticle}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{simpleArticle}{simpleArticle}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+simple\+Article\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a84ffe1bd0c9a2e38e7721502d731e497}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a84ffe1bd0c9a2e38e7721502d731e497}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!simpleInbook@{simpleInbook}}
+\index{simpleInbook@{simpleInbook}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{simpleInbook}{simpleInbook}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+simple\+Inbook\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a89ece0df413b1ac830750914178748ea}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a89ece0df413b1ac830750914178748ea}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!simpleIncollection@{simpleIncollection}}
+\index{simpleIncollection@{simpleIncollection}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{simpleIncollection}{simpleIncollection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+simple\+Incollection\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a409bab0971a37c3a33b54c63fb4f2985}\label{classorg_1_1jabref_1_1logic_1_1database_1_1_duplicate_check_test_a409bab0971a37c3a33b54c63fb4f2985}} 
+\index{org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}!unrelatedArticle@{unrelatedArticle}}
+\index{unrelatedArticle@{unrelatedArticle}!org.jabref.logic.database.DuplicateCheckTest@{org.jabref.logic.database.DuplicateCheckTest}}
+\doxysubsubsection{\texorpdfstring{unrelatedArticle}{unrelatedArticle}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+logic.\+database.\+Duplicate\+Check\+Test.\+unrelated\+Article\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/test/java/org/jabref/logic/database/\mbox{\hyperlink{_duplicate_check_test_8java}{Duplicate\+Check\+Test.\+java}}\end{DoxyCompactItemize}

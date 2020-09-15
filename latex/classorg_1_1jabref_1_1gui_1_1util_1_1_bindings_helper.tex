@@ -1,0 +1,199 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper}{}\doxysection{org.\+jabref.\+gui.\+util.\+Bindings\+Helper Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper}\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_1_1_bidirectional_binding}{Bidirectional\+Binding}}
+\item 
+class \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_1_1_bidirectional_list_binding}{Bidirectional\+List\+Binding}}
+\item 
+class \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_1_1_bidirectional_map_binding}{Bidirectional\+Map\+Binding}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Subscription \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a8ba3fed932f62505a800018f4357d3c7}{include\+Pseudo\+Class\+When}} (Node node, Pseudo\+Class pseudo\+Class, Observable\+Value$<$? extends Boolean $>$ condition)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_a4c4e7046a43a3311634675be96d8d6bb}{U}} $>$ Observable\+List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a4c4e7046a43a3311634675be96d8d6bb}{U}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a6debcca7a33cfb69fe6f2945ef4e8754}{map}} (Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a40e859b9aaa2d8657227ee008c8a6c7b}{source}}, Function$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}, List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a4c4e7046a43a3311634675be96d8d6bb}{U}} $>$$>$ mapper)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a1caeb7536f45167d29f404ab0c3a6da8}{bind\+Bidirectional}} (Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ propertyA, Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ propertyB, Function$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ map\+AtoB, Function$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ map\+BtoA)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a31b02915198fd7c9436da778191a3507}{bind\+Bidirectional}} (Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ propertyA, Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ propertyB, Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ updateB)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a2e8fdb708ad8840fb88c7a01cb58eb77}{bind\+Bidirectional}} (Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ propertyA, Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ propertyB, Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ updateA, Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ updateB)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_ab786b6217b034eb8c2dffb94eb0332a4}{bind\+Content\+Bidirectional}} (Observable\+List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ propertyA, List\+Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ propertyB, Consumer$<$ Observable\+List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$$>$ updateA, Consumer$<$ List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$$>$ updateB)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a55c899098a101552f681e21fc9d53237}{bind\+Content\+Bidirectional}} (Observable\+List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ propertyA, Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ propertyB, Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ updateA, Consumer$<$ List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$$>$ updateB)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a423df74862bbb737daa419733b865af7}{bind\+Content\+Bidirectional}} (List\+Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$ list\+Property, Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ property, Function$<$ List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ map\+ToB, Function$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}, List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$$>$ map\+To\+List)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a5e711d7398325aef6fee9acfa3d5cf13}{bind\+Content\+Bidirectional}} (Observable\+Map$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V $>$ propertyA, Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ propertyB, Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ updateA, Consumer$<$ Map$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V $>$$>$ updateB)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a32f04d624524ba4049ca06b65f8849c3}{bind\+Content\+Bidirectional}} (Observable\+Map$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V $>$ propertyA, Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ propertyB, Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ updateA, Function$<$ Map$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V $>$, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$ map\+ToB)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a1d0a13da48c9fcda9bc7f4ff039eed5b}{constant\+Of}} (\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} value)
+\item 
+static Observable\+Value$<$ Boolean $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a8743bad4f784fb1842d81c6445d51c19}{constant\+Of}} (boolean value)
+\item 
+static Observable\+Value$<$? extends String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a0c6a637fa2b6efb9a9c9019add96d759}{empty\+String}} ()
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ Observable\+List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_ae3d40501b9b7d1c86291946f20c7346a}{for\+UI}} (Observable\+List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ list)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_ac1af1ef1da591b568428abae287c0962}{if\+Then\+Else}} (Observable\+Value$<$ Boolean $>$ condition, \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} value, \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} other)
+\item 
+static$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ Subscription \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_aa453cd2b31fb9c35e566ce2eb046327c}{subscribe\+Future}} (Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ observable, Consumer$<$? super \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ subscriber)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a1fec67f38545375c70429b51053a7471}{Bindings\+Helper}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Helper methods for javafx binding. Some methods are taken from \href{https://bugs.openjdk.java.net/browse/JDK-8134679}{\texttt{ https\+://bugs.\+openjdk.\+java.\+net/browse/\+J\+D\+K-\/8134679}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a1fec67f38545375c70429b51053a7471}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a1fec67f38545375c70429b51053a7471}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!BindingsHelper@{BindingsHelper}}
+\index{BindingsHelper@{BindingsHelper}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{BindingsHelper()}{BindingsHelper()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+Bindings\+Helper (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a2e8fdb708ad8840fb88c7a01cb58eb77}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a2e8fdb708ad8840fb88c7a01cb58eb77}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!bindBidirectional@{bindBidirectional}}
+\index{bindBidirectional@{bindBidirectional}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{bindBidirectional()}{bindBidirectional()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}$>$ void org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+bind\+Bidirectional (\begin{DoxyParamCaption}\item[{Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$}]{propertyA,  }\item[{Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{propertyB,  }\item[{Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{updateA,  }\item[{Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$}]{updateB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Binds propertA bidirectional to propertyB using updateB to update propertyB when propertyA changed and similar for updateA. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a31b02915198fd7c9436da778191a3507}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a31b02915198fd7c9436da778191a3507}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!bindBidirectional@{bindBidirectional}}
+\index{bindBidirectional@{bindBidirectional}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{bindBidirectional()}{bindBidirectional()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}$>$ void org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+bind\+Bidirectional (\begin{DoxyParamCaption}\item[{Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$}]{propertyA,  }\item[{Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$}]{propertyB,  }\item[{Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$}]{updateB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Binds propertA bidirectional to propertyB while using updateB to update propertyB when propertyA changed. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a1caeb7536f45167d29f404ab0c3a6da8}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a1caeb7536f45167d29f404ab0c3a6da8}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!bindBidirectional@{bindBidirectional}}
+\index{bindBidirectional@{bindBidirectional}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{bindBidirectional()}{bindBidirectional()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}$>$ void org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+bind\+Bidirectional (\begin{DoxyParamCaption}\item[{Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$}]{propertyA,  }\item[{Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{propertyB,  }\item[{Function$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{map\+AtoB,  }\item[{Function$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$}]{map\+BtoA }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Binds propertA bidirectional to propertyB using the provided map functions to convert between them. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a423df74862bbb737daa419733b865af7}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a423df74862bbb737daa419733b865af7}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!bindContentBidirectional@{bindContentBidirectional}}
+\index{bindContentBidirectional@{bindContentBidirectional}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{bindContentBidirectional()}{bindContentBidirectional()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}$>$ void org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+bind\+Content\+Bidirectional (\begin{DoxyParamCaption}\item[{List\+Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$}]{list\+Property,  }\item[{Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{property,  }\item[{Function$<$ List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{map\+ToB,  }\item[{Function$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}, List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$$>$}]{map\+To\+List }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_ab786b6217b034eb8c2dffb94eb0332a4}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_ab786b6217b034eb8c2dffb94eb0332a4}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!bindContentBidirectional@{bindContentBidirectional}}
+\index{bindContentBidirectional@{bindContentBidirectional}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{bindContentBidirectional()}{bindContentBidirectional()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}$>$ void org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+bind\+Content\+Bidirectional (\begin{DoxyParamCaption}\item[{Observable\+List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$}]{propertyA,  }\item[{List\+Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{propertyB,  }\item[{Consumer$<$ Observable\+List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$$>$}]{updateA,  }\item[{Consumer$<$ List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$$>$}]{updateB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a55c899098a101552f681e21fc9d53237}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a55c899098a101552f681e21fc9d53237}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!bindContentBidirectional@{bindContentBidirectional}}
+\index{bindContentBidirectional@{bindContentBidirectional}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{bindContentBidirectional()}{bindContentBidirectional()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}$>$ void org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+bind\+Content\+Bidirectional (\begin{DoxyParamCaption}\item[{Observable\+List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$}]{propertyA,  }\item[{Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{propertyB,  }\item[{Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{updateA,  }\item[{Consumer$<$ List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}} $>$$>$}]{updateB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a5e711d7398325aef6fee9acfa3d5cf13}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a5e711d7398325aef6fee9acfa3d5cf13}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!bindContentBidirectional@{bindContentBidirectional}}
+\index{bindContentBidirectional@{bindContentBidirectional}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{bindContentBidirectional()}{bindContentBidirectional()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}$>$ void org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+bind\+Content\+Bidirectional (\begin{DoxyParamCaption}\item[{Observable\+Map$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V $>$}]{propertyA,  }\item[{Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{propertyB,  }\item[{Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{updateA,  }\item[{Consumer$<$ Map$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V $>$$>$}]{updateB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a32f04d624524ba4049ca06b65f8849c3}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a32f04d624524ba4049ca06b65f8849c3}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!bindContentBidirectional@{bindContentBidirectional}}
+\index{bindContentBidirectional@{bindContentBidirectional}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{bindContentBidirectional()}{bindContentBidirectional()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}}$>$ void org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+bind\+Content\+Bidirectional (\begin{DoxyParamCaption}\item[{Observable\+Map$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V $>$}]{propertyA,  }\item[{Property$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{propertyB,  }\item[{Consumer$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{updateA,  }\item[{Function$<$ Map$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a29809a0be7076d6bc78fd804dcdf1dc6}{A}}, V $>$, \mbox{\hyperlink{_ovid_importer_test4_8txt_adfcfe6f2074457dcaf72e79f094eaa03}{B}} $>$}]{map\+ToB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a8743bad4f784fb1842d81c6445d51c19}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a8743bad4f784fb1842d81c6445d51c19}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!constantOf@{constantOf}}
+\index{constantOf@{constantOf}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{constantOf()}{constantOf()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static Observable\+Value$<$Boolean$>$ org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+constant\+Of (\begin{DoxyParamCaption}\item[{boolean}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a1d0a13da48c9fcda9bc7f4ff039eed5b}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a1d0a13da48c9fcda9bc7f4ff039eed5b}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!constantOf@{constantOf}}
+\index{constantOf@{constantOf}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{constantOf()}{constantOf()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ Observable\+Value$<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+constant\+Of (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a0c6a637fa2b6efb9a9c9019add96d759}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a0c6a637fa2b6efb9a9c9019add96d759}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!emptyString@{emptyString}}
+\index{emptyString@{emptyString}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{emptyString()}{emptyString()}}
+{\footnotesize\ttfamily static Observable\+Value$<$? extends String$>$ org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+empty\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_ae3d40501b9b7d1c86291946f20c7346a}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_ae3d40501b9b7d1c86291946f20c7346a}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!forUI@{forUI}}
+\index{forUI@{forUI}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{forUI()}{forUI()}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ Observable\+List$<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+for\+UI (\begin{DoxyParamCaption}\item[{Observable\+List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$}]{list }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns a wrapper around the given list that posts changes on the Java\+FX thread. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_ac1af1ef1da591b568428abae287c0962}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_ac1af1ef1da591b568428abae287c0962}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!ifThenElse@{ifThenElse}}
+\index{ifThenElse@{ifThenElse}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{ifThenElse()}{ifThenElse()}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ Observable\+Value$<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+if\+Then\+Else (\begin{DoxyParamCaption}\item[{Observable\+Value$<$ Boolean $>$}]{condition,  }\item[{\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}}]{value,  }\item[{\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a8ba3fed932f62505a800018f4357d3c7}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a8ba3fed932f62505a800018f4357d3c7}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!includePseudoClassWhen@{includePseudoClassWhen}}
+\index{includePseudoClassWhen@{includePseudoClassWhen}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{includePseudoClassWhen()}{includePseudoClassWhen()}}
+{\footnotesize\ttfamily static Subscription org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+include\+Pseudo\+Class\+When (\begin{DoxyParamCaption}\item[{Node}]{node,  }\item[{Pseudo\+Class}]{pseudo\+Class,  }\item[{Observable\+Value$<$? extends Boolean $>$}]{condition }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a6debcca7a33cfb69fe6f2945ef4e8754}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_a6debcca7a33cfb69fe6f2945ef4e8754}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!map@{map}}
+\index{map@{map}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{map()}{map()}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}, \mbox{\hyperlink{_ovid_importer_test4_8txt_a4c4e7046a43a3311634675be96d8d6bb}{U}}$>$ Observable\+List$<$\mbox{\hyperlink{_ovid_importer_test4_8txt_a4c4e7046a43a3311634675be96d8d6bb}{U}}$>$ org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+map (\begin{DoxyParamCaption}\item[{Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$}]{source,  }\item[{Function$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}, List$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_a4c4e7046a43a3311634675be96d8d6bb}{U}} $>$$>$}]{mapper }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_aa453cd2b31fb9c35e566ce2eb046327c}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper_aa453cd2b31fb9c35e566ce2eb046327c}} 
+\index{org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}!subscribeFuture@{subscribeFuture}}
+\index{subscribeFuture@{subscribeFuture}!org.jabref.gui.util.BindingsHelper@{org.jabref.gui.util.BindingsHelper}}
+\doxysubsubsection{\texorpdfstring{subscribeFuture()}{subscribeFuture()}}
+{\footnotesize\ttfamily static $<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ Subscription org.\+jabref.\+gui.\+util.\+Bindings\+Helper.\+subscribe\+Future (\begin{DoxyParamCaption}\item[{Observable\+Value$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$}]{observable,  }\item[{Consumer$<$? super \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$}]{subscriber }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Invokes
+\begin{DoxyCode}{0}
+\DoxyCodeLine{subscriber }
+\end{DoxyCode}
+ for the every new value of
+\begin{DoxyCode}{0}
+\DoxyCodeLine{observable }
+\end{DoxyCode}
+ , but not for the current value.
+
+
+\begin{DoxyParams}{Parameters}
+{\em observable} & observable value to subscribe to \\
+\hline
+{\em subscriber} & action to invoke for values of
+\begin{DoxyCode}{1}
+\DoxyCodeLine{observable }
+\end{DoxyCode}
+ . \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a subscription that can be used to stop invoking subscriber for any further
+\begin{DoxyCode}{0}
+\DoxyCodeLine{observable }
+\end{DoxyCode}
+ changes. @api\+Note \mbox{\hyperlink{}{Easy\+Bind\#subscribe(\+Observable\+Value, Consumer)}} is similar but also invokes the
+\begin{DoxyCode}{0}
+\DoxyCodeLine{subscriber }
+\end{DoxyCode}
+ for the current value 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/util/\mbox{\hyperlink{_bindings_helper_8java}{Bindings\+Helper.\+java}}\end{DoxyCompactItemize}

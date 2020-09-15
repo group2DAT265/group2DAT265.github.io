@@ -1,0 +1,53 @@
+\hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode_detection}{}\doxysection{org.\+jabref.\+model.\+database.\+Bib\+Database\+Mode\+Detection Class Reference}
+\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode_detection}\index{org.jabref.model.database.BibDatabaseModeDetection@{org.jabref.model.database.BibDatabaseModeDetection}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode}{Bib\+Database\+Mode}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode_detection_ae8da590ce188b2382ef34883faae2364}{infer\+Mode}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode_detection_a1a69abf8db34aae9f4ba182d230a1877}{Bib\+Database\+Mode\+Detection}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode_detection_a1a69abf8db34aae9f4ba182d230a1877}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode_detection_a1a69abf8db34aae9f4ba182d230a1877}} 
+\index{org.jabref.model.database.BibDatabaseModeDetection@{org.jabref.model.database.BibDatabaseModeDetection}!BibDatabaseModeDetection@{BibDatabaseModeDetection}}
+\index{BibDatabaseModeDetection@{BibDatabaseModeDetection}!org.jabref.model.database.BibDatabaseModeDetection@{org.jabref.model.database.BibDatabaseModeDetection}}
+\doxysubsubsection{\texorpdfstring{BibDatabaseModeDetection()}{BibDatabaseModeDetection()}}
+{\footnotesize\ttfamily org.\+jabref.\+model.\+database.\+Bib\+Database\+Mode\+Detection.\+Bib\+Database\+Mode\+Detection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode_detection_ae8da590ce188b2382ef34883faae2364}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode_detection_ae8da590ce188b2382ef34883faae2364}} 
+\index{org.jabref.model.database.BibDatabaseModeDetection@{org.jabref.model.database.BibDatabaseModeDetection}!inferMode@{inferMode}}
+\index{inferMode@{inferMode}!org.jabref.model.database.BibDatabaseModeDetection@{org.jabref.model.database.BibDatabaseModeDetection}}
+\doxysubsubsection{\texorpdfstring{inferMode()}{inferMode()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode}{Bib\+Database\+Mode}} org.\+jabref.\+model.\+database.\+Bib\+Database\+Mode\+Detection.\+infer\+Mode (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Tries to infer the database type by examining a \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database.
+
+All checks are based on the case-\/insensitive comparison of entry tag names. Only standard Bib\+Tex and Biblatex entry types are considered in the decision process.
+
+
+\begin{DoxyEnumerate}
+\item Check if any of the entries is a type exclusive to Biblatex
+\item Otherwise return Bib\+Tex
+\end{DoxyEnumerate}
+
+
+\begin{DoxyParams}{Parameters}
+{\em database} & a \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the inferred database type 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/model/database/\mbox{\hyperlink{_bib_database_mode_detection_8java}{Bib\+Database\+Mode\+Detection.\+java}}\end{DoxyCompactItemize}

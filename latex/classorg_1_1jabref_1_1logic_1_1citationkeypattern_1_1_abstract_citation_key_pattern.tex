@@ -1,0 +1,182 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern}{}\doxysection{org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern}\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+Inheritance diagram for org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.509434cm]{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a40539104663adae613e0ca9874cfde5b}{add\+Citation\+Key\+Pattern}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} type, String pattern)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_ac0b4ef802144329bcf0e032feb453968}{to\+String}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a0525cc847fd7b62d8ef153a98bde9d80}{equals}} (Object o)
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_afec0ceacb33745dfade68743e7fdacad}{hash\+Code}} ()
+\item 
+List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a2fcbb9ca87c7e8ec2fe0d236f9dd214c}{get\+Value}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} entry\+Type)
+\item 
+final boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a19c9e2652ad68920279ee86c829265a8}{is\+Default\+Value}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} entry\+Type)
+\item 
+List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_aa810e1c05c91b9438a1d765237a3a11b}{get\+Default\+Value}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a2c12cbb07e3d0cd6fd8b8b7d7341f263}{set\+Default\+Value}} (String bibtex\+Key\+Pattern)
+\item 
+Set$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_acc5baab1aff094dead909df32950fe1a}{get\+All\+Keys}} ()
+\item 
+Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}}, List$<$ String $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a2cc8bfe801f653725401184d1a7d60b3}{get\+Patterns}} ()
+\item 
+abstract List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a0b04463b82ecd0ef15d19ff027405ab5}{get\+Last\+Level\+Citation\+Key\+Pattern}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} key)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_ae8c440f3e99423c9b463178321f1dc50}{split}} (String bibtex\+Key\+Pattern)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_af00ba9a0e5b0c5d70ca6335888b9d21e}{default\+Pattern}} = new Array\+List$<$$>$()
+\item 
+Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}}, List$<$ String $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_ae64252dc5bb2d7905f9d43fa0d7c401f}{data}} = new Hash\+Map$<$$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A small table, where an entry type is associated with a Bibtex key pattern (an {\ttfamily Array\+List}). A parent Citation\+Key\+Pattern can be set. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a40539104663adae613e0ca9874cfde5b}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a40539104663adae613e0ca9874cfde5b}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!addCitationKeyPattern@{addCitationKeyPattern}}
+\index{addCitationKeyPattern@{addCitationKeyPattern}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{addCitationKeyPattern()}{addCitationKeyPattern()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+add\+Citation\+Key\+Pattern (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}}}]{type,  }\item[{String}]{pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a0525cc847fd7b62d8ef153a98bde9d80}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a0525cc847fd7b62d8ef153a98bde9d80}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!equals@{equals}}
+\index{equals@{equals}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+equals (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_acc5baab1aff094dead909df32950fe1a}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_acc5baab1aff094dead909df32950fe1a}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!getAllKeys@{getAllKeys}}
+\index{getAllKeys@{getAllKeys}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{getAllKeys()}{getAllKeys()}}
+{\footnotesize\ttfamily Set$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}}$>$ org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+get\+All\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_aa810e1c05c91b9438a1d765237a3a11b}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_aa810e1c05c91b9438a1d765237a3a11b}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!getDefaultValue@{getDefaultValue}}
+\index{getDefaultValue@{getDefaultValue}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{getDefaultValue()}{getDefaultValue()}}
+{\footnotesize\ttfamily List$<$String$>$ org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+get\+Default\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+This method is called \char`\"{}...\+Value\char`\"{} to be in line with the other methods
+
+\begin{DoxyReturn}{Returns}
+null if not available. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a0b04463b82ecd0ef15d19ff027405ab5}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a0b04463b82ecd0ef15d19ff027405ab5}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!getLastLevelCitationKeyPattern@{getLastLevelCitationKeyPattern}}
+\index{getLastLevelCitationKeyPattern@{getLastLevelCitationKeyPattern}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{getLastLevelCitationKeyPattern()}{getLastLevelCitationKeyPattern()}}
+{\footnotesize\ttfamily abstract List$<$String$>$ org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+get\+Last\+Level\+Citation\+Key\+Pattern (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}}}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_global_citation_key_pattern_a8aa644eaf4ab69f8b8a099429cf7e553}{org.\+jabref.\+logic.\+citationkeypattern.\+Global\+Citation\+Key\+Pattern}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_database_citation_key_pattern_a6eaa036312946c58deefa290fb1bb48f}{org.\+jabref.\+logic.\+citationkeypattern.\+Database\+Citation\+Key\+Pattern}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a2cc8bfe801f653725401184d1a7d60b3}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a2cc8bfe801f653725401184d1a7d60b3}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!getPatterns@{getPatterns}}
+\index{getPatterns@{getPatterns}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{getPatterns()}{getPatterns()}}
+{\footnotesize\ttfamily Map$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}}, List$<$String$>$ $>$ org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+get\+Patterns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a2fcbb9ca87c7e8ec2fe0d236f9dd214c}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a2fcbb9ca87c7e8ec2fe0d236f9dd214c}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!getValue@{getValue}}
+\index{getValue@{getValue}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily List$<$String$>$ org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+get\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}}}]{entry\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets an object for a desired key from this Citation\+Key\+Pattern or one of it\textquotesingle{}s parents (in the case of \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_database_citation_key_pattern}{Database\+Citation\+Key\+Pattern}}). This method first tries to obtain the object from this Citation\+Key\+Pattern via the {\ttfamily get} method of {\ttfamily Hashtable}. If this fails, we try the default.~\newline
+ If that fails, we try the parent.~\newline
+ If that fails, we return the D\+E\+F\+A\+U\+L\+T\+\_\+\+L\+A\+B\+E\+L\+P\+A\+T\+T\+E\+RN~\newline
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry\+Type} & a {\ttfamily String} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the list of Strings for the given key. First entry\+: the complete key 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_afec0ceacb33745dfade68743e7fdacad}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_afec0ceacb33745dfade68743e7fdacad}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a19c9e2652ad68920279ee86c829265a8}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a19c9e2652ad68920279ee86c829265a8}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!isDefaultValue@{isDefaultValue}}
+\index{isDefaultValue@{isDefaultValue}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{isDefaultValue()}{isDefaultValue()}}
+{\footnotesize\ttfamily final boolean org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+is\+Default\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}}}]{entry\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks whether this pattern is customized or the default value. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a2c12cbb07e3d0cd6fd8b8b7d7341f263}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_a2c12cbb07e3d0cd6fd8b8b7d7341f263}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!setDefaultValue@{setDefaultValue}}
+\index{setDefaultValue@{setDefaultValue}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{setDefaultValue()}{setDefaultValue()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+set\+Default\+Value (\begin{DoxyParamCaption}\item[{String}]{bibtex\+Key\+Pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets the D\+E\+F\+A\+U\+LT P\+A\+T\+T\+E\+RN for this key pattern
+
+
+\begin{DoxyParams}{Parameters}
+{\em bibtex\+Key\+Pattern} & the pattern to store \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_ae8c440f3e99423c9b463178321f1dc50}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_ae8c440f3e99423c9b463178321f1dc50}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!split@{split}}
+\index{split@{split}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{split()}{split()}}
+{\footnotesize\ttfamily static List$<$String$>$ org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+split (\begin{DoxyParamCaption}\item[{String}]{bibtex\+Key\+Pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+This method takes a string of the form \mbox{[}field1\mbox{]}spacer\mbox{[}field2\mbox{]}spacer\mbox{[}field3\mbox{]}..., where the fields are the (required) fields of a Bib\+Tex entry. The string is split into fields and spacers by recognizing the \mbox{[} and \mbox{]}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bibtex\+Key\+Pattern} & a {\ttfamily String} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an {\ttfamily Array\+List} The first item of the list is a string representation of the key pattern (the parameter), the remaining items are the fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_ac0b4ef802144329bcf0e032feb453968}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_ac0b4ef802144329bcf0e032feb453968}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!toString@{toString}}
+\index{toString@{toString}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_ae64252dc5bb2d7905f9d43fa0d7c401f}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_ae64252dc5bb2d7905f9d43fa0d7c401f}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!data@{data}}
+\index{data@{data}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{data}{data}}
+{\footnotesize\ttfamily Map$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}}, List$<$String$>$ $>$ org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+data = new Hash\+Map$<$$>$()\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_af00ba9a0e5b0c5d70ca6335888b9d21e}\label{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern_af00ba9a0e5b0c5d70ca6335888b9d21e}} 
+\index{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}!defaultPattern@{defaultPattern}}
+\index{defaultPattern@{defaultPattern}!org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern@{org.jabref.logic.citationkeypattern.AbstractCitationKeyPattern}}
+\doxysubsubsection{\texorpdfstring{defaultPattern}{defaultPattern}}
+{\footnotesize\ttfamily List$<$String$>$ org.\+jabref.\+logic.\+citationkeypattern.\+Abstract\+Citation\+Key\+Pattern.\+default\+Pattern = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/citationkeypattern/\mbox{\hyperlink{_abstract_citation_key_pattern_8java}{Abstract\+Citation\+Key\+Pattern.\+java}}\end{DoxyCompactItemize}

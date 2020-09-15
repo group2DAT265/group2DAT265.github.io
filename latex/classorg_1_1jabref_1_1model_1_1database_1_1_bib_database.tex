@@ -1,0 +1,637 @@
+\hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{}\doxysection{org.\+jabref.\+model.\+database.\+Bib\+Database Class Reference}
+\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4f56da28b8b38b4eb3259a80e452ae29}{Bib\+Database}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af378aa809dda47ac2e2643addafa0eec}{entries}})
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ae443d6d64490da1ffbeed84c61a533bc}{Bib\+Database}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_abd7c2b8f03294303f5c6cbea939d0719}{get\+Entry\+Count}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a0b804f355815fd60d74fe5151f69b692}{has\+Entries}} ()
+\item 
+synchronized List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a1e1a7f1a157d2ff21cacc8dbdaa08d62}{get\+Entries\+Sorted}} (Comparator$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ comparator)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a6d709a7e3667b35304631351a61999e1}{contains\+Entry\+With\+Id}} (String id)
+\item 
+Observable\+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a622477b833b57563f18bd497de6d1c7f}{get\+Entries}} ()
+\item 
+Set$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ae1e5d0a2383393864cea9138ddbe885e}{get\+All\+Visible\+Fields}} ()
+\item 
+synchronized Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a60a03a94b601be31dc9276477451ab1a}{get\+Entry\+By\+Key}} (String key)
+\item 
+synchronized List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ad219659c2808785c8ab1a8d128d9b8d9}{get\+Entries\+By\+Key}} (String key)
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a00e7730f69ea6bb0dc99a0c26f492e68}{insert\+Entry}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a26f1b232108e263b020bc5619f25d7f0}{insert\+Entry}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entries_event_source}{Entries\+Event\+Source}} event\+Source)
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a292716a631094a6747bbfcd4a78180a0}{insert\+Entries}} (Bib\+Entry... \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af378aa809dda47ac2e2643addafa0eec}{entries}})
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a6ba76df2a4cf4570edc8fe2b3d371aaa}{insert\+Entries}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af378aa809dda47ac2e2643addafa0eec}{entries}})
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a214d3ddaa46abd3aee8d74ac45381a1d}{insert\+Entries}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ new\+Entries, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entries_event_source}{Entries\+Event\+Source}} event\+Source)
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_acbd4384e1c51522b4762eaf978b6942c}{remove\+Entry}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} bib\+Entry)
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a6da547f1a5928482eea52578554313cb}{remove\+Entry}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} bib\+Entry, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entries_event_source}{Entries\+Event\+Source}} event\+Source)
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aaab72713a5fd3911aeb2f73d6237ad7d}{remove\+Entries}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ to\+Be\+Deleted)
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aba0f67ef04f9d9c198fd5a2488e32556}{remove\+Entries}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ to\+Be\+Deleted, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entries_event_source}{Entries\+Event\+Source}} event\+Source)
+\item 
+synchronized Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a07fb89d9fb781d0499a2d6d8c4443aa4}{get\+Preamble}} ()
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a686b229b85f2ed3bfc1cdd1fe6afe367}{set\+Preamble}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a14a6586da8aec956c6842b9878ec691a}{preamble}})
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aa786b655679522d2350d63d40c0e0db7}{add\+String}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}} string)  throws Key\+Collision\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2cccdbff759cab6902ad8f933209a9ec}{set\+Strings}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}} $>$ strings\+To\+Add)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2c2941463319771ee4ab0f1cc0482e27}{remove\+String}} (String id)
+\item 
+Set$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4fe677c42d1b952300fa220c70094a23}{get\+String\+Key\+Set}} ()
+\item 
+\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a8520d73ff05504985e9c1221fd8e8de9}{get\+String\+Values}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a842debb187ba62a9608a24ab964eacf0}{get\+String}} (String id)
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4db648675b5839e6561e0030e1861f74}{get\+String\+By\+Name}} (String \mbox{\hyperlink{com_8apple___apple_java_extensions_8txt_acb1a49b0ddb52b756e294b2eae8cb969}{name}})
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a0c8e0c6fe34cd20cc69d444bffdbb76b}{get\+String\+Count}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2235dc0d81134fda9f7c3d3663f17bc2}{has\+No\+Strings}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a57a0c013b366280b3184ec2965026afe}{copy\+Preamble}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database)
+\item 
+synchronized boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a602be75384d7ae99a533570f2ee2efc7}{has\+String\+By\+Name}} (String \mbox{\hyperlink{org_8citationstyles_8styles_8txt_aa0e15aaa556beba3b79e7667e4b69b41}{label}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aca50fa429361d4a3f0c47a17a052dfa9}{resolve\+For\+Strings}} (String content)
+\item 
+\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af36bbf7bf0b1bbe3ed38778cc9c0811c}{get\+Used\+Strings}} (\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af378aa809dda47ac2e2643addafa0eec}{entries}})
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ac94d553270bb57b1504ae08a2dcaa138}{resolve\+For\+Strings}} (\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries\+To\+Resolve, boolean in\+Place)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a49ad64277d0a65d4d636f94f4a3ba45a}{resolve\+For\+Strings}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry, boolean in\+Place)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a32779591f582f1ba289e6f91a489ca25}{get\+Epilog}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4fa587bb225988eb90cd6ce8fcbae5a0}{set\+Epilog}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a3001603f9573fcaee3104e8e1d13eea4}{epilog}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2aa39ce9eab00a4db5ac9030b5e75a80}{register\+Listener}} (Object listener)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ac3afb95f757dc448b4acf02ba96f61af}{unregister\+Listener}} (Object listener)
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2b6cfcbb126837bb48c3e41030e119c2}{get\+Referenced\+Entry}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aff7cc00fb971bc9524ec47d8f15a0590}{get\+Shared\+Database\+ID}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ad889dc918a035dab0474040f333ef200}{set\+Shared\+Database\+ID}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af326fde3ecd1ffb21eb0f7e041b37ff1}{shared\+Database\+ID}})
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_addf82871d79e7a6a88c3747a1c7789cb}{is\+Shared}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a39e265ddfb14c8ec2d7f987a7df668af}{clear\+Shared\+Database\+ID}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a07d7c40f4db9ef7e6a74149c3d1cd126}{generate\+Shared\+Database\+ID}} ()
+\item 
+long \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a03be85f584a7ac17b82d8be39df9e0eb}{get\+Number\+Of\+Key\+Occurrences}} (String cite\+Key)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a89e5c72478a3007ce22450a18ca4fc65}{is\+Duplicate\+Cite\+Key\+Existing}} (String cite\+Key)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2579503c31ba966b82f6db91f698f2c8}{get\+Text}} (String to\+Resolve, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af0c9787e4b4ec21e02682b4260b04a08}{resolve\+String}} (String \mbox{\hyperlink{org_8citationstyles_8styles_8txt_aa0e15aaa556beba3b79e7667e4b69b41}{label}}, Set$<$ String $>$ used\+Ids, Set$<$ String $>$ all\+Used\+Ids)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aba0d6ca20c2426ab4a3c9c8480b78c85}{resolve\+Content}} (String result, Set$<$ String $>$ used\+Ids, Set$<$ String $>$ all\+Used\+Ids)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aa6be6a5fe1d2bf3827ca60814392ca85}{relay\+Entry\+Change\+Event}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_field_changed_event}{Field\+Changed\+Event}} event)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Observable\+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af378aa809dda47ac2e2643addafa0eec}{entries}} = F\+X\+Collections.\+synchronized\+Observable\+List(F\+X\+Collections.\+observable\+Array\+List(\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_a8cd9543413bdfa04002e502aa8d3cf18}{Bib\+Entry\+::get\+Observables}}))
+\item 
+Map$<$ String, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a719034f919d4cd55188e07595b93bcb0}{bibtex\+Strings}} = new Concurrent\+Hash\+Map$<$$>$()
+\item 
+final Event\+Bus \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aa7c096fcd13a87d23b9a2332235352a1}{event\+Bus}} = new Event\+Bus()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a14a6586da8aec956c6842b9878ec691a}{preamble}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a3001603f9573fcaee3104e8e1d13eea4}{epilog}} = \char`\"{}\char`\"{}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af326fde3ecd1ffb21eb0f7e041b37ff1}{shared\+Database\+ID}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a32cf5311ff8e14bd71bdb9ed10b34fd5}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Bib\+Database.\+class)
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a93eec6383619c5526f96d1ebd526f595}{R\+E\+S\+O\+L\+V\+E\+\_\+\+C\+O\+N\+T\+E\+N\+T\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}.$\ast$\#\mbox{[}$^\wedge$\#\mbox{]}+\#.$\ast$\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A bibliography database. This is the \char`\"{}bib\char`\"{} file (or the library stored in a shared S\+QL database) 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4f56da28b8b38b4eb3259a80e452ae29}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4f56da28b8b38b4eb3259a80e452ae29}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!BibDatabase@{BibDatabase}}
+\index{BibDatabase@{BibDatabase}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{BibDatabase()}{BibDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+model.\+database.\+Bib\+Database.\+Bib\+Database (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ae443d6d64490da1ffbeed84c61a533bc}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ae443d6d64490da1ffbeed84c61a533bc}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!BibDatabase@{BibDatabase}}
+\index{BibDatabase@{BibDatabase}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{BibDatabase()}{BibDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+model.\+database.\+Bib\+Database.\+Bib\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aa786b655679522d2350d63d40c0e0db7}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aa786b655679522d2350d63d40c0e0db7}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!addString@{addString}}
+\index{addString@{addString}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{addString()}{addString()}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+add\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}}}]{string }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_key_collision_exception}{Key\+Collision\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Inserts a Bibtex String. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a39e265ddfb14c8ec2d7f987a7df668af}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a39e265ddfb14c8ec2d7f987a7df668af}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!clearSharedDatabaseID@{clearSharedDatabaseID}}
+\index{clearSharedDatabaseID@{clearSharedDatabaseID}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{clearSharedDatabaseID()}{clearSharedDatabaseID()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+database.\+Bib\+Database.\+clear\+Shared\+Database\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a6d709a7e3667b35304631351a61999e1}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a6d709a7e3667b35304631351a61999e1}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!containsEntryWithId@{containsEntryWithId}}
+\index{containsEntryWithId@{containsEntryWithId}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{containsEntryWithId()}{containsEntryWithId()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+database.\+Bib\+Database.\+contains\+Entry\+With\+Id (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns whether an entry with the given ID exists (-\/$>$ entry\+\_\+type + hashcode). \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a57a0c013b366280b3184ec2965026afe}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a57a0c013b366280b3184ec2965026afe}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!copyPreamble@{copyPreamble}}
+\index{copyPreamble@{copyPreamble}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{copyPreamble()}{copyPreamble()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+database.\+Bib\+Database.\+copy\+Preamble (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Copies the preamble of another \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em database} & another \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a07d7c40f4db9ef7e6a74149c3d1cd126}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a07d7c40f4db9ef7e6a74149c3d1cd126}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!generateSharedDatabaseID@{generateSharedDatabaseID}}
+\index{generateSharedDatabaseID@{generateSharedDatabaseID}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{generateSharedDatabaseID()}{generateSharedDatabaseID()}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+database.\+Bib\+Database.\+generate\+Shared\+Database\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Generates and sets a random ID which is globally unique.
+
+\begin{DoxyReturn}{Returns}
+The generated shared\+Database\+ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ae1e5d0a2383393864cea9138ddbe885e}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ae1e5d0a2383393864cea9138ddbe885e}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getAllVisibleFields@{getAllVisibleFields}}
+\index{getAllVisibleFields@{getAllVisibleFields}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getAllVisibleFields()}{getAllVisibleFields()}}
+{\footnotesize\ttfamily Set$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+All\+Visible\+Fields (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a set of Strings, that contains all field names that are visible. This means that the fields are not internal fields. Internal fields are fields, that are starting with \char`\"{}\+\_\+\char`\"{}.
+
+\begin{DoxyReturn}{Returns}
+set of fieldnames, that are visible 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a622477b833b57563f18bd497de6d1c7f}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a622477b833b57563f18bd497de6d1c7f}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getEntries@{getEntries}}
+\index{getEntries@{getEntries}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getEntries()}{getEntries()}}
+{\footnotesize\ttfamily Observable\+List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Entries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ad219659c2808785c8ab1a8d128d9b8d9}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ad219659c2808785c8ab1a8d128d9b8d9}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getEntriesByKey@{getEntriesByKey}}
+\index{getEntriesByKey@{getEntriesByKey}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getEntriesByKey()}{getEntriesByKey()}}
+{\footnotesize\ttfamily synchronized List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Entries\+By\+Key (\begin{DoxyParamCaption}\item[{String}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Collects entries having the specified citation key and returns these entries as list. The order of the entries is the order they appear in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list of entries that contains the given key 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a1e1a7f1a157d2ff21cacc8dbdaa08d62}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a1e1a7f1a157d2ff21cacc8dbdaa08d62}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getEntriesSorted@{getEntriesSorted}}
+\index{getEntriesSorted@{getEntriesSorted}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getEntriesSorted()}{getEntriesSorted()}}
+{\footnotesize\ttfamily synchronized List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Entries\+Sorted (\begin{DoxyParamCaption}\item[{Comparator$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{comparator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the list of entries sorted by the given comparator. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a60a03a94b601be31dc9276477451ab1a}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a60a03a94b601be31dc9276477451ab1a}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getEntryByKey@{getEntryByKey}}
+\index{getEntryByKey@{getEntryByKey}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getEntryByKey()}{getEntryByKey()}}
+{\footnotesize\ttfamily synchronized Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Entry\+By\+Key (\begin{DoxyParamCaption}\item[{String}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the entry with the given bibtex key. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_abd7c2b8f03294303f5c6cbea939d0719}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_abd7c2b8f03294303f5c6cbea939d0719}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getEntryCount@{getEntryCount}}
+\index{getEntryCount@{getEntryCount}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getEntryCount()}{getEntryCount()}}
+{\footnotesize\ttfamily int org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Entry\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the number of entries. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a32779591f582f1ba289e6f91a489ca25}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a32779591f582f1ba289e6f91a489ca25}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getEpilog@{getEpilog}}
+\index{getEpilog@{getEpilog}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getEpilog()}{getEpilog()}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Epilog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a03be85f584a7ac17b82d8be39df9e0eb}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a03be85f584a7ac17b82d8be39df9e0eb}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getNumberOfKeyOccurrences@{getNumberOfKeyOccurrences}}
+\index{getNumberOfKeyOccurrences@{getNumberOfKeyOccurrences}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getNumberOfKeyOccurrences()}{getNumberOfKeyOccurrences()}}
+{\footnotesize\ttfamily long org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Number\+Of\+Key\+Occurrences (\begin{DoxyParamCaption}\item[{String}]{cite\+Key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the number of occurrences of the given key in this database. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a07fb89d9fb781d0499a2d6d8c4443aa4}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a07fb89d9fb781d0499a2d6d8c4443aa4}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getPreamble@{getPreamble}}
+\index{getPreamble@{getPreamble}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getPreamble()}{getPreamble()}}
+{\footnotesize\ttfamily synchronized Optional$<$String$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Preamble (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the database\textquotesingle{}s preamble. If the preamble text consists only of whitespace, then also an empty optional is returned. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2b6cfcbb126837bb48c3e41030e119c2}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2b6cfcbb126837bb48c3e41030e119c2}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getReferencedEntry@{getReferencedEntry}}
+\index{getReferencedEntry@{getReferencedEntry}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getReferencedEntry()}{getReferencedEntry()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Referenced\+Entry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aff7cc00fb971bc9524ec47d8f15a0590}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aff7cc00fb971bc9524ec47d8f15a0590}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getSharedDatabaseID@{getSharedDatabaseID}}
+\index{getSharedDatabaseID@{getSharedDatabaseID}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getSharedDatabaseID()}{getSharedDatabaseID()}}
+{\footnotesize\ttfamily Optional$<$String$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Shared\+Database\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a842debb187ba62a9608a24ab964eacf0}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a842debb187ba62a9608a24ab964eacf0}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getString@{getString}}
+\index{getString@{getString}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getString()}{getString()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}} org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+String (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the string with the given id. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4db648675b5839e6561e0030e1861f74}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4db648675b5839e6561e0030e1861f74}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getStringByName@{getStringByName}}
+\index{getStringByName@{getStringByName}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getStringByName()}{getStringByName()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+String\+By\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the string with the given name/label \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a0c8e0c6fe34cd20cc69d444bffdbb76b}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a0c8e0c6fe34cd20cc69d444bffdbb76b}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getStringCount@{getStringCount}}
+\index{getStringCount@{getStringCount}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getStringCount()}{getStringCount()}}
+{\footnotesize\ttfamily int org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+String\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the number of strings. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4fe677c42d1b952300fa220c70094a23}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4fe677c42d1b952300fa220c70094a23}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getStringKeySet@{getStringKeySet}}
+\index{getStringKeySet@{getStringKeySet}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getStringKeySet()}{getStringKeySet()}}
+{\footnotesize\ttfamily Set$<$String$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+String\+Key\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a Set of keys to all Bibtex\+String objects in the database. These are in no sorted order. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a8520d73ff05504985e9c1221fd8e8de9}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a8520d73ff05504985e9c1221fd8e8de9}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getStringValues@{getStringValues}}
+\index{getStringValues@{getStringValues}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getStringValues()}{getStringValues()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+String\+Values (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a Collection of all Bibtex\+String objects in the database. These are in no particular order. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2579503c31ba966b82f6db91f698f2c8}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2579503c31ba966b82f6db91f698f2c8}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getText@{getText}}
+\index{getText@{getText}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getText()}{getText()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Text (\begin{DoxyParamCaption}\item[{String}]{to\+Resolve,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em to\+Resolve} & maybenull The text to resolve. \\
+\hline
+{\em database} & maybenull The database to use for resolving the text. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The resolved text or the original text if either the text or the database are null 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000013}{Deprecated}}]use \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aca50fa429361d4a3f0c47a17a052dfa9}{Bib\+Database\#resolve\+For\+Strings(\+String)}} \end{DoxyRefDesc}
+
+
+Returns a text with references resolved according to an optionally given database. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af36bbf7bf0b1bbe3ed38778cc9c0811c}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af36bbf7bf0b1bbe3ed38778cc9c0811c}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!getUsedStrings@{getUsedStrings}}
+\index{getUsedStrings@{getUsedStrings}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{getUsedStrings()}{getUsedStrings()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+get\+Used\+Strings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get all strings used in the entries. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a0b804f355815fd60d74fe5151f69b692}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a0b804f355815fd60d74fe5151f69b692}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!hasEntries@{hasEntries}}
+\index{hasEntries@{hasEntries}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{hasEntries()}{hasEntries()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+database.\+Bib\+Database.\+has\+Entries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks if the database contains entries. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2235dc0d81134fda9f7c3d3663f17bc2}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2235dc0d81134fda9f7c3d3663f17bc2}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!hasNoStrings@{hasNoStrings}}
+\index{hasNoStrings@{hasNoStrings}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{hasNoStrings()}{hasNoStrings()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+database.\+Bib\+Database.\+has\+No\+Strings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if there are strings. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a602be75384d7ae99a533570f2ee2efc7}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a602be75384d7ae99a533570f2ee2efc7}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!hasStringByName@{hasStringByName}}
+\index{hasStringByName@{hasStringByName}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{hasStringByName()}{hasStringByName()}}
+{\footnotesize\ttfamily synchronized boolean org.\+jabref.\+model.\+database.\+Bib\+Database.\+has\+String\+By\+Name (\begin{DoxyParamCaption}\item[{String}]{label }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns true if a string with the given label already exists. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a292716a631094a6747bbfcd4a78180a0}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a292716a631094a6747bbfcd4a78180a0}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!insertEntries@{insertEntries}}
+\index{insertEntries@{insertEntries}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{insertEntries()}{insertEntries()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+insert\+Entries (\begin{DoxyParamCaption}\item[{Bib\+Entry...}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a6ba76df2a4cf4570edc8fe2b3d371aaa}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a6ba76df2a4cf4570edc8fe2b3d371aaa}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!insertEntries@{insertEntries}}
+\index{insertEntries@{insertEntries}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{insertEntries()}{insertEntries()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+insert\+Entries (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a214d3ddaa46abd3aee8d74ac45381a1d}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a214d3ddaa46abd3aee8d74ac45381a1d}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!insertEntries@{insertEntries}}
+\index{insertEntries@{insertEntries}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{insertEntries()}{insertEntries()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+insert\+Entries (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{new\+Entries,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entries_event_source}{Entries\+Event\+Source}}}]{event\+Source }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a00e7730f69ea6bb0dc99a0c26f492e68}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a00e7730f69ea6bb0dc99a0c26f492e68}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!insertEntry@{insertEntry}}
+\index{insertEntry@{insertEntry}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{insertEntry()}{insertEntry()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+insert\+Entry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Inserts the entry.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & entry to insert \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a26f1b232108e263b020bc5619f25d7f0}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a26f1b232108e263b020bc5619f25d7f0}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!insertEntry@{insertEntry}}
+\index{insertEntry@{insertEntry}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{insertEntry()}{insertEntry()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+insert\+Entry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entries_event_source}{Entries\+Event\+Source}}}]{event\+Source }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Inserts the entry.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & entry to insert \\
+\hline
+{\em event\+Source} & source the event is sent from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a89e5c72478a3007ce22450a18ca4fc65}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a89e5c72478a3007ce22450a18ca4fc65}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!isDuplicateCiteKeyExisting@{isDuplicateCiteKeyExisting}}
+\index{isDuplicateCiteKeyExisting@{isDuplicateCiteKeyExisting}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{isDuplicateCiteKeyExisting()}{isDuplicateCiteKeyExisting()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+database.\+Bib\+Database.\+is\+Duplicate\+Cite\+Key\+Existing (\begin{DoxyParamCaption}\item[{String}]{cite\+Key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks if there is more than one occurrence of the cite key \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_addf82871d79e7a6a88c3747a1c7789cb}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_addf82871d79e7a6a88c3747a1c7789cb}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!isShared@{isShared}}
+\index{isShared@{isShared}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{isShared()}{isShared()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+database.\+Bib\+Database.\+is\+Shared (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2aa39ce9eab00a4db5ac9030b5e75a80}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2aa39ce9eab00a4db5ac9030b5e75a80}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!registerListener@{registerListener}}
+\index{registerListener@{registerListener}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{registerListener()}{registerListener()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+database.\+Bib\+Database.\+register\+Listener (\begin{DoxyParamCaption}\item[{Object}]{listener }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Registers an listener object (subscriber) to the internal event bus. The following events are posted\+:
+
+
+\begin{DoxyItemize}
+\item \mbox{\hyperlink{}{Entries\+Added\+Event}}
+\item \mbox{\hyperlink{}{Entry\+Changed\+Event}}
+\item \mbox{\hyperlink{}{Entries\+Removed\+Event}}
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & listener (subscriber) to add \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aa6be6a5fe1d2bf3827ca60814392ca85}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aa6be6a5fe1d2bf3827ca60814392ca85}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!relayEntryChangeEvent@{relayEntryChangeEvent}}
+\index{relayEntryChangeEvent@{relayEntryChangeEvent}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{relayEntryChangeEvent()}{relayEntryChangeEvent()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+database.\+Bib\+Database.\+relay\+Entry\+Change\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_field_changed_event}{Field\+Changed\+Event}}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aaab72713a5fd3911aeb2f73d6237ad7d}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aaab72713a5fd3911aeb2f73d6237ad7d}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!removeEntries@{removeEntries}}
+\index{removeEntries@{removeEntries}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{removeEntries()}{removeEntries()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+remove\+Entries (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{to\+Be\+Deleted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Removes the given entries. The entries removed based on the id \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_ad45f1747a871bb2f71bc826c77257583}{Bib\+Entry\#get\+Id()}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em to\+Be\+Deleted} & Entries to delete \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aba0f67ef04f9d9c198fd5a2488e32556}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aba0f67ef04f9d9c198fd5a2488e32556}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!removeEntries@{removeEntries}}
+\index{removeEntries@{removeEntries}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{removeEntries()}{removeEntries()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+remove\+Entries (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{to\+Be\+Deleted,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entries_event_source}{Entries\+Event\+Source}}}]{event\+Source }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Removes the given entries. The entries are removed based on the id \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_ad45f1747a871bb2f71bc826c77257583}{Bib\+Entry\#get\+Id()}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em to\+Be\+Deleted} & Entry to delete \\
+\hline
+{\em event\+Source} & Source the event is sent from \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_acbd4384e1c51522b4762eaf978b6942c}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_acbd4384e1c51522b4762eaf978b6942c}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!removeEntry@{removeEntry}}
+\index{removeEntry@{removeEntry}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{removeEntry()}{removeEntry()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+remove\+Entry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{bib\+Entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a6da547f1a5928482eea52578554313cb}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a6da547f1a5928482eea52578554313cb}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!removeEntry@{removeEntry}}
+\index{removeEntry@{removeEntry}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{removeEntry()}{removeEntry()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+remove\+Entry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{bib\+Entry,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entries_event_source}{Entries\+Event\+Source}}}]{event\+Source }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2c2941463319771ee4ab0f1cc0482e27}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2c2941463319771ee4ab0f1cc0482e27}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!removeString@{removeString}}
+\index{removeString@{removeString}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{removeString()}{removeString()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+database.\+Bib\+Database.\+remove\+String (\begin{DoxyParamCaption}\item[{String}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Removes the string with the given id. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aba0d6ca20c2426ab4a3c9c8480b78c85}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aba0d6ca20c2426ab4a3c9c8480b78c85}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!resolveContent@{resolveContent}}
+\index{resolveContent@{resolveContent}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{resolveContent()}{resolveContent()}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+database.\+Bib\+Database.\+resolve\+Content (\begin{DoxyParamCaption}\item[{String}]{result,  }\item[{Set$<$ String $>$}]{used\+Ids,  }\item[{Set$<$ String $>$}]{all\+Used\+Ids }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a49ad64277d0a65d4d636f94f4a3ba45a}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a49ad64277d0a65d4d636f94f4a3ba45a}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!resolveForStrings@{resolveForStrings}}
+\index{resolveForStrings@{resolveForStrings}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{resolveForStrings()}{resolveForStrings()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+model.\+database.\+Bib\+Database.\+resolve\+For\+Strings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry,  }\item[{boolean}]{in\+Place }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Take the given Bib\+Entry and resolve any string references.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & A Bib\+Entry in which all strings of the form \#xxx\# will be resolved against the hash map of string references stored in the database. \\
+\hline
+{\em in\+Place} & If in\+Place is true then the given Bib\+Entry will be modified, if false then a copy is made using close made before resolving the strings. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a Bib\+Entry with all string references resolved. It is dependent on the value of in\+Place whether a copy is made or the given Bibtex\+Entries is modified. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ac94d553270bb57b1504ae08a2dcaa138}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ac94d553270bb57b1504ae08a2dcaa138}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!resolveForStrings@{resolveForStrings}}
+\index{resolveForStrings@{resolveForStrings}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{resolveForStrings()}{resolveForStrings()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+resolve\+For\+Strings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries\+To\+Resolve,  }\item[{boolean}]{in\+Place }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Take the given collection of Bib\+Entry and resolve any string references.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entries\+To\+Resolve} & A collection of Bibtex\+Entries in which all strings of the form \#xxx\# will be resolved against the hash map of string references stored in the database. \\
+\hline
+{\em in\+Place} & If in\+Place is true then the given Bibtex\+Entries will be modified, if false then copies of the Bibtex\+Entries are made before resolving the strings. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a list of bibtexentries, with all strings resolved. It is dependent on the value of in\+Place whether copies are made or the given Bibtex\+Entries are modified. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aca50fa429361d4a3f0c47a17a052dfa9}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aca50fa429361d4a3f0c47a17a052dfa9}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!resolveForStrings@{resolveForStrings}}
+\index{resolveForStrings@{resolveForStrings}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{resolveForStrings()}{resolveForStrings()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+database.\+Bib\+Database.\+resolve\+For\+Strings (\begin{DoxyParamCaption}\item[{String}]{content }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Resolves any references to strings contained in this field content, if possible. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af0c9787e4b4ec21e02682b4260b04a08}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af0c9787e4b4ec21e02682b4260b04a08}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!resolveString@{resolveString}}
+\index{resolveString@{resolveString}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{resolveString()}{resolveString()}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+database.\+Bib\+Database.\+resolve\+String (\begin{DoxyParamCaption}\item[{String}]{label,  }\item[{Set$<$ String $>$}]{used\+Ids,  }\item[{Set$<$ String $>$}]{all\+Used\+Ids }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+If the label represents a string contained in this database, returns that string\textquotesingle{}s content. Resolves references to other strings, taking care not to follow a circular reference pattern. If the string is undefined, returns null. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4fa587bb225988eb90cd6ce8fcbae5a0}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a4fa587bb225988eb90cd6ce8fcbae5a0}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!setEpilog@{setEpilog}}
+\index{setEpilog@{setEpilog}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{setEpilog()}{setEpilog()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+database.\+Bib\+Database.\+set\+Epilog (\begin{DoxyParamCaption}\item[{String}]{epilog }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a686b229b85f2ed3bfc1cdd1fe6afe367}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a686b229b85f2ed3bfc1cdd1fe6afe367}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!setPreamble@{setPreamble}}
+\index{setPreamble@{setPreamble}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{setPreamble()}{setPreamble()}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+model.\+database.\+Bib\+Database.\+set\+Preamble (\begin{DoxyParamCaption}\item[{String}]{preamble }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets the database\textquotesingle{}s preamble. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ad889dc918a035dab0474040f333ef200}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ad889dc918a035dab0474040f333ef200}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!setSharedDatabaseID@{setSharedDatabaseID}}
+\index{setSharedDatabaseID@{setSharedDatabaseID}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{setSharedDatabaseID()}{setSharedDatabaseID()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+database.\+Bib\+Database.\+set\+Shared\+Database\+ID (\begin{DoxyParamCaption}\item[{String}]{shared\+Database\+ID }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2cccdbff759cab6902ad8f933209a9ec}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a2cccdbff759cab6902ad8f933209a9ec}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!setStrings@{setStrings}}
+\index{setStrings@{setStrings}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{setStrings()}{setStrings()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+database.\+Bib\+Database.\+set\+Strings (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}} $>$}]{strings\+To\+Add }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Replaces the existing lists of Bib\+Tex\+String with the given one Duplicates throw \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_key_collision_exception}{Key\+Collision\+Exception}} 
+\begin{DoxyParams}{Parameters}
+{\em strings\+To\+Add} & The collection of strings to set \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ac3afb95f757dc448b4acf02ba96f61af}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_ac3afb95f757dc448b4acf02ba96f61af}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!unregisterListener@{unregisterListener}}
+\index{unregisterListener@{unregisterListener}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{unregisterListener()}{unregisterListener()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+database.\+Bib\+Database.\+unregister\+Listener (\begin{DoxyParamCaption}\item[{Object}]{listener }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Unregisters an listener object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listener} & listener (subscriber) to remove \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a719034f919d4cd55188e07595b93bcb0}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a719034f919d4cd55188e07595b93bcb0}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!bibtexStrings@{bibtexStrings}}
+\index{bibtexStrings@{bibtexStrings}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{bibtexStrings}{bibtexStrings}}
+{\footnotesize\ttfamily Map$<$String, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string}{Bibtex\+String}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+bibtex\+Strings = new Concurrent\+Hash\+Map$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af378aa809dda47ac2e2643addafa0eec}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af378aa809dda47ac2e2643addafa0eec}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!entries@{entries}}
+\index{entries@{entries}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{entries}{entries}}
+{\footnotesize\ttfamily final Observable\+List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+model.\+database.\+Bib\+Database.\+entries = F\+X\+Collections.\+synchronized\+Observable\+List(F\+X\+Collections.\+observable\+Array\+List(\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_a8cd9543413bdfa04002e502aa8d3cf18}{Bib\+Entry\+::get\+Observables}}))\hspace{0.3cm}{\ttfamily [private]}}
+
+State attributes \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a3001603f9573fcaee3104e8e1d13eea4}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a3001603f9573fcaee3104e8e1d13eea4}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!epilog@{epilog}}
+\index{epilog@{epilog}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{epilog}{epilog}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+database.\+Bib\+Database.\+epilog = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aa7c096fcd13a87d23b9a2332235352a1}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_aa7c096fcd13a87d23b9a2332235352a1}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!eventBus@{eventBus}}
+\index{eventBus@{eventBus}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{eventBus}{eventBus}}
+{\footnotesize\ttfamily final Event\+Bus org.\+jabref.\+model.\+database.\+Bib\+Database.\+event\+Bus = new Event\+Bus()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a32cf5311ff8e14bd71bdb9ed10b34fd5}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a32cf5311ff8e14bd71bdb9ed10b34fd5}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+model.\+database.\+Bib\+Database.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Bib\+Database.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a14a6586da8aec956c6842b9878ec691a}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a14a6586da8aec956c6842b9878ec691a}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!preamble@{preamble}}
+\index{preamble@{preamble}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{preamble}{preamble}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+database.\+Bib\+Database.\+preamble\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a93eec6383619c5526f96d1ebd526f595}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_a93eec6383619c5526f96d1ebd526f595}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!RESOLVE\_CONTENT\_PATTERN@{RESOLVE\_CONTENT\_PATTERN}}
+\index{RESOLVE\_CONTENT\_PATTERN@{RESOLVE\_CONTENT\_PATTERN}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{RESOLVE\_CONTENT\_PATTERN}{RESOLVE\_CONTENT\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+model.\+database.\+Bib\+Database.\+R\+E\+S\+O\+L\+V\+E\+\_\+\+C\+O\+N\+T\+E\+N\+T\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}.$\ast$\#\mbox{[}$^\wedge$\#\mbox{]}+\#.$\ast$\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af326fde3ecd1ffb21eb0f7e041b37ff1}\label{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_af326fde3ecd1ffb21eb0f7e041b37ff1}} 
+\index{org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}!sharedDatabaseID@{sharedDatabaseID}}
+\index{sharedDatabaseID@{sharedDatabaseID}!org.jabref.model.database.BibDatabase@{org.jabref.model.database.BibDatabase}}
+\doxysubsubsection{\texorpdfstring{sharedDatabaseID}{sharedDatabaseID}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+database.\+Bib\+Database.\+shared\+Database\+ID\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/model/database/\mbox{\hyperlink{_bib_database_8java}{Bib\+Database.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,65 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_number}{}\doxysection{org.\+jabref.\+logic.\+layout.\+format.\+Number Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_number}\index{org.jabref.logic.layout.format.Number@{org.jabref.logic.layout.format.Number}}
+Inheritance diagram for org.\+jabref.\+logic.\+layout.\+format.\+Number\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_number}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_number_ab1d0448eebb878727b897a6b3def4057}{set\+Argument}} (String arg)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_number_a0c3d7bcaa7a5bc1b122d6f8f9a023d9f}{format}} (String field\+Text)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Formatter that outputs a sequence number for the current entry. The sequence number is tied to the entry\textquotesingle{}s position in the order, not to the number of calls to this formatter. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_number_a0c3d7bcaa7a5bc1b122d6f8f9a023d9f}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_number_a0c3d7bcaa7a5bc1b122d6f8f9a023d9f}} 
+\index{org.jabref.logic.layout.format.Number@{org.jabref.logic.layout.format.Number}!format@{format}}
+\index{format@{format}!org.jabref.logic.layout.format.Number@{org.jabref.logic.layout.format.Number}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+Number.\+format (\begin{DoxyParamCaption}\item[{String}]{field\+Text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Failure Mode\+: 
+
+Formatters should be robust in the sense that they always return some relevant string. 
+
+If the formatter can detect an invalid input it should return the original string otherwise it may simply return a wrong output.
+
+
+\begin{DoxyParams}{Parameters}
+{\em field\+Text} & The text to layout. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The layouted text. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_ae94ffc8b15278725ad6d0d2f3f776711}{org.\+jabref.\+logic.\+layout.\+Layout\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_number_ab1d0448eebb878727b897a6b3def4057}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_number_ab1d0448eebb878727b897a6b3def4057}} 
+\index{org.jabref.logic.layout.format.Number@{org.jabref.logic.layout.format.Number}!setArgument@{setArgument}}
+\index{setArgument@{setArgument}!org.jabref.logic.layout.format.Number@{org.jabref.logic.layout.format.Number}}
+\doxysubsubsection{\texorpdfstring{setArgument()}{setArgument()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+layout.\+format.\+Number.\+set\+Argument (\begin{DoxyParamCaption}\item[{String}]{arg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Method for setting the argument of this formatter. 
+\begin{DoxyParams}{Parameters}
+{\em arg} & A String argument. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_param_layout_formatter_af75d6b7aca4a71291436ae61f9440a6f}{org.\+jabref.\+logic.\+layout.\+Param\+Layout\+Formatter}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/layout/format/\mbox{\hyperlink{_number_8java}{Number.\+java}}\end{DoxyCompactItemize}

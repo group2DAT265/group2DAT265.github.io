@@ -1,0 +1,82 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer}{}\doxysection{org.\+jabref.\+logic.\+pdf.\+Pdf\+Annotation\+Importer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer}\index{org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}}
+Inheritance diagram for org.\+jabref.\+logic.\+pdf.\+Pdf\+Annotation\+Importer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1pdf_1_1_file_annotation}{File\+Annotation}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a1af48c37fb021b84b61cc1a9a918ebc5}{import\+Annotations}} (final Path path)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a849cbaf0bc3701755627239ddc355102}{is\+Supported\+Annotation\+Type}} (P\+D\+Annotation annotation)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1pdf_1_1_file_annotation}{File\+Annotation}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a140d943e1a11a5a56090ebb0fd9177d7}{create\+Marked\+Annotations}} (int page\+Index, P\+D\+Page page, P\+D\+Annotation annotation)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a3af3d4920a0231e621530bba24b76f93}{validate\+Path}} (Path path)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a20de009236009f3c1df334cb9f1eb46f}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Pdf\+Annotation\+Importer.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a140d943e1a11a5a56090ebb0fd9177d7}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a140d943e1a11a5a56090ebb0fd9177d7}} 
+\index{org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}!createMarkedAnnotations@{createMarkedAnnotations}}
+\index{createMarkedAnnotations@{createMarkedAnnotations}!org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}}
+\doxysubsubsection{\texorpdfstring{createMarkedAnnotations()}{createMarkedAnnotations()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1pdf_1_1_file_annotation}{File\+Annotation}} org.\+jabref.\+logic.\+pdf.\+Pdf\+Annotation\+Importer.\+create\+Marked\+Annotations (\begin{DoxyParamCaption}\item[{int}]{page\+Index,  }\item[{P\+D\+Page}]{page,  }\item[{P\+D\+Annotation}]{annotation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a1af48c37fb021b84b61cc1a9a918ebc5}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a1af48c37fb021b84b61cc1a9a918ebc5}} 
+\index{org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}!importAnnotations@{importAnnotations}}
+\index{importAnnotations@{importAnnotations}!org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}}
+\doxysubsubsection{\texorpdfstring{importAnnotations()}{importAnnotations()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1pdf_1_1_file_annotation}{File\+Annotation}}$>$ org.\+jabref.\+logic.\+pdf.\+Pdf\+Annotation\+Importer.\+import\+Annotations (\begin{DoxyParamCaption}\item[{final Path}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Imports the comments from a pdf specified by its path
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & a path to a pdf \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a list with the all the annotations found in the file of the path 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1pdf_1_1_annotation_importer_a6207d199f4eb24dd26a4d03e5e1decef}{org.\+jabref.\+logic.\+pdf.\+Annotation\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a849cbaf0bc3701755627239ddc355102}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a849cbaf0bc3701755627239ddc355102}} 
+\index{org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}!isSupportedAnnotationType@{isSupportedAnnotationType}}
+\index{isSupportedAnnotationType@{isSupportedAnnotationType}!org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}}
+\doxysubsubsection{\texorpdfstring{isSupportedAnnotationType()}{isSupportedAnnotationType()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+pdf.\+Pdf\+Annotation\+Importer.\+is\+Supported\+Annotation\+Type (\begin{DoxyParamCaption}\item[{P\+D\+Annotation}]{annotation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a3af3d4920a0231e621530bba24b76f93}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a3af3d4920a0231e621530bba24b76f93}} 
+\index{org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}!validatePath@{validatePath}}
+\index{validatePath@{validatePath}!org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}}
+\doxysubsubsection{\texorpdfstring{validatePath()}{validatePath()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+pdf.\+Pdf\+Annotation\+Importer.\+validate\+Path (\begin{DoxyParamCaption}\item[{Path}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a20de009236009f3c1df334cb9f1eb46f}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_pdf_annotation_importer_a20de009236009f3c1df334cb9f1eb46f}} 
+\index{org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.pdf.PdfAnnotationImporter@{org.jabref.logic.pdf.PdfAnnotationImporter}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+pdf.\+Pdf\+Annotation\+Importer.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Pdf\+Annotation\+Importer.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/pdf/\mbox{\hyperlink{_pdf_annotation_importer_8java}{Pdf\+Annotation\+Importer.\+java}}\end{DoxyCompactItemize}

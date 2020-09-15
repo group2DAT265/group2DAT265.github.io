@@ -1,0 +1,124 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager}{}\doxysection{org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager}\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+Inheritance diagram for org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+synchronized boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_aaf72e36590662482c0610058c61af56d}{add\+Edit}} (Undoable\+Edit edit)
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a05f1c4f3e4ece6d3f36efa56d4dca64e}{undo}} ()  throws Cannot\+Undo\+Exception 
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a516790384a759f161d45b58c44de6ecc}{redo}} ()  throws Cannot\+Undo\+Exception 
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a05539005a6b4bd856a78e0608d9c2106}{mark\+Unchanged}} ()
+\item 
+synchronized boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a67e21ee8112a0d6f6c44ac286ebd91f0}{has\+Changed}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a7430842b9536059cf91e0110f9bb5e01}{register\+Listener}} (Object object)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_afe082767dc477db0d80e8524a8db1d23}{unregister\+Listener}} (Object object)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a77d969947db9cc3d6241df8b4292a620}{post\+Undo\+Redo\+Event}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_abb7395ec8918c4071e4ab3dc4bea6ed6}{post\+Add\+Undo\+Event}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a7de402c41dafd150c30166f57cfafb43}{unchanged\+Point}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a39046c9761576192cc7df1a1b536201d}{current}}
+\item 
+final Event\+Bus \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_aae0eb28209eb8215eb0481cd301bb653}{event\+Bus}} = new Event\+Bus()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_aaf72e36590662482c0610058c61af56d}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_aaf72e36590662482c0610058c61af56d}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!addEdit@{addEdit}}
+\index{addEdit@{addEdit}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{addEdit()}{addEdit()}}
+{\footnotesize\ttfamily synchronized boolean org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+add\+Edit (\begin{DoxyParamCaption}\item[{Undoable\+Edit}]{edit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a67e21ee8112a0d6f6c44ac286ebd91f0}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a67e21ee8112a0d6f6c44ac286ebd91f0}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!hasChanged@{hasChanged}}
+\index{hasChanged@{hasChanged}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{hasChanged()}{hasChanged()}}
+{\footnotesize\ttfamily synchronized boolean org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+has\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a05539005a6b4bd856a78e0608d9c2106}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a05539005a6b4bd856a78e0608d9c2106}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!markUnchanged@{markUnchanged}}
+\index{markUnchanged@{markUnchanged}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{markUnchanged()}{markUnchanged()}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+mark\+Unchanged (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_abb7395ec8918c4071e4ab3dc4bea6ed6}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_abb7395ec8918c4071e4ab3dc4bea6ed6}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!postAddUndoEvent@{postAddUndoEvent}}
+\index{postAddUndoEvent@{postAddUndoEvent}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{postAddUndoEvent()}{postAddUndoEvent()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+post\+Add\+Undo\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a77d969947db9cc3d6241df8b4292a620}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a77d969947db9cc3d6241df8b4292a620}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!postUndoRedoEvent@{postUndoRedoEvent}}
+\index{postUndoRedoEvent@{postUndoRedoEvent}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{postUndoRedoEvent()}{postUndoRedoEvent()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+post\+Undo\+Redo\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a516790384a759f161d45b58c44de6ecc}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a516790384a759f161d45b58c44de6ecc}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!redo@{redo}}
+\index{redo@{redo}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{redo()}{redo()}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+redo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Cannot\+Undo\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a7430842b9536059cf91e0110f9bb5e01}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a7430842b9536059cf91e0110f9bb5e01}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!registerListener@{registerListener}}
+\index{registerListener@{registerListener}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{registerListener()}{registerListener()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+register\+Listener (\begin{DoxyParamCaption}\item[{Object}]{object }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a05f1c4f3e4ece6d3f36efa56d4dca64e}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a05f1c4f3e4ece6d3f36efa56d4dca64e}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!undo@{undo}}
+\index{undo@{undo}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+undo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Cannot\+Undo\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_afe082767dc477db0d80e8524a8db1d23}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_afe082767dc477db0d80e8524a8db1d23}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!unregisterListener@{unregisterListener}}
+\index{unregisterListener@{unregisterListener}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{unregisterListener()}{unregisterListener()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+unregister\+Listener (\begin{DoxyParamCaption}\item[{Object}]{object }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a39046c9761576192cc7df1a1b536201d}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a39046c9761576192cc7df1a1b536201d}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!current@{current}}
+\index{current@{current}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{current}{current}}
+{\footnotesize\ttfamily int org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+current\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_aae0eb28209eb8215eb0481cd301bb653}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_aae0eb28209eb8215eb0481cd301bb653}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!eventBus@{eventBus}}
+\index{eventBus@{eventBus}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{eventBus}{eventBus}}
+{\footnotesize\ttfamily final Event\+Bus org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+event\+Bus = new Event\+Bus()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a7de402c41dafd150c30166f57cfafb43}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager_a7de402c41dafd150c30166f57cfafb43}} 
+\index{org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}!unchangedPoint@{unchangedPoint}}
+\index{unchangedPoint@{unchangedPoint}!org.jabref.gui.undo.CountingUndoManager@{org.jabref.gui.undo.CountingUndoManager}}
+\doxysubsubsection{\texorpdfstring{unchangedPoint}{unchangedPoint}}
+{\footnotesize\ttfamily int org.\+jabref.\+gui.\+undo.\+Counting\+Undo\+Manager.\+unchanged\+Point\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/undo/\mbox{\hyperlink{_counting_undo_manager_8java}{Counting\+Undo\+Manager.\+java}}\end{DoxyCompactItemize}

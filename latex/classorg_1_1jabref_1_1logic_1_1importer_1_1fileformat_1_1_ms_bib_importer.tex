@@ -1,0 +1,172 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer}\index{org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a322381a2d49cdf774ede5044574f1bef}{is\+Recognized\+Format}} (Buffered\+Reader reader)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_affc55480a41d35bdc126bdfe5bd580fe}{import\+Database}} (Buffered\+Reader reader)  throws I\+O\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_abec2f516aa1fb48eaed44c528f42b918}{get\+Name}} ()
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_aaa6fbc698e4512b59113c0f8470385e0}{get\+File\+Type}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_aaeca7c68f064010f124e72f88817c8bb}{get\+Description}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Document\+Builder\+Factory \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a7e5f2432526795dc06d6a8c271cf9585}{make\+Safe\+Doc\+Builder\+Factory}} (Document\+Builder\+Factory d\+Build)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_abfd941cc0cb9430dfc5dcb69cf34a2db}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Ms\+Bib\+Importer.\+class)
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a3c68ce3b56163d718008eb92981dffd8}{D\+I\+S\+A\+B\+L\+E\+D\+TD}} = \char`\"{}http\+://apache.\+org/xml/features/disallow-\/doctype-\/decl\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_ae229a55a928f878e7705e9154519e5e4}{D\+I\+S\+A\+B\+L\+E\+E\+X\+T\+E\+R\+N\+A\+L\+D\+TD}} = \char`\"{}http\+://apache.\+org/xml/features/nonvalidating/load-\/external-\/dtd\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}} for the MS Office 2007 X\+ML bibliography format 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_aaeca7c68f064010f124e72f88817c8bb}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_aaeca7c68f064010f124e72f88817c8bb}} 
+\index{org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the description of the import format. 
+
+The description should specify 
+\begin{DoxyItemize}
+\item what kind of entries from what sources and based on what specification it is able to import 
+\item by what criteria it \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a322381a2d49cdf774ede5044574f1bef}{recognizes}} an import format 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+description of the import format 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a353c848ebec4d458953971932b28ce03}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_aaa6fbc698e4512b59113c0f8470385e0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_aaa6fbc698e4512b59113c0f8470385e0}} 
+\index{org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}!getFileType@{getFileType}}
+\index{getFileType@{getFileType}!org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}}
+\doxysubsubsection{\texorpdfstring{getFileType()}{getFileType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer.\+get\+File\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the type of files that this importer can read
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{}{File\+Type}} corresponding to the importer 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac655d5b73afa6ceb9ccae747ea27be8f}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_abec2f516aa1fb48eaed44c528f42b918}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_abec2f516aa1fb48eaed44c528f42b918}} 
+\index{org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the name of this import format.
+
+The name must be unique.
+
+\begin{DoxyReturn}{Returns}
+format name, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a0224f9749eef18ca9f90b8ddb1771484}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_affc55480a41d35bdc126bdfe5bd580fe}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_affc55480a41d35bdc126bdfe5bd580fe}} 
+\index{org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the source. 
+
+This method can be called in two different contexts -\/ either when importing in a specified format, or when importing in unknown format. In the latter case, Jab\+Ref cycles through all available import formats. No error messages or feedback is displayed from individual import formats in this case. 
+
+If importing in a specified format and an empty library is returned, Jab\+Ref reports that no entries were found. 
+
+This method should never return null.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the input to read from \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a322381a2d49cdf774ede5044574f1bef}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a322381a2d49cdf774ede5044574f1bef}} 
+\index{org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}!isRecognizedFormat@{isRecognizedFormat}}
+\index{isRecognizedFormat@{isRecognizedFormat}!org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}}
+\doxysubsubsection{\texorpdfstring{isRecognizedFormat()}{isRecognizedFormat()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer.\+is\+Recognized\+Format (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check whether the source is in the correct format for this importer. 
+
+The effect of this method is primarily to avoid unnecessary processing of files when searching for a suitable import format. If this method returns false, the import routine will move on to the next import format. 
+
+Thus the correct behaviour is to return false if it is certain that the file is not of the suitable type, and true otherwise. Returning true is the safe choice if not certain. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a7e5f2432526795dc06d6a8c271cf9585}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a7e5f2432526795dc06d6a8c271cf9585}} 
+\index{org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}!makeSafeDocBuilderFactory@{makeSafeDocBuilderFactory}}
+\index{makeSafeDocBuilderFactory@{makeSafeDocBuilderFactory}!org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}}
+\doxysubsubsection{\texorpdfstring{makeSafeDocBuilderFactory()}{makeSafeDocBuilderFactory()}}
+{\footnotesize\ttfamily Document\+Builder\+Factory org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer.\+make\+Safe\+Doc\+Builder\+Factory (\begin{DoxyParamCaption}\item[{Document\+Builder\+Factory}]{d\+Build }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Document\+Builder\+Factory makes a X\+XE safe Builder factory from d\+Build. If not supported by current X\+ML then returns original builder given and logs error. 
+\begin{DoxyParams}{Parameters}
+{\em d\+Build} & $\vert$ Document\+Builder\+Factory to be made X\+XE safe. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If supported, X\+XE safe Document\+Builder\+Factory. Else, returns original builder given 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a3c68ce3b56163d718008eb92981dffd8}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a3c68ce3b56163d718008eb92981dffd8}} 
+\index{org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}!DISABLEDTD@{DISABLEDTD}}
+\index{DISABLEDTD@{DISABLEDTD}!org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}}
+\doxysubsubsection{\texorpdfstring{DISABLEDTD}{DISABLEDTD}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer.\+D\+I\+S\+A\+B\+L\+E\+D\+TD = \char`\"{}http\+://apache.\+org/xml/features/disallow-\/doctype-\/decl\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_ae229a55a928f878e7705e9154519e5e4}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_ae229a55a928f878e7705e9154519e5e4}} 
+\index{org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}!DISABLEEXTERNALDTD@{DISABLEEXTERNALDTD}}
+\index{DISABLEEXTERNALDTD@{DISABLEEXTERNALDTD}!org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}}
+\doxysubsubsection{\texorpdfstring{DISABLEEXTERNALDTD}{DISABLEEXTERNALDTD}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer.\+D\+I\+S\+A\+B\+L\+E\+E\+X\+T\+E\+R\+N\+A\+L\+D\+TD = \char`\"{}http\+://apache.\+org/xml/features/nonvalidating/load-\/external-\/dtd\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_abfd941cc0cb9430dfc5dcb69cf34a2db}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_abfd941cc0cb9430dfc5dcb69cf34a2db}} 
+\index{org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fileformat.MsBibImporter@{org.jabref.logic.importer.fileformat.MsBibImporter}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Ms\+Bib\+Importer.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fileformat/\mbox{\hyperlink{_ms_bib_importer_8java}{Ms\+Bib\+Importer.\+java}}\end{DoxyCompactItemize}

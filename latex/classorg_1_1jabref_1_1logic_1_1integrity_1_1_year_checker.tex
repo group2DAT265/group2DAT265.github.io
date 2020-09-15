@@ -1,0 +1,67 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker}{}\doxysection{org.\+jabref.\+logic.\+integrity.\+Year\+Checker Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker}\index{org.jabref.logic.integrity.YearChecker@{org.jabref.logic.integrity.YearChecker}}
+Inheritance diagram for org.\+jabref.\+logic.\+integrity.\+Year\+Checker\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_ace6807c1c33be7dae258702d3818deef}{check\+Value}} (String value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Predicate$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_adbdcd17c8aa9c1a44a6f3af2247340b8}{C\+O\+N\+T\+A\+I\+N\+S\+\_\+\+F\+O\+U\+R\+\_\+\+D\+I\+G\+IT}}
+\item 
+static final Predicate$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_a4adbbc56988ca3ccdd29aa719d5159d8}{E\+N\+D\+S\+\_\+\+W\+I\+T\+H\+\_\+\+F\+O\+U\+R\+\_\+\+D\+I\+G\+IT}} = Pattern.\+compile(\char`\"{}\mbox{[}0-\/9\mbox{]}\{4\}\$\char`\"{}).as\+Predicate()
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_a8496c0946a9c7c6bc67ab24dd7d3ea6b}{P\+U\+N\+C\+T\+U\+A\+T\+I\+O\+N\+\_\+\+M\+A\+R\+KS}} = \char`\"{}\mbox{[}()\{\},.;!?$<$$>$\%\&\$\mbox{]}\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_ace6807c1c33be7dae258702d3818deef}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_ace6807c1c33be7dae258702d3818deef}} 
+\index{org.jabref.logic.integrity.YearChecker@{org.jabref.logic.integrity.YearChecker}!checkValue@{checkValue}}
+\index{checkValue@{checkValue}!org.jabref.logic.integrity.YearChecker@{org.jabref.logic.integrity.YearChecker}}
+\doxysubsubsection{\texorpdfstring{checkValue()}{checkValue()}}
+{\footnotesize\ttfamily Optional$<$String$>$ org.\+jabref.\+logic.\+integrity.\+Year\+Checker.\+check\+Value (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks, if the number String contains a four digit year and ends with it. Official bibtex spec\+: Generally it should consist of four numerals, such as 1984, although the standard styles can handle any year whose last four nonpunctuation characters are numerals, such as ‘(about 1984)’. Source\+: \href{http://ftp.fernuni-hagen.de/ftp-dir/pub/mirrors/www.ctan.org/biblio/bibtex/base/btxdoc.pdf}{\texttt{ http\+://ftp.\+fernuni-\/hagen.\+de/ftp-\/dir/pub/mirrors/www.\+ctan.\+org/biblio/bibtex/base/btxdoc.\+pdf}} 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1integrity_1_1_value_checker_a7da264b7e26d92241660e07f3825c667}{org.\+jabref.\+logic.\+integrity.\+Value\+Checker}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_adbdcd17c8aa9c1a44a6f3af2247340b8}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_adbdcd17c8aa9c1a44a6f3af2247340b8}} 
+\index{org.jabref.logic.integrity.YearChecker@{org.jabref.logic.integrity.YearChecker}!CONTAINS\_FOUR\_DIGIT@{CONTAINS\_FOUR\_DIGIT}}
+\index{CONTAINS\_FOUR\_DIGIT@{CONTAINS\_FOUR\_DIGIT}!org.jabref.logic.integrity.YearChecker@{org.jabref.logic.integrity.YearChecker}}
+\doxysubsubsection{\texorpdfstring{CONTAINS\_FOUR\_DIGIT}{CONTAINS\_FOUR\_DIGIT}}
+{\footnotesize\ttfamily final Predicate$<$String$>$ org.\+jabref.\+logic.\+integrity.\+Year\+Checker.\+C\+O\+N\+T\+A\+I\+N\+S\+\_\+\+F\+O\+U\+R\+\_\+\+D\+I\+G\+IT\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Pattern.compile(\textcolor{stringliteral}{"{}([\string^0-\/9]|\string^)[0-\/9]\{4\}([\string^0-\/9]|\$)"{}})}
+\DoxyCodeLine{                                                                        .asPredicate()}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_a4adbbc56988ca3ccdd29aa719d5159d8}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_a4adbbc56988ca3ccdd29aa719d5159d8}} 
+\index{org.jabref.logic.integrity.YearChecker@{org.jabref.logic.integrity.YearChecker}!ENDS\_WITH\_FOUR\_DIGIT@{ENDS\_WITH\_FOUR\_DIGIT}}
+\index{ENDS\_WITH\_FOUR\_DIGIT@{ENDS\_WITH\_FOUR\_DIGIT}!org.jabref.logic.integrity.YearChecker@{org.jabref.logic.integrity.YearChecker}}
+\doxysubsubsection{\texorpdfstring{ENDS\_WITH\_FOUR\_DIGIT}{ENDS\_WITH\_FOUR\_DIGIT}}
+{\footnotesize\ttfamily final Predicate$<$String$>$ org.\+jabref.\+logic.\+integrity.\+Year\+Checker.\+E\+N\+D\+S\+\_\+\+W\+I\+T\+H\+\_\+\+F\+O\+U\+R\+\_\+\+D\+I\+G\+IT = Pattern.\+compile(\char`\"{}\mbox{[}0-\/9\mbox{]}\{4\}\$\char`\"{}).as\+Predicate()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_a8496c0946a9c7c6bc67ab24dd7d3ea6b}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker_a8496c0946a9c7c6bc67ab24dd7d3ea6b}} 
+\index{org.jabref.logic.integrity.YearChecker@{org.jabref.logic.integrity.YearChecker}!PUNCTUATION\_MARKS@{PUNCTUATION\_MARKS}}
+\index{PUNCTUATION\_MARKS@{PUNCTUATION\_MARKS}!org.jabref.logic.integrity.YearChecker@{org.jabref.logic.integrity.YearChecker}}
+\doxysubsubsection{\texorpdfstring{PUNCTUATION\_MARKS}{PUNCTUATION\_MARKS}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+integrity.\+Year\+Checker.\+P\+U\+N\+C\+T\+U\+A\+T\+I\+O\+N\+\_\+\+M\+A\+R\+KS = \char`\"{}\mbox{[}()\{\},.;!?$<$$>$\%\&\$\mbox{]}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/integrity/\mbox{\hyperlink{_year_checker_8java}{Year\+Checker.\+java}}\end{DoxyCompactItemize}

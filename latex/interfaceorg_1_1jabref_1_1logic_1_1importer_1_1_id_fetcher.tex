@@ -1,0 +1,56 @@
+\hypertarget{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher}{}\doxysection{org.\+jabref.\+logic.\+importer.\+Id\+Fetcher$<$ T extends Identifier $>$ Interface Template Reference}
+\label{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher}\index{org.jabref.logic.importer.IdFetcher$<$ T extends Identifier $>$@{org.jabref.logic.importer.IdFetcher$<$ T extends Identifier $>$}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+Id\+Fetcher$<$ T extends Identifier $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher_a3a4cf781ae99bed9cc1845ff8e1fa091}{find\+Identifier}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)  throws Fetcher\+Exception
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher_a9c260397c65878754fcaa5863802a342}{get\+Identifier\+Name}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Looks for article identifier based on already present bibliographic information. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher_a3a4cf781ae99bed9cc1845ff8e1fa091}\label{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher_a3a4cf781ae99bed9cc1845ff8e1fa091}} 
+\index{org.jabref.logic.importer.IdFetcher$<$ T extends Identifier $>$@{org.jabref.logic.importer.IdFetcher$<$ T extends Identifier $>$}!findIdentifier@{findIdentifier}}
+\index{findIdentifier@{findIdentifier}!org.jabref.logic.importer.IdFetcher$<$ T extends Identifier $>$@{org.jabref.logic.importer.IdFetcher$<$ T extends Identifier $>$}}
+\doxysubsubsection{\texorpdfstring{findIdentifier()}{findIdentifier()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}}$>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher}{org.\+jabref.\+logic.\+importer.\+Id\+Fetcher}}$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} extends \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_identifier}{Identifier}} $>$.find\+Identifier (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}}
+
+Looks for an identifier based on the information stored in the given \mbox{\hyperlink{}{Bib\+Entry}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & the \mbox{\hyperlink{}{Bib\+Entry}} for which an identifier should be found \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the identifier (if an ID was found, otherwise an empty \mbox{\hyperlink{}{Optional}}) 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_a69a2a2f36ff803b6e69bf5b55da88374}{org.\+jabref.\+logic.\+importer.\+fetcher.\+Ar\+Xiv}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher_a9c260397c65878754fcaa5863802a342}\label{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher_a9c260397c65878754fcaa5863802a342}} 
+\index{org.jabref.logic.importer.IdFetcher$<$ T extends Identifier $>$@{org.jabref.logic.importer.IdFetcher$<$ T extends Identifier $>$}!getIdentifierName@{getIdentifierName}}
+\index{getIdentifierName@{getIdentifierName}!org.jabref.logic.importer.IdFetcher$<$ T extends Identifier $>$@{org.jabref.logic.importer.IdFetcher$<$ T extends Identifier $>$}}
+\doxysubsubsection{\texorpdfstring{getIdentifierName()}{getIdentifierName()}}
+{\footnotesize\ttfamily String \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher}{org.\+jabref.\+logic.\+importer.\+Id\+Fetcher}}$<$ \mbox{\hyperlink{_ovid_importer_test4_8txt_af8d4c6480e27e65bdfcdd64b3c6d609d}{T}} extends \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_identifier}{Identifier}} $>$.get\+Identifier\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the name of the identifier that is returned by this fetcher. 
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_afaaff7daa4c19aebc096c75863e0cee3}{org.\+jabref.\+logic.\+importer.\+fetcher.\+Ar\+Xiv}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/\mbox{\hyperlink{_id_fetcher_8java}{Id\+Fetcher.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,111 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Science\+Direct Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct}\index{org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+Science\+Direct\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a497587c5c15ef6357b2e4e8c66085328}{find\+Full\+Text}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level}{Trust\+Level}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a2d6f62dd7692a200a3234c93ab3f97cc}{get\+Trust\+Level}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_aa0e3139fab5e5518142a3615e5457ffd}{get\+Url\+By\+Doi}} (String doi)  throws Unirest\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a28341f5ae7e59b0b0ebb1e36d5f1fd8e}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Science\+Direct.\+class)
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_ad0da612865520749370dec83270df8e8}{A\+P\+I\+\_\+\+U\+RL}} = \char`\"{}http\+://\mbox{\hyperlink{net_8java_8dev_8glazedlists__glazedlists__java15_8txt_a5fcbe5a51335ef83aa908815b43568f6}{api.\+elsevier.\+com}}/content/article/doi/\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a9478bc4181485639406549e56c7d1bd9}{A\+P\+I\+\_\+\+K\+EY}} = \char`\"{}fb82f2e692b3c72dafe5f4f1fa0ac00b\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher}{Fulltext\+Fetcher}} implementation that attempts to find a P\+DF U\+RL at \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct}{Science\+Direct}}. See \href{https://dev.elsevier.com/}{\texttt{ https\+://dev.\+elsevier.\+com/}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a497587c5c15ef6357b2e4e8c66085328}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a497587c5c15ef6357b2e4e8c66085328}} 
+\index{org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}!findFullText@{findFullText}}
+\index{findFullText@{findFullText}!org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}}
+\doxysubsubsection{\texorpdfstring{findFullText()}{findFullText()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Science\+Direct.\+find\+Full\+Text (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Tries to find a fulltext U\+RL for a given Bib\+Tex entry.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & The Bibtex entry \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The fulltext P\+DF U\+RL Optional, if found, or an empty Optional if not found. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if no Bib\+Tex entry is given \\
+\hline
+{\em java.\+io.\+I\+O\+Exception} & if an IO operation has failed \\
+\hline
+{\em \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}} & if a fetcher specific error occurred \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher_a86cdf9129715151ea30d714182103aa7}{org.\+jabref.\+logic.\+importer.\+Fulltext\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a2d6f62dd7692a200a3234c93ab3f97cc}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a2d6f62dd7692a200a3234c93ab3f97cc}} 
+\index{org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}!getTrustLevel@{getTrustLevel}}
+\index{getTrustLevel@{getTrustLevel}!org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}}
+\doxysubsubsection{\texorpdfstring{getTrustLevel()}{getTrustLevel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level}{Trust\+Level}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Science\+Direct.\+get\+Trust\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the level of trust for this fetcher. We distinguish between publishers and meta search engines for example.
+
+\begin{DoxyReturn}{Returns}
+The trust level of the fetcher, the higher the better 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher_a9dfa076e05220ef7008b639af578eb5a}{org.\+jabref.\+logic.\+importer.\+Fulltext\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_aa0e3139fab5e5518142a3615e5457ffd}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_aa0e3139fab5e5518142a3615e5457ffd}} 
+\index{org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}!getUrlByDoi@{getUrlByDoi}}
+\index{getUrlByDoi@{getUrlByDoi}!org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}}
+\doxysubsubsection{\texorpdfstring{getUrlByDoi()}{getUrlByDoi()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Science\+Direct.\+get\+Url\+By\+Doi (\begin{DoxyParamCaption}\item[{String}]{doi }\end{DoxyParamCaption}) throws Unirest\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a9478bc4181485639406549e56c7d1bd9}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a9478bc4181485639406549e56c7d1bd9}} 
+\index{org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}!API\_KEY@{API\_KEY}}
+\index{API\_KEY@{API\_KEY}!org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}}
+\doxysubsubsection{\texorpdfstring{API\_KEY}{API\_KEY}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Science\+Direct.\+A\+P\+I\+\_\+\+K\+EY = \char`\"{}fb82f2e692b3c72dafe5f4f1fa0ac00b\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_ad0da612865520749370dec83270df8e8}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_ad0da612865520749370dec83270df8e8}} 
+\index{org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}!API\_URL@{API\_URL}}
+\index{API\_URL@{API\_URL}!org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}}
+\doxysubsubsection{\texorpdfstring{API\_URL}{API\_URL}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Science\+Direct.\+A\+P\+I\+\_\+\+U\+RL = \char`\"{}http\+://\mbox{\hyperlink{net_8java_8dev_8glazedlists__glazedlists__java15_8txt_a5fcbe5a51335ef83aa908815b43568f6}{api.\+elsevier.\+com}}/content/article/doi/\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a28341f5ae7e59b0b0ebb1e36d5f1fd8e}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct_a28341f5ae7e59b0b0ebb1e36d5f1fd8e}} 
+\index{org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fetcher.ScienceDirect@{org.jabref.logic.importer.fetcher.ScienceDirect}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fetcher.\+Science\+Direct.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Science\+Direct.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_science_direct_8java}{Science\+Direct.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,171 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i}{}\doxysection{org.\+jabref.\+gui.\+Jab\+Ref\+G\+UI Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i}\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a9d4d5fb3f8396dbfc11b748c0f1ed2a2}{Jab\+Ref\+G\+UI}} (Stage main\+Stage, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ databases, boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a9d99018abb326a1e6790a860320a1efa}{is\+Blank}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a20074fdd066571e4147d8775567b5cca}{get\+Main\+Frame}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a45693ee56b4a8d069167c51e7f7161f0}{open\+Window}} (Stage main\+Stage)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a2d97e351816a182611d4effa7187e21c}{open\+Databases}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a11172bac79acd927ca1c66e2e77c9838}{save\+Window\+State}} (Stage main\+Stage)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a1a035549b5658ccf5756b5412e5eb67b}{debug\+Log\+Window\+State}} (Stage main\+Stage)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a6d378d9f5fe01e54abc7c500a3aec4ee}{is\+Window\+Position\+Out\+Of\+Bounds}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a1f8c3b5708b84e9481643785003a3d4e}{open\+Last\+Edited\+Databases}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a822fc0b6b53224b86552081b85a77849}{is\+Loaded}} (File file\+To\+Open)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a9c3aa0493cf028796de41041c554bf2b}{bib\+Databases}}
+\item 
+final boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a9d99018abb326a1e6790a860320a1efa}{is\+Blank}}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_af3f53ebb2d16c31042b8c9acd358b2d6}{corrected\+Window\+Pos}}
+\item 
+final List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a288c9634c6459e8d726d8bb0e952ffe7}{failed}} = new Array\+List$<$$>$()
+\item 
+final List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a392df1cb3c95c9e8be3a7fea336bced9}{to\+Open\+Tab}} = new Array\+List$<$$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a8059d058ecdb7b6367451b03837585a8}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Jab\+Ref\+G\+U\+I.\+class)
+\item 
+static \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a544101c78073b203612f28b26ad9b28d}{main\+Frame}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a9d4d5fb3f8396dbfc11b748c0f1ed2a2}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a9d4d5fb3f8396dbfc11b748c0f1ed2a2}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!JabRefGUI@{JabRefGUI}}
+\index{JabRefGUI@{JabRefGUI}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{JabRefGUI()}{JabRefGUI()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+Jab\+Ref\+G\+UI (\begin{DoxyParamCaption}\item[{Stage}]{main\+Stage,  }\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$}]{databases,  }\item[{boolean}]{is\+Blank }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a1a035549b5658ccf5756b5412e5eb67b}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a1a035549b5658ccf5756b5412e5eb67b}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!debugLogWindowState@{debugLogWindowState}}
+\index{debugLogWindowState@{debugLogWindowState}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{debugLogWindowState()}{debugLogWindowState()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+debug\+Log\+Window\+State (\begin{DoxyParamCaption}\item[{Stage}]{main\+Stage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+outprints the Data from the Screen (only in debug mode)
+
+
+\begin{DoxyParams}{Parameters}
+{\em main\+Stage} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a20074fdd066571e4147d8775567b5cca}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a20074fdd066571e4147d8775567b5cca}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!getMainFrame@{getMainFrame}}
+\index{getMainFrame@{getMainFrame}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{getMainFrame()}{getMainFrame()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+get\+Main\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a822fc0b6b53224b86552081b85a77849}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a822fc0b6b53224b86552081b85a77849}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!isLoaded@{isLoaded}}
+\index{isLoaded@{isLoaded}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{isLoaded()}{isLoaded()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+is\+Loaded (\begin{DoxyParamCaption}\item[{File}]{file\+To\+Open }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a6d378d9f5fe01e54abc7c500a3aec4ee}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a6d378d9f5fe01e54abc7c500a3aec4ee}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!isWindowPositionOutOfBounds@{isWindowPositionOutOfBounds}}
+\index{isWindowPositionOutOfBounds@{isWindowPositionOutOfBounds}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{isWindowPositionOutOfBounds()}{isWindowPositionOutOfBounds()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+is\+Window\+Position\+Out\+Of\+Bounds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Tests if the window coordinates are out of the mainscreen
+
+\begin{DoxyReturn}{Returns}
+outbounds 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a2d97e351816a182611d4effa7187e21c}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a2d97e351816a182611d4effa7187e21c}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!openDatabases@{openDatabases}}
+\index{openDatabases@{openDatabases}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{openDatabases()}{openDatabases()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+open\+Databases (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a1f8c3b5708b84e9481643785003a3d4e}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a1f8c3b5708b84e9481643785003a3d4e}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!openLastEditedDatabases@{openLastEditedDatabases}}
+\index{openLastEditedDatabases@{openLastEditedDatabases}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{openLastEditedDatabases()}{openLastEditedDatabases()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+open\+Last\+Edited\+Databases (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a45693ee56b4a8d069167c51e7f7161f0}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a45693ee56b4a8d069167c51e7f7161f0}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!openWindow@{openWindow}}
+\index{openWindow@{openWindow}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{openWindow()}{openWindow()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+open\+Window (\begin{DoxyParamCaption}\item[{Stage}]{main\+Stage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a11172bac79acd927ca1c66e2e77c9838}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a11172bac79acd927ca1c66e2e77c9838}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!saveWindowState@{saveWindowState}}
+\index{saveWindowState@{saveWindowState}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{saveWindowState()}{saveWindowState()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+save\+Window\+State (\begin{DoxyParamCaption}\item[{Stage}]{main\+Stage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a9c3aa0493cf028796de41041c554bf2b}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a9c3aa0493cf028796de41041c554bf2b}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!bibDatabases@{bibDatabases}}
+\index{bibDatabases@{bibDatabases}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{bibDatabases}{bibDatabases}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+bib\+Databases\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_af3f53ebb2d16c31042b8c9acd358b2d6}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_af3f53ebb2d16c31042b8c9acd358b2d6}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!correctedWindowPos@{correctedWindowPos}}
+\index{correctedWindowPos@{correctedWindowPos}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{correctedWindowPos}{correctedWindowPos}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+corrected\+Window\+Pos\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a288c9634c6459e8d726d8bb0e952ffe7}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a288c9634c6459e8d726d8bb0e952ffe7}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!failed@{failed}}
+\index{failed@{failed}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{failed}{failed}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+failed = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a9d99018abb326a1e6790a860320a1efa}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a9d99018abb326a1e6790a860320a1efa}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!isBlank@{isBlank}}
+\index{isBlank@{isBlank}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{isBlank}{isBlank}}
+{\footnotesize\ttfamily final boolean org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+is\+Blank\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a8059d058ecdb7b6367451b03837585a8}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a8059d058ecdb7b6367451b03837585a8}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Jab\+Ref\+G\+U\+I.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a544101c78073b203612f28b26ad9b28d}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a544101c78073b203612f28b26ad9b28d}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!mainFrame@{mainFrame}}
+\index{mainFrame@{mainFrame}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{mainFrame}{mainFrame}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+main\+Frame\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a392df1cb3c95c9e8be3a7fea336bced9}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_g_u_i_a392df1cb3c95c9e8be3a7fea336bced9}} 
+\index{org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}!toOpenTab@{toOpenTab}}
+\index{toOpenTab@{toOpenTab}!org.jabref.gui.JabRefGUI@{org.jabref.gui.JabRefGUI}}
+\doxysubsubsection{\texorpdfstring{toOpenTab}{toOpenTab}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}$>$ org.\+jabref.\+gui.\+Jab\+Ref\+G\+U\+I.\+to\+Open\+Tab = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/\mbox{\hyperlink{_jab_ref_g_u_i_8java}{Jab\+Ref\+G\+U\+I.\+java}}\end{DoxyCompactItemize}

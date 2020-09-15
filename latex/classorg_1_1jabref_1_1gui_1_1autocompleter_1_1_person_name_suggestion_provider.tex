@@ -1,0 +1,98 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider}{}\doxysection{org.\+jabref.\+gui.\+autocompleter.\+Person\+Name\+Suggestion\+Provider Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider}\index{org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}}
+Inheritance diagram for org.\+jabref.\+gui.\+autocompleter.\+Person\+Name\+Suggestion\+Provider\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a33764e27452a2d8c9003ffbcc382a271}{Person\+Name\+Suggestion\+Provider}} (\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a5b6adaf8d040348af784bbdd558208ad}{fields}}, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a7aca8ac56c831b9441fa714012c00248}{database}})
+\item 
+Stream$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_adcdff2e43f75c3eaf5052f4be2acf517}{get\+Authors}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+Stream$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_aecaa3c369d076acdc5255547e69dbf3c}{get\+Source}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Equivalence$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a3b536add2e90eeccd39c516443dd1293}{get\+Equivalence}} ()
+\item 
+Comparator$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_ad5b50bad26e5ef2e4ad0610fe4febf91}{get\+Comparator}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a5f8a48908aaa512c9a82c11ee351a0f4}{is\+Match}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}} candidate, Auto\+Completion\+Binding.\+I\+Suggestion\+Request request)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a5b6adaf8d040348af784bbdd558208ad}{fields}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a7aca8ac56c831b9441fa714012c00248}{database}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Delivers possible completions as a list of \mbox{\hyperlink{org_8citationstyles_8styles_8txt_a83cd544f63ca732036e809bc96f5703b}{Author}}s. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a33764e27452a2d8c9003ffbcc382a271}\label{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a33764e27452a2d8c9003ffbcc382a271}} 
+\index{org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}!PersonNameSuggestionProvider@{PersonNameSuggestionProvider}}
+\index{PersonNameSuggestionProvider@{PersonNameSuggestionProvider}!org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}}
+\doxysubsubsection{\texorpdfstring{PersonNameSuggestionProvider()}{PersonNameSuggestionProvider()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+autocompleter.\+Person\+Name\+Suggestion\+Provider.\+Person\+Name\+Suggestion\+Provider (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} $>$}]{fields,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_adcdff2e43f75c3eaf5052f4be2acf517}\label{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_adcdff2e43f75c3eaf5052f4be2acf517}} 
+\index{org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}!getAuthors@{getAuthors}}
+\index{getAuthors@{getAuthors}!org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}}
+\doxysubsubsection{\texorpdfstring{getAuthors()}{getAuthors()}}
+{\footnotesize\ttfamily Stream$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}}$>$ org.\+jabref.\+gui.\+autocompleter.\+Person\+Name\+Suggestion\+Provider.\+get\+Authors (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_ad5b50bad26e5ef2e4ad0610fe4febf91}\label{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_ad5b50bad26e5ef2e4ad0610fe4febf91}} 
+\index{org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}!getComparator@{getComparator}}
+\index{getComparator@{getComparator}!org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}}
+\doxysubsubsection{\texorpdfstring{getComparator()}{getComparator()}}
+{\footnotesize\ttfamily Comparator$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}}$>$ org.\+jabref.\+gui.\+autocompleter.\+Person\+Name\+Suggestion\+Provider.\+get\+Comparator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a3b536add2e90eeccd39c516443dd1293}\label{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a3b536add2e90eeccd39c516443dd1293}} 
+\index{org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}!getEquivalence@{getEquivalence}}
+\index{getEquivalence@{getEquivalence}!org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}}
+\doxysubsubsection{\texorpdfstring{getEquivalence()}{getEquivalence()}}
+{\footnotesize\ttfamily Equivalence$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}}$>$ org.\+jabref.\+gui.\+autocompleter.\+Person\+Name\+Suggestion\+Provider.\+get\+Equivalence (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_aecaa3c369d076acdc5255547e69dbf3c}\label{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_aecaa3c369d076acdc5255547e69dbf3c}} 
+\index{org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}!getSource@{getSource}}
+\index{getSource@{getSource}!org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}}
+\doxysubsubsection{\texorpdfstring{getSource()}{getSource()}}
+{\footnotesize\ttfamily Stream$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}}$>$ org.\+jabref.\+gui.\+autocompleter.\+Person\+Name\+Suggestion\+Provider.\+get\+Source (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a5f8a48908aaa512c9a82c11ee351a0f4}\label{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a5f8a48908aaa512c9a82c11ee351a0f4}} 
+\index{org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}!isMatch@{isMatch}}
+\index{isMatch@{isMatch}!org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}}
+\doxysubsubsection{\texorpdfstring{isMatch()}{isMatch()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+autocompleter.\+Person\+Name\+Suggestion\+Provider.\+is\+Match (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}}}]{candidate,  }\item[{Auto\+Completion\+Binding.\+I\+Suggestion\+Request}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a7aca8ac56c831b9441fa714012c00248}\label{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a7aca8ac56c831b9441fa714012c00248}} 
+\index{org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}!database@{database}}
+\index{database@{database}!org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}}
+\doxysubsubsection{\texorpdfstring{database}{database}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} org.\+jabref.\+gui.\+autocompleter.\+Person\+Name\+Suggestion\+Provider.\+database\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a5b6adaf8d040348af784bbdd558208ad}\label{classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_person_name_suggestion_provider_a5b6adaf8d040348af784bbdd558208ad}} 
+\index{org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}!fields@{fields}}
+\index{fields@{fields}!org.jabref.gui.autocompleter.PersonNameSuggestionProvider@{org.jabref.gui.autocompleter.PersonNameSuggestionProvider}}
+\doxysubsubsection{\texorpdfstring{fields}{fields}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}$>$ org.\+jabref.\+gui.\+autocompleter.\+Person\+Name\+Suggestion\+Provider.\+fields\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/autocompleter/\mbox{\hyperlink{_person_name_suggestion_provider_8java}{Person\+Name\+Suggestion\+Provider.\+java}}\end{DoxyCompactItemize}

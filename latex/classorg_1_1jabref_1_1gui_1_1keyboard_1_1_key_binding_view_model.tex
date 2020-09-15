@@ -1,0 +1,198 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model}{}\doxysection{org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model}\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a25e21616327dfdb2ec2bb9455a135f51}{Key\+Binding\+View\+Model}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_repository}{Key\+Binding\+Repository}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a035e62bb2b505eac7b463be69f47fe26}{key\+Binding\+Repository}}, \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding}{Key\+Binding}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a22f59e49972b5be743e26f6b6c7b555d}{key\+Binding}}, String binding)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ae45e1d7619ae5782235b14b8cad3f773}{Key\+Binding\+View\+Model}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_repository}{Key\+Binding\+Repository}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a035e62bb2b505eac7b463be69f47fe26}{key\+Binding\+Repository}}, \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_category}{Key\+Binding\+Category}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a199c435e82350409d9f265ce17191829}{category}})
+\item 
+Observable\+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model}{Key\+Binding\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_af82285a408a6ab0af38c7cc63757e136}{get\+Children}} ()
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding}{Key\+Binding}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ab64025033d1a97413ad6e7841b85f0c1}{get\+Key\+Binding}} ()
+\item 
+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a947f6e0bed5619aa0fc33cbdc3e291ac}{shown\+Binding\+Property}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_abb88bec2884a6f593f8dfd9bdeaa689e}{get\+Binding}} ()
+\item 
+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a0fbcb4a8d4974413ad581f295c99b192}{name\+Property}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ae79f44c518daf4ba1bba9849bd0eaa70}{is\+Category}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a094e13d8ea04b7a16bc575c31cfe9daa}{set\+New\+Binding}} (Key\+Event evt)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a0625bd382c19b69c84ecf93292ce9dca}{reset\+To\+Default}} ()
+\item 
+Optional$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_icon}{Jab\+Ref\+Icon}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a9ae43b70f0fc5c4d174306d42b60af9d}{get\+Icon}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ad673fd3013bf5ca0783b8fd90ce21921}{set\+Binding}} (String bind)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_adc48e2956526207175c82bbb52c165ec}{set\+Display\+Name}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding}{Key\+Binding}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a22f59e49972b5be743e26f6b6c7b555d}{key\+Binding}} = null
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a751f6244e48e51d56622d3660e657ed2}{real\+Binding}} = \char`\"{}\char`\"{}
+\item 
+final Observable\+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model}{Key\+Binding\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ad8ed166abbe096b93f3b4339648f2396}{children}} = F\+X\+Collections.\+observable\+Array\+List()
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_repository}{Key\+Binding\+Repository}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a035e62bb2b505eac7b463be69f47fe26}{key\+Binding\+Repository}}
+\item 
+final Simple\+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ac5e8cbce9a7c1fe2e29bfb151a730513}{display\+Name}} = new Simple\+String\+Property()
+\item 
+final Simple\+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_abd3e1d67e0657d854081648baa3667e4}{shown\+Binding}} = new Simple\+String\+Property()
+\item 
+final \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_category}{Key\+Binding\+Category}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a199c435e82350409d9f265ce17191829}{category}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents a view model for objects of the \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding}{Key\+Binding}} class. It has two properties representing the localized name of an action and its key bind. It can also represent a key binding category instead of a key bind itself. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a25e21616327dfdb2ec2bb9455a135f51}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a25e21616327dfdb2ec2bb9455a135f51}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!KeyBindingViewModel@{KeyBindingViewModel}}
+\index{KeyBindingViewModel@{KeyBindingViewModel}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{KeyBindingViewModel()}{KeyBindingViewModel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+Key\+Binding\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_repository}{Key\+Binding\+Repository}}}]{key\+Binding\+Repository,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding}{Key\+Binding}}}]{key\+Binding,  }\item[{String}]{binding }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ae45e1d7619ae5782235b14b8cad3f773}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ae45e1d7619ae5782235b14b8cad3f773}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!KeyBindingViewModel@{KeyBindingViewModel}}
+\index{KeyBindingViewModel@{KeyBindingViewModel}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{KeyBindingViewModel()}{KeyBindingViewModel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+Key\+Binding\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_repository}{Key\+Binding\+Repository}}}]{key\+Binding\+Repository,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_category}{Key\+Binding\+Category}}}]{category }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_abb88bec2884a6f593f8dfd9bdeaa689e}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_abb88bec2884a6f593f8dfd9bdeaa689e}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!getBinding@{getBinding}}
+\index{getBinding@{getBinding}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{getBinding()}{getBinding()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+get\+Binding (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_af82285a408a6ab0af38c7cc63757e136}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_af82285a408a6ab0af38c7cc63757e136}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!getChildren@{getChildren}}
+\index{getChildren@{getChildren}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{getChildren()}{getChildren()}}
+{\footnotesize\ttfamily Observable\+List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model}{Key\+Binding\+View\+Model}}$>$ org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+get\+Children (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a9ae43b70f0fc5c4d174306d42b60af9d}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a9ae43b70f0fc5c4d174306d42b60af9d}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!getIcon@{getIcon}}
+\index{getIcon@{getIcon}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{getIcon()}{getIcon()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_icon}{Jab\+Ref\+Icon}}$>$ org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+get\+Icon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ab64025033d1a97413ad6e7841b85f0c1}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ab64025033d1a97413ad6e7841b85f0c1}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!getKeyBinding@{getKeyBinding}}
+\index{getKeyBinding@{getKeyBinding}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{getKeyBinding()}{getKeyBinding()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding}{Key\+Binding}} org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+get\+Key\+Binding (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ae79f44c518daf4ba1bba9849bd0eaa70}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ae79f44c518daf4ba1bba9849bd0eaa70}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!isCategory@{isCategory}}
+\index{isCategory@{isCategory}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{isCategory()}{isCategory()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+is\+Category (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a0fbcb4a8d4974413ad581f295c99b192}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a0fbcb4a8d4974413ad581f295c99b192}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!nameProperty@{nameProperty}}
+\index{nameProperty@{nameProperty}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{nameProperty()}{nameProperty()}}
+{\footnotesize\ttfamily String\+Property org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+name\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a0625bd382c19b69c84ecf93292ce9dca}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a0625bd382c19b69c84ecf93292ce9dca}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!resetToDefault@{resetToDefault}}
+\index{resetToDefault@{resetToDefault}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{resetToDefault()}{resetToDefault()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+reset\+To\+Default (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+This method will reset the key bind of this models \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding}{Key\+Binding}} object to it\textquotesingle{}s default bind \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ad673fd3013bf5ca0783b8fd90ce21921}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ad673fd3013bf5ca0783b8fd90ce21921}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!setBinding@{setBinding}}
+\index{setBinding@{setBinding}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{setBinding()}{setBinding()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+set\+Binding (\begin{DoxyParamCaption}\item[{String}]{bind }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_adc48e2956526207175c82bbb52c165ec}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_adc48e2956526207175c82bbb52c165ec}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!setDisplayName@{setDisplayName}}
+\index{setDisplayName@{setDisplayName}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{setDisplayName()}{setDisplayName()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+set\+Display\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a094e13d8ea04b7a16bc575c31cfe9daa}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a094e13d8ea04b7a16bc575c31cfe9daa}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!setNewBinding@{setNewBinding}}
+\index{setNewBinding@{setNewBinding}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{setNewBinding()}{setNewBinding()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+set\+New\+Binding (\begin{DoxyParamCaption}\item[{Key\+Event}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets a a new key bind to this objects key binding object if the given key event is a valid combination of keys.
+
+
+\begin{DoxyParams}{Parameters}
+{\em evt} & as Key\+Event \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the Key\+Event is a valid binding, false else 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a947f6e0bed5619aa0fc33cbdc3e291ac}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a947f6e0bed5619aa0fc33cbdc3e291ac}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!shownBindingProperty@{shownBindingProperty}}
+\index{shownBindingProperty@{shownBindingProperty}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{shownBindingProperty()}{shownBindingProperty()}}
+{\footnotesize\ttfamily String\+Property org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+shown\+Binding\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a199c435e82350409d9f265ce17191829}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a199c435e82350409d9f265ce17191829}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!category@{category}}
+\index{category@{category}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{category}{category}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_category}{Key\+Binding\+Category}} org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+category\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ad8ed166abbe096b93f3b4339648f2396}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ad8ed166abbe096b93f3b4339648f2396}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!children@{children}}
+\index{children@{children}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{children}{children}}
+{\footnotesize\ttfamily final Observable\+List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model}{Key\+Binding\+View\+Model}}$>$ org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+children = F\+X\+Collections.\+observable\+Array\+List()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ac5e8cbce9a7c1fe2e29bfb151a730513}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_ac5e8cbce9a7c1fe2e29bfb151a730513}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!displayName@{displayName}}
+\index{displayName@{displayName}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{displayName}{displayName}}
+{\footnotesize\ttfamily final Simple\+String\+Property org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+display\+Name = new Simple\+String\+Property()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a22f59e49972b5be743e26f6b6c7b555d}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a22f59e49972b5be743e26f6b6c7b555d}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!keyBinding@{keyBinding}}
+\index{keyBinding@{keyBinding}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{keyBinding}{keyBinding}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding}{Key\+Binding}} org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+key\+Binding = null\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a035e62bb2b505eac7b463be69f47fe26}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a035e62bb2b505eac7b463be69f47fe26}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!keyBindingRepository@{keyBindingRepository}}
+\index{keyBindingRepository@{keyBindingRepository}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{keyBindingRepository}{keyBindingRepository}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_repository}{Key\+Binding\+Repository}} org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+key\+Binding\+Repository\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a751f6244e48e51d56622d3660e657ed2}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_a751f6244e48e51d56622d3660e657ed2}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!realBinding@{realBinding}}
+\index{realBinding@{realBinding}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{realBinding}{realBinding}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+real\+Binding = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_abd3e1d67e0657d854081648baa3667e4}\label{classorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding_view_model_abd3e1d67e0657d854081648baa3667e4}} 
+\index{org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}!shownBinding@{shownBinding}}
+\index{shownBinding@{shownBinding}!org.jabref.gui.keyboard.KeyBindingViewModel@{org.jabref.gui.keyboard.KeyBindingViewModel}}
+\doxysubsubsection{\texorpdfstring{shownBinding}{shownBinding}}
+{\footnotesize\ttfamily final Simple\+String\+Property org.\+jabref.\+gui.\+keyboard.\+Key\+Binding\+View\+Model.\+shown\+Binding = new Simple\+String\+Property()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/keyboard/\mbox{\hyperlink{_key_binding_view_model_8java}{Key\+Binding\+View\+Model.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,72 @@
+\hypertarget{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer}{}\doxysection{org.\+jabref.\+model.\+groups.\+Group\+Entry\+Changer Interface Reference}
+\label{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer}\index{org.jabref.model.groups.GroupEntryChanger@{org.jabref.model.groups.GroupEntryChanger}}
+Inheritance diagram for org.\+jabref.\+model.\+groups.\+Group\+Entry\+Changer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}} $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_a0abd3a142e0a489221069254e58505b2}{add}} (\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries\+To\+Add)
+\item 
+default List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}} $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_a5b8f067094de0b93e745fd0014c88725}{add}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry\+To\+Add)
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}} $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_ae7e0ac671e7ceab2183a65fb07ef5426}{remove}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries\+To\+Remove)
+\item 
+default List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}} $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_a9cd1f7f1fefd66d7134e3f82aafa88d5}{remove}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry\+To\+Add)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Some groups can change entries so that they match (or no longer match) the group. This functionality is encoded in this interface. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_a5b8f067094de0b93e745fd0014c88725}\label{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_a5b8f067094de0b93e745fd0014c88725}} 
+\index{org.jabref.model.groups.GroupEntryChanger@{org.jabref.model.groups.GroupEntryChanger}!add@{add}}
+\index{add@{add}!org.jabref.model.groups.GroupEntryChanger@{org.jabref.model.groups.GroupEntryChanger}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily default List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}}$>$ org.\+jabref.\+model.\+groups.\+Group\+Entry\+Changer.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry\+To\+Add }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_a0abd3a142e0a489221069254e58505b2}\label{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_a0abd3a142e0a489221069254e58505b2}} 
+\index{org.jabref.model.groups.GroupEntryChanger@{org.jabref.model.groups.GroupEntryChanger}!add@{add}}
+\index{add@{add}!org.jabref.model.groups.GroupEntryChanger@{org.jabref.model.groups.GroupEntryChanger}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}}$>$ org.\+jabref.\+model.\+groups.\+Group\+Entry\+Changer.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries\+To\+Add }\end{DoxyParamCaption})}
+
+Adds the specified entries to this group.
+
+\begin{DoxyReturn}{Returns}
+If this group or one or more entries was/were modified as a result of this operation, a list of changes is returned. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_word_keyword_group_a2e1fa1c9905df2d5cfc80195e9e4c23c}{org.\+jabref.\+model.\+groups.\+Word\+Keyword\+Group}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_a9cd1f7f1fefd66d7134e3f82aafa88d5}\label{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_a9cd1f7f1fefd66d7134e3f82aafa88d5}} 
+\index{org.jabref.model.groups.GroupEntryChanger@{org.jabref.model.groups.GroupEntryChanger}!remove@{remove}}
+\index{remove@{remove}!org.jabref.model.groups.GroupEntryChanger@{org.jabref.model.groups.GroupEntryChanger}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily default List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}}$>$ org.\+jabref.\+model.\+groups.\+Group\+Entry\+Changer.\+remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry\+To\+Add }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_ae7e0ac671e7ceab2183a65fb07ef5426}\label{interfaceorg_1_1jabref_1_1model_1_1groups_1_1_group_entry_changer_ae7e0ac671e7ceab2183a65fb07ef5426}} 
+\index{org.jabref.model.groups.GroupEntryChanger@{org.jabref.model.groups.GroupEntryChanger}!remove@{remove}}
+\index{remove@{remove}!org.jabref.model.groups.GroupEntryChanger@{org.jabref.model.groups.GroupEntryChanger}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}}$>$ org.\+jabref.\+model.\+groups.\+Group\+Entry\+Changer.\+remove (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries\+To\+Remove }\end{DoxyParamCaption})}
+
+Removes the specified entries from this group.
+
+\begin{DoxyReturn}{Returns}
+If this group or one or more entries was/were modified as a result of this operation, a list of changes is returned. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_word_keyword_group_a7e79a9c7b61b75a820d314239e40e6bb}{org.\+jabref.\+model.\+groups.\+Word\+Keyword\+Group}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/model/groups/\mbox{\hyperlink{_group_entry_changer_8java}{Group\+Entry\+Changer.\+java}}\end{DoxyCompactItemize}

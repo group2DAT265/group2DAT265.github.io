@@ -1,0 +1,58 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test}{}\doxysection{org.\+jabref.\+logic.\+layout.\+Layout\+Entry\+Test Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test}\index{org.jabref.logic.layout.LayoutEntryTest@{org.jabref.logic.layout.LayoutEntryTest}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_a2a9b01638db47e029c00b4649e76b4d6}{set\+Up}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_acd8c3029068efa72cb47a225b1a6a828}{layout}} (String layout\+File, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_a0afe651db5d02963420c87b801ace32d}{test\+Parse\+Method\+Calls}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_a52e177517257e3b26b147be9cbfa42ed}{m\+B\+TE}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The test class \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test}{Layout\+Entry\+Test}} test the net.\+sf.\+jabref.\+export.\+layout.\+Layout\+Entry. Indirectly the net.\+sf.\+jabref.\+export.\+layout.\+Layout is tested too. 
+
+The Layout\+Entry creates a human readable String assigned with H\+T\+ML formatters. To test the Highlighting Feature, an instance of Layout\+Entry will be instantiated via \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout}{Layout}} and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_helper}{Layout\+Helper}}. With these instance the do\+Layout() Method is called several times for each test case. To simulate a search, a Bib\+Entry will be created, which will be used by Layout\+Entry.
+
+There are five test cases\+: -\/ The shown result text has no words which should be highlighted. -\/ There is one word which will be highlighted ignoring case sensitivity. -\/ There are two words which will be highlighted ignoring case sensitivity. -\/ There is one word which will be highlighted case sensitivity. -\/ There are more words which will be highlighted case sensitivity. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_acd8c3029068efa72cb47a225b1a6a828}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_acd8c3029068efa72cb47a225b1a6a828}} 
+\index{org.jabref.logic.layout.LayoutEntryTest@{org.jabref.logic.layout.LayoutEntryTest}!layout@{layout}}
+\index{layout@{layout}!org.jabref.logic.layout.LayoutEntryTest@{org.jabref.logic.layout.LayoutEntryTest}}
+\doxysubsubsection{\texorpdfstring{layout()}{layout()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+Layout\+Entry\+Test.\+layout (\begin{DoxyParamCaption}\item[{String}]{layout\+File,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_a2a9b01638db47e029c00b4649e76b4d6}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_a2a9b01638db47e029c00b4649e76b4d6}} 
+\index{org.jabref.logic.layout.LayoutEntryTest@{org.jabref.logic.layout.LayoutEntryTest}!setUp@{setUp}}
+\index{setUp@{setUp}!org.jabref.logic.layout.LayoutEntryTest@{org.jabref.logic.layout.LayoutEntryTest}}
+\doxysubsubsection{\texorpdfstring{setUp()}{setUp()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+layout.\+Layout\+Entry\+Test.\+set\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_a0afe651db5d02963420c87b801ace32d}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_a0afe651db5d02963420c87b801ace32d}} 
+\index{org.jabref.logic.layout.LayoutEntryTest@{org.jabref.logic.layout.LayoutEntryTest}!testParseMethodCalls@{testParseMethodCalls}}
+\index{testParseMethodCalls@{testParseMethodCalls}!org.jabref.logic.layout.LayoutEntryTest@{org.jabref.logic.layout.LayoutEntryTest}}
+\doxysubsubsection{\texorpdfstring{testParseMethodCalls()}{testParseMethodCalls()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+layout.\+Layout\+Entry\+Test.\+test\+Parse\+Method\+Calls (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_a52e177517257e3b26b147be9cbfa42ed}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_entry_test_a52e177517257e3b26b147be9cbfa42ed}} 
+\index{org.jabref.logic.layout.LayoutEntryTest@{org.jabref.logic.layout.LayoutEntryTest}!mBTE@{mBTE}}
+\index{mBTE@{mBTE}!org.jabref.logic.layout.LayoutEntryTest@{org.jabref.logic.layout.LayoutEntryTest}}
+\doxysubsubsection{\texorpdfstring{mBTE}{mBTE}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+logic.\+layout.\+Layout\+Entry\+Test.\+m\+B\+TE\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/test/java/org/jabref/logic/layout/\mbox{\hyperlink{_layout_entry_test_8java}{Layout\+Entry\+Test.\+java}}\end{DoxyCompactItemize}

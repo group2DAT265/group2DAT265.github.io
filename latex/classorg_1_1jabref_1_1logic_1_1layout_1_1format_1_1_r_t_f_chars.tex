@@ -1,0 +1,123 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars}{}\doxysection{org.\+jabref.\+logic.\+layout.\+format.\+R\+T\+F\+Chars Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars}\index{org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}}
+Inheritance diagram for org.\+jabref.\+logic.\+layout.\+format.\+R\+T\+F\+Chars\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_ab00ab6864c2681d6241f2ca173131231}{format}} (String field)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_string_int}{String\+Int}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_af60e038f6cee24658422787f9cbe4c9a}{get\+Part}} (String text, int i, boolean command\+Nested\+In\+Braces)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_acee623c48f6fa75353e2b38c2933ac9a}{transform\+Special\+Character}} (long c)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_a415e92ef462ea3b85d882378d5ac9b43}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Layout\+Formatter.\+class)
+\item 
+static final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_rtf_char_map}{Rtf\+Char\+Map}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_ae14f784e4dbc4814bdbb7d12a7298cad}{R\+T\+F\+\_\+\+C\+H\+A\+RS}} = new \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_rtf_char_map}{Rtf\+Char\+Map}}()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Transform a La\+Te\+X-\/\+String to R\+TF.
+
+This method will\+:
+
+1.) Remove La\+Te\+X-\/\+Command sequences.
+
+2.) \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace}{Replace}} La\+Te\+X-\/\+Special chars with R\+TF equivalents.
+
+3.) \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace}{Replace}} emph and textit and textbf with their R\+TF replacements.
+
+4.) Take special care to save all unicode characters correctly.
+
+5.) \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace}{Replace}} --- by \textbackslash{}emdash and -- by \textbackslash{}endash. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_ab00ab6864c2681d6241f2ca173131231}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_ab00ab6864c2681d6241f2ca173131231}} 
+\index{org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}!format@{format}}
+\index{format@{format}!org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+R\+T\+F\+Chars.\+format (\begin{DoxyParamCaption}\item[{String}]{field\+Text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Failure Mode\+: 
+
+Formatters should be robust in the sense that they always return some relevant string. 
+
+If the formatter can detect an invalid input it should return the original string otherwise it may simply return a wrong output.
+
+
+\begin{DoxyParams}{Parameters}
+{\em field\+Text} & The text to layout. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The layouted text. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_ae94ffc8b15278725ad6d0d2f3f776711}{org.\+jabref.\+logic.\+layout.\+Layout\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_af60e038f6cee24658422787f9cbe4c9a}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_af60e038f6cee24658422787f9cbe4c9a}} 
+\index{org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}!getPart@{getPart}}
+\index{getPart@{getPart}!org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}}
+\doxysubsubsection{\texorpdfstring{getPart()}{getPart()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_string_int}{String\+Int}} org.\+jabref.\+logic.\+layout.\+format.\+R\+T\+F\+Chars.\+get\+Part (\begin{DoxyParamCaption}\item[{String}]{text,  }\item[{int}]{i,  }\item[{boolean}]{command\+Nested\+In\+Braces }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the text to extract the part from \\
+\hline
+{\em i} & the position to start \\
+\hline
+{\em command\+Nested\+In\+Braces} & true if the command is nested in braces (\textbackslash{}emph\{xy\}), false if spaces are sued (\textbackslash{}emph xy) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a tuple of number of added characters and the extracted part 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_acee623c48f6fa75353e2b38c2933ac9a}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_acee623c48f6fa75353e2b38c2933ac9a}} 
+\index{org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}!transformSpecialCharacter@{transformSpecialCharacter}}
+\index{transformSpecialCharacter@{transformSpecialCharacter}!org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}}
+\doxysubsubsection{\texorpdfstring{transformSpecialCharacter()}{transformSpecialCharacter()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+R\+T\+F\+Chars.\+transform\+Special\+Character (\begin{DoxyParamCaption}\item[{long}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+This method transforms the unicode of a special character into its base character\+: 233 (é) -\/ $>$ e
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & long \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns the basic character of the given unicode 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_a415e92ef462ea3b85d882378d5ac9b43}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_a415e92ef462ea3b85d882378d5ac9b43}} 
+\index{org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+layout.\+format.\+R\+T\+F\+Chars.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Layout\+Formatter.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_ae14f784e4dbc4814bdbb7d12a7298cad}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_r_t_f_chars_ae14f784e4dbc4814bdbb7d12a7298cad}} 
+\index{org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}!RTF\_CHARS@{RTF\_CHARS}}
+\index{RTF\_CHARS@{RTF\_CHARS}!org.jabref.logic.layout.format.RTFChars@{org.jabref.logic.layout.format.RTFChars}}
+\doxysubsubsection{\texorpdfstring{RTF\_CHARS}{RTF\_CHARS}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_rtf_char_map}{Rtf\+Char\+Map}} org.\+jabref.\+logic.\+layout.\+format.\+R\+T\+F\+Chars.\+R\+T\+F\+\_\+\+C\+H\+A\+RS = new \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_rtf_char_map}{Rtf\+Char\+Map}}()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/layout/format/\mbox{\hyperlink{_r_t_f_chars_8java}{R\+T\+F\+Chars.\+java}}\end{DoxyCompactItemize}

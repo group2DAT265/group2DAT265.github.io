@@ -1,0 +1,72 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field}{}\doxysection{org.\+jabref.\+gui.\+fieldeditors.\+Editor\+Text\+Field Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field}\index{org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}}
+Inheritance diagram for org.\+jabref.\+gui.\+fieldeditors.\+Editor\+Text\+Field\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.296296cm]{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_afa3c08b20bf218cfd128013cb349b873}{Editor\+Text\+Field}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_aa06430f366c1e41fe7f4e4a5f8f8d951}{Editor\+Text\+Field}} (final String text)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_a0bea0aca709c8f829f0d4c469c1c64dc}{add\+To\+Context\+Menu}} (final Supplier$<$ List$<$ Menu\+Item $>$$>$ items)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_ad0b7a614042526556e5da32c801130bd}{initialize}} (\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} location, Resource\+Bundle resources)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Context\+Menu \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_ac1fc5980ebce71a4fcdb486c502bb29c}{context\+Menu}} = new Context\+Menu()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_afa3c08b20bf218cfd128013cb349b873}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_afa3c08b20bf218cfd128013cb349b873}} 
+\index{org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}!EditorTextField@{EditorTextField}}
+\index{EditorTextField@{EditorTextField}!org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}}
+\doxysubsubsection{\texorpdfstring{EditorTextField()}{EditorTextField()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+fieldeditors.\+Editor\+Text\+Field.\+Editor\+Text\+Field (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_aa06430f366c1e41fe7f4e4a5f8f8d951}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_aa06430f366c1e41fe7f4e4a5f8f8d951}} 
+\index{org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}!EditorTextField@{EditorTextField}}
+\index{EditorTextField@{EditorTextField}!org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}}
+\doxysubsubsection{\texorpdfstring{EditorTextField()}{EditorTextField()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+fieldeditors.\+Editor\+Text\+Field.\+Editor\+Text\+Field (\begin{DoxyParamCaption}\item[{final String}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_a0bea0aca709c8f829f0d4c469c1c64dc}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_a0bea0aca709c8f829f0d4c469c1c64dc}} 
+\index{org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}!addToContextMenu@{addToContextMenu}}
+\index{addToContextMenu@{addToContextMenu}!org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}}
+\doxysubsubsection{\texorpdfstring{addToContextMenu()}{addToContextMenu()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+fieldeditors.\+Editor\+Text\+Field.\+add\+To\+Context\+Menu (\begin{DoxyParamCaption}\item[{final Supplier$<$ List$<$ Menu\+Item $>$$>$}]{items }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds the given list of menu items to the context menu. The usage of \mbox{\hyperlink{}{Supplier}} prevents that the menus need to be instantiated at this point. They are populated when the user needs them which prevents many unnecessary allocations when the main table is just scrolled with the entry editor open. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_context_menu_addable_a41392c1b0785f0eb66c10163e52b474c}{org.\+jabref.\+gui.\+fieldeditors.\+Context\+Menu\+Addable}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_ad0b7a614042526556e5da32c801130bd}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_ad0b7a614042526556e5da32c801130bd}} 
+\index{org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}!initialize@{initialize}}
+\index{initialize@{initialize}!org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+fieldeditors.\+Editor\+Text\+Field.\+initialize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}}}]{location,  }\item[{Resource\+Bundle}]{resources }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_ac1fc5980ebce71a4fcdb486c502bb29c}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_editor_text_field_ac1fc5980ebce71a4fcdb486c502bb29c}} 
+\index{org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}!contextMenu@{contextMenu}}
+\index{contextMenu@{contextMenu}!org.jabref.gui.fieldeditors.EditorTextField@{org.jabref.gui.fieldeditors.EditorTextField}}
+\doxysubsubsection{\texorpdfstring{contextMenu}{contextMenu}}
+{\footnotesize\ttfamily final Context\+Menu org.\+jabref.\+gui.\+fieldeditors.\+Editor\+Text\+Field.\+context\+Menu = new Context\+Menu()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/fieldeditors/\mbox{\hyperlink{_editor_text_field_8java}{Editor\+Text\+Field.\+java}}\end{DoxyCompactItemize}

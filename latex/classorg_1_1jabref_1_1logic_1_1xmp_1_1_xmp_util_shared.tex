@@ -1,0 +1,75 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared}{}\doxysection{org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Shared Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared}\index{org.jabref.logic.xmp.XmpUtilShared@{org.jabref.logic.xmp.XmpUtilShared}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_a88cdadbb94dc42114299fab38cbf33eb}{has\+Metadata}} (Path path, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences}{Xmp\+Preferences}} xmp\+Preferences)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static X\+M\+P\+Metadata \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_a3daae15ba54272497568799e72c301fe}{parse\+Xmp\+Metadata}} (Input\+Stream is)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_ad528c8fb11aaeb1e68eed7c09e82c2ee}{Xmp\+Util\+Shared}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_a01fcd9665a5bf2cf0b5b1c36f3100e88}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Xmp\+Util\+Shared.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+X\+M\+P\+Util\+Shared provides support for reading (\mbox{\hyperlink{}{and writing ( X\+M\+P\+Util\+Writer) Bib\+Tex data as X\+MP metadata in P\+D\+F-\/documents. }}
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_ad528c8fb11aaeb1e68eed7c09e82c2ee}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_ad528c8fb11aaeb1e68eed7c09e82c2ee}} 
+\index{org.jabref.logic.xmp.XmpUtilShared@{org.jabref.logic.xmp.XmpUtilShared}!XmpUtilShared@{XmpUtilShared}}
+\index{XmpUtilShared@{XmpUtilShared}!org.jabref.logic.xmp.XmpUtilShared@{org.jabref.logic.xmp.XmpUtilShared}}
+\doxysubsubsection{\texorpdfstring{XmpUtilShared()}{XmpUtilShared()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Shared.\+Xmp\+Util\+Shared (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_a88cdadbb94dc42114299fab38cbf33eb}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_a88cdadbb94dc42114299fab38cbf33eb}} 
+\index{org.jabref.logic.xmp.XmpUtilShared@{org.jabref.logic.xmp.XmpUtilShared}!hasMetadata@{hasMetadata}}
+\index{hasMetadata@{hasMetadata}!org.jabref.logic.xmp.XmpUtilShared@{org.jabref.logic.xmp.XmpUtilShared}}
+\doxysubsubsection{\texorpdfstring{hasMetadata()}{hasMetadata()}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Shared.\+has\+Metadata (\begin{DoxyParamCaption}\item[{Path}]{path,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences}{Xmp\+Preferences}}}]{xmp\+Preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Will try to read X\+MP metadata from the given file, returning whether metadata was found.
+
+Caution\+: This method is as expensive as it is reading the actual metadata itself from the P\+DF.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & the path to the P\+DF. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+whether a Bib\+Entry was found in the given P\+DF. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_a3daae15ba54272497568799e72c301fe}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_a3daae15ba54272497568799e72c301fe}} 
+\index{org.jabref.logic.xmp.XmpUtilShared@{org.jabref.logic.xmp.XmpUtilShared}!parseXmpMetadata@{parseXmpMetadata}}
+\index{parseXmpMetadata@{parseXmpMetadata}!org.jabref.logic.xmp.XmpUtilShared@{org.jabref.logic.xmp.XmpUtilShared}}
+\doxysubsubsection{\texorpdfstring{parseXmpMetadata()}{parseXmpMetadata()}}
+{\footnotesize\ttfamily static X\+M\+P\+Metadata org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Shared.\+parse\+Xmp\+Metadata (\begin{DoxyParamCaption}\item[{Input\+Stream}]{is }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_a01fcd9665a5bf2cf0b5b1c36f3100e88}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_shared_a01fcd9665a5bf2cf0b5b1c36f3100e88}} 
+\index{org.jabref.logic.xmp.XmpUtilShared@{org.jabref.logic.xmp.XmpUtilShared}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.xmp.XmpUtilShared@{org.jabref.logic.xmp.XmpUtilShared}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Shared.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Xmp\+Util\+Shared.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/xmp/\mbox{\hyperlink{_xmp_util_shared_8java}{Xmp\+Util\+Shared.\+java}}\end{DoxyCompactItemize}

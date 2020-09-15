@@ -1,0 +1,151 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model}{}\doxysection{org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model}\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a45023bafa07fbd0c79fb045b0b1fbfc1}{Abbreviations\+File\+View\+Model}} (Path file\+Path)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ac6f3153e642273e9a076dca80c2f91de}{Abbreviations\+File\+View\+Model}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model}{Abbreviation\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a898485f122d2ef65b971d5ae74f59abb}{abbreviations}}, String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a98cd3d9808d665dd3e13e4151578fabe}{name}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a1727f436a96c39ef6362b01713ebd322}{read\+Abbreviations}} ()  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ac1a3915784ff5d88d5a1bd059a15ad8d}{write\+Or\+Create}} ()  throws I\+O\+Exception 
+\item 
+Simple\+List\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model}{Abbreviation\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ae697584b150d1d200e3c21a50e552a4d}{abbreviations\+Property}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a4a302d352a7635d83bb46f03f70e6492}{exists}} ()
+\item 
+Optional$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a593616c834d329797687e8478b3107ff}{get\+Absolute\+Path}} ()
+\item 
+Read\+Only\+Boolean\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a7de337da4363bff5369f19c2deacd060}{is\+Built\+In\+List\+Property}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a1a2bbf904e114b8cb2a6f2fbc564303c}{to\+String}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a707f8151af164f969febb0f1c539e684}{hash\+Code}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a6677f7692f99f64b7ae41a2494537ae6}{equals}} (Object obj)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Simple\+List\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model}{Abbreviation\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a898485f122d2ef65b971d5ae74f59abb}{abbreviations}}
+\item 
+final Read\+Only\+Boolean\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a588164a85b8ad632d0c3413418f55866}{is\+Built\+In\+List}}
+\item 
+final String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a98cd3d9808d665dd3e13e4151578fabe}{name}}
+\item 
+final Optional$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ab7e0032dd27ebe1e827b2da6de7dc1c5}{path}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class provides a model for abbreviation files. It actually doesn\textquotesingle{}t save the files as objects but rather saves their paths. This also allows to specify pseudo files as placeholder objects. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a45023bafa07fbd0c79fb045b0b1fbfc1}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a45023bafa07fbd0c79fb045b0b1fbfc1}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!AbbreviationsFileViewModel@{AbbreviationsFileViewModel}}
+\index{AbbreviationsFileViewModel@{AbbreviationsFileViewModel}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{AbbreviationsFileViewModel()}{AbbreviationsFileViewModel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+Abbreviations\+File\+View\+Model (\begin{DoxyParamCaption}\item[{Path}]{file\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ac6f3153e642273e9a076dca80c2f91de}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ac6f3153e642273e9a076dca80c2f91de}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!AbbreviationsFileViewModel@{AbbreviationsFileViewModel}}
+\index{AbbreviationsFileViewModel@{AbbreviationsFileViewModel}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{AbbreviationsFileViewModel()}{AbbreviationsFileViewModel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+Abbreviations\+File\+View\+Model (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model}{Abbreviation\+View\+Model}} $>$}]{abbreviations,  }\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+This constructor should only be called to create a pseudo abbreviation file for built in lists. This means it is a placeholder and it\textquotesingle{}s path will be null meaning it has no place on the filesystem. It\textquotesingle{}s is\+Pseudo\+File property will therefore be set to true. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ae697584b150d1d200e3c21a50e552a4d}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ae697584b150d1d200e3c21a50e552a4d}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!abbreviationsProperty@{abbreviationsProperty}}
+\index{abbreviationsProperty@{abbreviationsProperty}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{abbreviationsProperty()}{abbreviationsProperty()}}
+{\footnotesize\ttfamily Simple\+List\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model}{Abbreviation\+View\+Model}}$>$ org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+abbreviations\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a6677f7692f99f64b7ae41a2494537ae6}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a6677f7692f99f64b7ae41a2494537ae6}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!equals@{equals}}
+\index{equals@{equals}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a4a302d352a7635d83bb46f03f70e6492}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a4a302d352a7635d83bb46f03f70e6492}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!exists@{exists}}
+\index{exists@{exists}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{exists()}{exists()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+exists (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a593616c834d329797687e8478b3107ff}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a593616c834d329797687e8478b3107ff}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!getAbsolutePath@{getAbsolutePath}}
+\index{getAbsolutePath@{getAbsolutePath}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{getAbsolutePath()}{getAbsolutePath()}}
+{\footnotesize\ttfamily Optional$<$Path$>$ org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+get\+Absolute\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a707f8151af164f969febb0f1c539e684}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a707f8151af164f969febb0f1c539e684}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a7de337da4363bff5369f19c2deacd060}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a7de337da4363bff5369f19c2deacd060}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!isBuiltInListProperty@{isBuiltInListProperty}}
+\index{isBuiltInListProperty@{isBuiltInListProperty}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{isBuiltInListProperty()}{isBuiltInListProperty()}}
+{\footnotesize\ttfamily Read\+Only\+Boolean\+Property org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+is\+Built\+In\+List\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a1727f436a96c39ef6362b01713ebd322}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a1727f436a96c39ef6362b01713ebd322}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!readAbbreviations@{readAbbreviations}}
+\index{readAbbreviations@{readAbbreviations}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{readAbbreviations()}{readAbbreviations()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+read\+Abbreviations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a1a2bbf904e114b8cb2a6f2fbc564303c}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a1a2bbf904e114b8cb2a6f2fbc564303c}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!toString@{toString}}
+\index{toString@{toString}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ac1a3915784ff5d88d5a1bd059a15ad8d}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ac1a3915784ff5d88d5a1bd059a15ad8d}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!writeOrCreate@{writeOrCreate}}
+\index{writeOrCreate@{writeOrCreate}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{writeOrCreate()}{writeOrCreate()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+write\+Or\+Create (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+This method will write all abbreviations of this abbreviation file to the file on the file system. It essentially will check if the current file is a built in list and if not it will call \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation_writer_a55fb210909e121bb006f6c699eef8fa5}{Abbreviation\+Writer\#write\+Or\+Create}}. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a898485f122d2ef65b971d5ae74f59abb}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a898485f122d2ef65b971d5ae74f59abb}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!abbreviations@{abbreviations}}
+\index{abbreviations@{abbreviations}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{abbreviations}{abbreviations}}
+{\footnotesize\ttfamily final Simple\+List\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model}{Abbreviation\+View\+Model}}$>$ org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+abbreviations\hspace{0.3cm}{\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \textcolor{keyword}{new} SimpleListProperty<>(}
+\DoxyCodeLine{            FXCollections.observableArrayList())}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a588164a85b8ad632d0c3413418f55866}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a588164a85b8ad632d0c3413418f55866}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!isBuiltInList@{isBuiltInList}}
+\index{isBuiltInList@{isBuiltInList}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{isBuiltInList}{isBuiltInList}}
+{\footnotesize\ttfamily final Read\+Only\+Boolean\+Property org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+is\+Built\+In\+List\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a98cd3d9808d665dd3e13e4151578fabe}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_a98cd3d9808d665dd3e13e4151578fabe}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!name@{name}}
+\index{name@{name}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily final String org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ab7e0032dd27ebe1e827b2da6de7dc1c5}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model_ab7e0032dd27ebe1e827b2da6de7dc1c5}} 
+\index{org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}!path@{path}}
+\index{path@{path}!org.jabref.gui.journals.AbbreviationsFileViewModel@{org.jabref.gui.journals.AbbreviationsFileViewModel}}
+\doxysubsubsection{\texorpdfstring{path}{path}}
+{\footnotesize\ttfamily final Optional$<$Path$>$ org.\+jabref.\+gui.\+journals.\+Abbreviations\+File\+View\+Model.\+path\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/journals/\mbox{\hyperlink{_abbreviations_file_view_model_8java}{Abbreviations\+File\+View\+Model.\+java}}\end{DoxyCompactItemize}

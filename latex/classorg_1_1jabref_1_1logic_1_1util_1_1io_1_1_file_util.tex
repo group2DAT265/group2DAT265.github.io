@@ -1,0 +1,367 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util}{}\doxysection{org.\+jabref.\+logic.\+util.\+io.\+File\+Util Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util}\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_aa2246728a672c6e2519c8c67383986c3}{get\+File\+Extension}} (String file\+Name)
+\item 
+static Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a19b410f0381f8b6fced7a369c911fe00}{get\+File\+Extension}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}})
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ad3a0522fad414b8bb2281f3571c662f4}{get\+Base\+Name}} (String file\+Name\+With\+Extension)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a95d2ef520cd6ecf35a3720c48802e36a}{get\+Valid\+File\+Name}} (String file\+Name)
+\item 
+static Path \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a893c60bf472870fb7c25b309d8538636}{add\+Extension}} (Path path, String extension)
+\item 
+static List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a612bbc5df759da22b48bcf3bf1a1a332}{unique\+Path\+Substrings}} (List$<$ String $>$ paths)
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ad4441a9a32c5f9cca2d92406073d716b}{copy\+File}} (Path path\+To\+Source\+File, Path path\+To\+Destination\+File, boolean replace\+Existing)
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a4283e15ccda88b4c08ade2b7011a4820}{rename\+File}} (Path from\+File, Path to\+File)
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_afbb48fc8594f57a35976e25407d40f45}{rename\+File}} (Path from\+File, Path to\+File, boolean replace\+Existing)
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a4a17c8046e69b8e5472177cd06c612b4}{rename\+File\+With\+Exception}} (Path from\+File, Path to\+File, boolean replace\+Existing)  throws I\+O\+Exception 
+\item 
+static Path \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a8310b863be494accf5f9f024eb4c466c}{relativize}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, List$<$ Path $>$ directories)
+\item 
+static List$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_adf1507b3bdbd8f250e451265595d1a0f}{get\+List\+Of\+Linked\+Files}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ bes, List$<$ Path $>$ file\+Dirs)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a3a295e22c48bff5774478cf453ef1845}{create\+File\+Name\+From\+Pattern}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry, String file\+Name\+Pattern)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a7b9e4747c8298bfbec31b3a2b983f398}{create\+Dir\+Name\+From\+Pattern}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry, String directory\+Name\+Pattern)
+\item 
+static Optional$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ae1cf336eee9ceff4450751a23aa0df1c}{find}} (String filename, Path root\+Directory)
+\item 
+static List$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ac754ccf4e321cdddc8dbbdd6a804ffdc}{find}} (String filename, List$<$ Path $>$ directories)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a674c822c242d03fe3527c6fcded873ac}{to\+Portable\+String}} (Path path)
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a89943a4ee84ba7472acab1f5c15b3c7b}{is\+Bib\+File}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a428de49eead0b92f7e95c090a3695793}{I\+S\+\_\+\+P\+O\+S\+I\+X\+\_\+\+C\+O\+M\+P\+I\+L\+A\+NT}} = File\+Systems.\+get\+Default().supported\+File\+Attribute\+Views().contains(\char`\"{}posix\char`\"{})
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a78d24d80ef4092d4164130322d46d3f9}{M\+A\+X\+I\+M\+U\+M\+\_\+\+F\+I\+L\+E\+\_\+\+N\+A\+M\+E\+\_\+\+L\+E\+N\+G\+TH}} = 255
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a650c6cc9db70f9f5ab1f4064f6eb9696}{File\+Util}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ae8ffb0afaa430ea6d3f7be0c85a12499}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(File\+Util.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a650c6cc9db70f9f5ab1f4064f6eb9696}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a650c6cc9db70f9f5ab1f4064f6eb9696}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!FileUtil@{FileUtil}}
+\index{FileUtil@{FileUtil}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{FileUtil()}{FileUtil()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+File\+Util (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a893c60bf472870fb7c25b309d8538636}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a893c60bf472870fb7c25b309d8538636}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!addExtension@{addExtension}}
+\index{addExtension@{addExtension}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{addExtension()}{addExtension()}}
+{\footnotesize\ttfamily static Path org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+add\+Extension (\begin{DoxyParamCaption}\item[{Path}]{path,  }\item[{String}]{extension }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Adds an extension to the given file name. The original extension is not replaced. That means, \char`\"{}demo.\+bib\char`\"{}, \char`\"{}.\+sav\char`\"{} gets \char`\"{}demo.\+bib.\+sav\char`\"{} and not \char`\"{}demo.\+sav\char`\"{}
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & the path to add the extension to \\
+\hline
+{\em extension} & the extension to add \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the with the modified file name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ad4441a9a32c5f9cca2d92406073d716b}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ad4441a9a32c5f9cca2d92406073d716b}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!copyFile@{copyFile}}
+\index{copyFile@{copyFile}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{copyFile()}{copyFile()}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+copy\+File (\begin{DoxyParamCaption}\item[{Path}]{path\+To\+Source\+File,  }\item[{Path}]{path\+To\+Destination\+File,  }\item[{boolean}]{replace\+Existing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Copies a file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path\+To\+Source\+File} & Path Source file \\
+\hline
+{\em path\+To\+Destination\+File} & Path Destination file \\
+\hline
+{\em replace\+Existing} & boolean Determines whether the copy goes on even if the file exists. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean Whether the copy succeeded, or was stopped due to the file already existing. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a7b9e4747c8298bfbec31b3a2b983f398}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a7b9e4747c8298bfbec31b3a2b983f398}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!createDirNameFromPattern@{createDirNameFromPattern}}
+\index{createDirNameFromPattern@{createDirNameFromPattern}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{createDirNameFromPattern()}{createDirNameFromPattern()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+create\+Dir\+Name\+From\+Pattern (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry,  }\item[{String}]{directory\+Name\+Pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Determines directory name provided by an entry in a database
+
+
+\begin{DoxyParams}{Parameters}
+{\em database} & the database, where the entry is located \\
+\hline
+{\em entry} & the entry to which the directory should be linked to \\
+\hline
+{\em directory\+Name\+Pattern} & the dirname pattern \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a suggested dir\+Name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a3a295e22c48bff5774478cf453ef1845}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a3a295e22c48bff5774478cf453ef1845}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!createFileNameFromPattern@{createFileNameFromPattern}}
+\index{createFileNameFromPattern@{createFileNameFromPattern}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{createFileNameFromPattern()}{createFileNameFromPattern()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+create\+File\+Name\+From\+Pattern (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry,  }\item[{String}]{file\+Name\+Pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Determines filename provided by an entry in a database
+
+
+\begin{DoxyParams}{Parameters}
+{\em database} & the database, where the entry is located \\
+\hline
+{\em entry} & the entry to which the file should be linked to \\
+\hline
+{\em file\+Name\+Pattern} & the filename pattern \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a suggested file\+Name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ac754ccf4e321cdddc8dbbdd6a804ffdc}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ac754ccf4e321cdddc8dbbdd6a804ffdc}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!find@{find}}
+\index{find@{find}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static List$<$Path$>$ org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+find (\begin{DoxyParamCaption}\item[{String}]{filename,  }\item[{List$<$ Path $>$}]{directories }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Finds a file inside a list of directory structures. Will also look for the file inside nested directories.
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the name of the file that should be found \\
+\hline
+{\em directories} & the directories that will be searched \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a list including all found paths to files that match the defined conditions 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ae1cf336eee9ceff4450751a23aa0df1c}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ae1cf336eee9ceff4450751a23aa0df1c}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!find@{find}}
+\index{find@{find}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static Optional$<$Path$>$ org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+find (\begin{DoxyParamCaption}\item[{String}]{filename,  }\item[{Path}]{root\+Directory }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Finds a file inside a directory structure. Will also look for the file inside nested directories.
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the name of the file that should be found \\
+\hline
+{\em root\+Directory} & the root\+Directory that will be searched \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the path to the first file that matches the defined conditions 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ad3a0522fad414b8bb2281f3571c662f4}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ad3a0522fad414b8bb2281f3571c662f4}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!getBaseName@{getBaseName}}
+\index{getBaseName@{getBaseName}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{getBaseName()}{getBaseName()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+get\+Base\+Name (\begin{DoxyParamCaption}\item[{String}]{file\+Name\+With\+Extension }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns the name part of a file name (i.\+e., everything in front of last \char`\"{}.\char`\"{}). \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a19b410f0381f8b6fced7a369c911fe00}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a19b410f0381f8b6fced7a369c911fe00}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!getFileExtension@{getFileExtension}}
+\index{getFileExtension@{getFileExtension}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{getFileExtension()}{getFileExtension()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static Optional$<$String$>$ org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+get\+File\+Extension (\begin{DoxyParamCaption}\item[{Path}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns the extension of a file or Optional.\+empty() if the file does not have one (no . in name).
+
+\begin{DoxyReturn}{Returns}
+the extension (without leading dot), trimmed and in lowercase. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_aa2246728a672c6e2519c8c67383986c3}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_aa2246728a672c6e2519c8c67383986c3}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!getFileExtension@{getFileExtension}}
+\index{getFileExtension@{getFileExtension}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{getFileExtension()}{getFileExtension()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static Optional$<$String$>$ org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+get\+File\+Extension (\begin{DoxyParamCaption}\item[{String}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns the extension of a file name or Optional.\+empty() if the file does not have one (no \char`\"{}.\char`\"{} in name).
+
+\begin{DoxyReturn}{Returns}
+the extension (without leading dot), trimmed and in lowercase. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_adf1507b3bdbd8f250e451265595d1a0f}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_adf1507b3bdbd8f250e451265595d1a0f}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!getListOfLinkedFiles@{getListOfLinkedFiles}}
+\index{getListOfLinkedFiles@{getListOfLinkedFiles}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{getListOfLinkedFiles()}{getListOfLinkedFiles()}}
+{\footnotesize\ttfamily static List$<$Path$>$ org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+get\+List\+Of\+Linked\+Files (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{bes,  }\item[{List$<$ Path $>$}]{file\+Dirs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns the list of linked files. The files have the absolute filename
+
+
+\begin{DoxyParams}{Parameters}
+{\em bes} & list of Bib\+TeX entries \\
+\hline
+{\em file\+Dirs} & list of directories to try for expansion \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list of files. May be empty 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a95d2ef520cd6ecf35a3720c48802e36a}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a95d2ef520cd6ecf35a3720c48802e36a}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!getValidFileName@{getValidFileName}}
+\index{getValidFileName@{getValidFileName}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{getValidFileName()}{getValidFileName()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+get\+Valid\+File\+Name (\begin{DoxyParamCaption}\item[{String}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns a valid filename for most operating systems. 
+
+Currently, only the length is restricted to 255 chars, see M\+A\+X\+I\+M\+U\+M\+\_\+\+F\+I\+L\+E\+\_\+\+N\+A\+M\+E\+\_\+\+L\+E\+N\+G\+TH. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a89943a4ee84ba7472acab1f5c15b3c7b}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a89943a4ee84ba7472acab1f5c15b3c7b}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!isBibFile@{isBibFile}}
+\index{isBibFile@{isBibFile}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{isBibFile()}{isBibFile()}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+is\+Bib\+File (\begin{DoxyParamCaption}\item[{Path}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Test if the file is a bib file by simply checking the extension to be \char`\"{}.\+bib\char`\"{}
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & The file to check \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if file extension is \char`\"{}.\+bib\char`\"{}, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a8310b863be494accf5f9f024eb4c466c}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a8310b863be494accf5f9f024eb4c466c}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!relativize@{relativize}}
+\index{relativize@{relativize}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{relativize()}{relativize()}}
+{\footnotesize\ttfamily static Path org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+relativize (\begin{DoxyParamCaption}\item[{Path}]{file,  }\item[{List$<$ Path $>$}]{directories }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Converts an absolute file to a relative one, if possible. Returns the parameter file itself if no shortening is possible. 
+
+This method works correctly only if directories are sorted decent in their length i.\+e. /home/user/literature/important before /home/user/literature.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & the file to be shortened \\
+\hline
+{\em directories} & directories to check \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a4283e15ccda88b4c08ade2b7011a4820}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a4283e15ccda88b4c08ade2b7011a4820}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!renameFile@{renameFile}}
+\index{renameFile@{renameFile}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{renameFile()}{renameFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+rename\+File (\begin{DoxyParamCaption}\item[{Path}]{from\+File,  }\item[{Path}]{to\+File }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Renames a given file
+
+
+\begin{DoxyParams}{Parameters}
+{\em from\+File} & The source filename to rename \\
+\hline
+{\em to\+File} & The target file\+Name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the rename was successful, false if an exception occurred 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_afbb48fc8594f57a35976e25407d40f45}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_afbb48fc8594f57a35976e25407d40f45}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!renameFile@{renameFile}}
+\index{renameFile@{renameFile}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{renameFile()}{renameFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+rename\+File (\begin{DoxyParamCaption}\item[{Path}]{from\+File,  }\item[{Path}]{to\+File,  }\item[{boolean}]{replace\+Existing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Renames a given file
+
+
+\begin{DoxyParams}{Parameters}
+{\em from\+File} & The source filename to rename \\
+\hline
+{\em to\+File} & The target file\+Name \\
+\hline
+{\em replace\+Existing} & Wether to replace existing files or not \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the rename was successful, false if an exception occurred 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000011}{Deprecated}}]Use \mbox{\hyperlink{}{Files\#move(\+Path, Path, Copy\+Option...)}} instead and handle exception properly \end{DoxyRefDesc}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a4a17c8046e69b8e5472177cd06c612b4}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a4a17c8046e69b8e5472177cd06c612b4}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!renameFileWithException@{renameFileWithException}}
+\index{renameFileWithException@{renameFileWithException}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{renameFileWithException()}{renameFileWithException()}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+rename\+File\+With\+Exception (\begin{DoxyParamCaption}\item[{Path}]{from\+File,  }\item[{Path}]{to\+File,  }\item[{boolean}]{replace\+Existing }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000012}{Deprecated}}]Directly use \mbox{\hyperlink{}{Files\#move(\+Path, Path, Copy\+Option...)}} \end{DoxyRefDesc}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a674c822c242d03fe3527c6fcded873ac}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a674c822c242d03fe3527c6fcded873ac}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!toPortableString@{toPortableString}}
+\index{toPortableString@{toPortableString}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{toPortableString()}{toPortableString()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+to\+Portable\+String (\begin{DoxyParamCaption}\item[{Path}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Creates a string representation of the given path that should work on all systems. This method should be used when a path needs to be stored in the bib file or preferences. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a612bbc5df759da22b48bcf3bf1a1a332}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a612bbc5df759da22b48bcf3bf1a1a332}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!uniquePathSubstrings@{uniquePathSubstrings}}
+\index{uniquePathSubstrings@{uniquePathSubstrings}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{uniquePathSubstrings()}{uniquePathSubstrings()}}
+{\footnotesize\ttfamily static List$<$String$>$ org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+unique\+Path\+Substrings (\begin{DoxyParamCaption}\item[{List$<$ String $>$}]{paths }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Creates the minimal unique path substring for each file among multiple file paths.
+
+
+\begin{DoxyParams}{Parameters}
+{\em paths} & the file paths \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the minimal unique path substring for each file path 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a428de49eead0b92f7e95c090a3695793}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a428de49eead0b92f7e95c090a3695793}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!IS\_POSIX\_COMPILANT@{IS\_POSIX\_COMPILANT}}
+\index{IS\_POSIX\_COMPILANT@{IS\_POSIX\_COMPILANT}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{IS\_POSIX\_COMPILANT}{IS\_POSIX\_COMPILANT}}
+{\footnotesize\ttfamily final boolean org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+I\+S\+\_\+\+P\+O\+S\+I\+X\+\_\+\+C\+O\+M\+P\+I\+L\+A\+NT = File\+Systems.\+get\+Default().supported\+File\+Attribute\+Views().contains(\char`\"{}posix\char`\"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ae8ffb0afaa430ea6d3f7be0c85a12499}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_ae8ffb0afaa430ea6d3f7be0c85a12499}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(File\+Util.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a78d24d80ef4092d4164130322d46d3f9}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util_a78d24d80ef4092d4164130322d46d3f9}} 
+\index{org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}!MAXIMUM\_FILE\_NAME\_LENGTH@{MAXIMUM\_FILE\_NAME\_LENGTH}}
+\index{MAXIMUM\_FILE\_NAME\_LENGTH@{MAXIMUM\_FILE\_NAME\_LENGTH}!org.jabref.logic.util.io.FileUtil@{org.jabref.logic.util.io.FileUtil}}
+\doxysubsubsection{\texorpdfstring{MAXIMUM\_FILE\_NAME\_LENGTH}{MAXIMUM\_FILE\_NAME\_LENGTH}}
+{\footnotesize\ttfamily final int org.\+jabref.\+logic.\+util.\+io.\+File\+Util.\+M\+A\+X\+I\+M\+U\+M\+\_\+\+F\+I\+L\+E\+\_\+\+N\+A\+M\+E\+\_\+\+L\+E\+N\+G\+TH = 255\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/util/io/\mbox{\hyperlink{_file_util_8java}{File\+Util.\+java}}\end{DoxyCompactItemize}

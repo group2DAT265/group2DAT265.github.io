@@ -1,0 +1,139 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter}{}\doxysection{org.\+jabref.\+logic.\+layout.\+Layout\+Formatter\+Based\+Formatter Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter}\index{org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}}
+Inheritance diagram for org.\+jabref.\+logic.\+layout.\+Layout\+Formatter\+Based\+Formatter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_aabcba2dce59608b598248b13a03180c7}{Layout\+Formatter\+Based\+Formatter}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter}{Layout\+Formatter}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a9513ee6cf69da1b4f6c2a2f98be837c0}{layout\+Formatter}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a4f3ac8053803c1e7c08f6ff1fc20b1a9}{get\+Name}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_aeeea6784fcc038e2c0cbe2a6a2dcb5ac}{get\+Key}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a23af829d5a988363e418c5822ed5c606}{format}} (String value)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a7f7c90d224443442bfa789a508b15f2a}{get\+Description}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a78fa34088df20c8335a3c685b0177410}{get\+Example\+Input}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter}{Layout\+Formatter}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a9513ee6cf69da1b4f6c2a2f98be837c0}{layout\+Formatter}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+When having to use a \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter}{Layout\+Formatter}} as Formatter, this class is helpful. One usecase is \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_field_formatter_cleanup}{org.\+jabref.\+logic.\+cleanup.\+Field\+Formatter\+Cleanup}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_aabcba2dce59608b598248b13a03180c7}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_aabcba2dce59608b598248b13a03180c7}} 
+\index{org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}!LayoutFormatterBasedFormatter@{LayoutFormatterBasedFormatter}}
+\index{LayoutFormatterBasedFormatter@{LayoutFormatterBasedFormatter}!org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}}
+\doxysubsubsection{\texorpdfstring{LayoutFormatterBasedFormatter()}{LayoutFormatterBasedFormatter()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+layout.\+Layout\+Formatter\+Based\+Formatter.\+Layout\+Formatter\+Based\+Formatter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter}{Layout\+Formatter}}}]{layout\+Formatter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a23af829d5a988363e418c5822ed5c606}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a23af829d5a988363e418c5822ed5c606}} 
+\index{org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}!format@{format}}
+\index{format@{format}!org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+Layout\+Formatter\+Based\+Formatter.\+format (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Formats a field value by with a particular formatter transformation. 
+
+Calling this method with a null argument results in a Null\+Pointer\+Exception.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the input String \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the formatted output String 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a8347cbf9c19d43850d3fcede03520e6f}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a7f7c90d224443442bfa789a508b15f2a}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a7f7c90d224443442bfa789a508b15f2a}} 
+\index{org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+Layout\+Formatter\+Based\+Formatter.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a description of the formatter.
+
+\begin{DoxyReturn}{Returns}
+the description string, always non empty 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_ada4da9404fd8afa2584c78568ff4f369}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a78fa34088df20c8335a3c685b0177410}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a78fa34088df20c8335a3c685b0177410}} 
+\index{org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}!getExampleInput@{getExampleInput}}
+\index{getExampleInput@{getExampleInput}!org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}}
+\doxysubsubsection{\texorpdfstring{getExampleInput()}{getExampleInput()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+Layout\+Formatter\+Based\+Formatter.\+get\+Example\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns an example input string of the formatter. This example is used as input to the formatter to demonstrate its functionality
+
+\begin{DoxyReturn}{Returns}
+the example input string, always non empty 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_adaef8aad8e38f4b74c12c95db9ca79c8}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_aeeea6784fcc038e2c0cbe2a6a2dcb5ac}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_aeeea6784fcc038e2c0cbe2a6a2dcb5ac}} 
+\index{org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}!getKey@{getKey}}
+\index{getKey@{getKey}!org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}}
+\doxysubsubsection{\texorpdfstring{getKey()}{getKey()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+Layout\+Formatter\+Based\+Formatter.\+get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a unique key for the formatter that can be used for its identification
+
+\begin{DoxyReturn}{Returns}
+the key of the formatter, always not null 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a059a1b2d1ef8251447788325f26f0e50}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a4f3ac8053803c1e7c08f6ff1fc20b1a9}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a4f3ac8053803c1e7c08f6ff1fc20b1a9}} 
+\index{org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+Layout\+Formatter\+Based\+Formatter.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a human readable name of the formatter usable for e.\+g. in the G\+UI
+
+\begin{DoxyReturn}{Returns}
+the name of the formatter, always not null 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a71fdb0ef1b321680d1811b8e462706b3}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a9513ee6cf69da1b4f6c2a2f98be837c0}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter_a9513ee6cf69da1b4f6c2a2f98be837c0}} 
+\index{org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}!layoutFormatter@{layoutFormatter}}
+\index{layoutFormatter@{layoutFormatter}!org.jabref.logic.layout.LayoutFormatterBasedFormatter@{org.jabref.logic.layout.LayoutFormatterBasedFormatter}}
+\doxysubsubsection{\texorpdfstring{layoutFormatter}{layoutFormatter}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter}{Layout\+Formatter}} org.\+jabref.\+logic.\+layout.\+Layout\+Formatter\+Based\+Formatter.\+layout\+Formatter\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/layout/\mbox{\hyperlink{_layout_formatter_based_formatter_8java}{Layout\+Formatter\+Based\+Formatter.\+java}}\end{DoxyCompactItemize}

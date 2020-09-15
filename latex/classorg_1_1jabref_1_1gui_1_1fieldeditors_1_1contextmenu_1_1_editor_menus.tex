@@ -1,0 +1,88 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus}{}\doxysection{org.\+jabref.\+gui.\+fieldeditors.\+contextmenu.\+Editor\+Menus Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus}\index{org.jabref.gui.fieldeditors.contextmenu.EditorMenus@{org.jabref.gui.fieldeditors.contextmenu.EditorMenus}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Supplier$<$ List$<$ Menu\+Item $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a14f5f0f1758b0d50d43f96d01a4f32b0}{get\+Default\+Menu}} (final Text\+Input\+Control text\+Input)
+\item 
+static Supplier$<$ List$<$ Menu\+Item $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a1dad1a9e95ddedf4171ffe65a9045427}{get\+Name\+Menu}} (final Text\+Input\+Control text\+Input)
+\item 
+static Supplier$<$ List$<$ Menu\+Item $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a5013caee0df6f4cf73061bd0f17399fe}{get\+D\+O\+I\+Menu}} (Text\+Area text\+Area)
+\item 
+static Supplier$<$ List$<$ Menu\+Item $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a51c39bd4e8b212deb50ca2162e5736ea}{get\+Cleanup\+Url\+Menu}} (Text\+Area text\+Area)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides context menus for the text fields of the entry editor. Note that we use \mbox{\hyperlink{}{Supplier}} to prevent an early instantiation of the menus. Therefore, they are attached to each text field but instantiation happens on the first right-\/click of the user in that field. The late instantiation is done by \{\mbox{\hyperlink{}{\}. }}
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a51c39bd4e8b212deb50ca2162e5736ea}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a51c39bd4e8b212deb50ca2162e5736ea}} 
+\index{org.jabref.gui.fieldeditors.contextmenu.EditorMenus@{org.jabref.gui.fieldeditors.contextmenu.EditorMenus}!getCleanupUrlMenu@{getCleanupUrlMenu}}
+\index{getCleanupUrlMenu@{getCleanupUrlMenu}!org.jabref.gui.fieldeditors.contextmenu.EditorMenus@{org.jabref.gui.fieldeditors.contextmenu.EditorMenus}}
+\doxysubsubsection{\texorpdfstring{getCleanupUrlMenu()}{getCleanupUrlMenu()}}
+{\footnotesize\ttfamily static Supplier$<$List$<$Menu\+Item$>$ $>$ org.\+jabref.\+gui.\+fieldeditors.\+contextmenu.\+Editor\+Menus.\+get\+Cleanup\+Url\+Menu (\begin{DoxyParamCaption}\item[{Text\+Area}]{text\+Area }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+The default context menu with a specific menu item to cleanup U\+RL.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text\+Area} & text-\/area that this menu will be connected to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+menu containing items of the default menu and an item to cleanup a U\+RL 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a14f5f0f1758b0d50d43f96d01a4f32b0}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a14f5f0f1758b0d50d43f96d01a4f32b0}} 
+\index{org.jabref.gui.fieldeditors.contextmenu.EditorMenus@{org.jabref.gui.fieldeditors.contextmenu.EditorMenus}!getDefaultMenu@{getDefaultMenu}}
+\index{getDefaultMenu@{getDefaultMenu}!org.jabref.gui.fieldeditors.contextmenu.EditorMenus@{org.jabref.gui.fieldeditors.contextmenu.EditorMenus}}
+\doxysubsubsection{\texorpdfstring{getDefaultMenu()}{getDefaultMenu()}}
+{\footnotesize\ttfamily static Supplier$<$List$<$Menu\+Item$>$ $>$ org.\+jabref.\+gui.\+fieldeditors.\+contextmenu.\+Editor\+Menus.\+get\+Default\+Menu (\begin{DoxyParamCaption}\item[{final Text\+Input\+Control}]{text\+Input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+The default menu that contains functions for changing the case of text and doing several conversions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text\+Input} & text-\/input-\/control that this menu will be connected to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+default context menu available for most text fields 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a5013caee0df6f4cf73061bd0f17399fe}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a5013caee0df6f4cf73061bd0f17399fe}} 
+\index{org.jabref.gui.fieldeditors.contextmenu.EditorMenus@{org.jabref.gui.fieldeditors.contextmenu.EditorMenus}!getDOIMenu@{getDOIMenu}}
+\index{getDOIMenu@{getDOIMenu}!org.jabref.gui.fieldeditors.contextmenu.EditorMenus@{org.jabref.gui.fieldeditors.contextmenu.EditorMenus}}
+\doxysubsubsection{\texorpdfstring{getDOIMenu()}{getDOIMenu()}}
+{\footnotesize\ttfamily static Supplier$<$List$<$Menu\+Item$>$ $>$ org.\+jabref.\+gui.\+fieldeditors.\+contextmenu.\+Editor\+Menus.\+get\+D\+O\+I\+Menu (\begin{DoxyParamCaption}\item[{Text\+Area}]{text\+Area }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+The default context menu with a specific menu copying a D\+OI U\+RL.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text\+Area} & text-\/area that this menu will be connected to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+menu containing items of the default menu and an item for copying a D\+OI U\+RL 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a1dad1a9e95ddedf4171ffe65a9045427}\label{classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1contextmenu_1_1_editor_menus_a1dad1a9e95ddedf4171ffe65a9045427}} 
+\index{org.jabref.gui.fieldeditors.contextmenu.EditorMenus@{org.jabref.gui.fieldeditors.contextmenu.EditorMenus}!getNameMenu@{getNameMenu}}
+\index{getNameMenu@{getNameMenu}!org.jabref.gui.fieldeditors.contextmenu.EditorMenus@{org.jabref.gui.fieldeditors.contextmenu.EditorMenus}}
+\doxysubsubsection{\texorpdfstring{getNameMenu()}{getNameMenu()}}
+{\footnotesize\ttfamily static Supplier$<$List$<$Menu\+Item$>$ $>$ org.\+jabref.\+gui.\+fieldeditors.\+contextmenu.\+Editor\+Menus.\+get\+Name\+Menu (\begin{DoxyParamCaption}\item[{final Text\+Input\+Control}]{text\+Input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+The default context menu with a specific menu for normalizing person names regarding to Bib\+Tex rules.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text\+Input} & text-\/input-\/control that this menu will be connected to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+menu containing items of the default menu and an item for normalizing person names 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/fieldeditors/contextmenu/\mbox{\hyperlink{_editor_menus_8java}{Editor\+Menus.\+java}}\end{DoxyCompactItemize}

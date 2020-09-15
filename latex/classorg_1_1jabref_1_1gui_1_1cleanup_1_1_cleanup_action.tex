@@ -1,0 +1,120 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action}{}\doxysection{org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action}\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+Inheritance diagram for org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a33e3fa385a0f17a7290b3e62384e1b00}{Cleanup\+Action}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a2e4a5992526949912c33f33c64ab7878}{frame}}, \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_ad73abca896629e88c01f1e643fbb5028}{preferences}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a1f746910e21f6d882725f9bd7ea67333}{dialog\+Service}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_ae821f39ef1d9cec694aea0486b16867b}{state\+Manager}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a49a5c0c4fef546331b2a8ce5d68e909f}{execute}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a8ca8578d6df65aec27ff2853605053f4}{do\+Cleanup}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database\+Context, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset}{Cleanup\+Preset}} preset, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_named_compound}{Named\+Compound}} ce)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a329306c880f1418e72c216e3ca9f7458}{show\+Results}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_aedc1407e2c883dc09ceb47052c793d0c}{cleanup}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database\+Context, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset}{Cleanup\+Preset}} cleanup\+Preset)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a2e4a5992526949912c33f33c64ab7878}{frame}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_ad73abca896629e88c01f1e643fbb5028}{preferences}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a1f746910e21f6d882725f9bd7ea67333}{dialog\+Service}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_ae821f39ef1d9cec694aea0486b16867b}{state\+Manager}}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a57dd812f207a0809531407c6644a2125}{is\+Canceled}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a2480ea0634a0d424a23bc081962ed9fe}{modified\+Entries\+Count}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a33e3fa385a0f17a7290b3e62384e1b00}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a33e3fa385a0f17a7290b3e62384e1b00}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!CleanupAction@{CleanupAction}}
+\index{CleanupAction@{CleanupAction}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{CleanupAction()}{CleanupAction()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+Cleanup\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}}}]{frame,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}}}]{preferences,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_aedc1407e2c883dc09ceb47052c793d0c}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_aedc1407e2c883dc09ceb47052c793d0c}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!cleanup@{cleanup}}
+\index{cleanup@{cleanup}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{cleanup()}{cleanup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+cleanup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset}{Cleanup\+Preset}}}]{cleanup\+Preset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a8ca8578d6df65aec27ff2853605053f4}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a8ca8578d6df65aec27ff2853605053f4}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!doCleanup@{doCleanup}}
+\index{doCleanup@{doCleanup}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{doCleanup()}{doCleanup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+do\+Cleanup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset}{Cleanup\+Preset}}}]{preset,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_named_compound}{Named\+Compound}}}]{ce }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Runs the cleanup on the entry and records the change. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a49a5c0c4fef546331b2a8ce5d68e909f}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a49a5c0c4fef546331b2a8ce5d68e909f}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!execute@{execute}}
+\index{execute@{execute}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+execute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a329306c880f1418e72c216e3ca9f7458}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a329306c880f1418e72c216e3ca9f7458}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!showResults@{showResults}}
+\index{showResults@{showResults}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{showResults()}{showResults()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+show\+Results (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a1f746910e21f6d882725f9bd7ea67333}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a1f746910e21f6d882725f9bd7ea67333}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a2e4a5992526949912c33f33c64ab7878}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a2e4a5992526949912c33f33c64ab7878}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!frame@{frame}}
+\index{frame@{frame}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{frame}{frame}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+frame\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a57dd812f207a0809531407c6644a2125}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a57dd812f207a0809531407c6644a2125}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!isCanceled@{isCanceled}}
+\index{isCanceled@{isCanceled}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{isCanceled}{isCanceled}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+is\+Canceled\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a2480ea0634a0d424a23bc081962ed9fe}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_a2480ea0634a0d424a23bc081962ed9fe}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!modifiedEntriesCount@{modifiedEntriesCount}}
+\index{modifiedEntriesCount@{modifiedEntriesCount}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{modifiedEntriesCount}{modifiedEntriesCount}}
+{\footnotesize\ttfamily int org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+modified\+Entries\+Count\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_ad73abca896629e88c01f1e643fbb5028}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_ad73abca896629e88c01f1e643fbb5028}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_ae821f39ef1d9cec694aea0486b16867b}\label{classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_action_ae821f39ef1d9cec694aea0486b16867b}} 
+\index{org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}!stateManager@{stateManager}}
+\index{stateManager@{stateManager}!org.jabref.gui.cleanup.CleanupAction@{org.jabref.gui.cleanup.CleanupAction}}
+\doxysubsubsection{\texorpdfstring{stateManager}{stateManager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} org.\+jabref.\+gui.\+cleanup.\+Cleanup\+Action.\+state\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/cleanup/\mbox{\hyperlink{_cleanup_action_8java}{Cleanup\+Action.\+java}}\end{DoxyCompactItemize}

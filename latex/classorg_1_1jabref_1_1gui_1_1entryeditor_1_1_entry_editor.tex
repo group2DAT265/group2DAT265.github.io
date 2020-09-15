@@ -1,0 +1,332 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor}{}\doxysection{org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor}\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+Inheritance diagram for org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab41d99059f7bc4e825f8a68fbfe6a3b4}{Entry\+Editor}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a7ffe3bcfd4d307e439251e9f69fa8a8a}{panel}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_external_file_types}{External\+File\+Types}} external\+File\+Types)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a67c7ce153618f603282d0ffbb415a657}{close}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ad6eaa1e89e3598b76733565404619bc0}{get\+Entry}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ae892d02daf9b808f621b1fdc61cb0c53}{set\+Entry}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a27e1ea8f585bb9c64badaab3c0eca597}{entry}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ae603d7e70add0bcaf997efcbd9d48fc6}{set\+Focus\+To\+Field}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab4ded1e2864fc33aec00cf80f27c9431}{next\+Preview\+Style}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_acfe85242f42fa94ec2755c67d1417aeb}{previous\+Preview\+Style}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_af55a1c53250958899c0d915640ac9040}{setup\+Key\+Bindings}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a90378240645ef669b33070f3e6ae9d14}{delete\+Entry}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a79ff9dad3a60371520bc98d141db0fb7}{navigate\+To\+Previous\+Entry}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a28ea95811bbabea7ccd359114b228c9b}{navigate\+To\+Next\+Entry}} ()
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_tab}{Entry\+Editor\+Tab}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ae3ec66a9d9b2ce5f2cdfedbf81a7f04e}{create\+Tabs}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_aad94bf8a3f81768bfd5c9c0c628847b9}{recalculate\+Visible\+Tabs}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_tab}{Entry\+Editor\+Tab}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_abe6fa7ccda83e69a8efd458b0e899248}{get\+Selected\+Tab}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a196b074fdc38161e5c3c514cf5141ee1}{setup\+Tool\+Bar}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a993240e8c77ec018cbe40ed8fd0154be}{fetch\+And\+Merge}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_entry_based_fetcher}{Entry\+Based\+Fetcher}} fetcher)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a7ffe3bcfd4d307e439251e9f69fa8a8a}{panel}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a2555302955fcf349363bbe3d4c1587ac}{database\+Context}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_preferences}{Entry\+Editor\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a6643233737905d8c6b39af85caf41d71}{entry\+Editor\+Preferences}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_external_files_entry_linker}{External\+Files\+Entry\+Linker}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab92b981d7b89c2c26dd5d3aba02bb30c}{file\+Linker}}
+\item 
+final List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_tab}{Entry\+Editor\+Tab}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a56d0680a551bd8954b3bd4acbb3c4305}{tabs}}
+\item 
+Subscription \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a2a73763244a2fb8be6dd64fa5e8070f8}{type\+Subscription}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a27e1ea8f585bb9c64badaab3c0eca597}{entry}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_source_tab}{Source\+Tab}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a04595c5a280ab2dc09229fb4bf8e2771}{source\+Tab}}
+\item 
+Tab\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a358921cde5e9a2f6f0c6eb7719df3981}{tabbed}}
+\item 
+Button \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ac9922080c9d2c320834cb299e8fb91bc}{type\+Change\+Button}}
+\item 
+Button \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab736f4bf3893fcd0717fbac7c486d5d8}{fetcher\+Button}}
+\item 
+Label \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a0fb1a1f9a8976beca587321bc0fa28d4}{type\+Label}}
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_adfe6d5f86603f5a90db2fe9042bcb957}{dialog\+Service}}
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a4882f21816c56d6cb0824612991ce4e9}{task\+Executor}}
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a8e3597c78bfc00ab7c4c0dcc3246010c}{preferences\+Service}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab52b17420fbec20c502aa72f73fa63ea}{state\+Manager}}
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a01fd0afa09efbdd36e39a93e48f855da}{file\+Monitor}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager}{Counting\+Undo\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_aae2ee144fac50634f49077fadeceee25}{undo\+Manager}}
+\item 
+final List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_tab}{Entry\+Editor\+Tab}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a975ac0fd55d2599f4a30d044e12e4dc2}{entry\+Editor\+Tabs}} = new Linked\+List$<$$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a948037921eae8f227e53495af19cc3e6}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Entry\+Editor.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+G\+UI component that allows editing of the fields of a Bib\+Entry (i.\+e. the one that shows up, when you double click on an entry in the table) 
+
+It hosts the tabs (required, general, optional) and the buttons to the left. 
+
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor}{Entry\+Editor}} also registers itself to the event bus, receiving events whenever a field of the entry changes, enabling the text fields to update themselves if the change is made from somewhere else. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab41d99059f7bc4e825f8a68fbfe6a3b4}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab41d99059f7bc4e825f8a68fbfe6a3b4}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!EntryEditor@{EntryEditor}}
+\index{EntryEditor@{EntryEditor}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{EntryEditor()}{EntryEditor()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+Entry\+Editor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}}}]{panel,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_external_file_types}{External\+File\+Types}}}]{external\+File\+Types }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a67c7ce153618f603282d0ffbb415a657}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a67c7ce153618f603282d0ffbb415a657}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!close@{close}}
+\index{close@{close}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ae3ec66a9d9b2ce5f2cdfedbf81a7f04e}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ae3ec66a9d9b2ce5f2cdfedbf81a7f04e}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!createTabs@{createTabs}}
+\index{createTabs@{createTabs}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{createTabs()}{createTabs()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_tab}{Entry\+Editor\+Tab}}$>$ org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+create\+Tabs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a90378240645ef669b33070f3e6ae9d14}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a90378240645ef669b33070f3e6ae9d14}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!deleteEntry@{deleteEntry}}
+\index{deleteEntry@{deleteEntry}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{deleteEntry()}{deleteEntry()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+delete\+Entry (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a993240e8c77ec018cbe40ed8fd0154be}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a993240e8c77ec018cbe40ed8fd0154be}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!fetchAndMerge@{fetchAndMerge}}
+\index{fetchAndMerge@{fetchAndMerge}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{fetchAndMerge()}{fetchAndMerge()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+fetch\+And\+Merge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_entry_based_fetcher}{Entry\+Based\+Fetcher}}}]{fetcher }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ad6eaa1e89e3598b76733565404619bc0}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ad6eaa1e89e3598b76733565404619bc0}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!getEntry@{getEntry}}
+\index{getEntry@{getEntry}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{getEntry()}{getEntry()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+get\+Entry (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+the currently edited entry 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_abe6fa7ccda83e69a8efd458b0e899248}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_abe6fa7ccda83e69a8efd458b0e899248}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!getSelectedTab@{getSelectedTab}}
+\index{getSelectedTab@{getSelectedTab}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{getSelectedTab()}{getSelectedTab()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_tab}{Entry\+Editor\+Tab}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+get\+Selected\+Tab (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a28ea95811bbabea7ccd359114b228c9b}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a28ea95811bbabea7ccd359114b228c9b}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!navigateToNextEntry@{navigateToNextEntry}}
+\index{navigateToNextEntry@{navigateToNextEntry}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{navigateToNextEntry()}{navigateToNextEntry()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+navigate\+To\+Next\+Entry (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a79ff9dad3a60371520bc98d141db0fb7}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a79ff9dad3a60371520bc98d141db0fb7}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!navigateToPreviousEntry@{navigateToPreviousEntry}}
+\index{navigateToPreviousEntry@{navigateToPreviousEntry}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{navigateToPreviousEntry()}{navigateToPreviousEntry()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+navigate\+To\+Previous\+Entry (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab4ded1e2864fc33aec00cf80f27c9431}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab4ded1e2864fc33aec00cf80f27c9431}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!nextPreviewStyle@{nextPreviewStyle}}
+\index{nextPreviewStyle@{nextPreviewStyle}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{nextPreviewStyle()}{nextPreviewStyle()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+next\+Preview\+Style (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_acfe85242f42fa94ec2755c67d1417aeb}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_acfe85242f42fa94ec2755c67d1417aeb}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!previousPreviewStyle@{previousPreviewStyle}}
+\index{previousPreviewStyle@{previousPreviewStyle}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{previousPreviewStyle()}{previousPreviewStyle()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+previous\+Preview\+Style (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_aad94bf8a3f81768bfd5c9c0c628847b9}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_aad94bf8a3f81768bfd5c9c0c628847b9}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!recalculateVisibleTabs@{recalculateVisibleTabs}}
+\index{recalculateVisibleTabs@{recalculateVisibleTabs}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{recalculateVisibleTabs()}{recalculateVisibleTabs()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+recalculate\+Visible\+Tabs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ae892d02daf9b808f621b1fdc61cb0c53}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ae892d02daf9b808f621b1fdc61cb0c53}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!setEntry@{setEntry}}
+\index{setEntry@{setEntry}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{setEntry()}{setEntry()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+set\+Entry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets the entry to edit. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ae603d7e70add0bcaf997efcbd9d48fc6}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ae603d7e70add0bcaf997efcbd9d48fc6}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!setFocusToField@{setFocusToField}}
+\index{setFocusToField@{setFocusToField}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{setFocusToField()}{setFocusToField()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+set\+Focus\+To\+Field (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_af55a1c53250958899c0d915640ac9040}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_af55a1c53250958899c0d915640ac9040}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!setupKeyBindings@{setupKeyBindings}}
+\index{setupKeyBindings@{setupKeyBindings}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{setupKeyBindings()}{setupKeyBindings()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+setup\+Key\+Bindings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Set-\/up key bindings specific for the entry editor. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a196b074fdc38161e5c3c514cf5141ee1}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a196b074fdc38161e5c3c514cf5141ee1}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!setupToolBar@{setupToolBar}}
+\index{setupToolBar@{setupToolBar}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{setupToolBar()}{setupToolBar()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+setup\+Tool\+Bar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a2555302955fcf349363bbe3d4c1587ac}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a2555302955fcf349363bbe3d4c1587ac}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!databaseContext@{databaseContext}}
+\index{databaseContext@{databaseContext}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{databaseContext}{databaseContext}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+database\+Context\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_adfe6d5f86603f5a90db2fe9042bcb957}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_adfe6d5f86603f5a90db2fe9042bcb957}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a27e1ea8f585bb9c64badaab3c0eca597}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a27e1ea8f585bb9c64badaab3c0eca597}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!entry@{entry}}
+\index{entry@{entry}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{entry}{entry}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+entry\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a6643233737905d8c6b39af85caf41d71}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a6643233737905d8c6b39af85caf41d71}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!entryEditorPreferences@{entryEditorPreferences}}
+\index{entryEditorPreferences@{entryEditorPreferences}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{entryEditorPreferences}{entryEditorPreferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_preferences}{Entry\+Editor\+Preferences}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+entry\+Editor\+Preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a975ac0fd55d2599f4a30d044e12e4dc2}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a975ac0fd55d2599f4a30d044e12e4dc2}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!entryEditorTabs@{entryEditorTabs}}
+\index{entryEditorTabs@{entryEditorTabs}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{entryEditorTabs}{entryEditorTabs}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_tab}{Entry\+Editor\+Tab}}$>$ org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+entry\+Editor\+Tabs = new Linked\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab736f4bf3893fcd0717fbac7c486d5d8}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab736f4bf3893fcd0717fbac7c486d5d8}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!fetcherButton@{fetcherButton}}
+\index{fetcherButton@{fetcherButton}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{fetcherButton}{fetcherButton}}
+{\footnotesize\ttfamily Button org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+fetcher\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab92b981d7b89c2c26dd5d3aba02bb30c}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab92b981d7b89c2c26dd5d3aba02bb30c}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!fileLinker@{fileLinker}}
+\index{fileLinker@{fileLinker}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{fileLinker}{fileLinker}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_external_files_entry_linker}{External\+Files\+Entry\+Linker}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+file\+Linker\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a01fd0afa09efbdd36e39a93e48f855da}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a01fd0afa09efbdd36e39a93e48f855da}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!fileMonitor@{fileMonitor}}
+\index{fileMonitor@{fileMonitor}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{fileMonitor}{fileMonitor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+file\+Monitor\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a948037921eae8f227e53495af19cc3e6}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a948037921eae8f227e53495af19cc3e6}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Entry\+Editor.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a7ffe3bcfd4d307e439251e9f69fa8a8a}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a7ffe3bcfd4d307e439251e9f69fa8a8a}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!panel@{panel}}
+\index{panel@{panel}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{panel}{panel}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+panel\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a8e3597c78bfc00ab7c4c0dcc3246010c}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a8e3597c78bfc00ab7c4c0dcc3246010c}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!preferencesService@{preferencesService}}
+\index{preferencesService@{preferencesService}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{preferencesService}{preferencesService}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+preferences\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a04595c5a280ab2dc09229fb4bf8e2771}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a04595c5a280ab2dc09229fb4bf8e2771}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!sourceTab@{sourceTab}}
+\index{sourceTab@{sourceTab}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{sourceTab}{sourceTab}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_source_tab}{Source\+Tab}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+source\+Tab\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab52b17420fbec20c502aa72f73fa63ea}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ab52b17420fbec20c502aa72f73fa63ea}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!stateManager@{stateManager}}
+\index{stateManager@{stateManager}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{stateManager}{stateManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+state\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a358921cde5e9a2f6f0c6eb7719df3981}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a358921cde5e9a2f6f0c6eb7719df3981}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!tabbed@{tabbed}}
+\index{tabbed@{tabbed}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{tabbed}{tabbed}}
+{\footnotesize\ttfamily Tab\+Pane org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+tabbed\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a56d0680a551bd8954b3bd4acbb3c4305}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a56d0680a551bd8954b3bd4acbb3c4305}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!tabs@{tabs}}
+\index{tabs@{tabs}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{tabs}{tabs}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_tab}{Entry\+Editor\+Tab}}$>$ org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+tabs\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a4882f21816c56d6cb0824612991ce4e9}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a4882f21816c56d6cb0824612991ce4e9}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!taskExecutor@{taskExecutor}}
+\index{taskExecutor@{taskExecutor}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{taskExecutor}{taskExecutor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+task\+Executor\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ac9922080c9d2c320834cb299e8fb91bc}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_ac9922080c9d2c320834cb299e8fb91bc}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!typeChangeButton@{typeChangeButton}}
+\index{typeChangeButton@{typeChangeButton}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{typeChangeButton}{typeChangeButton}}
+{\footnotesize\ttfamily Button org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+type\+Change\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a0fb1a1f9a8976beca587321bc0fa28d4}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a0fb1a1f9a8976beca587321bc0fa28d4}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!typeLabel@{typeLabel}}
+\index{typeLabel@{typeLabel}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{typeLabel}{typeLabel}}
+{\footnotesize\ttfamily Label org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+type\+Label\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a2a73763244a2fb8be6dd64fa5e8070f8}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_a2a73763244a2fb8be6dd64fa5e8070f8}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!typeSubscription@{typeSubscription}}
+\index{typeSubscription@{typeSubscription}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{typeSubscription}{typeSubscription}}
+{\footnotesize\ttfamily Subscription org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+type\+Subscription\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_aae2ee144fac50634f49077fadeceee25}\label{classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor_aae2ee144fac50634f49077fadeceee25}} 
+\index{org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}!undoManager@{undoManager}}
+\index{undoManager@{undoManager}!org.jabref.gui.entryeditor.EntryEditor@{org.jabref.gui.entryeditor.EntryEditor}}
+\doxysubsubsection{\texorpdfstring{undoManager}{undoManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_counting_undo_manager}{Counting\+Undo\+Manager}} org.\+jabref.\+gui.\+entryeditor.\+Entry\+Editor.\+undo\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/entryeditor/\mbox{\hyperlink{_entry_editor_8java}{Entry\+Editor.\+java}}\end{DoxyCompactItemize}

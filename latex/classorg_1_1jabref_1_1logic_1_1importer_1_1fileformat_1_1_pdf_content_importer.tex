@@ -1,0 +1,322 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer}\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_af60de675977ac8a62d10cddf5654ab39}{Pdf\+Content\+Importer}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a1f63d47603862a9ac4f781d9d4244e3d}{import\+Format\+Preferences}})
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ac1c0d4c50ff799e88443ae829276a826}{is\+Recognized\+Format}} (Buffered\+Reader input)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a39e4144ed723ba5eab1651b34c498a0c}{import\+Database}} (Buffered\+Reader reader)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_af42bf90e38526cbf62e3d4de326efa27}{import\+Database}} (String data)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a38a8d40e5f5c6583e2877c5157a0ad4c}{import\+Database}} (Path file\+Path, Charset default\+Encoding)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ad8ed4aec9026a8d8340928612beb761c}{get\+Name}} ()
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a2f1a110e444344040722ad662c4edc81}{get\+File\+Type}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a09d35d59e493dfaf9af825b21f49a094}{get\+Description}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_afdca44ef819f03c49348f3ff116eaef2}{remove\+Non\+Letters\+At\+End}} (String input)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ad7f8b98ab6bae2392629dfe758803f12}{streamline\+Names}} (String \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a30594132172b3373a0a76459eed4796e}{names}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_af1c04f50e7beadfaf2f80ffd735286d6}{streamline\+Title}} (String title)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a94b5c714f6ae898f3d5b082b41eff316}{get\+First\+Page\+Contents}} (P\+D\+Document document)  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_afef9956de98ca1289aac6590193d7602}{extract\+Year}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ab21ca6f1004472a2e732052ecd0a4bbb}{proceed\+To\+Next\+Non\+Empty\+Line}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a190ba3610d5e69a23c22d7eb7dd81fe6}{fill\+Cur\+String\+With\+Non\+Empty\+Lines}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a184c5efcf27c6f353e692cf8462d4620}{read\+Last\+Block}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a1f63d47603862a9ac4f781d9d4244e3d}{import\+Format\+Preferences}}
+\item 
+String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a0c406a614052bf8f1095bfbb4f390486}{lines}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a4e5f2794821ce159f77875d51ea43bbe}{line\+Index}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a17b794d078f476576df318698d74df75}{cur\+String}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a90a5edf215bdb0720508d56d876daeed}{year}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a8efdfac9fa5cbb634fc93317931bb085}{Y\+E\+A\+R\+\_\+\+E\+X\+T\+R\+A\+C\+T\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}\textbackslash{}\textbackslash{}d\{4\}\char`\"{})
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer}{Pdf\+Content\+Importer}} parses data of the first page of the P\+DF and creates a Bib\+TeX entry. 
+
+Currently, Springer and I\+E\+EE formats are supported. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_af60de675977ac8a62d10cddf5654ab39}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_af60de675977ac8a62d10cddf5654ab39}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!PdfContentImporter@{PdfContentImporter}}
+\index{PdfContentImporter@{PdfContentImporter}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{PdfContentImporter()}{PdfContentImporter()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+Pdf\+Content\+Importer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}}}]{import\+Format\+Preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_afef9956de98ca1289aac6590193d7602}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_afef9956de98ca1289aac6590193d7602}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!extractYear@{extractYear}}
+\index{extractYear@{extractYear}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{extractYear()}{extractYear()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+extract\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Extract the year out of cur\+String (if it is not yet defined) \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a190ba3610d5e69a23c22d7eb7dd81fe6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a190ba3610d5e69a23c22d7eb7dd81fe6}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!fillCurStringWithNonEmptyLines@{fillCurStringWithNonEmptyLines}}
+\index{fillCurStringWithNonEmptyLines@{fillCurStringWithNonEmptyLines}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{fillCurStringWithNonEmptyLines()}{fillCurStringWithNonEmptyLines()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+fill\+Cur\+String\+With\+Non\+Empty\+Lines (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Fill cur\+String with lines until \char`\"{}\char`\"{} is found No trailing space is added i is advanced to the next non-\/empty line (ignoring white space) 
+
+Lines containing only white spaces are ignored, but N\+OT considered as \char`\"{}\char`\"{} 
+
+Uses G\+L\+O\+B\+AL variables lines, cur\+Line, i \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a09d35d59e493dfaf9af825b21f49a094}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a09d35d59e493dfaf9af825b21f49a094}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the description of the import format. 
+
+The description should specify 
+\begin{DoxyItemize}
+\item what kind of entries from what sources and based on what specification it is able to import 
+\item by what criteria it \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ac1c0d4c50ff799e88443ae829276a826}{recognizes}} an import format 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+description of the import format 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a353c848ebec4d458953971932b28ce03}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a2f1a110e444344040722ad662c4edc81}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a2f1a110e444344040722ad662c4edc81}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!getFileType@{getFileType}}
+\index{getFileType@{getFileType}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{getFileType()}{getFileType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+get\+File\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the type of files that this importer can read
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{}{File\+Type}} corresponding to the importer 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac655d5b73afa6ceb9ccae747ea27be8f}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a94b5c714f6ae898f3d5b082b41eff316}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a94b5c714f6ae898f3d5b082b41eff316}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!getFirstPageContents@{getFirstPageContents}}
+\index{getFirstPageContents@{getFirstPageContents}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{getFirstPageContents()}{getFirstPageContents()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+get\+First\+Page\+Contents (\begin{DoxyParamCaption}\item[{P\+D\+Document}]{document }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ad8ed4aec9026a8d8340928612beb761c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ad8ed4aec9026a8d8340928612beb761c}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the name of this import format.
+
+The name must be unique.
+
+\begin{DoxyReturn}{Returns}
+format name, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a0224f9749eef18ca9f90b8ddb1771484}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a39e4144ed723ba5eab1651b34c498a0c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a39e4144ed723ba5eab1651b34c498a0c}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the source. 
+
+This method can be called in two different contexts -\/ either when importing in a specified format, or when importing in unknown format. In the latter case, Jab\+Ref cycles through all available import formats. No error messages or feedback is displayed from individual import formats in this case. 
+
+If importing in a specified format and an empty library is returned, Jab\+Ref reports that no entries were found. 
+
+This method should never return null.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the input to read from \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a38a8d40e5f5c6583e2877c5157a0ad4c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a38a8d40e5f5c6583e2877c5157a0ad4c}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Path}]{file\+Path,  }\item[{Charset}]{encoding }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the specified file. 
+
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}} having the facilities to detect the correct encoding of a file should overwrite this method, determine the encoding and then call \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a39e4144ed723ba5eab1651b34c498a0c}{import\+Database(\+Buffered\+Reader)}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & the path to the file which should be imported \\
+\hline
+{\em encoding} & the encoding used to decode the file \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a4cb77df20dbdf977c43cb8b31b4944e8}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_af42bf90e38526cbf62e3d4de326efa27}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_af42bf90e38526cbf62e3d4de326efa27}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{String}]{data }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the specified string. 
+
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}} having the facilities to detect the correct encoding of a string should overwrite this method, determine the encoding and then call \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a39e4144ed723ba5eab1651b34c498a0c}{import\+Database(\+Buffered\+Reader)}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the string which should be imported \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the parsed result 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & Signals that an I/O exception has occurred. \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a452065144fae9093cf4d822f9227a0c5}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ac1c0d4c50ff799e88443ae829276a826}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ac1c0d4c50ff799e88443ae829276a826}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!isRecognizedFormat@{isRecognizedFormat}}
+\index{isRecognizedFormat@{isRecognizedFormat}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{isRecognizedFormat()}{isRecognizedFormat()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+is\+Recognized\+Format (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check whether the source is in the correct format for this importer. 
+
+The effect of this method is primarily to avoid unnecessary processing of files when searching for a suitable import format. If this method returns false, the import routine will move on to the next import format. 
+
+Thus the correct behaviour is to return false if it is certain that the file is not of the suitable type, and true otherwise. Returning true is the safe choice if not certain. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ab21ca6f1004472a2e732052ecd0a4bbb}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ab21ca6f1004472a2e732052ecd0a4bbb}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!proceedToNextNonEmptyLine@{proceedToNextNonEmptyLine}}
+\index{proceedToNextNonEmptyLine@{proceedToNextNonEmptyLine}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{proceedToNextNonEmptyLine()}{proceedToNextNonEmptyLine()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+proceed\+To\+Next\+Non\+Empty\+Line (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+P\+D\+F\+Text\+Stripper normally does N\+OT produce multiple empty lines (besides at strange P\+D\+Fs). These strange P\+D\+Fs are handled here\+: proceed to next non-\/empty line \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a184c5efcf27c6f353e692cf8462d4620}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a184c5efcf27c6f353e692cf8462d4620}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!readLastBlock@{readLastBlock}}
+\index{readLastBlock@{readLastBlock}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{readLastBlock()}{readLastBlock()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+read\+Last\+Block (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+resets cur\+String cur\+String now contains the last block (until \char`\"{}\char`\"{} reached) Trailing space is added 
+
+invariant before/after\+: i points to line before the last handled block \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_afdca44ef819f03c49348f3ff116eaef2}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_afdca44ef819f03c49348f3ff116eaef2}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!removeNonLettersAtEnd@{removeNonLettersAtEnd}}
+\index{removeNonLettersAtEnd@{removeNonLettersAtEnd}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{removeNonLettersAtEnd()}{removeNonLettersAtEnd()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+remove\+Non\+Letters\+At\+End (\begin{DoxyParamCaption}\item[{String}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Removes all non-\/letter characters at the end 
+
+E\+X\+C\+E\+P\+T\+I\+ON\+: a closing bracket is N\+OT removed 
+
+T\+O\+DO\+: Additionally replace multiple subsequent spaces by one space, which will cause a rename of this method \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ad7f8b98ab6bae2392629dfe758803f12}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ad7f8b98ab6bae2392629dfe758803f12}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!streamlineNames@{streamlineNames}}
+\index{streamlineNames@{streamlineNames}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{streamlineNames()}{streamlineNames()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+streamline\+Names (\begin{DoxyParamCaption}\item[{String}]{names }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_af1c04f50e7beadfaf2f80ffd735286d6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_af1c04f50e7beadfaf2f80ffd735286d6}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!streamlineTitle@{streamlineTitle}}
+\index{streamlineTitle@{streamlineTitle}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{streamlineTitle()}{streamlineTitle()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+streamline\+Title (\begin{DoxyParamCaption}\item[{String}]{title }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a17b794d078f476576df318698d74df75}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a17b794d078f476576df318698d74df75}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!curString@{curString}}
+\index{curString@{curString}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{curString}{curString}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+cur\+String\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a1f63d47603862a9ac4f781d9d4244e3d}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a1f63d47603862a9ac4f781d9d4244e3d}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!importFormatPreferences@{importFormatPreferences}}
+\index{importFormatPreferences@{importFormatPreferences}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{importFormatPreferences}{importFormatPreferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+import\+Format\+Preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a4e5f2794821ce159f77875d51ea43bbe}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a4e5f2794821ce159f77875d51ea43bbe}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!lineIndex@{lineIndex}}
+\index{lineIndex@{lineIndex}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{lineIndex}{lineIndex}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+line\+Index\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a0c406a614052bf8f1095bfbb4f390486}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a0c406a614052bf8f1095bfbb4f390486}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!lines@{lines}}
+\index{lines@{lines}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{lines}{lines}}
+{\footnotesize\ttfamily String \mbox{[}$\,$\mbox{]} org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+lines\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a90a5edf215bdb0720508d56d876daeed}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a90a5edf215bdb0720508d56d876daeed}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!year@{year}}
+\index{year@{year}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{year}{year}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+year\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a8efdfac9fa5cbb634fc93317931bb085}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a8efdfac9fa5cbb634fc93317931bb085}} 
+\index{org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}!YEAR\_EXTRACT\_PATTERN@{YEAR\_EXTRACT\_PATTERN}}
+\index{YEAR\_EXTRACT\_PATTERN@{YEAR\_EXTRACT\_PATTERN}!org.jabref.logic.importer.fileformat.PdfContentImporter@{org.jabref.logic.importer.fileformat.PdfContentImporter}}
+\doxysubsubsection{\texorpdfstring{YEAR\_EXTRACT\_PATTERN}{YEAR\_EXTRACT\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer.\+Y\+E\+A\+R\+\_\+\+E\+X\+T\+R\+A\+C\+T\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}\textbackslash{}\textbackslash{}d\{4\}\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fileformat/\mbox{\hyperlink{_pdf_content_importer_8java}{Pdf\+Content\+Importer.\+java}}\end{DoxyCompactItemize}

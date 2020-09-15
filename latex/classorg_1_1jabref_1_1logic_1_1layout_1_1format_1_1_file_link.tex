@@ -1,0 +1,98 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link}{}\doxysection{org.\+jabref.\+logic.\+layout.\+format.\+File\+Link Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link}\index{org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}}
+Inheritance diagram for org.\+jabref.\+logic.\+layout.\+format.\+File\+Link\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_a4d1a9921a1c6aa1d5d1c511d5930e0aa}{File\+Link}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_preferences}{File\+Link\+Preferences}} file\+Link\+Preferences)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_a6875dcdbf7cf860fb21553f06533222a}{format}} (String field)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_aa07898a9c8e2104454440e8a3e3a7db3}{set\+Argument}} (String arg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_preferences}{File\+Link\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_a784b12987fa100df0acc846c229967d5}{prefs}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_ab4d2cd3bfd895a907b820814b53649b8}{file\+Type}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Export formatter that handles the file link list of Jab\+Ref 2.\+3 and later, by selecting the first file link, if any, specified by the field. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_a4d1a9921a1c6aa1d5d1c511d5930e0aa}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_a4d1a9921a1c6aa1d5d1c511d5930e0aa}} 
+\index{org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}!FileLink@{FileLink}}
+\index{FileLink@{FileLink}!org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}}
+\doxysubsubsection{\texorpdfstring{FileLink()}{FileLink()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+layout.\+format.\+File\+Link.\+File\+Link (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_preferences}{File\+Link\+Preferences}}}]{file\+Link\+Preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_a6875dcdbf7cf860fb21553f06533222a}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_a6875dcdbf7cf860fb21553f06533222a}} 
+\index{org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}!format@{format}}
+\index{format@{format}!org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+File\+Link.\+format (\begin{DoxyParamCaption}\item[{String}]{field\+Text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Failure Mode\+: 
+
+Formatters should be robust in the sense that they always return some relevant string. 
+
+If the formatter can detect an invalid input it should return the original string otherwise it may simply return a wrong output.
+
+
+\begin{DoxyParams}{Parameters}
+{\em field\+Text} & The text to layout. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The layouted text. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_ae94ffc8b15278725ad6d0d2f3f776711}{org.\+jabref.\+logic.\+layout.\+Layout\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_aa07898a9c8e2104454440e8a3e3a7db3}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_aa07898a9c8e2104454440e8a3e3a7db3}} 
+\index{org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}!setArgument@{setArgument}}
+\index{setArgument@{setArgument}!org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}}
+\doxysubsubsection{\texorpdfstring{setArgument()}{setArgument()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+layout.\+format.\+File\+Link.\+set\+Argument (\begin{DoxyParamCaption}\item[{String}]{arg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+This method is called if the layout file specifies an argument for this formatter. We use it as an indicator of which file type we should look for. 
+\begin{DoxyParams}{Parameters}
+{\em arg} & The file type. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_param_layout_formatter_af75d6b7aca4a71291436ae61f9440a6f}{org.\+jabref.\+logic.\+layout.\+Param\+Layout\+Formatter}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_ab4d2cd3bfd895a907b820814b53649b8}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_ab4d2cd3bfd895a907b820814b53649b8}} 
+\index{org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}!fileType@{fileType}}
+\index{fileType@{fileType}!org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}}
+\doxysubsubsection{\texorpdfstring{fileType}{fileType}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+File\+Link.\+file\+Type\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_a784b12987fa100df0acc846c229967d5}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_a784b12987fa100df0acc846c229967d5}} 
+\index{org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}!prefs@{prefs}}
+\index{prefs@{prefs}!org.jabref.logic.layout.format.FileLink@{org.jabref.logic.layout.format.FileLink}}
+\doxysubsubsection{\texorpdfstring{prefs}{prefs}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link_preferences}{File\+Link\+Preferences}} org.\+jabref.\+logic.\+layout.\+format.\+File\+Link.\+prefs\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/layout/format/\mbox{\hyperlink{_file_link_8java}{File\+Link.\+java}}\end{DoxyCompactItemize}
