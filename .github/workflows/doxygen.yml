@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - doxygen
+      - seb
 
 jobs:
   deploy:
