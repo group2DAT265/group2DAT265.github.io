@@ -1,0 +1,8 @@
+var namespaceorg_1_1jabref_1_1gui_1_1citationkeypattern =
+[
+    [ "CitationKeyPatternAction", "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_action.html", "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_action" ],
+    [ "CitationKeyPatternDialog", "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_dialog.html", "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_dialog" ],
+    [ "CitationKeyPatternPanel", "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_panel.html", "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_panel" ],
+    [ "GenerateCitationKeyAction", "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_generate_citation_key_action.html", "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_generate_citation_key_action" ],
+    [ "GenerateCitationKeySingleAction", "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_generate_citation_key_single_action.html", "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_generate_citation_key_single_action" ]
+];

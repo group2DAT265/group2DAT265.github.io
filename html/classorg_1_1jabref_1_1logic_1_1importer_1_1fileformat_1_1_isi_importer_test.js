@@ -1,0 +1,26 @@
+var classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test =
+[
+    [ "fileNames", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a6cf407ee3a4a596fbf93913407540897", null ],
+    [ "invalidFileNames", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#ad86951266d2e14c25a37fb0a0ea4d5d4", null ],
+    [ "testGetCLIId", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a3af073810ac7cc0ec2116cf42b690883", null ],
+    [ "testGetDescription", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a5c11d9307030d48b8b1d203d5847a6f8", null ],
+    [ "testGetFormatName", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a931f9d7270269b9483fbaabb56d1c77b", null ],
+    [ "testIEEEImport", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a4132fbacfd46798256e551e4dad67fd9", null ],
+    [ "testImportEntries1", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a6c806e8987aed50fb593f9aeda1b0388", null ],
+    [ "testImportEntries2", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#adbab8a0bf6951448eaee3f15d1a0c6e9", null ],
+    [ "testImportEntriesEmpty", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#adfc14b2a2f34da08de841504c0dab1ce", null ],
+    [ "testImportEntriesINSPEC", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a48b08d924616498043edba9f8136156e", null ],
+    [ "testImportEntriesMedline", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#aa8094428322fb28488ca461f988f3af4", null ],
+    [ "testImportEntriesWOS", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a8fa5a6c15cdcb130dba3c40a3ec29f47", null ],
+    [ "testImportIEEEExport", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#ac5133f1e309b978cfd192ddacffbf17d", null ],
+    [ "testIsiAuthorConvert", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a8ba5c2d72926d37d765330438b32d061", null ],
+    [ "testIsiAuthorsConvert", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#ad29905b5121a21ab1ee2e9300c408b41", null ],
+    [ "testIsRecognizedFormatAccepted", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#ae452d30a1e54caa7a94973685a3569b6", null ],
+    [ "testIsRecognizedFormatRejected", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a99a5f89fe1e2ba5998dd90f58730b38f", null ],
+    [ "testMonthConvert", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#af7e533b43981712094b001fdd34ddde7", null ],
+    [ "testParseMonthException", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a4fdb270bd5595f431b3e3c5467ca4be3", null ],
+    [ "testProcessSubSup", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#aaaa4732fb73c7fb0c6a4024fc8b5827d", null ],
+    [ "testsGetExtensions", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a83dfdd231f427b744d6ac5fce95cfb29", null ],
+    [ "FILE_ENDING", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a3ee1e1d662349e41b1a608807796686a", null ],
+    [ "importer", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_test.html#a2a1fa96be9fa189ce0c31e80aabcf0d5", null ]
+];

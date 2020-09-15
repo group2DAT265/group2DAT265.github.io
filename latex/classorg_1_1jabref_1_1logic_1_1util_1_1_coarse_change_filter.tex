@@ -1,0 +1,105 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter}{}\doxysection{org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter}\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a8a50817df3499133efc1db8cbc1e77f0}{Coarse\+Change\+Filter}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} bib\+Database\+Context)
+\item 
+synchronized void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a06db15ecf9394bad6be1dcd66adf6d19}{listen}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1event_1_1_bib_database_context_changed_event}{Bib\+Database\+Context\+Changed\+Event}} event)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_aa2f356e7999ddf68df18199b0fc5fbb6}{register\+Listener}} (Object listener)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_ae13cdd2bd15a69fcd8f7711ddb9c9df3}{unregister\+Listener}} (Object listener)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a3220095fe4181ecb8d7a3a228fde8ca0}{shutdown}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a7dcb11c5ff84bb54721735e637860d54}{context}}
+\item 
+final Event\+Bus \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_ab103d55797e1b0e15cff66f2a570c195}{event\+Bus}} = new Event\+Bus()
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a5c4640c2ee4cde931740005707692847}{delay\+Post}}
+\item 
+Optional$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_ab30f6b97dac5b3443fa266f463ffd0a3}{last\+Field\+Changed}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a75d59ffef3ff54c6733a4f6385f6a24d}{total\+Delta}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Filters change events and only relays major changes. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a8a50817df3499133efc1db8cbc1e77f0}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a8a50817df3499133efc1db8cbc1e77f0}} 
+\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}!CoarseChangeFilter@{CoarseChangeFilter}}
+\index{CoarseChangeFilter@{CoarseChangeFilter}!org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsubsection{\texorpdfstring{CoarseChangeFilter()}{CoarseChangeFilter()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter.\+Coarse\+Change\+Filter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{bib\+Database\+Context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a06db15ecf9394bad6be1dcd66adf6d19}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a06db15ecf9394bad6be1dcd66adf6d19}} 
+\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}!listen@{listen}}
+\index{listen@{listen}!org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsubsection{\texorpdfstring{listen()}{listen()}}
+{\footnotesize\ttfamily synchronized void org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter.\+listen (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1event_1_1_bib_database_context_changed_event}{Bib\+Database\+Context\+Changed\+Event}}}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_aa2f356e7999ddf68df18199b0fc5fbb6}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_aa2f356e7999ddf68df18199b0fc5fbb6}} 
+\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}!registerListener@{registerListener}}
+\index{registerListener@{registerListener}!org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsubsection{\texorpdfstring{registerListener()}{registerListener()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter.\+register\+Listener (\begin{DoxyParamCaption}\item[{Object}]{listener }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a3220095fe4181ecb8d7a3a228fde8ca0}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a3220095fe4181ecb8d7a3a228fde8ca0}} 
+\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsubsection{\texorpdfstring{shutdown()}{shutdown()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter.\+shutdown (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_ae13cdd2bd15a69fcd8f7711ddb9c9df3}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_ae13cdd2bd15a69fcd8f7711ddb9c9df3}} 
+\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}!unregisterListener@{unregisterListener}}
+\index{unregisterListener@{unregisterListener}!org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsubsection{\texorpdfstring{unregisterListener()}{unregisterListener()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter.\+unregister\+Listener (\begin{DoxyParamCaption}\item[{Object}]{listener }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a7dcb11c5ff84bb54721735e637860d54}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a7dcb11c5ff84bb54721735e637860d54}} 
+\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}!context@{context}}
+\index{context@{context}!org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsubsection{\texorpdfstring{context}{context}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter.\+context\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a5c4640c2ee4cde931740005707692847}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a5c4640c2ee4cde931740005707692847}} 
+\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}!delayPost@{delayPost}}
+\index{delayPost@{delayPost}!org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsubsection{\texorpdfstring{delayPost}{delayPost}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}} org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter.\+delay\+Post\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_ab103d55797e1b0e15cff66f2a570c195}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_ab103d55797e1b0e15cff66f2a570c195}} 
+\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}!eventBus@{eventBus}}
+\index{eventBus@{eventBus}!org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsubsection{\texorpdfstring{eventBus}{eventBus}}
+{\footnotesize\ttfamily final Event\+Bus org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter.\+event\+Bus = new Event\+Bus()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_ab30f6b97dac5b3443fa266f463ffd0a3}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_ab30f6b97dac5b3443fa266f463ffd0a3}} 
+\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}!lastFieldChanged@{lastFieldChanged}}
+\index{lastFieldChanged@{lastFieldChanged}!org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsubsection{\texorpdfstring{lastFieldChanged}{lastFieldChanged}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}$>$ org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter.\+last\+Field\+Changed\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a75d59ffef3ff54c6733a4f6385f6a24d}\label{classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter_a75d59ffef3ff54c6733a4f6385f6a24d}} 
+\index{org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}!totalDelta@{totalDelta}}
+\index{totalDelta@{totalDelta}!org.jabref.logic.util.CoarseChangeFilter@{org.jabref.logic.util.CoarseChangeFilter}}
+\doxysubsubsection{\texorpdfstring{totalDelta}{totalDelta}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+util.\+Coarse\+Change\+Filter.\+total\+Delta\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/util/\mbox{\hyperlink{_coarse_change_filter_8java}{Coarse\+Change\+Filter.\+java}}\end{DoxyCompactItemize}

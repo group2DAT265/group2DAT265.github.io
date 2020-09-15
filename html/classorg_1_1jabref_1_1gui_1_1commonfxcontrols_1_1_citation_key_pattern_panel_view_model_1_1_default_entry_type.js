@@ -1,0 +1,5 @@
+var classorg_1_1jabref_1_1gui_1_1commonfxcontrols_1_1_citation_key_pattern_panel_view_model_1_1_default_entry_type =
+[
+    [ "getDisplayName", "classorg_1_1jabref_1_1gui_1_1commonfxcontrols_1_1_citation_key_pattern_panel_view_model_1_1_default_entry_type.html#aa89fdc109dd794c6884aeefbfa4a3c38", null ],
+    [ "getName", "classorg_1_1jabref_1_1gui_1_1commonfxcontrols_1_1_citation_key_pattern_panel_view_model_1_1_default_entry_type.html#a959c1f2edf468f427effc35169836312", null ]
+];

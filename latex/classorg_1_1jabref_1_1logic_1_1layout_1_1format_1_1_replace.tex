@@ -1,0 +1,106 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace}{}\doxysection{org.\+jabref.\+logic.\+layout.\+format.\+Replace Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace}\index{org.jabref.logic.layout.format.Replace@{org.jabref.logic.layout.format.Replace}}
+Inheritance diagram for org.\+jabref.\+logic.\+layout.\+format.\+Replace\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_adaf61bb8c6b9816e56004ffcddcadc4d}{set\+Argument}} (String arg)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_a61050d2fdec7b4cc932ca7b92f91e123}{format}} (String field\+Text)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_a5e5f98ccc3f630dc1ca871e51e361894}{regex}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_a26c45e34f66b2d691dda84d7b1e76bc2}{replace\+With}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Formatter that does regexp replacement.
+
+To use this formatter, a two-\/part argument must be given. The parts are separated by a comma. To indicate the comma character, use an escape sequence\+: \textbackslash{}, For inserting newlines and tabs in arguments, use ~\newline
+ and \textbackslash{}t, respectively.
+
+The first part is the regular expression to search for. Remember that any commma character must be preceded by a backslash, and consequently a literal backslash must be written as a pair of backslashes. A description of Java regular expressions can be found at\+: \href{http://java.sun.com/j2se/1.4.2/docs/api/java/util/regex/Pattern.html}{\texttt{ http\+://java.\+sun.\+com/j2se/1.\+4.\+2/docs/api/java/util/regex/\+Pattern.\+html}}
+
+The second part is the text to replace all matches with.
+
+For instance\+: \textbackslash{}format\mbox{[}Replace(and,\&)\mbox{]}\{\begin{DoxyAuthor}{Author}
+\} \+: will output the \char`\"{}author\char`\"{} field after replacing all occurences of \char`\"{}and\char`\"{} by \char`\"{}\&\char`\"{}
+\end{DoxyAuthor}
+\textbackslash{}format\mbox{[}\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace}{Replace}}(\textbackslash{}s,\+\_\+)\mbox{]}\{\begin{DoxyAuthor}{Author}
+\} \+: will output the \char`\"{}author\char`\"{} field after replacing all whitespace by underscores.
+\end{DoxyAuthor}
+\textbackslash{}format\mbox{[}\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace}{Replace}}(\textbackslash{},,;)\mbox{]}\{\begin{DoxyAuthor}{Author}
+\} \+: will output the \char`\"{}author\char`\"{} field after replacing all commas by semicolons. 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_a61050d2fdec7b4cc932ca7b92f91e123}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_a61050d2fdec7b4cc932ca7b92f91e123}} 
+\index{org.jabref.logic.layout.format.Replace@{org.jabref.logic.layout.format.Replace}!format@{format}}
+\index{format@{format}!org.jabref.logic.layout.format.Replace@{org.jabref.logic.layout.format.Replace}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+Replace.\+format (\begin{DoxyParamCaption}\item[{String}]{field\+Text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Failure Mode\+: 
+
+Formatters should be robust in the sense that they always return some relevant string. 
+
+If the formatter can detect an invalid input it should return the original string otherwise it may simply return a wrong output.
+
+
+\begin{DoxyParams}{Parameters}
+{\em field\+Text} & The text to layout. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The layouted text. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_ae94ffc8b15278725ad6d0d2f3f776711}{org.\+jabref.\+logic.\+layout.\+Layout\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_adaf61bb8c6b9816e56004ffcddcadc4d}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_adaf61bb8c6b9816e56004ffcddcadc4d}} 
+\index{org.jabref.logic.layout.format.Replace@{org.jabref.logic.layout.format.Replace}!setArgument@{setArgument}}
+\index{setArgument@{setArgument}!org.jabref.logic.layout.format.Replace@{org.jabref.logic.layout.format.Replace}}
+\doxysubsubsection{\texorpdfstring{setArgument()}{setArgument()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+layout.\+format.\+Replace.\+set\+Argument (\begin{DoxyParamCaption}\item[{String}]{arg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Method for setting the argument of this formatter. 
+\begin{DoxyParams}{Parameters}
+{\em arg} & A String argument. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_param_layout_formatter_af75d6b7aca4a71291436ae61f9440a6f}{org.\+jabref.\+logic.\+layout.\+Param\+Layout\+Formatter}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_a5e5f98ccc3f630dc1ca871e51e361894}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_a5e5f98ccc3f630dc1ca871e51e361894}} 
+\index{org.jabref.logic.layout.format.Replace@{org.jabref.logic.layout.format.Replace}!regex@{regex}}
+\index{regex@{regex}!org.jabref.logic.layout.format.Replace@{org.jabref.logic.layout.format.Replace}}
+\doxysubsubsection{\texorpdfstring{regex}{regex}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+Replace.\+regex\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_a26c45e34f66b2d691dda84d7b1e76bc2}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_a26c45e34f66b2d691dda84d7b1e76bc2}} 
+\index{org.jabref.logic.layout.format.Replace@{org.jabref.logic.layout.format.Replace}!replaceWith@{replaceWith}}
+\index{replaceWith@{replaceWith}!org.jabref.logic.layout.format.Replace@{org.jabref.logic.layout.format.Replace}}
+\doxysubsubsection{\texorpdfstring{replaceWith}{replaceWith}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+format.\+Replace.\+replace\+With\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/layout/format/\mbox{\hyperlink{_replace_8java}{Replace.\+java}}\end{DoxyCompactItemize}

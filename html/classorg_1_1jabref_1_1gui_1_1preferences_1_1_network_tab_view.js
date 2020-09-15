@@ -1,0 +1,27 @@
+var classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view =
+[
+    [ "NetworkTabView", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#ae626f507ceb164fbae7c0add0b36da7c", null ],
+    [ "getTabName", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#ab086df4ba40a7fa2873d4ab31717189d", null ],
+    [ "initialize", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#ad113d9377c58bb8e4e18f3749417a15e", null ],
+    [ "proxyPasswordMask", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a5b109c0cd434c3cfba4a4da7bc2005d4", null ],
+    [ "proxyPasswordReveal", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a1057c8b3f549b2a99a1426dc627e2931", null ],
+    [ "checkConnectionButton", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a0b7c54ce592548202aeb44848cd68f14", null ],
+    [ "proxyAttentionLabel", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#accdb2a4f0847bfcbc9d89cfade83670a", null ],
+    [ "proxyHostname", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a47cc7111f2dfd3b6196256974445157b", null ],
+    [ "proxyHostnameLabel", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#ae38be2385e51b129efa4e19c52f4dcaa", null ],
+    [ "proxyPassword", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#ab0e9a8d0115afc50435e68d9ac6787c4", null ],
+    [ "proxyPasswordCaretPosition", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#acde896893b30591f429500b87b1ef63b", null ],
+    [ "proxyPasswordLabel", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#aedea2023eafaba5f0f0ac0a51eefeeec", null ],
+    [ "proxyPasswordText", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a9ca62e937acdcf76a16620c88d65cbbf", null ],
+    [ "proxyPort", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#ad137c08bf4822ae680bf7a657988d213", null ],
+    [ "proxyPortLabel", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a775f6b222bf67726d1da502975ee0414", null ],
+    [ "proxyUse", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a8e097f0be9ab2d5e2601765a3361d4a0", null ],
+    [ "proxyUseAuthentication", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#ab1719f27769d145d8debbe2e2b735442", null ],
+    [ "proxyUsername", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a82fa8bb9392f1707df2470c549a0353e", null ],
+    [ "proxyUsernameLabel", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a0a0ccdbf8e75d17872067eab0fd675cf", null ],
+    [ "remoteHelp", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a9e14f4ff26c3fe944f4a3466355a4993", null ],
+    [ "remoteLabel", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a95d4b471eb2f35d84707d68eefc15b71", null ],
+    [ "remotePort", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a09999f76a6c9587eac6260f50ed8daa0", null ],
+    [ "remoteServer", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#aa369c324a8c12f7d889ad6971e47314d", null ],
+    [ "validationVisualizer", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view.html#a29b9a0651080fdb3970c12581a7430cb", null ]
+];

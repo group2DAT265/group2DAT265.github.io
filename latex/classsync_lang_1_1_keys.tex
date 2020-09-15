@@ -1,0 +1,130 @@
+\hypertarget{classsync_lang_1_1_keys}{}\doxysection{sync\+Lang.\+Keys Class Reference}
+\label{classsync_lang_1_1_keys}\index{syncLang.Keys@{syncLang.Keys}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classsync_lang_1_1_keys_af7ded020849d3c766198a20c40c10591}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classsync_lang_1_1_keys_a44f17de18192db2f6b81a1aed4c64404}{lines}})
+\item 
+def \mbox{\hyperlink{classsync_lang_1_1_keys_a24b268c290e1928cd00b1de36d228492}{find\+\_\+duplicates}} (self)
+\item 
+def \mbox{\hyperlink{classsync_lang_1_1_keys_aedbf6cbdb6553e7eaa488ba7ca1767bc}{fix\+\_\+duplicates}} (self)
+\item 
+def \mbox{\hyperlink{classsync_lang_1_1_keys_a5fccfa7d8cb5f6805f01e9a25425474f}{keys\+\_\+from\+\_\+lines}} (self)
+\item 
+def \mbox{\hyperlink{classsync_lang_1_1_keys_a5ec97dabb94ca53d28264a68cb5c3a9b}{empty\+\_\+keys}} (self)
+\item 
+def \mbox{\hyperlink{classsync_lang_1_1_keys_ad0a57c00514f20f082f897d455d56ce2}{translations\+\_\+as\+\_\+dict}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classsync_lang_1_1_keys_a46195c065cace76ea9444cd6dd21a754}{key\+\_\+from\+\_\+line}} (line)
+\item 
+def \mbox{\hyperlink{classsync_lang_1_1_keys_a00936ff2f1aeec1477b55c11cb343fd8}{format\+\_\+key\+\_\+and\+\_\+value}} (key, value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classsync_lang_1_1_keys_a44f17de18192db2f6b81a1aed4c64404}{lines}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classsync_lang_1_1_keys_a46bed35d78fd4f9d9800900c5b87c676}{\+\_\+\+\_\+extract\+\_\+key\+\_\+and\+\_\+value}} (line)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classsync_lang_1_1_keys_af7ded020849d3c766198a20c40c10591}\label{classsync_lang_1_1_keys_af7ded020849d3c766198a20c40c10591}} 
+\index{syncLang.Keys@{syncLang.Keys}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!syncLang.Keys@{syncLang.Keys}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def sync\+Lang.\+Keys.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{lines }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classsync_lang_1_1_keys_a46bed35d78fd4f9d9800900c5b87c676}\label{classsync_lang_1_1_keys_a46bed35d78fd4f9d9800900c5b87c676}} 
+\index{syncLang.Keys@{syncLang.Keys}!\_\_extract\_key\_and\_value@{\_\_extract\_key\_and\_value}}
+\index{\_\_extract\_key\_and\_value@{\_\_extract\_key\_and\_value}!syncLang.Keys@{syncLang.Keys}}
+\doxysubsubsection{\texorpdfstring{\_\_extract\_key\_and\_value()}{\_\_extract\_key\_and\_value()}}
+{\footnotesize\ttfamily def sync\+Lang.\+Keys.\+\_\+\+\_\+extract\+\_\+key\+\_\+and\+\_\+value (\begin{DoxyParamCaption}\item[{}]{line }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\begin{DoxyVerb}Tries to extract the key and value from the line
+:param line: unicode string
+:return: (unicode string, unicode string) or (None, None): (key, value)
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classsync_lang_1_1_keys_a5ec97dabb94ca53d28264a68cb5c3a9b}\label{classsync_lang_1_1_keys_a5ec97dabb94ca53d28264a68cb5c3a9b}} 
+\index{syncLang.Keys@{syncLang.Keys}!empty\_keys@{empty\_keys}}
+\index{empty\_keys@{empty\_keys}!syncLang.Keys@{syncLang.Keys}}
+\doxysubsubsection{\texorpdfstring{empty\_keys()}{empty\_keys()}}
+{\footnotesize\ttfamily def sync\+Lang.\+Keys.\+empty\+\_\+keys (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}:return: list of unicode strings: the keys with empty values
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classsync_lang_1_1_keys_a24b268c290e1928cd00b1de36d228492}\label{classsync_lang_1_1_keys_a24b268c290e1928cd00b1de36d228492}} 
+\index{syncLang.Keys@{syncLang.Keys}!find\_duplicates@{find\_duplicates}}
+\index{find\_duplicates@{find\_duplicates}!syncLang.Keys@{syncLang.Keys}}
+\doxysubsubsection{\texorpdfstring{find\_duplicates()}{find\_duplicates()}}
+{\footnotesize\ttfamily def sync\+Lang.\+Keys.\+find\+\_\+duplicates (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}return: list of unicode strings
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classsync_lang_1_1_keys_aedbf6cbdb6553e7eaa488ba7ca1767bc}\label{classsync_lang_1_1_keys_aedbf6cbdb6553e7eaa488ba7ca1767bc}} 
+\index{syncLang.Keys@{syncLang.Keys}!fix\_duplicates@{fix\_duplicates}}
+\index{fix\_duplicates@{fix\_duplicates}!syncLang.Keys@{syncLang.Keys}}
+\doxysubsubsection{\texorpdfstring{fix\_duplicates()}{fix\_duplicates()}}
+{\footnotesize\ttfamily def sync\+Lang.\+Keys.\+fix\+\_\+duplicates (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Fixes all unambiguous duplicates
+:return: (list of unicode strings, list of unicode strings): not fixed ambiguous duplicates, fixed unambiguous duplicates
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classsync_lang_1_1_keys_a00936ff2f1aeec1477b55c11cb343fd8}\label{classsync_lang_1_1_keys_a00936ff2f1aeec1477b55c11cb343fd8}} 
+\index{syncLang.Keys@{syncLang.Keys}!format\_key\_and\_value@{format\_key\_and\_value}}
+\index{format\_key\_and\_value@{format\_key\_and\_value}!syncLang.Keys@{syncLang.Keys}}
+\doxysubsubsection{\texorpdfstring{format\_key\_and\_value()}{format\_key\_and\_value()}}
+{\footnotesize\ttfamily def sync\+Lang.\+Keys.\+format\+\_\+key\+\_\+and\+\_\+value (\begin{DoxyParamCaption}\item[{}]{key,  }\item[{}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classsync_lang_1_1_keys_a46195c065cace76ea9444cd6dd21a754}\label{classsync_lang_1_1_keys_a46195c065cace76ea9444cd6dd21a754}} 
+\index{syncLang.Keys@{syncLang.Keys}!key\_from\_line@{key\_from\_line}}
+\index{key\_from\_line@{key\_from\_line}!syncLang.Keys@{syncLang.Keys}}
+\doxysubsubsection{\texorpdfstring{key\_from\_line()}{key\_from\_line()}}
+{\footnotesize\ttfamily def sync\+Lang.\+Keys.\+key\+\_\+from\+\_\+line (\begin{DoxyParamCaption}\item[{}]{line }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyVerb}Tries to extract the key from the line
+
+:param line: unicode string
+:return: unicode string: the key or None
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classsync_lang_1_1_keys_a5fccfa7d8cb5f6805f01e9a25425474f}\label{classsync_lang_1_1_keys_a5fccfa7d8cb5f6805f01e9a25425474f}} 
+\index{syncLang.Keys@{syncLang.Keys}!keys\_from\_lines@{keys\_from\_lines}}
+\index{keys\_from\_lines@{keys\_from\_lines}!syncLang.Keys@{syncLang.Keys}}
+\doxysubsubsection{\texorpdfstring{keys\_from\_lines()}{keys\_from\_lines()}}
+{\footnotesize\ttfamily def sync\+Lang.\+Keys.\+keys\+\_\+from\+\_\+lines (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Builds a list of all translation keys in the list of lines.
+
+:return: list of unicode strings: the sorted keys within the lines
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classsync_lang_1_1_keys_ad0a57c00514f20f082f897d455d56ce2}\label{classsync_lang_1_1_keys_ad0a57c00514f20f082f897d455d56ce2}} 
+\index{syncLang.Keys@{syncLang.Keys}!translations\_as\_dict@{translations\_as\_dict}}
+\index{translations\_as\_dict@{translations\_as\_dict}!syncLang.Keys@{syncLang.Keys}}
+\doxysubsubsection{\texorpdfstring{translations\_as\_dict()}{translations\_as\_dict()}}
+{\footnotesize\ttfamily def sync\+Lang.\+Keys.\+translations\+\_\+as\+\_\+dict (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}:return: dict of unicode strings:
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classsync_lang_1_1_keys_a44f17de18192db2f6b81a1aed4c64404}\label{classsync_lang_1_1_keys_a44f17de18192db2f6b81a1aed4c64404}} 
+\index{syncLang.Keys@{syncLang.Keys}!lines@{lines}}
+\index{lines@{lines}!syncLang.Keys@{syncLang.Keys}}
+\doxysubsubsection{\texorpdfstring{lines}{lines}}
+{\footnotesize\ttfamily sync\+Lang.\+Keys.\+lines}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+scripts/\mbox{\hyperlink{sync_lang_8py}{sync\+Lang.\+py}}\end{DoxyCompactItemize}

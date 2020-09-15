@@ -1,0 +1,181 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model}{}\doxysection{org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model}\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a3b50ef11d7e23d2d0f919b4e029461d3}{Abbreviation\+View\+Model}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation}{Abbreviation}} abbreviation\+Object)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation}{Abbreviation}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab03cc44fafbdc846f3c71cec297e09ab}{get\+Abbreviation\+Object}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab0c3c2e88062fe7ee51a89fde6032f58}{get\+Name}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a37e8d20a2067592e3b55de64a3eaf144}{set\+Name}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab7da4ef476699540b62d02f20793feaa}{name}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_aa91baa54fbf8db33986518eab53e35a8}{get\+Abbreviation}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_aea1884660e22fbb068235a2c86bd2187}{set\+Abbreviation}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ae5a91f8d8ceffd450b274fab18634086}{abbreviation}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ad835275497d649087a297f7e5fcbd927}{get\+Shortest\+Unique\+Abbreviation}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a5fda12e222b4f1ee1560a40653ac623f}{set\+Shortest\+Unique\+Abbreviation}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a46fe8bf4a79e20f659ddabb0126cd602}{shortest\+Unique\+Abbreviation}})
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a679abca9be954b4ac1c017519a07b645}{is\+Pseudo\+Abbreviation}} ()
+\item 
+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_aeecab3ca8ab9a050f9a80c4cfff66aef}{name\+Property}} ()
+\item 
+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a5e83147068b0e6d4b64e6a53b4e27bd8}{abbreviation\+Property}} ()
+\item 
+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ac5b07579b4c2b479116ae981c1f4de18}{shortest\+Unique\+Abbreviation\+Property}} ()
+\item 
+Boolean\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a8dae7ade7780bf458fcf7010db07a955}{is\+Pseudo\+Abbreviation\+Property}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a11ced14f03e03ac82421224212625f37}{equals}} (Object o)
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a4c35b42920cf9b8721bbed5e63e10474}{hash\+Code}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab7da4ef476699540b62d02f20793feaa}{name}} = new Simple\+String\+Property(\char`\"{}\char`\"{})
+\item 
+final String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ae5a91f8d8ceffd450b274fab18634086}{abbreviation}} = new Simple\+String\+Property(\char`\"{}\char`\"{})
+\item 
+final String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a46fe8bf4a79e20f659ddabb0126cd602}{shortest\+Unique\+Abbreviation}} = new Simple\+String\+Property(\char`\"{}\char`\"{})
+\item 
+final Boolean\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab252ff8164c83fe583db0522273a7c14}{pseudo\+Abbreviation}} = new Simple\+Boolean\+Property()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class provides a view model for abbreviation objects which can also define placeholder objects of abbreviations. This is indicated by using the
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab252ff8164c83fe583db0522273a7c14}{pseudoAbbreviation}} }
+\end{DoxyCode}
+ property. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a3b50ef11d7e23d2d0f919b4e029461d3}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a3b50ef11d7e23d2d0f919b4e029461d3}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!AbbreviationViewModel@{AbbreviationViewModel}}
+\index{AbbreviationViewModel@{AbbreviationViewModel}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{AbbreviationViewModel()}{AbbreviationViewModel()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+Abbreviation\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation}{Abbreviation}}}]{abbreviation\+Object }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a5e83147068b0e6d4b64e6a53b4e27bd8}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a5e83147068b0e6d4b64e6a53b4e27bd8}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!abbreviationProperty@{abbreviationProperty}}
+\index{abbreviationProperty@{abbreviationProperty}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{abbreviationProperty()}{abbreviationProperty()}}
+{\footnotesize\ttfamily String\+Property org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+abbreviation\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a11ced14f03e03ac82421224212625f37}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a11ced14f03e03ac82421224212625f37}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!equals@{equals}}
+\index{equals@{equals}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+equals (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_aa91baa54fbf8db33986518eab53e35a8}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_aa91baa54fbf8db33986518eab53e35a8}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!getAbbreviation@{getAbbreviation}}
+\index{getAbbreviation@{getAbbreviation}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{getAbbreviation()}{getAbbreviation()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+get\+Abbreviation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab03cc44fafbdc846f3c71cec297e09ab}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab03cc44fafbdc846f3c71cec297e09ab}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!getAbbreviationObject@{getAbbreviationObject}}
+\index{getAbbreviationObject@{getAbbreviationObject}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{getAbbreviationObject()}{getAbbreviationObject()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation}{Abbreviation}} org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+get\+Abbreviation\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab0c3c2e88062fe7ee51a89fde6032f58}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab0c3c2e88062fe7ee51a89fde6032f58}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!getName@{getName}}
+\index{getName@{getName}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ad835275497d649087a297f7e5fcbd927}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ad835275497d649087a297f7e5fcbd927}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!getShortestUniqueAbbreviation@{getShortestUniqueAbbreviation}}
+\index{getShortestUniqueAbbreviation@{getShortestUniqueAbbreviation}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{getShortestUniqueAbbreviation()}{getShortestUniqueAbbreviation()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+get\+Shortest\+Unique\+Abbreviation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a4c35b42920cf9b8721bbed5e63e10474}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a4c35b42920cf9b8721bbed5e63e10474}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a679abca9be954b4ac1c017519a07b645}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a679abca9be954b4ac1c017519a07b645}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!isPseudoAbbreviation@{isPseudoAbbreviation}}
+\index{isPseudoAbbreviation@{isPseudoAbbreviation}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{isPseudoAbbreviation()}{isPseudoAbbreviation()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+is\+Pseudo\+Abbreviation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a8dae7ade7780bf458fcf7010db07a955}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a8dae7ade7780bf458fcf7010db07a955}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!isPseudoAbbreviationProperty@{isPseudoAbbreviationProperty}}
+\index{isPseudoAbbreviationProperty@{isPseudoAbbreviationProperty}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{isPseudoAbbreviationProperty()}{isPseudoAbbreviationProperty()}}
+{\footnotesize\ttfamily Boolean\+Property org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+is\+Pseudo\+Abbreviation\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_aeecab3ca8ab9a050f9a80c4cfff66aef}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_aeecab3ca8ab9a050f9a80c4cfff66aef}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!nameProperty@{nameProperty}}
+\index{nameProperty@{nameProperty}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{nameProperty()}{nameProperty()}}
+{\footnotesize\ttfamily String\+Property org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+name\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_aea1884660e22fbb068235a2c86bd2187}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_aea1884660e22fbb068235a2c86bd2187}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!setAbbreviation@{setAbbreviation}}
+\index{setAbbreviation@{setAbbreviation}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{setAbbreviation()}{setAbbreviation()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+set\+Abbreviation (\begin{DoxyParamCaption}\item[{String}]{abbreviation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a37e8d20a2067592e3b55de64a3eaf144}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a37e8d20a2067592e3b55de64a3eaf144}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!setName@{setName}}
+\index{setName@{setName}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+set\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a5fda12e222b4f1ee1560a40653ac623f}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a5fda12e222b4f1ee1560a40653ac623f}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!setShortestUniqueAbbreviation@{setShortestUniqueAbbreviation}}
+\index{setShortestUniqueAbbreviation@{setShortestUniqueAbbreviation}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{setShortestUniqueAbbreviation()}{setShortestUniqueAbbreviation()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+set\+Shortest\+Unique\+Abbreviation (\begin{DoxyParamCaption}\item[{String}]{shortest\+Unique\+Abbreviation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ac5b07579b4c2b479116ae981c1f4de18}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ac5b07579b4c2b479116ae981c1f4de18}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!shortestUniqueAbbreviationProperty@{shortestUniqueAbbreviationProperty}}
+\index{shortestUniqueAbbreviationProperty@{shortestUniqueAbbreviationProperty}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{shortestUniqueAbbreviationProperty()}{shortestUniqueAbbreviationProperty()}}
+{\footnotesize\ttfamily String\+Property org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+shortest\+Unique\+Abbreviation\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ae5a91f8d8ceffd450b274fab18634086}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ae5a91f8d8ceffd450b274fab18634086}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!abbreviation@{abbreviation}}
+\index{abbreviation@{abbreviation}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{abbreviation}{abbreviation}}
+{\footnotesize\ttfamily final String\+Property org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+abbreviation = new Simple\+String\+Property(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab7da4ef476699540b62d02f20793feaa}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab7da4ef476699540b62d02f20793feaa}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!name@{name}}
+\index{name@{name}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily final String\+Property org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+name = new Simple\+String\+Property(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab252ff8164c83fe583db0522273a7c14}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_ab252ff8164c83fe583db0522273a7c14}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!pseudoAbbreviation@{pseudoAbbreviation}}
+\index{pseudoAbbreviation@{pseudoAbbreviation}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{pseudoAbbreviation}{pseudoAbbreviation}}
+{\footnotesize\ttfamily final Boolean\+Property org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+pseudo\+Abbreviation = new Simple\+Boolean\+Property()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a46fe8bf4a79e20f659ddabb0126cd602}\label{classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model_a46fe8bf4a79e20f659ddabb0126cd602}} 
+\index{org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}!shortestUniqueAbbreviation@{shortestUniqueAbbreviation}}
+\index{shortestUniqueAbbreviation@{shortestUniqueAbbreviation}!org.jabref.gui.journals.AbbreviationViewModel@{org.jabref.gui.journals.AbbreviationViewModel}}
+\doxysubsubsection{\texorpdfstring{shortestUniqueAbbreviation}{shortestUniqueAbbreviation}}
+{\footnotesize\ttfamily final String\+Property org.\+jabref.\+gui.\+journals.\+Abbreviation\+View\+Model.\+shortest\+Unique\+Abbreviation = new Simple\+String\+Property(\char`\"{}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/journals/\mbox{\hyperlink{_abbreviation_view_model_8java}{Abbreviation\+View\+Model.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,105 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner}{}\doxysection{org.\+jabref.\+logic.\+util.\+io.\+File\+Name\+Cleaner Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner}\index{org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_ad36e663628384bd424b864e624f73913}{clean\+File\+Name}} (String bad\+File\+Name)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_a5f50aa9f4fd24fc7438072bbd6ea8fdb}{clean\+Directory\+Name}} (String bad\+File\+Name)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_a0baf6fe4854022e57e39c30310d435a0}{File\+Name\+Cleaner}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_af8ce53350bfd0499a3a77aad238ab601}{is\+Char\+Legal}} (char c)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_ae3e73c401f731fe3357d9e5ca4911661}{I\+L\+L\+E\+G\+A\+L\+\_\+\+C\+H\+A\+RS}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class is based on \href{http://stackoverflow.com/a/5626340/873282}{\texttt{ http\+://stackoverflow.\+com/a/5626340/873282}} extended with L\+E\+FT C\+U\+R\+LY B\+R\+A\+CE and R\+I\+G\+HT C\+U\+R\+LY B\+R\+A\+CE Replaces illegal characters in given file paths. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_a0baf6fe4854022e57e39c30310d435a0}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_a0baf6fe4854022e57e39c30310d435a0}} 
+\index{org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}!FileNameCleaner@{FileNameCleaner}}
+\index{FileNameCleaner@{FileNameCleaner}!org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}}
+\doxysubsubsection{\texorpdfstring{FileNameCleaner()}{FileNameCleaner()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+util.\+io.\+File\+Name\+Cleaner.\+File\+Name\+Cleaner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_a5f50aa9f4fd24fc7438072bbd6ea8fdb}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_a5f50aa9f4fd24fc7438072bbd6ea8fdb}} 
+\index{org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}!cleanDirectoryName@{cleanDirectoryName}}
+\index{cleanDirectoryName@{cleanDirectoryName}!org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}}
+\doxysubsubsection{\texorpdfstring{cleanDirectoryName()}{cleanDirectoryName()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+util.\+io.\+File\+Name\+Cleaner.\+clean\+Directory\+Name (\begin{DoxyParamCaption}\item[{String}]{bad\+File\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Replaces illegal characters in given directory\+Name by \textquotesingle{}\+\_\+\textquotesingle{}. Directory name may contain directory separators, e.\+g. \textquotesingle{}deep/in/a/tree\textquotesingle{}; these are left untouched.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bad\+File\+Name} & the file\+Name to clean \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a clean filename 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_ad36e663628384bd424b864e624f73913}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_ad36e663628384bd424b864e624f73913}} 
+\index{org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}!cleanFileName@{cleanFileName}}
+\index{cleanFileName@{cleanFileName}!org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}}
+\doxysubsubsection{\texorpdfstring{cleanFileName()}{cleanFileName()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+util.\+io.\+File\+Name\+Cleaner.\+clean\+File\+Name (\begin{DoxyParamCaption}\item[{String}]{bad\+File\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Replaces illegal characters in given file\+Name by \textquotesingle{}\+\_\+\textquotesingle{}
+
+
+\begin{DoxyParams}{Parameters}
+{\em bad\+File\+Name} & the file\+Name to clean \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a clean filename 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_af8ce53350bfd0499a3a77aad238ab601}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_af8ce53350bfd0499a3a77aad238ab601}} 
+\index{org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}!isCharLegal@{isCharLegal}}
+\index{isCharLegal@{isCharLegal}!org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}}
+\doxysubsubsection{\texorpdfstring{isCharLegal()}{isCharLegal()}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+logic.\+util.\+io.\+File\+Name\+Cleaner.\+is\+Char\+Legal (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_ae3e73c401f731fe3357d9e5ca4911661}\label{classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_name_cleaner_ae3e73c401f731fe3357d9e5ca4911661}} 
+\index{org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}!ILLEGAL\_CHARS@{ILLEGAL\_CHARS}}
+\index{ILLEGAL\_CHARS@{ILLEGAL\_CHARS}!org.jabref.logic.util.io.FileNameCleaner@{org.jabref.logic.util.io.FileNameCleaner}}
+\doxysubsubsection{\texorpdfstring{ILLEGAL\_CHARS}{ILLEGAL\_CHARS}}
+{\footnotesize\ttfamily final int \mbox{[}$\,$\mbox{]} org.\+jabref.\+logic.\+util.\+io.\+File\+Name\+Cleaner.\+I\+L\+L\+E\+G\+A\+L\+\_\+\+C\+H\+A\+RS\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{            0, 1, 2, 3, 4, 5, 6, 7, 8, 9,}
+\DoxyCodeLine{            10, 11, 12, 13, 14, 15, 16, 17, 18, 19,}
+\DoxyCodeLine{            20, 21, 22, 23, 24, 25, 26, 27, 28, 29,}
+\DoxyCodeLine{            30, 31, 34,}
+\DoxyCodeLine{            42,}
+\DoxyCodeLine{            58,}
+\DoxyCodeLine{            60, 62, 63,}
+\DoxyCodeLine{            123, 124, 125}
+\DoxyCodeLine{    \}}
+
+\end{DoxyCode}
+M\+U\+ST A\+L\+W\+A\+YS BE A S\+O\+R\+T\+ED A\+R\+R\+AY because it is used in a binary search 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/util/io/\mbox{\hyperlink{_file_name_cleaner_8java}{File\+Name\+Cleaner.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,123 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser}\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a498c299791375f3d2947662a8fae9ff0}{parse\+Entries}} (Input\+Stream input\+Stream)  throws Parse\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_af7e5ab660001f583e7ba010df5167268}{append\+Data}} (String data, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry, Pattern pattern, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_ab92e463c3e7682fda88603dfe07c0571}{D\+OI}} = Pattern.\+compile(\char`\"{}\%3Fdoi\%3\mbox{\hyperlink{_ovid_importer_test4_8txt_ae1d94665d939ffc3d8ec44c12dde5cde}{D}}(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a68881e47d2cc37fd54bae49d3414147c}{T\+I\+T\+LE}} = Pattern.\+compile(\char`\"{}\&amp;rft.\+atitle=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a8a768d0275caa9da8b5fbac27679596f}{J\+O\+U\+R\+N\+AL}} = Pattern.\+compile(\char`\"{}\&amp;rft.\+jtitle=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a57f213979f24fe2db8ac1758f9323975}{Y\+E\+AR}} = Pattern.\+compile(\char`\"{}\&amp;rft.\+date=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_af8dd3a095dad2c643e8deb2a59e1be2b}{V\+O\+L\+U\+ME}} = Pattern.\+compile(\char`\"{}\&amp;rft.\+volume=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a7ef5c30ce6bad54952ddeab08a71348d}{P\+A\+G\+ES}} = Pattern.\+compile(\char`\"{}\&amp;rft.\+pages=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a87a1b92ae69500f162adaab3a52d5a99}{I\+S\+S\+UE}} = Pattern.\+compile(\char`\"{}\&amp;rft.\+issue=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a60febc65594f19b35c015173e42b2d6f}{T\+Y\+PE}} = Pattern.\+compile(\char`\"{}\&amp;rft.\+genre=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})
+\item 
+final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a0c2299e999f0fe2c1315e82e4e6c2894}{A\+U\+T\+H\+OR}} = Pattern.\+compile(\char`\"{}\&amp;rft.\+au=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+@impl\+Note implemented by reverse-\/engineering \href{https://github.com/SeerLabs/CiteSeerX/blob/4df28a98083be2829ec4c56ebbac09eb7772d379/src/java/edu/psu/citeseerx/domain/BiblioTransformer.java\#L155-L249}{\texttt{ the implementation by Cite\+SeerX}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_af7e5ab660001f583e7ba010df5167268}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_af7e5ab660001f583e7ba010df5167268}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!appendData@{appendData}}
+\index{appendData@{appendData}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{appendData()}{appendData()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+append\+Data (\begin{DoxyParamCaption}\item[{String}]{data,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry,  }\item[{Pattern}]{pattern,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a498c299791375f3d2947662a8fae9ff0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a498c299791375f3d2947662a8fae9ff0}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!parseEntries@{parseEntries}}
+\index{parseEntries@{parseEntries}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{parseEntries()}{parseEntries()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+parse\+Entries (\begin{DoxyParamCaption}\item[{Input\+Stream}]{input\+Stream }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parse_exception}{Parse\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser_a312894889d2471fa83ac28799524c3b2}{org.\+jabref.\+logic.\+importer.\+Parser}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a0c2299e999f0fe2c1315e82e4e6c2894}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a0c2299e999f0fe2c1315e82e4e6c2894}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!AUTHOR@{AUTHOR}}
+\index{AUTHOR@{AUTHOR}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{AUTHOR}{AUTHOR}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+A\+U\+T\+H\+OR = Pattern.\+compile(\char`\"{}\&amp;rft.\+au=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_ab92e463c3e7682fda88603dfe07c0571}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_ab92e463c3e7682fda88603dfe07c0571}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!DOI@{DOI}}
+\index{DOI@{DOI}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{DOI}{DOI}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+D\+OI = Pattern.\+compile(\char`\"{}\%3Fdoi\%3\mbox{\hyperlink{_ovid_importer_test4_8txt_ae1d94665d939ffc3d8ec44c12dde5cde}{D}}(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a87a1b92ae69500f162adaab3a52d5a99}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a87a1b92ae69500f162adaab3a52d5a99}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!ISSUE@{ISSUE}}
+\index{ISSUE@{ISSUE}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{ISSUE}{ISSUE}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+I\+S\+S\+UE = Pattern.\+compile(\char`\"{}\&amp;rft.\+issue=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a8a768d0275caa9da8b5fbac27679596f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a8a768d0275caa9da8b5fbac27679596f}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!JOURNAL@{JOURNAL}}
+\index{JOURNAL@{JOURNAL}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{JOURNAL}{JOURNAL}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+J\+O\+U\+R\+N\+AL = Pattern.\+compile(\char`\"{}\&amp;rft.\+jtitle=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a7ef5c30ce6bad54952ddeab08a71348d}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a7ef5c30ce6bad54952ddeab08a71348d}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!PAGES@{PAGES}}
+\index{PAGES@{PAGES}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{PAGES}{PAGES}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+P\+A\+G\+ES = Pattern.\+compile(\char`\"{}\&amp;rft.\+pages=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a68881e47d2cc37fd54bae49d3414147c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a68881e47d2cc37fd54bae49d3414147c}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!TITLE@{TITLE}}
+\index{TITLE@{TITLE}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{TITLE}{TITLE}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+T\+I\+T\+LE = Pattern.\+compile(\char`\"{}\&amp;rft.\+atitle=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a60febc65594f19b35c015173e42b2d6f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a60febc65594f19b35c015173e42b2d6f}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!TYPE@{TYPE}}
+\index{TYPE@{TYPE}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{TYPE}{TYPE}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+T\+Y\+PE = Pattern.\+compile(\char`\"{}\&amp;rft.\+genre=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_af8dd3a095dad2c643e8deb2a59e1be2b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_af8dd3a095dad2c643e8deb2a59e1be2b}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!VOLUME@{VOLUME}}
+\index{VOLUME@{VOLUME}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{VOLUME}{VOLUME}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+V\+O\+L\+U\+ME = Pattern.\+compile(\char`\"{}\&amp;rft.\+volume=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a57f213979f24fe2db8ac1758f9323975}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser_a57f213979f24fe2db8ac1758f9323975}} 
+\index{org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}!YEAR@{YEAR}}
+\index{YEAR@{YEAR}!org.jabref.logic.importer.fileformat.CoinsParser@{org.jabref.logic.importer.fileformat.CoinsParser}}
+\doxysubsubsection{\texorpdfstring{YEAR}{YEAR}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Coins\+Parser.\+Y\+E\+AR = Pattern.\+compile(\char`\"{}\&amp;rft.\+date=(\mbox{[}$^\wedge$\&\mbox{]}+)\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fileformat/\mbox{\hyperlink{_coins_parser_8java}{Coins\+Parser.\+java}}\end{DoxyCompactItemize}

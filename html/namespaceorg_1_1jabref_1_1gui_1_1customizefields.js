@@ -1,0 +1,6 @@
+var namespaceorg_1_1jabref_1_1gui_1_1customizefields =
+[
+    [ "CustomizeGeneralFieldsDialogView", "classorg_1_1jabref_1_1gui_1_1customizefields_1_1_customize_general_fields_dialog_view.html", "classorg_1_1jabref_1_1gui_1_1customizefields_1_1_customize_general_fields_dialog_view" ],
+    [ "CustomizeGeneralFieldsDialogViewModel", "classorg_1_1jabref_1_1gui_1_1customizefields_1_1_customize_general_fields_dialog_view_model.html", "classorg_1_1jabref_1_1gui_1_1customizefields_1_1_customize_general_fields_dialog_view_model" ],
+    [ "SetupGeneralFieldsAction", "classorg_1_1jabref_1_1gui_1_1customizefields_1_1_setup_general_fields_action.html", "classorg_1_1jabref_1_1gui_1_1customizefields_1_1_setup_general_fields_action" ]
+];

@@ -1,0 +1,173 @@
+\hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule}{}\doxysection{org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule Class Reference}
+\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule}\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+Inheritance diagram for org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Bibtex\+Search\+Visitor}
+\item 
+class \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparator}{Comparator}}
+\item 
+enum \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparison_operator}{Comparison\+Operator}}
+\item 
+class \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_throwing_error_listener}{Throwing\+Error\+Listener}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_ab69dc77db5d393ee54064b1e20424a2b}{Grammar\+Based\+Search\+Rule}} (boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a18cdf57895e52e81525baaddd60bc466}{case\+Sensitive\+Search}}, boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a1c698271610fd1bff74335b2696cd095}{reg\+Exp\+Search}})  throws Recognition\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_ad4403786da7e0bc0da22bdb2d27f4939}{is\+Case\+Sensitive\+Search}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_af1360257189b31da2f86a6d7bd28f8a0}{is\+Reg\+Exp\+Search}} ()
+\item 
+Parse\+Tree \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a3f295859764e720bb88f6f1c5de35962}{get\+Tree}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a5cad3ec7b9fc4e04d64a9eabc37ba39d}{get\+Query}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a2a661b28574828aa55b33c60bd30dde1}{apply\+Rule}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a0df3a3177bb2be4edd3fb6ef5ffe2e2c}{query}}, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} bib\+Entry)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_aa02e051ad05b565e82d7e8566466a878}{validate\+Search\+Strings}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a0df3a3177bb2be4edd3fb6ef5ffe2e2c}{query}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a9b13338e761e2dbf701ec40e8fa4cea7}{is\+Valid}} (boolean case\+Sensitive, boolean reg\+Exp, String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a0df3a3177bb2be4edd3fb6ef5ffe2e2c}{query}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a7cbd829c03b3000ebeaeb5ee2d2e9b16}{init}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a0df3a3177bb2be4edd3fb6ef5ffe2e2c}{query}})  throws Parse\+Cancellation\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a18cdf57895e52e81525baaddd60bc466}{case\+Sensitive\+Search}}
+\item 
+final boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a1c698271610fd1bff74335b2696cd095}{reg\+Exp\+Search}}
+\item 
+Parse\+Tree \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_ae5ad7bcca65ed93c9ade9f397320c84d}{tree}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a0df3a3177bb2be4edd3fb6ef5ffe2e2c}{query}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a4f19de8d0ef2580d797e25d4c9486655}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Grammar\+Based\+Search\+Rule.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The search query must be specified in an expression that is acceptable by the Search.\+g4 grammar. 
+
+This class implements the \char`\"{}\+Advanced Search Mode\char`\"{} described in the help 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_ab69dc77db5d393ee54064b1e20424a2b}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_ab69dc77db5d393ee54064b1e20424a2b}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!GrammarBasedSearchRule@{GrammarBasedSearchRule}}
+\index{GrammarBasedSearchRule@{GrammarBasedSearchRule}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{GrammarBasedSearchRule()}{GrammarBasedSearchRule()}}
+{\footnotesize\ttfamily org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+Grammar\+Based\+Search\+Rule (\begin{DoxyParamCaption}\item[{boolean}]{case\+Sensitive\+Search,  }\item[{boolean}]{reg\+Exp\+Search }\end{DoxyParamCaption}) throws Recognition\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a2a661b28574828aa55b33c60bd30dde1}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a2a661b28574828aa55b33c60bd30dde1}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!applyRule@{applyRule}}
+\index{applyRule@{applyRule}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{applyRule()}{applyRule()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+apply\+Rule (\begin{DoxyParamCaption}\item[{String}]{query,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{bib\+Entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_search_rule_a6e88442632441f680d8319f252c94c49}{org.\+jabref.\+model.\+search.\+rules.\+Search\+Rule}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a5cad3ec7b9fc4e04d64a9eabc37ba39d}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a5cad3ec7b9fc4e04d64a9eabc37ba39d}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!getQuery@{getQuery}}
+\index{getQuery@{getQuery}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{getQuery()}{getQuery()}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+get\+Query (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a3f295859764e720bb88f6f1c5de35962}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a3f295859764e720bb88f6f1c5de35962}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!getTree@{getTree}}
+\index{getTree@{getTree}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{getTree()}{getTree()}}
+{\footnotesize\ttfamily Parse\+Tree org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+get\+Tree (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a7cbd829c03b3000ebeaeb5ee2d2e9b16}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a7cbd829c03b3000ebeaeb5ee2d2e9b16}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!init@{init}}
+\index{init@{init}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+init (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption}) throws Parse\+Cancellation\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_ad4403786da7e0bc0da22bdb2d27f4939}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_ad4403786da7e0bc0da22bdb2d27f4939}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!isCaseSensitiveSearch@{isCaseSensitiveSearch}}
+\index{isCaseSensitiveSearch@{isCaseSensitiveSearch}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{isCaseSensitiveSearch()}{isCaseSensitiveSearch()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+is\+Case\+Sensitive\+Search (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_af1360257189b31da2f86a6d7bd28f8a0}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_af1360257189b31da2f86a6d7bd28f8a0}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!isRegExpSearch@{isRegExpSearch}}
+\index{isRegExpSearch@{isRegExpSearch}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{isRegExpSearch()}{isRegExpSearch()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+is\+Reg\+Exp\+Search (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a9b13338e761e2dbf701ec40e8fa4cea7}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a9b13338e761e2dbf701ec40e8fa4cea7}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!isValid@{isValid}}
+\index{isValid@{isValid}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{isValid()}{isValid()}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+is\+Valid (\begin{DoxyParamCaption}\item[{boolean}]{case\+Sensitive,  }\item[{boolean}]{reg\+Exp,  }\item[{String}]{query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_aa02e051ad05b565e82d7e8566466a878}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_aa02e051ad05b565e82d7e8566466a878}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!validateSearchStrings@{validateSearchStrings}}
+\index{validateSearchStrings@{validateSearchStrings}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{validateSearchStrings()}{validateSearchStrings()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+validate\+Search\+Strings (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_search_rule_a9eedafd5b53ef6130a7c31bfddd5f9be}{org.\+jabref.\+model.\+search.\+rules.\+Search\+Rule}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a18cdf57895e52e81525baaddd60bc466}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a18cdf57895e52e81525baaddd60bc466}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!caseSensitiveSearch@{caseSensitiveSearch}}
+\index{caseSensitiveSearch@{caseSensitiveSearch}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{caseSensitiveSearch}{caseSensitiveSearch}}
+{\footnotesize\ttfamily final boolean org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+case\+Sensitive\+Search\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a4f19de8d0ef2580d797e25d4c9486655}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a4f19de8d0ef2580d797e25d4c9486655}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Grammar\+Based\+Search\+Rule.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a0df3a3177bb2be4edd3fb6ef5ffe2e2c}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a0df3a3177bb2be4edd3fb6ef5ffe2e2c}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!query@{query}}
+\index{query@{query}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{query}{query}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+query\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a1c698271610fd1bff74335b2696cd095}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_a1c698271610fd1bff74335b2696cd095}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!regExpSearch@{regExpSearch}}
+\index{regExpSearch@{regExpSearch}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{regExpSearch}{regExpSearch}}
+{\footnotesize\ttfamily final boolean org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+reg\+Exp\+Search\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_ae5ad7bcca65ed93c9ade9f397320c84d}\label{classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_ae5ad7bcca65ed93c9ade9f397320c84d}} 
+\index{org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}!tree@{tree}}
+\index{tree@{tree}!org.jabref.model.search.rules.GrammarBasedSearchRule@{org.jabref.model.search.rules.GrammarBasedSearchRule}}
+\doxysubsubsection{\texorpdfstring{tree}{tree}}
+{\footnotesize\ttfamily Parse\+Tree org.\+jabref.\+model.\+search.\+rules.\+Grammar\+Based\+Search\+Rule.\+tree\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/model/search/rules/\mbox{\hyperlink{_grammar_based_search_rule_8java}{Grammar\+Based\+Search\+Rule.\+java}}\end{DoxyCompactItemize}

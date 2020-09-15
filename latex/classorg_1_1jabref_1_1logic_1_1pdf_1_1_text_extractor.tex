@@ -1,0 +1,93 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor}{}\doxysection{org.\+jabref.\+logic.\+pdf.\+Text\+Extractor Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor}\index{org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_a460a601ac5cae309ac4bca842e76c8d7}{Text\+Extractor}} (P\+D\+Page \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aabc3c693027ce9c69137646a0c20612c}{page}}, C\+O\+S\+Array \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aa24fa495a3524020b02cbb1c38a8fdfc}{bounding\+Boxes}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_a70c785b5e6441de06dbdfd420eb522eb}{extract\+Marked\+Text}} ()  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Rectangle2D \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aadfd89dfa5ee9e5d9b4f2b13382ddb29}{calculate\+Segment\+Bounding\+Box}} (C\+O\+S\+Array quads\+Array, int segment\+Pointer)
+\item 
+float \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_a26159b0ed0ad29042dfe617260b97c76}{to\+Float}} (Object cos\+Number)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final C\+O\+S\+Array \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aa24fa495a3524020b02cbb1c38a8fdfc}{bounding\+Boxes}}
+\item 
+final P\+D\+Page \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aabc3c693027ce9c69137646a0c20612c}{page}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Extracts the text of marked annotations using bounding boxes. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_a460a601ac5cae309ac4bca842e76c8d7}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_a460a601ac5cae309ac4bca842e76c8d7}} 
+\index{org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}!TextExtractor@{TextExtractor}}
+\index{TextExtractor@{TextExtractor}!org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}}
+\doxysubsubsection{\texorpdfstring{TextExtractor()}{TextExtractor()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+pdf.\+Text\+Extractor.\+Text\+Extractor (\begin{DoxyParamCaption}\item[{P\+D\+Page}]{page,  }\item[{C\+O\+S\+Array}]{bounding\+Boxes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em page} & the page the annotation is on, must not be null \\
+\hline
+{\em bounding\+Boxes} & the raw annotation, must not be null \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aadfd89dfa5ee9e5d9b4f2b13382ddb29}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aadfd89dfa5ee9e5d9b4f2b13382ddb29}} 
+\index{org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}!calculateSegmentBoundingBox@{calculateSegmentBoundingBox}}
+\index{calculateSegmentBoundingBox@{calculateSegmentBoundingBox}!org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}}
+\doxysubsubsection{\texorpdfstring{calculateSegmentBoundingBox()}{calculateSegmentBoundingBox()}}
+{\footnotesize\ttfamily Rectangle2D org.\+jabref.\+logic.\+pdf.\+Text\+Extractor.\+calculate\+Segment\+Bounding\+Box (\begin{DoxyParamCaption}\item[{C\+O\+S\+Array}]{quads\+Array,  }\item[{int}]{segment\+Pointer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_a70c785b5e6441de06dbdfd420eb522eb}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_a70c785b5e6441de06dbdfd420eb522eb}} 
+\index{org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}!extractMarkedText@{extractMarkedText}}
+\index{extractMarkedText@{extractMarkedText}!org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}}
+\doxysubsubsection{\texorpdfstring{extractMarkedText()}{extractMarkedText()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+pdf.\+Text\+Extractor.\+extract\+Marked\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Extracts the text of a marked annotation such as highlights, underlines, strikeouts etc.
+
+\begin{DoxyReturn}{Returns}
+The text of the annotation 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & If the P\+D\+F\+Text\+Stripper\+By\+Area fails to initialize. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_a26159b0ed0ad29042dfe617260b97c76}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_a26159b0ed0ad29042dfe617260b97c76}} 
+\index{org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}!toFloat@{toFloat}}
+\index{toFloat@{toFloat}!org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}}
+\doxysubsubsection{\texorpdfstring{toFloat()}{toFloat()}}
+{\footnotesize\ttfamily float org.\+jabref.\+logic.\+pdf.\+Text\+Extractor.\+to\+Float (\begin{DoxyParamCaption}\item[{Object}]{cos\+Number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aa24fa495a3524020b02cbb1c38a8fdfc}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aa24fa495a3524020b02cbb1c38a8fdfc}} 
+\index{org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}!boundingBoxes@{boundingBoxes}}
+\index{boundingBoxes@{boundingBoxes}!org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}}
+\doxysubsubsection{\texorpdfstring{boundingBoxes}{boundingBoxes}}
+{\footnotesize\ttfamily final C\+O\+S\+Array org.\+jabref.\+logic.\+pdf.\+Text\+Extractor.\+bounding\+Boxes\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aabc3c693027ce9c69137646a0c20612c}\label{classorg_1_1jabref_1_1logic_1_1pdf_1_1_text_extractor_aabc3c693027ce9c69137646a0c20612c}} 
+\index{org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}!page@{page}}
+\index{page@{page}!org.jabref.logic.pdf.TextExtractor@{org.jabref.logic.pdf.TextExtractor}}
+\doxysubsubsection{\texorpdfstring{page}{page}}
+{\footnotesize\ttfamily final P\+D\+Page org.\+jabref.\+logic.\+pdf.\+Text\+Extractor.\+page\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/pdf/\mbox{\hyperlink{_text_extractor_8java}{Text\+Extractor.\+java}}\end{DoxyCompactItemize}

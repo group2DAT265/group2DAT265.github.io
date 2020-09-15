@@ -1,0 +1,254 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view}{}\doxysection{org.\+jabref.\+gui.\+Entry\+Type\+View Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view}\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+Inheritance diagram for org.\+jabref.\+gui.\+Entry\+Type\+View\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1gui_1_1_entry_type_view}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a80b779795276ee3cb43fffa84c23aebb}{Entry\+Type\+View}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a9bac659f68e4287077838373c678cd12}{base\+Panel}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a34cb925841c2a82f2c988d478714dc97}{dialog\+Service}}, \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} preferences)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_afff3e323733fbca2f73fdb9e80dd39ae}{initialize}} ()
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ab5420ae99a5d41fdc687ba561d1a435b}{get\+Choice}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a348ba491feefda920920664d52172a6c}{get\+Description}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} selected\+Type)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ab2ee05faea0443ccdcc1af03d3a315f9}{add\+Entries\+To\+Pane}} (Flow\+Pane pane, \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$? extends \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type}{Bib\+Entry\+Type}} $>$ entries)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ae69e4cb5a364a7bf825ada96c8c43b54}{run\+Fetcher\+Worker}} (Event event)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a5f2dbddb1c43686eed276879eeb812c8}{focus\+Text\+Field}} (Event event)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a71eb2115e699a3b262e00f90530e6498}{set\+Entry\+Type\+For\+Return\+And\+Close}} (Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type}{Bib\+Entry\+Type}} $>$ entry\+Type)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Button\+Type \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a470cde9125d51496a0206bdad5445966}{generate\+Button}}
+\item 
+Text\+Field \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a42416bc578d9a9cffed9231e114bdba6}{id\+Text\+Field}}
+\item 
+Combo\+Box$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a4363731e90c2e29aa2418ad528fc3d85}{id\+Based\+Fetchers}}
+\item 
+Flow\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a17bf8af80ffc3f2610b9a4625f9093c8}{biblatex\+Pane}}
+\item 
+Flow\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a2020ade8eb595d615249cc6105bf0aea}{bib\+Tex\+Pane}}
+\item 
+Flow\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a1cdd62e41deb424a058fed4bdab71414}{ieeetran\+Pane}}
+\item 
+Flow\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a6c41c27f40dfa9a31a74dc87e9710ea8}{custom\+Pane}}
+\item 
+Flow\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a51b3652ce3f05022259db57f3af8e2dd}{biblatex\+Software\+Pane}}
+\item 
+Titled\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_aa6a29d10d4fc61a6c817d0145283ccb2}{biblatex\+Title\+Pane}}
+\item 
+Titled\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ae8a94173e34bad5ef4def01978aeb373}{bib\+Tex\+Title\+Pane}}
+\item 
+Titled\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a2ebee53e18205b22f978e8e8f8c8c46b}{ieee\+Tran\+Title\+Pane}}
+\item 
+Titled\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a0685a6100190ddaeb324c026ae444d1b}{custom\+Title\+Pane}}
+\item 
+Titled\+Pane \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a03d6b3df9ae1e37806bc19a928c5911d}{biblatex\+Software\+Title\+Pane}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a9bac659f68e4287077838373c678cd12}{base\+Panel}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a34cb925841c2a82f2c988d478714dc97}{dialog\+Service}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_abc69993478efd6d490eac8840f6355ef}{prefs}}
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a2bbb8c9622a247604810f70c1c9f3be4}{type}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model}{Entry\+Type\+View\+Model}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_adf2125efe0f45a332fb274cdc1da3dae}{view\+Model}}
+\item 
+final Controls\+Fx\+Visualizer \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a209eb5ba79e5ca8eba0805fae98a1073}{visualizer}} = new Controls\+Fx\+Visualizer()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog}{Dialog}} that prompts the user to choose a type for an entry. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a80b779795276ee3cb43fffa84c23aebb}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a80b779795276ee3cb43fffa84c23aebb}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!EntryTypeView@{EntryTypeView}}
+\index{EntryTypeView@{EntryTypeView}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{EntryTypeView()}{EntryTypeView()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+Entry\+Type\+View.\+Entry\+Type\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}}}]{base\+Panel,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ab2ee05faea0443ccdcc1af03d3a315f9}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ab2ee05faea0443ccdcc1af03d3a315f9}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!addEntriesToPane@{addEntriesToPane}}
+\index{addEntriesToPane@{addEntriesToPane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{addEntriesToPane()}{addEntriesToPane()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Entry\+Type\+View.\+add\+Entries\+To\+Pane (\begin{DoxyParamCaption}\item[{Flow\+Pane}]{pane,  }\item[{\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$? extends \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type}{Bib\+Entry\+Type}} $>$}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a5f2dbddb1c43686eed276879eeb812c8}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a5f2dbddb1c43686eed276879eeb812c8}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!focusTextField@{focusTextField}}
+\index{focusTextField@{focusTextField}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{focusTextField()}{focusTextField()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Entry\+Type\+View.\+focus\+Text\+Field (\begin{DoxyParamCaption}\item[{Event}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ab5420ae99a5d41fdc687ba561d1a435b}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ab5420ae99a5d41fdc687ba561d1a435b}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!getChoice@{getChoice}}
+\index{getChoice@{getChoice}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{getChoice()}{getChoice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} org.\+jabref.\+gui.\+Entry\+Type\+View.\+get\+Choice (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a348ba491feefda920920664d52172a6c}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a348ba491feefda920920664d52172a6c}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+gui.\+Entry\+Type\+View.\+get\+Description (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}}}]{selected\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+The description is originating from biblatex manual chapter 2 Biblatex documentation is favored over the bibtex, since bibtex is a subset of biblatex and biblatex is better documented. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_afff3e323733fbca2f73fdb9e80dd39ae}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_afff3e323733fbca2f73fdb9e80dd39ae}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!initialize@{initialize}}
+\index{initialize@{initialize}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Entry\+Type\+View.\+initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ae69e4cb5a364a7bf825ada96c8c43b54}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ae69e4cb5a364a7bf825ada96c8c43b54}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!runFetcherWorker@{runFetcherWorker}}
+\index{runFetcherWorker@{runFetcherWorker}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{runFetcherWorker()}{runFetcherWorker()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Entry\+Type\+View.\+run\+Fetcher\+Worker (\begin{DoxyParamCaption}\item[{Event}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a71eb2115e699a3b262e00f90530e6498}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a71eb2115e699a3b262e00f90530e6498}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!setEntryTypeForReturnAndClose@{setEntryTypeForReturnAndClose}}
+\index{setEntryTypeForReturnAndClose@{setEntryTypeForReturnAndClose}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{setEntryTypeForReturnAndClose()}{setEntryTypeForReturnAndClose()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Entry\+Type\+View.\+set\+Entry\+Type\+For\+Return\+And\+Close (\begin{DoxyParamCaption}\item[{Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type}{Bib\+Entry\+Type}} $>$}]{entry\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a9bac659f68e4287077838373c678cd12}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a9bac659f68e4287077838373c678cd12}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!basePanel@{basePanel}}
+\index{basePanel@{basePanel}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{basePanel}{basePanel}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} org.\+jabref.\+gui.\+Entry\+Type\+View.\+base\+Panel\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a17bf8af80ffc3f2610b9a4625f9093c8}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a17bf8af80ffc3f2610b9a4625f9093c8}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!biblatexPane@{biblatexPane}}
+\index{biblatexPane@{biblatexPane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{biblatexPane}{biblatexPane}}
+{\footnotesize\ttfamily Flow\+Pane org.\+jabref.\+gui.\+Entry\+Type\+View.\+biblatex\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a51b3652ce3f05022259db57f3af8e2dd}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a51b3652ce3f05022259db57f3af8e2dd}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!biblatexSoftwarePane@{biblatexSoftwarePane}}
+\index{biblatexSoftwarePane@{biblatexSoftwarePane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{biblatexSoftwarePane}{biblatexSoftwarePane}}
+{\footnotesize\ttfamily Flow\+Pane org.\+jabref.\+gui.\+Entry\+Type\+View.\+biblatex\+Software\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a03d6b3df9ae1e37806bc19a928c5911d}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a03d6b3df9ae1e37806bc19a928c5911d}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!biblatexSoftwareTitlePane@{biblatexSoftwareTitlePane}}
+\index{biblatexSoftwareTitlePane@{biblatexSoftwareTitlePane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{biblatexSoftwareTitlePane}{biblatexSoftwareTitlePane}}
+{\footnotesize\ttfamily Titled\+Pane org.\+jabref.\+gui.\+Entry\+Type\+View.\+biblatex\+Software\+Title\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_aa6a29d10d4fc61a6c817d0145283ccb2}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_aa6a29d10d4fc61a6c817d0145283ccb2}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!biblatexTitlePane@{biblatexTitlePane}}
+\index{biblatexTitlePane@{biblatexTitlePane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{biblatexTitlePane}{biblatexTitlePane}}
+{\footnotesize\ttfamily Titled\+Pane org.\+jabref.\+gui.\+Entry\+Type\+View.\+biblatex\+Title\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a2020ade8eb595d615249cc6105bf0aea}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a2020ade8eb595d615249cc6105bf0aea}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!bibTexPane@{bibTexPane}}
+\index{bibTexPane@{bibTexPane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{bibTexPane}{bibTexPane}}
+{\footnotesize\ttfamily Flow\+Pane org.\+jabref.\+gui.\+Entry\+Type\+View.\+bib\+Tex\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ae8a94173e34bad5ef4def01978aeb373}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_ae8a94173e34bad5ef4def01978aeb373}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!bibTexTitlePane@{bibTexTitlePane}}
+\index{bibTexTitlePane@{bibTexTitlePane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{bibTexTitlePane}{bibTexTitlePane}}
+{\footnotesize\ttfamily Titled\+Pane org.\+jabref.\+gui.\+Entry\+Type\+View.\+bib\+Tex\+Title\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a6c41c27f40dfa9a31a74dc87e9710ea8}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a6c41c27f40dfa9a31a74dc87e9710ea8}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!customPane@{customPane}}
+\index{customPane@{customPane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{customPane}{customPane}}
+{\footnotesize\ttfamily Flow\+Pane org.\+jabref.\+gui.\+Entry\+Type\+View.\+custom\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a0685a6100190ddaeb324c026ae444d1b}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a0685a6100190ddaeb324c026ae444d1b}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!customTitlePane@{customTitlePane}}
+\index{customTitlePane@{customTitlePane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{customTitlePane}{customTitlePane}}
+{\footnotesize\ttfamily Titled\+Pane org.\+jabref.\+gui.\+Entry\+Type\+View.\+custom\+Title\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a34cb925841c2a82f2c988d478714dc97}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a34cb925841c2a82f2c988d478714dc97}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+Entry\+Type\+View.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a470cde9125d51496a0206bdad5445966}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a470cde9125d51496a0206bdad5445966}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!generateButton@{generateButton}}
+\index{generateButton@{generateButton}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{generateButton}{generateButton}}
+{\footnotesize\ttfamily Button\+Type org.\+jabref.\+gui.\+Entry\+Type\+View.\+generate\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a4363731e90c2e29aa2418ad528fc3d85}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a4363731e90c2e29aa2418ad528fc3d85}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!idBasedFetchers@{idBasedFetchers}}
+\index{idBasedFetchers@{idBasedFetchers}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{idBasedFetchers}{idBasedFetchers}}
+{\footnotesize\ttfamily Combo\+Box$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}}$>$ org.\+jabref.\+gui.\+Entry\+Type\+View.\+id\+Based\+Fetchers\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a42416bc578d9a9cffed9231e114bdba6}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a42416bc578d9a9cffed9231e114bdba6}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!idTextField@{idTextField}}
+\index{idTextField@{idTextField}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{idTextField}{idTextField}}
+{\footnotesize\ttfamily Text\+Field org.\+jabref.\+gui.\+Entry\+Type\+View.\+id\+Text\+Field\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a1cdd62e41deb424a058fed4bdab71414}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a1cdd62e41deb424a058fed4bdab71414}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!ieeetranPane@{ieeetranPane}}
+\index{ieeetranPane@{ieeetranPane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{ieeetranPane}{ieeetranPane}}
+{\footnotesize\ttfamily Flow\+Pane org.\+jabref.\+gui.\+Entry\+Type\+View.\+ieeetran\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a2ebee53e18205b22f978e8e8f8c8c46b}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a2ebee53e18205b22f978e8e8f8c8c46b}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!ieeeTranTitlePane@{ieeeTranTitlePane}}
+\index{ieeeTranTitlePane@{ieeeTranTitlePane}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{ieeeTranTitlePane}{ieeeTranTitlePane}}
+{\footnotesize\ttfamily Titled\+Pane org.\+jabref.\+gui.\+Entry\+Type\+View.\+ieee\+Tran\+Title\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_abc69993478efd6d490eac8840f6355ef}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_abc69993478efd6d490eac8840f6355ef}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!prefs@{prefs}}
+\index{prefs@{prefs}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{prefs}{prefs}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} org.\+jabref.\+gui.\+Entry\+Type\+View.\+prefs\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a2bbb8c9622a247604810f70c1c9f3be4}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a2bbb8c9622a247604810f70c1c9f3be4}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!type@{type}}
+\index{type@{type}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} org.\+jabref.\+gui.\+Entry\+Type\+View.\+type\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_adf2125efe0f45a332fb274cdc1da3dae}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_adf2125efe0f45a332fb274cdc1da3dae}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!viewModel@{viewModel}}
+\index{viewModel@{viewModel}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{viewModel}{viewModel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model}{Entry\+Type\+View\+Model}} org.\+jabref.\+gui.\+Entry\+Type\+View.\+view\+Model\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a209eb5ba79e5ca8eba0805fae98a1073}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_a209eb5ba79e5ca8eba0805fae98a1073}} 
+\index{org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}!visualizer@{visualizer}}
+\index{visualizer@{visualizer}!org.jabref.gui.EntryTypeView@{org.jabref.gui.EntryTypeView}}
+\doxysubsubsection{\texorpdfstring{visualizer}{visualizer}}
+{\footnotesize\ttfamily final Controls\+Fx\+Visualizer org.\+jabref.\+gui.\+Entry\+Type\+View.\+visualizer = new Controls\+Fx\+Visualizer()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/\mbox{\hyperlink{_entry_type_view_8java}{Entry\+Type\+View.\+java}}\end{DoxyCompactItemize}

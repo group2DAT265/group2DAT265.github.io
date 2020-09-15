@@ -1,0 +1,121 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Aps\+Fetcher Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher}\index{org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+Aps\+Fetcher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a530720e11c7238a5a07f99453788dce0}{find\+Full\+Text}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level}{Trust\+Level}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_ade8fd9bc37a6708c1acf48d7291a7c6e}{get\+Trust\+Level}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a169ad06362e2cd62eefa40be8374f47b}{get\+Id}} (String doi)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a0c9f11d75937dcfbe96772affdb8ead9}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Aps\+Fetcher.\+class)
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_ae890616b6c9a04bb02c653d22b947b71}{D\+O\+I\+\_\+\+U\+RL}} = \char`\"{}https\+://www.\+doi.\+org/\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a551941f138329b086a1a3f5c4b3fb5c7}{P\+D\+F\+\_\+\+U\+RL}} = \char`\"{}https\+://journals.\+aps.\+org/prl/\mbox{\hyperlink{_readme_8txt_a657374c02a0252b68343666061c8c624}{pdf}}/\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher}{Fulltext\+Fetcher}} implementation that attempts to find a P\+DF U\+RL at A\+PS. Also see the \href{https://harvest.aps.org/docs/harvest-api}{\texttt{ A\+PI}}, although it isn\textquotesingle{}t currently used. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a530720e11c7238a5a07f99453788dce0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a530720e11c7238a5a07f99453788dce0}} 
+\index{org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}!findFullText@{findFullText}}
+\index{findFullText@{findFullText}!org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}}
+\doxysubsubsection{\texorpdfstring{findFullText()}{findFullText()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Aps\+Fetcher.\+find\+Full\+Text (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Tries to find a fulltext U\+RL for a given Bib\+Tex entry.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & The Bibtex entry \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The fulltext P\+DF U\+RL Optional, if found, or an empty Optional if not found. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if no Bib\+Tex entry is given \\
+\hline
+{\em java.\+io.\+I\+O\+Exception} & if an IO operation has failed \\
+\hline
+{\em \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}} & if a fetcher specific error occurred \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher_a86cdf9129715151ea30d714182103aa7}{org.\+jabref.\+logic.\+importer.\+Fulltext\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a169ad06362e2cd62eefa40be8374f47b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a169ad06362e2cd62eefa40be8374f47b}} 
+\index{org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}!getId@{getId}}
+\index{getId@{getId}!org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily Optional$<$String$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Aps\+Fetcher.\+get\+Id (\begin{DoxyParamCaption}\item[{String}]{doi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Convert a D\+OI into an appropriate A\+PS id.
+
+
+\begin{DoxyParams}{Parameters}
+{\em doi} & A case insensitive D\+OI \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A D\+OI cased as A\+PS likes it 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_ade8fd9bc37a6708c1acf48d7291a7c6e}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_ade8fd9bc37a6708c1acf48d7291a7c6e}} 
+\index{org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}!getTrustLevel@{getTrustLevel}}
+\index{getTrustLevel@{getTrustLevel}!org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}}
+\doxysubsubsection{\texorpdfstring{getTrustLevel()}{getTrustLevel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level}{Trust\+Level}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Aps\+Fetcher.\+get\+Trust\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the level of trust for this fetcher. We distinguish between publishers and meta search engines for example.
+
+\begin{DoxyReturn}{Returns}
+The trust level of the fetcher, the higher the better 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher_a9dfa076e05220ef7008b639af578eb5a}{org.\+jabref.\+logic.\+importer.\+Fulltext\+Fetcher}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_ae890616b6c9a04bb02c653d22b947b71}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_ae890616b6c9a04bb02c653d22b947b71}} 
+\index{org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}!DOI\_URL@{DOI\_URL}}
+\index{DOI\_URL@{DOI\_URL}!org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}}
+\doxysubsubsection{\texorpdfstring{DOI\_URL}{DOI\_URL}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Aps\+Fetcher.\+D\+O\+I\+\_\+\+U\+RL = \char`\"{}https\+://www.\+doi.\+org/\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a0c9f11d75937dcfbe96772affdb8ead9}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a0c9f11d75937dcfbe96772affdb8ead9}} 
+\index{org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fetcher.\+Aps\+Fetcher.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Aps\+Fetcher.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a551941f138329b086a1a3f5c4b3fb5c7}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_aps_fetcher_a551941f138329b086a1a3f5c4b3fb5c7}} 
+\index{org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}!PDF\_URL@{PDF\_URL}}
+\index{PDF\_URL@{PDF\_URL}!org.jabref.logic.importer.fetcher.ApsFetcher@{org.jabref.logic.importer.fetcher.ApsFetcher}}
+\doxysubsubsection{\texorpdfstring{PDF\_URL}{PDF\_URL}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Aps\+Fetcher.\+P\+D\+F\+\_\+\+U\+RL = \char`\"{}https\+://journals.\+aps.\+org/prl/\mbox{\hyperlink{_readme_8txt_a657374c02a0252b68343666061c8c624}{pdf}}/\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_aps_fetcher_8java}{Aps\+Fetcher.\+java}}\end{DoxyCompactItemize}

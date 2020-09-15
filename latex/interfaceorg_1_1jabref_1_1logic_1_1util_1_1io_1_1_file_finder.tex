@@ -1,0 +1,36 @@
+\hypertarget{interfaceorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_finder}{}\doxysection{org.\+jabref.\+logic.\+util.\+io.\+File\+Finder Interface Reference}
+\label{interfaceorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_finder}\index{org.jabref.logic.util.io.FileFinder@{org.jabref.logic.util.io.FileFinder}}
+
+
+Inherited by org.\+jabref.\+logic.\+util.\+io.\+Citation\+Key\+Based\+File\+Finder, and org.\+jabref.\+logic.\+util.\+io.\+Reg\+Exp\+Based\+File\+Finder.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Path $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_finder_a3bf3dae5e69d43b93c8d8d6cedad82f6}{find\+Associated\+Files}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry, List$<$ Path $>$ directories, List$<$ String $>$ extensions)  throws I\+O\+Exception
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_finder_a3bf3dae5e69d43b93c8d8d6cedad82f6}\label{interfaceorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_finder_a3bf3dae5e69d43b93c8d8d6cedad82f6}} 
+\index{org.jabref.logic.util.io.FileFinder@{org.jabref.logic.util.io.FileFinder}!findAssociatedFiles@{findAssociatedFiles}}
+\index{findAssociatedFiles@{findAssociatedFiles}!org.jabref.logic.util.io.FileFinder@{org.jabref.logic.util.io.FileFinder}}
+\doxysubsubsection{\texorpdfstring{findAssociatedFiles()}{findAssociatedFiles()}}
+{\footnotesize\ttfamily List$<$Path$>$ org.\+jabref.\+logic.\+util.\+io.\+File\+Finder.\+find\+Associated\+Files (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry,  }\item[{List$<$ Path $>$}]{directories,  }\item[{List$<$ String $>$}]{extensions }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+Finds all files in the given directories that are probably associated with the given entries and have one of the passed extensions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & The entry to search files for. \\
+\hline
+{\em directories} & The root directories to search. \\
+\hline
+{\em extensions} & The extensions that are acceptable. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/util/io/\mbox{\hyperlink{_file_finder_8java}{File\+Finder.\+java}}\end{DoxyCompactItemize}

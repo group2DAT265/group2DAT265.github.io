@@ -1,0 +1,117 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol}{}\doxysection{org.\+jabref.\+logic.\+remote.\+shared.\+Protocol Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol}\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+Inheritance diagram for org.\+jabref.\+logic.\+remote.\+shared.\+Protocol\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a1b441eb099b5c0c3904eecd9ffcca98c}{Protocol}} (Socket \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a97db2567b2d754e22ce0b880564f0e03}{socket}})  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_ab8cbf226d9bce28dcf52792a807ffc88}{send\+Message}} (\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_remote_message}{Remote\+Message}} type)  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a03e52ed22a621a651ddf062d17893de1}{send\+Message}} (\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_remote_message}{Remote\+Message}} type, Object argument)  throws I\+O\+Exception 
+\item 
+Pair$<$ \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_remote_message}{Remote\+Message}}, Object $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a21e2d8f690587bb12906e53d30bd6cf0}{receive\+Message}} ()  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a4fe8a01ac37cd2160cd33034fac51fc4}{close}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_af037441645419de50816d3db803e1d20}{I\+D\+E\+N\+T\+I\+F\+I\+ER}} = \char`\"{}jabref\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Socket \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a97db2567b2d754e22ce0b880564f0e03}{socket}}
+\item 
+final Object\+Output\+Stream \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a2d2a6c5c8ccefe1f75c66b35e4bebe18}{out}}
+\item 
+final Object\+Input\+Stream \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_aa4f098d04d4cae9ec5c128d102717ea1}{in}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a724f26d8082bc17736505849f000d790}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Protocol.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+@impl\+Note The first byte of every message identifies its type as a \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_remote_message}{Remote\+Message}}. Every message is terminated with \textquotesingle{}\textbackslash{}0\textquotesingle{}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a1b441eb099b5c0c3904eecd9ffcca98c}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a1b441eb099b5c0c3904eecd9ffcca98c}} 
+\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}!Protocol@{Protocol}}
+\index{Protocol@{Protocol}!org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+\doxysubsubsection{\texorpdfstring{Protocol()}{Protocol()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+remote.\+shared.\+Protocol.\+Protocol (\begin{DoxyParamCaption}\item[{Socket}]{socket }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a4fe8a01ac37cd2160cd33034fac51fc4}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a4fe8a01ac37cd2160cd33034fac51fc4}} 
+\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}!close@{close}}
+\index{close@{close}!org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+\doxysubsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+remote.\+shared.\+Protocol.\+close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a21e2d8f690587bb12906e53d30bd6cf0}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a21e2d8f690587bb12906e53d30bd6cf0}} 
+\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}!receiveMessage@{receiveMessage}}
+\index{receiveMessage@{receiveMessage}!org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+\doxysubsubsection{\texorpdfstring{receiveMessage()}{receiveMessage()}}
+{\footnotesize\ttfamily Pair$<$\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_remote_message}{Remote\+Message}}, Object$>$ org.\+jabref.\+logic.\+remote.\+shared.\+Protocol.\+receive\+Message (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_ab8cbf226d9bce28dcf52792a807ffc88}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_ab8cbf226d9bce28dcf52792a807ffc88}} 
+\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}!sendMessage@{sendMessage}}
+\index{sendMessage@{sendMessage}!org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+\doxysubsubsection{\texorpdfstring{sendMessage()}{sendMessage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+remote.\+shared.\+Protocol.\+send\+Message (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_remote_message}{Remote\+Message}}}]{type }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a03e52ed22a621a651ddf062d17893de1}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a03e52ed22a621a651ddf062d17893de1}} 
+\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}!sendMessage@{sendMessage}}
+\index{sendMessage@{sendMessage}!org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+\doxysubsubsection{\texorpdfstring{sendMessage()}{sendMessage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+remote.\+shared.\+Protocol.\+send\+Message (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_remote_message}{Remote\+Message}}}]{type,  }\item[{Object}]{argument }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_af037441645419de50816d3db803e1d20}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_af037441645419de50816d3db803e1d20}} 
+\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}!IDENTIFIER@{IDENTIFIER}}
+\index{IDENTIFIER@{IDENTIFIER}!org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+\doxysubsubsection{\texorpdfstring{IDENTIFIER}{IDENTIFIER}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+remote.\+shared.\+Protocol.\+I\+D\+E\+N\+T\+I\+F\+I\+ER = \char`\"{}jabref\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_aa4f098d04d4cae9ec5c128d102717ea1}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_aa4f098d04d4cae9ec5c128d102717ea1}} 
+\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}!in@{in}}
+\index{in@{in}!org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+\doxysubsubsection{\texorpdfstring{in}{in}}
+{\footnotesize\ttfamily final Object\+Input\+Stream org.\+jabref.\+logic.\+remote.\+shared.\+Protocol.\+in\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a724f26d8082bc17736505849f000d790}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a724f26d8082bc17736505849f000d790}} 
+\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+remote.\+shared.\+Protocol.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Protocol.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a2d2a6c5c8ccefe1f75c66b35e4bebe18}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a2d2a6c5c8ccefe1f75c66b35e4bebe18}} 
+\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}!out@{out}}
+\index{out@{out}!org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+\doxysubsubsection{\texorpdfstring{out}{out}}
+{\footnotesize\ttfamily final Object\+Output\+Stream org.\+jabref.\+logic.\+remote.\+shared.\+Protocol.\+out\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a97db2567b2d754e22ce0b880564f0e03}\label{classorg_1_1jabref_1_1logic_1_1remote_1_1shared_1_1_protocol_a97db2567b2d754e22ce0b880564f0e03}} 
+\index{org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}!socket@{socket}}
+\index{socket@{socket}!org.jabref.logic.remote.shared.Protocol@{org.jabref.logic.remote.shared.Protocol}}
+\doxysubsubsection{\texorpdfstring{socket}{socket}}
+{\footnotesize\ttfamily final Socket org.\+jabref.\+logic.\+remote.\+shared.\+Protocol.\+socket\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/remote/shared/\mbox{\hyperlink{_protocol_8java}{Protocol.\+java}}\end{DoxyCompactItemize}

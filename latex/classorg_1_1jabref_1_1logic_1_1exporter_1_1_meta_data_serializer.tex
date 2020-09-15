@@ -1,0 +1,62 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer}{}\doxysection{org.\+jabref.\+logic.\+exporter.\+Meta\+Data\+Serializer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer}\index{org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Map$<$ String, String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_af11bce7f63636f94358b26d21a60c9a0}{get\+Serialized\+String\+Map}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data}{Meta\+Data}} meta\+Data, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_global_citation_key_pattern}{Global\+Citation\+Key\+Pattern}} global\+Cite\+Key\+Pattern)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a1e81b039bae836f1bf8ac6cd752686bd}{Meta\+Data\+Serializer}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Map$<$ String, String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a15c476f17065943c368dd025f09ad381}{serialize\+Meta\+Data}} (Map$<$ String, List$<$ String $>$$>$ stringy\+Meta\+Data)
+\item 
+static Map$<$ String, List$<$ String $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a9a4e4c4e5a4601d29ebbff150fbcf438}{serialize\+Cite\+Key\+Pattern}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data}{Meta\+Data}} meta\+Data, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_global_citation_key_pattern}{Global\+Citation\+Key\+Pattern}} global\+Citation\+Key\+Pattern)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a79597cf8b2d6e737f85bd305a271fdba}{serialize\+Groups}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} root)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a1e81b039bae836f1bf8ac6cd752686bd}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a1e81b039bae836f1bf8ac6cd752686bd}} 
+\index{org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}!MetaDataSerializer@{MetaDataSerializer}}
+\index{MetaDataSerializer@{MetaDataSerializer}!org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}}
+\doxysubsubsection{\texorpdfstring{MetaDataSerializer()}{MetaDataSerializer()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+exporter.\+Meta\+Data\+Serializer.\+Meta\+Data\+Serializer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_af11bce7f63636f94358b26d21a60c9a0}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_af11bce7f63636f94358b26d21a60c9a0}} 
+\index{org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}!getSerializedStringMap@{getSerializedStringMap}}
+\index{getSerializedStringMap@{getSerializedStringMap}!org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}}
+\doxysubsubsection{\texorpdfstring{getSerializedStringMap()}{getSerializedStringMap()}}
+{\footnotesize\ttfamily static Map$<$String, String$>$ org.\+jabref.\+logic.\+exporter.\+Meta\+Data\+Serializer.\+get\+Serialized\+String\+Map (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data}{Meta\+Data}}}]{meta\+Data,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_global_citation_key_pattern}{Global\+Citation\+Key\+Pattern}}}]{global\+Cite\+Key\+Pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Writes all data in the format $<$key, serialized data$>$. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a9a4e4c4e5a4601d29ebbff150fbcf438}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a9a4e4c4e5a4601d29ebbff150fbcf438}} 
+\index{org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}!serializeCiteKeyPattern@{serializeCiteKeyPattern}}
+\index{serializeCiteKeyPattern@{serializeCiteKeyPattern}!org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}}
+\doxysubsubsection{\texorpdfstring{serializeCiteKeyPattern()}{serializeCiteKeyPattern()}}
+{\footnotesize\ttfamily static Map$<$String, List$<$String$>$ $>$ org.\+jabref.\+logic.\+exporter.\+Meta\+Data\+Serializer.\+serialize\+Cite\+Key\+Pattern (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data}{Meta\+Data}}}]{meta\+Data,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_global_citation_key_pattern}{Global\+Citation\+Key\+Pattern}}}]{global\+Citation\+Key\+Pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a79597cf8b2d6e737f85bd305a271fdba}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a79597cf8b2d6e737f85bd305a271fdba}} 
+\index{org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}!serializeGroups@{serializeGroups}}
+\index{serializeGroups@{serializeGroups}!org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}}
+\doxysubsubsection{\texorpdfstring{serializeGroups()}{serializeGroups()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+exporter.\+Meta\+Data\+Serializer.\+serialize\+Groups (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}}}]{root }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a15c476f17065943c368dd025f09ad381}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer_a15c476f17065943c368dd025f09ad381}} 
+\index{org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}!serializeMetaData@{serializeMetaData}}
+\index{serializeMetaData@{serializeMetaData}!org.jabref.logic.exporter.MetaDataSerializer@{org.jabref.logic.exporter.MetaDataSerializer}}
+\doxysubsubsection{\texorpdfstring{serializeMetaData()}{serializeMetaData()}}
+{\footnotesize\ttfamily static Map$<$String, String$>$ org.\+jabref.\+logic.\+exporter.\+Meta\+Data\+Serializer.\+serialize\+Meta\+Data (\begin{DoxyParamCaption}\item[{Map$<$ String, List$<$ String $>$$>$}]{stringy\+Meta\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/exporter/\mbox{\hyperlink{_meta_data_serializer_8java}{Meta\+Data\+Serializer.\+java}}\end{DoxyCompactItemize}

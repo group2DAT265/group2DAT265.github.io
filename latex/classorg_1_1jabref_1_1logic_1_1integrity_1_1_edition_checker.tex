@@ -1,0 +1,106 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker}{}\doxysection{org.\+jabref.\+logic.\+integrity.\+Edition\+Checker Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker}\index{org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}}
+Inheritance diagram for org.\+jabref.\+logic.\+integrity.\+Edition\+Checker\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a7234ce63ea53c7c9aaf0c0ddb59b50ef}{Edition\+Checker}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} bib\+Database\+Context, boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a4a5f80f34f8cc6c693098c18b4cf5395}{allow\+Integer\+Edition}})
+\item 
+Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a7383af893dcb777e66c3cd595c5607fc}{check\+Value}} (String value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a0b77dfc6371a0f26b636d96490af6519}{bib\+Database\+Context\+Edition}}
+\item 
+final boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a4a5f80f34f8cc6c693098c18b4cf5395}{allow\+Integer\+Edition}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Predicate$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a39a8e2846fef7e363426161eb34f5559}{F\+I\+R\+S\+T\+\_\+\+L\+E\+T\+T\+E\+R\+\_\+\+C\+A\+P\+I\+T\+A\+L\+I\+Z\+ED}} = Pattern.\+compile(\char`\"{}$^\wedge$\mbox{[}A-\/Z\mbox{]}\char`\"{}).as\+Predicate()
+\item 
+static final Predicate$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a79b2ff0f11a2fd1fbf8477a1e132dccb}{O\+N\+L\+Y\+\_\+\+N\+U\+M\+E\+R\+A\+L\+S\+\_\+\+O\+R\+\_\+\+L\+I\+T\+E\+R\+A\+LS}}
+\item 
+static final Predicate$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a821dc5d13a7c7e637e8b34b40468ce4d}{O\+N\+L\+Y\+\_\+\+N\+U\+M\+E\+R\+A\+LS}} = Pattern.\+compile(\char`\"{}\mbox{[}0-\/9\mbox{]}+\char`\"{}).as\+Predicate()
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_ab8f875f5f213acb40d621aa5750f7c09}{F\+I\+R\+S\+T\+\_\+\+E\+D\+I\+T\+I\+ON}} = \char`\"{}1\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a7234ce63ea53c7c9aaf0c0ddb59b50ef}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a7234ce63ea53c7c9aaf0c0ddb59b50ef}} 
+\index{org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}!EditionChecker@{EditionChecker}}
+\index{EditionChecker@{EditionChecker}!org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}}
+\doxysubsubsection{\texorpdfstring{EditionChecker()}{EditionChecker()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+integrity.\+Edition\+Checker.\+Edition\+Checker (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{bib\+Database\+Context,  }\item[{boolean}]{allow\+Integer\+Edition }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a7383af893dcb777e66c3cd595c5607fc}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a7383af893dcb777e66c3cd595c5607fc}} 
+\index{org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}!checkValue@{checkValue}}
+\index{checkValue@{checkValue}!org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}}
+\doxysubsubsection{\texorpdfstring{checkValue()}{checkValue()}}
+{\footnotesize\ttfamily Optional$<$String$>$ org.\+jabref.\+logic.\+integrity.\+Edition\+Checker.\+check\+Value (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks, if field contains only an integer or a literal (biblatex mode) Checks, if the first letter is capitalized (Bib\+TeX mode) biblatex package documentation\+: The edition of a printed publication. This must be an integer, not an ordinal. It is also possible to give the edition as a literal string, for example \char`\"{}\+Third, revised and expanded
+edition\char`\"{}. Official Bib\+TeX specification\+: The edition of a book-\/for example, \char`\"{}\+Second\char`\"{}. This should be an ordinal, and should have the first letter capitalized. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1integrity_1_1_value_checker_a7da264b7e26d92241660e07f3825c667}{org.\+jabref.\+logic.\+integrity.\+Value\+Checker}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a4a5f80f34f8cc6c693098c18b4cf5395}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a4a5f80f34f8cc6c693098c18b4cf5395}} 
+\index{org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}!allowIntegerEdition@{allowIntegerEdition}}
+\index{allowIntegerEdition@{allowIntegerEdition}!org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}}
+\doxysubsubsection{\texorpdfstring{allowIntegerEdition}{allowIntegerEdition}}
+{\footnotesize\ttfamily final boolean org.\+jabref.\+logic.\+integrity.\+Edition\+Checker.\+allow\+Integer\+Edition\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a0b77dfc6371a0f26b636d96490af6519}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a0b77dfc6371a0f26b636d96490af6519}} 
+\index{org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}!bibDatabaseContextEdition@{bibDatabaseContextEdition}}
+\index{bibDatabaseContextEdition@{bibDatabaseContextEdition}!org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}}
+\doxysubsubsection{\texorpdfstring{bibDatabaseContextEdition}{bibDatabaseContextEdition}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} org.\+jabref.\+logic.\+integrity.\+Edition\+Checker.\+bib\+Database\+Context\+Edition\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_ab8f875f5f213acb40d621aa5750f7c09}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_ab8f875f5f213acb40d621aa5750f7c09}} 
+\index{org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}!FIRST\_EDITION@{FIRST\_EDITION}}
+\index{FIRST\_EDITION@{FIRST\_EDITION}!org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}}
+\doxysubsubsection{\texorpdfstring{FIRST\_EDITION}{FIRST\_EDITION}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+integrity.\+Edition\+Checker.\+F\+I\+R\+S\+T\+\_\+\+E\+D\+I\+T\+I\+ON = \char`\"{}1\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a39a8e2846fef7e363426161eb34f5559}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a39a8e2846fef7e363426161eb34f5559}} 
+\index{org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}!FIRST\_LETTER\_CAPITALIZED@{FIRST\_LETTER\_CAPITALIZED}}
+\index{FIRST\_LETTER\_CAPITALIZED@{FIRST\_LETTER\_CAPITALIZED}!org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}}
+\doxysubsubsection{\texorpdfstring{FIRST\_LETTER\_CAPITALIZED}{FIRST\_LETTER\_CAPITALIZED}}
+{\footnotesize\ttfamily final Predicate$<$String$>$ org.\+jabref.\+logic.\+integrity.\+Edition\+Checker.\+F\+I\+R\+S\+T\+\_\+\+L\+E\+T\+T\+E\+R\+\_\+\+C\+A\+P\+I\+T\+A\+L\+I\+Z\+ED = Pattern.\+compile(\char`\"{}$^\wedge$\mbox{[}A-\/Z\mbox{]}\char`\"{}).as\+Predicate()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a821dc5d13a7c7e637e8b34b40468ce4d}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a821dc5d13a7c7e637e8b34b40468ce4d}} 
+\index{org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}!ONLY\_NUMERALS@{ONLY\_NUMERALS}}
+\index{ONLY\_NUMERALS@{ONLY\_NUMERALS}!org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}}
+\doxysubsubsection{\texorpdfstring{ONLY\_NUMERALS}{ONLY\_NUMERALS}}
+{\footnotesize\ttfamily final Predicate$<$String$>$ org.\+jabref.\+logic.\+integrity.\+Edition\+Checker.\+O\+N\+L\+Y\+\_\+\+N\+U\+M\+E\+R\+A\+LS = Pattern.\+compile(\char`\"{}\mbox{[}0-\/9\mbox{]}+\char`\"{}).as\+Predicate()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a79b2ff0f11a2fd1fbf8477a1e132dccb}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_edition_checker_a79b2ff0f11a2fd1fbf8477a1e132dccb}} 
+\index{org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}!ONLY\_NUMERALS\_OR\_LITERALS@{ONLY\_NUMERALS\_OR\_LITERALS}}
+\index{ONLY\_NUMERALS\_OR\_LITERALS@{ONLY\_NUMERALS\_OR\_LITERALS}!org.jabref.logic.integrity.EditionChecker@{org.jabref.logic.integrity.EditionChecker}}
+\doxysubsubsection{\texorpdfstring{ONLY\_NUMERALS\_OR\_LITERALS}{ONLY\_NUMERALS\_OR\_LITERALS}}
+{\footnotesize\ttfamily final Predicate$<$String$>$ org.\+jabref.\+logic.\+integrity.\+Edition\+Checker.\+O\+N\+L\+Y\+\_\+\+N\+U\+M\+E\+R\+A\+L\+S\+\_\+\+O\+R\+\_\+\+L\+I\+T\+E\+R\+A\+LS\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Pattern.compile(\textcolor{stringliteral}{"{}\string^([0-\/9]+|[\string^0-\/9].+)\$"{}})}
+\DoxyCodeLine{                                                                              .asPredicate()}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/integrity/\mbox{\hyperlink{_edition_checker_8java}{Edition\+Checker.\+java}}\end{DoxyCompactItemize}

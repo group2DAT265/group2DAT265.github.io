@@ -1,0 +1,7 @@
+var namespaceorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer =
+[
+    [ "ContainsAndRegexBasedSearchRuleDescriber", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_contains_and_regex_based_search_rule_describer.html", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_contains_and_regex_based_search_rule_describer" ],
+    [ "GrammarBasedSearchRuleDescriber", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_grammar_based_search_rule_describer.html", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_grammar_based_search_rule_describer" ],
+    [ "SearchDescriber", "interfaceorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_search_describer.html", "interfaceorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_search_describer" ],
+    [ "SearchDescribers", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_search_describers.html", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_search_describers" ]
+];

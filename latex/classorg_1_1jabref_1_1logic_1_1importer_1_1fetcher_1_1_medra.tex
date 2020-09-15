@@ -1,0 +1,158 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra}\index{org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a0e34ce7ea051f3d313921953cf9e3030}{get\+Name}} ()
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser}{Parser}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_afa5e2c01614c90fc5ff80fec3634acd6}{get\+Parser}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download}{U\+R\+L\+Download}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a72b34d401387a3c17ef455ab5bf3bed6}{get\+Url\+Download}} (\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} url)
+\item 
+\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a340d9dd1ae9227d49703178f22b92010}{get\+Url\+For\+Identifier}} (String identifier)  throws U\+R\+I\+Syntax\+Exception, Malformed\+U\+R\+L\+Exception, Fetcher\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a566361bab5a6b945b7d56e237b040234}{do\+Post\+Cleanup}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a9dbabe960c5536659fc09d0717e96dde}{A\+P\+I\+\_\+\+U\+RL}} = \char`\"{}https\+://data.\+medra.\+org\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a962b9658d7d9dcbccfb4900183b79f43}{json\+Item\+To\+Bib\+Entry}} (J\+S\+O\+N\+Object item)  throws Parse\+Exception 
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_af2267837ba5d1dad37f35eb9ba176e4d}{convert\+Type}} (String type)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a6268f553e4d057e52d3e1093e46b6df6}{to\+Authors}} (J\+S\+O\+N\+Array authors)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A class for fetching D\+O\+Is from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra}{Medra}}
+
+\begin{DoxySeeAlso}{See also}
+\href{https://data.medra.org}{\texttt{ m\+E\+D\+RA Content Negotiation A\+PI}} \mbox{\hyperlink{org_8citationstyles_8styles_8txt_ab823061043c5cc565ab7bfa882774562}{for}} an overview \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af796eca1ee2c70f9dd3321aadcf20bfe}{of}} \mbox{\hyperlink{microba_8txt_a32d1e5f290ae37ab4d28c5484c6076ad}{the}} A\+PI 
+\end{DoxySeeAlso}
+It requires \char`\"{}\+Accept\char`\"{} request Header attribute to be set to desired content-\/type. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_af2267837ba5d1dad37f35eb9ba176e4d}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_af2267837ba5d1dad37f35eb9ba176e4d}} 
+\index{org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}!convertType@{convertType}}
+\index{convertType@{convertType}!org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}}
+\doxysubsubsection{\texorpdfstring{convertType()}{convertType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_entry_type}{Entry\+Type}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra.\+convert\+Type (\begin{DoxyParamCaption}\item[{String}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a566361bab5a6b945b7d56e237b040234}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a566361bab5a6b945b7d56e237b040234}} 
+\index{org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}!doPostCleanup@{doPostCleanup}}
+\index{doPostCleanup@{doPostCleanup}!org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}}
+\doxysubsubsection{\texorpdfstring{doPostCleanup()}{doPostCleanup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra.\+do\+Post\+Cleanup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Performs a cleanup of the fetched entry.
+
+Only systematic errors of the fetcher should be corrected here (i.\+e. if information is consistently contained in the wrong field or the wrong format) but not cosmetic issues which may depend on the user\textquotesingle{}s taste (for example, LateX code vs H\+T\+ML in the abstract).
+
+Try to reuse existing \mbox{\hyperlink{}{Formatter}} for the cleanup. For example, 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{new} FieldFormatterCleanup(StandardField.TITLE, \textcolor{keyword}{new} RemoveBracesFormatter()).cleanup(\mbox{\hyperlink{namespacejabref_host_ae5a8819641ec01f8c9f4777dabf9e6a0}{entry}}); }
+\end{DoxyCode}
+
+
+By default, no cleanup is done.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & the entry to be cleaned-\/up \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_parser_fetcher_a0bfd8e6451dc49c6e6b4a0344be8a8a1}{org.\+jabref.\+logic.\+importer.\+Id\+Based\+Parser\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a0e34ce7ea051f3d313921953cf9e3030}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a0e34ce7ea051f3d313921953cf9e3030}} 
+\index{org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the localized name of this fetcher. The title can be used to display the fetcher in the menu and in the side pane.
+
+\begin{DoxyReturn}{Returns}
+the localized name 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a9512c95b5bf85e727c975fe2db72e6bf}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_afa5e2c01614c90fc5ff80fec3634acd6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_afa5e2c01614c90fc5ff80fec3634acd6}} 
+\index{org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}!getParser@{getParser}}
+\index{getParser@{getParser}!org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}}
+\doxysubsubsection{\texorpdfstring{getParser()}{getParser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser}{Parser}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra.\+get\+Parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the parser used to convert the response to a list of \mbox{\hyperlink{}{Bib\+Entry}}. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_parser_fetcher_aa45d7bf4b61d95938ee4075496228c85}{org.\+jabref.\+logic.\+importer.\+Id\+Based\+Parser\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a72b34d401387a3c17ef455ab5bf3bed6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a72b34d401387a3c17ef455ab5bf3bed6}} 
+\index{org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}!getUrlDownload@{getUrlDownload}}
+\index{getUrlDownload@{getUrlDownload}!org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}}
+\doxysubsubsection{\texorpdfstring{getUrlDownload()}{getUrlDownload()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download}{U\+R\+L\+Download}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra.\+get\+Url\+Download (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}}}]{url }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructs an \mbox{\hyperlink{}{U\+R\+L\+Download}} object for downloading content based on the given U\+RL. Overwrite, if you need to send additional headers for the download. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a828698dcb67e448b64931b5f02b7a4ec}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a340d9dd1ae9227d49703178f22b92010}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a340d9dd1ae9227d49703178f22b92010}} 
+\index{org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}!getUrlForIdentifier@{getUrlForIdentifier}}
+\index{getUrlForIdentifier@{getUrlForIdentifier}!org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}}
+\doxysubsubsection{\texorpdfstring{getUrlForIdentifier()}{getUrlForIdentifier()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra.\+get\+Url\+For\+Identifier (\begin{DoxyParamCaption}\item[{String}]{identifier }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception, Malformed\+U\+R\+L\+Exception, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructs a U\+RL based on the query.
+
+
+\begin{DoxyParams}{Parameters}
+{\em identifier} & the ID \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_parser_fetcher_a47d9e2d0fe3997dc083bfab7ea4b2489}{org.\+jabref.\+logic.\+importer.\+Id\+Based\+Parser\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a962b9658d7d9dcbccfb4900183b79f43}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a962b9658d7d9dcbccfb4900183b79f43}} 
+\index{org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}!jsonItemToBibEntry@{jsonItemToBibEntry}}
+\index{jsonItemToBibEntry@{jsonItemToBibEntry}!org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}}
+\doxysubsubsection{\texorpdfstring{jsonItemToBibEntry()}{jsonItemToBibEntry()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra.\+json\+Item\+To\+Bib\+Entry (\begin{DoxyParamCaption}\item[{J\+S\+O\+N\+Object}]{item }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parse_exception}{Parse\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a6268f553e4d057e52d3e1093e46b6df6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a6268f553e4d057e52d3e1093e46b6df6}} 
+\index{org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}!toAuthors@{toAuthors}}
+\index{toAuthors@{toAuthors}!org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}}
+\doxysubsubsection{\texorpdfstring{toAuthors()}{toAuthors()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra.\+to\+Authors (\begin{DoxyParamCaption}\item[{J\+S\+O\+N\+Array}]{authors }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a9dbabe960c5536659fc09d0717e96dde}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra_a9dbabe960c5536659fc09d0717e96dde}} 
+\index{org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}!API\_URL@{API\_URL}}
+\index{API\_URL@{API\_URL}!org.jabref.logic.importer.fetcher.Medra@{org.jabref.logic.importer.fetcher.Medra}}
+\doxysubsubsection{\texorpdfstring{API\_URL}{API\_URL}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Medra.\+A\+P\+I\+\_\+\+U\+RL = \char`\"{}https\+://data.\+medra.\+org\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_medra_8java}{Medra.\+java}}\end{DoxyCompactItemize}

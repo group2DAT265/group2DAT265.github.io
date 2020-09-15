@@ -1,0 +1,148 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader}{}\doxysection{org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader}\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_ab8c45be797c568003fbd29d6cd79e7e1}{Protected\+Terms\+Loader}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_preferences}{Protected\+Terms\+Preferences}} preferences)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_adb6b2638be513db32f69a326fcf60102}{update}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_preferences}{Protected\+Terms\+Preferences}} preferences)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a020d2bfdff92da0139f1a48f19f10efb}{reload\+Protected\+Terms\+List}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} list)
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a675f068b19a5c6701d47909f52a25d51}{get\+Protected\+Terms\+Lists}} ()
+\item 
+List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a05e4ec44f02d63f2ee83608c77cd7f7c}{get\+Protected\+Terms}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a60c7502b0aeecc689bd8f2f7e4391409}{add\+Protected\+Terms\+List\+From\+File}} (String file\+Name, boolean enabled)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_ae4d00d8594759365fff73f2f46e7f26f}{remove\+Protected\+Terms\+List}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} term\+List)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a15c1d1c421f4e936e074faded1b34f7d}{add\+New\+Protected\+Terms\+List}} (String new\+Description, String new\+Location, boolean enabled)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a42302b4b90b6d6a12c7be095e9aca65b}{add\+New\+Protected\+Terms\+List}} (String new\+Description, String new\+Location)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a462a4565a48e85588063527ed4c1b7e0}{get\+Internal\+Lists}} ()
+\item 
+static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a10656e1828aaf0e9531e54849ae0ab0d}{read\+Protected\+Terms\+List\+From\+Resource}} (String resource, String description, boolean enabled)
+\item 
+static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a85bd71a47e65f8045661b012734d5ea0}{read\+Protected\+Terms\+List\+From\+File}} (File \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, boolean enabled)  throws File\+Not\+Found\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_ac1a3943130222b291173891b1f1f898d}{main\+List}} = new Array\+List$<$$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Map$<$ String, Supplier$<$ String $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_afc12a95c3c0f1631d27d3a7e5cde0490}{I\+N\+T\+E\+R\+N\+A\+L\+\_\+\+L\+I\+S\+TS}} = new Hash\+Map$<$$>$()
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a3a6ac55d7b10635c910aa0dd06cc2141}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Protected\+Terms\+Loader.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_ab8c45be797c568003fbd29d6cd79e7e1}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_ab8c45be797c568003fbd29d6cd79e7e1}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!ProtectedTermsLoader@{ProtectedTermsLoader}}
+\index{ProtectedTermsLoader@{ProtectedTermsLoader}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{ProtectedTermsLoader()}{ProtectedTermsLoader()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+Protected\+Terms\+Loader (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_preferences}{Protected\+Terms\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a42302b4b90b6d6a12c7be095e9aca65b}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a42302b4b90b6d6a12c7be095e9aca65b}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!addNewProtectedTermsList@{addNewProtectedTermsList}}
+\index{addNewProtectedTermsList@{addNewProtectedTermsList}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{addNewProtectedTermsList()}{addNewProtectedTermsList()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+add\+New\+Protected\+Terms\+List (\begin{DoxyParamCaption}\item[{String}]{new\+Description,  }\item[{String}]{new\+Location }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a15c1d1c421f4e936e074faded1b34f7d}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a15c1d1c421f4e936e074faded1b34f7d}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!addNewProtectedTermsList@{addNewProtectedTermsList}}
+\index{addNewProtectedTermsList@{addNewProtectedTermsList}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{addNewProtectedTermsList()}{addNewProtectedTermsList()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+add\+New\+Protected\+Terms\+List (\begin{DoxyParamCaption}\item[{String}]{new\+Description,  }\item[{String}]{new\+Location,  }\item[{boolean}]{enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a60c7502b0aeecc689bd8f2f7e4391409}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a60c7502b0aeecc689bd8f2f7e4391409}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!addProtectedTermsListFromFile@{addProtectedTermsListFromFile}}
+\index{addProtectedTermsListFromFile@{addProtectedTermsListFromFile}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{addProtectedTermsListFromFile()}{addProtectedTermsListFromFile()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+add\+Protected\+Terms\+List\+From\+File (\begin{DoxyParamCaption}\item[{String}]{file\+Name,  }\item[{boolean}]{enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a462a4565a48e85588063527ed4c1b7e0}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a462a4565a48e85588063527ed4c1b7e0}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!getInternalLists@{getInternalLists}}
+\index{getInternalLists@{getInternalLists}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{getInternalLists()}{getInternalLists()}}
+{\footnotesize\ttfamily static List$<$String$>$ org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+get\+Internal\+Lists (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a05e4ec44f02d63f2ee83608c77cd7f7c}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a05e4ec44f02d63f2ee83608c77cd7f7c}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!getProtectedTerms@{getProtectedTerms}}
+\index{getProtectedTerms@{getProtectedTerms}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{getProtectedTerms()}{getProtectedTerms()}}
+{\footnotesize\ttfamily List$<$String$>$ org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+get\+Protected\+Terms (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a675f068b19a5c6701d47909f52a25d51}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a675f068b19a5c6701d47909f52a25d51}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!getProtectedTermsLists@{getProtectedTermsLists}}
+\index{getProtectedTermsLists@{getProtectedTermsLists}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{getProtectedTermsLists()}{getProtectedTermsLists()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}}$>$ org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+get\+Protected\+Terms\+Lists (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a85bd71a47e65f8045661b012734d5ea0}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a85bd71a47e65f8045661b012734d5ea0}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!readProtectedTermsListFromFile@{readProtectedTermsListFromFile}}
+\index{readProtectedTermsListFromFile@{readProtectedTermsListFromFile}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{readProtectedTermsListFromFile()}{readProtectedTermsListFromFile()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+read\+Protected\+Terms\+List\+From\+File (\begin{DoxyParamCaption}\item[{File}]{file,  }\item[{boolean}]{enabled }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a10656e1828aaf0e9531e54849ae0ab0d}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a10656e1828aaf0e9531e54849ae0ab0d}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!readProtectedTermsListFromResource@{readProtectedTermsListFromResource}}
+\index{readProtectedTermsListFromResource@{readProtectedTermsListFromResource}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{readProtectedTermsListFromResource()}{readProtectedTermsListFromResource()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}} org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+read\+Protected\+Terms\+List\+From\+Resource (\begin{DoxyParamCaption}\item[{String}]{resource,  }\item[{String}]{description,  }\item[{boolean}]{enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a020d2bfdff92da0139f1a48f19f10efb}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a020d2bfdff92da0139f1a48f19f10efb}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!reloadProtectedTermsList@{reloadProtectedTermsList}}
+\index{reloadProtectedTermsList@{reloadProtectedTermsList}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{reloadProtectedTermsList()}{reloadProtectedTermsList()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+reload\+Protected\+Terms\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}}}]{list }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_ae4d00d8594759365fff73f2f46e7f26f}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_ae4d00d8594759365fff73f2f46e7f26f}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!removeProtectedTermsList@{removeProtectedTermsList}}
+\index{removeProtectedTermsList@{removeProtectedTermsList}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{removeProtectedTermsList()}{removeProtectedTermsList()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+remove\+Protected\+Terms\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}}}]{term\+List }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_adb6b2638be513db32f69a326fcf60102}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_adb6b2638be513db32f69a326fcf60102}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!update@{update}}
+\index{update@{update}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_preferences}{Protected\+Terms\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_afc12a95c3c0f1631d27d3a7e5cde0490}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_afc12a95c3c0f1631d27d3a7e5cde0490}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!INTERNAL\_LISTS@{INTERNAL\_LISTS}}
+\index{INTERNAL\_LISTS@{INTERNAL\_LISTS}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{INTERNAL\_LISTS}{INTERNAL\_LISTS}}
+{\footnotesize\ttfamily final Map$<$String, Supplier$<$String$>$ $>$ org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+I\+N\+T\+E\+R\+N\+A\+L\+\_\+\+L\+I\+S\+TS = new Hash\+Map$<$$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a3a6ac55d7b10635c910aa0dd06cc2141}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_a3a6ac55d7b10635c910aa0dd06cc2141}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Protected\+Terms\+Loader.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_ac1a3943130222b291173891b1f1f898d}\label{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader_ac1a3943130222b291173891b1f1f898d}} 
+\index{org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}!mainList@{mainList}}
+\index{mainList@{mainList}!org.jabref.logic.protectedterms.ProtectedTermsLoader@{org.jabref.logic.protectedterms.ProtectedTermsLoader}}
+\doxysubsubsection{\texorpdfstring{mainList}{mainList}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_list}{Protected\+Terms\+List}}$>$ org.\+jabref.\+logic.\+protectedterms.\+Protected\+Terms\+Loader.\+main\+List = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/protectedterms/\mbox{\hyperlink{_protected_terms_loader_8java}{Protected\+Terms\+Loader.\+java}}\end{DoxyCompactItemize}

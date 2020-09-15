@@ -1,0 +1,27 @@
+var classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model =
+[
+    [ "LinkedFilesEditorViewModel", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a50bc1b9ca657e9dd0a2e32ae02586852", null ],
+    [ "addFromURL", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a6a4e25ab548dd7610d5d2e606c7406f3", null ],
+    [ "addFromURL", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#af08f616920aa4591f153259c6b436977", null ],
+    [ "addNewFile", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a01282a300f83a6b38398168d949681d5", null ],
+    [ "bindToEntry", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a6f180cf3f22e5407be5dea9f20617bfb", null ],
+    [ "deleteFile", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a17ac72e8b96b439d0b448c5687a311b3", null ],
+    [ "fetchFulltext", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a9c70d6120ee74d46e921f8964206c304", null ],
+    [ "filesProperty", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a9accecee8e4868e96762fb168a9ce5e8", null ],
+    [ "findAssociatedNotLinkedFiles", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#af4124d232770ac19af2676a41a345e57", null ],
+    [ "fromFile", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a5a8d637dae1c90912c8aa33755c6f7c7", null ],
+    [ "fromFile", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#aebe00713a8913b99f6fc4faebd8abb0d", null ],
+    [ "fulltextLookupInProgressProperty", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a6c6b316c01a0f72b6817d5b2025c0713", null ],
+    [ "getFiles", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a69ba84b8c4203c485629ef73bc252b02", null ],
+    [ "getStringRepresentation", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a5524bd87547c2c6d95b9393db3d79901", null ],
+    [ "isFulltextLookupInProgress", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a0dd2089478002b04dc47076f0c85b2b3", null ],
+    [ "parseToFileViewModel", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a688ed287a38000e947336a63d021b654", null ],
+    [ "removeFileLink", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a93f0da18a7f3aef4fcbb25b492649cad", null ],
+    [ "databaseContext", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a262bc7d9975ada3cb78da7da2b49f43a", null ],
+    [ "dialogService", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#ac3f7dd46f723e9b38c0e2a402a67ce03", null ],
+    [ "externalFileTypes", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a1069c73d920047e19430cabba12d3c88", null ],
+    [ "files", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a25325faf7acb10047c11d741a734759c", null ],
+    [ "fulltextLookupInProgress", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a8a123af79b5e391e30b6c6c9537dbb9d", null ],
+    [ "preferences", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a8e583df550b659e5b41e88ff2b1dc40d", null ],
+    [ "taskExecutor", "classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#aebbe7cc23c88923babee1544af66a43b", null ]
+];

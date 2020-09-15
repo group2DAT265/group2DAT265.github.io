@@ -1,0 +1,27 @@
+var classorg_1_1jabref_1_1gui_1_1_globals =
+[
+    [ "Globals", "classorg_1_1jabref_1_1gui_1_1_globals.html#a7a9eeb3b25a0c246deabc9b8d3f6c466", null ],
+    [ "getFileUpdateMonitor", "classorg_1_1jabref_1_1gui_1_1_globals.html#a4dc6f375354d57d022dba35e554443cb", null ],
+    [ "getKeyPrefs", "classorg_1_1jabref_1_1gui_1_1_globals.html#a69a77b14eb93edb8d178cca8df4b80a5", null ],
+    [ "getTelemetryClient", "classorg_1_1jabref_1_1gui_1_1_globals.html#a8ea209122b59a4d9eef764025722a2e3", null ],
+    [ "shutdownThreadPools", "classorg_1_1jabref_1_1gui_1_1_globals.html#afd8f26dfa7708bec02dc66f91dc87959", null ],
+    [ "startBackgroundTasks", "classorg_1_1jabref_1_1gui_1_1_globals.html#a088eb447b8d86c2a0df5138e2458b2ec", null ],
+    [ "startTelemetryClient", "classorg_1_1jabref_1_1gui_1_1_globals.html#af56d18a4d0b665c4b1113801496c12df", null ],
+    [ "stopBackgroundTasks", "classorg_1_1jabref_1_1gui_1_1_globals.html#a42b3a6c5b292d91d137422796625f2a3", null ],
+    [ "stopTelemetryClient", "classorg_1_1jabref_1_1gui_1_1_globals.html#a8d1c6af7850cd89cc3efd63ed87f637c", null ],
+    [ "BUILD_INFO", "classorg_1_1jabref_1_1gui_1_1_globals.html#aa7916e2294e52f92b573544217bc46d8", null ],
+    [ "clipboardManager", "classorg_1_1jabref_1_1gui_1_1_globals.html#a66837fa5594667d9e8d3eff894e34584", null ],
+    [ "entryTypesManager", "classorg_1_1jabref_1_1gui_1_1_globals.html#a6b7539fef2047fdfa7025b2427ca1209", null ],
+    [ "exportFactory", "classorg_1_1jabref_1_1gui_1_1_globals.html#af2c1d8247fef2a83172337825476b23a", null ],
+    [ "fileUpdateMonitor", "classorg_1_1jabref_1_1gui_1_1_globals.html#a2702614b16856c5bad2a48d43b4c452f", null ],
+    [ "IMPORT_FORMAT_READER", "classorg_1_1jabref_1_1gui_1_1_globals.html#aed17be56717102a92a91a98f31feef0d", null ],
+    [ "journalAbbreviationRepository", "classorg_1_1jabref_1_1gui_1_1_globals.html#a89944045adec0be4f5c28584c4b811cb", null ],
+    [ "keyBindingRepository", "classorg_1_1jabref_1_1gui_1_1_globals.html#a347bbf5b6008358a4b5891805e7e48f1", null ],
+    [ "prefs", "classorg_1_1jabref_1_1gui_1_1_globals.html#ab856adf0c04c6793482b9431f3a06b10", null ],
+    [ "protectedTermsLoader", "classorg_1_1jabref_1_1gui_1_1_globals.html#a8e8932dd1561ca3053b67ecc7640a6c5", null ],
+    [ "REMOTE_LISTENER", "classorg_1_1jabref_1_1gui_1_1_globals.html#ab91312f19a26e406112f061ac24ee0f2", null ],
+    [ "stateManager", "classorg_1_1jabref_1_1gui_1_1_globals.html#a7abadc294a3cdc512b585f2187dc9848", null ],
+    [ "TASK_EXECUTOR", "classorg_1_1jabref_1_1gui_1_1_globals.html#a5141110381c755fec52766f10ba7ca36", null ],
+    [ "telemetryClient", "classorg_1_1jabref_1_1gui_1_1_globals.html#af42ab3a85bc5d388f3888520b92ff3b5", null ],
+    [ "undoManager", "classorg_1_1jabref_1_1gui_1_1_globals.html#aa21ff340cdb99a0f87684cb9f2fd9c77", null ]
+];

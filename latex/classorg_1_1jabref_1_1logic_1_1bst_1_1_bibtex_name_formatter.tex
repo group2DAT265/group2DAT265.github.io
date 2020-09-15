@@ -1,0 +1,119 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter}{}\doxysection{org.\+jabref.\+logic.\+bst.\+Bibtex\+Name\+Formatter Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter}\index{org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a574531bd67293ac5f226db27584738dd}{format\+Name}} (String authors\+Name\+List, int which\+Name, String format\+String, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1bst_1_1_warn}{Warn}} warn)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_afed508c7dfbdc3f226863566824647c4}{format\+Name}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}} author, String format, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1bst_1_1_warn}{Warn}} warn)
+\item 
+static int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a1b7f1dbf02dbf169a8a8778ad74ec721}{consume\+To\+Matching\+Brace}} (String\+Builder inter\+Token\+Sb, char\mbox{[}$\,$\mbox{]} c, int pos)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a4b8acc1d8a1ac1102a2e0e334d040fc4}{get\+First\+Char\+Of\+String}} (String \mbox{\hyperlink{_repec_nep_importer_test2_8txt_a3cfb328320a23574608f92574c131457}{s}})
+\item 
+static int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a8d53cc2857ed90dba0913c6065f8f570}{number\+Of\+Chars}} (String token, int in\+Stop)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_ac34f3ce43ee70ccceac9cbccac68e901}{Bibtex\+Name\+Formatter}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+From Bibtex\+:
+
+"{}The $\vert$built\+\_\+in$\vert$ function \{.\{format.\+name\$\}\} pops the top three literals (they are a string, an integer, and a string literal, in that order). The last string literal represents a name list (each name corresponding to a person), the integer literal specifies which name to pick from this list, and the first string literal specifies how to format this name, as described in the \textbackslash{}\+Bib\+TeX\textbackslash{} documentation. Finally, this function pushes the formatted name. If any of the types is incorrect, it complains and pushes the null string."{}
+
+Sounds easy -\/ is a nightmare... X-\/( 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_ac34f3ce43ee70ccceac9cbccac68e901}\label{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_ac34f3ce43ee70ccceac9cbccac68e901}} 
+\index{org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}!BibtexNameFormatter@{BibtexNameFormatter}}
+\index{BibtexNameFormatter@{BibtexNameFormatter}!org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}}
+\doxysubsubsection{\texorpdfstring{BibtexNameFormatter()}{BibtexNameFormatter()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+bst.\+Bibtex\+Name\+Formatter.\+Bibtex\+Name\+Formatter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a1b7f1dbf02dbf169a8a8778ad74ec721}\label{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a1b7f1dbf02dbf169a8a8778ad74ec721}} 
+\index{org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}!consumeToMatchingBrace@{consumeToMatchingBrace}}
+\index{consumeToMatchingBrace@{consumeToMatchingBrace}!org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}}
+\doxysubsubsection{\texorpdfstring{consumeToMatchingBrace()}{consumeToMatchingBrace()}}
+{\footnotesize\ttfamily static int org.\+jabref.\+logic.\+bst.\+Bibtex\+Name\+Formatter.\+consume\+To\+Matching\+Brace (\begin{DoxyParamCaption}\item[{String\+Builder}]{inter\+Token\+Sb,  }\item[{char\mbox{[}$\,$\mbox{]}}]{c,  }\item[{int}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Including the matching brace.
+
+
+\begin{DoxyParams}{Parameters}
+{\em inter\+Token\+Sb} & \\
+\hline
+{\em c} & \\
+\hline
+{\em pos} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_afed508c7dfbdc3f226863566824647c4}\label{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_afed508c7dfbdc3f226863566824647c4}} 
+\index{org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}!formatName@{formatName}}
+\index{formatName@{formatName}!org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}}
+\doxysubsubsection{\texorpdfstring{formatName()}{formatName()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+bst.\+Bibtex\+Name\+Formatter.\+format\+Name (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}}}]{author,  }\item[{String}]{format,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1bst_1_1_warn}{Warn}}}]{warn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em warn} & collects the warnings, may-\/be-\/null \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a574531bd67293ac5f226db27584738dd}\label{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a574531bd67293ac5f226db27584738dd}} 
+\index{org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}!formatName@{formatName}}
+\index{formatName@{formatName}!org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}}
+\doxysubsubsection{\texorpdfstring{formatName()}{formatName()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+bst.\+Bibtex\+Name\+Formatter.\+format\+Name (\begin{DoxyParamCaption}\item[{String}]{authors\+Name\+List,  }\item[{int}]{which\+Name,  }\item[{String}]{format\+String,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1bst_1_1_warn}{Warn}}}]{warn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Formats the nth author of the author name list by a given format string
+
+
+\begin{DoxyParams}{Parameters}
+{\em authors\+Name\+List} & The string from an author field \\
+\hline
+{\em which\+Name} & index of the list, starting with 1 \\
+\hline
+{\em format\+String} & T\+O\+DO \\
+\hline
+{\em warn} & collects the warnings, may-\/be-\/null \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a4b8acc1d8a1ac1102a2e0e334d040fc4}\label{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a4b8acc1d8a1ac1102a2e0e334d040fc4}} 
+\index{org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}!getFirstCharOfString@{getFirstCharOfString}}
+\index{getFirstCharOfString@{getFirstCharOfString}!org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}}
+\doxysubsubsection{\texorpdfstring{getFirstCharOfString()}{getFirstCharOfString()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+bst.\+Bibtex\+Name\+Formatter.\+get\+First\+Char\+Of\+String (\begin{DoxyParamCaption}\item[{String}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Takes care of special characters too
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a8d53cc2857ed90dba0913c6065f8f570}\label{classorg_1_1jabref_1_1logic_1_1bst_1_1_bibtex_name_formatter_a8d53cc2857ed90dba0913c6065f8f570}} 
+\index{org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}!numberOfChars@{numberOfChars}}
+\index{numberOfChars@{numberOfChars}!org.jabref.logic.bst.BibtexNameFormatter@{org.jabref.logic.bst.BibtexNameFormatter}}
+\doxysubsubsection{\texorpdfstring{numberOfChars()}{numberOfChars()}}
+{\footnotesize\ttfamily static int org.\+jabref.\+logic.\+bst.\+Bibtex\+Name\+Formatter.\+number\+Of\+Chars (\begin{DoxyParamCaption}\item[{String}]{token,  }\item[{int}]{in\+Stop }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/bst/\mbox{\hyperlink{_bibtex_name_formatter_8java}{Bibtex\+Name\+Formatter.\+java}}\end{DoxyCompactItemize}

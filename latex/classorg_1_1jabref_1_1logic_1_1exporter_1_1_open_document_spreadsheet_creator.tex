@@ -1,0 +1,112 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator}{}\doxysection{org.\+jabref.\+logic.\+exporter.\+Open\+Document\+Spreadsheet\+Creator Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator}\index{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}}
+Inheritance diagram for org.\+jabref.\+logic.\+exporter.\+Open\+Document\+Spreadsheet\+Creator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a48a38e5c24dc713160f96f821f53d207}{Open\+Document\+Spreadsheet\+Creator}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a7a5aa4a50429b4660f882c8b2e882f3d}{export}} (final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database\+Context, final Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, final Charset encoding, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_aa920a3e5e94611adfc69c0e0dc5346c3}{store\+Open\+Document\+Spreadsheet\+File}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, Input\+Stream \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a40e859b9aaa2d8657227ee008c8a6c7b}{source}})  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a2eedb7759bebee528d3ad6fee223873c}{export\+Open\+Document\+Spreadsheet}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a807439e0696a21457659935b0e53551a}{export\+Open\+Document\+Spreadsheet\+X\+ML}} (File tmp\+File, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a56163db684b7e44781fbf42ee14bb1e3}{add\+Resource\+File}} (String \mbox{\hyperlink{com_8apple___apple_java_extensions_8txt_acb1a49b0ddb52b756e294b2eae8cb969}{name}}, String resource, Zip\+Output\+Stream out)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a697a0f7d2be48088e219088033bd438a}{add\+From\+Resource}} (String resource, Output\+Stream out)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a4661072d29e58457293ce2cee3bd72ff}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Open\+Document\+Spreadsheet\+Creator.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a48a38e5c24dc713160f96f821f53d207}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a48a38e5c24dc713160f96f821f53d207}} 
+\index{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}!OpenDocumentSpreadsheetCreator@{OpenDocumentSpreadsheetCreator}}
+\index{OpenDocumentSpreadsheetCreator@{OpenDocumentSpreadsheetCreator}!org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}}
+\doxysubsubsection{\texorpdfstring{OpenDocumentSpreadsheetCreator()}{OpenDocumentSpreadsheetCreator()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+exporter.\+Open\+Document\+Spreadsheet\+Creator.\+Open\+Document\+Spreadsheet\+Creator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates a new instance of \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator}{Open\+Office\+Document\+Creator}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a697a0f7d2be48088e219088033bd438a}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a697a0f7d2be48088e219088033bd438a}} 
+\index{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}!addFromResource@{addFromResource}}
+\index{addFromResource@{addFromResource}!org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}}
+\doxysubsubsection{\texorpdfstring{addFromResource()}{addFromResource()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+exporter.\+Open\+Document\+Spreadsheet\+Creator.\+add\+From\+Resource (\begin{DoxyParamCaption}\item[{String}]{resource,  }\item[{Output\+Stream}]{out }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a56163db684b7e44781fbf42ee14bb1e3}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a56163db684b7e44781fbf42ee14bb1e3}} 
+\index{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}!addResourceFile@{addResourceFile}}
+\index{addResourceFile@{addResourceFile}!org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}}
+\doxysubsubsection{\texorpdfstring{addResourceFile()}{addResourceFile()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+exporter.\+Open\+Document\+Spreadsheet\+Creator.\+add\+Resource\+File (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{String}]{resource,  }\item[{Zip\+Output\+Stream}]{out }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a7a5aa4a50429b4660f882c8b2e882f3d}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a7a5aa4a50429b4660f882c8b2e882f3d}} 
+\index{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}!export@{export}}
+\index{export@{export}!org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}}
+\doxysubsubsection{\texorpdfstring{export()}{export()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+exporter.\+Open\+Document\+Spreadsheet\+Creator.\+export (\begin{DoxyParamCaption}\item[{final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{final Path}]{file,  }\item[{final Charset}]{encoding,  }\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Performs the export.
+
+
+\begin{DoxyParams}{Parameters}
+{\em database\+Context} & the database to export from \\
+\hline
+{\em file} & the file to write to \\
+\hline
+{\em encoding} & the encoding to use \\
+\hline
+{\em entries} & a list containing all entries that should be exported \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_exporter_a7458a0d4973d2d47d58de5541ea68752}{org.\+jabref.\+logic.\+exporter.\+Exporter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a2eedb7759bebee528d3ad6fee223873c}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a2eedb7759bebee528d3ad6fee223873c}} 
+\index{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}!exportOpenDocumentSpreadsheet@{exportOpenDocumentSpreadsheet}}
+\index{exportOpenDocumentSpreadsheet@{exportOpenDocumentSpreadsheet}!org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}}
+\doxysubsubsection{\texorpdfstring{exportOpenDocumentSpreadsheet()}{exportOpenDocumentSpreadsheet()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+exporter.\+Open\+Document\+Spreadsheet\+Creator.\+export\+Open\+Document\+Spreadsheet (\begin{DoxyParamCaption}\item[{Path}]{file,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database,  }\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a807439e0696a21457659935b0e53551a}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a807439e0696a21457659935b0e53551a}} 
+\index{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}!exportOpenDocumentSpreadsheetXML@{exportOpenDocumentSpreadsheetXML}}
+\index{exportOpenDocumentSpreadsheetXML@{exportOpenDocumentSpreadsheetXML}!org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}}
+\doxysubsubsection{\texorpdfstring{exportOpenDocumentSpreadsheetXML()}{exportOpenDocumentSpreadsheetXML()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+exporter.\+Open\+Document\+Spreadsheet\+Creator.\+export\+Open\+Document\+Spreadsheet\+X\+ML (\begin{DoxyParamCaption}\item[{File}]{tmp\+File,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database,  }\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_aa920a3e5e94611adfc69c0e0dc5346c3}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_aa920a3e5e94611adfc69c0e0dc5346c3}} 
+\index{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}!storeOpenDocumentSpreadsheetFile@{storeOpenDocumentSpreadsheetFile}}
+\index{storeOpenDocumentSpreadsheetFile@{storeOpenDocumentSpreadsheetFile}!org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}}
+\doxysubsubsection{\texorpdfstring{storeOpenDocumentSpreadsheetFile()}{storeOpenDocumentSpreadsheetFile()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+exporter.\+Open\+Document\+Spreadsheet\+Creator.\+store\+Open\+Document\+Spreadsheet\+File (\begin{DoxyParamCaption}\item[{Path}]{file,  }\item[{Input\+Stream}]{source }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a4661072d29e58457293ce2cee3bd72ff}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator_a4661072d29e58457293ce2cee3bd72ff}} 
+\index{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator@{org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+exporter.\+Open\+Document\+Spreadsheet\+Creator.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Open\+Document\+Spreadsheet\+Creator.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/exporter/\mbox{\hyperlink{_open_document_spreadsheet_creator_8java}{Open\+Document\+Spreadsheet\+Creator.\+java}}\end{DoxyCompactItemize}

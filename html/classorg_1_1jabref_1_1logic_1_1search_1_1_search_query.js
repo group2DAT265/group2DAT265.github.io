@@ -1,0 +1,28 @@
+var classorg_1_1jabref_1_1logic_1_1search_1_1_search_query =
+[
+    [ "EscapeMode", "enumorg_1_1jabref_1_1logic_1_1search_1_1_search_query_1_1_escape_mode.html", "enumorg_1_1jabref_1_1logic_1_1search_1_1_search_query_1_1_escape_mode" ],
+    [ "SearchQuery", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a1ce9f471a37d6dc309685cdb58fd0315", null ],
+    [ "getCaseSensitiveDescription", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#adb523230acc73e58692898a5288fac0e", null ],
+    [ "getJavaScriptPatternForWords", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#abce026f7469718bcc8c23b6b2fff6ea5", null ],
+    [ "getLocalizedCaseSensitiveDescription", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a65e981d77aae1767bbf9a859a12a900e", null ],
+    [ "getLocalizedRegularExpressionDescription", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#ac1118cba165e5ea85a70286fc2b79dfe", null ],
+    [ "getPatternForWords", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a555d08ad85bebc17102b2960a1a1c062", null ],
+    [ "getQuery", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#afccb37c03009fe30d1b4173f7c37ac48", null ],
+    [ "getRegularExpressionDescription", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#ae3545c596be9c25f4bc2b212baec69ab", null ],
+    [ "getRule", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a209474282ecea4fbed2c5459bbb9631c", null ],
+    [ "getSearchWords", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a7249e7e9bc95200182d4bdec5748d42d", null ],
+    [ "isCaseSensitive", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#aad7b691166beae83843eb76c76f9edb9", null ],
+    [ "isContainsBasedSearch", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a9814c24231da569c5661b0d4cd22e981", null ],
+    [ "isGrammarBasedSearch", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#ace8ff9314e27f78a95279d4390aea3e9", null ],
+    [ "isMatch", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#adcfc6d783d645e4b3dde54c047d47034", null ],
+    [ "isRegularExpression", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a964c654ed462ceac08a76dce80bd1230", null ],
+    [ "isValid", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#ab55e58d1c2e34a32d3bd9837f58d0c51", null ],
+    [ "joinWordsToPattern", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a83fcb886c1667929daf8582fb0698f7c", null ],
+    [ "localize", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#ad873cdbb3ff908783e7f8991cfaab4b9", null ],
+    [ "toString", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#ac29298455ee46656295455475bbf1808", null ],
+    [ "caseSensitive", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#af7577d3ce9c62e408e1592cda4f5547d", null ],
+    [ "JAVASCRIPT_ESCAPED_CHARS_PATTERN", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a09bd11af66c46e51378ead23d8511fb8", null ],
+    [ "query", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a2a839e65a56aae6fb51da10d7451ca05", null ],
+    [ "regularExpression", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a689f25c0d88293d820b7e83b0939a7ac", null ],
+    [ "rule", "classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html#a6cb7409719124b02c10cf4beda5630c7", null ]
+];

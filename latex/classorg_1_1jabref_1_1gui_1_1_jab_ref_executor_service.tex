@@ -1,0 +1,190 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service}{}\doxysection{org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service}\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_1_1_named_runnable}{Named\+Runnable}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a2c53fe4887850109237f5bfb02a54c91}{execute}} (Runnable command)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a3b6ca776f6364c1d31b1c879e0c8ac18}{execute\+And\+Wait}} (Runnable command)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a7b99f817328c3726d8738098146723f7}{execute\+Interruptable\+Task}} (final Runnable runnable, String task\+Name)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a24d37dac34699e906889c95c8391b7ea}{execute\+Interruptable\+Task\+And\+Wait}} (Runnable runnable)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_ab6d3dabb85f525e3a26f717533414eae}{manage\+Remote\+Thread}} (Thread thread)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_af74c0766e20358b5a2cfdef8de32bbee}{stop\+Remote\+Thread}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a56dbc7a963b848634d7f81a5ad9959eb}{submit}} (Timer\+Task timer\+Task, long milliseconds\+Delay)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_aa13bfcecca219d7341ed2a0e6f7901ad}{shutdown\+Everything}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a00c261b22cfddb0e019b859625234c9e}{gracefully\+Shutdown}} (Executor\+Service \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a251a12b73c6f9226e974a397bf8a20e7}{executor\+Service}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service}{Jab\+Ref\+Executor\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a1b47d73f504a4e32d62708eba012f895}{I\+N\+S\+T\+A\+N\+CE}} = new \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service}{Jab\+Ref\+Executor\+Service}}()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_aa42699d0781456ef9bddfe9aaaf0568e}{Jab\+Ref\+Executor\+Service}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Executor\+Service \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a251a12b73c6f9226e974a397bf8a20e7}{executor\+Service}}
+\item 
+final Executor\+Service \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_afc169befe439b6823f2c83dce15455af}{low\+Priority\+Executor\+Service}}
+\item 
+final Timer \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a714f74a13a230e7cff785d6ea149efac}{timer}} = new Timer(\char`\"{}timer\char`\"{}, true)
+\item 
+Thread \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a17be5884022a2bcfff56c02b0ff0e5fb}{remote\+Thread}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a3e5d2468323b06249986a72d581817c1}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Jab\+Ref\+Executor\+Service.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Responsible for managing of all threads (except G\+UI threads) in Jab\+Ref 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_aa42699d0781456ef9bddfe9aaaf0568e}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_aa42699d0781456ef9bddfe9aaaf0568e}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!JabRefExecutorService@{JabRefExecutorService}}
+\index{JabRefExecutorService@{JabRefExecutorService}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{JabRefExecutorService()}{JabRefExecutorService()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+Jab\+Ref\+Executor\+Service (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a2c53fe4887850109237f5bfb02a54c91}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a2c53fe4887850109237f5bfb02a54c91}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!execute@{execute}}
+\index{execute@{execute}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+execute (\begin{DoxyParamCaption}\item[{Runnable}]{command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a3b6ca776f6364c1d31b1c879e0c8ac18}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a3b6ca776f6364c1d31b1c879e0c8ac18}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!executeAndWait@{executeAndWait}}
+\index{executeAndWait@{executeAndWait}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{executeAndWait()}{executeAndWait()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+execute\+And\+Wait (\begin{DoxyParamCaption}\item[{Runnable}]{command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a7b99f817328c3726d8738098146723f7}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a7b99f817328c3726d8738098146723f7}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!executeInterruptableTask@{executeInterruptableTask}}
+\index{executeInterruptableTask@{executeInterruptableTask}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{executeInterruptableTask()}{executeInterruptableTask()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+execute\+Interruptable\+Task (\begin{DoxyParamCaption}\item[{final Runnable}]{runnable,  }\item[{String}]{task\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a24d37dac34699e906889c95c8391b7ea}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a24d37dac34699e906889c95c8391b7ea}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!executeInterruptableTaskAndWait@{executeInterruptableTaskAndWait}}
+\index{executeInterruptableTaskAndWait@{executeInterruptableTaskAndWait}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{executeInterruptableTaskAndWait()}{executeInterruptableTaskAndWait()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+execute\+Interruptable\+Task\+And\+Wait (\begin{DoxyParamCaption}\item[{Runnable}]{runnable }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a00c261b22cfddb0e019b859625234c9e}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a00c261b22cfddb0e019b859625234c9e}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!gracefullyShutdown@{gracefullyShutdown}}
+\index{gracefullyShutdown@{gracefullyShutdown}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{gracefullyShutdown()}{gracefullyShutdown()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+gracefully\+Shutdown (\begin{DoxyParamCaption}\item[{Executor\+Service}]{executor\+Service }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Shuts down the provided executor service by first trying a normal shutdown, then waiting for the shutdown and then forcibly shutting it down. Returns if the status of the shut down is known. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_ab6d3dabb85f525e3a26f717533414eae}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_ab6d3dabb85f525e3a26f717533414eae}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!manageRemoteThread@{manageRemoteThread}}
+\index{manageRemoteThread@{manageRemoteThread}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{manageRemoteThread()}{manageRemoteThread()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+manage\+Remote\+Thread (\begin{DoxyParamCaption}\item[{Thread}]{thread }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_aa13bfcecca219d7341ed2a0e6f7901ad}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_aa13bfcecca219d7341ed2a0e6f7901ad}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!shutdownEverything@{shutdownEverything}}
+\index{shutdownEverything@{shutdownEverything}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{shutdownEverything()}{shutdownEverything()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+shutdown\+Everything (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Shuts everything down. After termination, this method returns. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_af74c0766e20358b5a2cfdef8de32bbee}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_af74c0766e20358b5a2cfdef8de32bbee}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!stopRemoteThread@{stopRemoteThread}}
+\index{stopRemoteThread@{stopRemoteThread}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{stopRemoteThread()}{stopRemoteThread()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+stop\+Remote\+Thread (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a56dbc7a963b848634d7f81a5ad9959eb}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a56dbc7a963b848634d7f81a5ad9959eb}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!submit@{submit}}
+\index{submit@{submit}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{submit()}{submit()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+submit (\begin{DoxyParamCaption}\item[{Timer\+Task}]{timer\+Task,  }\item[{long}]{milliseconds\+Delay }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a251a12b73c6f9226e974a397bf8a20e7}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a251a12b73c6f9226e974a397bf8a20e7}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!executorService@{executorService}}
+\index{executorService@{executorService}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{executorService}{executorService}}
+{\footnotesize\ttfamily final Executor\+Service org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+executor\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Executors.newCachedThreadPool(r -\/> \{}
+\DoxyCodeLine{        Thread thread = \textcolor{keyword}{new} Thread(r);}
+\DoxyCodeLine{        thread.setName(\textcolor{stringliteral}{"{}JabRef CachedThreadPool"{}});}
+\DoxyCodeLine{        thread.setUncaughtExceptionHandler(\textcolor{keyword}{new} FallbackExceptionHandler());}
+\DoxyCodeLine{        \textcolor{keywordflow}{return} thread;}
+\DoxyCodeLine{    \})}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a1b47d73f504a4e32d62708eba012f895}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a1b47d73f504a4e32d62708eba012f895}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!INSTANCE@{INSTANCE}}
+\index{INSTANCE@{INSTANCE}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{INSTANCE}{INSTANCE}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service}{Jab\+Ref\+Executor\+Service}} org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+I\+N\+S\+T\+A\+N\+CE = new \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service}{Jab\+Ref\+Executor\+Service}}()\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a3e5d2468323b06249986a72d581817c1}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a3e5d2468323b06249986a72d581817c1}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Jab\+Ref\+Executor\+Service.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_afc169befe439b6823f2c83dce15455af}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_afc169befe439b6823f2c83dce15455af}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!lowPriorityExecutorService@{lowPriorityExecutorService}}
+\index{lowPriorityExecutorService@{lowPriorityExecutorService}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{lowPriorityExecutorService}{lowPriorityExecutorService}}
+{\footnotesize\ttfamily final Executor\+Service org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+low\+Priority\+Executor\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Executors.newCachedThreadPool(r -\/> \{}
+\DoxyCodeLine{        Thread thread = \textcolor{keyword}{new} Thread(r);}
+\DoxyCodeLine{        thread.setName(\textcolor{stringliteral}{"{}JabRef LowPriorityCachedThreadPool"{}});}
+\DoxyCodeLine{        thread.setUncaughtExceptionHandler(\textcolor{keyword}{new} FallbackExceptionHandler());}
+\DoxyCodeLine{        \textcolor{keywordflow}{return} thread;}
+\DoxyCodeLine{    \})}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a17be5884022a2bcfff56c02b0ff0e5fb}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a17be5884022a2bcfff56c02b0ff0e5fb}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!remoteThread@{remoteThread}}
+\index{remoteThread@{remoteThread}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{remoteThread}{remoteThread}}
+{\footnotesize\ttfamily Thread org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+remote\+Thread\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a714f74a13a230e7cff785d6ea149efac}\label{classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_a714f74a13a230e7cff785d6ea149efac}} 
+\index{org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}!timer@{timer}}
+\index{timer@{timer}!org.jabref.gui.JabRefExecutorService@{org.jabref.gui.JabRefExecutorService}}
+\doxysubsubsection{\texorpdfstring{timer}{timer}}
+{\footnotesize\ttfamily final Timer org.\+jabref.\+gui.\+Jab\+Ref\+Executor\+Service.\+timer = new Timer(\char`\"{}timer\char`\"{}, true)\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/\mbox{\hyperlink{_jab_ref_executor_service_8java}{Jab\+Ref\+Executor\+Service.\+java}}\end{DoxyCompactItemize}

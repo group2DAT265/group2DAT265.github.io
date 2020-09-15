@@ -1,0 +1,25 @@
+var classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog =
+[
+    [ "FileNodeWrapper", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog_1_1_file_node_wrapper.html", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog_1_1_file_node_wrapper" ],
+    [ "FindUnlinkedFilesDialog", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a94815000379453a1018b170aefceb9f3", null ],
+    [ "expandTree", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a4bf905b26449a49a72cfa3b5b442ae5e", null ],
+    [ "getFileListFromNode", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a109caaeb3be8ae0a8a4434e93b5d32d0", null ],
+    [ "getSearchDirectory", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ad434da21fa080e185b5d8ad579c913bc", null ],
+    [ "initialize", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#af3dd9e1c88c7285709ab160053b08ab7", null ],
+    [ "startExport", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#abe65705a86dd942a528faf2e18baa2f3", null ],
+    [ "startImport", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#aab0e4dccfc5cfd49815e85c8cf68a7b8", null ],
+    [ "startSearch", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a1fc0c74dd7963b66a6f3c272b7ca4c2a", null ],
+    [ "buttonApply", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ab9fa52114d64d7f1a412ca120fb07def", null ],
+    [ "buttonExport", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a8fdffbdfc06450ceca9e4bb3ba9bb8c5", null ],
+    [ "buttonScan", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a1ecc24528a74d057468c27df5ea1a805", null ],
+    [ "comboBoxFileTypeSelection", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ab720ad7bc352a12e284fef8e29e4c8b7", null ],
+    [ "databaseContext", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#aec252186e37e57e9adc41c2c1e4bb05d", null ],
+    [ "dialogService", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a5101fd9768180c1180d0a3b56a2c20bb", null ],
+    [ "findUnlinkedFilesTask", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#abd300c3aa3526f3631619e24dcbc7720", null ],
+    [ "importHandler", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#aa58d36ed171c7bb4ce3f8fc9b5526675", null ],
+    [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ab8ef4d652bb3e0873c7b2e7fa3b3ffcd", null ],
+    [ "panelSearchProgress", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a6b74c0d7206a643a5cccc34f2b8cf380", null ],
+    [ "preferences", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a5071105434ab4d297fbccadd002fbb25", null ],
+    [ "textfieldDirectoryPath", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a88e8b6af54c99ef12272e5f323603f3e", null ],
+    [ "tree", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a3afda6a07f9b32e898cbba1becf161f9", null ]
+];

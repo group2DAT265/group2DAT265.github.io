@@ -1,0 +1,45 @@
+\hypertarget{classorg_1_1jabref_1_1migrations_1_1_convert_legacy_explicit_groups}{}\doxysection{org.\+jabref.\+migrations.\+Convert\+Legacy\+Explicit\+Groups Class Reference}
+\label{classorg_1_1jabref_1_1migrations_1_1_convert_legacy_explicit_groups}\index{org.jabref.migrations.ConvertLegacyExplicitGroups@{org.jabref.migrations.ConvertLegacyExplicitGroups}}
+Inheritance diagram for org.\+jabref.\+migrations.\+Convert\+Legacy\+Explicit\+Groups\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1migrations_1_1_convert_legacy_explicit_groups}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1migrations_1_1_convert_legacy_explicit_groups_ab350b89ec25e89b4da0599bc2954cc95}{perform\+Migration}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} parser\+Result)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group}{Explicit\+Group}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1migrations_1_1_convert_legacy_explicit_groups_a1cb7cba780eb3f649956d1b4a3038c32}{get\+Explicit\+Groups\+With\+Legacy\+Keys}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} node)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Converts legacy explicit groups, where the group contained a list of assigned entries, to the new format, where the entry stores a list of groups it belongs to. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1migrations_1_1_convert_legacy_explicit_groups_a1cb7cba780eb3f649956d1b4a3038c32}\label{classorg_1_1jabref_1_1migrations_1_1_convert_legacy_explicit_groups_a1cb7cba780eb3f649956d1b4a3038c32}} 
+\index{org.jabref.migrations.ConvertLegacyExplicitGroups@{org.jabref.migrations.ConvertLegacyExplicitGroups}!getExplicitGroupsWithLegacyKeys@{getExplicitGroupsWithLegacyKeys}}
+\index{getExplicitGroupsWithLegacyKeys@{getExplicitGroupsWithLegacyKeys}!org.jabref.migrations.ConvertLegacyExplicitGroups@{org.jabref.migrations.ConvertLegacyExplicitGroups}}
+\doxysubsubsection{\texorpdfstring{getExplicitGroupsWithLegacyKeys()}{getExplicitGroupsWithLegacyKeys()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group}{Explicit\+Group}}$>$ org.\+jabref.\+migrations.\+Convert\+Legacy\+Explicit\+Groups.\+get\+Explicit\+Groups\+With\+Legacy\+Keys (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}}}]{node }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1migrations_1_1_convert_legacy_explicit_groups_ab350b89ec25e89b4da0599bc2954cc95}\label{classorg_1_1jabref_1_1migrations_1_1_convert_legacy_explicit_groups_ab350b89ec25e89b4da0599bc2954cc95}} 
+\index{org.jabref.migrations.ConvertLegacyExplicitGroups@{org.jabref.migrations.ConvertLegacyExplicitGroups}!performMigration@{performMigration}}
+\index{performMigration@{performMigration}!org.jabref.migrations.ConvertLegacyExplicitGroups@{org.jabref.migrations.ConvertLegacyExplicitGroups}}
+\doxysubsubsection{\texorpdfstring{performMigration()}{performMigration()}}
+{\footnotesize\ttfamily void org.\+jabref.\+migrations.\+Convert\+Legacy\+Explicit\+Groups.\+perform\+Migration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}}]{parser\+Result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1migrations_1_1_post_open_migration_aec9924d224064b72e9a28e2e817266c4}{org.\+jabref.\+migrations.\+Post\+Open\+Migration}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/migrations/\mbox{\hyperlink{_convert_legacy_explicit_groups_8java}{Convert\+Legacy\+Explicit\+Groups.\+java}}\end{DoxyCompactItemize}

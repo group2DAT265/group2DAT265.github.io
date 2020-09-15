@@ -1,0 +1,25 @@
+var classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer =
+[
+    [ "RepecNepImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#af649d76d1a0c8dddb916d54025cf0207", null ],
+    [ "getDescription", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a7a9477a4615dc6387eba131308082b0b", null ],
+    [ "getFileType", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a0ea5ed6c14be86840d15ae322708c953", null ],
+    [ "getId", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a4392aaeacb1460dd34a08d7d7568a9fd", null ],
+    [ "getName", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#abe22ef39d460e9bc4c9dccebbc188926", null ],
+    [ "importDatabase", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#ab53fbf141b0c98700ce3ae5d83500bc3", null ],
+    [ "isRecognizedFormat", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#acd456251ca50bb38f50bdc6759e75e9b", null ],
+    [ "isStartOfWorkingPaper", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a56ae9330707cdc97f70233c48d9e632a", null ],
+    [ "parseAbstract", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#ad885945f3ca09e3b9621a648bf61bef3", null ],
+    [ "parseAdditionalFields", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#ad4061524626c1d26c37f22bff9f698ca", null ],
+    [ "parseAuthors", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a39359ebdc355542121acecce631e9ced", null ],
+    [ "parseTitleString", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#aec9f2e51db1e7aa9c758b7193c28f554", null ],
+    [ "readLine", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#ab3cbc85fceb58c3d6c804b62181fd6b3", null ],
+    [ "readMultipleLines", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a44bcc6aa2ae2c306f97171ac42fb0398", null ],
+    [ "startsWithKeyword", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a267b1aa16fb7eaba4e36222ec12884a6", null ],
+    [ "importFormatPreferences", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a7a29e43a96bbe3af2a77880f6f2558b4", null ],
+    [ "inOverviewSection", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a8b08c429069489d50ec4add95997258d", null ],
+    [ "lastLine", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#ac86651c9fc1e5e438e5128818df34147", null ],
+    [ "line", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a91e7a4259a5db1731b2b49f6d84e4f7f", null ],
+    [ "LOGGER", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#af4b1cde58c7ffd6449f86e3ebc19dabc", null ],
+    [ "preLine", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a737a0653c14db3cbc50a039f5bbc6c9b", null ],
+    [ "RECOGNIZED_FIELDS", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html#a8c0a3135ad5391278aebc835065a0a40", null ]
+];

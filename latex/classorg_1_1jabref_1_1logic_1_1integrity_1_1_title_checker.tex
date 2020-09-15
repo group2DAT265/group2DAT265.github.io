@@ -1,0 +1,91 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker}{}\doxysection{org.\+jabref.\+logic.\+integrity.\+Title\+Checker Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker}\index{org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}}
+Inheritance diagram for org.\+jabref.\+logic.\+integrity.\+Title\+Checker\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a518fae8374aedf7de62cfd02092fc23e}{Title\+Checker}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_ac47e653f9b3c2c9e6c26b86d45e29af8}{database\+Context}})
+\item 
+Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a4f813d5d5c5ddaa5ff2633f217159bb2}{check\+Value}} (String value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_ac47e653f9b3c2c9e6c26b86d45e29af8}{database\+Context}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a5d54a53edfe4abb5e390c0ccf7183e71}{I\+N\+S\+I\+D\+E\+\_\+\+C\+U\+R\+L\+Y\+\_\+\+B\+R\+A\+K\+E\+TS}} = Pattern.\+compile(\char`\"{}\textbackslash{}\textbackslash{}\{\mbox{[}$^\wedge$\}\textbackslash{}\textbackslash{}\{\mbox{]}$\ast$\textbackslash{}\textbackslash{}\}\char`\"{})
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a7b14cee8b85a30bab028d04043ae4260}{D\+E\+L\+I\+M\+I\+T\+E\+RS}} = Pattern.\+compile(\char`\"{}\textbackslash{}\textbackslash{}.$\vert$\textbackslash{}\textbackslash{}!$\vert$\textbackslash{}\textbackslash{}?$\vert$\textbackslash{}\textbackslash{};$\vert$\textbackslash{}\textbackslash{}\+:\char`\"{})
+\item 
+static final Predicate$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a9e78297f474cff71fbfdf539a839448d}{H\+A\+S\+\_\+\+C\+A\+P\+I\+T\+A\+L\+\_\+\+L\+E\+T\+T\+E\+RS}} = Pattern.\+compile(\char`\"{}\mbox{[}\textbackslash{}\textbackslash{}p\{Lu\}\textbackslash{}\textbackslash{}p\{Lt\}\mbox{]}\char`\"{}).as\+Predicate()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a518fae8374aedf7de62cfd02092fc23e}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a518fae8374aedf7de62cfd02092fc23e}} 
+\index{org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}!TitleChecker@{TitleChecker}}
+\index{TitleChecker@{TitleChecker}!org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}}
+\doxysubsubsection{\texorpdfstring{TitleChecker()}{TitleChecker()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+integrity.\+Title\+Checker.\+Title\+Checker (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a4f813d5d5c5ddaa5ff2633f217159bb2}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a4f813d5d5c5ddaa5ff2633f217159bb2}} 
+\index{org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}!checkValue@{checkValue}}
+\index{checkValue@{checkValue}!org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}}
+\doxysubsubsection{\texorpdfstring{checkValue()}{checkValue()}}
+{\footnotesize\ttfamily Optional$<$String$>$ org.\+jabref.\+logic.\+integrity.\+Title\+Checker.\+check\+Value (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Algorithm\+:
+\begin{DoxyItemize}
+\item remove everything that is in brackets
+\item split the title into sub titles based on the delimiters (defined in the local variable D\+E\+L\+I\+M\+I\+T\+E\+RS, currently . ! ? ; \+:)
+\item for each sub title\+:
+\item remove trailing whitespaces
+\item ignore first letter as this can always be written in caps
+\item check if at least one capital letter is in the sub title 
+\end{DoxyItemize}
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1integrity_1_1_value_checker_a7da264b7e26d92241660e07f3825c667}{org.\+jabref.\+logic.\+integrity.\+Value\+Checker}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_ac47e653f9b3c2c9e6c26b86d45e29af8}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_ac47e653f9b3c2c9e6c26b86d45e29af8}} 
+\index{org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}!databaseContext@{databaseContext}}
+\index{databaseContext@{databaseContext}!org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}}
+\doxysubsubsection{\texorpdfstring{databaseContext}{databaseContext}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} org.\+jabref.\+logic.\+integrity.\+Title\+Checker.\+database\+Context\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a7b14cee8b85a30bab028d04043ae4260}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a7b14cee8b85a30bab028d04043ae4260}} 
+\index{org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}!DELIMITERS@{DELIMITERS}}
+\index{DELIMITERS@{DELIMITERS}!org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}}
+\doxysubsubsection{\texorpdfstring{DELIMITERS}{DELIMITERS}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+integrity.\+Title\+Checker.\+D\+E\+L\+I\+M\+I\+T\+E\+RS = Pattern.\+compile(\char`\"{}\textbackslash{}\textbackslash{}.$\vert$\textbackslash{}\textbackslash{}!$\vert$\textbackslash{}\textbackslash{}?$\vert$\textbackslash{}\textbackslash{};$\vert$\textbackslash{}\textbackslash{}\+:\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a9e78297f474cff71fbfdf539a839448d}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a9e78297f474cff71fbfdf539a839448d}} 
+\index{org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}!HAS\_CAPITAL\_LETTERS@{HAS\_CAPITAL\_LETTERS}}
+\index{HAS\_CAPITAL\_LETTERS@{HAS\_CAPITAL\_LETTERS}!org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}}
+\doxysubsubsection{\texorpdfstring{HAS\_CAPITAL\_LETTERS}{HAS\_CAPITAL\_LETTERS}}
+{\footnotesize\ttfamily final Predicate$<$String$>$ org.\+jabref.\+logic.\+integrity.\+Title\+Checker.\+H\+A\+S\+\_\+\+C\+A\+P\+I\+T\+A\+L\+\_\+\+L\+E\+T\+T\+E\+RS = Pattern.\+compile(\char`\"{}\mbox{[}\textbackslash{}\textbackslash{}p\{Lu\}\textbackslash{}\textbackslash{}p\{Lt\}\mbox{]}\char`\"{}).as\+Predicate()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a5d54a53edfe4abb5e390c0ccf7183e71}\label{classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker_a5d54a53edfe4abb5e390c0ccf7183e71}} 
+\index{org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}!INSIDE\_CURLY\_BRAKETS@{INSIDE\_CURLY\_BRAKETS}}
+\index{INSIDE\_CURLY\_BRAKETS@{INSIDE\_CURLY\_BRAKETS}!org.jabref.logic.integrity.TitleChecker@{org.jabref.logic.integrity.TitleChecker}}
+\doxysubsubsection{\texorpdfstring{INSIDE\_CURLY\_BRAKETS}{INSIDE\_CURLY\_BRAKETS}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+integrity.\+Title\+Checker.\+I\+N\+S\+I\+D\+E\+\_\+\+C\+U\+R\+L\+Y\+\_\+\+B\+R\+A\+K\+E\+TS = Pattern.\+compile(\char`\"{}\textbackslash{}\textbackslash{}\{\mbox{[}$^\wedge$\}\textbackslash{}\textbackslash{}\{\mbox{]}$\ast$\textbackslash{}\textbackslash{}\}\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/integrity/\mbox{\hyperlink{_title_checker_8java}{Title\+Checker.\+java}}\end{DoxyCompactItemize}

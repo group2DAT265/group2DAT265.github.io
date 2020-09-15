@@ -1,0 +1,113 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader}{}\doxysection{org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader}\index{org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a72897f53a52d78edcbd137d58b1cf4b5}{I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader}} (final Reader initial\+Reader)
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a25b7a275e688ae18ce4131ec6950bcdf}{read}} ()  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a161cb9840b48c9591cb74529bde0eafc}{readpre\+Line}} ()  throws I\+O\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a6476448557a4025c1a4a6bb524410105}{fix\+Bibkey}} (final String preliminary\+Line)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Buffered\+Reader \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_ac677cc1bf1a785f773a1b67bacbef4d1}{in\+Reader}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a721eb3466aee7e33749b3aed24a6a455}{line}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a988d6e6c52a49f74726ea3de6a52f158}{pos}}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_aea88f7b92906907b6b755fcd3b60671b}{pre}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a242ad77935483a8a7e6826e301c719a0}{P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}@Article\textbackslash{}\textbackslash{}\{.$\ast$,\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Warning -- it is not a generic filter, only read is implemented! 
+
+Note\+: this is just a quick port of the original S\+P\+I\+R\+E\+S\+Bibtex\+Filter\+Reader. 
+
+T\+O\+DO\+: Fix grammar in bibtex entries -- it may return invalid bibkeys (with space) 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a72897f53a52d78edcbd137d58b1cf4b5}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a72897f53a52d78edcbd137d58b1cf4b5}} 
+\index{org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}!INSPIREBibtexFilterReader@{INSPIREBibtexFilterReader}}
+\index{INSPIREBibtexFilterReader@{INSPIREBibtexFilterReader}!org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}}
+\doxysubsubsection{\texorpdfstring{INSPIREBibtexFilterReader()}{INSPIREBibtexFilterReader()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader (\begin{DoxyParamCaption}\item[{final Reader}]{initial\+Reader }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a6476448557a4025c1a4a6bb524410105}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a6476448557a4025c1a4a6bb524410105}} 
+\index{org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}!fixBibkey@{fixBibkey}}
+\index{fixBibkey@{fixBibkey}!org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}}
+\doxysubsubsection{\texorpdfstring{fixBibkey()}{fixBibkey()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader.\+fix\+Bibkey (\begin{DoxyParamCaption}\item[{final String}]{preliminary\+Line }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a25b7a275e688ae18ce4131ec6950bcdf}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a25b7a275e688ae18ce4131ec6950bcdf}} 
+\index{org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}!read@{read}}
+\index{read@{read}!org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader.\+read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a161cb9840b48c9591cb74529bde0eafc}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a161cb9840b48c9591cb74529bde0eafc}} 
+\index{org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}!readpreLine@{readpreLine}}
+\index{readpreLine@{readpreLine}!org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}}
+\doxysubsubsection{\texorpdfstring{readpreLine()}{readpreLine()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader.\+readpre\+Line (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_ac677cc1bf1a785f773a1b67bacbef4d1}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_ac677cc1bf1a785f773a1b67bacbef4d1}} 
+\index{org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}!inReader@{inReader}}
+\index{inReader@{inReader}!org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}}
+\doxysubsubsection{\texorpdfstring{inReader}{inReader}}
+{\footnotesize\ttfamily final Buffered\+Reader org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader.\+in\+Reader\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a721eb3466aee7e33749b3aed24a6a455}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a721eb3466aee7e33749b3aed24a6a455}} 
+\index{org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}!line@{line}}
+\index{line@{line}!org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}}
+\doxysubsubsection{\texorpdfstring{line}{line}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader.\+line\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a242ad77935483a8a7e6826e301c719a0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a242ad77935483a8a7e6826e301c719a0}} 
+\index{org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}!PATTERN@{PATTERN}}
+\index{PATTERN@{PATTERN}!org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}}
+\doxysubsubsection{\texorpdfstring{PATTERN}{PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader.\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}@Article\textbackslash{}\textbackslash{}\{.$\ast$,\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a988d6e6c52a49f74726ea3de6a52f158}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_a988d6e6c52a49f74726ea3de6a52f158}} 
+\index{org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}!pos@{pos}}
+\index{pos@{pos}!org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}}
+\doxysubsubsection{\texorpdfstring{pos}{pos}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader.\+pos\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_aea88f7b92906907b6b755fcd3b60671b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_i_n_s_p_i_r_e_bibtex_filter_reader_aea88f7b92906907b6b755fcd3b60671b}} 
+\index{org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}!pre@{pre}}
+\index{pre@{pre}!org.jabref.logic.importer.util.INSPIREBibtexFilterReader@{org.jabref.logic.importer.util.INSPIREBibtexFilterReader}}
+\doxysubsubsection{\texorpdfstring{pre}{pre}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+util.\+I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader.\+pre\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/util/\mbox{\hyperlink{_i_n_s_p_i_r_e_bibtex_filter_reader_8java}{I\+N\+S\+P\+I\+R\+E\+Bibtex\+Filter\+Reader.\+java}}\end{DoxyCompactItemize}

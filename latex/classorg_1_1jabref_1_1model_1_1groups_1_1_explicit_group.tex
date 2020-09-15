@@ -1,0 +1,123 @@
+\hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group}{}\doxysection{org.\+jabref.\+model.\+groups.\+Explicit\+Group Class Reference}
+\label{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group}\index{org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}}
+Inheritance diagram for org.\+jabref.\+model.\+groups.\+Explicit\+Group\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a158d4d5930796605204be99f8dfe2cc1}{Explicit\+Group}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_a7305f9ca0de7ae29f786a6a6c433c1e2}{name}}, \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1groups_1_1_group_hierarchy_type}{Group\+Hierarchy\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group_adc2b7334a3cf4143b05b915818b79e79}{context}}, Character \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_word_keyword_group_a6e10096959af2f253dfc368577a42543}{keyword\+Separator}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_ae736529ece50931bb093fd42475d618c}{add\+Legacy\+Entry\+Key}} (String key)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group}{Abstract\+Group}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_ab7f13f9917fdcd7f9fb8081907ad2a28}{deep\+Copy}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_af1d9ec125fdcb8cbd2e6ebb0191079f0}{equals}} (Object o)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a22a694f49e52c86b41f2edfd3abba42f}{clear\+Legacy\+Entry\+Keys}} ()
+\item 
+List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_ad33e11111a72288f7aebc39a514e67fd}{get\+Legacy\+Entry\+Keys}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a2b67e42b057d424b08adce58b62af87a}{hash\+Code}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a60abcb71fc295d189bbad7328b6f7c87}{is\+Dynamic}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_adb17647c356aaad5a4a348cd5b4181ee}{legacy\+Entry\+Keys}} = new Array\+List$<$$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+This group contains entries, which were manually assigned to it. Assignments are stored in the \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field_a5dca09f1c7a6d78739c12a7883482942}{Standard\+Field\#\+G\+R\+O\+U\+PS}} field. Thus, internally, we represent \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group}{Explicit\+Group}} as a special \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_word_keyword_group}{Word\+Keyword\+Group}} operating on \mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field_a5dca09f1c7a6d78739c12a7883482942}{Standard\+Field\#\+G\+R\+O\+U\+PS}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a158d4d5930796605204be99f8dfe2cc1}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a158d4d5930796605204be99f8dfe2cc1}} 
+\index{org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}!ExplicitGroup@{ExplicitGroup}}
+\index{ExplicitGroup@{ExplicitGroup}!org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}}
+\doxysubsubsection{\texorpdfstring{ExplicitGroup()}{ExplicitGroup()}}
+{\footnotesize\ttfamily org.\+jabref.\+model.\+groups.\+Explicit\+Group.\+Explicit\+Group (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1model_1_1groups_1_1_group_hierarchy_type}{Group\+Hierarchy\+Type}}}]{context,  }\item[{Character}]{keyword\+Separator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_ae736529ece50931bb093fd42475d618c}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_ae736529ece50931bb093fd42475d618c}} 
+\index{org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}!addLegacyEntryKey@{addLegacyEntryKey}}
+\index{addLegacyEntryKey@{addLegacyEntryKey}!org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}}
+\doxysubsubsection{\texorpdfstring{addLegacyEntryKey()}{addLegacyEntryKey()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+groups.\+Explicit\+Group.\+add\+Legacy\+Entry\+Key (\begin{DoxyParamCaption}\item[{String}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a22a694f49e52c86b41f2edfd3abba42f}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a22a694f49e52c86b41f2edfd3abba42f}} 
+\index{org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}!clearLegacyEntryKeys@{clearLegacyEntryKeys}}
+\index{clearLegacyEntryKeys@{clearLegacyEntryKeys}!org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}}
+\doxysubsubsection{\texorpdfstring{clearLegacyEntryKeys()}{clearLegacyEntryKeys()}}
+{\footnotesize\ttfamily void org.\+jabref.\+model.\+groups.\+Explicit\+Group.\+clear\+Legacy\+Entry\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_ab7f13f9917fdcd7f9fb8081907ad2a28}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_ab7f13f9917fdcd7f9fb8081907ad2a28}} 
+\index{org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}!deepCopy@{deepCopy}}
+\index{deepCopy@{deepCopy}!org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}}
+\doxysubsubsection{\texorpdfstring{deepCopy()}{deepCopy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group}{Abstract\+Group}} org.\+jabref.\+model.\+groups.\+Explicit\+Group.\+deep\+Copy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+A deep copy of this object. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_word_keyword_group_a7f46fd0d20edc5fec7a7a25ea3de7b73}{org.\+jabref.\+model.\+groups.\+Word\+Keyword\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_af1d9ec125fdcb8cbd2e6ebb0191079f0}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_af1d9ec125fdcb8cbd2e6ebb0191079f0}} 
+\index{org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}!equals@{equals}}
+\index{equals@{equals}!org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+groups.\+Explicit\+Group.\+equals (\begin{DoxyParamCaption}\item[{Object}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_word_keyword_group_a0e6466880faca98491bd5bbee2960b2e}{org.\+jabref.\+model.\+groups.\+Word\+Keyword\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_ad33e11111a72288f7aebc39a514e67fd}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_ad33e11111a72288f7aebc39a514e67fd}} 
+\index{org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}!getLegacyEntryKeys@{getLegacyEntryKeys}}
+\index{getLegacyEntryKeys@{getLegacyEntryKeys}!org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}}
+\doxysubsubsection{\texorpdfstring{getLegacyEntryKeys()}{getLegacyEntryKeys()}}
+{\footnotesize\ttfamily List$<$String$>$ org.\+jabref.\+model.\+groups.\+Explicit\+Group.\+get\+Legacy\+Entry\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a2b67e42b057d424b08adce58b62af87a}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a2b67e42b057d424b08adce58b62af87a}} 
+\index{org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jabref.\+model.\+groups.\+Explicit\+Group.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_word_keyword_group_a67e2daff5151a1a569e1dfcdd8d9c287}{org.\+jabref.\+model.\+groups.\+Word\+Keyword\+Group}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a60abcb71fc295d189bbad7328b6f7c87}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_a60abcb71fc295d189bbad7328b6f7c87}} 
+\index{org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}!isDynamic@{isDynamic}}
+\index{isDynamic@{isDynamic}!org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}}
+\doxysubsubsection{\texorpdfstring{isDynamic()}{isDynamic()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+groups.\+Explicit\+Group.\+is\+Dynamic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns true if this group is dynamic, i.\+e. uses a search definition or equiv. that might match new entries, or false if this group contains a fixed set of entries and thus will never match a new entry that was not explicitly added to it. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_keyword_group_a6b0afc3c8c6ac976c7fdef8c34cba57d}{org.\+jabref.\+model.\+groups.\+Keyword\+Group}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_adb17647c356aaad5a4a348cd5b4181ee}\label{classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group_adb17647c356aaad5a4a348cd5b4181ee}} 
+\index{org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}!legacyEntryKeys@{legacyEntryKeys}}
+\index{legacyEntryKeys@{legacyEntryKeys}!org.jabref.model.groups.ExplicitGroup@{org.jabref.model.groups.ExplicitGroup}}
+\doxysubsubsection{\texorpdfstring{legacyEntryKeys}{legacyEntryKeys}}
+{\footnotesize\ttfamily final List$<$String$>$ org.\+jabref.\+model.\+groups.\+Explicit\+Group.\+legacy\+Entry\+Keys = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+Previous versions of Jab\+Ref stored the linked entries directly in the \char`\"{}jabref-\/meta\char`\"{} comment at the end of the file. These keys are still parsed and stored in this field. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/model/groups/\mbox{\hyperlink{_explicit_group_8java}{Explicit\+Group.\+java}}\end{DoxyCompactItemize}

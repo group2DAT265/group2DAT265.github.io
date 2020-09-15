@@ -1,0 +1,154 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model}{}\doxysection{org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model}\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+Inheritance diagram for org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a70749548be1952bdcc10deaa892006cc}{Preferences\+Dialog\+View\+Model}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ab89ff333efdd04485aa66890b86b7373}{dialog\+Service}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a02748e4df159d894f31988f00080f862}{frame}})
+\item 
+Observable\+List$<$ Preferences\+Tab $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ae41b48c5e0832005336b064af4e333f0}{get\+Preference\+Tabs}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a977bf9605d6084f9ac388cfc06d77e3d}{import\+Preferences}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ac9a74825ab10c95e77a91dd0f8bc0d79}{export\+Preferences}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a829da80317b8c3dc9a3aa24194ef7b40}{show\+Preferences}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a8caefc51804a8fdaa2fc4c4663331567}{reset\+Preferences}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ab1e2eb0b91c0e0abbbe152b725e17f2a}{valid\+Settings}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a9d9e2cc287d20bc4383d45684d2e7076}{store\+All\+Settings}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a1bdfe1d50165d4536e441476947d673d}{set\+Values}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ab669dce0763bb8110e7c09cb5c2eee92}{update\+After\+Preference\+Changes}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ab89ff333efdd04485aa66890b86b7373}{dialog\+Service}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a8bf5d125ffefe738dcbca40eb56d7fce}{preferences}}
+\item 
+final Observable\+List$<$ Preferences\+Tab $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_aef23f3a32599e2aaff95cf789bb2ec56}{preference\+Tabs}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a02748e4df159d894f31988f00080f862}{frame}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ade0606fae3136cf4f1e432e59217d06b}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Preferences\+Dialog\+View\+Model.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a70749548be1952bdcc10deaa892006cc}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a70749548be1952bdcc10deaa892006cc}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!PreferencesDialogViewModel@{PreferencesDialogViewModel}}
+\index{PreferencesDialogViewModel@{PreferencesDialogViewModel}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{PreferencesDialogViewModel()}{PreferencesDialogViewModel()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+Preferences\+Dialog\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}}}]{frame }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ac9a74825ab10c95e77a91dd0f8bc0d79}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ac9a74825ab10c95e77a91dd0f8bc0d79}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!exportPreferences@{exportPreferences}}
+\index{exportPreferences@{exportPreferences}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{exportPreferences()}{exportPreferences()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+export\+Preferences (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ae41b48c5e0832005336b064af4e333f0}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ae41b48c5e0832005336b064af4e333f0}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!getPreferenceTabs@{getPreferenceTabs}}
+\index{getPreferenceTabs@{getPreferenceTabs}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{getPreferenceTabs()}{getPreferenceTabs()}}
+{\footnotesize\ttfamily Observable\+List$<$Preferences\+Tab$>$ org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+get\+Preference\+Tabs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a977bf9605d6084f9ac388cfc06d77e3d}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a977bf9605d6084f9ac388cfc06d77e3d}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!importPreferences@{importPreferences}}
+\index{importPreferences@{importPreferences}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{importPreferences()}{importPreferences()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+import\+Preferences (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a8caefc51804a8fdaa2fc4c4663331567}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a8caefc51804a8fdaa2fc4c4663331567}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!resetPreferences@{resetPreferences}}
+\index{resetPreferences@{resetPreferences}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{resetPreferences()}{resetPreferences()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+reset\+Preferences (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a1bdfe1d50165d4536e441476947d673d}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a1bdfe1d50165d4536e441476947d673d}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!setValues@{setValues}}
+\index{setValues@{setValues}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{setValues()}{setValues()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+set\+Values (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Inserts the Jab\+Ref\+Preferences-\/values into the the Properties of the View\+Model \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a829da80317b8c3dc9a3aa24194ef7b40}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a829da80317b8c3dc9a3aa24194ef7b40}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!showPreferences@{showPreferences}}
+\index{showPreferences@{showPreferences}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{showPreferences()}{showPreferences()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+show\+Preferences (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a9d9e2cc287d20bc4383d45684d2e7076}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a9d9e2cc287d20bc4383d45684d2e7076}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!storeAllSettings@{storeAllSettings}}
+\index{storeAllSettings@{storeAllSettings}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{storeAllSettings()}{storeAllSettings()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+store\+All\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ab669dce0763bb8110e7c09cb5c2eee92}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ab669dce0763bb8110e7c09cb5c2eee92}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!updateAfterPreferenceChanges@{updateAfterPreferenceChanges}}
+\index{updateAfterPreferenceChanges@{updateAfterPreferenceChanges}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{updateAfterPreferenceChanges()}{updateAfterPreferenceChanges()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+update\+After\+Preference\+Changes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Reloads the Jab\+Ref\+Preferences into the UI \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ab1e2eb0b91c0e0abbbe152b725e17f2a}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ab1e2eb0b91c0e0abbbe152b725e17f2a}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!validSettings@{validSettings}}
+\index{validSettings@{validSettings}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{validSettings()}{validSettings()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+valid\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks if all tabs are valid 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ab89ff333efdd04485aa66890b86b7373}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ab89ff333efdd04485aa66890b86b7373}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a02748e4df159d894f31988f00080f862}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a02748e4df159d894f31988f00080f862}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!frame@{frame}}
+\index{frame@{frame}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{frame}{frame}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+frame\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ade0606fae3136cf4f1e432e59217d06b}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_ade0606fae3136cf4f1e432e59217d06b}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Preferences\+Dialog\+View\+Model.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a8bf5d125ffefe738dcbca40eb56d7fce}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_a8bf5d125ffefe738dcbca40eb56d7fce}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_aef23f3a32599e2aaff95cf789bb2ec56}\label{classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model_aef23f3a32599e2aaff95cf789bb2ec56}} 
+\index{org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}!preferenceTabs@{preferenceTabs}}
+\index{preferenceTabs@{preferenceTabs}!org.jabref.gui.preferences.PreferencesDialogViewModel@{org.jabref.gui.preferences.PreferencesDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{preferenceTabs}{preferenceTabs}}
+{\footnotesize\ttfamily final Observable\+List$<$Preferences\+Tab$>$ org.\+jabref.\+gui.\+preferences.\+Preferences\+Dialog\+View\+Model.\+preference\+Tabs\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/preferences/\mbox{\hyperlink{_preferences_dialog_view_model_8java}{Preferences\+Dialog\+View\+Model.\+java}}\end{DoxyCompactItemize}

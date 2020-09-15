@@ -1,0 +1,297 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap}{}\doxysection{org.\+jabref.\+gui.\+openoffice.\+Bootstrap Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap}\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static final String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a24df08e46a18416f4d9e90d2a96ac4ab}{get\+Default\+Options}} ()
+\item 
+static X\+Component\+Context \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_afcc944429b8c1da9bf08d47e4860e434}{create\+Initial\+Component\+Context}} (Hashtable$<$ String, Object $>$ context\+\_\+entries)  throws Exception 
+\item 
+static X\+Component\+Context \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a1f3b92c10591e758bdd4d0d3c505917b}{create\+Initial\+Component\+Context}} (Map$<$ String, Object $>$ context\+\_\+entries)  throws Exception 
+\item 
+static X\+Multi\+Service\+Factory \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_af9556214a8453c38f3d0e0ddbd7b77f4}{create\+Simple\+Service\+Manager}} ()  throws Exception 
+\item 
+static final X\+Component\+Context \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a56208f5c983c43b3993fb6a931e2be8b}{default\+Bootstrap\+\_\+\+Initial\+Component\+Context}} ()  throws Exception 
+\item 
+static final X\+Component\+Context \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_ad1f810dd89807ff77019a2d37427f19c}{default\+Bootstrap\+\_\+\+Initial\+Component\+Context}} (String ini\+\_\+file, Hashtable$<$ String, String $>$ bootstrap\+\_\+parameters)  throws Exception 
+\item 
+static final X\+Component\+Context \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a64c9a1227bdb1bef4275264b744ac6af}{default\+Bootstrap\+\_\+\+Initial\+Component\+Context}} (String ini\+\_\+file, Map$<$ String, String $>$ bootstrap\+\_\+parameters)  throws Exception 
+\item 
+static final X\+Component\+Context \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a950b1e1f78b31e145529d18a833875da}{bootstrap}} (U\+R\+L\+Class\+Loader loader)  throws Bootstrap\+Exception 
+\item 
+static final X\+Component\+Context \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a7c1e8e67cca7595eaf834ffaab93012c}{bootstrap}} (String\mbox{[}$\,$\mbox{]} arg\+Array, U\+R\+L\+Class\+Loader loader)  throws Bootstrap\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a391ea0eccd86a308e38c2adbecbf19b4}{insert\+Basic\+Factories}} (X\+Set x\+Set, X\+Implementation\+Loader x\+Imp\+Loader)  throws Exception 
+\item 
+static native Object \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a2b0c246f2a4561b490ca75c95df1d2db}{cppuhelper\+\_\+bootstrap}} (String ini\+\_\+file, String bootstrap\+\_\+parameters\mbox{[}$\,$\mbox{]}, Class\+Loader loader)  throws Exception
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a9b4ca1eb4de51b3c10fa23b833278a09}{pipe}} (final Input\+Stream \mbox{\hyperlink{org_8citationstyles_8styles_8txt_a0297d2e7bc1126f2808896e7c19c7310}{in}}, final Print\+Stream out, final String prefix)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Random \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a06e2ee947337a75a494921b09ea95b79}{R\+A\+N\+D\+O\+M\+\_\+\+P\+I\+P\+E\+\_\+\+N\+A\+ME}} = new Random()
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_aa6fe0adddfaba98e91489e91c5cf2100}{M\+\_\+\+L\+O\+A\+D\+E\+D\+\_\+\+J\+UH}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap}{Bootstrap}} offers functionality to obtain a context or simply a service manager. The service manager can create a few basic services, whose implementations are\+: 
+\begin{DoxyItemize}
+\item com.\+sun.\+star.\+comp.\+loader.\+Java\+Loader 
+\item com.\+sun.\+star.\+comp.\+urlresolver.\+Url\+Resolver 
+\item com.\+sun.\+star.\+comp.\+bridgefactory.\+Bridge\+Factory 
+\item com.\+sun.\+star.\+comp.\+connections.\+Connector 
+\item com.\+sun.\+star.\+comp.\+connections.\+Acceptor 
+\item com.\+sun.\+star.\+comp.\+servicemanager.\+Service\+Manager 
+\end{DoxyItemize}
+
+Other services can be inserted into the service manager by using its X\+Set interface\+: 
+\begin{DoxyPre}
+    XSet xSet = UnoRuntime.queryInterface( XSet.class, aMultiComponentFactory );
+    // insert the service manager
+    xSet.insert( aSingleComponentFactory );
+\end{DoxyPre}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a7c1e8e67cca7595eaf834ffaab93012c}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a7c1e8e67cca7595eaf834ffaab93012c}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!bootstrap@{bootstrap}}
+\index{bootstrap@{bootstrap}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{bootstrap()}{bootstrap()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static final X\+Component\+Context org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+bootstrap (\begin{DoxyParamCaption}\item[{String\mbox{[}$\,$\mbox{]}}]{arg\+Array,  }\item[{U\+R\+L\+Class\+Loader}]{loader }\end{DoxyParamCaption}) throws Bootstrap\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Bootstraps the component context from a U\+NO installation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em arg\+Array} & an array of strings -\/ commandline options to start instance of soffice with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a bootstrapped component context. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Bootstrap\+Exception} & if things go awry. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a24df08e46a18416f4d9e90d2a96ac4ab}{get\+Default\+Options()}} 
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+Libre\+Office 5.\+1 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a950b1e1f78b31e145529d18a833875da}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a950b1e1f78b31e145529d18a833875da}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!bootstrap@{bootstrap}}
+\index{bootstrap@{bootstrap}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{bootstrap()}{bootstrap()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static final X\+Component\+Context org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+bootstrap (\begin{DoxyParamCaption}\item[{U\+R\+L\+Class\+Loader}]{loader }\end{DoxyParamCaption}) throws Bootstrap\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Bootstraps the component context from a U\+NO installation.
+
+\begin{DoxyReturn}{Returns}
+a bootstrapped component context. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Bootstrap\+Exception} & if things go awry. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySince}{Since}
+U\+DK 3.\+1.\+0 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a2b0c246f2a4561b490ca75c95df1d2db}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a2b0c246f2a4561b490ca75c95df1d2db}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!cppuhelper\_bootstrap@{cppuhelper\_bootstrap}}
+\index{cppuhelper\_bootstrap@{cppuhelper\_bootstrap}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{cppuhelper\_bootstrap()}{cppuhelper\_bootstrap()}}
+{\footnotesize\ttfamily static native Object org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+cppuhelper\+\_\+bootstrap (\begin{DoxyParamCaption}\item[{String}]{ini\+\_\+file,  }\item[{String}]{bootstrap\+\_\+parameters\mbox{[}$\,$\mbox{]},  }\item[{Class\+Loader}]{loader }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_afcc944429b8c1da9bf08d47e4860e434}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_afcc944429b8c1da9bf08d47e4860e434}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!createInitialComponentContext@{createInitialComponentContext}}
+\index{createInitialComponentContext@{createInitialComponentContext}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{createInitialComponentContext()}{createInitialComponentContext()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static X\+Component\+Context org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+create\+Initial\+Component\+Context (\begin{DoxyParamCaption}\item[{Hashtable$<$ String, Object $>$}]{context\+\_\+entries }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+backwards compatibility stub.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context\+\_\+entries} & the hash table contains mappings of entry names (type string) to context entries (type class Component\+Context\+Entry). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a new context. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & if things go awry. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a1f3b92c10591e758bdd4d0d3c505917b}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a1f3b92c10591e758bdd4d0d3c505917b}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!createInitialComponentContext@{createInitialComponentContext}}
+\index{createInitialComponentContext@{createInitialComponentContext}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{createInitialComponentContext()}{createInitialComponentContext()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static X\+Component\+Context org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+create\+Initial\+Component\+Context (\begin{DoxyParamCaption}\item[{Map$<$ String, Object $>$}]{context\+\_\+entries }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Bootstraps an initial component context with service manager and basic jurt components inserted.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context\+\_\+entries} & the hash table contains mappings of entry names (type string) to context entries (type class Component\+Context\+Entry). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a new context. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & if things go awry. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_af9556214a8453c38f3d0e0ddbd7b77f4}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_af9556214a8453c38f3d0e0ddbd7b77f4}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!createSimpleServiceManager@{createSimpleServiceManager}}
+\index{createSimpleServiceManager@{createSimpleServiceManager}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{createSimpleServiceManager()}{createSimpleServiceManager()}}
+{\footnotesize\ttfamily static X\+Multi\+Service\+Factory org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+create\+Simple\+Service\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Bootstraps a servicemanager with the jurt base components registered. 
+
+See also U\+N\+O\+I\+DL {\ttfamily com.\+sun.\+star.\+lang.\+Service\+Manager}.
+
+\begin{DoxyReturn}{Returns}
+a freshly bootstrapped service manager 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & if things go awry. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a56208f5c983c43b3993fb6a931e2be8b}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a56208f5c983c43b3993fb6a931e2be8b}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!defaultBootstrap\_InitialComponentContext@{defaultBootstrap\_InitialComponentContext}}
+\index{defaultBootstrap\_InitialComponentContext@{defaultBootstrap\_InitialComponentContext}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{defaultBootstrap\_InitialComponentContext()}{defaultBootstrap\_InitialComponentContext()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily static final X\+Component\+Context org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+default\+Bootstrap\+\_\+\+Initial\+Component\+Context (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Bootstraps the initial component context from a native U\+NO installation.
+
+\begin{DoxyReturn}{Returns}
+a freshly bootstrapped component context. 
+\end{DoxyReturn}
+See also {\ttfamily cppuhelper/default\+Bootstrap\+\_\+\+Initial\+Component\+Context()}. 
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & if things go awry. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_ad1f810dd89807ff77019a2d37427f19c}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_ad1f810dd89807ff77019a2d37427f19c}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!defaultBootstrap\_InitialComponentContext@{defaultBootstrap\_InitialComponentContext}}
+\index{defaultBootstrap\_InitialComponentContext@{defaultBootstrap\_InitialComponentContext}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{defaultBootstrap\_InitialComponentContext()}{defaultBootstrap\_InitialComponentContext()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static final X\+Component\+Context org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+default\+Bootstrap\+\_\+\+Initial\+Component\+Context (\begin{DoxyParamCaption}\item[{String}]{ini\+\_\+file,  }\item[{Hashtable$<$ String, String $>$}]{bootstrap\+\_\+parameters }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Backwards compatibility stub.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ini\+\_\+file} & ini\+\_\+file (may be null\+: uno.\+rc besides cppuhelper lib) \\
+\hline
+{\em bootstrap\+\_\+parameters} & bootstrap parameters (maybe null) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a freshly bootstrapped component context. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & if things go awry. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a64c9a1227bdb1bef4275264b744ac6af}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a64c9a1227bdb1bef4275264b744ac6af}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!defaultBootstrap\_InitialComponentContext@{defaultBootstrap\_InitialComponentContext}}
+\index{defaultBootstrap\_InitialComponentContext@{defaultBootstrap\_InitialComponentContext}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{defaultBootstrap\_InitialComponentContext()}{defaultBootstrap\_InitialComponentContext()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily static final X\+Component\+Context org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+default\+Bootstrap\+\_\+\+Initial\+Component\+Context (\begin{DoxyParamCaption}\item[{String}]{ini\+\_\+file,  }\item[{Map$<$ String, String $>$}]{bootstrap\+\_\+parameters }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Bootstraps the initial component context from a native U\+NO installation. 
+
+See also {\ttfamily cppuhelper/default\+Bootstrap\+\_\+\+Initial\+Component\+Context()}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ini\+\_\+file} & ini\+\_\+file (may be null\+: uno.\+rc besides cppuhelper lib) \\
+\hline
+{\em bootstrap\+\_\+parameters} & bootstrap parameters (maybe null) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a freshly bootstrapped component context. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & if things go awry. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a24df08e46a18416f4d9e90d2a96ac4ab}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a24df08e46a18416f4d9e90d2a96ac4ab}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!getDefaultOptions@{getDefaultOptions}}
+\index{getDefaultOptions@{getDefaultOptions}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{getDefaultOptions()}{getDefaultOptions()}}
+{\footnotesize\ttfamily static final String \mbox{[}$\,$\mbox{]} org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+get\+Default\+Options (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns an array of default commandline options to start bootstrapped instance of soffice with. You may use it in connection with bootstrap method for example like this\+: 
+\begin{DoxyPre}
+    List list = Arrays.asList( \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a24df08e46a18416f4d9e90d2a96ac4ab}{Bootstrap.getDefaultOptions()}} );
+    list.remove("{}-\/-\/nologo"{});
+    list.remove("{}-\/-\/nodefault"{});
+    list.add("{}-\/-\/invisible"{});\end{DoxyPre}
+
+
+
+\begin{DoxyPre}    \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a950b1e1f78b31e145529d18a833875da}{Bootstrap.bootstrap}}( list.toArray( new String[list.size()] );
+\end{DoxyPre}
+
+
+\begin{DoxyReturn}{Returns}
+an array of default commandline options 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\#bootstrap(\+String\mbox{[}$\,$\mbox{]}) 
+\end{DoxySeeAlso}
+\begin{DoxySince}{Since}
+Libre\+Office 5.\+1 
+\end{DoxySince}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a391ea0eccd86a308e38c2adbecbf19b4}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a391ea0eccd86a308e38c2adbecbf19b4}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!insertBasicFactories@{insertBasicFactories}}
+\index{insertBasicFactories@{insertBasicFactories}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{insertBasicFactories()}{insertBasicFactories()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+insert\+Basic\+Factories (\begin{DoxyParamCaption}\item[{X\+Set}]{x\+Set,  }\item[{X\+Implementation\+Loader}]{x\+Imp\+Loader }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a9b4ca1eb4de51b3c10fa23b833278a09}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a9b4ca1eb4de51b3c10fa23b833278a09}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!pipe@{pipe}}
+\index{pipe@{pipe}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{pipe()}{pipe()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+pipe (\begin{DoxyParamCaption}\item[{final Input\+Stream}]{in,  }\item[{final Print\+Stream}]{out,  }\item[{final String}]{prefix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_aa6fe0adddfaba98e91489e91c5cf2100}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_aa6fe0adddfaba98e91489e91c5cf2100}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!M\_LOADED\_JUH@{M\_LOADED\_JUH}}
+\index{M\_LOADED\_JUH@{M\_LOADED\_JUH}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{M\_LOADED\_JUH}{M\_LOADED\_JUH}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+M\+\_\+\+L\+O\+A\+D\+E\+D\+\_\+\+J\+UH = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a06e2ee947337a75a494921b09ea95b79}\label{classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap_a06e2ee947337a75a494921b09ea95b79}} 
+\index{org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}!RANDOM\_PIPE\_NAME@{RANDOM\_PIPE\_NAME}}
+\index{RANDOM\_PIPE\_NAME@{RANDOM\_PIPE\_NAME}!org.jabref.gui.openoffice.Bootstrap@{org.jabref.gui.openoffice.Bootstrap}}
+\doxysubsubsection{\texorpdfstring{RANDOM\_PIPE\_NAME}{RANDOM\_PIPE\_NAME}}
+{\footnotesize\ttfamily final Random org.\+jabref.\+gui.\+openoffice.\+Bootstrap.\+R\+A\+N\+D\+O\+M\+\_\+\+P\+I\+P\+E\+\_\+\+N\+A\+ME = new Random()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/openoffice/\mbox{\hyperlink{_bootstrap_8java}{Bootstrap.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,256 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser}{}\doxysection{org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser}\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+Inheritance diagram for org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a2b2699af93a676892c8644e78504fd4f}{Default\+Latex\+Parser}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1texparser_1_1_latex_parser_result}{Latex\+Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_ab617d04c2e216eb576fd7e15d862665e}{get\+Latex\+Parser\+Result}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1texparser_1_1_latex_parser_result}{Latex\+Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a66904c22e51b9b4235524a35c1cb88d1}{parse}} (String cite\+String)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1texparser_1_1_latex_parser_result}{Latex\+Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a0bb5da0daffe76dfb5cc6bd45eedee3c}{parse}} (Path latex\+File)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1texparser_1_1_latex_parser_result}{Latex\+Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a4d3ad2406ab4b5a0d00c1b81b9cadc08}{parse}} (List$<$ Path $>$ latex\+Files)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_af8197506d6af86fe0d2768c458552c04}{match\+Citation}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, int line\+Number, String line)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_aa69a4efdcea4512a31304e27f1cee66b}{match\+Bib\+File}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, String line)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a2a89664d32b6e34af73521f45fc17e44}{match\+Nested\+File}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, List$<$ Path $>$ tex\+Files, List$<$ Path $>$ referenced\+Files, String line)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1texparser_1_1_latex_parser_result}{Latex\+Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_aaa043fecc926b80dc17d3d0ab7b09ee4}{latex\+Parser\+Result}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_ae67f3dfc9f9c34269ebad70b7c11f6cf}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Default\+Latex\+Parser.\+class)
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_ae9da7463b75fb872a941ff84faf38564}{T\+E\+X\+\_\+\+E\+XT}} = \char`\"{}.tex\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a3040e27667b94a1cdf12c3aee2d47ccb}{B\+I\+B\+\_\+\+E\+XT}} = \char`\"{}.bib\char`\"{}
+\item 
+static final String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a9fa03458d26a48fe1776a2dc9b020a6e}{C\+I\+T\+E\+\_\+\+C\+O\+M\+M\+A\+N\+DS}}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_acda03762548f8826d7e85212070b7148}{C\+I\+T\+E\+\_\+\+G\+R\+O\+UP}} = \char`\"{}key\char`\"{}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a8ac925ffc982c57b712260dd848aa6e9}{C\+I\+T\+E\+\_\+\+P\+A\+T\+T\+E\+RN}}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_afc735fc73d7c0eb871f5a7aba499a896}{B\+I\+B\+L\+I\+O\+G\+R\+A\+P\+H\+Y\+\_\+\+G\+R\+O\+UP}} = \char`\"{}bib\char`\"{}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a08b7049b5bb165a9b6b7426e3ee2462a}{B\+I\+B\+L\+I\+O\+G\+R\+A\+P\+H\+Y\+\_\+\+P\+A\+T\+T\+E\+RN}}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a8b7d96601e6cbc9024907560278c1e03}{I\+N\+C\+L\+U\+D\+E\+\_\+\+G\+R\+O\+UP}} = \char`\"{}file\char`\"{}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a5d48c3363e41107ca50435366f0b2eda}{I\+N\+C\+L\+U\+D\+E\+\_\+\+P\+A\+T\+T\+E\+RN}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a2b2699af93a676892c8644e78504fd4f}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a2b2699af93a676892c8644e78504fd4f}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!DefaultLatexParser@{DefaultLatexParser}}
+\index{DefaultLatexParser@{DefaultLatexParser}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{DefaultLatexParser()}{DefaultLatexParser()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+Default\+Latex\+Parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_ab617d04c2e216eb576fd7e15d862665e}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_ab617d04c2e216eb576fd7e15d862665e}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!getLatexParserResult@{getLatexParserResult}}
+\index{getLatexParserResult@{getLatexParserResult}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{getLatexParserResult()}{getLatexParserResult()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1texparser_1_1_latex_parser_result}{Latex\+Parser\+Result}} org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+get\+Latex\+Parser\+Result (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_aa69a4efdcea4512a31304e27f1cee66b}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_aa69a4efdcea4512a31304e27f1cee66b}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!matchBibFile@{matchBibFile}}
+\index{matchBibFile@{matchBibFile}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{matchBibFile()}{matchBibFile()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+match\+Bib\+File (\begin{DoxyParamCaption}\item[{Path}]{file,  }\item[{String}]{line }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Find B\+IB files along a specific line and store them. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_af8197506d6af86fe0d2768c458552c04}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_af8197506d6af86fe0d2768c458552c04}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!matchCitation@{matchCitation}}
+\index{matchCitation@{matchCitation}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{matchCitation()}{matchCitation()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+match\+Citation (\begin{DoxyParamCaption}\item[{Path}]{file,  }\item[{int}]{line\+Number,  }\item[{String}]{line }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Find cites along a specific line and store them. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a2a89664d32b6e34af73521f45fc17e44}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a2a89664d32b6e34af73521f45fc17e44}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!matchNestedFile@{matchNestedFile}}
+\index{matchNestedFile@{matchNestedFile}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{matchNestedFile()}{matchNestedFile()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+match\+Nested\+File (\begin{DoxyParamCaption}\item[{Path}]{file,  }\item[{List$<$ Path $>$}]{tex\+Files,  }\item[{List$<$ Path $>$}]{referenced\+Files,  }\item[{String}]{line }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Find inputs and includes along a specific line and store them for parsing later. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a4d3ad2406ab4b5a0d00c1b81b9cadc08}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a4d3ad2406ab4b5a0d00c1b81b9cadc08}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!parse@{parse}}
+\index{parse@{parse}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1texparser_1_1_latex_parser_result}{Latex\+Parser\+Result}} org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+parse (\begin{DoxyParamCaption}\item[{List$<$ Path $>$}]{latex\+Files }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse a list of La\+TeX files.
+
+
+\begin{DoxyParams}{Parameters}
+{\em latex\+Files} & List of Path objects linked to a La\+TeX file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a Latex\+Parser\+Result, which contains all data related to the bibliographic entries 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1texparser_1_1_latex_parser_a317ccb451d4243d3bfd186e9b3daf9a2}{org.\+jabref.\+logic.\+texparser.\+Latex\+Parser}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a0bb5da0daffe76dfb5cc6bd45eedee3c}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a0bb5da0daffe76dfb5cc6bd45eedee3c}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!parse@{parse}}
+\index{parse@{parse}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1texparser_1_1_latex_parser_result}{Latex\+Parser\+Result}} org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+parse (\begin{DoxyParamCaption}\item[{Path}]{latex\+File }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse a single La\+TeX file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em latex\+File} & Path to a La\+TeX file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a Latex\+Parser\+Result, which contains all data related to the bibliographic entries 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1texparser_1_1_latex_parser_a66950345ae5a4da926a82ae191096edd}{org.\+jabref.\+logic.\+texparser.\+Latex\+Parser}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a66904c22e51b9b4235524a35c1cb88d1}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a66904c22e51b9b4235524a35c1cb88d1}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!parse@{parse}}
+\index{parse@{parse}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1texparser_1_1_latex_parser_result}{Latex\+Parser\+Result}} org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+parse (\begin{DoxyParamCaption}\item[{String}]{cite\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+For testing purposes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em cite\+String} & String that contains a citation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a Latex\+Parser\+Result, where Path is \char`\"{}\char`\"{} and line\+Number is 1 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1texparser_1_1_latex_parser_a6a9141a0430e27e867aeac087ee51a98}{org.\+jabref.\+logic.\+texparser.\+Latex\+Parser}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a3040e27667b94a1cdf12c3aee2d47ccb}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a3040e27667b94a1cdf12c3aee2d47ccb}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!BIB\_EXT@{BIB\_EXT}}
+\index{BIB\_EXT@{BIB\_EXT}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{BIB\_EXT}{BIB\_EXT}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+B\+I\+B\+\_\+\+E\+XT = \char`\"{}.bib\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_afc735fc73d7c0eb871f5a7aba499a896}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_afc735fc73d7c0eb871f5a7aba499a896}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!BIBLIOGRAPHY\_GROUP@{BIBLIOGRAPHY\_GROUP}}
+\index{BIBLIOGRAPHY\_GROUP@{BIBLIOGRAPHY\_GROUP}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{BIBLIOGRAPHY\_GROUP}{BIBLIOGRAPHY\_GROUP}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+B\+I\+B\+L\+I\+O\+G\+R\+A\+P\+H\+Y\+\_\+\+G\+R\+O\+UP = \char`\"{}bib\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a08b7049b5bb165a9b6b7426e3ee2462a}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a08b7049b5bb165a9b6b7426e3ee2462a}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!BIBLIOGRAPHY\_PATTERN@{BIBLIOGRAPHY\_PATTERN}}
+\index{BIBLIOGRAPHY\_PATTERN@{BIBLIOGRAPHY\_PATTERN}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{BIBLIOGRAPHY\_PATTERN}{BIBLIOGRAPHY\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+B\+I\+B\+L\+I\+O\+G\+R\+A\+P\+H\+Y\+\_\+\+P\+A\+T\+T\+E\+RN\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Pattern.compile(}
+\DoxyCodeLine{            String.format(\textcolor{stringliteral}{"{}\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)(?:bibliography|addbibresource)\(\backslash\)\(\backslash\)\{(?<\%s>[\string^\(\backslash\)\(\backslash\)\}]*)\(\backslash\)\(\backslash\)\}"{}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_afc735fc73d7c0eb871f5a7aba499a896}{BIBLIOGRAPHY\_GROUP}}))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a9fa03458d26a48fe1776a2dc9b020a6e}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a9fa03458d26a48fe1776a2dc9b020a6e}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!CITE\_COMMANDS@{CITE\_COMMANDS}}
+\index{CITE\_COMMANDS@{CITE\_COMMANDS}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{CITE\_COMMANDS}{CITE\_COMMANDS}}
+{\footnotesize\ttfamily final String \mbox{[}$\,$\mbox{]} org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+C\+I\+T\+E\+\_\+\+C\+O\+M\+M\+A\+N\+DS\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{            \textcolor{stringliteral}{"{}[cC]ite(alt|alp|author|authorfull|date|num|p|t|text|title|url|year|yearpar)?"{}},}
+\DoxyCodeLine{            \textcolor{stringliteral}{"{}([aA]|[aA]uto|fnote|foot|footfull|full|no|[nN]ote|[pP]aren|[pP]note|[tT]ext|[sS]mart|super)cite([s*]?)"{}},}
+\DoxyCodeLine{            \textcolor{stringliteral}{"{}footcitetext"{}}, \textcolor{stringliteral}{"{}(block|text)cquote"{}}}
+\DoxyCodeLine{    \}}
+
+\end{DoxyCode}
+It is allowed to add new cite commands for pattern matching. Some valid examples\+: \char`\"{}citep\char`\"{}, \char`\"{}\mbox{[}c\+C\mbox{]}ite\char`\"{}, and \char`\"{}\mbox{[}c\+C\mbox{]}ite(author$\vert$title$\vert$year$\vert$t$\vert$p)?\char`\"{}. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_acda03762548f8826d7e85212070b7148}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_acda03762548f8826d7e85212070b7148}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!CITE\_GROUP@{CITE\_GROUP}}
+\index{CITE\_GROUP@{CITE\_GROUP}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{CITE\_GROUP}{CITE\_GROUP}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+C\+I\+T\+E\+\_\+\+G\+R\+O\+UP = \char`\"{}key\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a8ac925ffc982c57b712260dd848aa6e9}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a8ac925ffc982c57b712260dd848aa6e9}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!CITE\_PATTERN@{CITE\_PATTERN}}
+\index{CITE\_PATTERN@{CITE\_PATTERN}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{CITE\_PATTERN}{CITE\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+C\+I\+T\+E\+\_\+\+P\+A\+T\+T\+E\+RN\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Pattern.compile(}
+\DoxyCodeLine{            String.format(\textcolor{stringliteral}{"{}\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)(\%s)\(\backslash\)\(\backslash\)*?(?:\(\backslash\)\(\backslash\)[(?:[\string^\(\backslash\)\(\backslash\)]]*)\(\backslash\)\(\backslash\)])\{0,2\}\(\backslash\)\(\backslash\)\{(?<\%s>[\string^\(\backslash\)\(\backslash\)\}]*)\(\backslash\)\(\backslash\)\}(?:\(\backslash\)\(\backslash\)\{[\string^\(\backslash\)\(\backslash\)\}]*\(\backslash\)\(\backslash\)\})?"{}},}
+\DoxyCodeLine{                    String.join(\textcolor{stringliteral}{"{}|"{}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a9fa03458d26a48fe1776a2dc9b020a6e}{CITE\_COMMANDS}}), \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_acda03762548f8826d7e85212070b7148}{CITE\_GROUP}}))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a8b7d96601e6cbc9024907560278c1e03}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a8b7d96601e6cbc9024907560278c1e03}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!INCLUDE\_GROUP@{INCLUDE\_GROUP}}
+\index{INCLUDE\_GROUP@{INCLUDE\_GROUP}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{INCLUDE\_GROUP}{INCLUDE\_GROUP}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+I\+N\+C\+L\+U\+D\+E\+\_\+\+G\+R\+O\+UP = \char`\"{}file\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a5d48c3363e41107ca50435366f0b2eda}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a5d48c3363e41107ca50435366f0b2eda}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!INCLUDE\_PATTERN@{INCLUDE\_PATTERN}}
+\index{INCLUDE\_PATTERN@{INCLUDE\_PATTERN}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{INCLUDE\_PATTERN}{INCLUDE\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+I\+N\+C\+L\+U\+D\+E\+\_\+\+P\+A\+T\+T\+E\+RN\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Pattern.compile(}
+\DoxyCodeLine{            String.format(\textcolor{stringliteral}{"{}\(\backslash\)\(\backslash\)\(\backslash\)\(\backslash\)(?:include|input)\(\backslash\)\(\backslash\)\{(?<\%s>[\string^\(\backslash\)\(\backslash\)\}]*)\(\backslash\)\(\backslash\)\}"{}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_a8b7d96601e6cbc9024907560278c1e03}{INCLUDE\_GROUP}}))}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_aaa043fecc926b80dc17d3d0ab7b09ee4}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_aaa043fecc926b80dc17d3d0ab7b09ee4}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!latexParserResult@{latexParserResult}}
+\index{latexParserResult@{latexParserResult}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{latexParserResult}{latexParserResult}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1texparser_1_1_latex_parser_result}{Latex\+Parser\+Result}} org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+latex\+Parser\+Result\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_ae67f3dfc9f9c34269ebad70b7c11f6cf}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_ae67f3dfc9f9c34269ebad70b7c11f6cf}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Default\+Latex\+Parser.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_ae9da7463b75fb872a941ff84faf38564}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser_ae9da7463b75fb872a941ff84faf38564}} 
+\index{org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}!TEX\_EXT@{TEX\_EXT}}
+\index{TEX\_EXT@{TEX\_EXT}!org.jabref.logic.texparser.DefaultLatexParser@{org.jabref.logic.texparser.DefaultLatexParser}}
+\doxysubsubsection{\texorpdfstring{TEX\_EXT}{TEX\_EXT}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Default\+Latex\+Parser.\+T\+E\+X\+\_\+\+E\+XT = \char`\"{}.tex\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/texparser/\mbox{\hyperlink{_default_latex_parser_8java}{Default\+Latex\+Parser.\+java}}\end{DoxyCompactItemize}

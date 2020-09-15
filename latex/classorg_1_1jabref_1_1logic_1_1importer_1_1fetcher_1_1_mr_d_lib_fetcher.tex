@@ -1,0 +1,216 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher}\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_abb6eb79be930f518cf97cfee94bfae9b}{Mr\+D\+Lib\+Fetcher}} (String language, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} version)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a21b9aba070678784122a01fd83b5cda3}{get\+Name}} ()
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a7a99bbf5850ae6b6471147141b646dfa}{perform\+Search}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)  throws Fetcher\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a6e75e4095f1babce9e758db6360f94d8}{get\+Heading}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a9982c540ae4b660477fd24bb2b4afdc0}{get\+Description}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a9b5001ee15f1e6e4f59b1b7859ddebfa}{make\+Server\+Request}} (String query\+By\+Title)  throws Fetcher\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a8c60de52c8fe2a35ccf8c2e7f9ad41e2}{construct\+Query}} (String query\+With\+Title)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_ad27346212e2b4175113da6ac48b70b6b}{L\+A\+N\+G\+U\+A\+GE}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a92aa0213ac7fef7a875ac3f33ae13438}{V\+E\+R\+S\+I\+ON}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a6c9558e429724aaec769718674af26f7}{heading}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_ace006bdcd5852a2e2165803f03c8c592}{description}}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a7db9c4165ce4f57f0d94e08acc388391}{recommendation\+Set\+Id}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a1dc5ac0b78d8c515c64bbfb6a01f4052}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Mr\+D\+Lib\+Fetcher.\+class)
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a4c06445c410ef74e334052baba7036c5}{N\+A\+ME}} = \char`\"{}M\+D\+L\+\_\+\+F\+E\+T\+C\+H\+ER\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a5cdab12a0e8ffa3190ee32e5ede40846}{M\+D\+L\+\_\+\+J\+A\+B\+R\+E\+F\+\_\+\+P\+A\+R\+T\+N\+E\+R\+\_\+\+ID}} = \char`\"{}1\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a456667f98abd64330adc32146a05fcb1}{M\+D\+L\+\_\+\+U\+RL}} = \char`\"{}api.\+mr-\/dlib.\+org\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a4c78965ff5f4b57159d3013b234e61ae}{D\+E\+F\+A\+U\+L\+T\+\_\+\+M\+R\+D\+L\+I\+B\+\_\+\+E\+R\+R\+O\+R\+\_\+\+M\+E\+S\+S\+A\+GE}} = \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_aed748bba1971c69c99e98411843efd84}{Localization.\+lang}}(\char`\"{}Error while fetching recommendations \mbox{\hyperlink{_biblioscape_importer_test_optional_fields_8txt_a958a754f010f8c7c8bc1fc3877cc1743}{from}} Mr.\+D\+Lib.\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class is responsible for getting the recommendations from Mr. D\+Lib 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_abb6eb79be930f518cf97cfee94bfae9b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_abb6eb79be930f518cf97cfee94bfae9b}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!MrDLibFetcher@{MrDLibFetcher}}
+\index{MrDLibFetcher@{MrDLibFetcher}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{MrDLibFetcher()}{MrDLibFetcher()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+Mr\+D\+Lib\+Fetcher (\begin{DoxyParamCaption}\item[{String}]{language,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}}}]{version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a8c60de52c8fe2a35ccf8c2e7f9ad41e2}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a8c60de52c8fe2a35ccf8c2e7f9ad41e2}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!constructQuery@{constructQuery}}
+\index{constructQuery@{constructQuery}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{constructQuery()}{constructQuery()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+construct\+Query (\begin{DoxyParamCaption}\item[{String}]{query\+With\+Title }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Constructs the query based on title of the Bib\+Entry. Adds statistical stuff to the url.
+
+
+\begin{DoxyParams}{Parameters}
+{\em query\+With\+Title} & the title of the bib entry. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the string used to make the query at mdl server 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a9982c540ae4b660477fd24bb2b4afdc0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a9982c540ae4b660477fd24bb2b4afdc0}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a6e75e4095f1babce9e758db6360f94d8}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a6e75e4095f1babce9e758db6360f94d8}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!getHeading@{getHeading}}
+\index{getHeading@{getHeading}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{getHeading()}{getHeading()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+get\+Heading (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a21b9aba070678784122a01fd83b5cda3}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a21b9aba070678784122a01fd83b5cda3}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the localized name of this fetcher. The title can be used to display the fetcher in the menu and in the side pane.
+
+\begin{DoxyReturn}{Returns}
+the localized name 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a9512c95b5bf85e727c975fe2db72e6bf}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a9b5001ee15f1e6e4f59b1b7859ddebfa}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a9b5001ee15f1e6e4f59b1b7859ddebfa}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!makeServerRequest@{makeServerRequest}}
+\index{makeServerRequest@{makeServerRequest}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{makeServerRequest()}{makeServerRequest()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+make\+Server\+Request (\begin{DoxyParamCaption}\item[{String}]{query\+By\+Title }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Contact the server with the title of the selected item
+
+
+\begin{DoxyParams}{Parameters}
+{\em query\+By\+Title} & the query holds the title of the selected entry. Used to make a query to the M\+DL Server \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns the server response. This is an X\+ML document as a String. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a7a99bbf5850ae6b6471147141b646dfa}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a7a99bbf5850ae6b6471147141b646dfa}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!performSearch@{performSearch}}
+\index{performSearch@{performSearch}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{performSearch()}{performSearch()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+perform\+Search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Looks for hits which are matched by the given \mbox{\hyperlink{}{Bib\+Entry}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & entry to search bibliographic information for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a list of \mbox{\hyperlink{}{Bib\+Entry}}, which are matched by the query (may be empty) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_entry_based_fetcher_a2d409b6f43bcd2c506facd1d60cf1c55}{org.\+jabref.\+logic.\+importer.\+Entry\+Based\+Fetcher}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a4c78965ff5f4b57159d3013b234e61ae}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a4c78965ff5f4b57159d3013b234e61ae}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!DEFAULT\_MRDLIB\_ERROR\_MESSAGE@{DEFAULT\_MRDLIB\_ERROR\_MESSAGE}}
+\index{DEFAULT\_MRDLIB\_ERROR\_MESSAGE@{DEFAULT\_MRDLIB\_ERROR\_MESSAGE}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{DEFAULT\_MRDLIB\_ERROR\_MESSAGE}{DEFAULT\_MRDLIB\_ERROR\_MESSAGE}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+D\+E\+F\+A\+U\+L\+T\+\_\+\+M\+R\+D\+L\+I\+B\+\_\+\+E\+R\+R\+O\+R\+\_\+\+M\+E\+S\+S\+A\+GE = \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_aed748bba1971c69c99e98411843efd84}{Localization.\+lang}}(\char`\"{}Error while fetching recommendations \mbox{\hyperlink{_biblioscape_importer_test_optional_fields_8txt_a958a754f010f8c7c8bc1fc3877cc1743}{from}} Mr.\+D\+Lib.\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_ace006bdcd5852a2e2165803f03c8c592}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_ace006bdcd5852a2e2165803f03c8c592}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!description@{description}}
+\index{description@{description}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{description}{description}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+description\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a6c9558e429724aaec769718674af26f7}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a6c9558e429724aaec769718674af26f7}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!heading@{heading}}
+\index{heading@{heading}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{heading}{heading}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+heading\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_ad27346212e2b4175113da6ac48b70b6b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_ad27346212e2b4175113da6ac48b70b6b}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!LANGUAGE@{LANGUAGE}}
+\index{LANGUAGE@{LANGUAGE}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{LANGUAGE}{LANGUAGE}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+L\+A\+N\+G\+U\+A\+GE\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a1dc5ac0b78d8c515c64bbfb6a01f4052}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a1dc5ac0b78d8c515c64bbfb6a01f4052}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Mr\+D\+Lib\+Fetcher.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a5cdab12a0e8ffa3190ee32e5ede40846}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a5cdab12a0e8ffa3190ee32e5ede40846}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!MDL\_JABREF\_PARTNER\_ID@{MDL\_JABREF\_PARTNER\_ID}}
+\index{MDL\_JABREF\_PARTNER\_ID@{MDL\_JABREF\_PARTNER\_ID}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{MDL\_JABREF\_PARTNER\_ID}{MDL\_JABREF\_PARTNER\_ID}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+M\+D\+L\+\_\+\+J\+A\+B\+R\+E\+F\+\_\+\+P\+A\+R\+T\+N\+E\+R\+\_\+\+ID = \char`\"{}1\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a456667f98abd64330adc32146a05fcb1}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a456667f98abd64330adc32146a05fcb1}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!MDL\_URL@{MDL\_URL}}
+\index{MDL\_URL@{MDL\_URL}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{MDL\_URL}{MDL\_URL}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+M\+D\+L\+\_\+\+U\+RL = \char`\"{}api.\+mr-\/dlib.\+org\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a4c06445c410ef74e334052baba7036c5}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a4c06445c410ef74e334052baba7036c5}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!NAME@{NAME}}
+\index{NAME@{NAME}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{NAME}{NAME}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+N\+A\+ME = \char`\"{}M\+D\+L\+\_\+\+F\+E\+T\+C\+H\+ER\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a7db9c4165ce4f57f0d94e08acc388391}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a7db9c4165ce4f57f0d94e08acc388391}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!recommendationSetId@{recommendationSetId}}
+\index{recommendationSetId@{recommendationSetId}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{recommendationSetId}{recommendationSetId}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+recommendation\+Set\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a92aa0213ac7fef7a875ac3f33ae13438}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_mr_d_lib_fetcher_a92aa0213ac7fef7a875ac3f33ae13438}} 
+\index{org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}!VERSION@{VERSION}}
+\index{VERSION@{VERSION}!org.jabref.logic.importer.fetcher.MrDLibFetcher@{org.jabref.logic.importer.fetcher.MrDLibFetcher}}
+\doxysubsubsection{\texorpdfstring{VERSION}{VERSION}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_version}{Version}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Mr\+D\+Lib\+Fetcher.\+V\+E\+R\+S\+I\+ON\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_mr_d_lib_fetcher_8java}{Mr\+D\+Lib\+Fetcher.\+java}}\end{DoxyCompactItemize}

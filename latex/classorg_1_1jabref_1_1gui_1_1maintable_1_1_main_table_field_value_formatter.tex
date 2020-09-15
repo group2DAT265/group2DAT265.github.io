@@ -1,0 +1,84 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter}{}\doxysection{org.\+jabref.\+gui.\+maintable.\+Main\+Table\+Field\+Value\+Formatter Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter}\index{org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_af434a86dd1e73b259e1ad8160fb46edb}{format\+Fields\+Values}} (final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_or_fields}{Or\+Fields}} \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_ad29281fe876a1362bb8dc5bbc7112051}{format\+Field\+With\+Author\+Value}} (final String name\+To\+Format)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_name_format_preferences_1_1_display_style}{Display\+Style}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_ae876818cc2976f78bedf5d7cd089334c}{display\+Style}}
+\item 
+final \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_name_format_preferences_1_1_abbreviation_style}{Abbreviation\+Style}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_a8a7ef10e5e78eab4433da803d8308d81}{abbreviation\+Style}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_a1647e38466db49524332702f21533ae0}{bib\+Database}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_af434a86dd1e73b259e1ad8160fb46edb}\label{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_af434a86dd1e73b259e1ad8160fb46edb}} 
+\index{org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}!formatFieldsValues@{formatFieldsValues}}
+\index{formatFieldsValues@{formatFieldsValues}!org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}}
+\doxysubsubsection{\texorpdfstring{formatFieldsValues()}{formatFieldsValues()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+maintable.\+Main\+Table\+Field\+Value\+Formatter.\+format\+Fields\+Values (\begin{DoxyParamCaption}\item[{final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_or_fields}{Or\+Fields}}}]{fields,  }\item[{final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Format fields for \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1maintable_1_1_bib_entry_table_view_model}{Bib\+Entry\+Table\+View\+Model}}, according to user preferences and with latex translated to unicode if possible.
+
+
+\begin{DoxyParams}{Parameters}
+{\em fields} & the fields argument of \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1maintable_1_1_bib_entry_table_view_model_a8ede223781b03ee67ea4237c4bd0d5fa}{Bib\+Entry\+Table\+View\+Model\#get\+Fields(\+Or\+Fields)}}. \\
+\hline
+{\em entry} & the Bib\+Entry of \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1maintable_1_1_bib_entry_table_view_model}{Bib\+Entry\+Table\+View\+Model}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The formatted name field. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_ad29281fe876a1362bb8dc5bbc7112051}\label{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_ad29281fe876a1362bb8dc5bbc7112051}} 
+\index{org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}!formatFieldWithAuthorValue@{formatFieldWithAuthorValue}}
+\index{formatFieldWithAuthorValue@{formatFieldWithAuthorValue}!org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}}
+\doxysubsubsection{\texorpdfstring{formatFieldWithAuthorValue()}{formatFieldWithAuthorValue()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+maintable.\+Main\+Table\+Field\+Value\+Formatter.\+format\+Field\+With\+Author\+Value (\begin{DoxyParamCaption}\item[{final String}]{name\+To\+Format }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Format a name field for the table, according to user preferences and with latex expressions translated if possible.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+To\+Format} & The contents of the name field. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The formatted name field. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_a8a7ef10e5e78eab4433da803d8308d81}\label{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_a8a7ef10e5e78eab4433da803d8308d81}} 
+\index{org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}!abbreviationStyle@{abbreviationStyle}}
+\index{abbreviationStyle@{abbreviationStyle}!org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}}
+\doxysubsubsection{\texorpdfstring{abbreviationStyle}{abbreviationStyle}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_name_format_preferences_1_1_abbreviation_style}{Abbreviation\+Style}} org.\+jabref.\+gui.\+maintable.\+Main\+Table\+Field\+Value\+Formatter.\+abbreviation\+Style\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_a1647e38466db49524332702f21533ae0}\label{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_a1647e38466db49524332702f21533ae0}} 
+\index{org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}!bibDatabase@{bibDatabase}}
+\index{bibDatabase@{bibDatabase}!org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}}
+\doxysubsubsection{\texorpdfstring{bibDatabase}{bibDatabase}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} org.\+jabref.\+gui.\+maintable.\+Main\+Table\+Field\+Value\+Formatter.\+bib\+Database\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_ae876818cc2976f78bedf5d7cd089334c}\label{classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter_ae876818cc2976f78bedf5d7cd089334c}} 
+\index{org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}!displayStyle@{displayStyle}}
+\index{displayStyle@{displayStyle}!org.jabref.gui.maintable.MainTableFieldValueFormatter@{org.jabref.gui.maintable.MainTableFieldValueFormatter}}
+\doxysubsubsection{\texorpdfstring{displayStyle}{displayStyle}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_name_format_preferences_1_1_display_style}{Display\+Style}} org.\+jabref.\+gui.\+maintable.\+Main\+Table\+Field\+Value\+Formatter.\+display\+Style\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/maintable/\mbox{\hyperlink{_main_table_field_value_formatter_8java}{Main\+Table\+Field\+Value\+Formatter.\+java}}\end{DoxyCompactItemize}

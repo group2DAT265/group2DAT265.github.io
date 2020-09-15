@@ -1,0 +1,146 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader}{}\doxysection{org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Reader Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader}\index{org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ X\+M\+P\+Metadata $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a26a36b21b2ab7bbacb299aaf28e84a71}{read\+Raw\+Xmp}} (Path path)  throws I\+O\+Exception 
+\item 
+static List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_ae7ee1914b623070964d3d1b8bcce685f}{read\+Xmp}} (String filename, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences}{Xmp\+Preferences}} xmp\+Preferences)  throws I\+O\+Exception 
+\item 
+static List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_ace57f2ea18e96e00c6cb277abfc7b222}{read\+Xmp}} (Path path, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences}{Xmp\+Preferences}} xmp\+Preferences)  throws I\+O\+Exception 
+\item 
+static P\+D\+Document \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a60e085c3d3f0d490391c9c045c3180fe}{load\+With\+Automatic\+Decryption}} (Path path)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a6162d72929e7f6ce7b8d36b5d074907d}{Xmp\+Util\+Reader}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ X\+M\+P\+Metadata $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a3fff2a643ba88bedcd1f0b5a83b11461}{get\+Xmp\+Metadata}} (P\+D\+Document document)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a04c31af5631b4d8624b8ab36b98960b0}{S\+T\+A\+R\+T\+\_\+\+T\+AG}} = \char`\"{}$<$rdf\+:\+Description\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_ae5b86206ed7d69757841da2b35eea099}{E\+N\+D\+\_\+\+T\+AG}} = \char`\"{}$<$/rdf\+:\+Description$>$\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a6162d72929e7f6ce7b8d36b5d074907d}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a6162d72929e7f6ce7b8d36b5d074907d}} 
+\index{org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}!XmpUtilReader@{XmpUtilReader}}
+\index{XmpUtilReader@{XmpUtilReader}!org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}}
+\doxysubsubsection{\texorpdfstring{XmpUtilReader()}{XmpUtilReader()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Reader.\+Xmp\+Util\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a3fff2a643ba88bedcd1f0b5a83b11461}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a3fff2a643ba88bedcd1f0b5a83b11461}} 
+\index{org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}!getXmpMetadata@{getXmpMetadata}}
+\index{getXmpMetadata@{getXmpMetadata}!org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}}
+\doxysubsubsection{\texorpdfstring{getXmpMetadata()}{getXmpMetadata()}}
+{\footnotesize\ttfamily static List$<$X\+M\+P\+Metadata$>$ org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Reader.\+get\+Xmp\+Metadata (\begin{DoxyParamCaption}\item[{P\+D\+Document}]{document }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+This method is a hack to generate multiple X\+M\+P\+Metadata objects, because the implementation of the pdfbox does not support methods for reading multiple Dublin\+Core\+Schemas from a single metadata entry. 
+
+\begin{DoxyReturn}{Returns}
+empty List if no metadata has been found, or cannot properly find start or end tag in metadata 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a60e085c3d3f0d490391c9c045c3180fe}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a60e085c3d3f0d490391c9c045c3180fe}} 
+\index{org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}!loadWithAutomaticDecryption@{loadWithAutomaticDecryption}}
+\index{loadWithAutomaticDecryption@{loadWithAutomaticDecryption}!org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}}
+\doxysubsubsection{\texorpdfstring{loadWithAutomaticDecryption()}{loadWithAutomaticDecryption()}}
+{\footnotesize\ttfamily static P\+D\+Document org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Reader.\+load\+With\+Automatic\+Decryption (\begin{DoxyParamCaption}\item[{Path}]{path }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Loads the specified file with the basic pdfbox functionality and uses an empty string as default password.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & The path to load. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & from the underlying \mbox{\hyperlink{}{P\+D\+Document\#load(\+File)}}\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a26a36b21b2ab7bbacb299aaf28e84a71}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a26a36b21b2ab7bbacb299aaf28e84a71}} 
+\index{org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}!readRawXmp@{readRawXmp}}
+\index{readRawXmp@{readRawXmp}!org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}}
+\doxysubsubsection{\texorpdfstring{readRawXmp()}{readRawXmp()}}
+{\footnotesize\ttfamily static List$<$X\+M\+P\+Metadata$>$ org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Reader.\+read\+Raw\+Xmp (\begin{DoxyParamCaption}\item[{Path}]{path }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Will read the X\+M\+P\+Metadata from the given pdf file, closing the file afterwards.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & The path to read the X\+M\+P\+Metadata from. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The X\+M\+P\+Metadata object found in the file 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_ace57f2ea18e96e00c6cb277abfc7b222}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_ace57f2ea18e96e00c6cb277abfc7b222}} 
+\index{org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}!readXmp@{readXmp}}
+\index{readXmp@{readXmp}!org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}}
+\doxysubsubsection{\texorpdfstring{readXmp()}{readXmp()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Reader.\+read\+Xmp (\begin{DoxyParamCaption}\item[{Path}]{path,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences}{Xmp\+Preferences}}}]{xmp\+Preferences }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Try to read the given Bib\+Tex\+Entry from the X\+M\+P-\/stream of the given inputstream containing a P\+D\+F-\/file.
+
+Only supports Dublin Core as a metadata format.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & The path to read from. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list of Bib\+Entries retrieved from the stream. May be empty, but never null 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & Throws an I\+O\+Exception if the file cannot be read, so the user than remove a lock or cancel the operation. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_ae7ee1914b623070964d3d1b8bcce685f}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_ae7ee1914b623070964d3d1b8bcce685f}} 
+\index{org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}!readXmp@{readXmp}}
+\index{readXmp@{readXmp}!org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}}
+\doxysubsubsection{\texorpdfstring{readXmp()}{readXmp()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Reader.\+read\+Xmp (\begin{DoxyParamCaption}\item[{String}]{filename,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences}{Xmp\+Preferences}}}]{xmp\+Preferences }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Convenience method for read\+X\+M\+P(\+File).
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & The filename from which to open the file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bibtex\+Entryies found in the P\+DF or an empty list 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_ae5b86206ed7d69757841da2b35eea099}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_ae5b86206ed7d69757841da2b35eea099}} 
+\index{org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}!END\_TAG@{END\_TAG}}
+\index{END\_TAG@{END\_TAG}!org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}}
+\doxysubsubsection{\texorpdfstring{END\_TAG}{END\_TAG}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Reader.\+E\+N\+D\+\_\+\+T\+AG = \char`\"{}$<$/rdf\+:\+Description$>$\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a04c31af5631b4d8624b8ab36b98960b0}\label{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_reader_a04c31af5631b4d8624b8ab36b98960b0}} 
+\index{org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}!START\_TAG@{START\_TAG}}
+\index{START\_TAG@{START\_TAG}!org.jabref.logic.xmp.XmpUtilReader@{org.jabref.logic.xmp.XmpUtilReader}}
+\doxysubsubsection{\texorpdfstring{START\_TAG}{START\_TAG}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+xmp.\+Xmp\+Util\+Reader.\+S\+T\+A\+R\+T\+\_\+\+T\+AG = \char`\"{}$<$rdf\+:\+Description\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/xmp/\mbox{\hyperlink{_xmp_util_reader_8java}{Xmp\+Util\+Reader.\+java}}\end{DoxyCompactItemize}

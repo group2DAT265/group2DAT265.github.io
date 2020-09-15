@@ -1,0 +1,95 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Resolution Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution}\index{org.jabref.logic.importer.fetcher.DoiResolution@{org.jabref.logic.importer.fetcher.DoiResolution}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Resolution\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a6e9e98087d8ad22c04362cf439296cd2}{find\+Full\+Text}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level}{Trust\+Level}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a2b835299adefd9da7b12da22e529350e}{get\+Trust\+Level}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a930c69fb91c9eaadd0913ae5ac50d988}{find\+Similar\+Links}} (List$<$ \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} $>$ urls)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a510c4015b6f110c8b9fc6283ca330a17}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Doi\+Resolution.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher}{Fulltext\+Fetcher}} implementation that follows the D\+OI resolution redirects and scans for a full-\/text P\+DF U\+RL. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a6e9e98087d8ad22c04362cf439296cd2}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a6e9e98087d8ad22c04362cf439296cd2}} 
+\index{org.jabref.logic.importer.fetcher.DoiResolution@{org.jabref.logic.importer.fetcher.DoiResolution}!findFullText@{findFullText}}
+\index{findFullText@{findFullText}!org.jabref.logic.importer.fetcher.DoiResolution@{org.jabref.logic.importer.fetcher.DoiResolution}}
+\doxysubsubsection{\texorpdfstring{findFullText()}{findFullText()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Resolution.\+find\+Full\+Text (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Tries to find a fulltext U\+RL for a given Bib\+Tex entry.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & The Bibtex entry \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The fulltext P\+DF U\+RL Optional, if found, or an empty Optional if not found. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if no Bib\+Tex entry is given \\
+\hline
+{\em java.\+io.\+I\+O\+Exception} & if an IO operation has failed \\
+\hline
+{\em \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}} & if a fetcher specific error occurred \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher_a86cdf9129715151ea30d714182103aa7}{org.\+jabref.\+logic.\+importer.\+Fulltext\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a930c69fb91c9eaadd0913ae5ac50d988}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a930c69fb91c9eaadd0913ae5ac50d988}} 
+\index{org.jabref.logic.importer.fetcher.DoiResolution@{org.jabref.logic.importer.fetcher.DoiResolution}!findSimilarLinks@{findSimilarLinks}}
+\index{findSimilarLinks@{findSimilarLinks}!org.jabref.logic.importer.fetcher.DoiResolution@{org.jabref.logic.importer.fetcher.DoiResolution}}
+\doxysubsubsection{\texorpdfstring{findSimilarLinks()}{findSimilarLinks()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Resolution.\+find\+Similar\+Links (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} $>$}]{urls }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a2b835299adefd9da7b12da22e529350e}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a2b835299adefd9da7b12da22e529350e}} 
+\index{org.jabref.logic.importer.fetcher.DoiResolution@{org.jabref.logic.importer.fetcher.DoiResolution}!getTrustLevel@{getTrustLevel}}
+\index{getTrustLevel@{getTrustLevel}!org.jabref.logic.importer.fetcher.DoiResolution@{org.jabref.logic.importer.fetcher.DoiResolution}}
+\doxysubsubsection{\texorpdfstring{getTrustLevel()}{getTrustLevel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level}{Trust\+Level}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Resolution.\+get\+Trust\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the level of trust for this fetcher. We distinguish between publishers and meta search engines for example.
+
+\begin{DoxyReturn}{Returns}
+The trust level of the fetcher, the higher the better 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher_a9dfa076e05220ef7008b639af578eb5a}{org.\+jabref.\+logic.\+importer.\+Fulltext\+Fetcher}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a510c4015b6f110c8b9fc6283ca330a17}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution_a510c4015b6f110c8b9fc6283ca330a17}} 
+\index{org.jabref.logic.importer.fetcher.DoiResolution@{org.jabref.logic.importer.fetcher.DoiResolution}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fetcher.DoiResolution@{org.jabref.logic.importer.fetcher.DoiResolution}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Resolution.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Doi\+Resolution.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_doi_resolution_8java}{Doi\+Resolution.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,188 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop}{}\doxysection{org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop}\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a8493f13c135da081d49bf76e795c2a9e}{open\+External\+Viewer}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database\+Context, String initial\+Link, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} initial\+Field)  throws I\+O\+Exception 
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a19e2e8b1dc0277be9a6f4b228ad50ab7}{open\+External\+File\+Any\+Format}} (final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database\+Context, String \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_aec039b7d7236d939a04fd9e93440512c}{link}}, final Optional$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_external_file_type}{External\+File\+Type}} $>$ type)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a31a1ddcd2fe6774170923e3be2c75355}{open\+Folder\+And\+Select\+File}} (Path file\+Link)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_ae2cd803c4f214c0822eaff54286d905e}{open\+Browser}} (String url)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aace7845c6726ddf549c9e6e96e741c60}{open\+Browser}} (\mbox{\hyperlink{org_8citationstyles_8styles_8txt_ae8a20b34f5393dfb045ee3bbbb607736}{U\+RI}} url)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a54b65e75ddf1af309cadad848ce11003}{open\+Browser\+Show\+Popup}} (String url)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a7c82a1b2a55f900a81f144bb8fffb5e0}{open\+Console}} (File \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}})  throws I\+O\+Exception 
+\item 
+static \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop}{Native\+Desktop}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aa2a7d3e24cc348999a8cfee332f0719a}{get\+Native\+Desktop}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a987a51816c74341d31d68994a49a77ce}{Jab\+Ref\+Desktop}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a3041e7a5394600d792cedfffdb63a1c2}{open\+Doi}} (String doi)  throws I\+O\+Exception 
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a6e1dcdeb7c0eabc03dc5f4698151943e}{open\+External\+File\+Platform\+Independent}} (Optional$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_external_file_type}{External\+File\+Type}} $>$ file\+Type, String file\+Path)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aba6ab094f1aeff86d3f887cb152686d0}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Jab\+Ref\+Desktop.\+class)
+\item 
+static final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop}{Native\+Desktop}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aaebe6547580cf66709b990d5e76e6878}{N\+A\+T\+I\+V\+E\+\_\+\+D\+E\+S\+K\+T\+OP}} = \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aa2a7d3e24cc348999a8cfee332f0719a}{get\+Native\+Desktop}}()
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aab913ee72fcf4942fab8b0259f2a330e}{R\+E\+M\+O\+T\+E\+\_\+\+L\+I\+N\+K\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}\mbox{[}a-\/z\mbox{]}+\+://.$\ast$\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+T\+O\+DO\+: Replace by \href{http://docs.oracle.com/javase/7/docs/api/java/awt/Desktop.html}{\texttt{ http\+://docs.\+oracle.\+com/javase/7/docs/api/java/awt/\+Desktop.\+html}} \href{http://stackoverflow.com/questions/18004150/desktop-api-is-not-supported-on-the-current-platform}{\texttt{ http\+://stackoverflow.\+com/questions/18004150/desktop-\/api-\/is-\/not-\/supported-\/on-\/the-\/current-\/platform}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a987a51816c74341d31d68994a49a77ce}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a987a51816c74341d31d68994a49a77ce}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!JabRefDesktop@{JabRefDesktop}}
+\index{JabRefDesktop@{JabRefDesktop}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{JabRefDesktop()}{JabRefDesktop()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+Jab\+Ref\+Desktop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aa2a7d3e24cc348999a8cfee332f0719a}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aa2a7d3e24cc348999a8cfee332f0719a}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!getNativeDesktop@{getNativeDesktop}}
+\index{getNativeDesktop@{getNativeDesktop}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{getNativeDesktop()}{getNativeDesktop()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop}{Native\+Desktop}} org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+get\+Native\+Desktop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_ae2cd803c4f214c0822eaff54286d905e}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_ae2cd803c4f214c0822eaff54286d905e}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!openBrowser@{openBrowser}}
+\index{openBrowser@{openBrowser}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{openBrowser()}{openBrowser()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+open\+Browser (\begin{DoxyParamCaption}\item[{String}]{url }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Opens the given U\+RL using the system browser
+
+
+\begin{DoxyParams}{Parameters}
+{\em url} & the U\+RL to open \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aace7845c6726ddf549c9e6e96e741c60}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aace7845c6726ddf549c9e6e96e741c60}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!openBrowser@{openBrowser}}
+\index{openBrowser@{openBrowser}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{openBrowser()}{openBrowser()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+open\+Browser (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{org_8citationstyles_8styles_8txt_ae8a20b34f5393dfb045ee3bbbb607736}{U\+RI}}}]{url }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a54b65e75ddf1af309cadad848ce11003}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a54b65e75ddf1af309cadad848ce11003}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!openBrowserShowPopup@{openBrowserShowPopup}}
+\index{openBrowserShowPopup@{openBrowserShowPopup}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{openBrowserShowPopup()}{openBrowserShowPopup()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+open\+Browser\+Show\+Popup (\begin{DoxyParamCaption}\item[{String}]{url }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Opens the url with the users standard Browser. If that fails a popup will be shown to instruct the user to open the link manually and the link gets copied to the clipboard 
+\begin{DoxyParams}{Parameters}
+{\em url} & the U\+RL to open \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a7c82a1b2a55f900a81f144bb8fffb5e0}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a7c82a1b2a55f900a81f144bb8fffb5e0}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!openConsole@{openConsole}}
+\index{openConsole@{openConsole}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{openConsole()}{openConsole()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+open\+Console (\begin{DoxyParamCaption}\item[{File}]{file }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Opens a new console starting on the given file location 
+
+If no command is specified in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_globals}{Globals}}, the default system console will be executed.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & Location the console should be opened at. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a3041e7a5394600d792cedfffdb63a1c2}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a3041e7a5394600d792cedfffdb63a1c2}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!openDoi@{openDoi}}
+\index{openDoi@{openDoi}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{openDoi()}{openDoi()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+open\+Doi (\begin{DoxyParamCaption}\item[{String}]{doi }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a19e2e8b1dc0277be9a6f4b228ad50ab7}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a19e2e8b1dc0277be9a6f4b228ad50ab7}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!openExternalFileAnyFormat@{openExternalFileAnyFormat}}
+\index{openExternalFileAnyFormat@{openExternalFileAnyFormat}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{openExternalFileAnyFormat()}{openExternalFileAnyFormat()}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+open\+External\+File\+Any\+Format (\begin{DoxyParamCaption}\item[{final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{String}]{link,  }\item[{final Optional$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_external_file_type}{External\+File\+Type}} $>$}]{type }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Open an external file, attempting to use the correct viewer for it.
+
+
+\begin{DoxyParams}{Parameters}
+{\em database\+Context} & The database this file belongs to. \\
+\hline
+{\em link} & The filename. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+false if the link couldn\textquotesingle{}t be resolved, true otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a6e1dcdeb7c0eabc03dc5f4698151943e}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a6e1dcdeb7c0eabc03dc5f4698151943e}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!openExternalFilePlatformIndependent@{openExternalFilePlatformIndependent}}
+\index{openExternalFilePlatformIndependent@{openExternalFilePlatformIndependent}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{openExternalFilePlatformIndependent()}{openExternalFilePlatformIndependent()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+open\+External\+File\+Platform\+Independent (\begin{DoxyParamCaption}\item[{Optional$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_external_file_type}{External\+File\+Type}} $>$}]{file\+Type,  }\item[{String}]{file\+Path }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a8493f13c135da081d49bf76e795c2a9e}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a8493f13c135da081d49bf76e795c2a9e}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!openExternalViewer@{openExternalViewer}}
+\index{openExternalViewer@{openExternalViewer}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{openExternalViewer()}{openExternalViewer()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+open\+External\+Viewer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{String}]{initial\+Link,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{initial\+Field }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Open a http/pdf/ps viewer for the given link string. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a31a1ddcd2fe6774170923e3be2c75355}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_a31a1ddcd2fe6774170923e3be2c75355}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!openFolderAndSelectFile@{openFolderAndSelectFile}}
+\index{openFolderAndSelectFile@{openFolderAndSelectFile}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{openFolderAndSelectFile()}{openFolderAndSelectFile()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+open\+Folder\+And\+Select\+File (\begin{DoxyParamCaption}\item[{Path}]{file\+Link }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Opens a file browser of the folder of the given file. If possible, the file is selected
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Link} & the location of the file \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aba6ab094f1aeff86d3f887cb152686d0}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aba6ab094f1aeff86d3f887cb152686d0}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Jab\+Ref\+Desktop.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aaebe6547580cf66709b990d5e76e6878}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aaebe6547580cf66709b990d5e76e6878}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!NATIVE\_DESKTOP@{NATIVE\_DESKTOP}}
+\index{NATIVE\_DESKTOP@{NATIVE\_DESKTOP}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{NATIVE\_DESKTOP}{NATIVE\_DESKTOP}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop}{Native\+Desktop}} org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+N\+A\+T\+I\+V\+E\+\_\+\+D\+E\+S\+K\+T\+OP = \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aa2a7d3e24cc348999a8cfee332f0719a}{get\+Native\+Desktop}}()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aab913ee72fcf4942fab8b0259f2a330e}\label{classorg_1_1jabref_1_1gui_1_1desktop_1_1_jab_ref_desktop_aab913ee72fcf4942fab8b0259f2a330e}} 
+\index{org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}!REMOTE\_LINK\_PATTERN@{REMOTE\_LINK\_PATTERN}}
+\index{REMOTE\_LINK\_PATTERN@{REMOTE\_LINK\_PATTERN}!org.jabref.gui.desktop.JabRefDesktop@{org.jabref.gui.desktop.JabRefDesktop}}
+\doxysubsubsection{\texorpdfstring{REMOTE\_LINK\_PATTERN}{REMOTE\_LINK\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+gui.\+desktop.\+Jab\+Ref\+Desktop.\+R\+E\+M\+O\+T\+E\+\_\+\+L\+I\+N\+K\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}\mbox{[}a-\/z\mbox{]}+\+://.$\ast$\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/desktop/\mbox{\hyperlink{_jab_ref_desktop_8java}{Jab\+Ref\+Desktop.\+java}}\end{DoxyCompactItemize}

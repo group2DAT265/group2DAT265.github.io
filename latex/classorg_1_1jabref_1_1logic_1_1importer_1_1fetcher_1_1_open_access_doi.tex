@@ -1,0 +1,102 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Open\+Access\+Doi Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi}\index{org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+Open\+Access\+Doi\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_aed3c26a997263bcb42282471f3a824a3}{find\+Full\+Text}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level}{Trust\+Level}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_ab9af36a8636a19465d87c71727c7073b}{get\+Trust\+Level}} ()
+\item 
+Optional$<$ \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_a646701d3613606026441028732901a8e}{find\+Full\+Text}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_d_o_i}{D\+OI}} doi)  throws Unirest\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_a49f03de178027e0a84fb5ea12b2cfb90}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Fulltext\+Fetcher.\+class)
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_ac8129732feda0a197f7dc50cf346ea08}{A\+P\+I\+\_\+\+U\+RL}} = \char`\"{}https\+://api.\+oadoi.\+org/v2/\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A fulltext fetcher that uses \href{https://oadoi.org/}{\texttt{ oa\+D\+OI}}.
+
+@impl\+Spec A\+PI is documented at \href{http://unpaywall.org/api/v2}{\texttt{ http\+://unpaywall.\+org/api/v2}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_aed3c26a997263bcb42282471f3a824a3}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_aed3c26a997263bcb42282471f3a824a3}} 
+\index{org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}!findFullText@{findFullText}}
+\index{findFullText@{findFullText}!org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}}
+\doxysubsubsection{\texorpdfstring{findFullText()}{findFullText()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Open\+Access\+Doi.\+find\+Full\+Text (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Tries to find a fulltext U\+RL for a given Bib\+Tex entry.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & The Bibtex entry \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The fulltext P\+DF U\+RL Optional, if found, or an empty Optional if not found. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Null\+Pointer\+Exception} & if no Bib\+Tex entry is given \\
+\hline
+{\em java.\+io.\+I\+O\+Exception} & if an IO operation has failed \\
+\hline
+{\em \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}} & if a fetcher specific error occurred \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher_a86cdf9129715151ea30d714182103aa7}{org.\+jabref.\+logic.\+importer.\+Fulltext\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_a646701d3613606026441028732901a8e}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_a646701d3613606026441028732901a8e}} 
+\index{org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}!findFullText@{findFullText}}
+\index{findFullText@{findFullText}!org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}}
+\doxysubsubsection{\texorpdfstring{findFullText()}{findFullText()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Open\+Access\+Doi.\+find\+Full\+Text (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_d_o_i}{D\+OI}}}]{doi }\end{DoxyParamCaption}) throws Unirest\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_ab9af36a8636a19465d87c71727c7073b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_ab9af36a8636a19465d87c71727c7073b}} 
+\index{org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}!getTrustLevel@{getTrustLevel}}
+\index{getTrustLevel@{getTrustLevel}!org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}}
+\doxysubsubsection{\texorpdfstring{getTrustLevel()}{getTrustLevel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level}{Trust\+Level}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Open\+Access\+Doi.\+get\+Trust\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the level of trust for this fetcher. We distinguish between publishers and meta search engines for example.
+
+\begin{DoxyReturn}{Returns}
+The trust level of the fetcher, the higher the better 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_fulltext_fetcher_a9dfa076e05220ef7008b639af578eb5a}{org.\+jabref.\+logic.\+importer.\+Fulltext\+Fetcher}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_ac8129732feda0a197f7dc50cf346ea08}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_ac8129732feda0a197f7dc50cf346ea08}} 
+\index{org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}!API\_URL@{API\_URL}}
+\index{API\_URL@{API\_URL}!org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}}
+\doxysubsubsection{\texorpdfstring{API\_URL}{API\_URL}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Open\+Access\+Doi.\+A\+P\+I\+\_\+\+U\+RL = \char`\"{}https\+://api.\+oadoi.\+org/v2/\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_a49f03de178027e0a84fb5ea12b2cfb90}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi_a49f03de178027e0a84fb5ea12b2cfb90}} 
+\index{org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fetcher.OpenAccessDoi@{org.jabref.logic.importer.fetcher.OpenAccessDoi}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fetcher.\+Open\+Access\+Doi.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Fulltext\+Fetcher.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_open_access_doi_8java}{Open\+Access\+Doi.\+java}}\end{DoxyCompactItemize}

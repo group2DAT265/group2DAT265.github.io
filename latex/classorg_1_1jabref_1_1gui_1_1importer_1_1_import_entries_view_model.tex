@@ -1,0 +1,207 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model}{}\doxysection{org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model}\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+Inheritance diagram for org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_aeeabb904676d5d00e9cb1595b5293228}{Import\+Entries\+View\+Model}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_background_task}{Background\+Task}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$ task, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a4edb44a9d8b3e7f1b7b6c8298a78c38a}{task\+Executor}}, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a25f68a7d08d63c21e514aaca580ff93c}{database\+Context}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a24c3a987190c6c0272ca3dcb2b199a2d}{dialog\+Service}}, Undo\+Manager \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a52d4a31a71c036f5c115375c20deaf06}{undo\+Manager}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a679d41abd11a5208bbc6c17365bd8c36}{preferences}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_ad7f86dd04039ffe0497b2f01613df441}{state\+Manager}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a393799aab5c7cf739b999b4a9c453b4e}{file\+Update\+Monitor}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a6cfe40326b7e1a785eed7a7e8820f595}{get\+Message}} ()
+\item 
+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a9acce1993a50699b6725cbe217ea54a6}{message\+Property}} ()
+\item 
+Observable\+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a9bcc80cd8eba84359025d76441e036b5}{get\+Entries}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a3500f164d407a47efce646c7047ce5f5}{has\+Duplicate}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_aa94adb91cbd89bb1efcad179321a76f1}{import\+Entries}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries\+To\+Import, boolean should\+Download\+Files)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a5e2a65640b07fed31cc2992d6e3a0699}{resolve\+Duplicate}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a9bc30279bc26b4d087535c720011e699}{build\+Import\+Handler\+Then\+Import\+Entries}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries\+To\+Import)
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a8bbb4ff758f07216e7b9d97655b8925d}{find\+Internal\+Duplicate}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a485978ca14f4ef3807deb38628b2592b}{message}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a4edb44a9d8b3e7f1b7b6c8298a78c38a}{task\+Executor}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a25f68a7d08d63c21e514aaca580ff93c}{database\+Context}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a24c3a987190c6c0272ca3dcb2b199a2d}{dialog\+Service}}
+\item 
+final Undo\+Manager \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a52d4a31a71c036f5c115375c20deaf06}{undo\+Manager}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_ad7f86dd04039ffe0497b2f01613df441}{state\+Manager}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a393799aab5c7cf739b999b4a9c453b4e}{file\+Update\+Monitor}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_aba278ce2fdec57da2dad39d34040f4f6}{parser\+Result}} = null
+\item 
+final Observable\+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_af465892c2b6d31454972f53e8e88aa47}{entries}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a679d41abd11a5208bbc6c17365bd8c36}{preferences}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_aeeabb904676d5d00e9cb1595b5293228}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_aeeabb904676d5d00e9cb1595b5293228}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!ImportEntriesViewModel@{ImportEntriesViewModel}}
+\index{ImportEntriesViewModel@{ImportEntriesViewModel}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{ImportEntriesViewModel()}{ImportEntriesViewModel()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+Import\+Entries\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_background_task}{Background\+Task}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} $>$}]{task,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}}}]{task\+Executor,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{Undo\+Manager}]{undo\+Manager,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}}}]{preferences,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}}}]{file\+Update\+Monitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em database\+Context} & the database to import into \\
+\hline
+{\em task} & the task executed for parsing the selected files(s). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a9bc30279bc26b4d087535c720011e699}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a9bc30279bc26b4d087535c720011e699}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!buildImportHandlerThenImportEntries@{buildImportHandlerThenImportEntries}}
+\index{buildImportHandlerThenImportEntries@{buildImportHandlerThenImportEntries}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{buildImportHandlerThenImportEntries()}{buildImportHandlerThenImportEntries()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+build\+Import\+Handler\+Then\+Import\+Entries (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries\+To\+Import }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a8bbb4ff758f07216e7b9d97655b8925d}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a8bbb4ff758f07216e7b9d97655b8925d}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!findInternalDuplicate@{findInternalDuplicate}}
+\index{findInternalDuplicate@{findInternalDuplicate}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{findInternalDuplicate()}{findInternalDuplicate()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+find\+Internal\+Duplicate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Checks if there are duplicates to the given entry in the list of entries to be imported.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & The entry to search for duplicates of. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A possible duplicate, if any, or null if none were found. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a9bcc80cd8eba84359025d76441e036b5}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a9bcc80cd8eba84359025d76441e036b5}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!getEntries@{getEntries}}
+\index{getEntries@{getEntries}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{getEntries()}{getEntries()}}
+{\footnotesize\ttfamily Observable\+List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+get\+Entries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a6cfe40326b7e1a785eed7a7e8820f595}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a6cfe40326b7e1a785eed7a7e8820f595}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!getMessage@{getMessage}}
+\index{getMessage@{getMessage}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{getMessage()}{getMessage()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+get\+Message (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a3500f164d407a47efce646c7047ce5f5}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a3500f164d407a47efce646c7047ce5f5}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!hasDuplicate@{hasDuplicate}}
+\index{hasDuplicate@{hasDuplicate}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{hasDuplicate()}{hasDuplicate()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+has\+Duplicate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_aa94adb91cbd89bb1efcad179321a76f1}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_aa94adb91cbd89bb1efcad179321a76f1}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!importEntries@{importEntries}}
+\index{importEntries@{importEntries}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{importEntries()}{importEntries()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+import\+Entries (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries\+To\+Import,  }\item[{boolean}]{should\+Download\+Files }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Called after the user selected the entries to import. Does the real import stuff.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entries\+To\+Import} & subset of the entries contained in parser\+Result \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a9acce1993a50699b6725cbe217ea54a6}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a9acce1993a50699b6725cbe217ea54a6}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!messageProperty@{messageProperty}}
+\index{messageProperty@{messageProperty}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{messageProperty()}{messageProperty()}}
+{\footnotesize\ttfamily String\+Property org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+message\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a5e2a65640b07fed31cc2992d6e3a0699}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a5e2a65640b07fed31cc2992d6e3a0699}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!resolveDuplicate@{resolveDuplicate}}
+\index{resolveDuplicate@{resolveDuplicate}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{resolveDuplicate()}{resolveDuplicate()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+resolve\+Duplicate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a25f68a7d08d63c21e514aaca580ff93c}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a25f68a7d08d63c21e514aaca580ff93c}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!databaseContext@{databaseContext}}
+\index{databaseContext@{databaseContext}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{databaseContext}{databaseContext}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+database\+Context\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a24c3a987190c6c0272ca3dcb2b199a2d}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a24c3a987190c6c0272ca3dcb2b199a2d}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_af465892c2b6d31454972f53e8e88aa47}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_af465892c2b6d31454972f53e8e88aa47}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!entries@{entries}}
+\index{entries@{entries}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{entries}{entries}}
+{\footnotesize\ttfamily final Observable\+List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+entries\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a393799aab5c7cf739b999b4a9c453b4e}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a393799aab5c7cf739b999b4a9c453b4e}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!fileUpdateMonitor@{fileUpdateMonitor}}
+\index{fileUpdateMonitor@{fileUpdateMonitor}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{fileUpdateMonitor}{fileUpdateMonitor}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+file\+Update\+Monitor\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a485978ca14f4ef3807deb38628b2592b}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a485978ca14f4ef3807deb38628b2592b}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!message@{message}}
+\index{message@{message}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{message}{message}}
+{\footnotesize\ttfamily final String\+Property org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+message\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_aba278ce2fdec57da2dad39d34040f4f6}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_aba278ce2fdec57da2dad39d34040f4f6}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!parserResult@{parserResult}}
+\index{parserResult@{parserResult}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{parserResult}{parserResult}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+parser\+Result = null\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a679d41abd11a5208bbc6c17365bd8c36}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a679d41abd11a5208bbc6c17365bd8c36}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_ad7f86dd04039ffe0497b2f01613df441}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_ad7f86dd04039ffe0497b2f01613df441}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!stateManager@{stateManager}}
+\index{stateManager@{stateManager}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{stateManager}{stateManager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+state\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a4edb44a9d8b3e7f1b7b6c8298a78c38a}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a4edb44a9d8b3e7f1b7b6c8298a78c38a}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!taskExecutor@{taskExecutor}}
+\index{taskExecutor@{taskExecutor}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{taskExecutor}{taskExecutor}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+task\+Executor\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a52d4a31a71c036f5c115375c20deaf06}\label{classorg_1_1jabref_1_1gui_1_1importer_1_1_import_entries_view_model_a52d4a31a71c036f5c115375c20deaf06}} 
+\index{org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}!undoManager@{undoManager}}
+\index{undoManager@{undoManager}!org.jabref.gui.importer.ImportEntriesViewModel@{org.jabref.gui.importer.ImportEntriesViewModel}}
+\doxysubsubsection{\texorpdfstring{undoManager}{undoManager}}
+{\footnotesize\ttfamily final Undo\+Manager org.\+jabref.\+gui.\+importer.\+Import\+Entries\+View\+Model.\+undo\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/importer/\mbox{\hyperlink{_import_entries_view_model_8java}{Import\+Entries\+View\+Model.\+java}}\end{DoxyCompactItemize}

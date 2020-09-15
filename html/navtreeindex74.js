@@ -1,0 +1,27 @@
+var NAVTREEINDEX74 =
+{
+"namespaceorg_1_1jabref_1_1styletester.html":[14,0,0,0,9],
+"namespaceorg_1_1jabref_1_1styletester.html":[13,0,3,5,9],
+"namespaceorg_1_1jabref_1_1support.html":[13,0,3,5,10],
+"namespaceorg_1_1jabref_1_1support.html":[14,0,0,0,10],
+"namespaceorg_1_1jabref_1_1testutils.html":[13,0,3,5,11],
+"namespaceorg_1_1jabref_1_1testutils.html":[14,0,0,0,11],
+"namespaceorg_1_1jabref_1_1testutils_1_1category.html":[14,0,0,0,11,0],
+"namespaceorg_1_1jabref_1_1testutils_1_1category.html":[13,0,3,5,11,0],
+"namespaces.html":[13,0],
+"namespacesync_lang.html":[13,0,4],
+"namespacesync_lang.html":[14,0,1],
+"package-info_8java.html":[15,0,4,1,0,0,0,3,13,1,0,0],
+"pages.html":[],
+"sync_lang_8py.html":[15,0,3,2],
+"sync_lang_8py.html#a1fadc87e0ce2978cb25bd025acc254c7":[15,0,3,2,8],
+"sync_lang_8py.html#a2d760a05086d9fc6f48c5b7a07bdf3b5":[15,0,3,2,6],
+"sync_lang_8py.html#a4924777caaa5ddd70316d9c96a578935":[15,0,3,2,11],
+"sync_lang_8py.html#a5aa5a6a99e7f410a10dd0369c44a688d":[15,0,3,2,12],
+"sync_lang_8py.html#a5fcf71161f74847dc0629e07cd7580b0":[15,0,3,2,5],
+"sync_lang_8py.html#a61c9de19d4115ab79f5e94c198489543":[15,0,3,2,10],
+"sync_lang_8py.html#a79df6d1b4cc0191046cb18cd52204bbd":[15,0,3,2,7],
+"sync_lang_8py.html#aa76adab2b05fd81c7995364a318ee714":[15,0,3,2,4],
+"sync_lang_8py.html#abbaba3147df2fe91b945727dd8d0fcbe":[15,0,3,2,9],
+"sync_lang_8py.html#ad645eecb7e58792e0a14d9e9405e696d":[15,0,3,2,13]
+};

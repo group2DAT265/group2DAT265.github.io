@@ -1,0 +1,226 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser}{}\doxysection{org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser}\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_1_1_token}{Token}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author_list}{Author\+List}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a5f9263f1bcf41c90a2e48880dab68d6e}{parse}} (String list\+Of\+Names)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a57390524da318bf4e8d406e474c7358d}{get\+Author}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a5c20e25ed68aac16164e4bddf1fbe09c}{concat\+Tokens}} (List$<$ Object $>$ tokens, int start, int end, int offset, boolean dot\+After)
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_1_1_token}{Token}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a6cc956f432e9c983380082b9361f42f1}{get\+Token}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String\+Builder \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_af5412a4ee8379433869a62ca70f9396d}{build\+With\+Affix}} (\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ Integer $>$ index\+Array, List$<$ String $>$ name\+List)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a727d5b423bac3faa7b35612434e30ed8}{original}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a39e9ae1403831bacb8f1f7ef61d55260}{token\+Start}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a6439f0af10d970208500eb836c5eddcb}{token\+End}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a396129740605e7e6a2799b808b2de02a}{token\+Abbr\+End}}
+\item 
+char \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a7f161e52fa14ccd2c23bc73caeec4ad5}{token\+Term}}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_aded4286aebbe308c8d30fa1e4ce2bb5f}{token\+Case}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Set$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_ab467fe50dd6120b3448f14183efdacc6}{A\+V\+O\+I\+D\+\_\+\+T\+E\+R\+M\+S\+\_\+\+I\+N\+\_\+\+L\+O\+W\+E\+R\+\_\+\+C\+A\+SE}}
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a8996956520e1c5685a80414229658a5c}{T\+O\+K\+E\+N\+\_\+\+G\+R\+O\+U\+P\+\_\+\+L\+E\+N\+G\+TH}} = 4
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_ad805778c534325277ccf0585e86f3dc0}{O\+F\+F\+S\+E\+T\+\_\+\+T\+O\+K\+EN}} = 0
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a3f4fff8bbbb1231580df3b0910740971}{O\+F\+F\+S\+E\+T\+\_\+\+T\+O\+K\+E\+N\+\_\+\+A\+B\+BR}} = 1
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_ab957bfadf399ac3572f89af9ebd280de}{O\+F\+F\+S\+E\+T\+\_\+\+T\+O\+K\+E\+N\+\_\+\+T\+E\+RM}} = 2
+\item 
+static final Set$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a1b8b78c03a6393f49d7158316bc26c64}{T\+E\+X\+\_\+\+N\+A\+M\+ES}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_af5412a4ee8379433869a62ca70f9396d}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_af5412a4ee8379433869a62ca70f9396d}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!buildWithAffix@{buildWithAffix}}
+\index{buildWithAffix@{buildWithAffix}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{buildWithAffix()}{buildWithAffix()}}
+{\footnotesize\ttfamily static String\+Builder org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+build\+With\+Affix (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ Integer $>$}]{index\+Array,  }\item[{List$<$ String $>$}]{name\+List }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+Builds a new array of strings with stringbuilder. Regarding to the name affixes.
+
+\begin{DoxyReturn}{Returns}
+New string with correct seperation 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a5c20e25ed68aac16164e4bddf1fbe09c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a5c20e25ed68aac16164e4bddf1fbe09c}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!concatTokens@{concatTokens}}
+\index{concatTokens@{concatTokens}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{concatTokens()}{concatTokens()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+concat\+Tokens (\begin{DoxyParamCaption}\item[{List$<$ Object $>$}]{tokens,  }\item[{int}]{start,  }\item[{int}]{end,  }\item[{int}]{offset,  }\item[{boolean}]{dot\+After }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Concatenates list of tokens from \textquotesingle{}tokens\textquotesingle{} Vector. Tokens are separated by spaces or dashes, depending on stored in \textquotesingle{}tokens\textquotesingle{}. Callers always ensure that start $<$ end; thus, there exists at least one token to be concatenated.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & index of the first token to be concatenated in \textquotesingle{}tokens\textquotesingle{} Vector (always divisible by T\+O\+K\+E\+N\+\_\+\+G\+R\+O\+U\+P\+\_\+\+L\+E\+N\+G\+TH). \\
+\hline
+{\em end} & index of the first token not to be concatenated in \textquotesingle{}tokens\textquotesingle{} Vector (always divisible by T\+O\+K\+E\+N\+\_\+\+G\+R\+O\+U\+P\+\_\+\+L\+E\+N\+G\+TH). \\
+\hline
+{\em offset} & offset within token group (used to request concatenation of either full tokens or abbreviation). \\
+\hline
+{\em dot\+After} & {\ttfamily true} -- add period after each token, {\ttfamily false} -- do not add. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the result of concatenation. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a57390524da318bf4e8d406e474c7358d}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a57390524da318bf4e8d406e474c7358d}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!getAuthor@{getAuthor}}
+\index{getAuthor@{getAuthor}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{getAuthor()}{getAuthor()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author}{Author}}$>$ org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+get\+Author (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Parses one author name and returns preformatted information.
+
+\begin{DoxyReturn}{Returns}
+Preformatted author name; {\ttfamily Optional.\+empty()} if author name is empty. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a6cc956f432e9c983380082b9361f42f1}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a6cc956f432e9c983380082b9361f42f1}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!getToken@{getToken}}
+\index{getToken@{getToken}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{getToken()}{getToken()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_1_1_token}{Token}} org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+get\+Token (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Parses the next token. 
+
+The string being parsed is stored in global variable {\ttfamily original}, and position which parsing has to start from is stored in global variable {\ttfamily token\+\_\+end}; thus, {\ttfamily token\+\_\+end} has to be set to 0 before the first invocation. Procedure updates {\ttfamily token\+\_\+end}; thus, subsequent invocations do not require any additional variable settings. 
+
+The type of the token is returned; if it is {\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_1_1_token_ac27c91cee209985d08100bb1c41e13a2}{Token.\+W\+O\+RD}}}, additional information is given in global variables {\ttfamily token\+\_\+start}, {\ttfamily token\+\_\+end}, {\ttfamily token\+\_\+abbr}, {\ttfamily token\+\_\+term}, and {\ttfamily token\+\_\+case}; namely\+: {\ttfamily original.\+substring(token\+\_\+start,token\+\_\+end)} is the text of the token, {\ttfamily original.\+substring(token\+\_\+start,token\+\_\+abbr)} is the token abbreviation, {\ttfamily token\+\_\+term} contains token terminator (space or dash), and {\ttfamily token\+\_\+case} is {\ttfamily true}, if token is upper-\/case and {\ttfamily false} if token is lower-\/case.
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_1_1_token_afa99acefe5beae8bee7d51b47d30e9a6}{Token.\+E\+OF}}} -- no more tokens, {\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_1_1_token_aa0fa2011dbcf123d14610b9deadb287e}{Token.\+C\+O\+M\+MA}}} -- token is comma, {\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_1_1_token_a62c22b86025fbe42c95c4345b41313e5}{Token.\+A\+ND}}} -- token is the word \char`\"{}and\char`\"{} (or \char`\"{}\+And\char`\"{}, or \char`\"{}a\+N\+D\char`\"{}, etc.) or a semicolon, {\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_1_1_token_ac27c91cee209985d08100bb1c41e13a2}{Token.\+W\+O\+RD}}} -- token is a word; additional information is given in global variables {\ttfamily token\+\_\+start}, {\ttfamily token\+\_\+end}, {\ttfamily token\+\_\+abbr}, {\ttfamily token\+\_\+term}, and {\ttfamily token\+\_\+case}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a5f9263f1bcf41c90a2e48880dab68d6e}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a5f9263f1bcf41c90a2e48880dab68d6e}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!parse@{parse}}
+\index{parse@{parse}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_author_list}{Author\+List}} org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+parse (\begin{DoxyParamCaption}\item[{String}]{list\+Of\+Names }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parses the String containing person names and returns a list of person information.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list\+Of\+Names} & the String containing the person names to be parsed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a parsed list of persons 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_ab467fe50dd6120b3448f14183efdacc6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_ab467fe50dd6120b3448f14183efdacc6}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!AVOID\_TERMS\_IN\_LOWER\_CASE@{AVOID\_TERMS\_IN\_LOWER\_CASE}}
+\index{AVOID\_TERMS\_IN\_LOWER\_CASE@{AVOID\_TERMS\_IN\_LOWER\_CASE}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{AVOID\_TERMS\_IN\_LOWER\_CASE}{AVOID\_TERMS\_IN\_LOWER\_CASE}}
+{\footnotesize\ttfamily final Set$<$String$>$ org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+A\+V\+O\+I\+D\+\_\+\+T\+E\+R\+M\+S\+\_\+\+I\+N\+\_\+\+L\+O\+W\+E\+R\+\_\+\+C\+A\+SE\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Set.of(}
+\DoxyCodeLine{            \textcolor{stringliteral}{"{}jr"{}}, \textcolor{stringliteral}{"{}sr"{}}, \textcolor{stringliteral}{"{}jnr"{}}, \textcolor{stringliteral}{"{}snr"{}}, \textcolor{stringliteral}{"{}von"{}}, \textcolor{stringliteral}{"{}zu"{}}, \textcolor{stringliteral}{"{}van"{}}, \textcolor{stringliteral}{"{}der"{}})}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_ad805778c534325277ccf0585e86f3dc0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_ad805778c534325277ccf0585e86f3dc0}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!OFFSET\_TOKEN@{OFFSET\_TOKEN}}
+\index{OFFSET\_TOKEN@{OFFSET\_TOKEN}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{OFFSET\_TOKEN}{OFFSET\_TOKEN}}
+{\footnotesize\ttfamily final int org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+O\+F\+F\+S\+E\+T\+\_\+\+T\+O\+K\+EN = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a3f4fff8bbbb1231580df3b0910740971}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a3f4fff8bbbb1231580df3b0910740971}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!OFFSET\_TOKEN\_ABBR@{OFFSET\_TOKEN\_ABBR}}
+\index{OFFSET\_TOKEN\_ABBR@{OFFSET\_TOKEN\_ABBR}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{OFFSET\_TOKEN\_ABBR}{OFFSET\_TOKEN\_ABBR}}
+{\footnotesize\ttfamily final int org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+O\+F\+F\+S\+E\+T\+\_\+\+T\+O\+K\+E\+N\+\_\+\+A\+B\+BR = 1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_ab957bfadf399ac3572f89af9ebd280de}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_ab957bfadf399ac3572f89af9ebd280de}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!OFFSET\_TOKEN\_TERM@{OFFSET\_TOKEN\_TERM}}
+\index{OFFSET\_TOKEN\_TERM@{OFFSET\_TOKEN\_TERM}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{OFFSET\_TOKEN\_TERM}{OFFSET\_TOKEN\_TERM}}
+{\footnotesize\ttfamily final int org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+O\+F\+F\+S\+E\+T\+\_\+\+T\+O\+K\+E\+N\+\_\+\+T\+E\+RM = 2\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a727d5b423bac3faa7b35612434e30ed8}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a727d5b423bac3faa7b35612434e30ed8}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!original@{original}}
+\index{original@{original}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{original}{original}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+original\hspace{0.3cm}{\ttfamily [private]}}
+
+the raw bibtex author/editor field \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a1b8b78c03a6393f49d7158316bc26c64}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a1b8b78c03a6393f49d7158316bc26c64}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!TEX\_NAMES@{TEX\_NAMES}}
+\index{TEX\_NAMES@{TEX\_NAMES}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{TEX\_NAMES}{TEX\_NAMES}}
+{\footnotesize\ttfamily final Set$<$String$>$ org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+T\+E\+X\+\_\+\+N\+A\+M\+ES\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= Set.of(}
+\DoxyCodeLine{            \textcolor{stringliteral}{"{}aa"{}}, \textcolor{stringliteral}{"{}ae"{}}, \textcolor{stringliteral}{"{}l"{}}, \textcolor{stringliteral}{"{}o"{}}, \textcolor{stringliteral}{"{}oe"{}}, \textcolor{stringliteral}{"{}i"{}}, \textcolor{stringliteral}{"{}AA"{}}, \textcolor{stringliteral}{"{}AE"{}}, \textcolor{stringliteral}{"{}L"{}}, \textcolor{stringliteral}{"{}O"{}}, \textcolor{stringliteral}{"{}OE"{}}, \textcolor{stringliteral}{"{}j"{}})}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a8996956520e1c5685a80414229658a5c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a8996956520e1c5685a80414229658a5c}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!TOKEN\_GROUP\_LENGTH@{TOKEN\_GROUP\_LENGTH}}
+\index{TOKEN\_GROUP\_LENGTH@{TOKEN\_GROUP\_LENGTH}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{TOKEN\_GROUP\_LENGTH}{TOKEN\_GROUP\_LENGTH}}
+{\footnotesize\ttfamily final int org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+T\+O\+K\+E\+N\+\_\+\+G\+R\+O\+U\+P\+\_\+\+L\+E\+N\+G\+TH = 4\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a396129740605e7e6a2799b808b2de02a}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a396129740605e7e6a2799b808b2de02a}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!tokenAbbrEnd@{tokenAbbrEnd}}
+\index{tokenAbbrEnd@{tokenAbbrEnd}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{tokenAbbrEnd}{tokenAbbrEnd}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+token\+Abbr\+End\hspace{0.3cm}{\ttfamily [private]}}
+
+end of token abbreviation (always\+: token\+Start $<$ token\+Abbr\+End $<$= token\+End), only valid if get\+Token returns \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_1_1_token_ac27c91cee209985d08100bb1c41e13a2}{Token.\+W\+O\+RD}} \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_aded4286aebbe308c8d30fa1e4ce2bb5f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_aded4286aebbe308c8d30fa1e4ce2bb5f}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!tokenCase@{tokenCase}}
+\index{tokenCase@{tokenCase}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{tokenCase}{tokenCase}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+token\+Case\hspace{0.3cm}{\ttfamily [private]}}
+
+true if upper-\/case token, false if lower-\/case \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a6439f0af10d970208500eb836c5eddcb}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a6439f0af10d970208500eb836c5eddcb}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!tokenEnd@{tokenEnd}}
+\index{tokenEnd@{tokenEnd}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{tokenEnd}{tokenEnd}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+token\+End\hspace{0.3cm}{\ttfamily [private]}}
+
+index of the end in original, for example to point to \textquotesingle{}abc\textquotesingle{} in \textquotesingle{}abc xyz\textquotesingle{}, token\+End=5 \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a39e9ae1403831bacb8f1f7ef61d55260}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a39e9ae1403831bacb8f1f7ef61d55260}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!tokenStart@{tokenStart}}
+\index{tokenStart@{tokenStart}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{tokenStart}{tokenStart}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+token\+Start\hspace{0.3cm}{\ttfamily [private]}}
+
+index of the start in original, for example to point to \textquotesingle{}abc\textquotesingle{} in \textquotesingle{}abc xyz\textquotesingle{}, token\+Start=2 \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a7f161e52fa14ccd2c23bc73caeec4ad5}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_author_list_parser_a7f161e52fa14ccd2c23bc73caeec4ad5}} 
+\index{org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}!tokenTerm@{tokenTerm}}
+\index{tokenTerm@{tokenTerm}!org.jabref.logic.importer.AuthorListParser@{org.jabref.logic.importer.AuthorListParser}}
+\doxysubsubsection{\texorpdfstring{tokenTerm}{tokenTerm}}
+{\footnotesize\ttfamily char org.\+jabref.\+logic.\+importer.\+Author\+List\+Parser.\+token\+Term\hspace{0.3cm}{\ttfamily [private]}}
+
+either space of dash 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/\mbox{\hyperlink{_author_list_parser_8java}{Author\+List\+Parser.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,161 @@
+\hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n}{}\doxysection{org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+BN Class Reference}
+\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n}\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+Inheritance diagram for org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+BN\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a487810b3637e6b6b59add961c00bd9ad}{I\+S\+BN}} (String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a0c6ac479bd3358e08739db62fc824c15}{isbn\+String}})
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_ac494f59710fb70a5ead3dd60b33e3ca5}{is\+Valid\+Format}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a1dff289518e50b8a7efa8e692049b331}{is\+Valid\+Checksum}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_ae5317df2830523d6c9ae7e5d090e08ef}{is\+Isbn10}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a540c9097a3c4d228b5b6262faefad0ed}{is\+Isbn13}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_ae5fd490614060740a3b20ee4dc698d8a}{is\+Valid}} ()
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a16e3f2122d12c392e5aa92d0d2d4b2b4}{get\+Default\+Field}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a1cc937b6e7df770026b51122849b8a0f}{get\+Normalized}} ()
+\item 
+Optional$<$ \mbox{\hyperlink{org_8citationstyles_8styles_8txt_ae8a20b34f5393dfb045ee3bbbb607736}{U\+RI}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a25a830b8bd430e06ec5d928de1513fc3}{get\+External\+U\+RI}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n}{I\+S\+BN}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_af7df85e5a3b282a2ef280d0f7c53ae35}{parse}} (String input)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_aa824e61ddf3153d21b3740820b232105}{isbn10check}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a686c02141ecae0de8ae488968cc9a0e6}{isbn13check}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a0c6ac479bd3358e08739db62fc824c15}{isbn\+String}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a522a4fa59352fa7b4cfb3acaa9328834}{I\+S\+B\+N\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}$^\wedge$(\textbackslash{}\textbackslash{}d\{9\}\mbox{[}\textbackslash{}\textbackslash{}dxX\mbox{]}$\vert$\textbackslash{}\textbackslash{}d\{13\})\$\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a487810b3637e6b6b59add961c00bd9ad}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a487810b3637e6b6b59add961c00bd9ad}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!ISBN@{ISBN}}
+\index{ISBN@{ISBN}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{ISBN()}{ISBN()}}
+{\footnotesize\ttfamily org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+I\+S\+BN (\begin{DoxyParamCaption}\item[{String}]{isbn\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a16e3f2122d12c392e5aa92d0d2d4b2b4}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a16e3f2122d12c392e5aa92d0d2d4b2b4}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!getDefaultField@{getDefaultField}}
+\index{getDefaultField@{getDefaultField}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{getDefaultField()}{getDefaultField()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+get\+Default\+Field (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_identifier_a12a5ee211280b95df92f7b15e9ce86cb}{org.\+jabref.\+model.\+entry.\+identifier.\+Identifier}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a25a830b8bd430e06ec5d928de1513fc3}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a25a830b8bd430e06ec5d928de1513fc3}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!getExternalURI@{getExternalURI}}
+\index{getExternalURI@{getExternalURI}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{getExternalURI()}{getExternalURI()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{org_8citationstyles_8styles_8txt_ae8a20b34f5393dfb045ee3bbbb607736}{U\+RI}}$>$ org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+get\+External\+U\+RI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_identifier_a2af87ffbaedd063842b658b09817a100}{org.\+jabref.\+model.\+entry.\+identifier.\+Identifier}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a1cc937b6e7df770026b51122849b8a0f}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a1cc937b6e7df770026b51122849b8a0f}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!getNormalized@{getNormalized}}
+\index{getNormalized@{getNormalized}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{getNormalized()}{getNormalized()}}
+{\footnotesize\ttfamily String org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+get\+Normalized (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the identifier. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_identifier_ac313f6c57533e8887051eac45872fd57}{org.\+jabref.\+model.\+entry.\+identifier.\+Identifier}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_aa824e61ddf3153d21b3740820b232105}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_aa824e61ddf3153d21b3740820b232105}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!isbn10check@{isbn10check}}
+\index{isbn10check@{isbn10check}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{isbn10check()}{isbn10check()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+isbn10check (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a686c02141ecae0de8ae488968cc9a0e6}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a686c02141ecae0de8ae488968cc9a0e6}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!isbn13check@{isbn13check}}
+\index{isbn13check@{isbn13check}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{isbn13check()}{isbn13check()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+isbn13check (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_ae5317df2830523d6c9ae7e5d090e08ef}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_ae5317df2830523d6c9ae7e5d090e08ef}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!isIsbn10@{isIsbn10}}
+\index{isIsbn10@{isIsbn10}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{isIsbn10()}{isIsbn10()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+is\+Isbn10 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a540c9097a3c4d228b5b6262faefad0ed}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a540c9097a3c4d228b5b6262faefad0ed}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!isIsbn13@{isIsbn13}}
+\index{isIsbn13@{isIsbn13}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{isIsbn13()}{isIsbn13()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+is\+Isbn13 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_ae5fd490614060740a3b20ee4dc698d8a}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_ae5fd490614060740a3b20ee4dc698d8a}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!isValid@{isValid}}
+\index{isValid@{isValid}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{isValid()}{isValid()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+is\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a1dff289518e50b8a7efa8e692049b331}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a1dff289518e50b8a7efa8e692049b331}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!isValidChecksum@{isValidChecksum}}
+\index{isValidChecksum@{isValidChecksum}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{isValidChecksum()}{isValidChecksum()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+is\+Valid\+Checksum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_ac494f59710fb70a5ead3dd60b33e3ca5}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_ac494f59710fb70a5ead3dd60b33e3ca5}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!isValidFormat@{isValidFormat}}
+\index{isValidFormat@{isValidFormat}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{isValidFormat()}{isValidFormat()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+is\+Valid\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_af7df85e5a3b282a2ef280d0f7c53ae35}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_af7df85e5a3b282a2ef280d0f7c53ae35}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!parse@{parse}}
+\index{parse@{parse}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily static Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n}{I\+S\+BN}}$>$ org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+parse (\begin{DoxyParamCaption}\item[{String}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a522a4fa59352fa7b4cfb3acaa9328834}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a522a4fa59352fa7b4cfb3acaa9328834}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!ISBN\_PATTERN@{ISBN\_PATTERN}}
+\index{ISBN\_PATTERN@{ISBN\_PATTERN}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{ISBN\_PATTERN}{ISBN\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+I\+S\+B\+N\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}$^\wedge$(\textbackslash{}\textbackslash{}d\{9\}\mbox{[}\textbackslash{}\textbackslash{}dxX\mbox{]}$\vert$\textbackslash{}\textbackslash{}d\{13\})\$\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a0c6ac479bd3358e08739db62fc824c15}\label{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_i_s_b_n_a0c6ac479bd3358e08739db62fc824c15}} 
+\index{org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}!isbnString@{isbnString}}
+\index{isbnString@{isbnString}!org.jabref.model.entry.identifier.ISBN@{org.jabref.model.entry.identifier.ISBN}}
+\doxysubsubsection{\texorpdfstring{isbnString}{isbnString}}
+{\footnotesize\ttfamily final String org.\+jabref.\+model.\+entry.\+identifier.\+I\+S\+B\+N.\+isbn\+String\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/model/entry/identifier/\mbox{\hyperlink{_i_s_b_n_8java}{I\+S\+B\+N.\+java}}\end{DoxyCompactItemize}

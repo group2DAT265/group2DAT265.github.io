@@ -1,0 +1,28 @@
+var classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar =
+[
+    [ "SearchPopupSkin", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar_1_1_search_popup_skin.html", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar_1_1_search_popup_skin" ],
+    [ "GlobalSearchBar", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a3502a95757ce72142649054ba31adca2", null ],
+    [ "focus", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a3c09a9319454ec626d9ab409506c1f3e", null ],
+    [ "informUserAboutInvalidSearchQuery", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a418c1d26f25006a48949065a1e9d23ef", null ],
+    [ "initSearchModifierButtons", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a6d2f075ac128c411e0eb4626c28ec1e0", null ],
+    [ "performSearch", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#ad168df220763faf7c0de910772c3e88c", null ],
+    [ "setAutoCompleter", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#af24084a8655b47fab84a1b0e5b57ff4a", null ],
+    [ "setHintTooltip", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#acd0ed3246e0ec4169ad3470b7195e33f", null ],
+    [ "setSearchTerm", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a94cb93752ee646ef48853c22c93b3195", null ],
+    [ "updateHintVisibility", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a0aff14ab3770f043c91ed9506c1b3754", null ],
+    [ "updateResults", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a496c6a16166b18e6e5f3fde97a9c2231", null ],
+    [ "validRegex", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a14e8c7dc3f55e62d346b8d835c305fcb", null ],
+    [ "caseSensitiveButton", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a198036e4e5cbb100f78959a47b77a135", null ],
+    [ "CLASS_NO_RESULTS", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a63cd2b4ca5d036c12f773b1f299bb46a", null ],
+    [ "CLASS_RESULTS_FOUND", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a8b38ca4ef0f93e5f7dacd3cdc97b0831", null ],
+    [ "currentResults", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a101339b25dfb9191e3bce2bcd3a738ba", null ],
+    [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a2a4073d0dd1c9ffc5bfdb0a264648ddd", null ],
+    [ "preferencesService", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#ae7aa4da3dfd678b10478703a943af5f0", null ],
+    [ "regexValidator", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a7692d42f2167da1ff4c70b9e140accf9", null ],
+    [ "regularExpressionButton", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a60f9cf550f605e7c023a529c2c2eaac0", null ],
+    [ "SEARCH_DELAY", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#af1095cc32cf5b4257539b449fc6a6b84", null ],
+    [ "searchField", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#afec51a9cb0c27871d6a9f29bf1567336", null ],
+    [ "searchPreferences", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a3b5510cc37f4eb03377e59b40bad4d4c", null ],
+    [ "stateManager", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a0f735e619d6119fb77cd4f89e6454053", null ],
+    [ "tooltip", "classorg_1_1jabref_1_1gui_1_1search_1_1_global_search_bar.html#a10f6cf75c8a80b31bbd7f5d12d5d3f5c", null ]
+];

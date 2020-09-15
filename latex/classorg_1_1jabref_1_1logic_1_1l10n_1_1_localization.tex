@@ -1,0 +1,177 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization}{}\doxysection{org.\+jabref.\+logic.\+l10n.\+Localization Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization}\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_1_1_localization_bundle}{Localization\+Bundle}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_aed748bba1971c69c99e98411843efd84}{lang}} (String key, String... params)
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a2362ec15e69119f8405a6e3fbf4cb581}{set\+Language}} (\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language}{Language}} language)
+\item 
+static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_1_1_localization_bundle}{Localization\+Bundle}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_acd8bcf64072cb0aaaf55a905c3e5a9ee}{get\+Messages}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a2f4d11aea4839edc03ab31b59b3da717}{Localization}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a162e96f8e41746fb1d613e83e181f504}{create\+Resource\+Bundles}} (Locale \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_ad80f5d9cfef4fe1e2f6bb43d035824e9}{locale}})
+\item 
+static Hash\+Map$<$ String, String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_aa965fced9354d24b77ae79fb1cc47a37}{create\+Lookup\+Map}} (Resource\+Bundle base\+Bundle)
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a72beadc7969286aa9f259c7c7713ff57}{lookup}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_1_1_localization_bundle}{Localization\+Bundle}} bundle, String key, String... params)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_afb2c794a44e98049ea0632f6912512a7}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Localization.\+class)
+\item 
+static Locale \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_ad80f5d9cfef4fe1e2f6bb43d035824e9}{locale}}
+\item 
+static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_1_1_localization_bundle}{Localization\+Bundle}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a33d01e62bef623e37ec227bb0cc98fc1}{localized\+Messages}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides handling for messages and menu entries in the preferred language of the user. 
+
+Notes\+: All messages and menu-\/entries in Jab\+Ref are stored in escaped form like \char`\"{}\+This\+\_\+is\+\_\+a\+\_\+message\char`\"{}. This message serves as key inside the \mbox{\hyperlink{namespaceorg_1_1jabref_1_1logic_1_1l10n}{l10n}} properties files that hold the translation for many languages. When a message is accessed, it needs to be unescaped and possible parameters that can appear in a message need to be filled with values. 
+
+This implementation loads the appropriate language by importing all keys/values from the correct bundle and stores them in unescaped form inside a \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_1_1_localization_bundle}{Localization\+Bundle}} which provides fast access because it caches the key-\/value pairs. 
+
+The access to this is given by the functions \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_aed748bba1971c69c99e98411843efd84}{Localization\#lang(\+String, String...)}} and that developers should use whenever they use strings for the e.\+g. G\+UI that need to be translatable. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a2f4d11aea4839edc03ab31b59b3da717}\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a2f4d11aea4839edc03ab31b59b3da717}} 
+\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}!Localization@{Localization}}
+\index{Localization@{Localization}!org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsubsection{\texorpdfstring{Localization()}{Localization()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+l10n.\+Localization.\+Localization (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_aa965fced9354d24b77ae79fb1cc47a37}\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_aa965fced9354d24b77ae79fb1cc47a37}} 
+\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}!createLookupMap@{createLookupMap}}
+\index{createLookupMap@{createLookupMap}!org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsubsection{\texorpdfstring{createLookupMap()}{createLookupMap()}}
+{\footnotesize\ttfamily static Hash\+Map$<$String, String$>$ org.\+jabref.\+logic.\+l10n.\+Localization.\+create\+Lookup\+Map (\begin{DoxyParamCaption}\item[{Resource\+Bundle}]{base\+Bundle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+Helper function to create a Hash\+Map from the key/value pairs of a bundle.
+
+
+\begin{DoxyParams}{Parameters}
+{\em base\+Bundle} & Jab\+Ref language bundle with keys and values for translations. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lookup map for the base\+Bundle. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a162e96f8e41746fb1d613e83e181f504}\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a162e96f8e41746fb1d613e83e181f504}} 
+\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}!createResourceBundles@{createResourceBundles}}
+\index{createResourceBundles@{createResourceBundles}!org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsubsection{\texorpdfstring{createResourceBundles()}{createResourceBundles()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+l10n.\+Localization.\+create\+Resource\+Bundles (\begin{DoxyParamCaption}\item[{Locale}]{locale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+Creates and caches the language bundles used in Jab\+Ref for a particular language. This function first loads correct version of the \char`\"{}escaped\char`\"{} bundles that are given in \mbox{\hyperlink{namespaceorg_1_1jabref_1_1logic_1_1l10n}{l10n}}. After that, it stores the unescaped version in a cached \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_1_1_localization_bundle}{Localization\+Bundle}} for fast access.
+
+
+\begin{DoxyParams}{Parameters}
+{\em locale} & \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization}{Localization}} to use. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_acd8bcf64072cb0aaaf55a905c3e5a9ee}\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_acd8bcf64072cb0aaaf55a905c3e5a9ee}} 
+\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}!getMessages@{getMessages}}
+\index{getMessages@{getMessages}!org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsubsection{\texorpdfstring{getMessages()}{getMessages()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_1_1_localization_bundle}{Localization\+Bundle}} org.\+jabref.\+logic.\+l10n.\+Localization.\+get\+Messages (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns the messages bundle, e.\+g. to load F\+X\+ML files correctly translated.
+
+\begin{DoxyReturn}{Returns}
+The internally cashed bundle. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_aed748bba1971c69c99e98411843efd84}\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_aed748bba1971c69c99e98411843efd84}} 
+\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}!lang@{lang}}
+\index{lang@{lang}!org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsubsection{\texorpdfstring{lang()}{lang()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+l10n.\+Localization.\+lang (\begin{DoxyParamCaption}\item[{String}]{key,  }\item[{String...}]{params }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Public access to all messages that are not menu-\/entries
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & The key of the message in unescaped form like \char`\"{}\+All fields\char`\"{} \\
+\hline
+{\em params} & Replacement strings for parameters \%0, \%1, etc. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The message with replaced parameters 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a72beadc7969286aa9f259c7c7713ff57}\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a72beadc7969286aa9f259c7c7713ff57}} 
+\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}!lookup@{lookup}}
+\index{lookup@{lookup}!org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsubsection{\texorpdfstring{lookup()}{lookup()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+l10n.\+Localization.\+lookup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_1_1_localization_bundle}{Localization\+Bundle}}}]{bundle,  }\item[{String}]{key,  }\item[{String...}]{params }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+This looks up a key in the bundle and replaces parameters \%0, ..., \%9 with the respective params given. Note that the keys are the \char`\"{}unescaped\char`\"{} strings from the bundle property files.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bundle} & The \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_1_1_localization_bundle}{Localization\+Bundle}} which is usually \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a33d01e62bef623e37ec227bb0cc98fc1}{Localization\#localized\+Messages}}. \\
+\hline
+{\em key} & The lookup key. \\
+\hline
+{\em params} & The parameters that should be inserted into the message \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The final message with replaced parameters. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a2362ec15e69119f8405a6e3fbf4cb581}\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a2362ec15e69119f8405a6e3fbf4cb581}} 
+\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}!setLanguage@{setLanguage}}
+\index{setLanguage@{setLanguage}!org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsubsection{\texorpdfstring{setLanguage()}{setLanguage()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+l10n.\+Localization.\+set\+Language (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language}{Language}}}]{language }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Sets the language and loads the appropriate translations. Note, that this function should be called before any other function of this class.
+
+
+\begin{DoxyParams}{Parameters}
+{\em language} & \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language}{Language}} identifier like \char`\"{}en\char`\"{}, \char`\"{}de\char`\"{}, etc. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_ad80f5d9cfef4fe1e2f6bb43d035824e9}\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_ad80f5d9cfef4fe1e2f6bb43d035824e9}} 
+\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}!locale@{locale}}
+\index{locale@{locale}!org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsubsection{\texorpdfstring{locale}{locale}}
+{\footnotesize\ttfamily Locale org.\+jabref.\+logic.\+l10n.\+Localization.\+locale\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a33d01e62bef623e37ec227bb0cc98fc1}\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_a33d01e62bef623e37ec227bb0cc98fc1}} 
+\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}!localizedMessages@{localizedMessages}}
+\index{localizedMessages@{localizedMessages}!org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsubsection{\texorpdfstring{localizedMessages}{localizedMessages}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_1_1_localization_bundle}{Localization\+Bundle}} org.\+jabref.\+logic.\+l10n.\+Localization.\+localized\+Messages\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_afb2c794a44e98049ea0632f6912512a7}\label{classorg_1_1jabref_1_1logic_1_1l10n_1_1_localization_afb2c794a44e98049ea0632f6912512a7}} 
+\index{org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.l10n.Localization@{org.jabref.logic.l10n.Localization}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+l10n.\+Localization.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Localization.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/l10n/\mbox{\hyperlink{_localization_8java}{Localization.\+java}}\end{DoxyCompactItemize}

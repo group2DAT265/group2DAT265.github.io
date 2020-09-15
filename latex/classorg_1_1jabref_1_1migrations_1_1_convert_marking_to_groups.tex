@@ -1,0 +1,67 @@
+\hypertarget{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups}{}\doxysection{org.\+jabref.\+migrations.\+Convert\+Marking\+To\+Groups Class Reference}
+\label{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups}\index{org.jabref.migrations.ConvertMarkingToGroups@{org.jabref.migrations.ConvertMarkingToGroups}}
+Inheritance diagram for org.\+jabref.\+migrations.\+Convert\+Marking\+To\+Groups\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_adca0ec35c29102183a20cf46a072c33a}{perform\+Migration}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} parser\+Result)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Multimap$<$ String, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_ab451f64bed88524adecbef079e1ab8f7}{get\+Marking\+With\+Entries}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_a240c0ca03d03ce38c04b5aeee3bb1dd0}{clear\+Markings}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_a44bd1cd7bdd1b133127d8806a6c8c340}{M\+A\+R\+K\+I\+N\+G\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}\textbackslash{}\textbackslash{}\mbox{[}(.$\ast$)\+:(\textbackslash{}\textbackslash{}d+)\textbackslash{}\textbackslash{}\mbox{]}\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Converts legacy explicit groups, where the group contained a list of assigned entries, to the new format, where the entry stores a list of groups it belongs to. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_a240c0ca03d03ce38c04b5aeee3bb1dd0}\label{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_a240c0ca03d03ce38c04b5aeee3bb1dd0}} 
+\index{org.jabref.migrations.ConvertMarkingToGroups@{org.jabref.migrations.ConvertMarkingToGroups}!clearMarkings@{clearMarkings}}
+\index{clearMarkings@{clearMarkings}!org.jabref.migrations.ConvertMarkingToGroups@{org.jabref.migrations.ConvertMarkingToGroups}}
+\doxysubsubsection{\texorpdfstring{clearMarkings()}{clearMarkings()}}
+{\footnotesize\ttfamily void org.\+jabref.\+migrations.\+Convert\+Marking\+To\+Groups.\+clear\+Markings (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_ab451f64bed88524adecbef079e1ab8f7}\label{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_ab451f64bed88524adecbef079e1ab8f7}} 
+\index{org.jabref.migrations.ConvertMarkingToGroups@{org.jabref.migrations.ConvertMarkingToGroups}!getMarkingWithEntries@{getMarkingWithEntries}}
+\index{getMarkingWithEntries@{getMarkingWithEntries}!org.jabref.migrations.ConvertMarkingToGroups@{org.jabref.migrations.ConvertMarkingToGroups}}
+\doxysubsubsection{\texorpdfstring{getMarkingWithEntries()}{getMarkingWithEntries()}}
+{\footnotesize\ttfamily Multimap$<$String, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+migrations.\+Convert\+Marking\+To\+Groups.\+get\+Marking\+With\+Entries (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Looks for markings (such as \+\_\+\+\_\+markedentry = \{\mbox{[}Nicolas\+:6\mbox{]}\}) in the given list of entries. \mbox{\Hypertarget{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_adca0ec35c29102183a20cf46a072c33a}\label{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_adca0ec35c29102183a20cf46a072c33a}} 
+\index{org.jabref.migrations.ConvertMarkingToGroups@{org.jabref.migrations.ConvertMarkingToGroups}!performMigration@{performMigration}}
+\index{performMigration@{performMigration}!org.jabref.migrations.ConvertMarkingToGroups@{org.jabref.migrations.ConvertMarkingToGroups}}
+\doxysubsubsection{\texorpdfstring{performMigration()}{performMigration()}}
+{\footnotesize\ttfamily void org.\+jabref.\+migrations.\+Convert\+Marking\+To\+Groups.\+perform\+Migration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}}}]{parser\+Result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1migrations_1_1_post_open_migration_aec9924d224064b72e9a28e2e817266c4}{org.\+jabref.\+migrations.\+Post\+Open\+Migration}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_a44bd1cd7bdd1b133127d8806a6c8c340}\label{classorg_1_1jabref_1_1migrations_1_1_convert_marking_to_groups_a44bd1cd7bdd1b133127d8806a6c8c340}} 
+\index{org.jabref.migrations.ConvertMarkingToGroups@{org.jabref.migrations.ConvertMarkingToGroups}!MARKING\_PATTERN@{MARKING\_PATTERN}}
+\index{MARKING\_PATTERN@{MARKING\_PATTERN}!org.jabref.migrations.ConvertMarkingToGroups@{org.jabref.migrations.ConvertMarkingToGroups}}
+\doxysubsubsection{\texorpdfstring{MARKING\_PATTERN}{MARKING\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+migrations.\+Convert\+Marking\+To\+Groups.\+M\+A\+R\+K\+I\+N\+G\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}\textbackslash{}\textbackslash{}\mbox{[}(.$\ast$)\+:(\textbackslash{}\textbackslash{}d+)\textbackslash{}\textbackslash{}\mbox{]}\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/migrations/\mbox{\hyperlink{_convert_marking_to_groups_8java}{Convert\+Marking\+To\+Groups.\+java}}\end{DoxyCompactItemize}

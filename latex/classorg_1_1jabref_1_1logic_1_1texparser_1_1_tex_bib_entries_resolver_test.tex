@@ -1,0 +1,169 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test}{}\doxysection{org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test}\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a546da169ce39c41a153ce2b7243b1ac7}{test\+Single\+File}} ()  throws U\+R\+I\+Syntax\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a3688ab8c7aa44ba016548b852f83379d}{test\+Two\+Files}} ()  throws U\+R\+I\+Syntax\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_aac9862c7a4024ff7e83fd731a1f5a051}{test\+Duplicate\+Files}} ()  throws U\+R\+I\+Syntax\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a4a8c585487bb2cefd993931c4b0cc46d}{test\+Unknown\+Key}} ()  throws U\+R\+I\+Syntax\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a86cd78b4408266fefeb83bd45e35314f}{test\+Nested\+Files}} ()  throws U\+R\+I\+Syntax\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a986cfe71e95f4427d8abacc3599daba2}{test\+Cross\+Ref}} ()  throws U\+R\+I\+Syntax\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a2807cd42a89d1566b81aa7b91810b724}{set\+Up}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a02a94517deecd096a2834b625706857b}{file\+Monitor}} = new \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1util_1_1_dummy_file_update_monitor}{Dummy\+File\+Update\+Monitor}}()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_abce41122c9a5fb278eeeeefca339d2d7}{import\+Format\+Preferences}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_ae00ac75aac2971e8c990863367e9d622}{database}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a6b0e21cacdf953c3bccff79cb5d5eed2}{database2}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a6914312690c5084177373e1f60b0e46c}{bib\+Entry}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_ac4ce6d501e03c5a1f20a14831ff87eb8}{D\+A\+R\+W\+IN}} = \char`\"{}Darwin1888\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a26bbcf1e11bdfa86d23311b2ac1c4bbb}{E\+I\+N\+S\+T\+E\+IN}} = \char`\"{}Einstein1920\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a91d48c64a5d9c3c141f9bd7633b506d7}{N\+E\+W\+T\+ON}} = \char`\"{}Newton1999\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a18493ea65906d2ded56c6c1a63f84285}{E\+I\+N\+S\+T\+E\+I\+N\+\_\+A}} = \char`\"{}Einstein1920a\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a3fe8dd9820b33bf2afc653bb57e58786}{E\+I\+N\+S\+T\+E\+I\+N\+\_\+B}} = \char`\"{}Einstein1920b\char`\"{}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a2ab75c078722ca9914e1a26eaa300304}{E\+I\+N\+S\+T\+E\+I\+N\+\_\+C}} = \char`\"{}Einstein1920c\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a2807cd42a89d1566b81aa7b91810b724}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a2807cd42a89d1566b81aa7b91810b724}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!setUp@{setUp}}
+\index{setUp@{setUp}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{setUp()}{setUp()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+set\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a986cfe71e95f4427d8abacc3599daba2}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a986cfe71e95f4427d8abacc3599daba2}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!testCrossRef@{testCrossRef}}
+\index{testCrossRef@{testCrossRef}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{testCrossRef()}{testCrossRef()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+test\+Cross\+Ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_aac9862c7a4024ff7e83fd731a1f5a051}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_aac9862c7a4024ff7e83fd731a1f5a051}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!testDuplicateFiles@{testDuplicateFiles}}
+\index{testDuplicateFiles@{testDuplicateFiles}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{testDuplicateFiles()}{testDuplicateFiles()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+test\+Duplicate\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a86cd78b4408266fefeb83bd45e35314f}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a86cd78b4408266fefeb83bd45e35314f}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!testNestedFiles@{testNestedFiles}}
+\index{testNestedFiles@{testNestedFiles}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{testNestedFiles()}{testNestedFiles()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+test\+Nested\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a546da169ce39c41a153ce2b7243b1ac7}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a546da169ce39c41a153ce2b7243b1ac7}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!testSingleFile@{testSingleFile}}
+\index{testSingleFile@{testSingleFile}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{testSingleFile()}{testSingleFile()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+test\+Single\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a3688ab8c7aa44ba016548b852f83379d}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a3688ab8c7aa44ba016548b852f83379d}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!testTwoFiles@{testTwoFiles}}
+\index{testTwoFiles@{testTwoFiles}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{testTwoFiles()}{testTwoFiles()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+test\+Two\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a4a8c585487bb2cefd993931c4b0cc46d}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a4a8c585487bb2cefd993931c4b0cc46d}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!testUnknownKey@{testUnknownKey}}
+\index{testUnknownKey@{testUnknownKey}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{testUnknownKey()}{testUnknownKey()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+test\+Unknown\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a6914312690c5084177373e1f60b0e46c}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a6914312690c5084177373e1f60b0e46c}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!bibEntry@{bibEntry}}
+\index{bibEntry@{bibEntry}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{bibEntry}{bibEntry}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+bib\+Entry\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_ac4ce6d501e03c5a1f20a14831ff87eb8}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_ac4ce6d501e03c5a1f20a14831ff87eb8}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!DARWIN@{DARWIN}}
+\index{DARWIN@{DARWIN}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{DARWIN}{DARWIN}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+D\+A\+R\+W\+IN = \char`\"{}Darwin1888\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_ae00ac75aac2971e8c990863367e9d622}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_ae00ac75aac2971e8c990863367e9d622}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!database@{database}}
+\index{database@{database}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{database}{database}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+database\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a6b0e21cacdf953c3bccff79cb5d5eed2}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a6b0e21cacdf953c3bccff79cb5d5eed2}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!database2@{database2}}
+\index{database2@{database2}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{database2}{database2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+database2\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a26bbcf1e11bdfa86d23311b2ac1c4bbb}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a26bbcf1e11bdfa86d23311b2ac1c4bbb}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!EINSTEIN@{EINSTEIN}}
+\index{EINSTEIN@{EINSTEIN}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{EINSTEIN}{EINSTEIN}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+E\+I\+N\+S\+T\+E\+IN = \char`\"{}Einstein1920\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a18493ea65906d2ded56c6c1a63f84285}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a18493ea65906d2ded56c6c1a63f84285}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!EINSTEIN\_A@{EINSTEIN\_A}}
+\index{EINSTEIN\_A@{EINSTEIN\_A}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{EINSTEIN\_A}{EINSTEIN\_A}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+E\+I\+N\+S\+T\+E\+I\+N\+\_\+A = \char`\"{}Einstein1920a\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a3fe8dd9820b33bf2afc653bb57e58786}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a3fe8dd9820b33bf2afc653bb57e58786}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!EINSTEIN\_B@{EINSTEIN\_B}}
+\index{EINSTEIN\_B@{EINSTEIN\_B}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{EINSTEIN\_B}{EINSTEIN\_B}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+E\+I\+N\+S\+T\+E\+I\+N\+\_\+B = \char`\"{}Einstein1920b\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a2ab75c078722ca9914e1a26eaa300304}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a2ab75c078722ca9914e1a26eaa300304}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!EINSTEIN\_C@{EINSTEIN\_C}}
+\index{EINSTEIN\_C@{EINSTEIN\_C}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{EINSTEIN\_C}{EINSTEIN\_C}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+E\+I\+N\+S\+T\+E\+I\+N\+\_\+C = \char`\"{}Einstein1920c\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a02a94517deecd096a2834b625706857b}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a02a94517deecd096a2834b625706857b}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!fileMonitor@{fileMonitor}}
+\index{fileMonitor@{fileMonitor}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{fileMonitor}{fileMonitor}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+file\+Monitor = new \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1util_1_1_dummy_file_update_monitor}{Dummy\+File\+Update\+Monitor}}()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_abce41122c9a5fb278eeeeefca339d2d7}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_abce41122c9a5fb278eeeeefca339d2d7}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!importFormatPreferences@{importFormatPreferences}}
+\index{importFormatPreferences@{importFormatPreferences}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{importFormatPreferences}{importFormatPreferences}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+import\+Format\+Preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a91d48c64a5d9c3c141f9bd7633b506d7}\label{classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver_test_a91d48c64a5d9c3c141f9bd7633b506d7}} 
+\index{org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}!NEWTON@{NEWTON}}
+\index{NEWTON@{NEWTON}!org.jabref.logic.texparser.TexBibEntriesResolverTest@{org.jabref.logic.texparser.TexBibEntriesResolverTest}}
+\doxysubsubsection{\texorpdfstring{NEWTON}{NEWTON}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+texparser.\+Tex\+Bib\+Entries\+Resolver\+Test.\+N\+E\+W\+T\+ON = \char`\"{}Newton1999\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/test/java/org/jabref/logic/texparser/\mbox{\hyperlink{_tex_bib_entries_resolver_test_8java}{Tex\+Bib\+Entries\+Resolver\+Test.\+java}}\end{DoxyCompactItemize}

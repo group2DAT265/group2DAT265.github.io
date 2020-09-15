@@ -1,0 +1,123 @@
+\hypertarget{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop}{}\doxysection{org.\+jabref.\+gui.\+desktop.\+os.\+Native\+Desktop Interface Reference}
+\label{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop}\index{org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}}
+Inheritance diagram for org.\+jabref.\+gui.\+desktop.\+os.\+Native\+Desktop\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.120000cm]{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a31c30ac68d2f5226b5a6e23c68f21184}{open\+File}} (String file\+Path, String file\+Type)  throws I\+O\+Exception
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_aa78cce40013cff25006a86397640a1bd}{open\+File\+With\+Application}} (String file\+Path, String application)  throws I\+O\+Exception
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_aece421ed00d1e291ada69fff2b3d0b81}{open\+Folder\+And\+Select\+File}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}})  throws I\+O\+Exception
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a532837c2ae67b7404d9f34f59517b488}{open\+Console}} (String absolute\+Path)  throws I\+O\+Exception
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a1630b64f56ffdd8734aab743cb964f00}{detect\+Program\+Path}} (String program\+Name, String directory\+Name)
+\item 
+Path \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a83095c7a2d6aa07747de590b8205286a}{get\+Application\+Directory}} ()
+\item 
+default Path \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_ac18671dd1fcb0c56f1de01f53911d625}{get\+User\+Directory}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a1630b64f56ffdd8734aab743cb964f00}\label{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a1630b64f56ffdd8734aab743cb964f00}} 
+\index{org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}!detectProgramPath@{detectProgramPath}}
+\index{detectProgramPath@{detectProgramPath}!org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}}
+\doxysubsubsection{\texorpdfstring{detectProgramPath()}{detectProgramPath()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+desktop.\+os.\+Native\+Desktop.\+detect\+Program\+Path (\begin{DoxyParamCaption}\item[{String}]{program\+Name,  }\item[{String}]{directory\+Name }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_windows_a28acd42df06adc296d5ccc2e5e84fe6a}{org.\+jabref.\+gui.\+desktop.\+os.\+Windows}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_o_s_x_a6d0600e7819fa988751ab62b749a52c8}{org.\+jabref.\+gui.\+desktop.\+os.\+O\+SX}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_linux_a14c02b9a74b3e703c98f24a6aee10d54}{org.\+jabref.\+gui.\+desktop.\+os.\+Linux}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_default_desktop_ae8aee8263708ba8ee9b3c3a6a8c0d1c3}{org.\+jabref.\+gui.\+desktop.\+os.\+Default\+Desktop}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a83095c7a2d6aa07747de590b8205286a}\label{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a83095c7a2d6aa07747de590b8205286a}} 
+\index{org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}!getApplicationDirectory@{getApplicationDirectory}}
+\index{getApplicationDirectory@{getApplicationDirectory}!org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}}
+\doxysubsubsection{\texorpdfstring{getApplicationDirectory()}{getApplicationDirectory()}}
+{\footnotesize\ttfamily Path org.\+jabref.\+gui.\+desktop.\+os.\+Native\+Desktop.\+get\+Application\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the path to the system\textquotesingle{}s applications folder.
+
+\begin{DoxyReturn}{Returns}
+the path to the applications folder. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_windows_a578019b206ba7b02e62079852f950ec7}{org.\+jabref.\+gui.\+desktop.\+os.\+Windows}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_o_s_x_aa7bcafa832fb4ddfaeb1200846d5d9f4}{org.\+jabref.\+gui.\+desktop.\+os.\+O\+SX}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_linux_a2d52843ace39639a3f431f585e514f9c}{org.\+jabref.\+gui.\+desktop.\+os.\+Linux}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_default_desktop_aadf7a6d655dbd2e5bc250fdddcae2045}{org.\+jabref.\+gui.\+desktop.\+os.\+Default\+Desktop}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_ac18671dd1fcb0c56f1de01f53911d625}\label{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_ac18671dd1fcb0c56f1de01f53911d625}} 
+\index{org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}!getUserDirectory@{getUserDirectory}}
+\index{getUserDirectory@{getUserDirectory}!org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}}
+\doxysubsubsection{\texorpdfstring{getUserDirectory()}{getUserDirectory()}}
+{\footnotesize\ttfamily default Path org.\+jabref.\+gui.\+desktop.\+os.\+Native\+Desktop.\+get\+User\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the path to the system\textquotesingle{}s user directory.
+
+\begin{DoxyReturn}{Returns}
+the path to the user directory. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a532837c2ae67b7404d9f34f59517b488}\label{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a532837c2ae67b7404d9f34f59517b488}} 
+\index{org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}!openConsole@{openConsole}}
+\index{openConsole@{openConsole}!org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}}
+\doxysubsubsection{\texorpdfstring{openConsole()}{openConsole()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+desktop.\+os.\+Native\+Desktop.\+open\+Console (\begin{DoxyParamCaption}\item[{String}]{absolute\+Path }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_windows_af2c908882886e04677d8b12282ed5bbd}{org.\+jabref.\+gui.\+desktop.\+os.\+Windows}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_o_s_x_a84450631e1d36db5f73748a78d593ca0}{org.\+jabref.\+gui.\+desktop.\+os.\+O\+SX}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_linux_a58260b2a1a404a6ed6c82e4672d1ac8c}{org.\+jabref.\+gui.\+desktop.\+os.\+Linux}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_default_desktop_ad45413c32e32959f542c76420486cef4}{org.\+jabref.\+gui.\+desktop.\+os.\+Default\+Desktop}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a31c30ac68d2f5226b5a6e23c68f21184}\label{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_a31c30ac68d2f5226b5a6e23c68f21184}} 
+\index{org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}!openFile@{openFile}}
+\index{openFile@{openFile}!org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}}
+\doxysubsubsection{\texorpdfstring{openFile()}{openFile()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+desktop.\+os.\+Native\+Desktop.\+open\+File (\begin{DoxyParamCaption}\item[{String}]{file\+Path,  }\item[{String}]{file\+Type }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_windows_adf23ca1ac5b853db312599945ee3de8f}{org.\+jabref.\+gui.\+desktop.\+os.\+Windows}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_o_s_x_a299c76c934d55ad35b3d269324884bf3}{org.\+jabref.\+gui.\+desktop.\+os.\+O\+SX}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_linux_a7b4e80f3d856c533aad225160f2aeb88}{org.\+jabref.\+gui.\+desktop.\+os.\+Linux}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_default_desktop_ae7f90b5e427d658802338edc364d6610}{org.\+jabref.\+gui.\+desktop.\+os.\+Default\+Desktop}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_aa78cce40013cff25006a86397640a1bd}\label{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_aa78cce40013cff25006a86397640a1bd}} 
+\index{org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}!openFileWithApplication@{openFileWithApplication}}
+\index{openFileWithApplication@{openFileWithApplication}!org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}}
+\doxysubsubsection{\texorpdfstring{openFileWithApplication()}{openFileWithApplication()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+desktop.\+os.\+Native\+Desktop.\+open\+File\+With\+Application (\begin{DoxyParamCaption}\item[{String}]{file\+Path,  }\item[{String}]{application }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+Opens a file on an Operating System, using the given application.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & The filename. \\
+\hline
+{\em application} & Link to the app that opens the file. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_windows_a425281f623836e13d495240a333c1b42}{org.\+jabref.\+gui.\+desktop.\+os.\+Windows}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_o_s_x_a2050da4d36e49b6fc584f663a8f5d8cf}{org.\+jabref.\+gui.\+desktop.\+os.\+O\+SX}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_linux_a71feb85c0b5dfecf51a872b27acf6f4d}{org.\+jabref.\+gui.\+desktop.\+os.\+Linux}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_default_desktop_a1d0c019cdf4bf892a7a38db830c37c6d}{org.\+jabref.\+gui.\+desktop.\+os.\+Default\+Desktop}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_aece421ed00d1e291ada69fff2b3d0b81}\label{interfaceorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_native_desktop_aece421ed00d1e291ada69fff2b3d0b81}} 
+\index{org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}!openFolderAndSelectFile@{openFolderAndSelectFile}}
+\index{openFolderAndSelectFile@{openFolderAndSelectFile}!org.jabref.gui.desktop.os.NativeDesktop@{org.jabref.gui.desktop.os.NativeDesktop}}
+\doxysubsubsection{\texorpdfstring{openFolderAndSelectFile()}{openFolderAndSelectFile()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+desktop.\+os.\+Native\+Desktop.\+open\+Folder\+And\+Select\+File (\begin{DoxyParamCaption}\item[{Path}]{file }\end{DoxyParamCaption}) throws I\+O\+Exception}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_windows_a97a53170a5330e7fc4893198eae09ff3}{org.\+jabref.\+gui.\+desktop.\+os.\+Windows}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_linux_af6dc803c5df3942873b6783fa2cc721e}{org.\+jabref.\+gui.\+desktop.\+os.\+Linux}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_default_desktop_a27258d2769ad46d9c00094bdf5aa6c66}{org.\+jabref.\+gui.\+desktop.\+os.\+Default\+Desktop}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1desktop_1_1os_1_1_o_s_x_ad19f64ea2f8e37d14cd3fd842f86275a}{org.\+jabref.\+gui.\+desktop.\+os.\+O\+SX}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/desktop/os/\mbox{\hyperlink{_native_desktop_8java}{Native\+Desktop.\+java}}\end{DoxyCompactItemize}

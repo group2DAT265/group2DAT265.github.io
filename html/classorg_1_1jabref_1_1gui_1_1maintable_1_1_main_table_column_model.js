@@ -1,0 +1,25 @@
+var classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model =
+[
+    [ "Type", "enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html", "enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type" ],
+    [ "MainTableColumnModel", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a12ffc176901661caf0affbead78b0e60", null ],
+    [ "MainTableColumnModel", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a2383dc7052a4244910874fbfe73ce342", null ],
+    [ "MainTableColumnModel", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a58c8adc80deacc864c470b6e510e5b79", null ],
+    [ "equals", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a470640b4bbba6dc253f17045bbc74463", null ],
+    [ "getDisplayName", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a15d1695f92a4d1c34e3416877ea91d45", null ],
+    [ "getName", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#aa04d66e3944d6d919ec7b130719af980", null ],
+    [ "getQualifier", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a50912f7d1a72bd1ab6b879c0ab008536", null ],
+    [ "getSortType", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#ad9628c7b673b02dc49c4b47a814baa06", null ],
+    [ "getType", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a69da1ec06ab5096f9a47175410f16aaf", null ],
+    [ "getWidth", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#ad3b97e7ab526db0285128255d4f20ba2", null ],
+    [ "hashCode", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#aac24171dead0b68bf4a109364aa78c58", null ],
+    [ "nameProperty", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a534392be0732045050acbce2f62cdf2f", null ],
+    [ "parse", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a3cd3ee4c851dd8a4c273b5d6d434c457", null ],
+    [ "sortTypeProperty", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a4ba028da0d1ec4067fd932bda2627dc1", null ],
+    [ "widthProperty", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#ad5bf6a0b86b91055368cd1bf2812444b", null ],
+    [ "COLUMNS_QUALIFIER_DELIMITER", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a588bea10ddc91146dacbf8447c4cfcf1", null ],
+    [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#a8b2dbb530846fa186475e95f3d2ce22e", null ],
+    [ "qualifierProperty", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#ad447589e2672361b9c69a8744806234a", null ],
+    [ "sortTypeProperty", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#aa50d6cb764df9a94e501fda43594a261", null ],
+    [ "typeProperty", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#af0cb0e6ba40f89d4550baa9ff184638c", null ],
+    [ "widthProperty", "classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#abf33ffc3c42c2cd3da094e1def4a255d", null ]
+];

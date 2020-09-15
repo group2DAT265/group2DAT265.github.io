@@ -1,0 +1,115 @@
+\hypertarget{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer}{}\doxysection{org.\+jabref.\+logic.\+shared.\+Database\+Synchronizer Interface Reference}
+\label{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer}\index{org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}}
+Inheritance diagram for org.\+jabref.\+logic.\+shared.\+Database\+Synchronizer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_ada6c8b0fda5f89036aca41a831bcee7d}{get\+D\+B\+Name}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a3bd717d4fb4cd54ec16b90d4feaae674}{pull\+Changes}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_ab0dc713d536601a4ef8d9dd08e2ee91b}{close\+Shared\+Database}} ()
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a1245ab83644ebee25fb864b12161d16b}{register\+Listener}} (Object listener)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a2efb14163f3ac4df2056c8d4d2881445}{open\+Shared\+Database}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection}{Database\+Connection}} connection)  throws Database\+Not\+Supported\+Exception
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a46867aa9bbea049b62dc09d57505b60a}{synchronize\+Shared\+Entry}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} bib\+Entry)
+\item 
+void \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_aa1aea4a140dbaa9a4b2119200fb5288d}{synchronize\+Local\+Database}} ()
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties}{Database\+Connection\+Properties}} \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a59cbf61842930a47e342f691d39f636b}{get\+Connection\+Properties}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_ab0dc713d536601a4ef8d9dd08e2ee91b}\label{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_ab0dc713d536601a4ef8d9dd08e2ee91b}} 
+\index{org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}!closeSharedDatabase@{closeSharedDatabase}}
+\index{closeSharedDatabase@{closeSharedDatabase}!org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}}
+\doxysubsubsection{\texorpdfstring{closeSharedDatabase()}{closeSharedDatabase()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Database\+Synchronizer.\+close\+Shared\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_synchronizer_aea2e4b179fc5521b18030a8325be8f9d}{org.\+jabref.\+logic.\+shared.\+D\+B\+M\+S\+Synchronizer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a59cbf61842930a47e342f691d39f636b}\label{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a59cbf61842930a47e342f691d39f636b}} 
+\index{org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}!getConnectionProperties@{getConnectionProperties}}
+\index{getConnectionProperties@{getConnectionProperties}!org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}}
+\doxysubsubsection{\texorpdfstring{getConnectionProperties()}{getConnectionProperties()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties}{Database\+Connection\+Properties}} org.\+jabref.\+logic.\+shared.\+Database\+Synchronizer.\+get\+Connection\+Properties (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_synchronizer_a2a67d88f183d29abf1941cf57670f963}{org.\+jabref.\+logic.\+shared.\+D\+B\+M\+S\+Synchronizer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_ada6c8b0fda5f89036aca41a831bcee7d}\label{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_ada6c8b0fda5f89036aca41a831bcee7d}} 
+\index{org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}!getDBName@{getDBName}}
+\index{getDBName@{getDBName}!org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}}
+\doxysubsubsection{\texorpdfstring{getDBName()}{getDBName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+shared.\+Database\+Synchronizer.\+get\+D\+B\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_synchronizer_a21e99fa3661d1ac209b9a8511d168deb}{org.\+jabref.\+logic.\+shared.\+D\+B\+M\+S\+Synchronizer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a2efb14163f3ac4df2056c8d4d2881445}\label{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a2efb14163f3ac4df2056c8d4d2881445}} 
+\index{org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}!openSharedDatabase@{openSharedDatabase}}
+\index{openSharedDatabase@{openSharedDatabase}!org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}}
+\doxysubsubsection{\texorpdfstring{openSharedDatabase()}{openSharedDatabase()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Database\+Synchronizer.\+open\+Shared\+Database (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection}{Database\+Connection}}}]{connection }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_database_not_supported_exception}{Database\+Not\+Supported\+Exception}}}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_synchronizer_adb2be252c4d6a1ba568c456f1e16925e}{org.\+jabref.\+logic.\+shared.\+D\+B\+M\+S\+Synchronizer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a3bd717d4fb4cd54ec16b90d4feaae674}\label{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a3bd717d4fb4cd54ec16b90d4feaae674}} 
+\index{org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}!pullChanges@{pullChanges}}
+\index{pullChanges@{pullChanges}!org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}}
+\doxysubsubsection{\texorpdfstring{pullChanges()}{pullChanges()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Database\+Synchronizer.\+pull\+Changes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_synchronizer_a37db70477c5a601039cc698329f01baf}{org.\+jabref.\+logic.\+shared.\+D\+B\+M\+S\+Synchronizer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a1245ab83644ebee25fb864b12161d16b}\label{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a1245ab83644ebee25fb864b12161d16b}} 
+\index{org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}!registerListener@{registerListener}}
+\index{registerListener@{registerListener}!org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}}
+\doxysubsubsection{\texorpdfstring{registerListener()}{registerListener()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Database\+Synchronizer.\+register\+Listener (\begin{DoxyParamCaption}\item[{Object}]{listener }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_synchronizer_a1f022ac3e1ab30d624dc07676d81f0a9}{org.\+jabref.\+logic.\+shared.\+D\+B\+M\+S\+Synchronizer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_aa1aea4a140dbaa9a4b2119200fb5288d}\label{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_aa1aea4a140dbaa9a4b2119200fb5288d}} 
+\index{org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}!synchronizeLocalDatabase@{synchronizeLocalDatabase}}
+\index{synchronizeLocalDatabase@{synchronizeLocalDatabase}!org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}}
+\doxysubsubsection{\texorpdfstring{synchronizeLocalDatabase()}{synchronizeLocalDatabase()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Database\+Synchronizer.\+synchronize\+Local\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_synchronizer_a5192d13babaa1aec3b6028d64cc3b0b3}{org.\+jabref.\+logic.\+shared.\+D\+B\+M\+S\+Synchronizer}}.
+
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a46867aa9bbea049b62dc09d57505b60a}\label{interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer_a46867aa9bbea049b62dc09d57505b60a}} 
+\index{org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}!synchronizeSharedEntry@{synchronizeSharedEntry}}
+\index{synchronizeSharedEntry@{synchronizeSharedEntry}!org.jabref.logic.shared.DatabaseSynchronizer@{org.jabref.logic.shared.DatabaseSynchronizer}}
+\doxysubsubsection{\texorpdfstring{synchronizeSharedEntry()}{synchronizeSharedEntry()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Database\+Synchronizer.\+synchronize\+Shared\+Entry (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{bib\+Entry }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_synchronizer_a2a63615d04935abd0d9b2ebb6edab8df}{org.\+jabref.\+logic.\+shared.\+D\+B\+M\+S\+Synchronizer}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/shared/\mbox{\hyperlink{_database_synchronizer_8java}{Database\+Synchronizer.\+java}}\end{DoxyCompactItemize}

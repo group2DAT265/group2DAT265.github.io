@@ -1,0 +1,31 @@
+The Script has following commands available
+\begin{DoxyItemize}
+\item {\ttfamily \$ python \mbox{\hyperlink{sync_lang_8py}{scripts/sync\+Lang.\+py}} status \mbox{[}-\/-\/extended\mbox{]}}
+\begin{DoxyItemize}
+\item prints the current status to the terminal
+\item {\ttfamily \mbox{[}-\/-\/extended\mbox{]}} if the translations keys which create problems should be printed
+\item usable with Gradle tasks
+\begin{DoxyItemize}
+\item {\ttfamily \$ gradle localization\+Status}
+\item {\ttfamily \$ gradle localization\+Status\+Extended}
+\end{DoxyItemize}
+\end{DoxyItemize}
+\item {\ttfamily \$ python \mbox{\hyperlink{sync_lang_8py}{scripts/sync\+Lang.\+py}} markdown}
+\begin{DoxyItemize}
+\item Creates a markdown file of the current status and opens it
+\item usable with Gradle tasks
+\begin{DoxyItemize}
+\item {\ttfamily \$ gradle localization\+Status\+With\+Markdown}
+\end{DoxyItemize}
+\end{DoxyItemize}
+\item {\ttfamily \$ python \mbox{\hyperlink{sync_lang_8py}{scripts/sync\+Lang.\+py}} update \mbox{[}-\/-\/extended\mbox{]}}
+\begin{DoxyItemize}
+\item compares all the localization files against the English one and fixes unambiguous duplicates, removes obsolete keys, adds missing keys, and sorts them
+\item {\ttfamily \mbox{[}-\/-\/extended\mbox{]}} if the translations keys which create problems should be printed
+\item usable with Gradle tasks
+\begin{DoxyItemize}
+\item {\ttfamily \$ gradle localization\+Update}
+\item {\ttfamily \$ gradle localization\+Update\+Extended} 
+\end{DoxyItemize}
+\end{DoxyItemize}
+\end{DoxyItemize}

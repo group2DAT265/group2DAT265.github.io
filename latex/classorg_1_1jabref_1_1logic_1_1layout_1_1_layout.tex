@@ -1,0 +1,97 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout}{}\doxysection{org.\+jabref.\+logic.\+layout.\+Layout Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout}\index{org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_aa630dc13486cef0bdba3b031b9f552ef}{Layout}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_string_int}{String\+Int}} $>$ parsed\+Entries, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_preferences}{Layout\+Formatter\+Preferences}} prefs)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_ae3273f2b65bc9b2460e4813e1c3df1de}{set\+Post\+Formatter}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter}{Layout\+Formatter}} formatter)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a858638851a10915e19e45550dc0f488c}{get\+Text}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a7ef08c9407acde11535e7031bda0cb0b}{do\+Layout}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} bibtex, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} database)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a5aa5568eae78f47b586ee8c5e1e56ca1}{do\+Layout}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database\+Context, Charset encoding)
+\item 
+List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_aeef8d68f4408e4013a1326dd83e7e564}{get\+Missing\+Formatters}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final List$<$ Layout\+Entry $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_ad51b9f6d29f5b96dfeb2536e041e7b15}{layout\+Entries}}
+\item 
+final List$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a0d340f4e5b2f1f2ba5f083b48771792e}{missing\+Formatters}} = new Array\+List$<$$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a7646cce0444e6748720c4516f3d5ba97}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Layout.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_aa630dc13486cef0bdba3b031b9f552ef}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_aa630dc13486cef0bdba3b031b9f552ef}} 
+\index{org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}!Layout@{Layout}}
+\index{Layout@{Layout}!org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}}
+\doxysubsubsection{\texorpdfstring{Layout()}{Layout()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+layout.\+Layout.\+Layout (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_string_int}{String\+Int}} $>$}]{parsed\+Entries,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_preferences}{Layout\+Formatter\+Preferences}}}]{prefs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a5aa5568eae78f47b586ee8c5e1e56ca1}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a5aa5568eae78f47b586ee8c5e1e56ca1}} 
+\index{org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}!doLayout@{doLayout}}
+\index{doLayout@{doLayout}!org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}}
+\doxysubsubsection{\texorpdfstring{doLayout()}{doLayout()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+Layout.\+do\+Layout (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{Charset}]{encoding }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the processed text. If the database argument is null, no string references will be resolved. Otherwise all valid string references will be replaced by the strings\textquotesingle{} contents. Even recursive string references are resolved. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a7ef08c9407acde11535e7031bda0cb0b}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a7ef08c9407acde11535e7031bda0cb0b}} 
+\index{org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}!doLayout@{doLayout}}
+\index{doLayout@{doLayout}!org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}}
+\doxysubsubsection{\texorpdfstring{doLayout()}{doLayout()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+Layout.\+do\+Layout (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{bibtex,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}}}]{database }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the processed bibtex entry. If the database argument is null, no string references will be resolved. Otherwise all valid string references will be replaced by the strings\textquotesingle{} contents. Even recursive string references are resolved. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_aeef8d68f4408e4013a1326dd83e7e564}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_aeef8d68f4408e4013a1326dd83e7e564}} 
+\index{org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}!getMissingFormatters@{getMissingFormatters}}
+\index{getMissingFormatters@{getMissingFormatters}!org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}}
+\doxysubsubsection{\texorpdfstring{getMissingFormatters()}{getMissingFormatters()}}
+{\footnotesize\ttfamily List$<$String$>$ org.\+jabref.\+logic.\+layout.\+Layout.\+get\+Missing\+Formatters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a858638851a10915e19e45550dc0f488c}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a858638851a10915e19e45550dc0f488c}} 
+\index{org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}!getText@{getText}}
+\index{getText@{getText}!org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}}
+\doxysubsubsection{\texorpdfstring{getText()}{getText()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+layout.\+Layout.\+get\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_ae3273f2b65bc9b2460e4813e1c3df1de}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_ae3273f2b65bc9b2460e4813e1c3df1de}} 
+\index{org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}!setPostFormatter@{setPostFormatter}}
+\index{setPostFormatter@{setPostFormatter}!org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}}
+\doxysubsubsection{\texorpdfstring{setPostFormatter()}{setPostFormatter()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+layout.\+Layout.\+set\+Post\+Formatter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter}{Layout\+Formatter}}}]{formatter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_ad51b9f6d29f5b96dfeb2536e041e7b15}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_ad51b9f6d29f5b96dfeb2536e041e7b15}} 
+\index{org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}!layoutEntries@{layoutEntries}}
+\index{layoutEntries@{layoutEntries}!org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}}
+\doxysubsubsection{\texorpdfstring{layoutEntries}{layoutEntries}}
+{\footnotesize\ttfamily final List$<$Layout\+Entry$>$ org.\+jabref.\+logic.\+layout.\+Layout.\+layout\+Entries\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a7646cce0444e6748720c4516f3d5ba97}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a7646cce0444e6748720c4516f3d5ba97}} 
+\index{org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+layout.\+Layout.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Layout.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a0d340f4e5b2f1f2ba5f083b48771792e}\label{classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_a0d340f4e5b2f1f2ba5f083b48771792e}} 
+\index{org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}!missingFormatters@{missingFormatters}}
+\index{missingFormatters@{missingFormatters}!org.jabref.logic.layout.Layout@{org.jabref.logic.layout.Layout}}
+\doxysubsubsection{\texorpdfstring{missingFormatters}{missingFormatters}}
+{\footnotesize\ttfamily final List$<$String$>$ org.\+jabref.\+logic.\+layout.\+Layout.\+missing\+Formatters = new Array\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/layout/\mbox{\hyperlink{_layout_8java}{Layout.\+java}}\end{DoxyCompactItemize}

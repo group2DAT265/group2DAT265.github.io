@@ -1,0 +1,44 @@
+\hypertarget{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{}\doxysection{org.\+jabref.\+logic.\+importer.\+Id\+Based\+Fetcher Interface Reference}
+\label{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}\index{org.jabref.logic.importer.IdBasedFetcher@{org.jabref.logic.importer.IdBasedFetcher}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+Id\+Based\+Fetcher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.790698cm]{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher_af6a71a8b42f5c24f51ce8c0d855af1f1}{perform\+Search\+By\+Id}} (String identifier)  throws Fetcher\+Exception
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Searches web resources for bibliographic information based on an identifier. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher_af6a71a8b42f5c24f51ce8c0d855af1f1}\label{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher_af6a71a8b42f5c24f51ce8c0d855af1f1}} 
+\index{org.jabref.logic.importer.IdBasedFetcher@{org.jabref.logic.importer.IdBasedFetcher}!performSearchById@{performSearchById}}
+\index{performSearchById@{performSearchById}!org.jabref.logic.importer.IdBasedFetcher@{org.jabref.logic.importer.IdBasedFetcher}}
+\doxysubsubsection{\texorpdfstring{performSearchById()}{performSearchById()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+importer.\+Id\+Based\+Fetcher.\+perform\+Search\+By\+Id (\begin{DoxyParamCaption}\item[{String}]{identifier }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}}
+
+Looks for bibliographic information associated to the given identifier.
+
+
+\begin{DoxyParams}{Parameters}
+{\em identifier} & a string which uniquely identifies the item \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a \mbox{\hyperlink{}{Bib\+Entry}} containing the bibliographic information (or an empty optional if no data was found) 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_parser_fetcher_aa3f9182fa59b51634d0ffadecf03609e}{org.\+jabref.\+logic.\+importer.\+Id\+Based\+Parser\+Fetcher}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_title_fetcher_a02c151e4aa1a5f015f9e3100fbbbfacd}{org.\+jabref.\+logic.\+importer.\+fetcher.\+Title\+Fetcher}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_via_otto_bib_fetcher_a7642145cfe0533ec15041ae311d928a2}{org.\+jabref.\+logic.\+importer.\+fetcher.\+Isbn\+Via\+Otto\+Bib\+Fetcher}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_fetcher_a75773e509304df6ebc6ae4b4995f030c}{org.\+jabref.\+logic.\+importer.\+fetcher.\+Isbn\+Fetcher}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher_a458073abf46e6bb1669e29afa53d9fea}{org.\+jabref.\+logic.\+importer.\+fetcher.\+Iacr\+Eprint\+Fetcher}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a53d11f368e104f149284d529919b6991}{org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system_a8b61bf4beec3b96e19ef8816d8e79464}{org.\+jabref.\+logic.\+importer.\+fetcher.\+Astrophysics\+Data\+System}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_ac71676ff6c566f79878d8cf640ff90dc}{org.\+jabref.\+logic.\+importer.\+fetcher.\+Ar\+Xiv}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/\mbox{\hyperlink{_id_based_fetcher_8java}{Id\+Based\+Fetcher.\+java}}\end{DoxyCompactItemize}

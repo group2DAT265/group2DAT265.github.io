@@ -1,0 +1,25 @@
+var classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer =
+[
+    [ "PdfContentImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#af60de675977ac8a62d10cddf5654ab39", null ],
+    [ "extractYear", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#afef9956de98ca1289aac6590193d7602", null ],
+    [ "fillCurStringWithNonEmptyLines", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a190ba3610d5e69a23c22d7eb7dd81fe6", null ],
+    [ "getDescription", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a09d35d59e493dfaf9af825b21f49a094", null ],
+    [ "getFileType", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a2f1a110e444344040722ad662c4edc81", null ],
+    [ "getFirstPageContents", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a94b5c714f6ae898f3d5b082b41eff316", null ],
+    [ "getName", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#ad8ed4aec9026a8d8340928612beb761c", null ],
+    [ "importDatabase", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a39e4144ed723ba5eab1651b34c498a0c", null ],
+    [ "importDatabase", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a38a8d40e5f5c6583e2877c5157a0ad4c", null ],
+    [ "importDatabase", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#af42bf90e38526cbf62e3d4de326efa27", null ],
+    [ "isRecognizedFormat", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#ac1c0d4c50ff799e88443ae829276a826", null ],
+    [ "proceedToNextNonEmptyLine", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#ab21ca6f1004472a2e732052ecd0a4bbb", null ],
+    [ "readLastBlock", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a184c5efcf27c6f353e692cf8462d4620", null ],
+    [ "removeNonLettersAtEnd", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#afdca44ef819f03c49348f3ff116eaef2", null ],
+    [ "streamlineNames", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#ad7f8b98ab6bae2392629dfe758803f12", null ],
+    [ "streamlineTitle", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#af1c04f50e7beadfaf2f80ffd735286d6", null ],
+    [ "curString", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a17b794d078f476576df318698d74df75", null ],
+    [ "importFormatPreferences", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a1f63d47603862a9ac4f781d9d4244e3d", null ],
+    [ "lineIndex", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a4e5f2794821ce159f77875d51ea43bbe", null ],
+    [ "lines", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a0c406a614052bf8f1095bfbb4f390486", null ],
+    [ "year", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a90a5edf215bdb0720508d56d876daeed", null ],
+    [ "YEAR_EXTRACT_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a8efdfac9fa5cbb634fc93317931bb085", null ]
+];

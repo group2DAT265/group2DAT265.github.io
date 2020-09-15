@@ -1,0 +1,27 @@
+var classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download =
+[
+    [ "URLDownload", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a7fa8a75ba4774f961f0ab6e112e9828c", null ],
+    [ "URLDownload", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#aaa5eba250605b45dca1211d860e6335c", null ],
+    [ "addHeader", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a3f4e11bb38ca20383a7688c1d6e917b5", null ],
+    [ "asInputStream", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#ad365296246d7bffafb1b0783fa49ef31", null ],
+    [ "asString", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a6d9486782b5e8fbc5b2a6821fdc39a5f", null ],
+    [ "asString", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a04fe2771ed0c95ec7c6a459d294dc2ba", null ],
+    [ "bypassSSLVerification", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#aabd2aa7fd75a2dcf668743d78f3d3bf3", null ],
+    [ "canBeReached", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#abbc4d0a80c56b3a0a5debbf665d73c3c", null ],
+    [ "copy", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a0b2a6a8684a552cb54f35f864082aade", null ],
+    [ "getCookieFromUrl", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#acbb817cf14e5e4234799003dbe306b65", null ],
+    [ "getMimeType", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a8ddd3a113ecfa926f5867208bc3c768f", null ],
+    [ "getSource", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a2f68df0f2760653222932cae25c05556", null ],
+    [ "isMimeType", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#aa42f2a1417f8d59bb23b3bbb7e5ced83", null ],
+    [ "isPdf", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a0893d15f99c1fd3da5954e4eba5c0d4c", null ],
+    [ "openConnection", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a1f1214efe12325e5e8da31b09b91e5c7", null ],
+    [ "setPostData", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a0290fe3511c658d73a1175bcfc7e355d", null ],
+    [ "toFile", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a6c3f05c6226abd6b8635b0a46b481c3a", null ],
+    [ "toString", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a971c6ddf76bdae51d6c9815d190c6748", null ],
+    [ "toTemporaryFile", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a7658052259569cbb808414ff2da8213e", null ],
+    [ "LOGGER", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a08750eaee88fa477b601c1ef14ddc2c5", null ],
+    [ "parameters", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a12a7d397b58ddd41fc9f7acdd952716c", null ],
+    [ "postData", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a2ab9bd96f37788e7c3718f238c761f47", null ],
+    [ "source", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#adee45f896d019b110265f55ba9c12121", null ],
+    [ "USER_AGENT", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a64d460b36e63f7cbe432a2f0e1913a6d", null ]
+];

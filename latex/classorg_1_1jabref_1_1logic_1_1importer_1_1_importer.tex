@@ -1,0 +1,317 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{}\doxysection{org.\+jabref.\+logic.\+importer.\+Importer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+Importer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}{is\+Recognized\+Format}} (Buffered\+Reader input)  throws I\+O\+Exception
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a58299a5c0319dfabc9b8d82385a5ae30}{is\+Recognized\+Format}} (Path file\+Path, Charset encoding)  throws I\+O\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a3f531be816decaf1d82c316efa023172}{is\+Recognized\+Format}} (String data)  throws I\+O\+Exception 
+\item 
+abstract \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}{import\+Database}} (Buffered\+Reader input)  throws I\+O\+Exception
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a4cb77df20dbdf977c43cb8b31b4944e8}{import\+Database}} (Path file\+Path, Charset encoding)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a452065144fae9093cf4d822f9227a0c5}{import\+Database}} (String data)  throws I\+O\+Exception 
+\item 
+abstract String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a0224f9749eef18ca9f90b8ddb1771484}{get\+Name}} ()
+\item 
+abstract \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1util_1_1_file_type}{File\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac655d5b73afa6ceb9ccae747ea27be8f}{get\+File\+Type}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a2d734aa74f4bfb5f18949455af8b2cd7}{get\+Id}} ()
+\item 
+abstract String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a353c848ebec4d458953971932b28ce03}{get\+Description}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a69496a2b08b1d1b56cbd883bdb2e44f1}{hash\+Code}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a65ff0e335fc90022d0f6c103567c52f9}{equals}} (Object obj)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a5fa5bfb71831b10a25c7c34f9153ba57}{to\+String}} ()
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a52d525599081bf859cf379c38c424f9b}{compare\+To}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}} o)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Buffered\+Reader \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac09e5a54e6c70349682d89a9299ab371}{get\+Reader}} (Path file\+Path, Charset encoding)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Buffered\+Reader \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a903048578c9d28120dbecc1362b50e35}{get\+U\+T\+F8\+Reader}} (Path file\+Path)  throws I\+O\+Exception 
+\item 
+static Buffered\+Reader \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_aac65c3e833a88443536e7cd38f43b847}{get\+U\+T\+F16\+Reader}} (Path file\+Path)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Role of an importer for Jab\+Ref. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a52d525599081bf859cf379c38c424f9b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a52d525599081bf859cf379c38c424f9b}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!compareTo@{compareTo}}
+\index{compareTo@{compareTo}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{compareTo()}{compareTo()}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+importer.\+Importer.\+compare\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}}}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a65ff0e335fc90022d0f6c103567c52f9}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a65ff0e335fc90022d0f6c103567c52f9}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!equals@{equals}}
+\index{equals@{equals}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{equals()}{equals()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+Importer.\+equals (\begin{DoxyParamCaption}\item[{Object}]{obj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer_a39dd13d14e8769e42c160757856d4eb4}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Custom\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a353c848ebec4d458953971932b28ce03}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a353c848ebec4d458953971932b28ce03}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily abstract String org.\+jabref.\+logic.\+importer.\+Importer.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Returns the description of the import format. 
+
+The description should specify 
+\begin{DoxyItemize}
+\item what kind of entries from what sources and based on what specification it is able to import 
+\item by what criteria it \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}{recognizes}} an import format 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+description of the import format 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_silver_platter_importer_a0423aabae22f144331e983a01ba52562}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Silver\+Platter\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ris_importer_af60e1e9e39d4e95d3e0186065ba8e1c0}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ris\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer_a7a9477a4615dc6387eba131308082b0b}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Repec\+Nep\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer_aac520ac011c300cce6eebebe0263a922}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Xmp\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a09d35d59e493dfaf9af825b21f49a094}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_a59441f7047306d808052b6f356e60534}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_aaeca7c68f064010f124e72f88817c8bb}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer_a8c4a4e8b366b956ad142f09afee98771}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mr\+D\+Lib\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac668b7fb0ffb01d6f16479af2a0cc905}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer_ada3b7278aeccf5fdd408f790f4a7cfb4}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Plain\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer_ada48ac864b1ef99f3624b2eefbd52414}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_a98ac4bd97d524f7b71d45ed3db5aba43}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Isi\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_inspec_importer_aaa1f55ffa2d1108227ebfc1a615b3918}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Inspec\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer_a30835fa626bd66f9237fb3028e42ed53}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Xml\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_aed366e99584aa081a123181ddeb1219a}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer_a4bb124d8fa4e4505de38f43e04e6bf70}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Custom\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a0cc5886969ccf627dd1de796535ae249}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bib_te_x_m_l_importer_ae0ea24e541c94a7c30ad891e7d7369ec}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bib\+Te\+X\+M\+L\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a7d295ed6eccc0a07f6055588748850bd}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer_a2f17de14e68015fc123d20b016e99fd3}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Biblioscape\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac655d5b73afa6ceb9ccae747ea27be8f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac655d5b73afa6ceb9ccae747ea27be8f}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!getFileType@{getFileType}}
+\index{getFileType@{getFileType}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{getFileType()}{getFileType()}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1util_1_1_file_type}{File\+Type}} org.\+jabref.\+logic.\+importer.\+Importer.\+get\+File\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Returns the type of files that this importer can read
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{}{File\+Type}} corresponding to the importer 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_silver_platter_importer_a1858da94f0888613a23c62ebc3c9da08}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Silver\+Platter\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ris_importer_af8bb9f6633ac4cb1b32bb7a603bb8bb0}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ris\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer_a0ea5ed6c14be86840d15ae322708c953}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Repec\+Nep\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer_a175bc3a973ee407dd4236288c070910e}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Xmp\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a2f1a110e444344040722ad662c4edc81}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aa9366fe6dfa0b5f0bf80775e7313d805}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_aaa6fbc698e4512b59113c0f8470385e0}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer_a744097c03cb1ed26eaa1a5ca88fef9ba}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mr\+D\+Lib\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a0ec4583f76268f79368273f889e58be4}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer_a67bfe2e0c29667e42d07ca595bfbd662}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Plain\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer_a4f5f29b43e452ef7d9e65084d8513d5e}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_acc9a9a291e668794fa3bc7bd5dd1189b}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Isi\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_inspec_importer_ad03d8c048c838bd1f489d458c82d0e14}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Inspec\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer_a04416fc4aca31ecba5d48896bd5b3fc9}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Xml\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_af88081f744cbe9da94cb2ab8466ea0f3}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer_a96b1015bd3ebd18d3d75a096dbabedf1}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Custom\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a5bff7f2c1cf635ce006970e483de1090}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bib_te_x_m_l_importer_ae0bf89774499c47b4bae7f4eab21ede4}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bib\+Te\+X\+M\+L\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aaeb1e5c628d00abe06e031e8974c0b1e}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer_a2a2305768dc3713c2d3c7a29b00170e1}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Biblioscape\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a2d734aa74f4bfb5f18949455af8b2cd7}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a2d734aa74f4bfb5f18949455af8b2cd7}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!getId@{getId}}
+\index{getId@{getId}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+Importer.\+get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a one-\/word ID which identifies this importer. Used for example, to identify the importer when used from the command line.
+
+\begin{DoxyReturn}{Returns}
+ID, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer_a4392aaeacb1460dd34a08d7d7568a9fd}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Repec\+Nep\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer_a3ffdac57f2c1b987e14cb23812a9a5e8}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Xmp\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer_ae4dbcbd80ee6d83b8a4ced6d7e1e1104}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Plain\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer_a46a659ef1a2ebc275bb866ecd583f926}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_aa8fb21cb551b164a41288c160d88cd45}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Isi\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer_aeaea063da7319910d12c9524e706fa02}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Xml\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_ad0ee885da7e3f2ca30c6501039cfa408}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer_a7be9549d46652272bf3ce3bb650eb7be}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Custom\+Importer}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_ae94d835f1477d4fc755f5dcdea81a6ce}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a0224f9749eef18ca9f90b8ddb1771484}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a0224f9749eef18ca9f90b8ddb1771484}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily abstract String org.\+jabref.\+logic.\+importer.\+Importer.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Returns the name of this import format.
+
+The name must be unique.
+
+\begin{DoxyReturn}{Returns}
+format name, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_silver_platter_importer_a7ae666e3ad98afd9294454f398a4dbdd}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Silver\+Platter\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ris_importer_a9cced3507bc6a7ef8453214143b3d77a}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ris\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer_abe22ef39d460e9bc4c9dccebbc188926}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Repec\+Nep\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer_a25f2c6570570f7a5597c4abf9787f898}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Xmp\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ad8ed4aec9026a8d8340928612beb761c}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_ae3aa5a8e0e110be16fbb9ea2515271be}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_abec2f516aa1fb48eaed44c528f42b918}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer_af30b55a2cdc12724460d3812676b2450}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mr\+D\+Lib\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a86997f82e48f19608b58f30af1593e7a}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer_a4654feb98ddd833f1488f267457a23a2}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Plain\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer_aef92517481c9af80c977fca8238d712c}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_aa511f04988f20726ef8b55007d5c61df}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Isi\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_inspec_importer_ac89677b4ff4157f561b48db3f90cf1f2}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Inspec\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer_a1793f2092a729265fb276d8d8b94d65a}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Xml\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a116d74dc0aec237f44be67fe613c916d}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer_ab52ea258968f0dd86f2776371311f477}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Custom\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a0581fca58febb317a25f2d61e611ae9c}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bib_te_x_m_l_importer_a4397ad279c50677d19d1737df2bd2001}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bib\+Te\+X\+M\+L\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_ad0d796e20be187702c55d3fed5db7d32}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer_ae0ce638ac8487bd4da1b4d53e9e0a292}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Biblioscape\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac09e5a54e6c70349682d89a9299ab371}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac09e5a54e6c70349682d89a9299ab371}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!getReader@{getReader}}
+\index{getReader@{getReader}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{getReader()}{getReader()}}
+{\footnotesize\ttfamily static Buffered\+Reader org.\+jabref.\+logic.\+importer.\+Importer.\+get\+Reader (\begin{DoxyParamCaption}\item[{Path}]{file\+Path,  }\item[{Charset}]{encoding }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_aac65c3e833a88443536e7cd38f43b847}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_aac65c3e833a88443536e7cd38f43b847}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!getUTF16Reader@{getUTF16Reader}}
+\index{getUTF16Reader@{getUTF16Reader}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{getUTF16Reader()}{getUTF16Reader()}}
+{\footnotesize\ttfamily static Buffered\+Reader org.\+jabref.\+logic.\+importer.\+Importer.\+get\+U\+T\+F16\+Reader (\begin{DoxyParamCaption}\item[{Path}]{file\+Path }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a903048578c9d28120dbecc1362b50e35}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a903048578c9d28120dbecc1362b50e35}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!getUTF8Reader@{getUTF8Reader}}
+\index{getUTF8Reader@{getUTF8Reader}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{getUTF8Reader()}{getUTF8Reader()}}
+{\footnotesize\ttfamily static Buffered\+Reader org.\+jabref.\+logic.\+importer.\+Importer.\+get\+U\+T\+F8\+Reader (\begin{DoxyParamCaption}\item[{Path}]{file\+Path }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a69496a2b08b1d1b56cbd883bdb2e44f1}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a69496a2b08b1d1b56cbd883bdb2e44f1}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!hashCode@{hashCode}}
+\index{hashCode@{hashCode}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{hashCode()}{hashCode()}}
+{\footnotesize\ttfamily int org.\+jabref.\+logic.\+importer.\+Importer.\+hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer_ab0c270ada6df8a1a9aac844fa522ad18}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Custom\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Parse the database in the source. 
+
+This method can be called in two different contexts -\/ either when importing in a specified format, or when importing in unknown format. In the latter case, Jab\+Ref cycles through all available import formats. No error messages or feedback is displayed from individual import formats in this case. 
+
+If importing in a specified format and an empty library is returned, Jab\+Ref reports that no entries were found. 
+
+This method should never return null.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the input to read from \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_silver_platter_importer_ad4e2f27615369c1a0027f55f706f34bf}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Silver\+Platter\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ris_importer_a2156e8dbab9da4180d21fc0df0c151b2}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ris\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer_ab53fbf141b0c98700ce3ae5d83500bc3}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Repec\+Nep\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer_a30cb2d6b3d2ac693828d07f24b3589c4}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Xmp\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a39e4144ed723ba5eab1651b34c498a0c}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aca22e4102b35bce619cac065d1ec3904}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_affc55480a41d35bdc126bdfe5bd580fe}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer_ae157a96655a9ea9a6074e08317bfe4d6}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Plain\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer_a11c05bb02534c441e472cc34b9ce266d}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_a63036c0abd07c6e82c203b1c7df9f0f9}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Isi\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_inspec_importer_aa8738e904b811049402f6a351f62ba46}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Inspec\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer_af6087b7a020dd42436b1a8d1dbdd6755}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Xml\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a61752a5a939abfd920dba3961616d7da}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a78ee5a559226002c770ab9bee617d39a}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bib_te_x_m_l_importer_a11d2f44af0a937fb126096ece666116b}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bib\+Te\+X\+M\+L\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a96dc85ac3a37d88b347b74e3902fec92}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer_a0cf2d79347edf7f773678d9689960b15}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Biblioscape\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer_aeaec0fc055a14d19789a97abea907349}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mr\+D\+Lib\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_aeccdd95e94d2ab46ae70b47844e5f0e2}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer_a5b4aac7dcc5bf5c847befdd60e73fb9c}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Custom\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a4cb77df20dbdf977c43cb8b31b4944e8}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a4cb77df20dbdf977c43cb8b31b4944e8}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Path}]{file\+Path,  }\item[{Charset}]{encoding }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the specified file. 
+
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}} having the facilities to detect the correct encoding of a file should overwrite this method, determine the encoding and then call \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}{import\+Database(\+Buffered\+Reader)}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & the path to the file which should be imported \\
+\hline
+{\em encoding} & the encoding used to decode the file \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer_a89699b83aaabb1fb5d38a055e59039d2}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Xmp\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_a38a8d40e5f5c6583e2877c5157a0ad4c}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a435c891831e15a1710a457b75a50030c}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a452065144fae9093cf4d822f9227a0c5}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a452065144fae9093cf4d822f9227a0c5}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{String}]{data }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the specified string. 
+
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}} having the facilities to detect the correct encoding of a string should overwrite this method, determine the encoding and then call \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}{import\+Database(\+Buffered\+Reader)}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the string which should be imported \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the parsed result 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & Signals that an I/O exception has occurred. \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer_a0502c6c7546152719321e6f1aa2a7dcf}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Xmp\+Importer}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_af42bf90e38526cbf62e3d4de326efa27}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!isRecognizedFormat@{isRecognizedFormat}}
+\index{isRecognizedFormat@{isRecognizedFormat}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{isRecognizedFormat()}{isRecognizedFormat()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily abstract boolean org.\+jabref.\+logic.\+importer.\+Importer.\+is\+Recognized\+Format (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Check whether the source is in the correct format for this importer. 
+
+The effect of this method is primarily to avoid unnecessary processing of files when searching for a suitable import format. If this method returns false, the import routine will move on to the next import format. 
+
+Thus the correct behaviour is to return false if it is certain that the file is not of the suitable type, and true otherwise. Returning true is the safe choice if not certain. 
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_silver_platter_importer_a19791b31eec96a9ecb650a401ba142d0}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Silver\+Platter\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ris_importer_ae40accf494c52eab2245342bb0c64206}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ris\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer_acd456251ca50bb38f50bdc6759e75e9b}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Repec\+Nep\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer_abddecac057fae1cdf0b4d37d3be6fa57}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Xmp\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer_aacb95d272ac59263cb757e255f848a53}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ovid\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer_a322381a2d49cdf774ede5044574f1bef}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Ms\+Bib\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer_aa52555c78cd958630017e85eae1c161e}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Plain\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer_a1dbb13096690643600a1d6dff152d799}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Medline\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer_adcff38036f522e87f28eda4dec9f30cc}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Isi\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_inspec_importer_a0584f90f3c35d0bfde2fed9dbafd8876}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Inspec\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer_a2218c9c5d6f268d4fe65f03212b61be5}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Xml\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_af397bd942f8838b8aad83547fb078df8}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_aa4ee929e543a9483329b0eef1acfa23f}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bib_te_x_m_l_importer_a6d720e2a5eeb6eafcb1757519ab873f0}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bib\+Te\+X\+M\+L\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a101b9530dae82b575ea0e9ebe68524b6}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer_aa55028f025e1207769f481e9ad40fac9}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Biblioscape\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer_ac1c0d4c50ff799e88443ae829276a826}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Content\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer_a9fff756603fd24755d47bec803b2ae9e}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mr\+D\+Lib\+Importer}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a68a2913af50178fb26a39e62e57773df}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer}}, and \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer_afe76c238c21dfdbcd46a3d97a55fd31f}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Custom\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a58299a5c0319dfabc9b8d82385a5ae30}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a58299a5c0319dfabc9b8d82385a5ae30}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!isRecognizedFormat@{isRecognizedFormat}}
+\index{isRecognizedFormat@{isRecognizedFormat}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{isRecognizedFormat()}{isRecognizedFormat()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+Importer.\+is\+Recognized\+Format (\begin{DoxyParamCaption}\item[{Path}]{file\+Path,  }\item[{Charset}]{encoding }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check whether the source is in the correct format for this importer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & the path of the file to check \\
+\hline
+{\em encoding} & the encoding of the file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if the file is in a recognized format 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & Signals that an I/O exception has occurred. \\
+\hline
+\end{DoxyExceptions}
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer_a0291c79f2608876a2a67456704563a0f}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Pdf\+Xmp\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a3f531be816decaf1d82c316efa023172}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a3f531be816decaf1d82c316efa023172}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!isRecognizedFormat@{isRecognizedFormat}}
+\index{isRecognizedFormat@{isRecognizedFormat}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{isRecognizedFormat()}{isRecognizedFormat()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+Importer.\+is\+Recognized\+Format (\begin{DoxyParamCaption}\item[{String}]{data }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check whether the source is in the correct format for this importer.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the data to check \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if the data is in a recognized format 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & Signals that an I/O exception has occurred. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a5fa5bfb71831b10a25c7c34f9153ba57}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a5fa5bfb71831b10a25c7c34f9153ba57}} 
+\index{org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}!toString@{toString}}
+\index{toString@{toString}!org.jabref.logic.importer.Importer@{org.jabref.logic.importer.Importer}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+Importer.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer_a96112c1c84ce2520c5c66b9a393212df}{org.\+jabref.\+logic.\+importer.\+fileformat.\+Custom\+Importer}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/\mbox{\hyperlink{_importer_8java}{Importer.\+java}}\end{DoxyCompactItemize}

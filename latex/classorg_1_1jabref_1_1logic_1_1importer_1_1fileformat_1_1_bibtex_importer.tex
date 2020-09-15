@@ -1,0 +1,202 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer}\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aada56943222920da9c6a88ea4ca95df9}{Bibtex\+Importer}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aaf9d719a442149e9b8dd16f1366c29c6}{import\+Format\+Preferences}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aa29463650ec2232a1eb6ce8a7afe2fc0}{file\+Monitor}})
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a101b9530dae82b575ea0e9ebe68524b6}{is\+Recognized\+Format}} (Buffered\+Reader reader)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a435c891831e15a1710a457b75a50030c}{import\+Database}} (Path file\+Path, Charset default\+Encoding)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a96dc85ac3a37d88b347b74e3902fec92}{import\+Database}} (Buffered\+Reader reader)  throws I\+O\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_ad0d796e20be187702c55d3fed5db7d32}{get\+Name}} ()
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aaeb1e5c628d00abe06e031e8974c0b1e}{get\+File\+Type}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a7d295ed6eccc0a07f6055588748850bd}{get\+Description}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Optional$<$ Charset $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a51cc857edc9933ea24592c6b42ba560c}{get\+Supplied\+Encoding}} (Buffered\+Reader reader)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aaf9d719a442149e9b8dd16f1366c29c6}{import\+Format\+Preferences}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aa29463650ec2232a1eb6ce8a7afe2fc0}{file\+Monitor}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aeb38f919833cab703c800c2d8a6b34ef}{S\+I\+G\+N\+A\+T\+U\+RE}} = \char`\"{}This \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}} was created \mbox{\hyperlink{org_8citationstyles_8styles_8txt_a31b912cffea4e166256745a525791a53}{with}} \mbox{\hyperlink{_readme_8txt_ac2eeadea9f2d17cfd91bd1bfaa3c3186}{Jab\+Ref}}\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+This importer exists only to enable {\ttfamily -\/-\/import\+To\+Open some\+Entry.\+bib}
+
+It is N\+OT intended to import a B\+IB file. This is done via the option action, which treats the metadata fields The metadata is not required to be read here, as this class is N\+OT called at --import 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aada56943222920da9c6a88ea4ca95df9}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aada56943222920da9c6a88ea4ca95df9}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!BibtexImporter@{BibtexImporter}}
+\index{BibtexImporter@{BibtexImporter}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{BibtexImporter()}{BibtexImporter()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+Bibtex\+Importer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}}}]{import\+Format\+Preferences,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}}}]{file\+Monitor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a7d295ed6eccc0a07f6055588748850bd}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a7d295ed6eccc0a07f6055588748850bd}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the description of the import format. 
+
+The description should specify 
+\begin{DoxyItemize}
+\item what kind of entries from what sources and based on what specification it is able to import 
+\item by what criteria it \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a101b9530dae82b575ea0e9ebe68524b6}{recognizes}} an import format 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+description of the import format 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a353c848ebec4d458953971932b28ce03}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aaeb1e5c628d00abe06e031e8974c0b1e}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aaeb1e5c628d00abe06e031e8974c0b1e}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!getFileType@{getFileType}}
+\index{getFileType@{getFileType}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{getFileType()}{getFileType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+get\+File\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the type of files that this importer can read
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{}{File\+Type}} corresponding to the importer 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac655d5b73afa6ceb9ccae747ea27be8f}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_ad0d796e20be187702c55d3fed5db7d32}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_ad0d796e20be187702c55d3fed5db7d32}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the name of this import format.
+
+The name must be unique.
+
+\begin{DoxyReturn}{Returns}
+format name, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a0224f9749eef18ca9f90b8ddb1771484}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a51cc857edc9933ea24592c6b42ba560c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a51cc857edc9933ea24592c6b42ba560c}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!getSuppliedEncoding@{getSuppliedEncoding}}
+\index{getSuppliedEncoding@{getSuppliedEncoding}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{getSuppliedEncoding()}{getSuppliedEncoding()}}
+{\footnotesize\ttfamily static Optional$<$Charset$>$ org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+get\+Supplied\+Encoding (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{reader }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+Searches the file for \char`\"{}\+Encoding\+: my\+Encoding\char`\"{} and returns the found supplied encoding. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a96dc85ac3a37d88b347b74e3902fec92}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a96dc85ac3a37d88b347b74e3902fec92}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the source. 
+
+This method can be called in two different contexts -\/ either when importing in a specified format, or when importing in unknown format. In the latter case, Jab\+Ref cycles through all available import formats. No error messages or feedback is displayed from individual import formats in this case. 
+
+If importing in a specified format and an empty library is returned, Jab\+Ref reports that no entries were found. 
+
+This method should never return null.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the input to read from \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a435c891831e15a1710a457b75a50030c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a435c891831e15a1710a457b75a50030c}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Path}]{file\+Path,  }\item[{Charset}]{encoding }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the specified file. 
+
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}} having the facilities to detect the correct encoding of a file should overwrite this method, determine the encoding and then call \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a96dc85ac3a37d88b347b74e3902fec92}{import\+Database(\+Buffered\+Reader)}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & the path to the file which should be imported \\
+\hline
+{\em encoding} & the encoding used to decode the file \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a4cb77df20dbdf977c43cb8b31b4944e8}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a101b9530dae82b575ea0e9ebe68524b6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_a101b9530dae82b575ea0e9ebe68524b6}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!isRecognizedFormat@{isRecognizedFormat}}
+\index{isRecognizedFormat@{isRecognizedFormat}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{isRecognizedFormat()}{isRecognizedFormat()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+is\+Recognized\+Format (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{reader }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+true as we have no effective way to decide whether a file is in bibtex format or not. See \href{https://github.com/JabRef/jabref/pull/379\#issuecomment-158685726}{\texttt{ https\+://github.\+com/\+Jab\+Ref/jabref/pull/379\#issuecomment-\/158685726}} for more details. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aa29463650ec2232a1eb6ce8a7afe2fc0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aa29463650ec2232a1eb6ce8a7afe2fc0}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!fileMonitor@{fileMonitor}}
+\index{fileMonitor@{fileMonitor}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{fileMonitor}{fileMonitor}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor}{File\+Update\+Monitor}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+file\+Monitor\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aaf9d719a442149e9b8dd16f1366c29c6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aaf9d719a442149e9b8dd16f1366c29c6}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!importFormatPreferences@{importFormatPreferences}}
+\index{importFormatPreferences@{importFormatPreferences}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{importFormatPreferences}{importFormatPreferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+import\+Format\+Preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aeb38f919833cab703c800c2d8a6b34ef}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer_aeb38f919833cab703c800c2d8a6b34ef}} 
+\index{org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}!SIGNATURE@{SIGNATURE}}
+\index{SIGNATURE@{SIGNATURE}!org.jabref.logic.importer.fileformat.BibtexImporter@{org.jabref.logic.importer.fileformat.BibtexImporter}}
+\doxysubsubsection{\texorpdfstring{SIGNATURE}{SIGNATURE}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fileformat.\+Bibtex\+Importer.\+S\+I\+G\+N\+A\+T\+U\+RE = \char`\"{}This \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}} was created \mbox{\hyperlink{org_8citationstyles_8styles_8txt_a31b912cffea4e166256745a525791a53}{with}} \mbox{\hyperlink{_readme_8txt_ac2eeadea9f2d17cfd91bd1bfaa3c3186}{Jab\+Ref}}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fileformat/\mbox{\hyperlink{_bibtex_importer_8java}{Bibtex\+Importer.\+java}}\end{DoxyCompactItemize}

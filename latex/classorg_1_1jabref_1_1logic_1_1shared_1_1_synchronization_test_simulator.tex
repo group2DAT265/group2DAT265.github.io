@@ -1,0 +1,118 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator}{}\doxysection{org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator}\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a030d053f9e648b73c1a1d3150424a3c3}{setup}} ()  throws Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a0deec088d19b59030c40fdbbe6dc3019}{clear}} ()  throws S\+Q\+L\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a936f1d7453d71fff90a6bb81f0e5acb2}{simulate\+Entry\+Insertion\+And\+Manual\+Pull}} ()  throws Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a68f43ce506fde65d9ac4e1a9b08d63c0}{simulate\+Entry\+Update\+And\+Manual\+Pull}} ()  throws Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a5dfb3bd77d84b7f4f632356a0edb8c79}{simulate\+Entry\+Delition\+And\+Manual\+Pull}} ()  throws Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a2b072bebc94838545f4e45c6f9f2cba2}{simulate\+Update\+On\+No\+Longer\+Existing\+Entry}} ()  throws Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a9f07c5b256181967e77fe90067513710}{simulate\+Entry\+Change\+Conflicts}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_aa2c9d0ffbda6f1a186af4ccec1cd8dd1}{get\+Bib\+Entry\+Example}} (int index)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a8760008917b6b85cf1177018647b51e5}{client\+ContextA}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_aee14eb367824caab4c5df08857ffb61c}{client\+ContextB}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_event_listener}{Synchronization\+Test\+Event\+Listener}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_aa7eea5ad1d1de59bfeb49c3a48ce7ad6}{event\+ListenerB}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_global_citation_key_pattern}{Global\+Citation\+Key\+Pattern}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_ad18aa515faa02f10c7d1dd556f7923d0}{pattern}} = \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_global_citation_key_pattern_a2ccdffb84ebc7212ffece9e625e6a051}{Global\+Citation\+Key\+Pattern.\+from\+Pattern}}(\char`\"{}\mbox{[}auth\mbox{]}\mbox{[}year\mbox{]}\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a0deec088d19b59030c40fdbbe6dc3019}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a0deec088d19b59030c40fdbbe6dc3019}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!clear@{clear}}
+\index{clear@{clear}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws S\+Q\+L\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_aa2c9d0ffbda6f1a186af4ccec1cd8dd1}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_aa2c9d0ffbda6f1a186af4ccec1cd8dd1}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!getBibEntryExample@{getBibEntryExample}}
+\index{getBibEntryExample@{getBibEntryExample}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{getBibEntryExample()}{getBibEntryExample()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+get\+Bib\+Entry\+Example (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a030d053f9e648b73c1a1d3150424a3c3}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a030d053f9e648b73c1a1d3150424a3c3}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!setup@{setup}}
+\index{setup@{setup}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+setup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a9f07c5b256181967e77fe90067513710}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a9f07c5b256181967e77fe90067513710}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!simulateEntryChangeConflicts@{simulateEntryChangeConflicts}}
+\index{simulateEntryChangeConflicts@{simulateEntryChangeConflicts}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{simulateEntryChangeConflicts()}{simulateEntryChangeConflicts()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+simulate\+Entry\+Change\+Conflicts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a5dfb3bd77d84b7f4f632356a0edb8c79}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a5dfb3bd77d84b7f4f632356a0edb8c79}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!simulateEntryDelitionAndManualPull@{simulateEntryDelitionAndManualPull}}
+\index{simulateEntryDelitionAndManualPull@{simulateEntryDelitionAndManualPull}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{simulateEntryDelitionAndManualPull()}{simulateEntryDelitionAndManualPull()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+simulate\+Entry\+Delition\+And\+Manual\+Pull (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a936f1d7453d71fff90a6bb81f0e5acb2}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a936f1d7453d71fff90a6bb81f0e5acb2}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!simulateEntryInsertionAndManualPull@{simulateEntryInsertionAndManualPull}}
+\index{simulateEntryInsertionAndManualPull@{simulateEntryInsertionAndManualPull}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{simulateEntryInsertionAndManualPull()}{simulateEntryInsertionAndManualPull()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+simulate\+Entry\+Insertion\+And\+Manual\+Pull (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a68f43ce506fde65d9ac4e1a9b08d63c0}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a68f43ce506fde65d9ac4e1a9b08d63c0}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!simulateEntryUpdateAndManualPull@{simulateEntryUpdateAndManualPull}}
+\index{simulateEntryUpdateAndManualPull@{simulateEntryUpdateAndManualPull}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{simulateEntryUpdateAndManualPull()}{simulateEntryUpdateAndManualPull()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+simulate\+Entry\+Update\+And\+Manual\+Pull (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a2b072bebc94838545f4e45c6f9f2cba2}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a2b072bebc94838545f4e45c6f9f2cba2}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!simulateUpdateOnNoLongerExistingEntry@{simulateUpdateOnNoLongerExistingEntry}}
+\index{simulateUpdateOnNoLongerExistingEntry@{simulateUpdateOnNoLongerExistingEntry}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{simulateUpdateOnNoLongerExistingEntry()}{simulateUpdateOnNoLongerExistingEntry()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+simulate\+Update\+On\+No\+Longer\+Existing\+Entry (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a8760008917b6b85cf1177018647b51e5}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_a8760008917b6b85cf1177018647b51e5}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!clientContextA@{clientContextA}}
+\index{clientContextA@{clientContextA}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{clientContextA}{clientContextA}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+client\+ContextA\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_aee14eb367824caab4c5df08857ffb61c}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_aee14eb367824caab4c5df08857ffb61c}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!clientContextB@{clientContextB}}
+\index{clientContextB@{clientContextB}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{clientContextB}{clientContextB}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+client\+ContextB\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_aa7eea5ad1d1de59bfeb49c3a48ce7ad6}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_aa7eea5ad1d1de59bfeb49c3a48ce7ad6}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!eventListenerB@{eventListenerB}}
+\index{eventListenerB@{eventListenerB}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{eventListenerB}{eventListenerB}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_event_listener}{Synchronization\+Test\+Event\+Listener}} org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+event\+ListenerB\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_ad18aa515faa02f10c7d1dd556f7923d0}\label{classorg_1_1jabref_1_1logic_1_1shared_1_1_synchronization_test_simulator_ad18aa515faa02f10c7d1dd556f7923d0}} 
+\index{org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}!pattern@{pattern}}
+\index{pattern@{pattern}!org.jabref.logic.shared.SynchronizationTestSimulator@{org.jabref.logic.shared.SynchronizationTestSimulator}}
+\doxysubsubsection{\texorpdfstring{pattern}{pattern}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_global_citation_key_pattern}{Global\+Citation\+Key\+Pattern}} org.\+jabref.\+logic.\+shared.\+Synchronization\+Test\+Simulator.\+pattern = \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_global_citation_key_pattern_a2ccdffb84ebc7212ffece9e625e6a051}{Global\+Citation\+Key\+Pattern.\+from\+Pattern}}(\char`\"{}\mbox{[}auth\mbox{]}\mbox{[}year\mbox{]}\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/test/java/org/jabref/logic/shared/\mbox{\hyperlink{_synchronization_test_simulator_8java}{Synchronization\+Test\+Simulator.\+java}}\end{DoxyCompactItemize}

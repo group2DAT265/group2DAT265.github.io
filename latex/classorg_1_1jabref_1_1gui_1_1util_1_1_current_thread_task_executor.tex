@@ -1,0 +1,76 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor}{}\doxysection{org.\+jabref.\+gui.\+util.\+Current\+Thread\+Task\+Executor Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor}\index{org.jabref.gui.util.CurrentThreadTaskExecutor@{org.jabref.gui.util.CurrentThreadTaskExecutor}}
+Inheritance diagram for org.\+jabref.\+gui.\+util.\+Current\+Thread\+Task\+Executor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_1_1_failed_future}{Failed\+Future}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_aed7f8274f9320de44c933d1188a21a38}{shutdown}} ()
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_a0752439ecc949bd2a4bfad22eaa0ae76}{create\+Throttler}} (int delay)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Weak\+Hash\+Map$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}}, Void $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_a0c162d086b39f7019fe000f00aed5005}{throttlers}} = new Weak\+Hash\+Map$<$$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_aec58416b4b77354639eec6f9e083f3ac}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Current\+Thread\+Task\+Executor.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor}{Task\+Executor}} that runs every task on the current thread, i.\+e. in a sequential order. This class is not designed to be used in production but should make code involving asynchronous operations deterministic and testable. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_a0752439ecc949bd2a4bfad22eaa0ae76}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_a0752439ecc949bd2a4bfad22eaa0ae76}} 
+\index{org.jabref.gui.util.CurrentThreadTaskExecutor@{org.jabref.gui.util.CurrentThreadTaskExecutor}!createThrottler@{createThrottler}}
+\index{createThrottler@{createThrottler}!org.jabref.gui.util.CurrentThreadTaskExecutor@{org.jabref.gui.util.CurrentThreadTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{createThrottler()}{createThrottler()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}} org.\+jabref.\+gui.\+util.\+Current\+Thread\+Task\+Executor.\+create\+Throttler (\begin{DoxyParamCaption}\item[{int}]{delay }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates a new task throttler, and registers it so that it gets properly shutdown. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor_a0162bf1a3e021385cb7d6568d7f9da92}{org.\+jabref.\+gui.\+util.\+Task\+Executor}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_aed7f8274f9320de44c933d1188a21a38}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_aed7f8274f9320de44c933d1188a21a38}} 
+\index{org.jabref.gui.util.CurrentThreadTaskExecutor@{org.jabref.gui.util.CurrentThreadTaskExecutor}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!org.jabref.gui.util.CurrentThreadTaskExecutor@{org.jabref.gui.util.CurrentThreadTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{shutdown()}{shutdown()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+util.\+Current\+Thread\+Task\+Executor.\+shutdown (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Shutdown the task executor. May happen in the background or may be finished when this method returns. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor_a06f26a3ee3fe316b61e27f422cf81339}{org.\+jabref.\+gui.\+util.\+Task\+Executor}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_aec58416b4b77354639eec6f9e083f3ac}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_aec58416b4b77354639eec6f9e083f3ac}} 
+\index{org.jabref.gui.util.CurrentThreadTaskExecutor@{org.jabref.gui.util.CurrentThreadTaskExecutor}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.util.CurrentThreadTaskExecutor@{org.jabref.gui.util.CurrentThreadTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+util.\+Current\+Thread\+Task\+Executor.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Current\+Thread\+Task\+Executor.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_a0c162d086b39f7019fe000f00aed5005}\label{classorg_1_1jabref_1_1gui_1_1util_1_1_current_thread_task_executor_a0c162d086b39f7019fe000f00aed5005}} 
+\index{org.jabref.gui.util.CurrentThreadTaskExecutor@{org.jabref.gui.util.CurrentThreadTaskExecutor}!throttlers@{throttlers}}
+\index{throttlers@{throttlers}!org.jabref.gui.util.CurrentThreadTaskExecutor@{org.jabref.gui.util.CurrentThreadTaskExecutor}}
+\doxysubsubsection{\texorpdfstring{throttlers}{throttlers}}
+{\footnotesize\ttfamily final Weak\+Hash\+Map$<$\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler}{Delay\+Task\+Throttler}}, Void$>$ org.\+jabref.\+gui.\+util.\+Current\+Thread\+Task\+Executor.\+throttlers = new Weak\+Hash\+Map$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/util/\mbox{\hyperlink{_current_thread_task_executor_8java}{Current\+Thread\+Task\+Executor.\+java}}\end{DoxyCompactItemize}

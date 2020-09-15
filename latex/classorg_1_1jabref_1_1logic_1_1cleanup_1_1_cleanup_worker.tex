@@ -1,0 +1,73 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker}{}\doxysection{org.\+jabref.\+logic.\+cleanup.\+Cleanup\+Worker Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker}\index{org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_acc12c10a7d31476096668ce028c0f11b}{Cleanup\+Worker}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_a68539e5ba3eb9165036dd35efd43e207}{database\+Context}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preferences}{Cleanup\+Preferences}} cleanup\+Preferences)
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_a313d1ecff1c3ffc60f59aa931f51f89c}{cleanup}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset}{Cleanup\+Preset}} preset, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_job}{Cleanup\+Job}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_af68b2353c9fd27f425963e56b6e7076c}{determine\+Cleanup\+Actions}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset}{Cleanup\+Preset}} preset)
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_job}{Cleanup\+Job}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_af6538f50b685fa11a04d4f6614e8da4d}{to\+Job}} (Cleanup\+Preset.\+Cleanup\+Step action)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_a68539e5ba3eb9165036dd35efd43e207}{database\+Context}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_file_preferences}{File\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_ac907fc5deb6dc79de0c560cf60de219c}{file\+Preferences}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_acc12c10a7d31476096668ce028c0f11b}\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_acc12c10a7d31476096668ce028c0f11b}} 
+\index{org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}!CleanupWorker@{CleanupWorker}}
+\index{CleanupWorker@{CleanupWorker}!org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}}
+\doxysubsubsection{\texorpdfstring{CleanupWorker()}{CleanupWorker()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+cleanup.\+Cleanup\+Worker.\+Cleanup\+Worker (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preferences}{Cleanup\+Preferences}}}]{cleanup\+Preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_a313d1ecff1c3ffc60f59aa931f51f89c}\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_a313d1ecff1c3ffc60f59aa931f51f89c}} 
+\index{org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}!cleanup@{cleanup}}
+\index{cleanup@{cleanup}!org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}}
+\doxysubsubsection{\texorpdfstring{cleanup()}{cleanup()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}}$>$ org.\+jabref.\+logic.\+cleanup.\+Cleanup\+Worker.\+cleanup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset}{Cleanup\+Preset}}}]{preset,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_af68b2353c9fd27f425963e56b6e7076c}\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_af68b2353c9fd27f425963e56b6e7076c}} 
+\index{org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}!determineCleanupActions@{determineCleanupActions}}
+\index{determineCleanupActions@{determineCleanupActions}!org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}}
+\doxysubsubsection{\texorpdfstring{determineCleanupActions()}{determineCleanupActions()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_job}{Cleanup\+Job}}$>$ org.\+jabref.\+logic.\+cleanup.\+Cleanup\+Worker.\+determine\+Cleanup\+Actions (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset}{Cleanup\+Preset}}}]{preset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_af6538f50b685fa11a04d4f6614e8da4d}\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_af6538f50b685fa11a04d4f6614e8da4d}} 
+\index{org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}!toJob@{toJob}}
+\index{toJob@{toJob}!org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}}
+\doxysubsubsection{\texorpdfstring{toJob()}{toJob()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_job}{Cleanup\+Job}} org.\+jabref.\+logic.\+cleanup.\+Cleanup\+Worker.\+to\+Job (\begin{DoxyParamCaption}\item[{Cleanup\+Preset.\+Cleanup\+Step}]{action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_a68539e5ba3eb9165036dd35efd43e207}\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_a68539e5ba3eb9165036dd35efd43e207}} 
+\index{org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}!databaseContext@{databaseContext}}
+\index{databaseContext@{databaseContext}!org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}}
+\doxysubsubsection{\texorpdfstring{databaseContext}{databaseContext}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} org.\+jabref.\+logic.\+cleanup.\+Cleanup\+Worker.\+database\+Context\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_ac907fc5deb6dc79de0c560cf60de219c}\label{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_worker_ac907fc5deb6dc79de0c560cf60de219c}} 
+\index{org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}!filePreferences@{filePreferences}}
+\index{filePreferences@{filePreferences}!org.jabref.logic.cleanup.CleanupWorker@{org.jabref.logic.cleanup.CleanupWorker}}
+\doxysubsubsection{\texorpdfstring{filePreferences}{filePreferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_file_preferences}{File\+Preferences}} org.\+jabref.\+logic.\+cleanup.\+Cleanup\+Worker.\+file\+Preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/cleanup/\mbox{\hyperlink{_cleanup_worker_8java}{Cleanup\+Worker.\+java}}\end{DoxyCompactItemize}

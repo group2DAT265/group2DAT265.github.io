@@ -1,0 +1,92 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter}{}\doxysection{org.\+jabref.\+logic.\+exporter.\+Xmp\+Exporter Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter}\index{org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}}
+Inheritance diagram for org.\+jabref.\+logic.\+exporter.\+Xmp\+Exporter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_a42135ee5a6736de5912e1a88ad06fe72}{Xmp\+Exporter}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences}{Xmp\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_aa5026152cbb01f6876bc1d48933e33ab}{xmp\+Preferences}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_a98320c0c4e12769799c00d0a507cf7f5}{export}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database\+Context, Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, Charset encoding, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries)  throws Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_ac87b566b3d31e701eb602af05f45028f}{X\+M\+P\+\_\+\+S\+P\+L\+I\+T\+\_\+\+D\+I\+R\+E\+C\+T\+O\+R\+Y\+\_\+\+I\+N\+D\+I\+C\+A\+T\+OR}} = \char`\"{}split\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_a0f2e74a4d5dccf5f70391d968a5d69db}{write\+Bib\+To\+Xmp}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}}, List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ entries, Charset encoding)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences}{Xmp\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_aa5026152cbb01f6876bc1d48933e33ab}{xmp\+Preferences}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A custom exporter to write bib entries to a .xmp file for further processing in other scenarios and applications. The xmp metadata are written in dublin core format. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_a42135ee5a6736de5912e1a88ad06fe72}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_a42135ee5a6736de5912e1a88ad06fe72}} 
+\index{org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}!XmpExporter@{XmpExporter}}
+\index{XmpExporter@{XmpExporter}!org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}}
+\doxysubsubsection{\texorpdfstring{XmpExporter()}{XmpExporter()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+exporter.\+Xmp\+Exporter.\+Xmp\+Exporter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences}{Xmp\+Preferences}}}]{xmp\+Preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_a98320c0c4e12769799c00d0a507cf7f5}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_a98320c0c4e12769799c00d0a507cf7f5}} 
+\index{org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}!export@{export}}
+\index{export@{export}!org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}}
+\doxysubsubsection{\texorpdfstring{export()}{export()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+exporter.\+Xmp\+Exporter.\+export (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{Path}]{file,  }\item[{Charset}]{encoding,  }\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em database\+Context} & the database to export from \\
+\hline
+{\em file} & the file to write to. If it contains \char`\"{}split\char`\"{}, then the output is split into different files \\
+\hline
+{\em encoding} & the encoding to use \\
+\hline
+{\em entries} & a list containing all entries that should be exported \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1exporter_1_1_exporter_a7458a0d4973d2d47d58de5541ea68752}{org.\+jabref.\+logic.\+exporter.\+Exporter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_a0f2e74a4d5dccf5f70391d968a5d69db}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_a0f2e74a4d5dccf5f70391d968a5d69db}} 
+\index{org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}!writeBibToXmp@{writeBibToXmp}}
+\index{writeBibToXmp@{writeBibToXmp}!org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}}
+\doxysubsubsection{\texorpdfstring{writeBibToXmp()}{writeBibToXmp()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+exporter.\+Xmp\+Exporter.\+write\+Bib\+To\+Xmp (\begin{DoxyParamCaption}\item[{Path}]{file,  }\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{entries,  }\item[{Charset}]{encoding }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_ac87b566b3d31e701eb602af05f45028f}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_ac87b566b3d31e701eb602af05f45028f}} 
+\index{org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}!XMP\_SPLIT\_DIRECTORY\_INDICATOR@{XMP\_SPLIT\_DIRECTORY\_INDICATOR}}
+\index{XMP\_SPLIT\_DIRECTORY\_INDICATOR@{XMP\_SPLIT\_DIRECTORY\_INDICATOR}!org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}}
+\doxysubsubsection{\texorpdfstring{XMP\_SPLIT\_DIRECTORY\_INDICATOR}{XMP\_SPLIT\_DIRECTORY\_INDICATOR}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+exporter.\+Xmp\+Exporter.\+X\+M\+P\+\_\+\+S\+P\+L\+I\+T\+\_\+\+D\+I\+R\+E\+C\+T\+O\+R\+Y\+\_\+\+I\+N\+D\+I\+C\+A\+T\+OR = \char`\"{}split\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_aa5026152cbb01f6876bc1d48933e33ab}\label{classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter_aa5026152cbb01f6876bc1d48933e33ab}} 
+\index{org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}!xmpPreferences@{xmpPreferences}}
+\index{xmpPreferences@{xmpPreferences}!org.jabref.logic.exporter.XmpExporter@{org.jabref.logic.exporter.XmpExporter}}
+\doxysubsubsection{\texorpdfstring{xmpPreferences}{xmpPreferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences}{Xmp\+Preferences}} org.\+jabref.\+logic.\+exporter.\+Xmp\+Exporter.\+xmp\+Preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/exporter/\mbox{\hyperlink{_xmp_exporter_8java}{Xmp\+Exporter.\+java}}\end{DoxyCompactItemize}

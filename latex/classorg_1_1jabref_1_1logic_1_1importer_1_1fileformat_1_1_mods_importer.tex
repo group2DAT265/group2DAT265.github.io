@@ -1,0 +1,328 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer}\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.857143cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac089bd7971b8cf499b0fd9e8c34ce042}{Mods\+Importer}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} import\+Format\+Preferences)
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a68a2913af50178fb26a39e62e57773df}{is\+Recognized\+Format}} (Buffered\+Reader input)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_aeccdd95e94d2ab46ae70b47844e5f0e2}{import\+Database}} (Buffered\+Reader input)  throws I\+O\+Exception 
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a86997f82e48f19608b58f30af1593e7a}{get\+Name}} ()
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a0ec4583f76268f79368273f889e58be4}{get\+File\+Type}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac668b7fb0ffb01d6f16479af2a0cc905}{get\+Description}} ()
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac42f6f5909d3ed8daa99412f02e85165}{parse\+Entries}} (Input\+Stream input\+Stream)  throws Parse\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ab012c5e27acd5d323865610d4784a1f6}{parse\+Mods\+Collection}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ bib\+Items, List$<$ Mods\+Definition $>$ mods)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_aca8cfc09f2dd89845e6c497fa4590774}{parse\+Mods}} (List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ bib\+Items, Mods\+Definition mods\+Definition)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a371dd7307754a5675314fa1b7788de06}{parse\+Mods\+Group}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, List$<$ Object $>$ mods\+Group, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a8b68f263aaa7ed0542dabfc514c47825}{parse\+Title}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, List$<$ Object $>$ title\+Or\+Sub\+Title\+Or\+Part\+Number)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac3f9127014eb69b84572a59f061cf891}{parse\+Identifier}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, Identifier\+Definition identifier, \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ad21d9f202b0f17593ae0c2bcec8442ce}{parse\+Topic}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, List$<$ J\+A\+X\+B\+Element$<$?$>$$>$ topic\+Or\+Geographic\+Or\+Temporal, List$<$ String $>$ keywords)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a6b95ac3c6ac91de810cba18e6d0479bb}{parse\+Geographic\+Information}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, Hierarchical\+Geographic\+Definition hierarchichal\+Geographic)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a529d90031cf813538d7c53b3c57f59b1}{parse\+Location\+And\+Url}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, Location\+Definition location\+Definition)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a92dc9cd031131d1526f2d692f7ff991b}{parse\+Record\+Info}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, Record\+Info\+Definition record\+Info)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac1cfb6a885fd37ed881d24707c1d6c9d}{parse\+Related\+Mods\+Group}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, List$<$ Object $>$ related\+Mods\+Group)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ab2a7243a52b6883a320d5da05ff2fb23}{put\+Page\+Information}} (Extent\+Definition extent\+Definition, Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a9607527d9bebb1a9dd805eaca6486993}{put\+Place\+Or\+Publisher\+Or\+Date}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, String element\+Name, Object object)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac41d1c69ba3748a29c63d7bf1e4678d2}{put\+Publisher\+Or\+Edition}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, String element\+Name, String\+Plus\+Language\+Plus\+Supplied pub\+Or\+Ed)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_afb0f0f73408dc2114b91aa99ba268a1d}{put\+Date}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, String element\+Name, Date\+Definition date)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ae2b5b8f1c6a864c1fc5a776ecdc24ddb}{put\+If\+List\+Is\+Not\+Empty}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, List$<$ String $>$ list, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} key, String separator)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac60c466296f23c364c92e750bb0d8fec}{handle\+Authors\+In\+Name\+Part}} (Name\+Definition \mbox{\hyperlink{com_8apple___apple_java_extensions_8txt_acb1a49b0ddb52b756e294b2eae8cb969}{name}}, List$<$ String $>$ authors, Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_acca610d0e4cca647c0f92c29b2e2a99a}{put\+If\+Value\+Not\+Null}} (Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$ \mbox{\hyperlink{_readme_8txt_ae064858a8fe490b7a7b1380dcb03cc9c}{fields}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field, String value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a28ec9764d1c8c55035dc40bec172a56f}{keyword\+Separator}}
+\item 
+J\+A\+X\+B\+Context \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a2d3927492410ff307221d6c6682f1fcc}{context}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a95267ea05c9117604669ff120c9d6d69}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Mods\+Importer.\+class)
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac5e1ef9fe0b67ae38909d656ff41f933}{M\+O\+D\+S\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}$<$mods .$\ast$$>$\char`\"{})
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}} for the M\+O\+DS format.~\newline
+ More details about the format can be found here \href{http://www.loc.gov/standards/mods/}{\texttt{ http\+://www.\+loc.\+gov/standards/mods/}}. ~\newline
+ The newest xml schema can also be found here \href{www.loc.gov/standards/mods/mods-schemas.html.}{\texttt{ www.\+loc.\+gov/standards/mods/mods-\/schemas.html.}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac089bd7971b8cf499b0fd9e8c34ce042}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac089bd7971b8cf499b0fd9e8c34ce042}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!ModsImporter@{ModsImporter}}
+\index{ModsImporter@{ModsImporter}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{ModsImporter()}{ModsImporter()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+Mods\+Importer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}}}]{import\+Format\+Preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac668b7fb0ffb01d6f16479af2a0cc905}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac668b7fb0ffb01d6f16479af2a0cc905}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the description of the import format. 
+
+The description should specify 
+\begin{DoxyItemize}
+\item what kind of entries from what sources and based on what specification it is able to import 
+\item by what criteria it \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a68a2913af50178fb26a39e62e57773df}{recognizes}} an import format 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+description of the import format 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a353c848ebec4d458953971932b28ce03}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a0ec4583f76268f79368273f889e58be4}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a0ec4583f76268f79368273f889e58be4}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!getFileType@{getFileType}}
+\index{getFileType@{getFileType}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{getFileType()}{getFileType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+get\+File\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the type of files that this importer can read
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{}{File\+Type}} corresponding to the importer 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac655d5b73afa6ceb9ccae747ea27be8f}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a86997f82e48f19608b58f30af1593e7a}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a86997f82e48f19608b58f30af1593e7a}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the name of this import format.
+
+The name must be unique.
+
+\begin{DoxyReturn}{Returns}
+format name, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a0224f9749eef18ca9f90b8ddb1771484}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac60c466296f23c364c92e750bb0d8fec}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac60c466296f23c364c92e750bb0d8fec}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!handleAuthorsInNamePart@{handleAuthorsInNamePart}}
+\index{handleAuthorsInNamePart@{handleAuthorsInNamePart}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{handleAuthorsInNamePart()}{handleAuthorsInNamePart()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+handle\+Authors\+In\+Name\+Part (\begin{DoxyParamCaption}\item[{Name\+Definition}]{name,  }\item[{List$<$ String $>$}]{authors,  }\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_aeccdd95e94d2ab46ae70b47844e5f0e2}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_aeccdd95e94d2ab46ae70b47844e5f0e2}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the source. 
+
+This method can be called in two different contexts -\/ either when importing in a specified format, or when importing in unknown format. In the latter case, Jab\+Ref cycles through all available import formats. No error messages or feedback is displayed from individual import formats in this case. 
+
+If importing in a specified format and an empty library is returned, Jab\+Ref reports that no entries were found. 
+
+This method should never return null.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the input to read from \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a68a2913af50178fb26a39e62e57773df}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a68a2913af50178fb26a39e62e57773df}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!isRecognizedFormat@{isRecognizedFormat}}
+\index{isRecognizedFormat@{isRecognizedFormat}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{isRecognizedFormat()}{isRecognizedFormat()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+is\+Recognized\+Format (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check whether the source is in the correct format for this importer. 
+
+The effect of this method is primarily to avoid unnecessary processing of files when searching for a suitable import format. If this method returns false, the import routine will move on to the next import format. 
+
+Thus the correct behaviour is to return false if it is certain that the file is not of the suitable type, and true otherwise. Returning true is the safe choice if not certain. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac42f6f5909d3ed8daa99412f02e85165}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac42f6f5909d3ed8daa99412f02e85165}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseEntries@{parseEntries}}
+\index{parseEntries@{parseEntries}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseEntries()}{parseEntries()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Entries (\begin{DoxyParamCaption}\item[{Input\+Stream}]{input\+Stream }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parse_exception}{Parse\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser_a312894889d2471fa83ac28799524c3b2}{org.\+jabref.\+logic.\+importer.\+Parser}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a6b95ac3c6ac91de810cba18e6d0479bb}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a6b95ac3c6ac91de810cba18e6d0479bb}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseGeographicInformation@{parseGeographicInformation}}
+\index{parseGeographicInformation@{parseGeographicInformation}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseGeographicInformation()}{parseGeographicInformation()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Geographic\+Information (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{Hierarchical\+Geographic\+Definition}]{hierarchichal\+Geographic }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac3f9127014eb69b84572a59f061cf891}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac3f9127014eb69b84572a59f061cf891}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseIdentifier@{parseIdentifier}}
+\index{parseIdentifier@{parseIdentifier}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseIdentifier()}{parseIdentifier()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Identifier (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{Identifier\+Definition}]{identifier,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a529d90031cf813538d7c53b3c57f59b1}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a529d90031cf813538d7c53b3c57f59b1}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseLocationAndUrl@{parseLocationAndUrl}}
+\index{parseLocationAndUrl@{parseLocationAndUrl}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseLocationAndUrl()}{parseLocationAndUrl()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Location\+And\+Url (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{Location\+Definition}]{location\+Definition }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_aca8cfc09f2dd89845e6c497fa4590774}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_aca8cfc09f2dd89845e6c497fa4590774}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseMods@{parseMods}}
+\index{parseMods@{parseMods}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseMods()}{parseMods()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Mods (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{bib\+Items,  }\item[{Mods\+Definition}]{mods\+Definition }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ab012c5e27acd5d323865610d4784a1f6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ab012c5e27acd5d323865610d4784a1f6}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseModsCollection@{parseModsCollection}}
+\index{parseModsCollection@{parseModsCollection}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseModsCollection()}{parseModsCollection()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Mods\+Collection (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$}]{bib\+Items,  }\item[{List$<$ Mods\+Definition $>$}]{mods }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a371dd7307754a5675314fa1b7788de06}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a371dd7307754a5675314fa1b7788de06}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseModsGroup@{parseModsGroup}}
+\index{parseModsGroup@{parseModsGroup}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseModsGroup()}{parseModsGroup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Mods\+Group (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{List$<$ Object $>$}]{mods\+Group,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a92dc9cd031131d1526f2d692f7ff991b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a92dc9cd031131d1526f2d692f7ff991b}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseRecordInfo@{parseRecordInfo}}
+\index{parseRecordInfo@{parseRecordInfo}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseRecordInfo()}{parseRecordInfo()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Record\+Info (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{Record\+Info\+Definition}]{record\+Info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac1cfb6a885fd37ed881d24707c1d6c9d}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac1cfb6a885fd37ed881d24707c1d6c9d}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseRelatedModsGroup@{parseRelatedModsGroup}}
+\index{parseRelatedModsGroup@{parseRelatedModsGroup}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseRelatedModsGroup()}{parseRelatedModsGroup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Related\+Mods\+Group (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{List$<$ Object $>$}]{related\+Mods\+Group }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Puts the Information from the Related\+Mods\+Group. It has the same elements like the Mods\+Group. But Informations like volume, issue and the pages appear here instead of in the Mods\+Group. Also if there appears a title field, then this indicates that is the name of journal which the article belongs to. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a8b68f263aaa7ed0542dabfc514c47825}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a8b68f263aaa7ed0542dabfc514c47825}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseTitle@{parseTitle}}
+\index{parseTitle@{parseTitle}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseTitle()}{parseTitle()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Title (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{List$<$ Object $>$}]{title\+Or\+Sub\+Title\+Or\+Part\+Number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ad21d9f202b0f17593ae0c2bcec8442ce}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ad21d9f202b0f17593ae0c2bcec8442ce}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!parseTopic@{parseTopic}}
+\index{parseTopic@{parseTopic}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{parseTopic()}{parseTopic()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+parse\+Topic (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{List$<$ J\+A\+X\+B\+Element$<$?$>$$>$}]{topic\+Or\+Geographic\+Or\+Temporal,  }\item[{List$<$ String $>$}]{keywords }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_afb0f0f73408dc2114b91aa99ba268a1d}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_afb0f0f73408dc2114b91aa99ba268a1d}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!putDate@{putDate}}
+\index{putDate@{putDate}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{putDate()}{putDate()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+put\+Date (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{String}]{element\+Name,  }\item[{Date\+Definition}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ae2b5b8f1c6a864c1fc5a776ecdc24ddb}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ae2b5b8f1c6a864c1fc5a776ecdc24ddb}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!putIfListIsNotEmpty@{putIfListIsNotEmpty}}
+\index{putIfListIsNotEmpty@{putIfListIsNotEmpty}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{putIfListIsNotEmpty()}{putIfListIsNotEmpty()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+put\+If\+List\+Is\+Not\+Empty (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{List$<$ String $>$}]{list,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{key,  }\item[{String}]{separator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_acca610d0e4cca647c0f92c29b2e2a99a}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_acca610d0e4cca647c0f92c29b2e2a99a}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!putIfValueNotNull@{putIfValueNotNull}}
+\index{putIfValueNotNull@{putIfValueNotNull}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{putIfValueNotNull()}{putIfValueNotNull()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+put\+If\+Value\+Not\+Null (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field,  }\item[{String}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ab2a7243a52b6883a320d5da05ff2fb23}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ab2a7243a52b6883a320d5da05ff2fb23}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!putPageInformation@{putPageInformation}}
+\index{putPageInformation@{putPageInformation}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{putPageInformation()}{putPageInformation()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+put\+Page\+Information (\begin{DoxyParamCaption}\item[{Extent\+Definition}]{extent\+Definition,  }\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a9607527d9bebb1a9dd805eaca6486993}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a9607527d9bebb1a9dd805eaca6486993}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!putPlaceOrPublisherOrDate@{putPlaceOrPublisherOrDate}}
+\index{putPlaceOrPublisherOrDate@{putPlaceOrPublisherOrDate}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{putPlaceOrPublisherOrDate()}{putPlaceOrPublisherOrDate()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+put\+Place\+Or\+Publisher\+Or\+Date (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{String}]{element\+Name,  }\item[{Object}]{object }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac41d1c69ba3748a29c63d7bf1e4678d2}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac41d1c69ba3748a29c63d7bf1e4678d2}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!putPublisherOrEdition@{putPublisherOrEdition}}
+\index{putPublisherOrEdition@{putPublisherOrEdition}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{putPublisherOrEdition()}{putPublisherOrEdition()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+put\+Publisher\+Or\+Edition (\begin{DoxyParamCaption}\item[{Map$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}, String $>$}]{fields,  }\item[{String}]{element\+Name,  }\item[{String\+Plus\+Language\+Plus\+Supplied}]{pub\+Or\+Ed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a2d3927492410ff307221d6c6682f1fcc}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a2d3927492410ff307221d6c6682f1fcc}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!context@{context}}
+\index{context@{context}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{context}{context}}
+{\footnotesize\ttfamily J\+A\+X\+B\+Context org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+context\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a28ec9764d1c8c55035dc40bec172a56f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a28ec9764d1c8c55035dc40bec172a56f}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!keywordSeparator@{keywordSeparator}}
+\index{keywordSeparator@{keywordSeparator}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{keywordSeparator}{keywordSeparator}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+keyword\+Separator\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a95267ea05c9117604669ff120c9d6d69}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_a95267ea05c9117604669ff120c9d6d69}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Mods\+Importer.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac5e1ef9fe0b67ae38909d656ff41f933}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer_ac5e1ef9fe0b67ae38909d656ff41f933}} 
+\index{org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}!MODS\_PATTERN@{MODS\_PATTERN}}
+\index{MODS\_PATTERN@{MODS\_PATTERN}!org.jabref.logic.importer.fileformat.ModsImporter@{org.jabref.logic.importer.fileformat.ModsImporter}}
+\doxysubsubsection{\texorpdfstring{MODS\_PATTERN}{MODS\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Mods\+Importer.\+M\+O\+D\+S\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}$<$mods .$\ast$$>$\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fileformat/\mbox{\hyperlink{_mods_importer_8java}{Mods\+Importer.\+java}}\end{DoxyCompactItemize}

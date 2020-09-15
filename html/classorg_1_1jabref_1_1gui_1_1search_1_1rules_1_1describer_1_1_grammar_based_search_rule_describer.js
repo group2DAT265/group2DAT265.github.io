@@ -1,0 +1,9 @@
+var classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_grammar_based_search_rule_describer =
+[
+    [ "DescriptionSearchBaseVisitor", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_grammar_based_search_rule_describe952c13d071b4b87b41e66dd478c6ff08.html", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_grammar_based_search_rule_describe952c13d071b4b87b41e66dd478c6ff08" ],
+    [ "GrammarBasedSearchRuleDescriber", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_grammar_based_search_rule_describer.html#a32f0c59836ff0027f275704b7be80dbf", null ],
+    [ "getDescription", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_grammar_based_search_rule_describer.html#a4a81700985c20076a6c1410c1e0edd30", null ],
+    [ "caseSensitive", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_grammar_based_search_rule_describer.html#ac291a299009ee8a1786edccedaf69163", null ],
+    [ "parseTree", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_grammar_based_search_rule_describer.html#a7337e1ecf238846c7030cfe85b614e66", null ],
+    [ "regExp", "classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_grammar_based_search_rule_describer.html#a0fee60d98fbdc78af6d7b05902339b39", null ]
+];

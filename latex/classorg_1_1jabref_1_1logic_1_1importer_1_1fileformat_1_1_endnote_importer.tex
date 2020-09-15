@@ -1,0 +1,213 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer}\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a7dfec54f679dfe2abcf0b042c8208305}{Endnote\+Importer}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a0493704d5516420bd78cfbe4edbcccd0}{preferences}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a116d74dc0aec237f44be67fe613c916d}{get\+Name}} ()
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_af88081f744cbe9da94cb2ab8466ea0f3}{get\+File\+Type}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_ad0ee885da7e3f2ca30c6501039cfa408}{get\+Id}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_aed366e99584aa081a123181ddeb1219a}{get\+Description}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_af397bd942f8838b8aad83547fb078df8}{is\+Recognized\+Format}} (Buffered\+Reader reader)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a61752a5a939abfd920dba3961616d7da}{import\+Database}} (Buffered\+Reader reader)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_ae8cd2c2eebdcb0d705ef380aef8568ce}{fix\+Author}} (String \mbox{\hyperlink{_repec_nep_importer_test2_8txt_a3cfb328320a23574608f92574c131457}{s}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a0493704d5516420bd78cfbe4edbcccd0}{preferences}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a2f128861ef661e49a7218330cd1760ac}{E\+N\+D\+O\+F\+R\+E\+C\+O\+RD}} = \char`\"{}\+\_\+\+\_\+\+E\+O\+R\+E\+O\+R\+\_\+\+\_\+\char`\"{}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a53ae895f4bd9a6aaa9eb941b04588be3}{A\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}\%A .$\ast$\char`\"{})
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a2cf3fdd0cb7f350a9c494d5e43d6968a}{E\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}\%E .$\ast$\char`\"{})
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}} for the Refer/\+Endnote format. modified to use article number for pages if pages are missing (some journals, e.\+g., Physical Review Letters, don\textquotesingle{}t use pages anymore)
+
+check here for details on the format \href{http://libguides.csuchico.edu/c.php?g=414245&p=2822898}{\texttt{ http\+://libguides.\+csuchico.\+edu/c.\+php?g=414245\&p=2822898}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a7dfec54f679dfe2abcf0b042c8208305}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a7dfec54f679dfe2abcf0b042c8208305}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!EndnoteImporter@{EndnoteImporter}}
+\index{EndnoteImporter@{EndnoteImporter}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{EndnoteImporter()}{EndnoteImporter()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+Endnote\+Importer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_ae8cd2c2eebdcb0d705ef380aef8568ce}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_ae8cd2c2eebdcb0d705ef380aef8568ce}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!fixAuthor@{fixAuthor}}
+\index{fixAuthor@{fixAuthor}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{fixAuthor()}{fixAuthor()}}
+{\footnotesize\ttfamily static String org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+fix\+Author (\begin{DoxyParamCaption}\item[{String}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+We must be careful about the author names, since they can be presented differently by different sources. Normally each A tag brings one name, and we get the authors separated by \char`\"{} and \char`\"{}. This is the correct behaviour. One source lists the names separated by comma, with a comma at the end. We can detect this format and fix it. 
+\begin{DoxyParams}{Parameters}
+{\em s} & The author string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The fixed author string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_aed366e99584aa081a123181ddeb1219a}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_aed366e99584aa081a123181ddeb1219a}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the description of the import format. 
+
+The description should specify 
+\begin{DoxyItemize}
+\item what kind of entries from what sources and based on what specification it is able to import 
+\item by what criteria it \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_af397bd942f8838b8aad83547fb078df8}{recognizes}} an import format 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+description of the import format 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a353c848ebec4d458953971932b28ce03}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_af88081f744cbe9da94cb2ab8466ea0f3}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_af88081f744cbe9da94cb2ab8466ea0f3}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!getFileType@{getFileType}}
+\index{getFileType@{getFileType}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{getFileType()}{getFileType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+get\+File\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the type of files that this importer can read
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{}{File\+Type}} corresponding to the importer 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac655d5b73afa6ceb9ccae747ea27be8f}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_ad0ee885da7e3f2ca30c6501039cfa408}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_ad0ee885da7e3f2ca30c6501039cfa408}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!getId@{getId}}
+\index{getId@{getId}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a one-\/word ID which identifies this importer. Used for example, to identify the importer when used from the command line.
+
+\begin{DoxyReturn}{Returns}
+ID, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a2d734aa74f4bfb5f18949455af8b2cd7}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a116d74dc0aec237f44be67fe613c916d}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a116d74dc0aec237f44be67fe613c916d}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the name of this import format.
+
+The name must be unique.
+
+\begin{DoxyReturn}{Returns}
+format name, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a0224f9749eef18ca9f90b8ddb1771484}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a61752a5a939abfd920dba3961616d7da}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a61752a5a939abfd920dba3961616d7da}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the source. 
+
+This method can be called in two different contexts -\/ either when importing in a specified format, or when importing in unknown format. In the latter case, Jab\+Ref cycles through all available import formats. No error messages or feedback is displayed from individual import formats in this case. 
+
+If importing in a specified format and an empty library is returned, Jab\+Ref reports that no entries were found. 
+
+This method should never return null.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the input to read from \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_af397bd942f8838b8aad83547fb078df8}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_af397bd942f8838b8aad83547fb078df8}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!isRecognizedFormat@{isRecognizedFormat}}
+\index{isRecognizedFormat@{isRecognizedFormat}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{isRecognizedFormat()}{isRecognizedFormat()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+is\+Recognized\+Format (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check whether the source is in the correct format for this importer. 
+
+The effect of this method is primarily to avoid unnecessary processing of files when searching for a suitable import format. If this method returns false, the import routine will move on to the next import format. 
+
+Thus the correct behaviour is to return false if it is certain that the file is not of the suitable type, and true otherwise. Returning true is the safe choice if not certain. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a53ae895f4bd9a6aaa9eb941b04588be3}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a53ae895f4bd9a6aaa9eb941b04588be3}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!A\_PATTERN@{A\_PATTERN}}
+\index{A\_PATTERN@{A\_PATTERN}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{A\_PATTERN}{A\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+A\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}\%A .$\ast$\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a2cf3fdd0cb7f350a9c494d5e43d6968a}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a2cf3fdd0cb7f350a9c494d5e43d6968a}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!E\_PATTERN@{E\_PATTERN}}
+\index{E\_PATTERN@{E\_PATTERN}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{E\_PATTERN}{E\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+E\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}\%E .$\ast$\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a2f128861ef661e49a7218330cd1760ac}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a2f128861ef661e49a7218330cd1760ac}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!ENDOFRECORD@{ENDOFRECORD}}
+\index{ENDOFRECORD@{ENDOFRECORD}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{ENDOFRECORD}{ENDOFRECORD}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+E\+N\+D\+O\+F\+R\+E\+C\+O\+RD = \char`\"{}\+\_\+\+\_\+\+E\+O\+R\+E\+O\+R\+\_\+\+\_\+\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a0493704d5516420bd78cfbe4edbcccd0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer_a0493704d5516420bd78cfbe4edbcccd0}} 
+\index{org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.logic.importer.fileformat.EndnoteImporter@{org.jabref.logic.importer.fileformat.EndnoteImporter}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Endnote\+Importer.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fileformat/\mbox{\hyperlink{_endnote_importer_8java}{Endnote\+Importer.\+java}}\end{DoxyCompactItemize}

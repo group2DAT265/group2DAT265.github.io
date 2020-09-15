@@ -1,0 +1,28 @@
+var classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view =
+[
+    [ "SharedDatabaseLoginDialogView", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#ab19faffc55d4c18e5213a09e0d4b219c", null ],
+    [ "initialize", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a988d7e96f69121c25bdceaa1cb6bd7e8", null ],
+    [ "openDatabase", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a003dc477ffb58a399cd548a18e5c3574", null ],
+    [ "showOpenKeystoreFileDialog", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#afcd195bd04988802de7aec7d6a39777c", null ],
+    [ "showSaveDbToFileDialog", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a7ba224de4cbe9f58552be2e9f36cd9c3", null ],
+    [ "autosave", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a76745b07c284ad4568701ed6e892d563", null ],
+    [ "browseButton", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a38810b5b762127f3773c120b5df2ae00", null ],
+    [ "browseKeystore", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#af893bc9b446ff26d463ac28c46c65a2a", null ],
+    [ "connectButton", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a81ab3320e45a6e443c75a66af610bf46", null ],
+    [ "database", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a784869b143ff49974c0e41cb93618e3c", null ],
+    [ "databaseType", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#ad4e219d65aebafbdd13060f78611bee3", null ],
+    [ "dialogService", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a0296bfdcc1760c56b4808b5825da8668", null ],
+    [ "fileKeystore", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#aad8e42cad94a7531f4df2fab74040a1a", null ],
+    [ "folder", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a21079c5451f741d6c5c6d008e6d28aaf", null ],
+    [ "frame", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a6ce42f9d7ba3a6fca7bf71dd60476d5e", null ],
+    [ "host", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a4ed39f77faf990530d77ec4cb0adfe04", null ],
+    [ "password", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a89fccda335a61bee3aa8bf825e91609d", null ],
+    [ "passwordKeystore", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a8eb130088363fdd48cf4e5d36c3e9ee3", null ],
+    [ "port", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a6dd07beabdfeebb1c1e93ef351e91702", null ],
+    [ "rememberPassword", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#aeb9af5da914e5b72a47d7bb33d6d7395", null ],
+    [ "serverTimezone", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a2b695208a7dd30fa18ea30ead951c17c", null ],
+    [ "user", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a4659bf3b2abb34221b7c591c758efc3c", null ],
+    [ "useSSL", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a3aba97b36ad293334e8c49d8d22e8069", null ],
+    [ "viewModel", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a05459a4920aa8e0650817517c21c46a2", null ],
+    [ "visualizer", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html#a4fc441a7ca907251a85309358dc412d7", null ]
+];

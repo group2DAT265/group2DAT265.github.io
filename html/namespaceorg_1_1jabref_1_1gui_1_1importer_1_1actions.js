@@ -1,0 +1,8 @@
+var namespaceorg_1_1jabref_1_1gui_1_1importer_1_1actions =
+[
+    [ "CheckForNewEntryTypesAction", "classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_check_for_new_entry_types_action.html", "classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_check_for_new_entry_types_action" ],
+    [ "GUIPostOpenAction", "interfaceorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_g_u_i_post_open_action.html", "interfaceorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_g_u_i_post_open_action" ],
+    [ "MergeReviewIntoCommentAction", "classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_merge_review_into_comment_action.html", "classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_merge_review_into_comment_action" ],
+    [ "MergeReviewIntoCommentConfirmationDialog", "classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_merge_review_into_comment_confirmation_dialog.html", "classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_merge_review_into_comment_confirmation_dialog" ],
+    [ "OpenDatabaseAction", "classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action.html", "classorg_1_1jabref_1_1gui_1_1importer_1_1actions_1_1_open_database_action" ]
+];

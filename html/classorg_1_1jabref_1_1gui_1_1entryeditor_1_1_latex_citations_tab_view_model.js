@@ -1,0 +1,28 @@
+var classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model =
+[
+    [ "LatexCitationsTabViewModel", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a070c7687d086390024046a54c85f465a", null ],
+    [ "cancelSearch", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a41ee7f731135ea1e2d00ba339333e7cd", null ],
+    [ "directoryProperty", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a4e76e5b14e99dd096dc8a99b25133efb", null ],
+    [ "getCitationList", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#ad3f6fe27ee5d4e689627d93319934479", null ],
+    [ "init", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a83346d49ed4764b30ce21f604f1f6a98", null ],
+    [ "searchAndParse", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#aa719ea86c35f0498a9e2cd2d70ce9ec7", null ],
+    [ "searchDirectory", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a4e1289d4fd16295c7157b7e3f027d046", null ],
+    [ "searchErrorProperty", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#ac5a264ff5522da5c92c6939d978e137a", null ],
+    [ "setLatexDirectory", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a7875f80367c1de35b5903409009612be", null ],
+    [ "shouldShow", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#aacab4e205b38b9b67b8b89a4b26461ee", null ],
+    [ "startSearch", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a0b341a5ff5fe9c888925a35fa07fce46", null ],
+    [ "statusProperty", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#ab25ac8a6a621d4639b94a4ca12aaa956", null ],
+    [ "citationList", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a4a738b3da60e591b51641058442ca0a5", null ],
+    [ "currentEntry", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#ad8043b587bda2966915b35676a6d608e", null ],
+    [ "databaseContext", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#acf4e8e11b520e1bea7a352b800becd6b", null ],
+    [ "dialogService", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a2056d30c923bf351d38f28e60648051b", null ],
+    [ "directory", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a3a2ce10581a078ad69b1d98e857f86d7", null ],
+    [ "latexParserResult", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a23fb58b0f8f886c1af40732f8eec52d9", null ],
+    [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#abb3ca5ccad71d1dd4a7454171c4792e6", null ],
+    [ "preferencesService", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a2c9ef3ff954941b7d4cc25e468ad6c86", null ],
+    [ "searchError", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#ab12425849038e6457744c356622923af", null ],
+    [ "searchTask", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#ae1bc29540d53eb5dbeffd98e7c665900", null ],
+    [ "status", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a12cfdf03ad879e8f55a55dd70baeff1b", null ],
+    [ "taskExecutor", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#a7d8c140dd8d4586a868e6394b7b547fe", null ],
+    [ "TEX_EXT", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_latex_citations_tab_view_model.html#ab4534e1bc03a525e45cbebb0b59bfb9b", null ]
+];

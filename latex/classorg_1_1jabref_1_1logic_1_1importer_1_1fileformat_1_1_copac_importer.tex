@@ -1,0 +1,167 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer}\index{org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a0581fca58febb317a25f2d61e611ae9c}{get\+Name}} ()
+\item 
+\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a5bff7f2c1cf635ce006970e483de1090}{get\+File\+Type}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_ae94d835f1477d4fc755f5dcdea81a6ce}{get\+Id}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a0cc5886969ccf627dd1de796535ae249}{get\+Description}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_aa4ee929e543a9483329b0eef1acfa23f}{is\+Recognized\+Format}} (Buffered\+Reader reader)  throws I\+O\+Exception 
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a78ee5a559226002c770ab9bee617d39a}{import\+Database}} (Buffered\+Reader reader)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a8ae54914d92d620a894cdc94d7d30aac}{set\+Or\+Append}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} b, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field, String value, String separator)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Pattern \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a4cfe398baa395467b1596d66aa34a412}{C\+O\+P\+A\+C\+\_\+\+P\+A\+T\+T\+E\+RN}} = Pattern.\+compile(\char`\"{}$^\wedge$\textbackslash{}\textbackslash{}s$\ast$TI-\/ \char`\"{})
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer}{Importer}} for C\+O\+P\+AC format. 
+
+Documentation can be found online at\+: \href{http://copac.ac.uk/faq/\#format}{\texttt{ http\+://copac.\+ac.\+uk/faq/\#format}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a0cc5886969ccf627dd1de796535ae249}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a0cc5886969ccf627dd1de796535ae249}} 
+\index{org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the description of the import format. 
+
+The description should specify 
+\begin{DoxyItemize}
+\item what kind of entries from what sources and based on what specification it is able to import 
+\item by what criteria it \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_aa4ee929e543a9483329b0eef1acfa23f}{recognizes}} an import format 
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+description of the import format 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a353c848ebec4d458953971932b28ce03}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a5bff7f2c1cf635ce006970e483de1090}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a5bff7f2c1cf635ce006970e483de1090}} 
+\index{org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}!getFileType@{getFileType}}
+\index{getFileType@{getFileType}!org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}}
+\doxysubsubsection{\texorpdfstring{getFileType()}{getFileType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type}{Standard\+File\+Type}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer.\+get\+File\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the type of files that this importer can read
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{}{File\+Type}} corresponding to the importer 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ac655d5b73afa6ceb9ccae747ea27be8f}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_ae94d835f1477d4fc755f5dcdea81a6ce}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_ae94d835f1477d4fc755f5dcdea81a6ce}} 
+\index{org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}!getId@{getId}}
+\index{getId@{getId}!org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer.\+get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a one-\/word ID which identifies this importer. Used for example, to identify the importer when used from the command line.
+
+\begin{DoxyReturn}{Returns}
+ID, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a2d734aa74f4bfb5f18949455af8b2cd7}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a0581fca58febb317a25f2d61e611ae9c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a0581fca58febb317a25f2d61e611ae9c}} 
+\index{org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the name of this import format.
+
+The name must be unique.
+
+\begin{DoxyReturn}{Returns}
+format name, must be unique and not {\ttfamily null} 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_a0224f9749eef18ca9f90b8ddb1771484}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a78ee5a559226002c770ab9bee617d39a}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a78ee5a559226002c770ab9bee617d39a}} 
+\index{org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}!importDatabase@{importDatabase}}
+\index{importDatabase@{importDatabase}!org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}}
+\doxysubsubsection{\texorpdfstring{importDatabase()}{importDatabase()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result}{Parser\+Result}} org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer.\+import\+Database (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Parse the database in the source. 
+
+This method can be called in two different contexts -\/ either when importing in a specified format, or when importing in unknown format. In the latter case, Jab\+Ref cycles through all available import formats. No error messages or feedback is displayed from individual import formats in this case. 
+
+If importing in a specified format and an empty library is returned, Jab\+Ref reports that no entries were found. 
+
+This method should never return null.
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & the input to read from \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_acfb6a162cb09ad2c503f2f85cae41aa0}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_aa4ee929e543a9483329b0eef1acfa23f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_aa4ee929e543a9483329b0eef1acfa23f}} 
+\index{org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}!isRecognizedFormat@{isRecognizedFormat}}
+\index{isRecognizedFormat@{isRecognizedFormat}!org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}}
+\doxysubsubsection{\texorpdfstring{isRecognizedFormat()}{isRecognizedFormat()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer.\+is\+Recognized\+Format (\begin{DoxyParamCaption}\item[{Buffered\+Reader}]{input }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check whether the source is in the correct format for this importer. 
+
+The effect of this method is primarily to avoid unnecessary processing of files when searching for a suitable import format. If this method returns false, the import routine will move on to the next import format. 
+
+Thus the correct behaviour is to return false if it is certain that the file is not of the suitable type, and true otherwise. Returning true is the safe choice if not certain. 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_importer_ab54eb85d77a69437fbe9b8ceeae7aedb}{org.\+jabref.\+logic.\+importer.\+Importer}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a8ae54914d92d620a894cdc94d7d30aac}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a8ae54914d92d620a894cdc94d7d30aac}} 
+\index{org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}!setOrAppend@{setOrAppend}}
+\index{setOrAppend@{setOrAppend}!org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}}
+\doxysubsubsection{\texorpdfstring{setOrAppend()}{setOrAppend()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer.\+set\+Or\+Append (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{b,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field,  }\item[{String}]{value,  }\item[{String}]{separator }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a4cfe398baa395467b1596d66aa34a412}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer_a4cfe398baa395467b1596d66aa34a412}} 
+\index{org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}!COPAC\_PATTERN@{COPAC\_PATTERN}}
+\index{COPAC\_PATTERN@{COPAC\_PATTERN}!org.jabref.logic.importer.fileformat.CopacImporter@{org.jabref.logic.importer.fileformat.CopacImporter}}
+\doxysubsubsection{\texorpdfstring{COPAC\_PATTERN}{COPAC\_PATTERN}}
+{\footnotesize\ttfamily final Pattern org.\+jabref.\+logic.\+importer.\+fileformat.\+Copac\+Importer.\+C\+O\+P\+A\+C\+\_\+\+P\+A\+T\+T\+E\+RN = Pattern.\+compile(\char`\"{}$^\wedge$\textbackslash{}\textbackslash{}s$\ast$TI-\/ \char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fileformat/\mbox{\hyperlink{_copac_importer_8java}{Copac\+Importer.\+java}}\end{DoxyCompactItemize}

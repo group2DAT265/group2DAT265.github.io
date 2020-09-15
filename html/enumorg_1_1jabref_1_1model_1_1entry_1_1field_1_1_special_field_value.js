@@ -1,0 +1,25 @@
+var enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value =
+[
+    [ "SpecialFieldValue", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#aab0553f376d27721c724c4fd8bd82acd", null ],
+    [ "getFieldValue", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a61ebb3019662386eedd5e6e7261c6786", null ],
+    [ "getKeyword", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a01d2b76a8fbc2495f2dfcf75eca2db6f", null ],
+    [ "getRating", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a8817cf598cb61284cd9d11e653f1623f", null ],
+    [ "toRating", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#aed589fa4262680ff716734cbb2174ba6", null ],
+    [ "CLEAR_PRIORITY", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a9cfa0585fcc790200f29f1d24172d8fc", null ],
+    [ "CLEAR_RANK", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a8131510b2808fcaffab220882405fa4b", null ],
+    [ "CLEAR_READ_STATUS", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#ab0ae42713ec96a639761cfc64a390e5e", null ],
+    [ "keyword", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#ad5cc44f1658f5fc19616a012e029b63e", null ],
+    [ "PRINTED", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#ac666b6f299b4a53432714a1e0c1a8e05", null ],
+    [ "PRIORITY_HIGH", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#ab2abcf66a9e54677cdb45f2303702644", null ],
+    [ "PRIORITY_LOW", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a725381ee6c5df2a05e8eb16b96277c2c", null ],
+    [ "PRIORITY_MEDIUM", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a6d2ff8ec2463adeafee9f21e5d3766b5", null ],
+    [ "QUALITY_ASSURED", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a62145d719aac0209b70f764b38e52c34", null ],
+    [ "RANK_1", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#aeff0c8ea0485d1c8faf93f384f6f2a8c", null ],
+    [ "RANK_2", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#ad89dc0df05afdbf9e9bbc4025a73c912", null ],
+    [ "RANK_3", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#ac70bfc35456b0ee1bfa1544cecdd897d", null ],
+    [ "RANK_4", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a226dc0fbf9435b5ed75b723e311e7913", null ],
+    [ "RANK_5", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a94df8d6bb4a130422749639b96bccf6f", null ],
+    [ "READ", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#ac12050328ec99d6c14a9ab8b4cf9475a", null ],
+    [ "RELEVANT", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#affd611cbcdfdec54f394836b7484be5e", null ],
+    [ "SKIMMED", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#a6a6ce1f43830c0b8813b2c309cff16d0", null ]
+];

@@ -1,0 +1,4 @@
+var classorg_1_1jabref_1_1gui_1_1commonfxcontrols_1_1_citation_key_pattern_panel_1_1_highlight_table_row =
+[
+    [ "updateItem", "classorg_1_1jabref_1_1gui_1_1commonfxcontrols_1_1_citation_key_pattern_panel_1_1_highlight_table_row.html#a162d5fe862ce0bf8ab2ed4d810c1c8eb", null ]
+];

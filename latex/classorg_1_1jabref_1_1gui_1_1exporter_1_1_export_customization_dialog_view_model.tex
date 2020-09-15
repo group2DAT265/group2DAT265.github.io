@@ -1,0 +1,135 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model}{}\doxysection{org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model}\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+Inheritance diagram for org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a282e1b49eefcfc3ecabd6fcc466dd29e}{Export\+Customization\+Dialog\+View\+Model}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a6a6f38e28166612e87bd2378fc549d7e}{preferences}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a08cd13ca92f6798cbfe339baa100b100}{dialog\+Service}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1journals_1_1_journal_abbreviation_repository}{Journal\+Abbreviation\+Repository}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_aca53b0e82b14530d6f4924752068dbcc}{repository}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_af573b191c7fef6c88db0ad68cfb38e27}{add\+Exporter}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ae383313376c2c5180944adff9f3affeb}{modify\+Exporter}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a5d5f44c65d48606de43f4e5ab0d4351b}{remove\+Exporters}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a1b4d1e988e67a7f71241166e8a38b0d3}{save\+To\+Prefs}} ()
+\item 
+List\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_exporter_view_model}{Exporter\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a63f0f19c3082091db424622e4011871f}{selected\+Exporters\+Property}} ()
+\item 
+List\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_exporter_view_model}{Exporter\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a020dee475eeb9ef1f05c0d90bc9bd444}{exporters\+Property}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ade02a2d1fef2303f0ecd095992503f00}{load\+Exporters}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final List\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_exporter_view_model}{Exporter\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ad1327a7dff9a91f609dac8b3e57fceb9}{exporters}} = new Simple\+List\+Property$<$$>$(F\+X\+Collections.\+observable\+Array\+List())
+\item 
+final List\+Property$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_exporter_view_model}{Exporter\+View\+Model}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ab8006a92833d2f97f0f22e79887a3109}{selected\+Exporters}} = new Simple\+List\+Property$<$$>$(F\+X\+Collections.\+observable\+Array\+List())
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a6a6f38e28166612e87bd2378fc549d7e}{preferences}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a08cd13ca92f6798cbfe339baa100b100}{dialog\+Service}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1journals_1_1_journal_abbreviation_repository}{Journal\+Abbreviation\+Repository}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_aca53b0e82b14530d6f4924752068dbcc}{repository}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a282e1b49eefcfc3ecabd6fcc466dd29e}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a282e1b49eefcfc3ecabd6fcc466dd29e}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!ExportCustomizationDialogViewModel@{ExportCustomizationDialogViewModel}}
+\index{ExportCustomizationDialogViewModel@{ExportCustomizationDialogViewModel}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{ExportCustomizationDialogViewModel()}{ExportCustomizationDialogViewModel()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+Export\+Customization\+Dialog\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}}}]{preferences,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1journals_1_1_journal_abbreviation_repository}{Journal\+Abbreviation\+Repository}}}]{repository }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_af573b191c7fef6c88db0ad68cfb38e27}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_af573b191c7fef6c88db0ad68cfb38e27}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!addExporter@{addExporter}}
+\index{addExporter@{addExporter}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{addExporter()}{addExporter()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+add\+Exporter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a020dee475eeb9ef1f05c0d90bc9bd444}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a020dee475eeb9ef1f05c0d90bc9bd444}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!exportersProperty@{exportersProperty}}
+\index{exportersProperty@{exportersProperty}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{exportersProperty()}{exportersProperty()}}
+{\footnotesize\ttfamily List\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_exporter_view_model}{Exporter\+View\+Model}}$>$ org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+exporters\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ade02a2d1fef2303f0ecd095992503f00}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ade02a2d1fef2303f0ecd095992503f00}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!loadExporters@{loadExporters}}
+\index{loadExporters@{loadExporters}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{loadExporters()}{loadExporters()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+load\+Exporters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ae383313376c2c5180944adff9f3affeb}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ae383313376c2c5180944adff9f3affeb}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!modifyExporter@{modifyExporter}}
+\index{modifyExporter@{modifyExporter}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{modifyExporter()}{modifyExporter()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+modify\+Exporter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a5d5f44c65d48606de43f4e5ab0d4351b}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a5d5f44c65d48606de43f4e5ab0d4351b}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!removeExporters@{removeExporters}}
+\index{removeExporters@{removeExporters}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{removeExporters()}{removeExporters()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+remove\+Exporters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a1b4d1e988e67a7f71241166e8a38b0d3}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a1b4d1e988e67a7f71241166e8a38b0d3}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!saveToPrefs@{saveToPrefs}}
+\index{saveToPrefs@{saveToPrefs}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{saveToPrefs()}{saveToPrefs()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+save\+To\+Prefs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a63f0f19c3082091db424622e4011871f}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a63f0f19c3082091db424622e4011871f}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!selectedExportersProperty@{selectedExportersProperty}}
+\index{selectedExportersProperty@{selectedExportersProperty}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{selectedExportersProperty()}{selectedExportersProperty()}}
+{\footnotesize\ttfamily List\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_exporter_view_model}{Exporter\+View\+Model}}$>$ org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+selected\+Exporters\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a08cd13ca92f6798cbfe339baa100b100}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a08cd13ca92f6798cbfe339baa100b100}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ad1327a7dff9a91f609dac8b3e57fceb9}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ad1327a7dff9a91f609dac8b3e57fceb9}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!exporters@{exporters}}
+\index{exporters@{exporters}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{exporters}{exporters}}
+{\footnotesize\ttfamily final List\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_exporter_view_model}{Exporter\+View\+Model}}$>$ org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+exporters = new Simple\+List\+Property$<$$>$(F\+X\+Collections.\+observable\+Array\+List())\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a6a6f38e28166612e87bd2378fc549d7e}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_a6a6f38e28166612e87bd2378fc549d7e}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service}{Preferences\+Service}} org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_aca53b0e82b14530d6f4924752068dbcc}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_aca53b0e82b14530d6f4924752068dbcc}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!repository@{repository}}
+\index{repository@{repository}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{repository}{repository}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1journals_1_1_journal_abbreviation_repository}{Journal\+Abbreviation\+Repository}} org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+repository\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ab8006a92833d2f97f0f22e79887a3109}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_export_customization_dialog_view_model_ab8006a92833d2f97f0f22e79887a3109}} 
+\index{org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}!selectedExporters@{selectedExporters}}
+\index{selectedExporters@{selectedExporters}!org.jabref.gui.exporter.ExportCustomizationDialogViewModel@{org.jabref.gui.exporter.ExportCustomizationDialogViewModel}}
+\doxysubsubsection{\texorpdfstring{selectedExporters}{selectedExporters}}
+{\footnotesize\ttfamily final List\+Property$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_exporter_view_model}{Exporter\+View\+Model}}$>$ org.\+jabref.\+gui.\+exporter.\+Export\+Customization\+Dialog\+View\+Model.\+selected\+Exporters = new Simple\+List\+Property$<$$>$(F\+X\+Collections.\+observable\+Array\+List())\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/exporter/\mbox{\hyperlink{_export_customization_dialog_view_model_8java}{Export\+Customization\+Dialog\+View\+Model.\+java}}\end{DoxyCompactItemize}

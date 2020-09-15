@@ -1,0 +1,119 @@
+\hypertarget{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper}{}\doxysection{org.\+jabref.\+model.\+util.\+File\+Helper Class Reference}
+\label{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper}\index{org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a7c76690f5e3b2bf6c91814fe47176015}{get\+File\+Extension}} (Path \mbox{\hyperlink{de_8undercouch_8citeproc-java_8txt_a54c3aaa43358b77e4f57f4f72cbe56c6}{file}})
+\item 
+static Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a205c4b37a86c593086c91ea93b8696ab}{get\+File\+Extension}} (String file\+Name)
+\item 
+static Optional$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_ab78d05abe0c92f0c85fc0520791db362}{find}} (final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}} database\+Context, String file\+Name, \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_file_preferences}{File\+Preferences}} file\+Preferences)
+\item 
+static Optional$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a51f2df057633f6e0e3db0614848f6d3b}{find}} (String file\+Name, List$<$ Path $>$ directories)
+\item 
+static Optional$<$ Path $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a6bf9ee3f152dc0ddccb64b1874c195fe}{find}} (String file\+Name, Path directory)
+\item 
+static Path \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a574639f3956de81c4f582e3de28de6ab}{relativize}} (Path path, List$<$ Path $>$ file\+Directories)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_ab7ec2355fe6d65d97124bb3b9d836289}{detect\+Extension}} (Input\+Stream is, Metadata meta\+Data)  throws I\+O\+Exception, Mime\+Type\+Exception 
+\item 
+static boolean \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_af9b350ae2db8abd269cab760d089c75f}{is\+Url}} (String url)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_ab7ec2355fe6d65d97124bb3b9d836289}\label{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_ab7ec2355fe6d65d97124bb3b9d836289}} 
+\index{org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}!detectExtension@{detectExtension}}
+\index{detectExtension@{detectExtension}!org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}}
+\doxysubsubsection{\texorpdfstring{detectExtension()}{detectExtension()}}
+{\footnotesize\ttfamily static Optional$<$String$>$ org.\+jabref.\+model.\+util.\+File\+Helper.\+detect\+Extension (\begin{DoxyParamCaption}\item[{Input\+Stream}]{is,  }\item[{Metadata}]{meta\+Data }\end{DoxyParamCaption}) throws I\+O\+Exception, Mime\+Type\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_ab78d05abe0c92f0c85fc0520791db362}\label{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_ab78d05abe0c92f0c85fc0520791db362}} 
+\index{org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}!find@{find}}
+\index{find@{find}!org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily static Optional$<$Path$>$ org.\+jabref.\+model.\+util.\+File\+Helper.\+find (\begin{DoxyParamCaption}\item[{final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context}{Bib\+Database\+Context}}}]{database\+Context,  }\item[{String}]{file\+Name,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_file_preferences}{File\+Preferences}}}]{file\+Preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Converts a relative filename to an absolute one, if necessary. Returns an empty optional if the file does not exist.~\newline
+ 
+
+Uses 
+\begin{DoxyItemize}
+\item the default directory associated with the extension of the file 
+\item the standard file directory 
+\item the directory of the B\+IB file 
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}{Parameters}
+{\em database\+Context} & The database this file belongs to. \\
+\hline
+{\em file\+Name} & The filename, may also be a relative path to the file \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a51f2df057633f6e0e3db0614848f6d3b}\label{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a51f2df057633f6e0e3db0614848f6d3b}} 
+\index{org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}!find@{find}}
+\index{find@{find}!org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static Optional$<$Path$>$ org.\+jabref.\+model.\+util.\+File\+Helper.\+find (\begin{DoxyParamCaption}\item[{String}]{file\+Name,  }\item[{List$<$ Path $>$}]{directories }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Converts a relative filename to an absolute one, if necessary. Returns an empty optional if the file does not exist. 
+
+Will look in each of the given directories starting from the beginning and returning the first found file to match if any. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a6bf9ee3f152dc0ddccb64b1874c195fe}\label{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a6bf9ee3f152dc0ddccb64b1874c195fe}} 
+\index{org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}!find@{find}}
+\index{find@{find}!org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily static Optional$<$Path$>$ org.\+jabref.\+model.\+util.\+File\+Helper.\+find (\begin{DoxyParamCaption}\item[{String}]{file\+Name,  }\item[{Path}]{directory }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Converts a relative filename to an absolute one, if necessary. Returns an empty optional if the file does not exist. \mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a7c76690f5e3b2bf6c91814fe47176015}\label{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a7c76690f5e3b2bf6c91814fe47176015}} 
+\index{org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}!getFileExtension@{getFileExtension}}
+\index{getFileExtension@{getFileExtension}!org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}}
+\doxysubsubsection{\texorpdfstring{getFileExtension()}{getFileExtension()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static Optional$<$String$>$ org.\+jabref.\+model.\+util.\+File\+Helper.\+get\+File\+Extension (\begin{DoxyParamCaption}\item[{Path}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns the extension of a file or Optional.\+empty() if the file does not have one (no . in name).
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The extension, trimmed and in lowercase. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a205c4b37a86c593086c91ea93b8696ab}\label{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a205c4b37a86c593086c91ea93b8696ab}} 
+\index{org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}!getFileExtension@{getFileExtension}}
+\index{getFileExtension@{getFileExtension}!org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}}
+\doxysubsubsection{\texorpdfstring{getFileExtension()}{getFileExtension()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static Optional$<$String$>$ org.\+jabref.\+model.\+util.\+File\+Helper.\+get\+File\+Extension (\begin{DoxyParamCaption}\item[{String}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns the extension of a file name or Optional.\+empty() if the file does not have one (no \char`\"{}.\char`\"{} in name).
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The extension (without leading dot), trimmed and in lowercase. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_af9b350ae2db8abd269cab760d089c75f}\label{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_af9b350ae2db8abd269cab760d089c75f}} 
+\index{org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}!isUrl@{isUrl}}
+\index{isUrl@{isUrl}!org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}}
+\doxysubsubsection{\texorpdfstring{isUrl()}{isUrl()}}
+{\footnotesize\ttfamily static boolean org.\+jabref.\+model.\+util.\+File\+Helper.\+is\+Url (\begin{DoxyParamCaption}\item[{String}]{url }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a574639f3956de81c4f582e3de28de6ab}\label{classorg_1_1jabref_1_1model_1_1util_1_1_file_helper_a574639f3956de81c4f582e3de28de6ab}} 
+\index{org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}!relativize@{relativize}}
+\index{relativize@{relativize}!org.jabref.model.util.FileHelper@{org.jabref.model.util.FileHelper}}
+\doxysubsubsection{\texorpdfstring{relativize()}{relativize()}}
+{\footnotesize\ttfamily static Path org.\+jabref.\+model.\+util.\+File\+Helper.\+relativize (\begin{DoxyParamCaption}\item[{Path}]{path,  }\item[{List$<$ Path $>$}]{file\+Directories }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/model/util/\mbox{\hyperlink{_file_helper_8java}{File\+Helper.\+java}}\end{DoxyCompactItemize}

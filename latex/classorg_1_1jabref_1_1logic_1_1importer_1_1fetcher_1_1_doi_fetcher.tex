@@ -1,0 +1,170 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher}\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a40ed895deef0a8b631d0592534f01fc6}{Doi\+Fetcher}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a7d88b47c903ac18d30f065496ef417fd}{preferences}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a6114c619480cf20512fe44b065f545dd}{get\+Name}} ()
+\item 
+Optional$<$ \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file}{Help\+File}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_ae34bd18d979fae034b58e9285ea8fca0}{get\+Help\+Page}} ()
+\item 
+Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a53d11f368e104f149284d529919b6991}{perform\+Search\+By\+Id}} (String identifier)  throws Fetcher\+Exception 
+\item 
+List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_ab100f4ba974cc0782429f5284ba88c8c}{perform\+Search}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)  throws Fetcher\+Exception 
+\item 
+Optional$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_af7658d6df900ff34e4b98f3277daeb11}{get\+Agency}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_d_o_i}{D\+OI}} doi)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a764586ded511c0c78d5d9f1ba291d60f}{N\+A\+ME}} = \char`\"{}D\+OI\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a5cb47b9a2dc29b8139428f0a2df92b2c}{do\+Post\+Cleanup}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} entry)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a7d88b47c903ac18d30f065496ef417fd}{preferences}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a1e759cfa95cbaf95d7a093499035cc09}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Doi\+Fetcher.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a40ed895deef0a8b631d0592534f01fc6}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a40ed895deef0a8b631d0592534f01fc6}} 
+\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}!DoiFetcher@{DoiFetcher}}
+\index{DoiFetcher@{DoiFetcher}!org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+\doxysubsubsection{\texorpdfstring{DoiFetcher()}{DoiFetcher()}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher.\+Doi\+Fetcher (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a5cb47b9a2dc29b8139428f0a2df92b2c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a5cb47b9a2dc29b8139428f0a2df92b2c}} 
+\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}!doPostCleanup@{doPostCleanup}}
+\index{doPostCleanup@{doPostCleanup}!org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+\doxysubsubsection{\texorpdfstring{doPostCleanup()}{doPostCleanup()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher.\+do\+Post\+Cleanup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_af7658d6df900ff34e4b98f3277daeb11}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_af7658d6df900ff34e4b98f3277daeb11}} 
+\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}!getAgency@{getAgency}}
+\index{getAgency@{getAgency}!org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+\doxysubsubsection{\texorpdfstring{getAgency()}{getAgency()}}
+{\footnotesize\ttfamily Optional$<$String$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher.\+get\+Agency (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1identifier_1_1_d_o_i}{D\+OI}}}]{doi }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns registration agency. Optional.\+empty() if no agency is found.
+
+
+\begin{DoxyParams}{Parameters}
+{\em doi} & the D\+OI to be searched \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_ae34bd18d979fae034b58e9285ea8fca0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_ae34bd18d979fae034b58e9285ea8fca0}} 
+\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}!getHelpPage@{getHelpPage}}
+\index{getHelpPage@{getHelpPage}!org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+\doxysubsubsection{\texorpdfstring{getHelpPage()}{getHelpPage()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file}{Help\+File}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher.\+get\+Help\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the help page for this fetcher.
+
+\begin{DoxyReturn}{Returns}
+the \mbox{\hyperlink{}{Help\+File}} enum constant for the help page 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a10fe1737a47dac8e4bf8ad4f24626cbe}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a6114c619480cf20512fe44b065f545dd}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a6114c619480cf20512fe44b065f545dd}} 
+\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the localized name of this fetcher. The title can be used to display the fetcher in the menu and in the side pane.
+
+\begin{DoxyReturn}{Returns}
+the localized name 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a9512c95b5bf85e727c975fe2db72e6bf}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_ab100f4ba974cc0782429f5284ba88c8c}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_ab100f4ba974cc0782429f5284ba88c8c}} 
+\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}!performSearch@{performSearch}}
+\index{performSearch@{performSearch}!org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+\doxysubsubsection{\texorpdfstring{performSearch()}{performSearch()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher.\+perform\+Search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Looks for hits which are matched by the given \mbox{\hyperlink{}{Bib\+Entry}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry} & entry to search bibliographic information for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a list of \mbox{\hyperlink{}{Bib\+Entry}}, which are matched by the query (may be empty) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_entry_based_fetcher_a2d409b6f43bcd2c506facd1d60cf1c55}{org.\+jabref.\+logic.\+importer.\+Entry\+Based\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a53d11f368e104f149284d529919b6991}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a53d11f368e104f149284d529919b6991}} 
+\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}!performSearchById@{performSearchById}}
+\index{performSearchById@{performSearchById}!org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+\doxysubsubsection{\texorpdfstring{performSearchById()}{performSearchById()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher.\+perform\+Search\+By\+Id (\begin{DoxyParamCaption}\item[{String}]{identifier }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Looks for bibliographic information associated to the given identifier.
+
+
+\begin{DoxyParams}{Parameters}
+{\em identifier} & a string which uniquely identifies the item \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a \mbox{\hyperlink{}{Bib\+Entry}} containing the bibliographic information (or an empty optional if no data was found) 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher_af6a71a8b42f5c24f51ce8c0d855af1f1}{org.\+jabref.\+logic.\+importer.\+Id\+Based\+Fetcher}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a1e759cfa95cbaf95d7a093499035cc09}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a1e759cfa95cbaf95d7a093499035cc09}} 
+\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Doi\+Fetcher.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a764586ded511c0c78d5d9f1ba291d60f}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a764586ded511c0c78d5d9f1ba291d60f}} 
+\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}!NAME@{NAME}}
+\index{NAME@{NAME}!org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+\doxysubsubsection{\texorpdfstring{NAME}{NAME}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher.\+N\+A\+ME = \char`\"{}D\+OI\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a7d88b47c903ac18d30f065496ef417fd}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_fetcher_a7d88b47c903ac18d30f065496ef417fd}} 
+\index{org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.logic.importer.fetcher.DoiFetcher@{org.jabref.logic.importer.fetcher.DoiFetcher}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences}{Import\+Format\+Preferences}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Doi\+Fetcher.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_doi_fetcher_8java}{Doi\+Fetcher.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,25 @@
+var classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer =
+[
+    [ "EndnoteXmlImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a8c12a9e81f24ecb5a3dd498951b52099", null ],
+    [ "clean", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a552813f0e2c91cdb82eeca0f66dbd7d8", null ],
+    [ "convertRefNameToType", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#ac7b5b84643b7289595ed9c87587fee43", null ],
+    [ "getAuthors", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#abb6d9f0ae878ec9d4cef61d53ec10322", null ],
+    [ "getDescription", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a30835fa626bd66f9237fb3028e42ed53", null ],
+    [ "getFileType", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a04416fc4aca31ecba5d48896bd5b3fc9", null ],
+    [ "getId", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#aeaea063da7319910d12c9524e706fa02", null ],
+    [ "getKeywords", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a4e21a61a6682568ba73ea1cf8f494218", null ],
+    [ "getLinkedFiles", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#ad091a4f5ea5ec1d5ba9759590f561de3", null ],
+    [ "getName", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a1793f2092a729265fb276d8d8b94d65a", null ],
+    [ "getType", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a79b92bf21bf2aef35fcae2b795f2afb0", null ],
+    [ "getUrl", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a5d799ac7e85d4e870659b56955b4ffaf", null ],
+    [ "getUrlValue", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#ae66f3aa0d8dd597a009c2f5cd94cf7e4", null ],
+    [ "importDatabase", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#af6087b7a020dd42436b1a8d1dbdd6755", null ],
+    [ "initUnmarshaller", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a4a8cc5fccbb3308bd2e7d6930c181d1f", null ],
+    [ "isRecognizedFormat", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a2218c9c5d6f268d4fe65f03212b61be5", null ],
+    [ "parseEntries", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a2da6af63f6af429a502a41f115389d30", null ],
+    [ "parseRecord", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a1b9d04a70ce4fef9945032dd7294156a", null ],
+    [ "unmarshallRoot", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#ab3feed038eeb39eb1a2b049e9bdb3f42", null ],
+    [ "LOGGER", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a3a609b6ad3fdabcbe8cab22b3a8f11a3", null ],
+    [ "preferences", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a5bbca2a8389150f1ad32fb2cd826c6a8", null ],
+    [ "unmarshaller", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html#a84757c12025b746f4bf8da8999dfb69b", null ]
+];

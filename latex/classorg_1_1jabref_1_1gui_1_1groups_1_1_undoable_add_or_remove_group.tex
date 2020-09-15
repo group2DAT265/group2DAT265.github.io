@@ -1,0 +1,149 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group}{}\doxysection{org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group}\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+Inheritance diagram for org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_ac06f04e71d91187f673186dcc14c2114}{Undoable\+Add\+Or\+Remove\+Group}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model}{Group\+Tree\+Node\+View\+Model}} groups\+Root, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model}{Group\+Tree\+Node\+View\+Model}} edited\+Node, int edit\+Type)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a02cd0d9dc565a751bb6f9891f1dfb0de}{get\+Presentation\+Name}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_ac03cd8d7b99527e51aab1b5196d7da7c}{undo}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a291bfc617785c6e229a32c755f369826}{redo}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a48eeb9f75e328835627089c66907a630}{A\+D\+D\+\_\+\+N\+O\+DE}} = 0
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a5ae3932754ad996154f010e311e7a63a}{R\+E\+M\+O\+V\+E\+\_\+\+N\+O\+D\+E\+\_\+\+K\+E\+E\+P\+\_\+\+C\+H\+I\+L\+D\+R\+EN}} = 1
+\item 
+static final int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a27fc06138e5e0ba469643285e0602595}{R\+E\+M\+O\+V\+E\+\_\+\+N\+O\+D\+E\+\_\+\+A\+N\+D\+\_\+\+C\+H\+I\+L\+D\+R\+EN}} = 2
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_aaeb6b75dca8c40c01615d5bd0943f1c9}{do\+Operation}} (boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_ac03cd8d7b99527e51aab1b5196d7da7c}{undo}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model}{Group\+Tree\+Node\+View\+Model}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_afff5b0bbdfd2eee164feedbb600970f0}{m\+\_\+groups\+Root\+Handle}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_aee8168dc2caaf1ee5724df16e1e8944d}{m\+\_\+subtree\+Backup}}
+\item 
+final int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a17e89d4a6cfecf43407314701a3490f2}{m\+\_\+subtree\+Root\+Child\+Count}}
+\item 
+final List$<$ Integer $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a2a4b0cb697aad63652908370d11b4e61}{m\+\_\+path\+To\+Node}}
+\item 
+final int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a25e43f742cbf2c2e4cc6276ac8ba3619}{m\+\_\+edit\+Type}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_ac06f04e71d91187f673186dcc14c2114}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_ac06f04e71d91187f673186dcc14c2114}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!UndoableAddOrRemoveGroup@{UndoableAddOrRemoveGroup}}
+\index{UndoableAddOrRemoveGroup@{UndoableAddOrRemoveGroup}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{UndoableAddOrRemoveGroup()}{UndoableAddOrRemoveGroup()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+Undoable\+Add\+Or\+Remove\+Group (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model}{Group\+Tree\+Node\+View\+Model}}}]{groups\+Root,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model}{Group\+Tree\+Node\+View\+Model}}}]{edited\+Node,  }\item[{int}]{edit\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Creates an object that can undo/redo an edit event.
+
+
+\begin{DoxyParams}{Parameters}
+{\em groups\+Root} & The global groups root. \\
+\hline
+{\em edit\+Type} & The type of editing (A\+D\+D\+\_\+\+N\+O\+DE, R\+E\+M\+O\+V\+E\+\_\+\+N\+O\+D\+E\+\_\+\+K\+E\+E\+P\+\_\+\+C\+H\+I\+L\+D\+R\+EN, R\+E\+M\+O\+V\+E\+\_\+\+N\+O\+D\+E\+\_\+\+A\+N\+D\+\_\+\+C\+H\+I\+L\+D\+R\+EN) \\
+\hline
+{\em edited\+Node} & The edited node (which was added or will be removed). The node must be a descendant of node {\bfseries{groups\+Root}}! This means that, in case of adding, you first have to add it to the tree, then call this constructor. When removing, you first have to call this constructor, then remove the node. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_aaeb6b75dca8c40c01615d5bd0943f1c9}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_aaeb6b75dca8c40c01615d5bd0943f1c9}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!doOperation@{doOperation}}
+\index{doOperation@{doOperation}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{doOperation()}{doOperation()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+do\+Operation (\begin{DoxyParamCaption}\item[{boolean}]{undo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a02cd0d9dc565a751bb6f9891f1dfb0de}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a02cd0d9dc565a751bb6f9891f1dfb0de}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!getPresentationName@{getPresentationName}}
+\index{getPresentationName@{getPresentationName}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{getPresentationName()}{getPresentationName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+get\+Presentation\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a291bfc617785c6e229a32c755f369826}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a291bfc617785c6e229a32c755f369826}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!redo@{redo}}
+\index{redo@{redo}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{redo()}{redo()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+redo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_ac03cd8d7b99527e51aab1b5196d7da7c}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_ac03cd8d7b99527e51aab1b5196d7da7c}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!undo@{undo}}
+\index{undo@{undo}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+undo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a48eeb9f75e328835627089c66907a630}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a48eeb9f75e328835627089c66907a630}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!ADD\_NODE@{ADD\_NODE}}
+\index{ADD\_NODE@{ADD\_NODE}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{ADD\_NODE}{ADD\_NODE}}
+{\footnotesize\ttfamily final int org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+A\+D\+D\+\_\+\+N\+O\+DE = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+Adding of a single node (group). \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a25e43f742cbf2c2e4cc6276ac8ba3619}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a25e43f742cbf2c2e4cc6276ac8ba3619}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!m\_editType@{m\_editType}}
+\index{m\_editType@{m\_editType}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{m\_editType}{m\_editType}}
+{\footnotesize\ttfamily final int org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+m\+\_\+edit\+Type\hspace{0.3cm}{\ttfamily [private]}}
+
+The type of the editing (A\+D\+D\+\_\+\+N\+O\+DE, R\+E\+M\+O\+V\+E\+\_\+\+N\+O\+D\+E\+\_\+\+K\+E\+E\+P\+\_\+\+C\+H\+I\+L\+D\+R\+EN, R\+E\+M\+O\+V\+E\+\_\+\+N\+O\+D\+E\+\_\+\+A\+N\+D\+\_\+\+C\+H\+I\+L\+D\+R\+EN) \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_afff5b0bbdfd2eee164feedbb600970f0}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_afff5b0bbdfd2eee164feedbb600970f0}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!m\_groupsRootHandle@{m\_groupsRootHandle}}
+\index{m\_groupsRootHandle@{m\_groupsRootHandle}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{m\_groupsRootHandle}{m\_groupsRootHandle}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model}{Group\+Tree\+Node\+View\+Model}} org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+m\+\_\+groups\+Root\+Handle\hspace{0.3cm}{\ttfamily [private]}}
+
+The root of the global groups tree \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a2a4b0cb697aad63652908370d11b4e61}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a2a4b0cb697aad63652908370d11b4e61}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!m\_pathToNode@{m\_pathToNode}}
+\index{m\_pathToNode@{m\_pathToNode}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{m\_pathToNode}{m\_pathToNode}}
+{\footnotesize\ttfamily final List$<$Integer$>$ org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+m\+\_\+path\+To\+Node\hspace{0.3cm}{\ttfamily [private]}}
+
+The path to the edited subtree\textquotesingle{}s root node \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_aee8168dc2caaf1ee5724df16e1e8944d}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_aee8168dc2caaf1ee5724df16e1e8944d}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!m\_subtreeBackup@{m\_subtreeBackup}}
+\index{m\_subtreeBackup@{m\_subtreeBackup}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{m\_subtreeBackup}{m\_subtreeBackup}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node}{Group\+Tree\+Node}} org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+m\+\_\+subtree\+Backup\hspace{0.3cm}{\ttfamily [private]}}
+
+The subtree that was added or removed \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a17e89d4a6cfecf43407314701a3490f2}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a17e89d4a6cfecf43407314701a3490f2}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!m\_subtreeRootChildCount@{m\_subtreeRootChildCount}}
+\index{m\_subtreeRootChildCount@{m\_subtreeRootChildCount}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{m\_subtreeRootChildCount}{m\_subtreeRootChildCount}}
+{\footnotesize\ttfamily final int org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+m\+\_\+subtree\+Root\+Child\+Count\hspace{0.3cm}{\ttfamily [private]}}
+
+In case of removing a node but keeping all of its children, the number of children has to be stored. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a27fc06138e5e0ba469643285e0602595}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a27fc06138e5e0ba469643285e0602595}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!REMOVE\_NODE\_AND\_CHILDREN@{REMOVE\_NODE\_AND\_CHILDREN}}
+\index{REMOVE\_NODE\_AND\_CHILDREN@{REMOVE\_NODE\_AND\_CHILDREN}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{REMOVE\_NODE\_AND\_CHILDREN}{REMOVE\_NODE\_AND\_CHILDREN}}
+{\footnotesize\ttfamily final int org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+R\+E\+M\+O\+V\+E\+\_\+\+N\+O\+D\+E\+\_\+\+A\+N\+D\+\_\+\+C\+H\+I\+L\+D\+R\+EN = 2\hspace{0.3cm}{\ttfamily [static]}}
+
+Removal of a node and all of its children. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a5ae3932754ad996154f010e311e7a63a}\label{classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group_a5ae3932754ad996154f010e311e7a63a}} 
+\index{org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}!REMOVE\_NODE\_KEEP\_CHILDREN@{REMOVE\_NODE\_KEEP\_CHILDREN}}
+\index{REMOVE\_NODE\_KEEP\_CHILDREN@{REMOVE\_NODE\_KEEP\_CHILDREN}!org.jabref.gui.groups.UndoableAddOrRemoveGroup@{org.jabref.gui.groups.UndoableAddOrRemoveGroup}}
+\doxysubsubsection{\texorpdfstring{REMOVE\_NODE\_KEEP\_CHILDREN}{REMOVE\_NODE\_KEEP\_CHILDREN}}
+{\footnotesize\ttfamily final int org.\+jabref.\+gui.\+groups.\+Undoable\+Add\+Or\+Remove\+Group.\+R\+E\+M\+O\+V\+E\+\_\+\+N\+O\+D\+E\+\_\+\+K\+E\+E\+P\+\_\+\+C\+H\+I\+L\+D\+R\+EN = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+Removal of a single node. Children, if any, are kept. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/groups/\mbox{\hyperlink{_undoable_add_or_remove_group_8java}{Undoable\+Add\+Or\+Remove\+Group.\+java}}\end{DoxyCompactItemize}

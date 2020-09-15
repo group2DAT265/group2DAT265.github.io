@@ -1,0 +1,141 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action}{}\doxysection{org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action}\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+Inheritance diagram for org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Options\+Dialog}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_aa1fa6ab62919a5f1de9e83aa241301ef}{Write\+X\+M\+P\+Action}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a74a059cd6736e7b479faa6ea98757505}{state\+Manager}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a6b2947c731bea0251724b533caa87996}{dialog\+Service}})
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a743daf1379732a24077119afa6f77b59}{execute}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a69382bce5068c4a8553e7d05c9a73c6d}{init}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a0c39eecb552092f934c60f7f1ead6476}{write\+X\+MP}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a74a059cd6736e7b479faa6ea98757505}{state\+Manager}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a6b2947c731bea0251724b533caa87996}{dialog\+Service}}
+\item 
+Options\+Dialog \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_afdc607b99d4a8e4b2889e09679760368}{options\+Dialog}}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a8b5192a05387bc042d1d799d763f6cb6}{database}}
+\item 
+\mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a29e013afe4d44bb20a945bc6836661cd}{entries}}
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_aefd94a4a6c24193c875c6b7c30fa87ed}{should\+Continue}} = true
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a3a59731ae6bb4507c687cefaa6d15ece}{skipped}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_aadd220e6316fe4b3459ebccb8467353f}{entries\+Changed}}
+\item 
+int \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a07bb6780cf2025697efcdd7da8a7643b}{errors}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_aa1fa6ab62919a5f1de9e83aa241301ef}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_aa1fa6ab62919a5f1de9e83aa241301ef}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!WriteXMPAction@{WriteXMPAction}}
+\index{WriteXMPAction@{WriteXMPAction}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{WriteXMPAction()}{WriteXMPAction()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+Write\+X\+M\+P\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a743daf1379732a24077119afa6f77b59}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a743daf1379732a24077119afa6f77b59}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!execute@{execute}}
+\index{execute@{execute}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+execute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a69382bce5068c4a8553e7d05c9a73c6d}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a69382bce5068c4a8553e7d05c9a73c6d}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!init@{init}}
+\index{init@{init}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a0c39eecb552092f934c60f7f1ead6476}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a0c39eecb552092f934c60f7f1ead6476}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!writeXMP@{writeXMP}}
+\index{writeXMP@{writeXMP}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{writeXMP()}{writeXMP()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+write\+X\+MP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a8b5192a05387bc042d1d799d763f6cb6}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a8b5192a05387bc042d1d799d763f6cb6}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!database@{database}}
+\index{database@{database}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{database}{database}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1database_1_1_bib_database}{Bib\+Database}} org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+database\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a6b2947c731bea0251724b533caa87996}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a6b2947c731bea0251724b533caa87996}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a29e013afe4d44bb20a945bc6836661cd}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a29e013afe4d44bb20a945bc6836661cd}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!entries@{entries}}
+\index{entries@{entries}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{entries}{entries}}
+{\footnotesize\ttfamily \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+entries\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_aadd220e6316fe4b3459ebccb8467353f}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_aadd220e6316fe4b3459ebccb8467353f}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!entriesChanged@{entriesChanged}}
+\index{entriesChanged@{entriesChanged}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{entriesChanged}{entriesChanged}}
+{\footnotesize\ttfamily int org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+entries\+Changed\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a07bb6780cf2025697efcdd7da8a7643b}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a07bb6780cf2025697efcdd7da8a7643b}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!errors@{errors}}
+\index{errors@{errors}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{errors}{errors}}
+{\footnotesize\ttfamily int org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+errors\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_afdc607b99d4a8e4b2889e09679760368}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_afdc607b99d4a8e4b2889e09679760368}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!optionsDialog@{optionsDialog}}
+\index{optionsDialog@{optionsDialog}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{optionsDialog}{optionsDialog}}
+{\footnotesize\ttfamily Options\+Dialog org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+options\+Dialog\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_aefd94a4a6c24193c875c6b7c30fa87ed}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_aefd94a4a6c24193c875c6b7c30fa87ed}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!shouldContinue@{shouldContinue}}
+\index{shouldContinue@{shouldContinue}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{shouldContinue}{shouldContinue}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+should\+Continue = true\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a3a59731ae6bb4507c687cefaa6d15ece}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a3a59731ae6bb4507c687cefaa6d15ece}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!skipped@{skipped}}
+\index{skipped@{skipped}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{skipped}{skipped}}
+{\footnotesize\ttfamily int org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+skipped\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a74a059cd6736e7b479faa6ea98757505}\label{classorg_1_1jabref_1_1gui_1_1exporter_1_1_write_x_m_p_action_a74a059cd6736e7b479faa6ea98757505}} 
+\index{org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}!stateManager@{stateManager}}
+\index{stateManager@{stateManager}!org.jabref.gui.exporter.WriteXMPAction@{org.jabref.gui.exporter.WriteXMPAction}}
+\doxysubsubsection{\texorpdfstring{stateManager}{stateManager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} org.\+jabref.\+gui.\+exporter.\+Write\+X\+M\+P\+Action.\+state\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/exporter/\mbox{\hyperlink{_write_x_m_p_action_8java}{Write\+X\+M\+P\+Action.\+java}}\end{DoxyCompactItemize}

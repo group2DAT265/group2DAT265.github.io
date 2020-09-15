@@ -1,0 +1,131 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher}{}\doxysection{org.\+jabref.\+logic.\+importer.\+fetcher.\+Gvk\+Fetcher Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher}\index{org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}}
+Inheritance diagram for org.\+jabref.\+logic.\+importer.\+fetcher.\+Gvk\+Fetcher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a7396aff306d75a68ef511bbafbb51fe2}{get\+Name}} ()
+\item 
+Optional$<$ \mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file}{Help\+File}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a151709c9a3807e46336fedf18d32653b}{get\+Help\+Page}} ()
+\item 
+\mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_afef1adfe9821a26f5a6e025663be3fc0}{get\+U\+R\+L\+For\+Query}} (String query)  throws U\+R\+I\+Syntax\+Exception, Malformed\+U\+R\+L\+Exception, Fetcher\+Exception 
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser}{Parser}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_ad796aa4abb2017dfe376103471f14915}{get\+Parser}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_aefd216c522192e1832a875baf411d244}{get\+Search\+Query\+String}} (String query)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a385ee0f102c193015be705ba77c61fb3}{get\+Search\+Query\+String\+For\+Complex\+Query}} (List$<$ String $>$ query\+List)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$ String $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a40c2a961eb5e0a49c64f89c7d5ae03ff}{search\+Keys}} = Arrays.\+as\+List(\char`\"{}all\char`\"{}, \char`\"{}tit\char`\"{}, \char`\"{}per\char`\"{}, \char`\"{}thm\char`\"{}, \char`\"{}slw\char`\"{}, \char`\"{}txt\char`\"{}, \char`\"{}num\char`\"{}, \char`\"{}kon\char`\"{}, \char`\"{}ppn\char`\"{}, \char`\"{}bkl\char`\"{}, \char`\"{}erj\char`\"{})
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a3b963894f0a87471542f29d8aaae1e14}{U\+R\+L\+\_\+\+P\+A\+T\+T\+E\+RN}} = \char`\"{}http\+://sru.\+gbv.\+de/gvk?\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a151709c9a3807e46336fedf18d32653b}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a151709c9a3807e46336fedf18d32653b}} 
+\index{org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}!getHelpPage@{getHelpPage}}
+\index{getHelpPage@{getHelpPage}!org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}}
+\doxysubsubsection{\texorpdfstring{getHelpPage()}{getHelpPage()}}
+{\footnotesize\ttfamily Optional$<$\mbox{\hyperlink{enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file}{Help\+File}}$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Gvk\+Fetcher.\+get\+Help\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the help page for this fetcher.
+
+\begin{DoxyReturn}{Returns}
+the \mbox{\hyperlink{}{Help\+File}} enum constant for the help page 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a10fe1737a47dac8e4bf8ad4f24626cbe}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a7396aff306d75a68ef511bbafbb51fe2}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a7396aff306d75a68ef511bbafbb51fe2}} 
+\index{org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Gvk\+Fetcher.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the localized name of this fetcher. The title can be used to display the fetcher in the menu and in the side pane.
+
+\begin{DoxyReturn}{Returns}
+the localized name 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher_a9512c95b5bf85e727c975fe2db72e6bf}{org.\+jabref.\+logic.\+importer.\+Web\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_ad796aa4abb2017dfe376103471f14915}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_ad796aa4abb2017dfe376103471f14915}} 
+\index{org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}!getParser@{getParser}}
+\index{getParser@{getParser}!org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}}
+\doxysubsubsection{\texorpdfstring{getParser()}{getParser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser}{Parser}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Gvk\+Fetcher.\+get\+Parser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the parser used to convert the response to a list of \mbox{\hyperlink{}{Bib\+Entry}}. 
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher_a9171da7277b773fe25db7a5b63add35a}{org.\+jabref.\+logic.\+importer.\+Search\+Based\+Parser\+Fetcher}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_aefd216c522192e1832a875baf411d244}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_aefd216c522192e1832a875baf411d244}} 
+\index{org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}!getSearchQueryString@{getSearchQueryString}}
+\index{getSearchQueryString@{getSearchQueryString}!org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}}
+\doxysubsubsection{\texorpdfstring{getSearchQueryString()}{getSearchQueryString()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Gvk\+Fetcher.\+get\+Search\+Query\+String (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a385ee0f102c193015be705ba77c61fb3}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a385ee0f102c193015be705ba77c61fb3}} 
+\index{org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}!getSearchQueryStringForComplexQuery@{getSearchQueryStringForComplexQuery}}
+\index{getSearchQueryStringForComplexQuery@{getSearchQueryStringForComplexQuery}!org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}}
+\doxysubsubsection{\texorpdfstring{getSearchQueryStringForComplexQuery()}{getSearchQueryStringForComplexQuery()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+importer.\+fetcher.\+Gvk\+Fetcher.\+get\+Search\+Query\+String\+For\+Complex\+Query (\begin{DoxyParamCaption}\item[{List$<$ String $>$}]{query\+List }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_afef1adfe9821a26f5a6e025663be3fc0}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_afef1adfe9821a26f5a6e025663be3fc0}} 
+\index{org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}!getURLForQuery@{getURLForQuery}}
+\index{getURLForQuery@{getURLForQuery}!org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}}
+\doxysubsubsection{\texorpdfstring{getURLForQuery()}{getURLForQuery()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_repec_nep_importer_test1_8txt_a018aea1d35014c9f60d38571457e9cb8}{U\+RL}} org.\+jabref.\+logic.\+importer.\+fetcher.\+Gvk\+Fetcher.\+get\+U\+R\+L\+For\+Query (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption}) throws U\+R\+I\+Syntax\+Exception, Malformed\+U\+R\+L\+Exception, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1importer_1_1_fetcher_exception}{Fetcher\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructs a U\+RL based on the query.
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & the search query \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher_ae5836cc31f430e6538bbaac54828e774}{org.\+jabref.\+logic.\+importer.\+Search\+Based\+Parser\+Fetcher}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a40c2a961eb5e0a49c64f89c7d5ae03ff}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a40c2a961eb5e0a49c64f89c7d5ae03ff}} 
+\index{org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}!searchKeys@{searchKeys}}
+\index{searchKeys@{searchKeys}!org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}}
+\doxysubsubsection{\texorpdfstring{searchKeys}{searchKeys}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{org_8citationstyles_8styles_8txt_af73febbc20b8d06b0948192ab4a6d906}{Collection}}$<$String$>$ org.\+jabref.\+logic.\+importer.\+fetcher.\+Gvk\+Fetcher.\+search\+Keys = Arrays.\+as\+List(\char`\"{}all\char`\"{}, \char`\"{}tit\char`\"{}, \char`\"{}per\char`\"{}, \char`\"{}thm\char`\"{}, \char`\"{}slw\char`\"{}, \char`\"{}txt\char`\"{}, \char`\"{}num\char`\"{}, \char`\"{}kon\char`\"{}, \char`\"{}ppn\char`\"{}, \char`\"{}bkl\char`\"{}, \char`\"{}erj\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}
+
+Searchkeys are used to specify a search request. For example \char`\"{}tit\char`\"{} stands for \char`\"{}title\char`\"{}. If no searchkey is used, the default searchkey \char`\"{}all\char`\"{} is used. \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a3b963894f0a87471542f29d8aaae1e14}\label{classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher_a3b963894f0a87471542f29d8aaae1e14}} 
+\index{org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}!URL\_PATTERN@{URL\_PATTERN}}
+\index{URL\_PATTERN@{URL\_PATTERN}!org.jabref.logic.importer.fetcher.GvkFetcher@{org.jabref.logic.importer.fetcher.GvkFetcher}}
+\doxysubsubsection{\texorpdfstring{URL\_PATTERN}{URL\_PATTERN}}
+{\footnotesize\ttfamily final String org.\+jabref.\+logic.\+importer.\+fetcher.\+Gvk\+Fetcher.\+U\+R\+L\+\_\+\+P\+A\+T\+T\+E\+RN = \char`\"{}http\+://sru.\+gbv.\+de/gvk?\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/importer/fetcher/\mbox{\hyperlink{_gvk_fetcher_8java}{Gvk\+Fetcher.\+java}}\end{DoxyCompactItemize}

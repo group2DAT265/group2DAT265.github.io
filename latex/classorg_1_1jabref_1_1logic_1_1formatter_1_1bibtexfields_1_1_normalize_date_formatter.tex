@@ -1,0 +1,102 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter}{}\doxysection{org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Normalize\+Date\+Formatter Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter}\index{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}}
+Inheritance diagram for org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Normalize\+Date\+Formatter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_acecfa439c5b97591fbe07911f44b0514}{get\+Name}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a6212d00e351212569c8f2cc0c65d53b6}{get\+Key}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a6ae06850520d3ed41524818dbf45f4ac}{format}} (String value)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a9793fcc74d1a74f4860ee29e5badae4b}{get\+Description}} ()
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a07ef52091714722bc702e2839a41f01d}{get\+Example\+Input}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class transforms date to the format yyyy-\/mm-\/dd or yyyy-\/mm.. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a6ae06850520d3ed41524818dbf45f4ac}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a6ae06850520d3ed41524818dbf45f4ac}} 
+\index{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}!format@{format}}
+\index{format@{format}!org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}}
+\doxysubsubsection{\texorpdfstring{format()}{format()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Normalize\+Date\+Formatter.\+format (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Format date string to yyyy-\/mm-\/dd or yyyy-\/mm. Keeps the existing String if it does not match one of the following formats\+: \char`\"{}\+M/y\char`\"{} (covers 9/15, 9/2015, and 09/2015) \char`\"{}\+M\+M\+M\+M (dd), yyyy\char`\"{} (covers September 1, 2015 and September, 2015) \char`\"{}yyyy-\/\+M\+M-\/dd\char`\"{} (covers 2009-\/1-\/15) \char`\"{}d.\+M.\+uuuu\char`\"{} (covers 15.\+1.\+2015) 
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a8347cbf9c19d43850d3fcede03520e6f}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a9793fcc74d1a74f4860ee29e5badae4b}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a9793fcc74d1a74f4860ee29e5badae4b}} 
+\index{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Normalize\+Date\+Formatter.\+get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a description of the formatter.
+
+\begin{DoxyReturn}{Returns}
+the description string, always non empty 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_ada4da9404fd8afa2584c78568ff4f369}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a07ef52091714722bc702e2839a41f01d}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a07ef52091714722bc702e2839a41f01d}} 
+\index{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}!getExampleInput@{getExampleInput}}
+\index{getExampleInput@{getExampleInput}!org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}}
+\doxysubsubsection{\texorpdfstring{getExampleInput()}{getExampleInput()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Normalize\+Date\+Formatter.\+get\+Example\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns an example input string of the formatter. This example is used as input to the formatter to demonstrate its functionality
+
+\begin{DoxyReturn}{Returns}
+the example input string, always non empty 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_adaef8aad8e38f4b74c12c95db9ca79c8}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a6212d00e351212569c8f2cc0c65d53b6}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_a6212d00e351212569c8f2cc0c65d53b6}} 
+\index{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}!getKey@{getKey}}
+\index{getKey@{getKey}!org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}}
+\doxysubsubsection{\texorpdfstring{getKey()}{getKey()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Normalize\+Date\+Formatter.\+get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a unique key for the formatter that can be used for its identification
+
+\begin{DoxyReturn}{Returns}
+the key of the formatter, always not null 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a059a1b2d1ef8251447788325f26f0e50}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_acecfa439c5b97591fbe07911f44b0514}\label{classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter_acecfa439c5b97591fbe07911f44b0514}} 
+\index{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}!getName@{getName}}
+\index{getName@{getName}!org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter@{org.jabref.logic.formatter.bibtexfields.NormalizeDateFormatter}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+formatter.\+bibtexfields.\+Normalize\+Date\+Formatter.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a human readable name of the formatter usable for e.\+g. in the G\+UI
+
+\begin{DoxyReturn}{Returns}
+the name of the formatter, always not null 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter_a71fdb0ef1b321680d1811b8e462706b3}{org.\+jabref.\+logic.\+cleanup.\+Formatter}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/formatter/bibtexfields/\mbox{\hyperlink{_normalize_date_formatter_8java}{Normalize\+Date\+Formatter.\+java}}\end{DoxyCompactItemize}

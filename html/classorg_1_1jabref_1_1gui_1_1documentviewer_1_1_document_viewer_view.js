@@ -1,0 +1,26 @@
+var classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view =
+[
+    [ "DocumentViewerView", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a4e2b9fc87b4155d92a29f3a97384bb7b", null ],
+    [ "fitSinglePage", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#aa050159e675f77cf4f195e36400d73e6", null ],
+    [ "fitWidth", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a47fabca89358869b5b44bb35eb60e81a", null ],
+    [ "initialize", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#ae24ab826074f6cbc351b35dc0120e902", null ],
+    [ "nextPage", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a96b066b986e9f2be19beaaa92250640c", null ],
+    [ "previousPage", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a07576c516516fa85da45b7e5a4eb227b", null ],
+    [ "setupFileChoice", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a7a54b6c2deb447f60d213bbd928acb43", null ],
+    [ "setupModeButtons", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#ac48c1c40d1ecfbd66c997a034582e537", null ],
+    [ "setupPageControls", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#ab7471a8bc69758c13f64641235a0a642", null ],
+    [ "setupScrollbar", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a7dbc31c0cb7d7023af278fe01832055a", null ],
+    [ "setupViewer", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a726e1314843b6e4abcb9bc66315ea56f", null ],
+    [ "zoomIn", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a3475be8d126e136fc540db503faaa140", null ],
+    [ "zoomOut", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#aa126a2409328db2403b761f93861f529", null ],
+    [ "currentPage", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#afa3b8142cb8422f52d6c98b7b2876913", null ],
+    [ "fileChoice", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a9b5b97a78edb5394fad9ab0cb7b1914d", null ],
+    [ "mainPane", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#aada7d3442a08c2b4798e54fba3a4d69c", null ],
+    [ "maxPages", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a23d1d336467cbab85a6c381224e0de87", null ],
+    [ "modeLive", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a274773e82e208150200af077de042534", null ],
+    [ "scrollBar", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#af4cb1c8b716c5f081ba627cb6f19142d", null ],
+    [ "stateManager", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#aa5f4c971cebfcc5b3674b0813ec4d824", null ],
+    [ "taskExecutor", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#afaaff753c67aa4348066579d0425d3df", null ],
+    [ "viewer", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a74d87a6eda6967cdfb1e638fe585dc4f", null ],
+    [ "viewModel", "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a5f1bf5b39eafb065bf57a012c92d3740", null ]
+];

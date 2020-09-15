@@ -1,0 +1,25 @@
+var enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property =
+[
+    [ "BOOK_NAME", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#ada2c8a5ed1faee56d002112a58f963b4", null ],
+    [ "DATE", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a9ce6e58fbd6cb3622e1ee48079001fca", null ],
+    [ "DOI", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a98f85ffc319574e5eb8a5fb3feddac53", null ],
+    [ "EDITOR_TYPE", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a26d2a6721791344351f8258bdcec0845", null ],
+    [ "EPRINT", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a678936d9d3e0e9df259b023988ae27fe", null ],
+    [ "EXTERNAL", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a686d1616f1df4c378d4f0130016dd0bc", null ],
+    [ "FILE_EDITOR", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a8678a02faecb2d0b7ac6e9f21673f75f", null ],
+    [ "GENDER", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a4614144648665e5233a63f0169195b53", null ],
+    [ "ISBN", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a113351da7b2a1c87478845a8ca35e505", null ],
+    [ "JOURNAL_NAME", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a49fcfd45cc7ec2d440cedacc42a758ad", null ],
+    [ "LANGUAGE", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a9a9164d67bf639c99ac42186488cc52a", null ],
+    [ "MONTH", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#aae63c8b9744adbe4fa51eb3c3d57064b", null ],
+    [ "MULTIPLE_ENTRY_LINK", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a68c9e3f2e1aa77d06a01bed9cea09447", null ],
+    [ "NUMERIC", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#ae0e6d1f6dfbf1095523f27534cb087d5", null ],
+    [ "PAGES", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a900a8e2f9b271314dc620701a71581ea", null ],
+    [ "PAGINATION", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a13ce213694921e69b4471c75fac1c6a1", null ],
+    [ "PERSON_NAMES", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#ac5a94487195255ca2e7e3847027b10a6", null ],
+    [ "PUBLICATION_STATE", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a95d80d75c2c5d2d72a726255f1d7bce4", null ],
+    [ "SINGLE_ENTRY_LINK", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a9fd328fd3eafb61294b7fb6426fbf18a", null ],
+    [ "TYPE", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#af30e7824c16f3dc5eae24360b8d89760", null ],
+    [ "VERBATIM", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a4a345d5ffbc776f42e75a7929580dc8a", null ],
+    [ "YES_NO", "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#a6fceab4fa0873ce04564bca50cf578b7", null ]
+];

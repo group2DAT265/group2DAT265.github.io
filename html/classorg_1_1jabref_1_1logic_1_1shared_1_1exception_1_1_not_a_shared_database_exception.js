@@ -1,0 +1,4 @@
+var classorg_1_1jabref_1_1logic_1_1shared_1_1exception_1_1_not_a_shared_database_exception =
+[
+    [ "NotASharedDatabaseException", "classorg_1_1jabref_1_1logic_1_1shared_1_1exception_1_1_not_a_shared_database_exception.html#aca2094140629f6c9c739ee8fea44a7ac", null ]
+];

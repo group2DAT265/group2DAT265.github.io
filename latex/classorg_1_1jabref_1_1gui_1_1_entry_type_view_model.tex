@@ -1,0 +1,233 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model}{}\doxysection{org.\+jabref.\+gui.\+Entry\+Type\+View\+Model Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model}\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_1_1_fetcher_worker}{Fetcher\+Worker}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_aec3c70bb4912087535c4d3290aaaebc4}{Entry\+Type\+View\+Model}} (\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} preferences, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a68eec9f8ca4a3efe05ff1ede09de9a92}{base\+Panel}}, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a36daeb15515557e476f86dc360a63d29}{dialog\+Service}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_aa687dfa372117410d781b3650f9203eb}{state\+Manager}})
+\item 
+Boolean\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ac31332f0b0b222ca074b17b289a95d2b}{search\+Succesful\+Property}} ()
+\item 
+Boolean\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a1600e02361dbd810f0f189169e229771}{searching\+Property}} ()
+\item 
+Object\+Property$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a7afcfd8cc6088aad754c41657084e4d6}{selected\+Item\+Property}} ()
+\item 
+Validation\+Status \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a658a4a5be8466b1ebda94f013a197d27}{id\+Field\+Validation\+Status}} ()
+\item 
+String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a20111d466be158df31c1929563717df8}{id\+Text\+Property}} ()
+\item 
+Boolean\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a276f4e1febb5fbd4c7dcb8e571b971b8}{get\+Focus\+And\+Select\+All\+Property}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ab994402421de92a02c5ac430ed1e6405}{store\+Selected\+Fetcher}} ()
+\item 
+List\+Property$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_affae79c5d0f6a5df0d01704b6d30d4b4}{fetcher\+Items\+Property}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a3dc3990a6fece91bd1c25635b90013c6}{stop\+Fetching}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a204d87eea2b2c3fced649d67f8128b30}{run\+Fetcher\+Worker}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ad581abe125348c9276cfc745e7b38cc7}{get\+Last\+Selected\+Fetcher}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a77343ba43c9fd293eb4aa6ec1a1bdef0}{prefs}}
+\item 
+final Boolean\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_af653ae2cb1ceb7c93af8d2db21190ee2}{searching\+Property}} = new Simple\+Boolean\+Property()
+\item 
+final Boolean\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_acdeedcda8e257924b61534a6aea411b1}{search\+Succesful\+Property}} = new Simple\+Boolean\+Property()
+\item 
+final Object\+Property$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_aebf0cd1fd461f9e0b5666014ab464b7c}{selected\+Item\+Property}} = new Simple\+Object\+Property$<$$>$()
+\item 
+final List\+Property$<$ \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a6c85c8a964e737f5ce94c8e03b305738}{fetchers}} = new Simple\+List\+Property$<$$>$(F\+X\+Collections.\+observable\+Array\+List())
+\item 
+final String\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_afb9053421e7601175e4d0c55763fe229}{id\+Text}} = new Simple\+String\+Property()
+\item 
+final Boolean\+Property \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a71e219b6f0f6ee21198f17721261216a}{focus\+And\+Select\+All\+Property}} = new Simple\+Boolean\+Property()
+\item 
+Task$<$ Optional$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} $>$ $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a9675febe755aa1697fe5194ebc053add}{fetcher\+Worker}} = new \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_1_1_fetcher_worker}{Fetcher\+Worker}}()
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a68eec9f8ca4a3efe05ff1ede09de9a92}{base\+Panel}}
+\item 
+final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a36daeb15515557e476f86dc360a63d29}{dialog\+Service}}
+\item 
+final Validator \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ad0da77612bc086acc316164643e3b342}{id\+Field\+Validator}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_aa687dfa372117410d781b3650f9203eb}{state\+Manager}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ade30652c45450bf381c0b023670b894e}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Entry\+Type\+View\+Model.\+class)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_aec3c70bb4912087535c4d3290aaaebc4}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_aec3c70bb4912087535c4d3290aaaebc4}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!EntryTypeViewModel@{EntryTypeViewModel}}
+\index{EntryTypeViewModel@{EntryTypeViewModel}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{EntryTypeViewModel()}{EntryTypeViewModel()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+Entry\+Type\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}}}]{preferences,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}}}]{base\+Panel,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}}}]{dialog\+Service,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}}}]{state\+Manager }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_affae79c5d0f6a5df0d01704b6d30d4b4}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_affae79c5d0f6a5df0d01704b6d30d4b4}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!fetcherItemsProperty@{fetcherItemsProperty}}
+\index{fetcherItemsProperty@{fetcherItemsProperty}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{fetcherItemsProperty()}{fetcherItemsProperty()}}
+{\footnotesize\ttfamily List\+Property$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}}$>$ org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+fetcher\+Items\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a276f4e1febb5fbd4c7dcb8e571b971b8}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a276f4e1febb5fbd4c7dcb8e571b971b8}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!getFocusAndSelectAllProperty@{getFocusAndSelectAllProperty}}
+\index{getFocusAndSelectAllProperty@{getFocusAndSelectAllProperty}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{getFocusAndSelectAllProperty()}{getFocusAndSelectAllProperty()}}
+{\footnotesize\ttfamily Boolean\+Property org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+get\+Focus\+And\+Select\+All\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ad581abe125348c9276cfc745e7b38cc7}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ad581abe125348c9276cfc745e7b38cc7}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!getLastSelectedFetcher@{getLastSelectedFetcher}}
+\index{getLastSelectedFetcher@{getLastSelectedFetcher}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{getLastSelectedFetcher()}{getLastSelectedFetcher()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}} org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+get\+Last\+Selected\+Fetcher (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a658a4a5be8466b1ebda94f013a197d27}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a658a4a5be8466b1ebda94f013a197d27}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!idFieldValidationStatus@{idFieldValidationStatus}}
+\index{idFieldValidationStatus@{idFieldValidationStatus}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{idFieldValidationStatus()}{idFieldValidationStatus()}}
+{\footnotesize\ttfamily Validation\+Status org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+id\+Field\+Validation\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a20111d466be158df31c1929563717df8}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a20111d466be158df31c1929563717df8}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!idTextProperty@{idTextProperty}}
+\index{idTextProperty@{idTextProperty}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{idTextProperty()}{idTextProperty()}}
+{\footnotesize\ttfamily String\+Property org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+id\+Text\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a204d87eea2b2c3fced649d67f8128b30}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a204d87eea2b2c3fced649d67f8128b30}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!runFetcherWorker@{runFetcherWorker}}
+\index{runFetcherWorker@{runFetcherWorker}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{runFetcherWorker()}{runFetcherWorker()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+run\+Fetcher\+Worker (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a1600e02361dbd810f0f189169e229771}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a1600e02361dbd810f0f189169e229771}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!searchingProperty@{searchingProperty}}
+\index{searchingProperty@{searchingProperty}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{searchingProperty()}{searchingProperty()}}
+{\footnotesize\ttfamily Boolean\+Property org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+searching\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ac31332f0b0b222ca074b17b289a95d2b}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ac31332f0b0b222ca074b17b289a95d2b}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!searchSuccesfulProperty@{searchSuccesfulProperty}}
+\index{searchSuccesfulProperty@{searchSuccesfulProperty}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{searchSuccesfulProperty()}{searchSuccesfulProperty()}}
+{\footnotesize\ttfamily Boolean\+Property org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+search\+Succesful\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a7afcfd8cc6088aad754c41657084e4d6}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a7afcfd8cc6088aad754c41657084e4d6}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!selectedItemProperty@{selectedItemProperty}}
+\index{selectedItemProperty@{selectedItemProperty}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{selectedItemProperty()}{selectedItemProperty()}}
+{\footnotesize\ttfamily Object\+Property$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}}$>$ org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+selected\+Item\+Property (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a3dc3990a6fece91bd1c25635b90013c6}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a3dc3990a6fece91bd1c25635b90013c6}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!stopFetching@{stopFetching}}
+\index{stopFetching@{stopFetching}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{stopFetching()}{stopFetching()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+stop\+Fetching (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ab994402421de92a02c5ac430ed1e6405}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ab994402421de92a02c5ac430ed1e6405}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!storeSelectedFetcher@{storeSelectedFetcher}}
+\index{storeSelectedFetcher@{storeSelectedFetcher}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{storeSelectedFetcher()}{storeSelectedFetcher()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+store\+Selected\+Fetcher (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a68eec9f8ca4a3efe05ff1ede09de9a92}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a68eec9f8ca4a3efe05ff1ede09de9a92}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!basePanel@{basePanel}}
+\index{basePanel@{basePanel}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{basePanel}{basePanel}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_base_panel}{Base\+Panel}} org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+base\+Panel\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a36daeb15515557e476f86dc360a63d29}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a36daeb15515557e476f86dc360a63d29}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!dialogService@{dialogService}}
+\index{dialogService@{dialogService}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{dialogService}{dialogService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfaceorg_1_1jabref_1_1gui_1_1_dialog_service}{Dialog\+Service}} org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+dialog\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a6c85c8a964e737f5ce94c8e03b305738}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a6c85c8a964e737f5ce94c8e03b305738}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!fetchers@{fetchers}}
+\index{fetchers@{fetchers}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{fetchers}{fetchers}}
+{\footnotesize\ttfamily final List\+Property$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}}$>$ org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+fetchers = new Simple\+List\+Property$<$$>$(F\+X\+Collections.\+observable\+Array\+List())\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a9675febe755aa1697fe5194ebc053add}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a9675febe755aa1697fe5194ebc053add}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!fetcherWorker@{fetcherWorker}}
+\index{fetcherWorker@{fetcherWorker}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{fetcherWorker}{fetcherWorker}}
+{\footnotesize\ttfamily Task$<$Optional$<$\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}$>$ $>$ org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+fetcher\+Worker = new \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_1_1_fetcher_worker}{Fetcher\+Worker}}()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a71e219b6f0f6ee21198f17721261216a}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a71e219b6f0f6ee21198f17721261216a}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!focusAndSelectAllProperty@{focusAndSelectAllProperty}}
+\index{focusAndSelectAllProperty@{focusAndSelectAllProperty}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{focusAndSelectAllProperty}{focusAndSelectAllProperty}}
+{\footnotesize\ttfamily final Boolean\+Property org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+focus\+And\+Select\+All\+Property = new Simple\+Boolean\+Property()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ad0da77612bc086acc316164643e3b342}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ad0da77612bc086acc316164643e3b342}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!idFieldValidator@{idFieldValidator}}
+\index{idFieldValidator@{idFieldValidator}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{idFieldValidator}{idFieldValidator}}
+{\footnotesize\ttfamily final Validator org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+id\+Field\+Validator\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_afb9053421e7601175e4d0c55763fe229}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_afb9053421e7601175e4d0c55763fe229}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!idText@{idText}}
+\index{idText@{idText}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{idText}{idText}}
+{\footnotesize\ttfamily final String\+Property org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+id\+Text = new Simple\+String\+Property()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ade30652c45450bf381c0b023670b894e}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_ade30652c45450bf381c0b023670b894e}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Entry\+Type\+View\+Model.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a77343ba43c9fd293eb4aa6ec1a1bdef0}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_a77343ba43c9fd293eb4aa6ec1a1bdef0}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!prefs@{prefs}}
+\index{prefs@{prefs}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{prefs}{prefs}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+prefs\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_af653ae2cb1ceb7c93af8d2db21190ee2}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_af653ae2cb1ceb7c93af8d2db21190ee2}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!searchingProperty@{searchingProperty}}
+\index{searchingProperty@{searchingProperty}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{searchingProperty}{searchingProperty}}
+{\footnotesize\ttfamily final Boolean\+Property org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+searching\+Property = new Simple\+Boolean\+Property()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_acdeedcda8e257924b61534a6aea411b1}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_acdeedcda8e257924b61534a6aea411b1}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!searchSuccesfulProperty@{searchSuccesfulProperty}}
+\index{searchSuccesfulProperty@{searchSuccesfulProperty}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{searchSuccesfulProperty}{searchSuccesfulProperty}}
+{\footnotesize\ttfamily final Boolean\+Property org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+search\+Succesful\+Property = new Simple\+Boolean\+Property()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_aebf0cd1fd461f9e0b5666014ab464b7c}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_aebf0cd1fd461f9e0b5666014ab464b7c}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!selectedItemProperty@{selectedItemProperty}}
+\index{selectedItemProperty@{selectedItemProperty}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{selectedItemProperty}{selectedItemProperty}}
+{\footnotesize\ttfamily final Object\+Property$<$\mbox{\hyperlink{interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher}{Id\+Based\+Fetcher}}$>$ org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+selected\+Item\+Property = new Simple\+Object\+Property$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_aa687dfa372117410d781b3650f9203eb}\label{classorg_1_1jabref_1_1gui_1_1_entry_type_view_model_aa687dfa372117410d781b3650f9203eb}} 
+\index{org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}!stateManager@{stateManager}}
+\index{stateManager@{stateManager}!org.jabref.gui.EntryTypeViewModel@{org.jabref.gui.EntryTypeViewModel}}
+\doxysubsubsection{\texorpdfstring{stateManager}{stateManager}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_state_manager}{State\+Manager}} org.\+jabref.\+gui.\+Entry\+Type\+View\+Model.\+state\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/\mbox{\hyperlink{_entry_type_view_model_8java}{Entry\+Type\+View\+Model.\+java}}\end{DoxyCompactItemize}

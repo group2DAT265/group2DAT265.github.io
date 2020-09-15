@@ -1,0 +1,206 @@
+\hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer}{}\doxysection{org.\+jabref.\+logic.\+bibtex.\+Field\+Writer Class Reference}
+\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer}\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a829d1d166a613376f26459c8f54ed3b8}{Field\+Writer}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_preferences}{Field\+Writer\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a01d01d0529cad628cb0cafa35e2b18a5}{preferences}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ae1a7961173e0f32cb678c3de559f216d}{write}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field, String content)  throws Invalid\+Field\+Value\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer}{Field\+Writer}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a2b8b351f5136f0ee49767c0c252c21fc}{build\+Ignore\+Hashes}} (\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_preferences}{Field\+Writer\+Preferences}} prefs)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a1ad7bc7777788fc0f39052981dd7fd82}{Field\+Writer}} (boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ac859ebe3bae3714ac14f4fe8326f26c7}{never\+Fail\+On\+Hashes}}, \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_preferences}{Field\+Writer\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a01d01d0529cad628cb0cafa35e2b18a5}{preferences}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a8388c60daca9f1385ed3c691556b3d6b}{format\+And\+Resolve\+Strings}} (String content, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field)  throws Invalid\+Field\+Value\+Exception 
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a8dc394fdc9b3a184d70d7563ab21459c}{should\+Resolve\+Strings}} (\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field)
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a94411b0a956112133d156a80063ed77d}{format\+Without\+Resolving\+Strings}} (String content, \mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}} field)  throws Invalid\+Field\+Value\+Exception 
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a1bd77fa60dfd7e646ea8f5743934ea4e}{write\+Text}} (String\+Builder string\+Builder, String text, int start\+Pos, int end\+Pos)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_acae70d2822679d62fd88c4d47057fbe0}{write\+String\+Label}} (String\+Builder string\+Builder, String text, int start\+Pos, int end\+Pos, boolean is\+First, boolean is\+Last)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ae0eb5bf25d9337ba47d5c9487c1accb6}{check\+Braces}} (String text)  throws Invalid\+Field\+Value\+Exception 
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final boolean \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ac859ebe3bae3714ac14f4fe8326f26c7}{never\+Fail\+On\+Hashes}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_preferences}{Field\+Writer\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a01d01d0529cad628cb0cafa35e2b18a5}{preferences}}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_content_formatter}{Field\+Content\+Formatter}} \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_af59310fc4a91328ef010ebde6ff5a79b}{formatter}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Logger \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ae1b298ffac10a98c6d5aaeb8d62ceb7c}{L\+O\+G\+G\+ER}} = Logger\+Factory.\+get\+Logger(Field\+Writer.\+class)
+\item 
+static final char \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a75d1da0d82a66a2b2ff2f560e7474e7b}{F\+I\+E\+L\+D\+\_\+\+S\+T\+A\+RT}} = \textquotesingle{}\{\textquotesingle{}
+\item 
+static final char \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a5b935c75826c9ba38cb368448e068b5d}{F\+I\+E\+L\+D\+\_\+\+E\+ND}} = \textquotesingle{}\}\textquotesingle{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Converts Jab\+Ref\textquotesingle{}s internal Bib\+TeX representation of a Bib\+TeX field to Bib\+TeX text representation 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a829d1d166a613376f26459c8f54ed3b8}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a829d1d166a613376f26459c8f54ed3b8}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!FieldWriter@{FieldWriter}}
+\index{FieldWriter@{FieldWriter}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{FieldWriter()}{FieldWriter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+Field\+Writer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_preferences}{Field\+Writer\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a1ad7bc7777788fc0f39052981dd7fd82}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a1ad7bc7777788fc0f39052981dd7fd82}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!FieldWriter@{FieldWriter}}
+\index{FieldWriter@{FieldWriter}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{FieldWriter()}{FieldWriter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+Field\+Writer (\begin{DoxyParamCaption}\item[{boolean}]{never\+Fail\+On\+Hashes,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_preferences}{Field\+Writer\+Preferences}}}]{preferences }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a2b8b351f5136f0ee49767c0c252c21fc}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a2b8b351f5136f0ee49767c0c252c21fc}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!buildIgnoreHashes@{buildIgnoreHashes}}
+\index{buildIgnoreHashes@{buildIgnoreHashes}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{buildIgnoreHashes()}{buildIgnoreHashes()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer}{Field\+Writer}} org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+build\+Ignore\+Hashes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_preferences}{Field\+Writer\+Preferences}}}]{prefs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ae0eb5bf25d9337ba47d5c9487c1accb6}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ae0eb5bf25d9337ba47d5c9487c1accb6}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!checkBraces@{checkBraces}}
+\index{checkBraces@{checkBraces}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{checkBraces()}{checkBraces()}}
+{\footnotesize\ttfamily static void org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+check\+Braces (\begin{DoxyParamCaption}\item[{String}]{text }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception}{Invalid\+Field\+Value\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a8388c60daca9f1385ed3c691556b3d6b}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a8388c60daca9f1385ed3c691556b3d6b}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!formatAndResolveStrings@{formatAndResolveStrings}}
+\index{formatAndResolveStrings@{formatAndResolveStrings}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{formatAndResolveStrings()}{formatAndResolveStrings()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+format\+And\+Resolve\+Strings (\begin{DoxyParamCaption}\item[{String}]{content,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception}{Invalid\+Field\+Value\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+This method handles \# in the field content to get valid bibtex strings 
+
+For instance, {\ttfamily \#jan\# -\/ \#feb\#} gets {\ttfamily jan \#\{ -\/ \} \# feb} (see org.\+jabref.\+logic.\+bibtex.\+Latex\+Field\+Formatter\+Tests\+::make\+Hash\+Enclosed\+Words\+Real\+Strings\+In\+Month\+Field()\}) \mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a94411b0a956112133d156a80063ed77d}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a94411b0a956112133d156a80063ed77d}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!formatWithoutResolvingStrings@{formatWithoutResolvingStrings}}
+\index{formatWithoutResolvingStrings@{formatWithoutResolvingStrings}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{formatWithoutResolvingStrings()}{formatWithoutResolvingStrings()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+format\+Without\+Resolving\+Strings (\begin{DoxyParamCaption}\item[{String}]{content,  }\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception}{Invalid\+Field\+Value\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a8dc394fdc9b3a184d70d7563ab21459c}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a8dc394fdc9b3a184d70d7563ab21459c}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!shouldResolveStrings@{shouldResolveStrings}}
+\index{shouldResolveStrings@{shouldResolveStrings}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{shouldResolveStrings()}{shouldResolveStrings()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+should\+Resolve\+Strings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ae1a7961173e0f32cb678c3de559f216d}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ae1a7961173e0f32cb678c3de559f216d}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!write@{write}}
+\index{write@{write}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily String org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field}{Field}}}]{field,  }\item[{String}]{content }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception}{Invalid\+Field\+Value\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Formats the content of a field.
+
+
+\begin{DoxyParams}{Parameters}
+{\em field} & the name of the field -\/ used to trigger different serializations, e.\+g., turning off resolution for some strings \\
+\hline
+{\em content} & the content of the field \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a formatted string suitable for output 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception}{Invalid\+Field\+Value\+Exception}}} & if s is not a correct bibtex string, e.\+g., because of improperly balanced braces or using \# not paired \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_acae70d2822679d62fd88c4d47057fbe0}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_acae70d2822679d62fd88c4d47057fbe0}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!writeStringLabel@{writeStringLabel}}
+\index{writeStringLabel@{writeStringLabel}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{writeStringLabel()}{writeStringLabel()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+write\+String\+Label (\begin{DoxyParamCaption}\item[{String\+Builder}]{string\+Builder,  }\item[{String}]{text,  }\item[{int}]{start\+Pos,  }\item[{int}]{end\+Pos,  }\item[{boolean}]{is\+First,  }\item[{boolean}]{is\+Last }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string\+Builder} & the String\+Builder to append the text to \\
+\hline
+{\em text} & the text use as basis to get the text to append \\
+\hline
+{\em start\+Pos} & the position in text where the text to add starts \\
+\hline
+{\em end\+Pos} & the position in text where the text to add ends \\
+\hline
+{\em is\+First} & true if the label to write is the first one to write \\
+\hline
+{\em is\+Last} & true if the label to write is the last one to write \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a1bd77fa60dfd7e646ea8f5743934ea4e}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a1bd77fa60dfd7e646ea8f5743934ea4e}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!writeText@{writeText}}
+\index{writeText@{writeText}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{writeText()}{writeText()}}
+{\footnotesize\ttfamily void org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+write\+Text (\begin{DoxyParamCaption}\item[{String\+Builder}]{string\+Builder,  }\item[{String}]{text,  }\item[{int}]{start\+Pos,  }\item[{int}]{end\+Pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string\+Builder} & the String\+Builder to append the text to \\
+\hline
+{\em text} & the text to append \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a5b935c75826c9ba38cb368448e068b5d}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a5b935c75826c9ba38cb368448e068b5d}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!FIELD\_END@{FIELD\_END}}
+\index{FIELD\_END@{FIELD\_END}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{FIELD\_END}{FIELD\_END}}
+{\footnotesize\ttfamily final char org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+F\+I\+E\+L\+D\+\_\+\+E\+ND = \textquotesingle{}\}\textquotesingle{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a75d1da0d82a66a2b2ff2f560e7474e7b}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a75d1da0d82a66a2b2ff2f560e7474e7b}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!FIELD\_START@{FIELD\_START}}
+\index{FIELD\_START@{FIELD\_START}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{FIELD\_START}{FIELD\_START}}
+{\footnotesize\ttfamily final char org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+F\+I\+E\+L\+D\+\_\+\+S\+T\+A\+RT = \textquotesingle{}\{\textquotesingle{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_af59310fc4a91328ef010ebde6ff5a79b}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_af59310fc4a91328ef010ebde6ff5a79b}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!formatter@{formatter}}
+\index{formatter@{formatter}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{formatter}{formatter}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_content_formatter}{Field\+Content\+Formatter}} org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+formatter\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ae1b298ffac10a98c6d5aaeb8d62ceb7c}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ae1b298ffac10a98c6d5aaeb8d62ceb7c}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!LOGGER@{LOGGER}}
+\index{LOGGER@{LOGGER}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{LOGGER}{LOGGER}}
+{\footnotesize\ttfamily final Logger org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+L\+O\+G\+G\+ER = Logger\+Factory.\+get\+Logger(Field\+Writer.\+class)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ac859ebe3bae3714ac14f4fe8326f26c7}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_ac859ebe3bae3714ac14f4fe8326f26c7}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!neverFailOnHashes@{neverFailOnHashes}}
+\index{neverFailOnHashes@{neverFailOnHashes}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{neverFailOnHashes}{neverFailOnHashes}}
+{\footnotesize\ttfamily final boolean org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+never\+Fail\+On\+Hashes\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a01d01d0529cad628cb0cafa35e2b18a5}\label{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_a01d01d0529cad628cb0cafa35e2b18a5}} 
+\index{org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.logic.bibtex.FieldWriter@{org.jabref.logic.bibtex.FieldWriter}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer_preferences}{Field\+Writer\+Preferences}} org.\+jabref.\+logic.\+bibtex.\+Field\+Writer.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/logic/bibtex/\mbox{\hyperlink{_field_writer_8java}{Field\+Writer.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+var classorg_1_1jabref_1_1logic_1_1shared_1_1exception_1_1_invalid_d_b_m_s_connection_properties_exception =
+[
+    [ "InvalidDBMSConnectionPropertiesException", "classorg_1_1jabref_1_1logic_1_1shared_1_1exception_1_1_invalid_d_b_m_s_connection_properties_exception.html#a34859ab2435743de1ed11721aef5bb24", null ]
+];

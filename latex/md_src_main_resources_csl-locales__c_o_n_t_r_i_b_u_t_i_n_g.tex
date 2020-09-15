@@ -1,0 +1,22 @@
+We welcome contributions to the Citation Style Language (C\+SL) locale files in this repository.
+
+The C\+SL locale files provide the standard translations for automatic localization of C\+SL styles. As such, the C\+SL locale files should generally contain the most commonly used translations for a given locale. Less common translations can be \href{https://docs.citationstyles.org/en/stable/specification.html\#locale}{\texttt{ provided in the individual C\+SL styles}} that require them, which will overwrite the C\+SL locale file translations.
+
+Because each C\+SL locale file offers the standard translations for all C\+SL styles, changes should be made conservatively and carefully. We will often ask a second native speaker and/or past contributor to look over your proposed changes.\hypertarget{md_src_main_resources_csl-locales__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md59}{}\doxysection{Licensing and crediting}\label{md_src_main_resources_csl-locales__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md59}
+By creating a pull request, you agree to license your contributions under the \href{https://creativecommons.org/licenses/by-sa/3.0/}{\texttt{ Creative Commons Attribution-\/\+Share\+Alike 3.\+0 Unported license}} license.
+
+In addition, if you\textquotesingle{}re interested in being credited, please add yourself to the locale file as translator. See the example below (both the {\ttfamily $<$email/$>$} and {\ttfamily $<$/uri$>$} elements are optional)\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<\textcolor{keywordtype}{info}>}
+\DoxyCodeLine{  <\textcolor{keywordtype}{translator}>}
+\DoxyCodeLine{    <\textcolor{keywordtype}{name}>\textcolor{keyword}{John} \textcolor{keyword}{Doe}</\textcolor{keywordtype}{name}>}
+\DoxyCodeLine{    <\textcolor{keywordtype}{email}>\textcolor{keyword}{john.doe}@\textcolor{keyword}{citationstyles.org}</\textcolor{keywordtype}{email}>}
+\DoxyCodeLine{    <\textcolor{keywordtype}{uri}>\textcolor{keyword}{https:}//\textcolor{keyword}{citationstyles.org}/</\textcolor{keywordtype}{uri}>}
+\DoxyCodeLine{  </\textcolor{keywordtype}{translator}>}
+\DoxyCodeLine{  <\textcolor{keywordtype}{rights} \textcolor{keyword}{license}=\textcolor{stringliteral}{"{}http://creativecommons.org/licenses/by-\/sa/3.0/"{}}>\textcolor{keyword}{This} \textcolor{keyword}{work} \textcolor{keyword}{is} \textcolor{keyword}{licensed} \textcolor{keyword}{under} \textcolor{keyword}{a} \textcolor{keyword}{Creative} \textcolor{keyword}{Commons} \textcolor{keyword}{Attribution-\/ShareAlike} 3.0 \textcolor{keyword}{License}</\textcolor{keywordtype}{rights}>}
+\DoxyCodeLine{  <\textcolor{keywordtype}{updated}>2019-\/01-\/01\textcolor{keyword}{T12:00:00}+00:00</\textcolor{keywordtype}{updated}>}
+\DoxyCodeLine{</\textcolor{keywordtype}{info}>}
+\end{DoxyCode}
+ 

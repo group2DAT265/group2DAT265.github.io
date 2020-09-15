@@ -1,0 +1,153 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager}{}\doxysection{org.\+jabref.\+gui.\+Side\+Pane\+Manager Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager}\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_1_1_preferred_index_sort}{Preferred\+Index\+Sort}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ab9dc29452d192624d78827b742672f37}{Side\+Pane\+Manager}} (\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a1069b2c3bba756df40ed1520230e19bc}{preferences}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}} frame)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane}{Side\+Pane}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_aab1cae7783c19fde406100d87cd42057}{get\+Pane}} ()
+\item 
+boolean \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a01b1e303f894e3f2c1d189ec5d3f8b61}{is\+Component\+Visible}} (\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}} type)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a9f59ba12ec1fedac676223e7259fb98c}{get\+Component}} (\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}} type)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a19dc119e52a0aba9eba9774ef07635e9}{toggle}} (\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}} type)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a45c10ff1a30d06b4deb27cc692fbc748}{show}} (\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}} type)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a24d93f0fd800d15212c448e38ed4d995}{hide}} (\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}} type)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a4f2b0497845d57e7872951d4c9ac0bd9}{move\+Up}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}} component)
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ab195f1a1b78acb8c190d68b3fd0c0604}{move\+Down}} (\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}} comp)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a7f8f6b8248b743731e05bf5ead980d9e}{update\+Preferred\+Positions}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ae91491d5d9d1867932fcf912c29da8da}{update\+View}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane}{Side\+Pane}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ae9a8c5b4194fcd424fe6823805228ba3}{side\+Pane}}
+\item 
+final Map$<$ \mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a47296f304db77988d420f4b3694f5dba}{components}} = new Linked\+Hash\+Map$<$$>$()
+\item 
+final List$<$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}} $>$ \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a870cbb0fb5c0b2a101ec76e210e4b12b}{visible\+Components}} = new Linked\+List$<$$>$()
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a1069b2c3bba756df40ed1520230e19bc}{preferences}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manages which \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}}s are shown. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ab9dc29452d192624d78827b742672f37}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ab9dc29452d192624d78827b742672f37}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!SidePaneManager@{SidePaneManager}}
+\index{SidePaneManager@{SidePaneManager}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{SidePaneManager()}{SidePaneManager()}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+Side\+Pane\+Manager (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}}}]{preferences,  }\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_jab_ref_frame}{Jab\+Ref\+Frame}}}]{frame }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a9f59ba12ec1fedac676223e7259fb98c}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a9f59ba12ec1fedac676223e7259fb98c}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!getComponent@{getComponent}}
+\index{getComponent@{getComponent}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{getComponent()}{getComponent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}} org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+get\+Component (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_aab1cae7783c19fde406100d87cd42057}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_aab1cae7783c19fde406100d87cd42057}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!getPane@{getPane}}
+\index{getPane@{getPane}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{getPane()}{getPane()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane}{Side\+Pane}} org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+get\+Pane (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a24d93f0fd800d15212c448e38ed4d995}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a24d93f0fd800d15212c448e38ed4d995}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!hide@{hide}}
+\index{hide@{hide}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{hide()}{hide()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+hide (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Makes sure that the given component is not visible. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a01b1e303f894e3f2c1d189ec5d3f8b61}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a01b1e303f894e3f2c1d189ec5d3f8b61}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!isComponentVisible@{isComponentVisible}}
+\index{isComponentVisible@{isComponentVisible}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{isComponentVisible()}{isComponentVisible()}}
+{\footnotesize\ttfamily boolean org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+is\+Component\+Visible (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ab195f1a1b78acb8c190d68b3fd0c0604}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ab195f1a1b78acb8c190d68b3fd0c0604}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!moveDown@{moveDown}}
+\index{moveDown@{moveDown}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{moveDown()}{moveDown()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+move\+Down (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}}}]{comp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Moves the given component down. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a4f2b0497845d57e7872951d4c9ac0bd9}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a4f2b0497845d57e7872951d4c9ac0bd9}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!moveUp@{moveUp}}
+\index{moveUp@{moveUp}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{moveUp()}{moveUp()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+move\+Up (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}}}]{component }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Moves the given component up. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a45c10ff1a30d06b4deb27cc692fbc748}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a45c10ff1a30d06b4deb27cc692fbc748}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!show@{show}}
+\index{show@{show}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+show (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Makes sure that the given component is visible. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a19dc119e52a0aba9eba9774ef07635e9}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a19dc119e52a0aba9eba9774ef07635e9}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!toggle@{toggle}}
+\index{toggle@{toggle}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{toggle()}{toggle()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+toggle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+If the given component is visible it will be hidden and the other way around. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a7f8f6b8248b743731e05bf5ead980d9e}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a7f8f6b8248b743731e05bf5ead980d9e}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!updatePreferredPositions@{updatePreferredPositions}}
+\index{updatePreferredPositions@{updatePreferredPositions}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{updatePreferredPositions()}{updatePreferredPositions()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+update\+Preferred\+Positions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Stores the current configuration of visible components in the preferences, so that we show components at the preferred position next time. \mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ae91491d5d9d1867932fcf912c29da8da}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ae91491d5d9d1867932fcf912c29da8da}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!updateView@{updateView}}
+\index{updateView@{updateView}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{updateView()}{updateView()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+update\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Updates the view to reflect changes to visible components. 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a47296f304db77988d420f4b3694f5dba}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a47296f304db77988d420f4b3694f5dba}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!components@{components}}
+\index{components@{components}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{components}{components}}
+{\footnotesize\ttfamily final Map$<$\mbox{\hyperlink{enumorg_1_1jabref_1_1gui_1_1_side_pane_type}{Side\+Pane\+Type}}, \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}}$>$ org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+components = new Linked\+Hash\+Map$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a1069b2c3bba756df40ed1520230e19bc}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a1069b2c3bba756df40ed1520230e19bc}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!preferences@{preferences}}
+\index{preferences@{preferences}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{preferences}{preferences}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences}{Jab\+Ref\+Preferences}} org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+preferences\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ae9a8c5b4194fcd424fe6823805228ba3}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_ae9a8c5b4194fcd424fe6823805228ba3}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!sidePane@{sidePane}}
+\index{sidePane@{sidePane}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{sidePane}{sidePane}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane}{Side\+Pane}} org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+side\+Pane\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a870cbb0fb5c0b2a101ec76e210e4b12b}\label{classorg_1_1jabref_1_1gui_1_1_side_pane_manager_a870cbb0fb5c0b2a101ec76e210e4b12b}} 
+\index{org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}!visibleComponents@{visibleComponents}}
+\index{visibleComponents@{visibleComponents}!org.jabref.gui.SidePaneManager@{org.jabref.gui.SidePaneManager}}
+\doxysubsubsection{\texorpdfstring{visibleComponents}{visibleComponents}}
+{\footnotesize\ttfamily final List$<$\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1_side_pane_component}{Side\+Pane\+Component}}$>$ org.\+jabref.\+gui.\+Side\+Pane\+Manager.\+visible\+Components = new Linked\+List$<$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/\mbox{\hyperlink{_side_pane_manager_8java}{Side\+Pane\+Manager.\+java}}\end{DoxyCompactItemize}

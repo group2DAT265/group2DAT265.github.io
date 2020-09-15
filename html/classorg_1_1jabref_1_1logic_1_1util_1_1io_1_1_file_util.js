@@ -1,0 +1,25 @@
+var classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util =
+[
+    [ "FileUtil", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a650c6cc9db70f9f5ab1f4064f6eb9696", null ],
+    [ "addExtension", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a893c60bf472870fb7c25b309d8538636", null ],
+    [ "copyFile", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#ad4441a9a32c5f9cca2d92406073d716b", null ],
+    [ "createDirNameFromPattern", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a7b9e4747c8298bfbec31b3a2b983f398", null ],
+    [ "createFileNameFromPattern", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a3a295e22c48bff5774478cf453ef1845", null ],
+    [ "find", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#ac754ccf4e321cdddc8dbbdd6a804ffdc", null ],
+    [ "find", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#ae1cf336eee9ceff4450751a23aa0df1c", null ],
+    [ "getBaseName", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#ad3a0522fad414b8bb2281f3571c662f4", null ],
+    [ "getFileExtension", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a19b410f0381f8b6fced7a369c911fe00", null ],
+    [ "getFileExtension", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#aa2246728a672c6e2519c8c67383986c3", null ],
+    [ "getListOfLinkedFiles", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#adf1507b3bdbd8f250e451265595d1a0f", null ],
+    [ "getValidFileName", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a95d2ef520cd6ecf35a3720c48802e36a", null ],
+    [ "isBibFile", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a89943a4ee84ba7472acab1f5c15b3c7b", null ],
+    [ "relativize", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a8310b863be494accf5f9f024eb4c466c", null ],
+    [ "renameFile", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a4283e15ccda88b4c08ade2b7011a4820", null ],
+    [ "renameFile", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#afbb48fc8594f57a35976e25407d40f45", null ],
+    [ "renameFileWithException", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a4a17c8046e69b8e5472177cd06c612b4", null ],
+    [ "toPortableString", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a674c822c242d03fe3527c6fcded873ac", null ],
+    [ "uniquePathSubstrings", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a612bbc5df759da22b48bcf3bf1a1a332", null ],
+    [ "IS_POSIX_COMPILANT", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a428de49eead0b92f7e95c090a3695793", null ],
+    [ "LOGGER", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#ae8ffb0afaa430ea6d3f7be0c85a12499", null ],
+    [ "MAXIMUM_FILE_NAME_LENGTH", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_file_util.html#a78d24d80ef4092d4164130322d46d3f9", null ]
+];

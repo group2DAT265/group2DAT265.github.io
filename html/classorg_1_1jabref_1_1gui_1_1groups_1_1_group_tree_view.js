@@ -1,0 +1,26 @@
+var classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view =
+[
+    [ "DragExpansionHandler", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_1_1_drag_expansion_handler.html", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view_1_1_drag_expansion_handler" ],
+    [ "addNewGroup", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a424a46ff4cc57df73374c10955b3c368", null ],
+    [ "createContextMenuForGroup", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a27e72eba5a424f0706099bfb4fa527b7", null ],
+    [ "getTreeItemByValue", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a47a957afc56b616c117d05535fadef17", null ],
+    [ "getTreeItemByValue", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a75bbb86636d2966ee70d1d489dd8cf38", null ],
+    [ "initialize", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a8bbce9f837ff190df6c5f6077020b372", null ],
+    [ "selectNode", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a9f77a7eb2cd796d8eb6d480c59d1b082", null ],
+    [ "selectNode", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#af6f5e398f6e14a4aa086084bb9efd633", null ],
+    [ "setupClearButtonField", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#adefcdb5591c11f0fb8f0ee3982f657c4", null ],
+    [ "updateSelection", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a29205d52c79802e7ea57f8e3d97d08b5", null ],
+    [ "dialogService", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a77ba7d20143f82e0d6adf9baa380d626", null ],
+    [ "dragExpansionHandler", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a480ab5ec85986e39055da404a662150e", null ],
+    [ "expansionNodeColumn", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#af9409d6431848d6920a299aa3e1e0681", null ],
+    [ "groupTree", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a55cab49410376915d8fd210093d17bc9", null ],
+    [ "localDragboard", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#abf66d59cb28faf60e7df30da64e47d8b", null ],
+    [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#afc9d3c652e23508cb8bde7dc9eb0dfa5", null ],
+    [ "mainColumn", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a75c0583a925c7dda8398cca3444dc589", null ],
+    [ "numberColumn", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a76182e42f368961f28e1faddbdec6818", null ],
+    [ "preferencesService", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#ad83bbdc5de8d33adaddfb7a701f5fcfa", null ],
+    [ "searchField", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#aef6e52b043f12871f70c22001ea54cb3", null ],
+    [ "stateManager", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#aee1b4b43c6382f8a5b6e9f10dddc1dff", null ],
+    [ "taskExecutor", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a572ef689854a8047035d823259beb6fe", null ],
+    [ "viewModel", "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#aecc0ba4e17687043cbbf2dac89ccb3d0", null ]
+];

@@ -1,0 +1,95 @@
+\hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change}{}\doxysection{org.\+jabref.\+gui.\+undo.\+Undoable\+Key\+Change Class Reference}
+\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change}\index{org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}}
+Inheritance diagram for org.\+jabref.\+gui.\+undo.\+Undoable\+Key\+Change\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a4274d50230106d0ee75e06ccd60fbc2c}{Undoable\+Key\+Change}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}} change)
+\item 
+\mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a623567c6191d327ebe64dcbfdc8c1df0}{Undoable\+Key\+Change}} (\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a1311cdd210b412330c91f0d092e80815}{entry}}, String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_ad6c6a7352e0c4b52a5e3266e1f935295}{old\+Value}}, String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_aac0c7023ba747f81f9d1c26eb894bccb}{new\+Value}})
+\item 
+String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_ace9e53f8dcdfa4aab5f4fd747ec631dc}{get\+Presentation\+Name}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_aa3b34a2b76dd333623630dbd6b622c95}{undo}} ()
+\item 
+void \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a790e8f1f9958b70fba43a0125d00a01b}{redo}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a1311cdd210b412330c91f0d092e80815}{entry}}
+\item 
+final String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_ad6c6a7352e0c4b52a5e3266e1f935295}{old\+Value}}
+\item 
+final String \mbox{\hyperlink{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_aac0c7023ba747f81f9d1c26eb894bccb}{new\+Value}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents a change in any field value. The relevant information is the Bib\+Entry, the field name, the old and the new value. Old/new values can be null. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a4274d50230106d0ee75e06ccd60fbc2c}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a4274d50230106d0ee75e06ccd60fbc2c}} 
+\index{org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}!UndoableKeyChange@{UndoableKeyChange}}
+\index{UndoableKeyChange@{UndoableKeyChange}!org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}}
+\doxysubsubsection{\texorpdfstring{UndoableKeyChange()}{UndoableKeyChange()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+undo.\+Undoable\+Key\+Change.\+Undoable\+Key\+Change (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1_field_change}{Field\+Change}}}]{change }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a623567c6191d327ebe64dcbfdc8c1df0}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a623567c6191d327ebe64dcbfdc8c1df0}} 
+\index{org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}!UndoableKeyChange@{UndoableKeyChange}}
+\index{UndoableKeyChange@{UndoableKeyChange}!org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}}
+\doxysubsubsection{\texorpdfstring{UndoableKeyChange()}{UndoableKeyChange()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily org.\+jabref.\+gui.\+undo.\+Undoable\+Key\+Change.\+Undoable\+Key\+Change (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}}}]{entry,  }\item[{String}]{old\+Value,  }\item[{String}]{new\+Value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_ace9e53f8dcdfa4aab5f4fd747ec631dc}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_ace9e53f8dcdfa4aab5f4fd747ec631dc}} 
+\index{org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}!getPresentationName@{getPresentationName}}
+\index{getPresentationName@{getPresentationName}!org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}}
+\doxysubsubsection{\texorpdfstring{getPresentationName()}{getPresentationName()}}
+{\footnotesize\ttfamily String org.\+jabref.\+gui.\+undo.\+Undoable\+Key\+Change.\+get\+Presentation\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a790e8f1f9958b70fba43a0125d00a01b}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a790e8f1f9958b70fba43a0125d00a01b}} 
+\index{org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}!redo@{redo}}
+\index{redo@{redo}!org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}}
+\doxysubsubsection{\texorpdfstring{redo()}{redo()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+undo.\+Undoable\+Key\+Change.\+redo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_aa3b34a2b76dd333623630dbd6b622c95}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_aa3b34a2b76dd333623630dbd6b622c95}} 
+\index{org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}!undo@{undo}}
+\index{undo@{undo}!org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily void org.\+jabref.\+gui.\+undo.\+Undoable\+Key\+Change.\+undo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a1311cdd210b412330c91f0d092e80815}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_a1311cdd210b412330c91f0d092e80815}} 
+\index{org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}!entry@{entry}}
+\index{entry@{entry}!org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}}
+\doxysubsubsection{\texorpdfstring{entry}{entry}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry}{Bib\+Entry}} org.\+jabref.\+gui.\+undo.\+Undoable\+Key\+Change.\+entry\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_aac0c7023ba747f81f9d1c26eb894bccb}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_aac0c7023ba747f81f9d1c26eb894bccb}} 
+\index{org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}!newValue@{newValue}}
+\index{newValue@{newValue}!org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}}
+\doxysubsubsection{\texorpdfstring{newValue}{newValue}}
+{\footnotesize\ttfamily final String org.\+jabref.\+gui.\+undo.\+Undoable\+Key\+Change.\+new\+Value\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_ad6c6a7352e0c4b52a5e3266e1f935295}\label{classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change_ad6c6a7352e0c4b52a5e3266e1f935295}} 
+\index{org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}!oldValue@{oldValue}}
+\index{oldValue@{oldValue}!org.jabref.gui.undo.UndoableKeyChange@{org.jabref.gui.undo.UndoableKeyChange}}
+\doxysubsubsection{\texorpdfstring{oldValue}{oldValue}}
+{\footnotesize\ttfamily final String org.\+jabref.\+gui.\+undo.\+Undoable\+Key\+Change.\+old\+Value\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/org/jabref/gui/undo/\mbox{\hyperlink{_undoable_key_change_8java}{Undoable\+Key\+Change.\+java}}\end{DoxyCompactItemize}

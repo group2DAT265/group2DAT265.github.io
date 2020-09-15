@@ -1,0 +1,83 @@
+After reading through this guide, check out some good first issues to contribute to by clicking here\+: \href{https://github.com/JabRef/jabref/issues?q=is\%3Aissue+is\%3Aopen+label\%3A\%22good+first+issue\%22}{\texttt{ Good First Issues}}
+
+In case you are an instructor and want to use Jab\+Ref as software engineering example, please head to \href{https://devdocs.jabref.org/teaching}{\texttt{ https\+://devdocs.\+jabref.\+org/teaching}}.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md30}{}\doxysection{Understanding the basics}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md30}
+We welcome contributions to Jab\+Ref and encourage you to follow the Git\+Hub workflow specified below. If you are not familiar with this type of workflow, take a look at Git\+Hub\textquotesingle{}s excellent overview on the \href{https://guides.github.com/introduction/flow/index.html}{\texttt{ Git\+Hub flow}} and the explanation of \href{https://atlassian.com/git/tutorials/comparing-workflows\#feature-branch-workflow}{\texttt{ Feature Branch Workflow}} for the idea behind this kind of development.
+
+
+\begin{DoxyEnumerate}
+\item Get the Jab\+Ref code on your local machine. Detailed instructions about this step can be found in our \href{https://devdocs.jabref.org/getting-into-the-code/guidelines-for-setting-up-a-local-workspace}{\texttt{ guidelines for setting up a local workspace}}.
+\begin{DoxyEnumerate}
+\item Fork the Jab\+Ref into your Git\+Hub account.
+\item Clone your forked repository on your local machine.
+\end{DoxyEnumerate}
+\item {\bfseries{Create a new branch}} (such as {\ttfamily fix-\/for-\/issue-\/121}). Be sure to create a {\bfseries{separate branch}} for each improvement you implement.
+\item Do your work on the {\bfseries{new branch -\/ not the master branch.}} Refer to our \href{https://devdocs.jabref.org/getting-into-the-code/code-howtos}{\texttt{ code howtos}} if you have questions about your implementation.
+\item Create a pull request. For an overview of pull requests, take a look at Git\+Hub\textquotesingle{}s \href{https://help.github.com/articles/about-pull-requests/}{\texttt{ pull request help documentation}}.
+\item In case your pull request is not yet complete or not yet ready for review, consider creating a \href{https://github.blog/2019-02-14-introducing-draft-pull-requests/}{\texttt{ draft pull request}} instead.
+\end{DoxyEnumerate}
+
+In case you have any questions, do not hesitate to write one of our \href{https://github.com/orgs/JabRef/teams/developers}{\texttt{ Jab\+Ref developers}} an email. We should also be online at \href{https://gitter.im/JabRef/jabref}{\texttt{ gitter}}.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md31}{}\doxysection{Formal requirements for a pull request}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md31}
+The main goal of the formal requirements is to provide credit to you and to be able to understand the patch.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md32}{}\doxysubsection{Add your change to $<$tt$>$\+C\+H\+A\+N\+G\+E\+L\+O\+G.\+md$<$/tt$>$}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md32}
+You should edit the \mbox{\hyperlink{md__c_h_a_n_g_e_l_o_g}{C\+H\+A\+N\+G\+E\+L\+OG.md}} located in the root directory of the Jab\+Ref source. Add a line with your changes in the appropriate section.
+
+If you did internal refactorings or improvements not visible to the user (e.\+g., UI, .bib file), then you don\textquotesingle{}t need to put an entry there.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md33}{}\doxysubsubsection{Format of keyboard shortcuts}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md33}
+Example\+: {\ttfamily $<$kbd$>$Ctrl$<$/kbd$>$ + $<$kbd$>$Enter$<$/kbd$>$}
+
+In case you add keys to the changelog, please follow these rules\+:
+
+
+\begin{DoxyItemize}
+\item {\ttfamily $<$kbd$>$} tag for each key
+\item First letter of key capitalized
+\item Combined keys separated by {\ttfamily +}
+\item Spaces before and after separator {\ttfamily +}
+\end{DoxyItemize}\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md34}{}\doxysubsection{Author credits}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md34}
+You will be given credit in the \mbox{[}{\ttfamily A\+U\+T\+H\+O\+RS}\mbox{]}(A\+U\+T\+H\+O\+RS) file in the root of the repository and the \textquotesingle{}About\textquotesingle{} pages inside the main application. We will periodically update the contributors list inside \mbox{[}{\ttfamily A\+U\+T\+H\+O\+RS}\mbox{]}(A\+U\+T\+H\+O\+RS). This is done by an automatic shell script {\ttfamily scripts/generate-\/authors.\+sh}.
+
+If you want to add yourself directly with your pull request please run this script. Please make sure there are no duplicates or alternate spellings of your name listed. If you need to merge different Git usernames or email addresses you can do so by editing {\ttfamily .mailmap}. More information on this can be found via {\ttfamily man git-\/shortlog}.
+
+Please, {\bfseries{do not add yourself at Java\+Doc\textquotesingle{}s {\ttfamily @authors}}}. The contribution information is tracked via the version control system.
+
+Your contribution is considered being made under \href{https://tldrlegal.com/license/mit-license}{\texttt{ M\+IT license}}.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md35}{}\doxysubsection{Write a good commit message}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md35}
+See \href{https://github.com/joelparkerhenderson/git_commit_message}{\texttt{ good commit message}} or \href{http://git-scm.com/book/en/Distributed-Git-Contributing-to-a-Project\#Commit-Guidelines}{\texttt{ commit guidelines section of Pro Git}}. The first line of your commit message is automatically taken as the title for the pull-\/request. All other lines make up the body of the pull request. Add the words {\ttfamily fixes \#xxx} to your PR to auto-\/close the corresponding issue.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md36}{}\doxysubsection{Test your code}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md36}
+We know that writing test cases takes a lot of time. Nevertheless, we rely on our test cases to ensure that a bug fix or a feature implementation doesn\textquotesingle{}t break anything. In case you do not have time to add a test case, we nevertheless ask you to at least run {\ttfamily gradlew check} to ensure that your change doesn\textquotesingle{}t break anything else.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md37}{}\doxysubsection{When adding a library}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md37}
+Please try to use a version available at J\+Center and add it to {\ttfamily build.\+gradle}. In any case, describe the library at \mbox{\hyperlink{md_external-libraries}{external-\/libraries.md}}. We need that information for our package maintainers (e.\+g., those of the \href{https://tracker.debian.org/pkg/jabref}{\texttt{ debian package}}). Also add a txt file stating the license in {\ttfamily libraries/}. It is used at {\ttfamily gradlew process\+Resources} to generate the About.\+html files. You can see the result in {\ttfamily build\textbackslash{}resources\textbackslash{}main\textbackslash{}help\textbackslash{}en\textbackslash{}About.\+html} or when clicking Help -\/$>$ About.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md38}{}\doxysubsection{When making an architectural decision}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md38}
+In case you add a library or do major code rewrites, we ask you to document your decision. Recommended reading\+: \href{https://adr.github.io/}{\texttt{ https\+://adr.\+github.\+io/}}.
+
+We simply ask to create a new markdown file in {\ttfamily docs/adr} following the template presented at \href{https://adr.github.io/madr/}{\texttt{ https\+://adr.\+github.\+io/madr/}}.
+
+In case you want to directly add a comment to a class, simply use following template (based on \href{https://www.infoq.com/articles/sustainable-architectural-design-decisions}{\texttt{ sustainable architectural decisions}})\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{In the context of <use case/user story u>,}
+\DoxyCodeLine{facing <concern c>}
+\DoxyCodeLine{we decided for <option o>}
+\DoxyCodeLine{and neglected <other options>,}
+\DoxyCodeLine{to achieve <system qualities/desired consequences>,}
+\DoxyCodeLine{accepting <downside / undesired consequences>,}
+\DoxyCodeLine{because <additional rationale>.}
+\end{DoxyCode}
+\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md39}{}\doxysubsection{When adding a new $<$tt$>$\+Localization.\+lang$<$/tt$>$ entry}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md39}
+Add new {\ttfamily Localization.\+lang(\char`\"{}\+K\+E\+Y\char`\"{})} to a Java file. The tests will fail. In the test output a snippet is generated, which must be added to the English translation file.
+
+Example\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{java.lang.AssertionError: DETECTED LANGUAGE KEYS WHICH ARE NOT IN THE ENGLISH LANGUAGE FILE}
+\DoxyCodeLine{PASTE THESE INTO THE ENGLISH LANGUAGE FILE}
+\DoxyCodeLine{[}
+\DoxyCodeLine{Opens\(\backslash\) JabRef's\(\backslash\) Twitter\(\backslash\) page=Opens JabRef's Twitter page}
+\DoxyCodeLine{]}
+\DoxyCodeLine{Expected :[]}
+\DoxyCodeLine{Actual   :[Opens\(\backslash\) JabRef's\(\backslash\) Twitter\(\backslash\) page (src\(\backslash\)main\(\backslash\)java\(\backslash\)org\(\backslash\)jabref\(\backslash\)gui\(\backslash\)JabRefFrame.java LANG)]}
+\end{DoxyCode}
+
+
+Add the above snippet to the English translation file located at {\ttfamily src/main/resources/l10n/\+Jab\+Ref\+\_\+en.\+properties}. \href{http://translate.jabref.org/}{\texttt{ Crowdin}} will automatically pick up the new string and add it to the other translations.
+
+You can also directly run the specific test in your I\+DE. The test \char`\"{}\+Localization\+Consistency\+Test\char`\"{} is placed under {\ttfamily src/test/java/net.\+sf.\+jabref.\+logic.\+l10n/\+Localization\+Consistency\+Test.java} Find more information in the \href{https://devdocs.jabref.org/getting-into-the-code/code-howtos\#using-localization-correctly}{\texttt{ Jab\+Ref developer docs}}.\hypertarget{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md40}{}\doxysection{Create a pull request}\label{md__c_o_n_t_r_i_b_u_t_i_n_g_autotoc_md40}
+Create a pull request on Git\+Hub following Git\+Hub\textquotesingle{}s guide \char`\"{}\mbox{[}\+Creating a pull request from a fork\mbox{]}(https\+://help.\+github.\+com/en/github/collaborating-\/with-\/issues-\/and-\/pull-\/requests/creating-\/a-\/pull-\/request-\/from-\/a-\/fork)\char`\"{}. For text inspirations, consider \href{https://github.com/blog/1943-how-to-write-the-perfect-pull-request}{\texttt{ How to write the perfect pull request}}.
+
+If you want to indicate that a pull request is not yet complete {\bfseries{before}} creating the pull request, you may consider creating a \href{https://github.blog/2019-02-14-introducing-draft-pull-requests/}{\texttt{ draft pull request}}. Alternatively, once the PR has been created, you can add the prefix {\ttfamily \mbox{[}W\+IP\mbox{]}} (which stands for \char`\"{}\+Work in Progress\char`\"{}) to indicate that the pull request is not yet complete, but you want to discuss something or inform about the current state of affairs. 
