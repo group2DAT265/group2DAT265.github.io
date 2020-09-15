@@ -1,0 +1,23 @@
+name: Doxygen and deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+
+      - name: Doxygen
+        uses: mattnotmitt/doxygen-action@v1
+        with:
+          working-directory: 'docs/'
+          doxyfile-path: './Doxygen'
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
