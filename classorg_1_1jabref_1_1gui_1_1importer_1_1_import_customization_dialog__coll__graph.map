@@ -1,0 +1,15 @@
+<map id="org.jabref.gui.importer.ImportCustomizationDialog" name="org.jabref.gui.importer.ImportCustomizationDialog">
+<area shape="rect" id="node1" title=" " alt="" coords="905,389,1083,431"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_base_dialog.html" title=" " alt="" coords="533,63,675,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="81,5,224,47"/>
+<area shape="rect" id="node4" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog.html" title=" " alt="" coords="71,71,235,98"/>
+<area shape="rect" id="node5" href="$interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html" title=" " alt="" coords="43,123,262,164"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1gui_1_1importer_1_1_import_customization_dialog_view_model.html" title=" " alt="" coords="483,267,725,308"/>
+<area shape="rect" id="node6" title=" " alt="" coords="453,459,755,500"/>
+<area shape="rect" id="node7" title=" " alt="" coords="461,524,747,565"/>
+<area shape="rect" id="node8" title=" " alt="" coords="560,598,648,625"/>
+<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1gui_1_1_abstract_view_model.html" title=" " alt="" coords="65,188,241,229"/>
+<area shape="rect" id="node11" title=" " alt="" coords="121,254,184,281"/>
+<area shape="rect" id="node12" title=" " alt="" coords="5,305,300,347"/>
+<area shape="rect" id="node13" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog_service.html" title=" " alt="" coords="63,382,242,409"/>
+</map>

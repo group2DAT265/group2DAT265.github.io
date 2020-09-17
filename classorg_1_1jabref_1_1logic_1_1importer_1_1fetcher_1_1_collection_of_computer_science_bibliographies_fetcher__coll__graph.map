@@ -1,0 +1,52 @@
+<map id="org.jabref.logic.importer.fetcher.CollectionOfComputerScienceBibliographiesFetcher" name="org.jabref.logic.importer.fetcher.CollectionOfComputerScienceBibliographiesFetcher">
+<area shape="rect" id="node1" title=" " alt="" coords="2795,267,3072,323"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher.html" title=" " alt="" coords="2458,184,2641,225"/>
+<area shape="rect" id="node3" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_fetcher.html" title=" " alt="" coords="2001,69,2160,111"/>
+<area shape="rect" id="node4" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher.html" title=" " alt="" coords="1602,36,1761,77"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_collection_of_computer_science_bibliographies_parser.html" title=" " alt="" coords="2392,307,2707,348"/>
+<area shape="rect" id="node6" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_parser.html" title=" " alt="" coords="1602,876,1761,917"/>
+<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html" title=" " alt="" coords="1973,544,2188,585"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_unicode_formatter.html" title=" " alt="" coords="1965,167,2196,208"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1logic_1_1cleanup_1_1_formatter.html" title=" " alt="" coords="1603,167,1759,208"/>
+<area shape="rect" id="node9" href="$interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter.html" title=" " alt="" coords="1609,101,1754,143"/>
+<area shape="rect" id="node11" title=" " alt="" coords="695,653,758,679"/>
+<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1model_1_1database_1_1_bib_database.html" title=" " alt="" coords="1142,477,1314,519"/>
+<area shape="rect" id="node31" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_meta_data_parser.html" title=" " alt="" coords="1139,568,1317,609"/>
+<area shape="rect" id="node34" href="$classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html" title=" " alt="" coords="1141,1048,1315,1089"/>
+<area shape="rect" id="node33" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html" title=" " alt="" coords="1602,811,1761,852"/>
+<area shape="rect" id="node13" title=" " alt="" coords="687,742,766,769"/>
+<area shape="rect" id="node14" title=" " alt="" coords="615,487,839,528"/>
+<area shape="rect" id="node15" title=" " alt="" coords="603,421,850,463"/>
+<area shape="rect" id="node16" title=" " alt="" coords="695,349,759,375"/>
+<area shape="rect" id="node18" href="$classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_content_formatter.html" title=" " alt="" coords="1153,365,1303,407"/>
+<area shape="rect" id="node17" title=" " alt="" coords="1139,761,1317,803"/>
+<area shape="rect" id="node19" title=" " alt="" coords="625,224,829,265"/>
+<area shape="rect" id="node30" href="$classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences.html" title=" " alt="" coords="1147,183,1309,224"/>
+<area shape="rect" id="node20" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1_import_format_preferences.html" title=" " alt="" coords="1596,232,1767,273"/>
+<area shape="rect" id="node21" href="$classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_content_formatter_preferences.html" title=" " alt="" coords="1117,117,1339,159"/>
+<area shape="rect" id="node22" title=" " alt="" coords="623,136,830,177"/>
+<area shape="rect" id="node23" href="$classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_pattern_preferences.html" title=" " alt="" coords="1121,52,1335,93"/>
+<area shape="rect" id="node24" href="$classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_global_citation_key_pattern.html" title=" " alt="" coords="620,5,833,47"/>
+<area shape="rect" id="node25" href="$classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_abstract_citation_key_pattern.html" title=" " alt="" coords="255,381,468,423"/>
+<area shape="rect" id="node26" title=" " alt="" coords="5,797,105,823"/>
+<area shape="rect" id="node27" href="$enumorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_pattern_preferences_1_1_key_suffix.html" title=" " alt="" coords="599,71,855,112"/>
+<area shape="rect" id="node28" title=" " alt="" coords="693,879,760,906"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1105,248,1351,289"/>
+<area shape="rect" id="node32" href="$interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor.html" title=" " alt="" coords="648,568,805,609"/>
+<area shape="rect" id="node35" href="$classorg_1_1jabref_1_1logic_1_1cleanup_1_1_field_formatter_cleanups.html" title=" " alt="" coords="647,1231,807,1272"/>
+<area shape="rect" id="node36" title=" " alt="" coords="267,1231,456,1272"/>
+<area shape="rect" id="node37" title=" " alt="" coords="618,1296,835,1337"/>
+<area shape="rect" id="node38" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node.html" title=" " alt="" coords="647,1361,806,1403"/>
+<area shape="rect" id="node39" href="$classorg_1_1jabref_1_1model_1_1_tree_node.html" title=" " alt="" coords="262,1296,461,1337"/>
+<area shape="rect" id="node40" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group.html" title=" " alt="" coords="282,1361,441,1403"/>
+<area shape="rect" id="node41" href="$classorg_1_1jabref_1_1model_1_1metadata_1_1_save_order_config.html" title=" " alt="" coords="640,1427,813,1468"/>
+<area shape="rect" id="node42" title=" " alt="" coords="239,1427,484,1468"/>
+<area shape="rect" id="node43" title=" " alt="" coords="662,931,791,972"/>
+<area shape="rect" id="node44" title=" " alt="" coords="655,997,799,1023"/>
+<area shape="rect" id="node45" href="$classorg_1_1jabref_1_1model_1_1metadata_1_1_content_selectors.html" title=" " alt="" coords="640,1048,813,1089"/>
+<area shape="rect" id="node46" title=" " alt="" coords="658,1114,795,1141"/>
+<area shape="rect" id="node47" href="$enumorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode.html" title=" " alt="" coords="641,1165,813,1207"/>
+<area shape="rect" id="node48" title=" " alt="" coords="1203,878,1253,905"/>
+<area shape="rect" id="node49" title=" " alt="" coords="1613,501,1750,527"/>
+<area shape="rect" id="node50" title=" " alt="" coords="1621,551,1742,578"/>
+</map>

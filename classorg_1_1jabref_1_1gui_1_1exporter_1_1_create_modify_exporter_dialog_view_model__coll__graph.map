@@ -1,0 +1,11 @@
+<map id="org.jabref.gui.exporter.CreateModifyExporterDialogViewModel" name="org.jabref.gui.exporter.CreateModifyExporterDialogViewModel">
+<area shape="rect" id="node1" title=" " alt="" coords="716,155,961,196"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1_abstract_view_model.html" title=" " alt="" coords="389,5,565,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="425,74,529,101"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1journals_1_1_journal_abbreviation_repository.html" title=" " alt="" coords="379,125,576,167"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,96,195,137"/>
+<area shape="rect" id="node6" title=" " alt="" coords="18,163,182,190"/>
+<area shape="rect" id="node7" title=" " alt="" coords="446,191,509,218"/>
+<area shape="rect" id="node8" href="$interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html" title=" " alt="" coords="368,243,587,284"/>
+<area shape="rect" id="node9" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog_service.html" title=" " alt="" coords="388,309,567,335"/>
+</map>

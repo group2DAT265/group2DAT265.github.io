@@ -1,0 +1,41 @@
+<map id="org.jabref.logic.cleanup.Formatter" name="org.jabref.logic.cleanup.Formatter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1215,161,1256"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1logic_1_1cleanup_1_1_normalize_newlines_formatter.html" title=" " alt="" coords="239,5,429,47"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_add_braces_formatter.html" title=" " alt="" coords="219,71,449,112"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter.html" title=" " alt="" coords="219,136,449,177"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_clear_formatter.html" title=" " alt="" coords="219,201,449,243"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_escape_ampersands_formatter.html" title=" " alt="" coords="219,267,449,308"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_escape_underscores_formatter.html" title=" " alt="" coords="219,332,449,373"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter.html" title=" " alt="" coords="219,397,449,439"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_unicode_formatter.html" title=" " alt="" coords="219,463,449,504"/>
+<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_latex_cleanup_formatter.html" title=" " alt="" coords="219,528,449,569"/>
+<area shape="rect" id="node11" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter.html" title=" " alt="" coords="219,593,449,635"/>
+<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_en_dashes_formatter.html" title=" " alt="" coords="219,659,449,700"/>
+<area shape="rect" id="node13" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_month_formatter.html" title=" " alt="" coords="219,724,449,765"/>
+<area shape="rect" id="node14" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_names_formatter.html" title=" " alt="" coords="219,789,449,831"/>
+<area shape="rect" id="node15" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_pages_formatter.html" title=" " alt="" coords="219,855,449,896"/>
+<area shape="rect" id="node16" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_ordinals_to_superscript_formatter.html" title=" " alt="" coords="219,920,449,961"/>
+<area shape="rect" id="node17" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_regex_formatter.html" title=" " alt="" coords="219,985,449,1027"/>
+<area shape="rect" id="node18" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_braces_formatter.html" title=" " alt="" coords="219,1051,449,1092"/>
+<area shape="rect" id="node19" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_digits_formatter.html" title=" " alt="" coords="219,1116,449,1157"/>
+<area shape="rect" id="node20" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_hyphenated_newlines_formatter.html" title=" " alt="" coords="209,1181,459,1223"/>
+<area shape="rect" id="node21" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_newlines_formatter.html" title=" " alt="" coords="219,1247,449,1288"/>
+<area shape="rect" id="node22" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_redundant_spaces_formatter.html" title=" " alt="" coords="218,1312,450,1353"/>
+<area shape="rect" id="node23" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_replace_tabs_by_space_formater.html" title=" " alt="" coords="219,1377,449,1419"/>
+<area shape="rect" id="node24" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_shorten_d_o_i_formatter.html" title=" " alt="" coords="219,1443,449,1484"/>
+<area shape="rect" id="node25" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_trim_whitespace_formatter.html" title=" " alt="" coords="219,1508,449,1549"/>
+<area shape="rect" id="node26" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_unicode_to_latex_formatter.html" title=" " alt="" coords="219,1573,449,1615"/>
+<area shape="rect" id="node27" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_units_to_latex_formatter.html" title=" " alt="" coords="219,1639,449,1680"/>
+<area shape="rect" id="node28" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_capitalize_formatter.html" title=" " alt="" coords="214,1704,454,1745"/>
+<area shape="rect" id="node29" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_lower_case_formatter.html" title=" " alt="" coords="214,1769,454,1811"/>
+<area shape="rect" id="node30" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_protect_terms_formatter.html" title=" " alt="" coords="214,1835,454,1876"/>
+<area shape="rect" id="node31" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_sentence_case_formatter.html" title=" " alt="" coords="214,1900,454,1941"/>
+<area shape="rect" id="node32" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_title_case_formatter.html" title=" " alt="" coords="214,1965,454,2007"/>
+<area shape="rect" id="node33" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_upper_case_formatter.html" title=" " alt="" coords="214,2031,454,2072"/>
+<area shape="rect" id="node34" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1_identity_formatter.html" title=" " alt="" coords="253,2096,415,2137"/>
+<area shape="rect" id="node35" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1minifier_1_1_minify_name_list_formatter.html" title=" " alt="" coords="231,2161,437,2203"/>
+<area shape="rect" id="node36" href="$classorg_1_1jabref_1_1logic_1_1formatter_1_1minifier_1_1_truncate_formatter.html" title=" " alt="" coords="231,2227,437,2268"/>
+<area shape="rect" id="node37" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_latex_to_unicode_formatter.html" title=" " alt="" coords="241,2292,427,2333"/>
+<area shape="rect" id="node38" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace_unicode_ligatures_formatter.html" title=" " alt="" coords="221,2357,447,2399"/>
+<area shape="rect" id="node39" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter_based_formatter.html" title=" " alt="" coords="229,2423,439,2464"/>
+</map>

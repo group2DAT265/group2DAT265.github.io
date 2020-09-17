@@ -1,0 +1,12 @@
+<map id="org.jabref.logic.importer.fetcher.CrossRef" name="org.jabref.logic.importer.fetcher.CrossRef">
+<area shape="rect" id="node1" title=" " alt="" coords="649,118,851,159"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_parser_fetcher.html" title=" " alt="" coords="423,5,597,61"/>
+<area shape="rect" id="node3" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_fetcher.html" title=" " alt="" coords="212,13,371,54"/>
+<area shape="rect" id="node4" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_entry_based_parser_fetcher.html" title=" " alt="" coords="425,85,595,126"/>
+<area shape="rect" id="node5" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_entry_based_fetcher.html" title=" " alt="" coords="212,85,371,126"/>
+<area shape="rect" id="node6" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher.html" title=" " alt="" coords="5,150,164,191"/>
+<area shape="rect" id="node8" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_fetcher.html" title=" " alt="" coords="212,150,371,191"/>
+<area shape="rect" id="node10" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher.html" title=" " alt="" coords="212,215,371,257"/>
+<area shape="rect" id="node7" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher.html" title=" " alt="" coords="419,150,601,191"/>
+<area shape="rect" id="node9" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_parser_fetcher.html" title=" " alt="" coords="431,215,589,257"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="org.jabref.model.entry.event.EntriesEvent" name="org.jabref.model.entry.event.EntriesEvent">
+<area shape="rect" id="node1" title=" " alt="" coords="277,71,460,112"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1model_1_1database_1_1event_1_1_entries_added_event.html" title=" " alt="" coords="508,5,715,47"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1model_1_1database_1_1event_1_1_entries_removed_event.html" title=" " alt="" coords="508,71,715,112"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entry_changed_event.html" title=" " alt="" coords="520,136,703,177"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1model_1_1database_1_1event_1_1_bib_database_context_changed_event.html" title=" " alt="" coords="5,71,229,112"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_field_changed_event.html" title=" " alt="" coords="763,136,945,177"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_field_added_or_removed_event.html" title=" " alt="" coords="993,136,1183,177"/>
+</map>

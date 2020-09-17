@@ -1,0 +1,16 @@
+<map id="org.jabref.logic.importer.IdBasedParserFetcher" name="org.jabref.logic.importer.IdBasedParserFetcher">
+<area shape="rect" id="node1" title=" " alt="" coords="419,285,577,327"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_abstract_isbn_fetcher.html" title=" " alt="" coords="640,37,841,79"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html" title=" " alt="" coords="640,103,841,144"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_cross_ref.html" title=" " alt="" coords="640,168,841,209"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_di_v_a.html" title=" " alt="" coords="625,234,856,261"/>
+<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_library_of_congress.html" title=" " alt="" coords="640,285,841,327"/>
+<area shape="rect" id="node11" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_math_sci_net.html" title=" " alt="" coords="640,351,841,392"/>
+<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medline_fetcher.html" title=" " alt="" coords="640,416,841,457"/>
+<area shape="rect" id="node13" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medra.html" title=" " alt="" coords="640,481,841,523"/>
+<area shape="rect" id="node14" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_rfc_fetcher.html" title=" " alt="" coords="640,547,841,588"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher.html" title=" " alt="" coords="212,285,371,327"/>
+<area shape="rect" id="node3" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher.html" title=" " alt="" coords="5,285,164,327"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_via_ebook_de_fetcher.html" title=" " alt="" coords="904,5,1105,47"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_via_otto_bib_fetcher.html" title=" " alt="" coords="904,71,1105,112"/>
+</map>

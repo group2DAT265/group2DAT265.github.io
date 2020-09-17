@@ -1,0 +1,10 @@
+<map id="org.jabref.logic.importer.Parser" name="org.jabref.logic.importer.Parser">
+<area shape="rect" id="node1" title=" " alt="" coords="5,201,164,243"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_collection_of_computer_science_bibliographies_parser.html" title=" " alt="" coords="212,5,527,47"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html" title=" " alt="" coords="262,71,477,112"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html" title=" " alt="" coords="262,136,477,177"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html" title=" " alt="" coords="262,201,477,243"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_gvk_parser.html" title=" " alt="" coords="262,267,477,308"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer.html" title=" " alt="" coords="262,332,477,373"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html" title=" " alt="" coords="262,397,477,439"/>
+</map>

@@ -1,4 +1,0 @@
-var classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_meta_data_diff_test =
-[
-    [ "compareWithSameContentSelectorsDoesNotReportAnyDiffs", "classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_meta_data_diff_test.html#a3ab7bdedc0fd168aced76058dd1cde3c", null ]
-];

@@ -1,0 +1,20 @@
+<map id="org.jabref.gui.journals.ManageJournalAbbreviationsViewModel" name="org.jabref.gui.journals.ManageJournalAbbreviationsViewModel">
+<area shape="rect" id="node1" title=" " alt="" coords="827,405,1080,447"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1_abstract_view_model.html" title=" " alt="" coords="398,5,574,47"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1logic_1_1journals_1_1_journal_abbreviation_repository.html" title=" " alt="" coords="387,71,585,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,41,195,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="18,109,182,135"/>
+<area shape="rect" id="node6" title=" " alt="" coords="455,137,517,163"/>
+<area shape="rect" id="node7" title=" " alt="" coords="387,187,585,243"/>
+<area shape="rect" id="node8" title=" " alt="" coords="401,267,571,323"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1logic_1_1journals_1_1_journal_abbreviation_preferences.html" title=" " alt="" coords="383,347,589,388"/>
+<area shape="rect" id="node10" title=" " alt="" coords="50,329,150,355"/>
+<area shape="rect" id="node11" title=" " alt="" coords="67,379,133,406"/>
+<area shape="rect" id="node12" title=" " alt="" coords="411,413,561,439"/>
+<area shape="rect" id="node13" href="$interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor.html" title=" " alt="" coords="413,464,559,505"/>
+<area shape="rect" id="node14" title=" " alt="" coords="368,529,604,585"/>
+<area shape="rect" id="node15" href="$interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html" title=" " alt="" coords="377,608,595,649"/>
+<area shape="rect" id="node16" title=" " alt="" coords="371,673,601,729"/>
+<area shape="rect" id="node17" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog_service.html" title=" " alt="" coords="397,753,575,779"/>
+<area shape="rect" id="node18" title=" " alt="" coords="407,846,565,873"/>
+</map>

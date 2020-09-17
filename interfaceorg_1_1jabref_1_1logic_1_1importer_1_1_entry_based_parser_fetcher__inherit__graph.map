@@ -1,0 +1,8 @@
+<map id="org.jabref.logic.importer.EntryBasedParserFetcher" name="org.jabref.logic.importer.EntryBasedParserFetcher">
+<area shape="rect" id="node1" title=" " alt="" coords="419,71,589,112"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html" title=" " alt="" coords="637,5,839,47"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_cross_ref.html" title=" " alt="" coords="637,71,839,112"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_math_sci_net.html" title=" " alt="" coords="637,136,839,177"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_entry_based_fetcher.html" title=" " alt="" coords="212,71,371,112"/>
+<area shape="rect" id="node3" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher.html" title=" " alt="" coords="5,71,164,112"/>
+</map>

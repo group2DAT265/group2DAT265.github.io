@@ -1,0 +1,43 @@
+<map id="org.jabref.logic.cleanup.RenamePdfCleanup" name="org.jabref.logic.cleanup.RenamePdfCleanup">
+<area shape="rect" id="node1" title=" " alt="" coords="1963,393,2119,434"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_job.html" title=" " alt="" coords="1610,361,1766,402"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context.html" title=" " alt="" coords="1602,230,1774,271"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1util_1_1_coarse_change_filter.html" title=" " alt="" coords="1956,170,2125,211"/>
+<area shape="rect" id="node4" href="$enumorg_1_1jabref_1_1logic_1_1shared_1_1_database_location.html" title=" " alt="" coords="1253,194,1403,235"/>
+<area shape="rect" id="node6" title=" " alt="" coords="1572,295,1804,337"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1logic_1_1util_1_1_delay_task_throttler.html" title=" " alt="" coords="1248,54,1408,95"/>
+<area shape="rect" id="node8" title=" " alt="" coords="836,455,899,481"/>
+<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html" title=" " alt="" coords="1241,701,1415,742"/>
+<area shape="rect" id="node35" href="$classorg_1_1jabref_1_1model_1_1database_1_1_bib_database.html" title=" " alt="" coords="1242,325,1414,366"/>
+<area shape="rect" id="node9" title=" " alt="" coords="768,56,967,83"/>
+<area shape="rect" id="node10" title=" " alt="" coords="796,5,939,32"/>
+<area shape="rect" id="node11" title=" " alt="" coords="828,212,907,239"/>
+<area shape="rect" id="node13" href="$classorg_1_1jabref_1_1logic_1_1cleanup_1_1_field_formatter_cleanups.html" title=" " alt="" coords="787,990,947,1031"/>
+<area shape="rect" id="node14" title=" " alt="" coords="377,990,567,1031"/>
+<area shape="rect" id="node15" title=" " alt="" coords="759,1055,976,1097"/>
+<area shape="rect" id="node16" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node.html" title=" " alt="" coords="788,509,947,550"/>
+<area shape="rect" id="node17" href="$classorg_1_1jabref_1_1model_1_1_tree_node.html" title=" " alt="" coords="373,509,571,550"/>
+<area shape="rect" id="node18" title=" " alt="" coords="29,516,140,543"/>
+<area shape="rect" id="node19" title=" " alt="" coords="15,567,155,593"/>
+<area shape="rect" id="node20" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group.html" title=" " alt="" coords="393,373,551,414"/>
+<area shape="rect" id="node21" href="$interfaceorg_1_1jabref_1_1model_1_1search_1_1_search_matcher.html" title=" " alt="" coords="5,349,164,390"/>
+<area shape="rect" id="node22" title=" " alt="" coords="33,415,137,441"/>
+<area shape="rect" id="node23" title=" " alt="" coords="21,465,148,492"/>
+<area shape="rect" id="node24" title=" " alt="" coords="23,232,146,259"/>
+<area shape="rect" id="node25" href="$enumorg_1_1jabref_1_1model_1_1groups_1_1_group_hierarchy_type.html" title=" " alt="" coords="5,283,164,325"/>
+<area shape="rect" id="node26" href="$classorg_1_1jabref_1_1model_1_1metadata_1_1_save_order_config.html" title=" " alt="" coords="781,574,954,615"/>
+<area shape="rect" id="node27" title=" " alt="" coords="349,574,595,615"/>
+<area shape="rect" id="node28" title=" " alt="" coords="803,639,932,681"/>
+<area shape="rect" id="node29" title=" " alt="" coords="834,705,901,732"/>
+<area shape="rect" id="node30" title=" " alt="" coords="795,756,939,783"/>
+<area shape="rect" id="node31" href="$classorg_1_1jabref_1_1model_1_1metadata_1_1_content_selectors.html" title=" " alt="" coords="781,807,954,849"/>
+<area shape="rect" id="node32" title=" " alt="" coords="369,807,575,849"/>
+<area shape="rect" id="node33" title=" " alt="" coords="799,873,936,900"/>
+<area shape="rect" id="node34" href="$enumorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode.html" title=" " alt="" coords="781,925,953,966"/>
+<area shape="rect" id="node36" title=" " alt="" coords="755,290,979,331"/>
+<area shape="rect" id="node37" title=" " alt="" coords="744,355,991,397"/>
+<area shape="rect" id="node38" title=" " alt="" coords="835,107,899,133"/>
+<area shape="rect" id="node39" href="$interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_synchronizer.html" title=" " alt="" coords="1253,259,1403,301"/>
+<area shape="rect" id="node40" title=" " alt="" coords="1269,391,1387,417"/>
+<area shape="rect" id="node41" href="$classorg_1_1jabref_1_1preferences_1_1_file_preferences.html" title=" " alt="" coords="1603,426,1773,467"/>
+</map>

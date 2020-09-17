@@ -1,0 +1,12 @@
+<map id="org.jabref.logic.search.DatabaseSearcher" name="org.jabref.logic.search.DatabaseSearcher">
+<area shape="rect" id="node1" title=" " alt="" coords="780,115,931,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="97,5,160,32"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1model_1_1database_1_1_bib_database.html" title=" " alt="" coords="503,115,675,157"/>
+<area shape="rect" id="node4" title=" " alt="" coords="89,64,168,91"/>
+<area shape="rect" id="node5" title=" " alt="" coords="17,115,241,157"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,181,252,222"/>
+<area shape="rect" id="node7" title=" " alt="" coords="97,252,161,279"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html" title=" " alt="" coords="513,287,664,329"/>
+<area shape="rect" id="node9" href="$interfaceorg_1_1jabref_1_1model_1_1search_1_1_search_matcher.html" title=" " alt="" coords="49,310,208,351"/>
+<area shape="rect" id="node10" href="$interfaceorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_search_rule.html" title=" " alt="" coords="34,375,223,417"/>
+</map>

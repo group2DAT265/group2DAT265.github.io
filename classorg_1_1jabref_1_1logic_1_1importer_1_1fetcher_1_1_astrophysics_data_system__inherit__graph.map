@@ -1,0 +1,10 @@
+<map id="org.jabref.logic.importer.fetcher.AstrophysicsDataSystem" name="org.jabref.logic.importer.fetcher.AstrophysicsDataSystem">
+<area shape="rect" id="node1" title=" " alt="" coords="649,71,851,112"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_parser_fetcher.html" title=" " alt="" coords="431,5,589,47"/>
+<area shape="rect" id="node3" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher.html" title=" " alt="" coords="212,5,371,47"/>
+<area shape="rect" id="node4" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher.html" title=" " alt="" coords="5,71,164,112"/>
+<area shape="rect" id="node6" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_fetcher.html" title=" " alt="" coords="212,71,371,112"/>
+<area shape="rect" id="node8" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_entry_based_fetcher.html" title=" " alt="" coords="212,136,371,177"/>
+<area shape="rect" id="node5" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher.html" title=" " alt="" coords="419,71,601,112"/>
+<area shape="rect" id="node7" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_entry_based_parser_fetcher.html" title=" " alt="" coords="425,136,595,177"/>
+</map>

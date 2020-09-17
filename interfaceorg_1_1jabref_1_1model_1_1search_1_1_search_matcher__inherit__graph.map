@@ -1,0 +1,20 @@
+<map id="org.jabref.model.search.SearchMatcher" name="org.jabref.model.search.SearchMatcher">
+<area shape="rect" id="node1" title=" " alt="" coords="5,267,164,308"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1logic_1_1search_1_1_search_query.html" title=" " alt="" coords="244,136,395,177"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group.html" title=" " alt="" coords="240,201,399,243"/>
+<area shape="rect" id="node14" href="$classorg_1_1jabref_1_1model_1_1search_1_1_group_search_query.html" title=" " alt="" coords="240,267,399,308"/>
+<area shape="rect" id="node15" href="$classorg_1_1jabref_1_1model_1_1search_1_1matchers_1_1_matcher_set.html" title=" " alt="" coords="212,332,427,373"/>
+<area shape="rect" id="node18" href="$classorg_1_1jabref_1_1model_1_1search_1_1matchers_1_1_not_matcher.html" title=" " alt="" coords="212,397,427,439"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_all_entries_group.html" title=" " alt="" coords="503,5,661,47"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_automatic_group.html" title=" " alt="" coords="503,71,661,112"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_keyword_group.html" title=" " alt="" coords="503,136,661,177"/>
+<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_search_group.html" title=" " alt="" coords="503,201,661,243"/>
+<area shape="rect" id="node13" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_tex_group.html" title=" " alt="" coords="503,267,661,308"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_automatic_keyword_group.html" title=" " alt="" coords="737,5,904,47"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_automatic_persons_group.html" title=" " alt="" coords="739,71,903,112"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group.html" title=" " alt="" coords="741,136,900,177"/>
+<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_word_keyword_group.html" title=" " alt="" coords="741,201,900,243"/>
+<area shape="rect" id="node11" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group.html" title=" " alt="" coords="952,201,1111,243"/>
+<area shape="rect" id="node16" href="$classorg_1_1jabref_1_1model_1_1search_1_1matchers_1_1_and_matcher.html" title=" " alt="" coords="475,332,689,373"/>
+<area shape="rect" id="node17" href="$classorg_1_1jabref_1_1model_1_1search_1_1matchers_1_1_or_matcher.html" title=" " alt="" coords="475,397,689,439"/>
+</map>

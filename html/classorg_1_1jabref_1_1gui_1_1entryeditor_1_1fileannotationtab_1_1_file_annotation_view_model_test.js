@@ -1,4 +1,0 @@
-var classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model_test =
-[
-    [ "removeOnlyLineBreaksNotPrecededByPeriodOrColon", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model_test.html#a6ba7638decd88520ae1e7e91e2df7f6b", null ]
-];

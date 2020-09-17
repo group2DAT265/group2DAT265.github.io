@@ -1,0 +1,24 @@
+<map id="org.jabref.logic.importer.Importer" name="org.jabref.logic.importer.Importer">
+<area shape="rect" id="node1" title=" " alt="" coords="215,627,373,668"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer.html" title=" " alt="" coords="421,5,636,47"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html" title=" " alt="" coords="421,71,636,112"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bib_te_x_m_l_importer.html" title=" " alt="" coords="421,136,636,177"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer.html" title=" " alt="" coords="421,201,636,243"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html" title=" " alt="" coords="421,267,636,308"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer.html" title=" " alt="" coords="421,332,636,373"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html" title=" " alt="" coords="421,397,636,439"/>
+<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_inspec_importer.html" title=" " alt="" coords="421,463,636,504"/>
+<area shape="rect" id="node11" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer.html" title=" " alt="" coords="421,528,636,569"/>
+<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer.html" title=" " alt="" coords="421,593,636,635"/>
+<area shape="rect" id="node13" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html" title=" " alt="" coords="421,659,636,700"/>
+<area shape="rect" id="node14" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html" title=" " alt="" coords="421,724,636,765"/>
+<area shape="rect" id="node15" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer.html" title=" " alt="" coords="421,789,636,831"/>
+<area shape="rect" id="node16" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer.html" title=" " alt="" coords="421,855,636,896"/>
+<area shape="rect" id="node17" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html" title=" " alt="" coords="421,920,636,961"/>
+<area shape="rect" id="node18" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html" title=" " alt="" coords="421,985,636,1027"/>
+<area shape="rect" id="node19" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html" title=" " alt="" coords="421,1051,636,1092"/>
+<area shape="rect" id="node20" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html" title=" " alt="" coords="421,1116,636,1157"/>
+<area shape="rect" id="node21" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ris_importer.html" title=" " alt="" coords="421,1181,636,1223"/>
+<area shape="rect" id="node22" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_silver_platter_importer.html" title=" " alt="" coords="421,1247,636,1288"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,634,167,661"/>
+</map>

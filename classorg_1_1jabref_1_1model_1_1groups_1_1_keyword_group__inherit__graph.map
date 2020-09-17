@@ -1,0 +1,8 @@
+<map id="org.jabref.model.groups.KeywordGroup" name="org.jabref.model.groups.KeywordGroup">
+<area shape="rect" id="node1" title=" " alt="" coords="419,39,577,80"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_regex_keyword_group.html" title=" " alt="" coords="625,5,784,47"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_word_keyword_group.html" title=" " alt="" coords="625,71,784,112"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group.html" title=" " alt="" coords="212,39,371,80"/>
+<area shape="rect" id="node3" href="$interfaceorg_1_1jabref_1_1model_1_1search_1_1_search_matcher.html" title=" " alt="" coords="5,39,164,80"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1model_1_1groups_1_1_explicit_group.html" title=" " alt="" coords="832,71,991,112"/>
+</map>

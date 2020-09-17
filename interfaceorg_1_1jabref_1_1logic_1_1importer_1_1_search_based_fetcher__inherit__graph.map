@@ -1,0 +1,23 @@
+<map id="org.jabref.logic.importer.SearchBasedFetcher" name="org.jabref.logic.importer.SearchBasedFetcher">
+<area shape="rect" id="node1" title=" " alt="" coords="212,248,371,289"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv.html" title=" " alt="" coords="421,84,623,125"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_composite_search_based_fetcher.html" title=" " alt="" coords="419,149,625,191"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html" title=" " alt="" coords="421,215,623,256"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_grobid_citation_fetcher.html" title=" " alt="" coords="421,280,623,321"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_medline_fetcher.html" title=" " alt="" coords="421,345,623,387"/>
+<area shape="rect" id="node8" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher.html" title=" " alt="" coords="431,411,613,452"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher.html" title=" " alt="" coords="5,248,164,289"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_a_c_m_portal_fetcher.html" title=" " alt="" coords="711,5,913,47"/>
+<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html" title=" " alt="" coords="711,71,913,112"/>
+<area shape="rect" id="node11" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_cite_seer.html" title=" " alt="" coords="711,136,913,177"/>
+<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_collection_of_computer_science_bibliographies_fetcher.html" title=" " alt="" coords="673,201,951,257"/>
+<area shape="rect" id="node13" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_cross_ref.html" title=" " alt="" coords="711,280,913,321"/>
+<area shape="rect" id="node14" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_d_b_l_p_fetcher.html" title=" " alt="" coords="711,345,913,387"/>
+<area shape="rect" id="node15" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_d_o_a_j_fetcher.html" title=" " alt="" coords="711,411,913,452"/>
+<area shape="rect" id="node16" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher.html" title=" " alt="" coords="711,476,913,517"/>
+<area shape="rect" id="node17" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_e_e_e.html" title=" " alt="" coords="697,542,927,569"/>
+<area shape="rect" id="node18" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher.html" title=" " alt="" coords="711,593,913,635"/>
+<area shape="rect" id="node19" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_math_sci_net.html" title=" " alt="" coords="711,659,913,700"/>
+<area shape="rect" id="node20" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher.html" title=" " alt="" coords="711,724,913,765"/>
+<area shape="rect" id="node21" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_zb_m_a_t_h.html" title=" " alt="" coords="711,789,913,831"/>
+</map>

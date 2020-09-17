@@ -1,0 +1,12 @@
+<map id="org.jabref.gui.preferences.NetworkTabViewModel" name="org.jabref.gui.preferences.NetworkTabViewModel">
+<area shape="rect" id="node1" title=" " alt="" coords="461,255,631,296"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1jabref_1_1gui_1_1preferences_1_1_preference_tab_view_model.html" title=" " alt="" coords="29,6,200,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="63,100,167,126"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1net_1_1_proxy_preferences.html" title=" " alt="" coords="34,151,195,192"/>
+<area shape="rect" id="node5" title=" " alt="" coords="65,217,165,244"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html" title=" " alt="" coords="39,268,190,310"/>
+<area shape="rect" id="node7" title=" " alt="" coords="78,360,151,386"/>
+<area shape="rect" id="node8" href="$interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html" title=" " alt="" coords="5,411,224,452"/>
+<area shape="rect" id="node9" title=" " alt="" coords="56,486,173,513"/>
+<area shape="rect" id="node10" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog_service.html" title=" " alt="" coords="25,537,204,564"/>
+</map>

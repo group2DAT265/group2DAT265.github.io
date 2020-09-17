@@ -1,0 +1,10 @@
+<map id="org.jabref.gui.exporter.ExportCustomizationDialogViewModel" name="org.jabref.gui.exporter.ExportCustomizationDialogViewModel">
+<area shape="rect" id="node1" title=" " alt="" coords="748,136,988,177"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1_abstract_view_model.html" title=" " alt="" coords="394,5,570,47"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1logic_1_1journals_1_1_journal_abbreviation_repository.html" title=" " alt="" coords="383,71,581,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,41,195,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="18,109,182,135"/>
+<area shape="rect" id="node6" href="$interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html" title=" " alt="" coords="373,136,591,177"/>
+<area shape="rect" id="node7" title=" " alt="" coords="368,201,596,243"/>
+<area shape="rect" id="node8" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog_service.html" title=" " alt="" coords="393,267,571,294"/>
+</map>

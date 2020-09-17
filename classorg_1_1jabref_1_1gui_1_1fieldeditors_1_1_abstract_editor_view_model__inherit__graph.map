@@ -1,0 +1,16 @@
+<map id="org.jabref.gui.fieldeditors.AbstractEditorViewModel" name="org.jabref.gui.fieldeditors.AbstractEditorViewModel">
+<area shape="rect" id="node1" title=" " alt="" coords="229,332,397,373"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_citation_key_editor_view_model.html" title=" " alt="" coords="452,5,637,47"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_date_editor_view_model.html" title=" " alt="" coords="463,71,626,112"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor_view_model.html" title=" " alt="" coords="461,136,629,177"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_journal_editor_view_model.html" title=" " alt="" coords="463,201,626,243"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_entries_editor_view_model.html" title=" " alt="" coords="445,267,644,308"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html" title=" " alt="" coords="451,332,638,373"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_option_editor_view_model.html" title=" " alt="" coords="451,397,638,439"/>
+<area shape="rect" id="node11" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_owner_editor_view_model.html" title=" " alt="" coords="463,463,626,504"/>
+<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_persons_editor_view_model.html" title=" " alt="" coords="461,528,628,569"/>
+<area shape="rect" id="node13" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_simple_editor_view_model.html" title=" " alt="" coords="463,593,626,635"/>
+<area shape="rect" id="node14" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_url_editor_view_model.html" title=" " alt="" coords="463,659,626,700"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1_abstract_view_model.html" title=" " alt="" coords="5,332,181,373"/>
+<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_map_based_editor_view_model.html" title=" " alt="" coords="692,397,909,439"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="org.jabref.gui.fieldeditors.FieldEditorFX" name="org.jabref.gui.fieldeditors.FieldEditorFX">
+<area shape="rect" id="node1" title=" " alt="" coords="5,352,168,393"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_citation_key_editor.html" title=" " alt="" coords="216,5,379,47"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_date_editor.html" title=" " alt="" coords="216,71,379,112"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_identifier_editor.html" title=" " alt="" coords="216,136,379,177"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_journal_editor.html" title=" " alt="" coords="216,201,379,243"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_keywords_editor.html" title=" " alt="" coords="427,453,589,495"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_entries_editor.html" title=" " alt="" coords="216,319,379,360"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor.html" title=" " alt="" coords="216,384,379,425"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_option_editor.html" title=" " alt="" coords="216,449,379,491"/>
+<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_owner_editor.html" title=" " alt="" coords="216,515,379,556"/>
+<area shape="rect" id="node11" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_persons_editor.html" title=" " alt="" coords="216,580,379,621"/>
+<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_simple_editor.html" title=" " alt="" coords="216,645,379,687"/>
+<area shape="rect" id="node13" href="$classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_url_editor.html" title=" " alt="" coords="216,711,379,752"/>
+</map>

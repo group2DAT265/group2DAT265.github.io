@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classorg_1_1jabref_1_1model_1_1database_1_1event_1_1_bib_database_context_changed_event.html" title=" " alt="" coords="5,136,229,177"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entries_event.html" title=" " alt="" coords="290,71,473,112"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1model_1_1groups_1_1event_1_1_group_updated_event.html" title=" " alt="" coords="285,136,478,177"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1model_1_1metadata_1_1event_1_1_meta_data_changed_event.html" title=" " alt="" coords="277,201,485,243"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1model_1_1database_1_1event_1_1_entries_added_event.html" title=" " alt="" coords="533,5,740,47"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1model_1_1database_1_1event_1_1_entries_removed_event.html" title=" " alt="" coords="533,71,740,112"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_entry_changed_event.html" title=" " alt="" coords="545,136,728,177"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_field_changed_event.html" title=" " alt="" coords="788,136,971,177"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1model_1_1entry_1_1event_1_1_field_added_or_removed_event.html" title=" " alt="" coords="1019,136,1208,177"/>
+</map>

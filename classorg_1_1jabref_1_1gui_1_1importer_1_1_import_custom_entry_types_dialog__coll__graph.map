@@ -1,0 +1,13 @@
+<map id="org.jabref.gui.importer.ImportCustomEntryTypesDialog" name="org.jabref.gui.importer.ImportCustomEntryTypesDialog">
+<area shape="rect" id="node1" title=" " alt="" coords="937,211,1141,252"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_base_dialog.html" title=" " alt="" coords="519,35,661,76"/>
+<area shape="rect" id="node3" title=" " alt="" coords="57,5,200,47"/>
+<area shape="rect" id="node4" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog.html" title=" " alt="" coords="47,71,211,98"/>
+<area shape="rect" id="node5" title=" " alt="" coords="467,100,713,141"/>
+<area shape="rect" id="node6" title=" " alt="" coords="563,166,617,193"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog_view_model.html" title=" " alt="" coords="488,289,692,345"/>
+<area shape="rect" id="node8" href="$interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html" title=" " alt="" coords="19,225,238,267"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,305,252,347"/>
+<area shape="rect" id="node10" href="$enumorg_1_1jabref_1_1model_1_1database_1_1_bib_database_mode.html" title=" " alt="" coords="43,383,215,424"/>
+<area shape="rect" id="node11" title=" " alt="" coords="500,464,680,505"/>
+</map>

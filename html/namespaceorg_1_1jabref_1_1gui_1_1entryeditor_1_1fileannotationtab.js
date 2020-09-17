@@ -1,8 +1,0 @@
-var namespaceorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab =
-[
-    [ "FileAnnotationTab", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_tab.html", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_tab" ],
-    [ "FileAnnotationTabView", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_tab_view.html", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_tab_view" ],
-    [ "FileAnnotationTabViewModel", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_tab_view_model.html", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_tab_view_model" ],
-    [ "FileAnnotationViewModel", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model" ],
-    [ "FileAnnotationViewModelTest", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model_test.html", "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model_test" ]
-];

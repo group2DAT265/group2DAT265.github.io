@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interfaceorg_1_1jabref_1_1gui_1_1push_1_1_push_to_application.html" title=" " alt="" coords="5,168,164,209"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application.html" title=" " alt="" coords="212,168,391,209"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_emacs.html" title=" " alt="" coords="439,5,597,47"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_lyx.html" title=" " alt="" coords="439,71,597,112"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_texmaker.html" title=" " alt="" coords="439,136,597,177"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_te_xstudio.html" title=" " alt="" coords="439,201,597,243"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_vim.html" title=" " alt="" coords="439,267,597,308"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_win_edt.html" title=" " alt="" coords="439,332,597,373"/>
+</map>

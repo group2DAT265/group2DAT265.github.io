@@ -1,0 +1,26 @@
+var namespaceorg_1_1jabref_1_1logic_1_1importer_1_1fileformat =
+[
+    [ "BiblioscapeImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer" ],
+    [ "BibtexImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer" ],
+    [ "BibTeXMLImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bib_te_x_m_l_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bib_te_x_m_l_importer" ],
+    [ "BibtexParser", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser" ],
+    [ "CoinsParser", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser" ],
+    [ "CopacImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer" ],
+    [ "CustomImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer" ],
+    [ "EndnoteImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer" ],
+    [ "EndnoteXmlImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_xml_importer" ],
+    [ "GvkParser", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_gvk_parser.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_gvk_parser" ],
+    [ "InspecImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_inspec_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_inspec_importer" ],
+    [ "IsiImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer" ],
+    [ "MedlineImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer" ],
+    [ "MedlinePlainImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer" ],
+    [ "ModsImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer" ],
+    [ "MrDLibImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer" ],
+    [ "MsBibImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ms_bib_importer" ],
+    [ "OvidImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer" ],
+    [ "PdfContentImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer" ],
+    [ "PdfXmpImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer" ],
+    [ "RepecNepImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_repec_nep_importer" ],
+    [ "RisImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ris_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ris_importer" ],
+    [ "SilverPlatterImporter", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_silver_platter_importer.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_silver_platter_importer" ]
+];

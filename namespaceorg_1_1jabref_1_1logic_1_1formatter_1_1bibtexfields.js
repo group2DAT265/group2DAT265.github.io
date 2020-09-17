@@ -1,0 +1,28 @@
+var namespaceorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields =
+[
+    [ "AddBracesFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_add_braces_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_add_braces_formatter" ],
+    [ "CleanupUrlFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_cleanup_url_formatter" ],
+    [ "ClearFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_clear_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_clear_formatter" ],
+    [ "EscapeAmpersandsFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_escape_ampersands_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_escape_ampersands_formatter" ],
+    [ "EscapeUnderscoresFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_escape_underscores_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_escape_underscores_formatter" ],
+    [ "HtmlToLatexFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_latex_formatter" ],
+    [ "HtmlToUnicodeFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_unicode_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_html_to_unicode_formatter" ],
+    [ "LatexCleanupFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_latex_cleanup_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_latex_cleanup_formatter" ],
+    [ "NormalizeDateFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_date_formatter" ],
+    [ "NormalizeEnDashesFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_en_dashes_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_en_dashes_formatter" ],
+    [ "NormalizeMonthFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_month_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_month_formatter" ],
+    [ "NormalizeNamesFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_names_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_names_formatter" ],
+    [ "NormalizePagesFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_pages_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_normalize_pages_formatter" ],
+    [ "OrdinalsToSuperscriptFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_ordinals_to_superscript_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_ordinals_to_superscript_formatter" ],
+    [ "RegexFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_regex_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_regex_formatter" ],
+    [ "RemoveBracesFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_braces_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_braces_formatter" ],
+    [ "RemoveDigitsFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_digits_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_digits_formatter" ],
+    [ "RemoveHyphenatedNewlinesFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_hyphenated_newlines_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_hyphenated_newlines_formatter" ],
+    [ "RemoveNewlinesFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_newlines_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_newlines_formatter" ],
+    [ "RemoveRedundantSpacesFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_redundant_spaces_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_remove_redundant_spaces_formatter" ],
+    [ "ReplaceTabsBySpaceFormater", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_replace_tabs_by_space_formater.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_replace_tabs_by_space_formater" ],
+    [ "ShortenDOIFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_shorten_d_o_i_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_shorten_d_o_i_formatter" ],
+    [ "TrimWhitespaceFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_trim_whitespace_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_trim_whitespace_formatter" ],
+    [ "UnicodeToLatexFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_unicode_to_latex_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_unicode_to_latex_formatter" ],
+    [ "UnitsToLatexFormatter", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_units_to_latex_formatter.html", "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_units_to_latex_formatter" ]
+];

@@ -1,7 +1,0 @@
-var classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_collection_of_computer_science_bibliographies_parser_test =
-[
-    [ "parseEntriesReturnsEmptyListIfXmlHasNoResults", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_collection_of_computer_science_bibliographies_parser_test.html#ac3f2aa6e9c8b7126baa212602479341a", null ],
-    [ "parseEntriesReturnsMultipleBibEntriesInListIfXmlHasMultipleResults", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_collection_of_computer_science_bibliographies_parser_test.html#aa1b2cba51f81da8cb3bc510d741159e7", null ],
-    [ "parseEntriesReturnsOneBibEntryInListIfXmlHasSingleResult", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_collection_of_computer_science_bibliographies_parser_test.html#a4c13c25bda20b80cc8ce44c02eac951d", null ],
-    [ "parseXmlAndCheckResults", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_collection_of_computer_science_bibliographies_parser_test.html#aa72291a30a49eddf5ebc142380efc932", null ]
-];

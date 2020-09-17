@@ -1,0 +1,11 @@
+<map id="org.jabref.logic.remote.server.RemoteListenerServerLifecycle" name="org.jabref.logic.remote.server.RemoteListenerServerLifecycle">
+<area shape="rect" id="node1" title=" " alt="" coords="47,317,251,359"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,221,112,247"/>
+<area shape="rect" id="node3" title=" " alt="" coords="197,13,259,39"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread.html" title=" " alt="" coords="219,213,411,255"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server.html" title=" " alt="" coords="311,109,502,151"/>
+<area shape="rect" id="node5" title=" " alt="" coords="526,117,589,143"/>
+<area shape="rect" id="node7" title=" " alt="" coords="298,13,374,39"/>
+<area shape="rect" id="node8" href="$interfaceorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_message_handler.html" title=" " alt="" coords="398,5,589,47"/>
+<area shape="rect" id="node9" title=" " alt="" coords="613,13,715,39"/>
+</map>

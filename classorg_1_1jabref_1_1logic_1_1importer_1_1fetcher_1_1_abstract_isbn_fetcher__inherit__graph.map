@@ -1,0 +1,8 @@
+<map id="org.jabref.logic.importer.fetcher.AbstractIsbnFetcher" name="org.jabref.logic.importer.fetcher.AbstractIsbnFetcher">
+<area shape="rect" id="node1" title=" " alt="" coords="625,39,827,80"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_via_ebook_de_fetcher.html" title=" " alt="" coords="875,5,1076,47"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_via_otto_bib_fetcher.html" title=" " alt="" coords="875,71,1076,112"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_parser_fetcher.html" title=" " alt="" coords="419,39,577,80"/>
+<area shape="rect" id="node3" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_id_based_fetcher.html" title=" " alt="" coords="212,39,371,80"/>
+<area shape="rect" id="node4" href="$interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetcher.html" title=" " alt="" coords="5,39,164,80"/>
+</map>

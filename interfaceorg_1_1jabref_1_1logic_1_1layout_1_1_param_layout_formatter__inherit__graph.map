@@ -1,0 +1,15 @@
+<map id="org.jabref.logic.layout.ParamLayoutFormatter" name="org.jabref.logic.layout.ParamLayoutFormatter">
+<area shape="rect" id="node1" title=" " alt="" coords="199,300,353,341"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1_abstract_param_layout_formatter.html" title=" " alt="" coords="401,136,605,177"/>
+<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_date_formatter.html" title=" " alt="" coords="411,201,596,243"/>
+<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_default.html" title=" " alt="" coords="411,267,596,308"/>
+<area shape="rect" id="node11" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_file_link.html" title=" " alt="" coords="411,332,596,373"/>
+<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_number.html" title=" " alt="" coords="411,397,596,439"/>
+<area shape="rect" id="node13" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_ris_authors.html" title=" " alt="" coords="411,463,596,504"/>
+<area shape="rect" id="node2" href="$interfaceorg_1_1jabref_1_1logic_1_1layout_1_1_layout_formatter.html" title=" " alt="" coords="5,300,151,341"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html" title=" " alt="" coords="653,5,839,47"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_if_plural.html" title=" " alt="" coords="653,71,839,112"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_replace.html" title=" " alt="" coords="653,136,839,177"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_wrap_content.html" title=" " alt="" coords="653,201,839,243"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_wrap_file_links.html" title=" " alt="" coords="653,267,839,308"/>
+</map>
