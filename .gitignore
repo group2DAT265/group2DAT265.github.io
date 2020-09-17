@@ -1,3 +1,9 @@
+#Keep vscode stuff local
+.vscode
+
+#Keep doxygen docs local
+docs
+
 # no generated files in version control
 src/main/gen/
 src/main/generated/
