@@ -1,5 +1,16 @@
 var NAVTREEINDEX18 =
 {
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a707f8151af164f969febb0f1c539e684":[2,0,0,0,2,29,1,6],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a7de337da4363bff5369f19c2deacd060":[2,0,0,0,2,29,1,7],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a898485f122d2ef65b971d5ae74f59abb":[2,0,0,0,2,29,1,11],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a98cd3d9808d665dd3e13e4151578fabe":[2,0,0,0,2,29,1,13],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#ab7e0032dd27ebe1e827b2da6de7dc1c5":[2,0,0,0,2,29,1,14],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#ac1a3915784ff5d88d5a1bd059a15ad8d":[2,0,0,0,2,29,1,10],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#ac6f3153e642273e9a076dca80c2f91de":[2,0,0,0,2,29,1,1],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#ae697584b150d1d200e3c21a50e552a4d":[2,0,0,0,2,29,1,2],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_manage_journal_abbreviations_view.html":[2,0,0,0,2,29,4],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_manage_journal_abbreviations_view.html#a0577db97f8cfd6eba2291fce65f8a9b4":[2,0,0,0,2,29,4,20],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_manage_journal_abbreviations_view.html#a164c7dded6553fa04bbd604db83ff6ea":[2,0,0,0,2,29,4,19],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_manage_journal_abbreviations_view.html#a19d53c9b3922d6112c581701120fcbc4":[2,0,0,0,2,29,4,4],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_manage_journal_abbreviations_view.html#a1ca95222678fd5204a6d237dbb54e657":[2,0,0,0,2,29,4,7],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_manage_journal_abbreviations_view.html#a266f67b2a60996a33e0c08c298e45303":[2,0,0,0,2,29,4,11],
@@ -238,16 +249,5 @@ var NAVTREEINDEX18 =
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#aeb30af925295cb6c8fe6a1b81d2ecafb":[2,0,0,0,2,31,2,2],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#af40ccd60397175cd92afc413a32b4c21":[2,0,0,0,2,31,2,19],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#af8b4c8af4b6459d27035512774545907":[2,0,0,0,2,31,2,16],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#afdb3eded7f18c359741e38e1eb3b8671":[2,0,0,0,2,31,2,42],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_appender.html":[2,0,0,0,2,32,0],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_appender.html#a3c2711dea800ea6528ac83aac896ff65":[2,0,0,0,2,32,0,1],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_appender.html#a3cea214e2be6c9162667d48ff9539e44":[2,0,0,0,2,32,0,3],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_appender.html#a5945a798a270221993e9df2ef411515b":[2,0,0,0,2,32,0,2],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_appender_1_1_builder.html":[2,0,0,0,2,32,0,0],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_appender_1_1_builder.html#aeea1a9be85a27b9325a0a57210fc70d5":[2,0,0,0,2,32,0,0,0],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_log_event.html":[2,0,0,0,2,32,1],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_log_event.html#a4aa9af063f5857eb2ee183b116815446":[2,0,0,0,2,32,1,3],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_log_event.html#a5d66663da228d1c7b595d15280098f23":[2,0,0,0,2,32,1,5],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_log_event.html#a6dfeabe598eb6f93910f3c08f7c4285e":[2,0,0,0,2,32,1,0],
-"classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_log_event.html#a6ecfdff3370068f61ebc33e62e132b35":[2,0,0,0,2,32,1,4]
+"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#afdb3eded7f18c359741e38e1eb3b8671":[2,0,0,0,2,31,2,42]
 };

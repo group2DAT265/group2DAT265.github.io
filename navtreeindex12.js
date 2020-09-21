@@ -1,5 +1,16 @@
 var NAVTREEINDEX12 =
 {
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#ad5523551c05d164d6ddb945e4b908857":[2,0,0,0,2,18,0,8],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#add0932a28272523eca54ec0979f06cc6":[2,0,0,0,2,18,0,10],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#aecfc8cecd360a804c57618e44cf018dd":[2,0,0,0,2,18,0,13],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#aee9cd0b4e3530035959f11da08c34bea":[2,0,0,0,2,18,0,5],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#af5a436bacd17e763243c6d9ee58e3415":[2,0,0,0,2,18,0,4],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model.html":[2,0,0,0,2,18,1],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model.html#a057e36e9db3299026b3b306e0e1e6d42":[2,0,0,0,2,18,1,1],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model.html#a20b1bd9f52594a2c28a4ec085e1b2d6f":[2,0,0,0,2,18,1,0],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model.html#a21d7ec447187f9e55687e8410ddda241":[2,0,0,0,2,18,1,5],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model.html#a431d62d79e9c45f9f120d0d49aae650f":[2,0,0,0,2,18,1,3],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model.html#a50acb957ec438b98526815d1d0a88d7b":[2,0,0,0,2,18,1,8],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model.html#a6c2a247af30c7d52cac3dbb5ec41fda2":[2,0,0,0,2,18,1,7],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model.html#a75691c18d7ea9f65c069470d5011a837":[2,0,0,0,2,18,1,10],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view_model.html#a7e3de9be868e04c4cfc0b8a6044d5468":[2,0,0,0,2,18,1,4],
@@ -238,16 +249,5 @@ var NAVTREEINDEX12 =
 "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#a092f5a1df1cb217ef01c4943128c6865":[2,0,0,0,2,20,7,10],
 "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#a1c97269795cd058dc8d559503ea0ff45":[2,0,0,0,2,20,7,14],
 "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#a219fb426231b712a485efc68cad79b3c":[2,0,0,0,2,20,7,12],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#a2fb6df077c71fb42e5dc993a46fb907f":[2,0,0,0,2,20,7,4],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#a34c9d15efe4d1e83e2782de62ffafc9f":[2,0,0,0,2,20,7,3],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#a49845caf3714787c1e1e7c5f393a0fd1":[2,0,0,0,2,20,7,6],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#a504d608df8859e0f69d16ffa5f40db40":[2,0,0,0,2,20,7,9],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#a967969fa809435e13eb80182c6a1865e":[2,0,0,0,2,20,7,8],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#aaed3d8d8a2655c8e468196e46cedb39e":[2,0,0,0,2,20,7,5],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#ab9b9d87adb4f85477efa3cb45c3b4e9b":[2,0,0,0,2,20,7,13],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#abc7bbe65ed2f5fced3553000c0e14996":[2,0,0,0,2,20,7,0],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#acf268815fb0e2e82ff8c428ca59cabe6":[2,0,0,0,2,20,7,1],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#ae538c211b3105d0e2607f621ba7ca42b":[2,0,0,0,2,20,7,2],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#af92eac60965d07bf0d90f959ec5a3f0c":[2,0,0,0,2,20,7,7],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#afeb09a1adacc0522cee67fe9b83b1397":[2,0,0,0,2,20,7,11]
+"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_import_handler.html#a2fb6df077c71fb42e5dc993a46fb907f":[2,0,0,0,2,20,7,4]
 };

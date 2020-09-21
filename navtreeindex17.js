@@ -1,5 +1,16 @@
 var NAVTREEINDEX17 =
 {
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog.html#a8f0002d7a87ef488a60273a462e5033f":[2,0,0,0,2,27,4,5],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog.html#a9b0c64242e6de54d840dfbec2f89638b":[2,0,0,0,2,27,4,2],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog.html#ae1527da3871c51b89eb5b9d3b6c72001":[2,0,0,0,2,27,4,4],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog.html#af21ba81dbb137ff7c47959bd7c76b776":[2,0,0,0,2,27,4,3],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog.html#afb87918709b39934d0581396e2e39e6e":[2,0,0,0,2,27,4,1],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog_view_model.html":[2,0,0,0,2,27,5],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog_view_model.html#a0e99338a1b7d9ae84f5d7ec72965cab2":[2,0,0,0,2,27,5,2],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog_view_model.html#a1a30a51bedaae5b64c745931a594573e":[2,0,0,0,2,27,5,4],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog_view_model.html#a1ae53b094f97c860b381b05299738009":[2,0,0,0,2,27,5,0],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog_view_model.html#a2591eb17b6454011891f5c8495e2ce69":[2,0,0,0,2,27,5,7],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog_view_model.html#a97c15c3a355495a963088b458fda4b80":[2,0,0,0,2,27,5,1],
 "classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog_view_model.html#aa5a9eef0e1a8cd200c74fabe9fc0b37f":[2,0,0,0,2,27,5,6],
 "classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog_view_model.html#aa8d194fac2ba4d6248252bde164534ec":[2,0,0,0,2,27,5,5],
 "classorg_1_1jabref_1_1gui_1_1importer_1_1_import_custom_entry_types_dialog_view_model.html#aab9fae29fc8a9cde17d3d4a74e19b91f":[2,0,0,0,2,27,5,3],
@@ -238,16 +249,5 @@ var NAVTREEINDEX17 =
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a4a302d352a7635d83bb46f03f70e6492":[2,0,0,0,2,29,1,4],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a588164a85b8ad632d0c3413418f55866":[2,0,0,0,2,29,1,12],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a593616c834d329797687e8478b3107ff":[2,0,0,0,2,29,1,5],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a6677f7692f99f64b7ae41a2494537ae6":[2,0,0,0,2,29,1,3],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a707f8151af164f969febb0f1c539e684":[2,0,0,0,2,29,1,6],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a7de337da4363bff5369f19c2deacd060":[2,0,0,0,2,29,1,7],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a898485f122d2ef65b971d5ae74f59abb":[2,0,0,0,2,29,1,11],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a98cd3d9808d665dd3e13e4151578fabe":[2,0,0,0,2,29,1,13],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#ab7e0032dd27ebe1e827b2da6de7dc1c5":[2,0,0,0,2,29,1,14],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#ac1a3915784ff5d88d5a1bd059a15ad8d":[2,0,0,0,2,29,1,10],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#ac6f3153e642273e9a076dca80c2f91de":[2,0,0,0,2,29,1,1],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#ae697584b150d1d200e3c21a50e552a4d":[2,0,0,0,2,29,1,2],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_manage_journal_abbreviations_view.html":[2,0,0,0,2,29,4],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_manage_journal_abbreviations_view.html#a0577db97f8cfd6eba2291fce65f8a9b4":[2,0,0,0,2,29,4,20],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_manage_journal_abbreviations_view.html#a164c7dded6553fa04bbd604db83ff6ea":[2,0,0,0,2,29,4,19]
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviations_file_view_model.html#a6677f7692f99f64b7ae41a2494537ae6":[2,0,0,0,2,29,1,3]
 };

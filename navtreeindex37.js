@@ -1,5 +1,16 @@
 var NAVTREEINDEX37 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html":[2,0,0,0,3,13,1,6],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a1ed9de48a19d6efa9d1072db85ecc5ba":[2,0,0,0,3,13,1,6,2],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a2287d3d223dfa8199a8e7301324064dd":[2,0,0,0,3,13,1,6,12],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a264de69c012afe6e19ed5392ae5acab6":[2,0,0,0,3,13,1,6,15],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a39dd13d14e8769e42c160757856d4eb4":[2,0,0,0,3,13,1,6,1],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a3f31740ff7c9a321fb2cd1bda56db514":[2,0,0,0,3,13,1,6,16],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a48066963953237c50093add2bdbdfc36":[2,0,0,0,3,13,1,6,4],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a4bb124d8fa4e4505de38f43e04e6bf70":[2,0,0,0,3,13,1,6,5],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a505f5f0fc558e921ddb6ce9e4bdaf7dc":[2,0,0,0,3,13,1,6,14],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a5b4aac7dcc5bf5c847befdd60e73fb9c":[2,0,0,0,3,13,1,6,10],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a61588d0df308a1245e766055174ca066":[2,0,0,0,3,13,1,6,3],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a668242d7c007b0da29c56c4a7b0d02df":[2,0,0,0,3,13,1,6,0],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a7be9549d46652272bf3ce3bb650eb7be":[2,0,0,0,3,13,1,6,7],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a96112c1c84ce2520c5c66b9a393212df":[2,0,0,0,3,13,1,6,13],
@@ -238,16 +249,5 @@ var NAVTREEINDEX37 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#af60de675977ac8a62d10cddf5654ab39":[2,0,0,0,3,13,1,18,0],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#afdca44ef819f03c49348f3ff116eaef2":[2,0,0,0,3,13,1,18,13],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#afef9956de98ca1289aac6590193d7602":[2,0,0,0,3,13,1,18,1],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html":[2,0,0,0,3,13,1,19],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#a0291c79f2608876a2a67456704563a0f":[2,0,0,0,3,13,1,19,9],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#a0502c6c7546152719321e6f1aa2a7dcf":[2,0,0,0,3,13,1,19,7],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#a175bc3a973ee407dd4236288c070910e":[2,0,0,0,3,13,1,19,2],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#a25f2c6570570f7a5597c4abf9787f898":[2,0,0,0,3,13,1,19,4],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#a30cb2d6b3d2ac693828d07f24b3589c4":[2,0,0,0,3,13,1,19,5],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#a3ffdac57f2c1b987e14cb23812a9a5e8":[2,0,0,0,3,13,1,19,3],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#a4adf2d7f4d9e37c348c59dbf26ecd7ea":[2,0,0,0,3,13,1,19,0],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#a89699b83aaabb1fb5d38a055e59039d2":[2,0,0,0,3,13,1,19,6],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#aac520ac011c300cce6eebebe0263a922":[2,0,0,0,3,13,1,19,1],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#abddecac057fae1cdf0b4d37d3be6fa57":[2,0,0,0,3,13,1,19,8],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html#ad8da30d5cc920bd166ddab4e6311a332":[2,0,0,0,3,13,1,19,10]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_xmp_importer.html":[2,0,0,0,3,13,1,19]
 };

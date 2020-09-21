@@ -1,5 +1,16 @@
 var NAVTREEINDEX9 =
 {
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view_model.html":[2,0,0,0,2,9,2],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view_model.html#a1576d2a0c3117dff5a90b25432936363":[2,0,0,0,2,9,2,0],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view_model.html#a64b17a8c6c022b10eac136023b248a08":[2,0,0,0,2,9,2,1],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view_model.html#a7084e69ee6ce77703c3db4de6ca53e98":[2,0,0,0,2,9,2,2],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_result_item_view_model.html":[2,0,0,0,2,9,3],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_result_item_view_model.html#a3cd5276ea090427e8d09183d5476d895":[2,0,0,0,2,9,3,4],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_result_item_view_model.html#a7d1b93cf1d3a2c98693f22369f411876":[2,0,0,0,2,9,3,6],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_result_item_view_model.html#a7d94b5abb867909ed74b1c01af00c90b":[2,0,0,0,2,9,3,5],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_result_item_view_model.html#a9b2dbf649d9e31a3e397465fd58cc2d1":[2,0,0,0,2,9,3,7],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_result_item_view_model.html#ade88d81f32528121d5fdfd62168d830b":[2,0,0,0,2,9,3,1],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_result_item_view_model.html#af3916f2d73a217e13198ba898ede176b":[2,0,0,0,2,9,3,0],
 "classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_result_item_view_model.html#afe4b1fe228ca6b05efecc533d41dc32a":[2,0,0,0,2,9,3,2],
 "classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_result_item_view_model.html#afe89fd8fbeec845d4d42d1880330d896":[2,0,0,0,2,9,3,3],
 "classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_result_list_dependency.html":[2,0,0,0,2,9,4],
@@ -238,16 +249,5 @@ var NAVTREEINDEX9 =
 "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#a4bea63ae732c5e7f2e1c782ec4f45224":[2,0,0,0,2,14,1,0,4],
 "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#a5950bff299a36fecb7e02556e44d1d2d":[2,0,0,0,2,14,1,0,5],
 "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#a679427e3d94203417bd3c7e63474c26f":[2,0,0,0,2,14,1,0,6],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#a6f25a0b27aeeadff19c15c5bafd1b99a":[2,0,0,0,2,14,1,0,10],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#abfe51cd471b969befd4ce13f57b88259":[2,0,0,0,2,14,1,0,2],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#acb8d84fa0a21eb1108829f31991cb547":[2,0,0,0,2,14,1,0,7],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#adde86b98f9911bf2be219d2ce6735f7f":[2,0,0,0,2,14,1,0,8],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#ae306ac14b68a9e7d1447191621512a18":[2,0,0,0,2,14,1,0,1],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#ae9750a71c040407ffe49e3e7747ca33a":[2,0,0,0,2,14,1,0,0],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html":[2,0,0,0,2,14,2],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a07576c516516fa85da45b7e5a4eb227b":[2,0,0,0,2,14,2,5],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a23d1d336467cbab85a6c381224e0de87":[2,0,0,0,2,14,2,16],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a274773e82e208150200af077de042534":[2,0,0,0,2,14,2,17],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a3475be8d126e136fc540db503faaa140":[2,0,0,0,2,14,2,11],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_view.html#a47fabca89358869b5b44bb35eb60e81a":[2,0,0,0,2,14,2,2]
+"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#a6f25a0b27aeeadff19c15c5bafd1b99a":[2,0,0,0,2,14,1,0,10]
 };

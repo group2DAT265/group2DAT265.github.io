@@ -1,5 +1,16 @@
 var NAVTREEINDEX40 =
 {
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#af7c4081be7f3b4accd7ad3d907148beb":[2,0,0,0,3,17,0,20,16],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#afcc5b22eca9c1a4c2b29018aaa9aa891":[2,0,0,0,3,17,0,20,1],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#afde9ae5fbde7fcc1aada88e02e8e579a":[2,0,0,0,3,17,0,20,23],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html":[2,0,0,0,3,17,0,21],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html#a09eba658d39098fd1e406147969ce555":[2,0,0,0,3,17,0,21,4],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html#a901958c86fe19b73520eceaf4fdd9306":[2,0,0,0,3,17,0,21,3],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html#a93a7881bdd1f382601fb0eb2c26dadeb":[2,0,0,0,3,17,0,21,2],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html#ab9eab0e55577569d7c31d001284bea5a":[2,0,0,0,3,17,0,21,1],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html#ae877f9231f493c5dd0bdf3cbb9a993b6":[2,0,0,0,3,17,0,21,0],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_create_bib_o_r_d_f_authors.html":[2,0,0,0,3,17,0,22],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_create_bib_o_r_d_f_authors.html#a59b29191bd9f64f61df85066c2c600ab":[2,0,0,0,3,17,0,22,1],
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_create_bib_o_r_d_f_authors.html#ab4a05766d73f893254825fd3cc2fd431":[2,0,0,0,3,17,0,22,0],
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_create_doc_book4_authors.html":[2,0,0,0,3,17,0,23],
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_create_doc_book4_authors.html#aa1b7de530ed2ef88ca23778a696dcdf0":[2,0,0,0,3,17,0,23,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX40 =
 "classorg_1_1jabref_1_1logic_1_1msbib_1_1_ms_bib_author.html#ac95b8f92def6682e64bfcdf95f5e47db":[2,0,0,0,3,19,1,8],
 "classorg_1_1jabref_1_1logic_1_1msbib_1_1_ms_bib_author.html#ad72e3a1407f970323b511526d9f29032":[2,0,0,0,3,19,1,6],
 "classorg_1_1jabref_1_1logic_1_1msbib_1_1_ms_bib_author.html#ada6c2a50bba7eeb6c9432f7caca9db2b":[2,0,0,0,3,19,1,11],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_ms_bib_author.html#ae2109742b2db00482c7ea861e860dec7":[2,0,0,0,3,19,1,1],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_ms_bib_author.html#af2fd0838dfb92072da0c212c81906e55":[2,0,0,0,3,19,1,9],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_ms_bib_author.html#afd5c43aee8ad02ed805bf38272199fa6":[2,0,0,0,3,19,1,2],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_page_numbers.html":[2,0,0,0,3,19,6],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_page_numbers.html#a183b294080a828ed27f0abd98cbf30bc":[2,0,0,0,3,19,6,0],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_page_numbers.html#a27492f7ddc22b9b65338438e51e73654":[2,0,0,0,3,19,6,1],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_page_numbers.html#a3d827b86f76149cc382f96657107206b":[2,0,0,0,3,19,6,5],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_page_numbers.html#a7345f6ce2fb71ced120f281f67ac0987":[2,0,0,0,3,19,6,3],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_page_numbers.html#a8e0b3afb660eba286c923089462314a2":[2,0,0,0,3,19,6,6],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_page_numbers.html#aac39d7d1a75b0ece88f090897b1c8551":[2,0,0,0,3,19,6,4],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_page_numbers.html#ab9f85e3cc47db25f472782becf3025a5":[2,0,0,0,3,19,6,8],
-"classorg_1_1jabref_1_1logic_1_1msbib_1_1_page_numbers.html#ad3148a33eb4e34cdef2db7175e7b7ea0":[2,0,0,0,3,19,6,7]
+"classorg_1_1jabref_1_1logic_1_1msbib_1_1_ms_bib_author.html#ae2109742b2db00482c7ea861e860dec7":[2,0,0,0,3,19,1,1]
 };

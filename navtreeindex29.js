@@ -1,5 +1,16 @@
 var NAVTREEINDEX29 =
 {
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#ac7f6cc0a639f3a6a39e89cd68f57e370":[2,0,0,0,2,48,1,3,2],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#ac922f1fd749b4fd792f4179e0ccb2016":[2,0,0,0,2,48,1,3,4],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#acefa6c78b39b500238c36f2cecb05441":[2,0,0,0,2,48,1,3,13],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#af9a790f748a51d8bbdbc43f7efa25b5a":[2,0,0,0,2,48,1,3,3],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker_1_1_internal_converter.html":[2,0,0,0,2,48,1,3,0],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker_1_1_internal_converter.html#a0d36a8e4412fb9f3152ef5a2b6616203":[2,0,0,0,2,48,1,3,0,1],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker_1_1_internal_converter.html#ab386f5506bb3d24f6a1f582bb02753ed":[2,0,0,0,2,48,1,3,0,0],
+"classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html":[2,0,0,0,2,48,2,0],
+"classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html#a09b84191f021e0d952af703012b96939":[2,0,0,0,2,48,2,0,24],
+"classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html#a19eec0dfd6c076a8e3bdcff5ff18db29":[2,0,0,0,2,48,2,0,19],
+"classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html#a3ae4bf54f6ab1024faa5945f89d64fe5":[2,0,0,0,2,48,2,0,9],
 "classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html#a489d3330752d9078339a4ed634af0723":[2,0,0,0,2,48,2,0,15],
 "classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html#a4ad4fed31f82213a5da800233ffaba1a":[2,0,0,0,2,48,2,0,33],
 "classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html#a4f912b831766b371b3e4a28c42c506ea":[2,0,0,0,2,48,2,0,12],
@@ -238,16 +249,5 @@ var NAVTREEINDEX29 =
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_entry_comparator.html#a860d798fc899beecdcf9c19c9ec22383":[2,0,0,0,3,2,0,5,2],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_entry_comparator.html#a9a22b726d533f4d2d507c77569b022f2":[2,0,0,0,3,2,0,5,3],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_entry_comparator.html#a9c5e9781067052bbc1b2051e377df5de":[2,0,0,0,3,2,0,5,4],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html":[2,0,0,0,3,2,0,6],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a25713ee657da298ad7b43467cd43825e":[2,0,0,0,3,2,0,6,9],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a2d3342079e21bbfcd1456cbf88ea5e58":[2,0,0,0,3,2,0,6,1],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a3d569b71dc9ab71d99426666c76b0747":[2,0,0,0,3,2,0,6,11],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a4fc5233a4f28aaa317ceaf3c4db694f6":[2,0,0,0,3,2,0,6,8],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a8400a79f8d03f35716103717d20d598d":[2,0,0,0,3,2,0,6,3],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a9bbae8e288c828baded788fe9fd5fdbb":[2,0,0,0,3,2,0,6,5],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#ab99c0319bd1b086221e107c2b331b11f":[2,0,0,0,3,2,0,6,0],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#ac04d8a3a8e04e9c4f78a8089ef6c9505":[2,0,0,0,3,2,0,6,2],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#ac39ce8a7b3dcb77208ac0a6096889c5a":[2,0,0,0,3,2,0,6,7],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#aee1c25ef4900030f92cc053ae5f06e82":[2,0,0,0,3,2,0,6,6],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#af0ef31ff631ce035246b8b1c1c0251a0":[2,0,0,0,3,2,0,6,10]
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html":[2,0,0,0,3,2,0,6]
 };

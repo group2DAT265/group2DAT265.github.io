@@ -1,5 +1,16 @@
 var NAVTREEINDEX36 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#a9eab3cda51f4fdc92d2c414489fc6944":[2,0,0,0,3,13,0,21,24],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#aa13506e52237f12f277c1cc3663a53ce":[2,0,0,0,3,13,0,21,12],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#aab2e079831c405591ef17f962580cb8a":[2,0,0,0,3,13,0,21,15],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#abb352d0d98b3c35093753eed41f542ef":[2,0,0,0,3,13,0,21,1],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#abcf993d49a947bbc2a20a19f2f01593c":[2,0,0,0,3,13,0,21,21],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#ac3662cbe348adf633576af9adf04bc6f":[2,0,0,0,3,13,0,21,23],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#ac9f23972d51453620452c8bb547cd26a":[2,0,0,0,3,13,0,21,13],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#adb410be86c3f0bff9310fba1d006e6f7":[2,0,0,0,3,13,0,21,17],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#adde1072a6972babcc0f194a7cec8af95":[2,0,0,0,3,13,0,21,2],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_fetcher.html":[2,0,0,0,3,13,0,24],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_fetcher.html#a1708da1b51539301826a1d935b51c808":[2,0,0,0,3,13,0,24,0],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_fetcher.html#a23bf23fb509fdf859b75ea4420cb8b5c":[2,0,0,0,3,13,0,24,2],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_fetcher.html#a434ec5c87f66aec6d922378c1730e06a":[2,0,0,0,3,13,0,24,5],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_fetcher.html#a75773e509304df6ebc6ae4b4995f030c":[2,0,0,0,3,13,0,24,4],
@@ -238,16 +249,5 @@ var NAVTREEINDEX36 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer.html#a78ee5a559226002c770ab9bee617d39a":[2,0,0,0,3,13,1,5,4],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer.html#a8ae54914d92d620a894cdc94d7d30aac":[2,0,0,0,3,13,1,5,6],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer.html#aa4ee929e543a9483329b0eef1acfa23f":[2,0,0,0,3,13,1,5,5],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer.html#ae94d835f1477d4fc755f5dcdea81a6ce":[2,0,0,0,3,13,1,5,2],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html":[2,0,0,0,3,13,1,6],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a1ed9de48a19d6efa9d1072db85ecc5ba":[2,0,0,0,3,13,1,6,2],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a2287d3d223dfa8199a8e7301324064dd":[2,0,0,0,3,13,1,6,12],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a264de69c012afe6e19ed5392ae5acab6":[2,0,0,0,3,13,1,6,15],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a39dd13d14e8769e42c160757856d4eb4":[2,0,0,0,3,13,1,6,1],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a3f31740ff7c9a321fb2cd1bda56db514":[2,0,0,0,3,13,1,6,16],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a48066963953237c50093add2bdbdfc36":[2,0,0,0,3,13,1,6,4],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a4bb124d8fa4e4505de38f43e04e6bf70":[2,0,0,0,3,13,1,6,5],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a505f5f0fc558e921ddb6ce9e4bdaf7dc":[2,0,0,0,3,13,1,6,14],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a5b4aac7dcc5bf5c847befdd60e73fb9c":[2,0,0,0,3,13,1,6,10],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_custom_importer.html#a61588d0df308a1245e766055174ca066":[2,0,0,0,3,13,1,6,3]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_copac_importer.html#ae94d835f1477d4fc755f5dcdea81a6ce":[2,0,0,0,3,13,1,5,2]
 };

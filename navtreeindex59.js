@@ -1,5 +1,16 @@
 var NAVTREEINDEX59 =
 {
+"hierarchy.html":[2,2],
+"index.html":[],
+"interfaceorg_1_1jabref_1_1architecture_1_1_allowed_to_use_awt.html":[2,0,0,0,0,0],
+"interfaceorg_1_1jabref_1_1architecture_1_1_allowed_to_use_awt.html#a45a20865fe7985a658cbee98e0f37bba":[2,0,0,0,0,0,0],
+"interfaceorg_1_1jabref_1_1architecture_1_1_allowed_to_use_logic.html":[2,0,0,0,0,1],
+"interfaceorg_1_1jabref_1_1architecture_1_1_allowed_to_use_logic.html#a6fd53f88e9264b3a945c8506ed1d087b":[2,0,0,0,0,1,0],
+"interfaceorg_1_1jabref_1_1architecture_1_1_apache_commons_lang3_allowed.html":[2,0,0,0,0,2],
+"interfaceorg_1_1jabref_1_1architecture_1_1_apache_commons_lang3_allowed.html#a2b12e420bf576ba69e424ec881064636":[2,0,0,0,0,2,0],
+"interfaceorg_1_1jabref_1_1gui_1_1_dialog.html":[2,0,0,0,2,55],
+"interfaceorg_1_1jabref_1_1gui_1_1_dialog.html#acc8f8506bdfc7a77cb22154496231eb0":[2,0,0,0,2,55,0],
+"interfaceorg_1_1jabref_1_1gui_1_1_dialog_service.html":[2,0,0,0,2,56],
 "interfaceorg_1_1jabref_1_1gui_1_1_dialog_service.html#a0085475739379b5fdd2863ff0eecf78c":[2,0,0,0,2,56,11],
 "interfaceorg_1_1jabref_1_1gui_1_1_dialog_service.html#a055b4301bef74fa963e9da6722b8f60a":[2,0,0,0,2,56,2],
 "interfaceorg_1_1jabref_1_1gui_1_1_dialog_service.html#a08763105093533918b7d1a666067b96f":[2,0,0,0,2,56,3],
@@ -238,16 +249,5 @@ var NAVTREEINDEX59 =
 "interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html":[2,0,0,0,6,11],
 "interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a00e6eee9e9801d80fe6e362cfff6b8e5":[2,0,0,0,6,11,107],
 "interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a00ea0c85030dde390c7f7a2fe1ca86f9":[2,0,0,0,6,11,63],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a0631f86ec0d3aaa96a8fb5e9bfb97592":[2,0,0,0,6,11,13],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a06340e2291d32f3849a7149ad8829e8b":[2,0,0,0,6,11,65],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a07550495b1dd93ba01c63686faa735c9":[2,0,0,0,6,11,101],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a08b7b002e22c993065dc3790d2a33dd5":[2,0,0,0,6,11,99],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a09d5b427cf5ee97490c398ee2e7acc84":[2,0,0,0,6,11,1],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a0bc3790bf4fbf5010e39a79cbfe8d3b7":[2,0,0,0,6,11,19],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a0cadbdf52dc79402bb76ee0d87bc3d84":[2,0,0,0,6,11,51],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a0df3f30da6fdccf22f67bee3dc435940":[2,0,0,0,6,11,53],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a103e787d34d64be2e1ab098d92a7c3a9":[2,0,0,0,6,11,86],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a1362d467113fbd48de43ebeeed9ff578":[2,0,0,0,6,11,102],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a13d5283c6fb9c5235180e820c0a045b6":[2,0,0,0,6,11,79],
-"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a14a6c24bd23c1a87e0551826ba50ab99":[2,0,0,0,6,11,64]
+"interfaceorg_1_1jabref_1_1preferences_1_1_preferences_service.html#a0631f86ec0d3aaa96a8fb5e9bfb97592":[2,0,0,0,6,11,13]
 };

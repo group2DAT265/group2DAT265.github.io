@@ -1,5 +1,16 @@
 var NAVTREEINDEX30 =
 {
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a25713ee657da298ad7b43467cd43825e":[2,0,0,0,3,2,0,6,9],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a2d3342079e21bbfcd1456cbf88ea5e58":[2,0,0,0,3,2,0,6,1],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a3d569b71dc9ab71d99426666c76b0747":[2,0,0,0,3,2,0,6,11],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a4fc5233a4f28aaa317ceaf3c4db694f6":[2,0,0,0,3,2,0,6,8],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a8400a79f8d03f35716103717d20d598d":[2,0,0,0,3,2,0,6,3],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#a9bbae8e288c828baded788fe9fd5fdbb":[2,0,0,0,3,2,0,6,5],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#ab99c0319bd1b086221e107c2b331b11f":[2,0,0,0,3,2,0,6,0],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#ac04d8a3a8e04e9c4f78a8089ef6c9505":[2,0,0,0,3,2,0,6,2],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#ac39ce8a7b3dcb77208ac0a6096889c5a":[2,0,0,0,3,2,0,6,7],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#aee1c25ef4900030f92cc053ae5f06e82":[2,0,0,0,3,2,0,6,6],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#af0ef31ff631ce035246b8b1c1c0251a0":[2,0,0,0,3,2,0,6,10],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator.html#af58428e92cf2cdc68fe635a9045fef53":[2,0,0,0,3,2,0,6,4],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator_stack.html":[2,0,0,0,3,2,0,7],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_field_comparator_stack.html#a3deafb769c7e5da0cbf3d3ab46ba8725":[2,0,0,0,3,2,0,7,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX30 =
 "classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#a5bc47b60cf68d4cd7958cd030e15f2e7":[2,0,0,0,3,4,2,13],
 "classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#a5f509b55d328e16935bd419abf9971ae":[2,0,0,0,3,4,2,10],
 "classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#ab73079eebdf2277a65df338a74b7171a":[2,0,0,0,3,4,2,12],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#ab9393528235e07cac639127ff52bbf20":[2,0,0,0,3,4,2,0],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#abf39242f27638d8bf0a7b974f640bb34":[2,0,0,0,3,4,2,2],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#ac114edc48a54958e27250f49a9f200f0":[2,0,0,0,3,4,2,1],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#af60678ed6ee97d0ccb299d2a57f8e2a8":[2,0,0,0,3,4,2,9],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#af667039f9ca2733e4fd083d6dd145338":[2,0,0,0,3,4,2,3],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#afa1b8918343648d2186db829f24b3c58":[2,0,0,0,3,4,2,7],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_pattern_preferences.html":[2,0,0,0,3,4,3],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_pattern_preferences.html#a08df751e76f819505fc4705f25c2159f":[2,0,0,0,3,4,3,1],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_pattern_preferences.html#a10c993bf66b111f6cee1a3c60c1b26da":[2,0,0,0,3,4,3,10],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_pattern_preferences.html#a2787a9f5bd9aabd4b19aff13446f5000":[2,0,0,0,3,4,3,15],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_pattern_preferences.html#a2f3f967035f61efae60905a28d233c2a":[2,0,0,0,3,4,3,3],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_pattern_preferences.html#a40029a901faf77f43f6645a7ad31e6e9":[2,0,0,0,3,4,3,2]
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#ab9393528235e07cac639127ff52bbf20":[2,0,0,0,3,4,2,0]
 };

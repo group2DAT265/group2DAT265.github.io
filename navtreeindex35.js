@@ -1,5 +1,16 @@
 var NAVTREEINDEX35 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#a7f63c501957dad6c454909ce1f9d1d40":[2,0,0,0,3,13,0,4,0,8],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#a921bdb82d0adffd07f598099be5e5d97":[2,0,0,0,3,13,0,4,0,1],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#aa43f58be28b7e438c632a32d04810322":[2,0,0,0,3,13,0,4,0,14],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#aa4462b79467ee21cdc7cd614ae790dc1":[2,0,0,0,3,13,0,4,0,12],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#aa63df91f15b5f81951ff6a71e3171352":[2,0,0,0,3,13,0,4,0,3],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#aa76948a3627d6db8e14cbbb7956bc275":[2,0,0,0,3,13,0,4,0,6],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#ab426d8dd6ec0e7803aa3471726932f55":[2,0,0,0,3,13,0,4,0,4],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#abb79105a5c8535f7e5ad70b6f21cfc89":[2,0,0,0,3,13,0,4,0,0],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#acd5810c808e963687fff06b98add8ae4":[2,0,0,0,3,13,0,4,0,7],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#ad7262e15c5cd459e3fab374685e326d0":[2,0,0,0,3,13,0,4,0,11],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv_1_1_ar_xiv_entry.html#ad95f5eb282d25c8d3736797864cb43ee":[2,0,0,0,3,13,0,4,0,9],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html":[2,0,0,0,3,13,0,5],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#a0095dcbd864b2e763e15ac666a5988a5":[2,0,0,0,3,13,0,5,6],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#a0dadc56b01097bdd8c685cc490956600":[2,0,0,0,3,13,0,5,3],
@@ -238,16 +249,5 @@ var NAVTREEINDEX35 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#a93d5e13c186ec4280f196defeca66d17":[2,0,0,0,3,13,0,21,9],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#a9965aef4a8a90ffa6f979ea89e1eafdd":[2,0,0,0,3,13,0,21,6],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#a9cb8590970e10d5c76757af79aa14275":[2,0,0,0,3,13,0,21,3],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#a9d66cb8f24a0f3e89be470bbbf208785":[2,0,0,0,3,13,0,21,4],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#a9eab3cda51f4fdc92d2c414489fc6944":[2,0,0,0,3,13,0,21,24],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#aa13506e52237f12f277c1cc3663a53ce":[2,0,0,0,3,13,0,21,12],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#aab2e079831c405591ef17f962580cb8a":[2,0,0,0,3,13,0,21,15],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#abb352d0d98b3c35093753eed41f542ef":[2,0,0,0,3,13,0,21,1],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#abcf993d49a947bbc2a20a19f2f01593c":[2,0,0,0,3,13,0,21,21],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#ac3662cbe348adf633576af9adf04bc6f":[2,0,0,0,3,13,0,21,23],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#ac9f23972d51453620452c8bb547cd26a":[2,0,0,0,3,13,0,21,13],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#adb410be86c3f0bff9310fba1d006e6f7":[2,0,0,0,3,13,0,21,17],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#adde1072a6972babcc0f194a7cec8af95":[2,0,0,0,3,13,0,21,2],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_fetcher.html":[2,0,0,0,3,13,0,24],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_isbn_fetcher.html#a1708da1b51539301826a1d935b51c808":[2,0,0,0,3,13,0,24,0]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#a9d66cb8f24a0f3e89be470bbbf208785":[2,0,0,0,3,13,0,21,4]
 };

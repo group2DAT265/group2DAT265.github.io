@@ -1,5 +1,16 @@
 var NAVTREEINDEX43 =
 {
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#a2e9edac37956c4c015d3a78a2aac9934":[2,0,0,0,3,28,11,20],
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#a54e0a257430dabc70effe18f42b54bf3":[2,0,0,0,3,28,11,13],
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#a56bf8c879ed10907ad131a2d58ed72b6":[2,0,0,0,3,28,11,11],
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#a6ae50087770ef9bf9de9dbb8b2032669":[2,0,0,0,3,28,11,14],
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#a6c4b05093efd3c7c40b0825425617495":[2,0,0,0,3,28,11,10],
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#a7449bf7b403053ca4a39a865635c49b7":[2,0,0,0,3,28,11,8],
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#a79f1101839638ddc2467ebcc3071e79b":[2,0,0,0,3,28,11,6],
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#a7c697cb380b9b029e5fae162e7966518":[2,0,0,0,3,28,11,1],
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#a8fcf837ce94301b2b028c1e81149ea12":[2,0,0,0,3,28,11,21],
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#a958480092a2c1538798e6821cb50905f":[2,0,0,0,3,28,11,26],
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#ab03dad17732615fce4f5f87abb747ef4":[2,0,0,0,3,28,11,17],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#ab06d370bbd56ac54fa25665daf2a76be":[2,0,0,0,3,28,11,25],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#ad06ef41bba6d302b89464269478a711b":[2,0,0,0,3,28,11,3],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection_properties.html#adb31ca7c7a7f12c5103382ab055c4134":[2,0,0,0,3,28,11,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX43 =
 "classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#acda03762548f8826d7e85212070b7148":[2,0,0,0,3,30,0,12],
 "classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#ae67f3dfc9f9c34269ebad70b7c11f6cf":[2,0,0,0,3,30,0,17],
 "classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#ae9da7463b75fb872a941ff84faf38564":[2,0,0,0,3,30,0,18],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#af8197506d6af86fe0d2768c458552c04":[2,0,0,0,3,30,0,3],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#afc735fc73d7c0eb871f5a7aba499a896":[2,0,0,0,3,30,0,9],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver.html":[2,0,0,0,3,30,2],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver.html#a068969a10ade9452e4dab4ac36a19216":[2,0,0,0,3,30,2,2],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver.html#a33d9192c9403416a18f3716031c6ead9":[2,0,0,0,3,30,2,4],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver.html#a5d6e5c2315233a36a0933b386d508a6f":[2,0,0,0,3,30,2,5],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver.html#a658397f34db167e6cca95b90f3011061":[2,0,0,0,3,30,2,0],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver.html#a83cd0120cdbe03aaf5264d34c9a45231":[2,0,0,0,3,30,2,3],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver.html#ac5f6d89df5c32724889019da6acb851b":[2,0,0,0,3,30,2,1],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_tex_bib_entries_resolver.html#aea5bc732d799c1b86c342fce584022f7":[2,0,0,0,3,30,2,6],
-"classorg_1_1jabref_1_1logic_1_1undo_1_1_add_undoable_action_event.html":[2,0,0,0,3,31,0],
-"classorg_1_1jabref_1_1logic_1_1undo_1_1_add_undoable_action_event.html#a6eec07dd7c060eecc9178a16c8f72ff6":[2,0,0,0,3,31,0,0]
+"classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#af8197506d6af86fe0d2768c458552c04":[2,0,0,0,3,30,0,3]
 };

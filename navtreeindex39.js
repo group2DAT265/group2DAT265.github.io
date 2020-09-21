@@ -1,5 +1,16 @@
 var NAVTREEINDEX39 =
 {
+"classorg_1_1jabref_1_1logic_1_1integrity_1_1_year_checker.html#adbdcd17c8aa9c1a44a6f3af2247340b8":[2,0,0,0,3,14,37,1],
+"classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html":[2,0,0,0,3,15,0],
+"classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#a203ba34bac5896911ffe1b1c30e7d7e8":[2,0,0,0,3,15,0,8],
+"classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#a3684cc24a6023357d8663603faf697ff":[2,0,0,0,3,15,0,7],
+"classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#a561e05617d902eca73150b9cc187bebf":[2,0,0,0,3,15,0,11],
+"classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#a5bd7d6516402a701d4275ca965aa835f":[2,0,0,0,3,15,0,12],
+"classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#a842b66c4d6d1711f07fe20da2e12ccd0":[2,0,0,0,3,15,0,10],
+"classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#a86cdcba786d6c503ebb9ca183328ef11":[2,0,0,0,3,15,0,2],
+"classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#a9c7e6b0d5211cbfed04a0f9a5d905e02":[2,0,0,0,3,15,0,5],
+"classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#aa9ab00ee3514b053c197f346accc5052":[2,0,0,0,3,15,0,3],
+"classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#aad568f41d4971959703cd5fe6b728451":[2,0,0,0,3,15,0,1],
 "classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#aada4d327b475c997cd5557085e94bcb7":[2,0,0,0,3,15,0,13],
 "classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#ab34fe193f49e96d40462025552a042d3":[2,0,0,0,3,15,0,9],
 "classorg_1_1jabref_1_1logic_1_1journals_1_1_abbreviation.html#ab8541c61f300a733369fa5e78f407567":[2,0,0,0,3,15,0,6],
@@ -238,16 +249,5 @@ var NAVTREEINDEX39 =
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#ac9eaf58f82a1be3ea3c1b7819bc91027":[2,0,0,0,3,17,0,20,4],
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#acbac5be8d37fb11d3edfae4cf08eff76":[2,0,0,0,3,17,0,20,25],
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#ad5880b0e29ca9454357e6ab68121aaba":[2,0,0,0,3,17,0,20,33],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#ae88556dab1fa28b29569a68a57311b4d":[2,0,0,0,3,17,0,20,19],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#af7c4081be7f3b4accd7ad3d907148beb":[2,0,0,0,3,17,0,20,16],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#afcc5b22eca9c1a4c2b29018aaa9aa891":[2,0,0,0,3,17,0,20,1],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#afde9ae5fbde7fcc1aada88e02e8e579a":[2,0,0,0,3,17,0,20,23],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html":[2,0,0,0,3,17,0,21],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html#a09eba658d39098fd1e406147969ce555":[2,0,0,0,3,17,0,21,4],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html#a901958c86fe19b73520eceaf4fdd9306":[2,0,0,0,3,17,0,21,3],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html#a93a7881bdd1f382601fb0eb2c26dadeb":[2,0,0,0,3,17,0,21,2],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html#ab9eab0e55577569d7c31d001284bea5a":[2,0,0,0,3,17,0,21,1],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_composite_format.html#ae877f9231f493c5dd0bdf3cbb9a993b6":[2,0,0,0,3,17,0,21,0],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_create_bib_o_r_d_f_authors.html":[2,0,0,0,3,17,0,22],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_create_bib_o_r_d_f_authors.html#a59b29191bd9f64f61df85066c2c600ab":[2,0,0,0,3,17,0,22,1]
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#ae88556dab1fa28b29569a68a57311b4d":[2,0,0,0,3,17,0,20,19]
 };

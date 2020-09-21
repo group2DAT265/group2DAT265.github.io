@@ -1,5 +1,16 @@
 var NAVTREEINDEX28 =
 {
+"classorg_1_1jabref_1_1gui_1_1util_1_1_no_selection_model.html#ada01a4d6d89b4883133dd2e8e976e656":[2,0,0,0,2,48,20,3],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_no_selection_model.html#adb6d4703925cf7813f1bb567f607543e":[2,0,0,0,2,48,20,12],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_no_selection_model.html#ae5c32019e02c6a2cbaafda90d4c8cc4f":[2,0,0,0,2,48,20,6],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_no_selection_model.html#ae65242a956e2c9eb90594d72de4e9b1a":[2,0,0,0,2,48,20,2],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_no_selection_model.html#ae90656761cdec2a6cd5e6ac2d62e8c00":[2,0,0,0,2,48,20,11],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_only_integer_formatter.html":[2,0,0,0,2,48,21],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_only_integer_formatter.html#a6f7b0ab41e3a3e54677fcd4670eac5d1":[2,0,0,0,2,48,21,1],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_only_integer_formatter.html#aa967fa0e863d0e116fb39119e0554384":[2,0,0,0,2,48,21,2],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_only_integer_formatter_1_1_integer_filter.html":[2,0,0,0,2,48,21,0],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_only_integer_formatter_1_1_integer_filter.html#a915eedb3dd2f26eb46ae2aa3d1239d8e":[2,0,0,0,2,48,21,0,1],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_only_integer_formatter_1_1_integer_filter.html#aff2b7cf3c61006114e393fff72f1a114":[2,0,0,0,2,48,21,0,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_open_hyperlinks_in_external_browser.html":[2,0,0,0,2,48,22],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_open_hyperlinks_in_external_browser.html#a392f3215c05d45924b3ea1bbf597ad5d":[2,0,0,0,2,48,22,5],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_open_hyperlinks_in_external_browser.html#a3a7cf80c7909aaedfa977ca835993754":[2,0,0,0,2,48,22,4],
@@ -238,16 +249,5 @@ var NAVTREEINDEX28 =
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#a8a689039dad3ca03c4e1bf2e5977c4ab":[2,0,0,0,2,48,1,3,1],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#a9bfcaa84e8bbcda79135ac2cb807e910":[2,0,0,0,2,48,1,3,12],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#aa359f5682fb3ab7347e784e3a808753e":[2,0,0,0,2,48,1,3,7],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#ab043cedd709ac17a03fea94e2facd504":[2,0,0,0,2,48,1,3,8],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#ac7f6cc0a639f3a6a39e89cd68f57e370":[2,0,0,0,2,48,1,3,2],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#ac922f1fd749b4fd792f4179e0ccb2016":[2,0,0,0,2,48,1,3,4],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#acefa6c78b39b500238c36f2cecb05441":[2,0,0,0,2,48,1,3,13],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#af9a790f748a51d8bbdbc43f7efa25b5a":[2,0,0,0,2,48,1,3,3],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker_1_1_internal_converter.html":[2,0,0,0,2,48,1,3,0],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker_1_1_internal_converter.html#a0d36a8e4412fb9f3152ef5a2b6616203":[2,0,0,0,2,48,1,3,0,1],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker_1_1_internal_converter.html#ab386f5506bb3d24f6a1f582bb02753ed":[2,0,0,0,2,48,1,3,0,0],
-"classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html":[2,0,0,0,2,48,2,0],
-"classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html#a09b84191f021e0d952af703012b96939":[2,0,0,0,2,48,2,0,24],
-"classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html#a19eec0dfd6c076a8e3bdcff5ff18db29":[2,0,0,0,2,48,2,0,19],
-"classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html#a3ae4bf54f6ab1024faa5945f89d64fe5":[2,0,0,0,2,48,2,0,9]
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_temporal_accessor_picker.html#ab043cedd709ac17a03fea94e2facd504":[2,0,0,0,2,48,1,3,8]
 };

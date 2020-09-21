@@ -1,5 +1,16 @@
 var NAVTREEINDEX6 =
 {
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a0515d79f05f90469b8d7bb4c211f955d":[2,0,0,0,2,64,22],
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a0a5aa80e85ff618b4879b3acfcb404cd":[2,0,0,0,2,64,4],
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a26430e136dd8b1f78654900a5eb8af44":[2,0,0,0,2,64,14],
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a2e96ea526eb007c1954173d2036c820d":[2,0,0,0,2,64,10],
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a30162f68dfdddfb323dd5ca8cff22fda":[2,0,0,0,2,64,6],
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a3ec6372b280e1690b2dbe5b3860dce09":[2,0,0,0,2,64,12],
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a41665e8e6f2c674eb51141ee8a05ee4c":[2,0,0,0,2,64,19],
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a4234b98ba7d82a4e8441699533b0fd45":[2,0,0,0,2,64,25],
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a56f04d722050148a0d5ed161b65990c7":[2,0,0,0,2,64,11],
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a5b5814db4eda0a43a6eb799fd8859106":[2,0,0,0,2,64,33],
+"classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a766ad0797569a413fdea028e4202b3ef":[2,0,0,0,2,64,28],
 "classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a7a25761b522d3624ce5dacb64a2478df":[2,0,0,0,2,64,29],
 "classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a7ca656782473cacb1b8ed64525e041db":[2,0,0,0,2,64,26],
 "classorg_1_1jabref_1_1gui_1_1_jab_ref_dialog_service.html#a8320e1ae2d749a7fa5db2a22e03e5761":[2,0,0,0,2,64,15],
@@ -238,16 +249,5 @@ var NAVTREEINDEX6 =
 "classorg_1_1jabref_1_1gui_1_1_state_manager.html#a868826421042108e25c3e1394583cf8d":[2,0,0,0,2,76,22],
 "classorg_1_1jabref_1_1gui_1_1_state_manager.html#a8d1921ab3f8187c577d213123d3b2d0a":[2,0,0,0,2,76,27],
 "classorg_1_1jabref_1_1gui_1_1_state_manager.html#a94290b562aecccf6a383a45e2d791ba6":[2,0,0,0,2,76,0],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#a97c39ad7eba8012f811173206124f5b4":[2,0,0,0,2,76,7],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#a98aa56731a9afc9117e064a34f1ce52d":[2,0,0,0,2,76,3],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#a9fdb8ee89e78c1066e2942648feb1f3c":[2,0,0,0,2,76,14],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#aa3f3a1aaf86ea08ac53ead1c9c3dfb9f":[2,0,0,0,2,76,32],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#aaafd78361d45a8a080c0d7c2d1462d30":[2,0,0,0,2,76,11],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#ab36ed68f37886fc7751c1a41f4713d33":[2,0,0,0,2,76,23],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#abd3063eed32d7bdbdd24adfdc7969c70":[2,0,0,0,2,76,35],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#ac0003a17fa55e4150c2d05cb0fa7704b":[2,0,0,0,2,76,15],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#ac22e368e248f72ab3d18340b6d4c8b28":[2,0,0,0,2,76,13],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#ac6c39f17107e2036e2b25807ae28a531":[2,0,0,0,2,76,26],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#ac8dc78c092b0658ab32520fb5450c6ac":[2,0,0,0,2,76,33],
-"classorg_1_1jabref_1_1gui_1_1_state_manager.html#acd6e036f462d5c5f1dac8c5e9d488195":[2,0,0,0,2,76,34]
+"classorg_1_1jabref_1_1gui_1_1_state_manager.html#a97c39ad7eba8012f811173206124f5b4":[2,0,0,0,2,76,7]
 };
