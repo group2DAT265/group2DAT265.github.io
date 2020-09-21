@@ -9,19 +9,21 @@ OUTPUT_COLORS = enum(
     ENDC='\033[0;38m'
 )
 
+colorString = u"{color_error}{content}{color_end}"
+
 
 def error(content):
-    print u"{color_error}{content}{color_end}".encode('utf8') \
+    print colorString.encode('utf8') \
         .format(color_error=OUTPUT_COLORS.ERROR, content=str(content.encode('utf8')), color_end=OUTPUT_COLORS.ENDC)
 
 
 def warn(content):
-    print u"{color_error}{content}{color_end}".encode('utf8') \
+    print colorString.encode('utf8') \
         .format(color_error=OUTPUT_COLORS.WARN, content=str(content.encode('utf8')), color_end=OUTPUT_COLORS.ENDC).encode('utf8')
 
 
 def ok(content):
-    print u"{color_error}{content}{color_end}".encode('utf8') \
+    print colorString.encode('utf8') \
         .format(color_error=OUTPUT_COLORS.OK, content=str(content.encode('utf8')), color_end=OUTPUT_COLORS.ENDC).encode('utf8')
 
 
