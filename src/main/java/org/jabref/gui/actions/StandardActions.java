@@ -6,7 +6,6 @@ import org.jabref.gui.icon.JabRefIcon;
 import org.jabref.gui.keyboard.KeyBinding;
 import org.jabref.logic.l10n.Localization;
 
-
 public enum StandardActions implements Action {
 
     COPY_MORE(Localization.lang("Copy") + "..."),
@@ -30,7 +29,7 @@ public enum StandardActions implements Action {
     DELETE(Localization.lang("Delete"), IconTheme.JabRefIcons.DELETE_ENTRY),
     DELETE_ENTRY(Localization.lang("Delete Entry"), IconTheme.JabRefIcons.DELETE_ENTRY, KeyBinding.DELETE_ENTRY),
     SEND_AS_EMAIL(Localization.lang("Send as email"), IconTheme.JabRefIcons.EMAIL),
-    OPEN_EXTERNAL_FILE(Localization.lang(OPENFILE()), IconTheme.JabRefIcons.FILE, KeyBinding.OPEN_FILE),
+    OPEN_EXTERNAL_FILE(Localization.lang(Constants.OPENFILE), IconTheme.JabRefIcons.FILE, KeyBinding.OPEN_FILE),
     OPEN_URL(Localization.lang("Open URL or DOI"), IconTheme.JabRefIcons.WWW, KeyBinding.OPEN_URL_OR_DOI),
     SEARCH_SHORTSCIENCE(Localization.lang("Search ShortScience")),
     MERGE_WITH_FETCHED_ENTRY(Localization.lang("Get BibTeX data from %0", "DOI/ISBN/...")),
@@ -90,7 +89,7 @@ public enum StandardActions implements Action {
     WRITE_XMP(Localization.lang("Write XMP metadata to PDFs"), Localization.lang("Will write XMP metadata to the PDFs linked from selected entries."), KeyBinding.WRITE_XMP),
     OPEN_DATABASE_FOLDER(Localization.lang("Reveal in file explorer")),
     OPEN_FOLDER(Localization.lang("Open folder"), Localization.lang("Open folder"), KeyBinding.OPEN_FOLDER),
-    OPEN_FILE(Localization.lang(OPENFILE()), Localization.lang(OPENFILE()), IconTheme.JabRefIcons.FILE, KeyBinding.OPEN_FILE),
+    OPEN_FILE(Localization.lang(Constants.OPENFILE), Localization.lang(Constants.OPENFILE), IconTheme.JabRefIcons.FILE, KeyBinding.OPEN_FILE),
     OPEN_CONSOLE(Localization.lang("Open terminal here"), Localization.lang("Open terminal here"), IconTheme.JabRefIcons.CONSOLE, KeyBinding.OPEN_CONSOLE),
     COPY_LINKED_FILES(Localization.lang("Copy linked files to folder...")),
     COPY_DOI(Localization.lang("Copy DOI url")),
@@ -160,8 +159,9 @@ public enum StandardActions implements Action {
     ABOUT(Localization.lang("About JabRef"), Localization.lang("About JabRef"));
 
     // Constant to avoid duplication and critical code smells
-    static String OPENFILE() {
-        return "Open file";
+    private static class Constants {
+
+        private static final String OPENFILE = "Open file";
     }
 
     private final String text;
