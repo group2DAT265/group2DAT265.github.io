@@ -28,6 +28,10 @@ import org.slf4j.LoggerFactory;
 
 public class CopyMoreAction extends SimpleCommand {
 
+    private static final String COPIED = "Copied '%0' to clipboard.";
+    private static final String NONE = "None of the selected entries have citation keys.";
+    private static final String WARNING = "Warning: %0 out of %1 entries have undefined citation key.";
+
     private static final Logger LOGGER = LoggerFactory.getLogger(CopyMoreAction.class);
     private final StandardActions action;
     private final DialogService dialogService;
@@ -91,7 +95,7 @@ public class CopyMoreAction extends SimpleCommand {
 
         if (titles.size() == selectedBibEntries.size()) {
             // All entries had titles.
-            dialogService.notify(Localization.lang("Copied '%0' to clipboard.",
+            dialogService.notify(Localization.lang(COPIED,
                     JabRefDialogService.shortenDialogMessage(copiedTitles)));
         } else {
             dialogService.notify(Localization.lang("Warning: %0 out of %1 entries have undefined title.",
@@ -109,7 +113,7 @@ public class CopyMoreAction extends SimpleCommand {
                                    .collect(Collectors.toList());
 
         if (keys.isEmpty()) {
-            dialogService.notify(Localization.lang("None of the selected entries have citation keys."));
+            dialogService.notify(Localization.lang(NONE));
             return;
         }
 
@@ -118,10 +122,10 @@ public class CopyMoreAction extends SimpleCommand {
 
         if (keys.size() == entries.size()) {
             // All entries had keys.
-            dialogService.notify(Localization.lang("Copied '%0' to clipboard.",
+            dialogService.notify(Localization.lang(COPIED,
                     JabRefDialogService.shortenDialogMessage(copiedKeys)));
         } else {
-            dialogService.notify(Localization.lang("Warning: %0 out of %1 entries have undefined citation key.",
+            dialogService.notify(Localization.lang(WARNING,
                     Integer.toString(entries.size() - keys.size()), Integer.toString(entries.size())));
         }
     }
@@ -136,7 +140,7 @@ public class CopyMoreAction extends SimpleCommand {
                                    .collect(Collectors.toList());
 
         if (keys.isEmpty()) {
-            dialogService.notify(Localization.lang("None of the selected entries have citation keys."));
+            dialogService.notify(Localization.lang(NONE));
             return;
         }
 
@@ -149,10 +153,10 @@ public class CopyMoreAction extends SimpleCommand {
 
         if (keys.size() == entries.size()) {
             // All entries had keys.
-            dialogService.notify(Localization.lang("Copied '%0' to clipboard.",
+            dialogService.notify(Localization.lang(COPIED,
                     JabRefDialogService.shortenDialogMessage(copiedCiteCommand)));
         } else {
-            dialogService.notify(Localization.lang("Warning: %0 out of %1 entries have undefined citation key.",
+            dialogService.notify(Localization.lang(WARNING,
                     Integer.toString(entries.size() - keys.size()), Integer.toString(entries.size())));
         }
     }
@@ -182,7 +186,7 @@ public class CopyMoreAction extends SimpleCommand {
         }
 
         if (entriesWithKeys == 0) {
-            dialogService.notify(Localization.lang("None of the selected entries have citation keys."));
+            dialogService.notify(Localization.lang(NONE));
             return;
         }
 
@@ -190,10 +194,10 @@ public class CopyMoreAction extends SimpleCommand {
 
         if (entriesWithKeys == entries.size()) {
             // All entries had keys.
-            dialogService.notify(Localization.lang("Copied '%0' to clipboard.",
+            dialogService.notify(Localization.lang(COPIED,
                     JabRefDialogService.shortenDialogMessage(keyAndTitle.toString())));
         } else {
-            dialogService.notify(Localization.lang("Warning: %0 out of %1 entries have undefined citation key.",
+            dialogService.notify(Localization.lang(WARNING,
                     Integer.toString(entries.size() - entriesWithKeys), Integer.toString(entries.size())));
         }
     }
@@ -213,7 +217,7 @@ public class CopyMoreAction extends SimpleCommand {
                                                .collect(Collectors.toList());
 
         if (entriesWithKey.isEmpty()) {
-            dialogService.notify(Localization.lang("None of the selected entries have citation keys."));
+            dialogService.notify(Localization.lang(NONE));
             return;
         }
 
@@ -228,10 +232,11 @@ public class CopyMoreAction extends SimpleCommand {
 
         if (entriesWithKey.size() == entries.size()) {
             // All entries had keys.
-            dialogService.notify(Localization.lang("Copied '%0' to clipboard.",
+			dialogService
+					.notify(Localization.lang(COPIED,
                     JabRefDialogService.shortenDialogMessage(keyAndLink.toString())));
         } else {
-            dialogService.notify(Localization.lang("Warning: %0 out of %1 entries have undefined citation key.",
+            dialogService.notify(Localization.lang(WARNING,
                     Long.toString(entries.size() - entriesWithKey.size()), Integer.toString(entries.size())));
         }
     }
