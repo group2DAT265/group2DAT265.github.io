@@ -16,15 +16,18 @@ import org.slf4j.LoggerFactory;
 
 class EntryDeleteChangeViewModel extends DatabaseChangeViewModel {
 
+    // Constant to avoid duplication and critical code smells
+    private static final String DELETEDENTRY = "Deleted entry";
+
     private static final Logger LOGGER = LoggerFactory.getLogger(EntryDeleteChangeViewModel.class);
     private final BibEntry entry;
 
     public EntryDeleteChangeViewModel(BibEntry entry) {
-        super(Localization.lang("Deleted entry"));
+        super(Localization.lang(DELETEDENTRY));
 
         this.name = entry.getCiteKeyOptional()
-                         .map(key -> Localization.lang("Deleted entry") + ": '" + key + '\'')
-                         .orElse(Localization.lang("Deleted entry"));
+                         .map(key -> Localization.lang(DELETEDENTRY) + ": '" + key + '\'')
+                         .orElse(Localization.lang(DELETEDENTRY));
         this.entry = entry;
     }
 
