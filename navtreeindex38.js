@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a1f63d47603862a9ac4f781d9d4244e3d":[2,0,0,0,3,13,1,18,17],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a2f1a110e444344040722ad662c4edc81":[2,0,0,0,3,13,1,18,4],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a38a8d40e5f5c6583e2877c5157a0ad4c":[2,0,0,0,3,13,1,18,8],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a39e4144ed723ba5eab1651b34c498a0c":[2,0,0,0,3,13,1,18,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_pages_checker.html#a9dceed6775e84f66b5433e5632588ec3":[2,0,0,0,3,14,30,1],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_person_names_checker.html":[2,0,0,0,3,14,31],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_person_names_checker.html#a32602e985e424b841bb70182c486fb59":[2,0,0,0,3,14,31,0],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_person_names_checker.html#a73b4d349a79d19e8e5cab7ccafbf492b":[2,0,0,0,3,14,31,1],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_person_names_checker.html#acd85cc6f687a5f6095e522e3018b5a82":[2,0,0,0,3,14,31,2]
+"classorg_1_1jabref_1_1logic_1_1integrity_1_1_person_names_checker.html#a73b4d349a79d19e8e5cab7ccafbf492b":[2,0,0,0,3,14,31,1]
 };

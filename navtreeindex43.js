@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection.html":[2,0,0,0,3,28,10],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection.html#a124bf214c8c93127797acc4c7d486199":[2,0,0,0,3,28,10,6],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection.html#a29e7bc8fc9b7991dd480b39da9216396":[2,0,0,0,3,28,10,3],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection.html#a3cb3e685c96b809ad4c6a0266f601b65":[2,0,0,0,3,28,10,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classorg_1_1jabref_1_1logic_1_1specialfields_1_1_special_fields_utils.html#aa0c8645ada63d264db789fb8fd4c57ab":[2,0,0,0,3,29,0,5],
 "classorg_1_1jabref_1_1logic_1_1specialfields_1_1_special_fields_utils.html#abc321e28e5112ab581f5d8620601f346":[2,0,0,0,3,29,0,0],
 "classorg_1_1jabref_1_1logic_1_1specialfields_1_1_special_fields_utils.html#abcdf674c4fa24d4edd3f451f5140af58":[2,0,0,0,3,29,0,4],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html":[2,0,0,0,3,30,0],
-"classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#a08b7049b5bb165a9b6b7426e3ee2462a":[2,0,0,0,3,30,0,10]
+"classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html":[2,0,0,0,3,30,0]
 };

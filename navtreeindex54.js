@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a4e0b1f07ffff341fa16944070ab3d1ca":[2,0,0,0,2,0,5,108],
 "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a4f02f8e1786c31d639981cce8f9b8ed6":[2,0,0,0,2,0,5,155],
 "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a51258be28ed91e8d8be0accf765a4add":[2,0,0,0,2,0,5,104],
 "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a53cbb1e2479c6c7df8b825caa67934d1":[2,0,0,0,2,0,5,86],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a526f537b68201e2ad34cae2edda0e650":[2,0,0,0,2,26,0,0,46],
 "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a540287a33e5df361d9e87081133f9556":[2,0,0,0,2,26,0,0,100],
 "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a5679a8651ed6a623b0366700e9ed110f":[2,0,0,0,2,26,0,0,34],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a5894d87e14174841721be0267949f5bf":[2,0,0,0,2,26,0,0,77],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a58f051f7efaf00c6676023be6ac71282":[2,0,0,0,2,26,0,0,118]
+"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a5894d87e14174841721be0267949f5bf":[2,0,0,0,2,26,0,0,77]
 };

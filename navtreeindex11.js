@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a79ff9dad3a60371520bc98d141db0fb7":[2,0,0,0,2,17,2,8],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a7ffe3bcfd4d307e439251e9f69fa8a8a":[2,0,0,0,2,17,2,25],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a8e3597c78bfc00ab7c4c0dcc3246010c":[2,0,0,0,2,17,2,26],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a90378240645ef669b33070f3e6ae9d14":[2,0,0,0,2,17,2,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a1d2ee718d3abda656a2d4acdb179722d":[2,0,0,0,2,18,0,0],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a23762be99a4087543658af950522ddf9":[2,0,0,0,2,18,0,6],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a406eca75751fe3e76f5211621c28130c":[2,0,0,0,2,18,0,16],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a47f0a721ee0f09f50f107f1915b7062b":[2,0,0,0,2,18,0,1],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a4e2c1ffd46b9f306c90834fb6cfdbf5b":[2,0,0,0,2,18,0,9]
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a47f0a721ee0f09f50f107f1915b7062b":[2,0,0,0,2,18,0,1]
 };

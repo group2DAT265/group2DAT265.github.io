@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#a08b7049b5bb165a9b6b7426e3ee2462a":[2,0,0,0,3,30,0,10],
 "classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#a0bb5da0daffe76dfb5cc6bd45eedee3c":[2,0,0,0,3,30,0,6],
 "classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#a2a89664d32b6e34af73521f45fc17e44":[2,0,0,0,3,30,0,4],
 "classorg_1_1jabref_1_1logic_1_1texparser_1_1_default_latex_parser.html#a2b2699af93a676892c8644e78504fd4f":[2,0,0,0,3,30,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_quoted_string_tokenizer.html#a556cf66a015e7bae57bc8dd8d67a24a5":[2,0,0,0,3,32,1,1,5],
 "classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_quoted_string_tokenizer.html#a91606df6eacbb9df8a457513cb6fd36b":[2,0,0,0,3,32,1,1,4],
 "classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_quoted_string_tokenizer.html#abbf2a607d82d52d70d9e7b61ff9bdc61":[2,0,0,0,3,32,1,1,3],
-"classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_quoted_string_tokenizer.html#ac90eb071da1a9b1e2d5e1d20ec72644f":[2,0,0,0,3,32,1,1,2],
-"classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_quoted_string_tokenizer.html#af0785d38a8181a6d6401819e87dd02bf":[2,0,0,0,3,32,1,1,6]
+"classorg_1_1jabref_1_1logic_1_1util_1_1strings_1_1_quoted_string_tokenizer.html#ac90eb071da1a9b1e2d5e1d20ec72644f":[2,0,0,0,3,32,1,1,2]
 };
