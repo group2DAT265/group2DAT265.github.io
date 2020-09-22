@@ -9,9 +9,13 @@ import org.jabref.logic.auxparser.DefaultAuxParser;
 import org.jabref.model.database.BibDatabase;
 import org.jabref.model.strings.StringUtil;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class AuxCommandLine {
     private final String auxFile;
     private final BibDatabase database;
+    private static final Logger LOGGER = LoggerFactory.getLogger(AuxCommandLine.class);
 
     public AuxCommandLine(String auxFile, BibDatabase database) {
         this.auxFile = StringUtil.getCorrectFileName(auxFile, "aux");
@@ -26,7 +30,7 @@ public class AuxCommandLine {
             AuxParserResult result = auxParser.parse(Path.of(auxFile));
             subDatabase = result.getGeneratedBibDatabase();
             // print statistics
-            System.out.println(new AuxParserResultViewModel(result).getInformation(true));
+            LOGGER.info(new AuxParserResultViewModel(result).getInformation(true));
         }
         return subDatabase;
     }
