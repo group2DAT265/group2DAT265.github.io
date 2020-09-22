@@ -19,5 +19,6 @@ var classorg_1_1jabref_1_1gui_1_1exporter_1_1_save_database_action =
     [ "frame", "classorg_1_1jabref_1_1gui_1_1exporter_1_1_save_database_action.html#a41fc60d3cef6812e6e3bdfa160b0ba3e", null ],
     [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1exporter_1_1_save_database_action.html#aad16a863ca577538b1884f50d1c3c7f5", null ],
     [ "panel", "classorg_1_1jabref_1_1gui_1_1exporter_1_1_save_database_action.html#a39deda7d68cc70f7a9d091f57c76f840", null ],
-    [ "preferences", "classorg_1_1jabref_1_1gui_1_1exporter_1_1_save_database_action.html#a1fddf0bdc1bdd854be5e5f26356e1c19", null ]
+    [ "preferences", "classorg_1_1jabref_1_1gui_1_1exporter_1_1_save_database_action.html#a1fddf0bdc1bdd854be5e5f26356e1c19", null ],
+    [ "SAVE_LIBRARY", "classorg_1_1jabref_1_1gui_1_1exporter_1_1_save_database_action.html#a9e483f49940864a92fb6b29f62ba782a", null ]
 ];

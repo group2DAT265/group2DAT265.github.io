@@ -1,5 +1,11 @@
 var NAVTREEINDEX11 =
 {
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a7ffe3bcfd4d307e439251e9f69fa8a8a":[2,0,0,0,2,17,2,25],
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a8e3597c78bfc00ab7c4c0dcc3246010c":[2,0,0,0,2,17,2,26],
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a90378240645ef669b33070f3e6ae9d14":[2,0,0,0,2,17,2,3],
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a948037921eae8f227e53495af19cc3e6":[2,0,0,0,2,17,2,24],
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a975ac0fd55d2599f4a30d044e12e4dc2":[2,0,0,0,2,17,2,20],
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a993240e8c77ec018cbe40ed8fd0154be":[2,0,0,0,2,17,2,4],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#aad94bf8a3f81768bfd5c9c0c628847b9":[2,0,0,0,2,17,2,11],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#aae2ee144fac50634f49077fadeceee25":[2,0,0,0,2,17,2,35],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#ab41d99059f7bc4e825f8a68fbfe6a3b4":[2,0,0,0,2,17,2,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX11 =
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a23762be99a4087543658af950522ddf9":[2,0,0,0,2,18,0,6],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a406eca75751fe3e76f5211621c28130c":[2,0,0,0,2,18,0,16],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a47f0a721ee0f09f50f107f1915b7062b":[2,0,0,0,2,18,0,1],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a4e2c1ffd46b9f306c90834fb6cfdbf5b":[2,0,0,0,2,18,0,9],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a70410fe1e9ebba8dd55ba6f7eea17325":[2,0,0,0,2,18,0,11],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a70d252c148e8f06e489424e4785b8208":[2,0,0,0,2,18,0,12],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a7aa264f45650c6127fd27941896e2fcd":[2,0,0,0,2,18,0,7],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a87dd43e27222463e5df8e93f4e74e657":[2,0,0,0,2,18,0,2],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a8f5db8bd7d2efeded5bffd61fdffeee2":[2,0,0,0,2,18,0,3],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#acc90b1ad2395c91219077eaf24bb3e77":[2,0,0,0,2,18,0,15]
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a4e2c1ffd46b9f306c90834fb6cfdbf5b":[2,0,0,0,2,18,0,9]
 };

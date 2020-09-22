@@ -1,10 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interfaceorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_bst_function.html" title=" " alt="" coords="5,201,157,243"/>
-<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1logic_1_1bst_1_1_change_case_function.html" title=" " alt="" coords="205,5,379,47"/>
-<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1logic_1_1bst_1_1_format_name_function.html" title=" " alt="" coords="207,71,377,112"/>
-<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1logic_1_1bst_1_1_purify_function.html" title=" " alt="" coords="211,136,373,177"/>
-<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1logic_1_1bst_1_1_text_prefix_function.html" title=" " alt="" coords="215,201,369,243"/>
-<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_macro_function.html" title=" " alt="" coords="216,267,368,308"/>
-<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_stack_function.html" title=" " alt="" coords="216,332,368,373"/>
-<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1logic_1_1bst_1_1_width_function.html" title=" " alt="" coords="211,397,373,439"/>
+<area shape="rect" id="node1" href="$classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_bst_entry.html" title=" " alt="" coords="5,5,157,47"/>
 </map>

@@ -9,8 +9,11 @@ var classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action =
     [ "execute", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#a02add64640052561aef5cf77e6e37b96", null ],
     [ "action", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#a45e59902b24f1839c7a0072063169449", null ],
     [ "clipBoardManager", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#aad522ec2b5695fe84c95cccf201d1f6e", null ],
+    [ "COPIED", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#a18defa943bbfc94a459e82187c291d17", null ],
     [ "dialogService", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#a50f4fd90cbe0e56d7325e4235f366321", null ],
     [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#af6ff64873d24ba97af141068fe862c0d", null ],
+    [ "NONE", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#a1c7388e02941cbce9f87b0c1c7d47c09", null ],
     [ "preferencesService", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#aa6693dfd571461759742059b52530a25", null ],
-    [ "stateManager", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#a4ffb2fdfa369e24920b343bdabeb61d9", null ]
+    [ "stateManager", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#a4ffb2fdfa369e24920b343bdabeb61d9", null ],
+    [ "WARNING", "classorg_1_1jabref_1_1gui_1_1edit_1_1_copy_more_action.html#a14908b8f046418c5b38a66b62635d508", null ]
 ];

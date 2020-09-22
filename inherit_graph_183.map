@@ -1,3 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classorg_1_1jabref_1_1gui_1_1menus_1_1_change_entry_type_menu.html" title=" " alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,209,77,235"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1maintable_1_1_smart_constrained_resize_policy.html" title=" " alt="" coords="144,5,344,47"/>
+<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_value_table_cell_factory.html" title=" " alt="" coords="161,71,327,112"/>
+<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_view_model_list_cell_factory.html" title=" " alt="" coords="157,136,331,177"/>
+<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_view_model_table_row_factory.html" title=" " alt="" coords="149,201,339,243"/>
+<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_view_model_text_field_table_cell_visualization_factory.html" title=" " alt="" coords="125,266,363,322"/>
+<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_view_model_tree_cell_factory.html" title=" " alt="" coords="155,345,333,387"/>
+<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_view_model_tree_table_cell_factory.html" title=" " alt="" coords="139,411,349,452"/>
 </map>

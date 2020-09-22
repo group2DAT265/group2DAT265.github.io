@@ -25,7 +25,8 @@ var dir_e71325459e7b87747d893138414732c1 =
       [ "ExternalFileTypes", "classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_external_file_types.html", "classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_external_file_types" ]
     ] ],
     [ "StandardExternalFileType.java", "_standard_external_file_type_8java.html", [
-      [ "StandardExternalFileType", "enumorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_standard_external_file_type.html", "enumorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_standard_external_file_type" ]
+      [ "StandardExternalFileType", "enumorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_standard_external_file_type.html", "enumorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_standard_external_file_type" ],
+      [ "Constants", "classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_standard_external_file_type_1_1_constants.html", "classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_standard_external_file_type_1_1_constants" ]
     ] ],
     [ "UnknownExternalFileType.java", "_unknown_external_file_type_8java.html", [
       [ "UnknownExternalFileType", "classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_unknown_external_file_type.html", "classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_unknown_external_file_type" ]
