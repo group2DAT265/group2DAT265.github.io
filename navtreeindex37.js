@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html#a0c2299e999f0fe2c1315e82e4e6c2894":[2,0,0,0,3,13,1,4,2],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html#a498c299791375f3d2947662a8fae9ff0":[2,0,0,0,3,13,1,4,1],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html#a57f213979f24fe2db8ac1758f9323975":[2,0,0,0,3,13,1,4,10],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html#a60febc65594f19b35c015173e42b2d6f":[2,0,0,0,3,13,1,4,8],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html#a68881e47d2cc37fd54bae49d3414147c":[2,0,0,0,3,13,1,4,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html":[2,0,0,0,3,13,1,18],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a09d35d59e493dfaf9af825b21f49a094":[2,0,0,0,3,13,1,18,3],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a0c406a614052bf8f1095bfbb4f390486":[2,0,0,0,3,13,1,18,19],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a17b794d078f476576df318698d74df75":[2,0,0,0,3,13,1,18,16],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a184c5efcf27c6f353e692cf8462d4620":[2,0,0,0,3,13,1,18,12],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a190ba3610d5e69a23c22d7eb7dd81fe6":[2,0,0,0,3,13,1,18,2]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a17b794d078f476576df318698d74df75":[2,0,0,0,3,13,1,18,16]
 };

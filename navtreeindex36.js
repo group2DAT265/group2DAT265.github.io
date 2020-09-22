@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher.html#aa8c3e8a6b937696e1434691cdb4b194f":[2,0,0,0,3,13,0,23,5],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_i_n_s_p_i_r_e_fetcher.html#adcbfa14d4b30414639016cb2f351ed77":[2,0,0,0,3,13,0,23,7],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html":[2,0,0,0,3,13,0,21],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#a019aacd3e29bb89d3807f88c6807f7bb":[2,0,0,0,3,13,0,21,20],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_iacr_eprint_fetcher.html#a1004c3a5f87e491d627f23245b3c209d":[2,0,0,0,3,13,0,21,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html#af0d643b1a5adafa4d0628d330b71b3b4":[2,0,0,0,3,13,1,3,37],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html#af5f47fc505d7ba01620de61f43cc5380":[2,0,0,0,3,13,1,3,21],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html#af93a9a67d6bb31a8c64531c8a0c27096":[2,0,0,0,3,13,1,3,55],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html":[2,0,0,0,3,13,1,4],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html#a0c2299e999f0fe2c1315e82e4e6c2894":[2,0,0,0,3,13,1,4,2],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html#a498c299791375f3d2947662a8fae9ff0":[2,0,0,0,3,13,1,4,1]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_coins_parser.html":[2,0,0,0,3,13,1,4]
 };

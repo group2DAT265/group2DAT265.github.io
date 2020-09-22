@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html#a8bff2a753c6717e8de16b262dc630c56":[2,0,0,0,2,33,6,0,6],
+"enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html#a8fb1cfe15309e3304f76a562f2f6d8ac":[2,0,0,0,2,33,6,0,9],
 "enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html#a904940bcfc392f96c332a7e1c98f00cd":[2,0,0,0,2,33,6,0,3],
 "enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html#aae7ae360d7e49aa8e3d6a8bbe3e69915":[2,0,0,0,2,33,6,0,5],
 "enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html#ab6942f997532d41b600b0b7077f36192":[2,0,0,0,2,33,6,0,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "enumorg_1_1jabref_1_1logic_1_1shared_1_1_database_location.html#a6ea674e96d07d6400d6a408bbd34a4d8":[2,0,0,0,3,28,7,1],
 "enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html":[2,0,0,0,3,32,10],
 "enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a0182b8141e8423a09de53a2538d4498a":[2,0,0,0,3,32,10,4],
-"enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a06d2740b1b0fc024a9da1b5b1e29b768":[2,0,0,0,3,32,10,29],
-"enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a06fa155d7fb59da4c492a0fe6d06a42b":[2,0,0,0,3,32,10,3],
-"enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a0f687fe3497189fa20a02083c54ea10a":[2,0,0,0,3,32,10,28]
+"enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a06d2740b1b0fc024a9da1b5b1e29b768":[2,0,0,0,3,32,10,29]
 };

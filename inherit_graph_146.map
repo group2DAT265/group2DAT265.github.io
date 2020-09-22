@@ -1,10 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interfaceorg_1_1jabref_1_1model_1_1util_1_1_file_update_monitor.html" title=" " alt="" coords="5,39,163,80"/>
-<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_default_file_update_monitor.html" title=" " alt="" coords="238,71,397,112"/>
-<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1model_1_1util_1_1_dummy_file_update_monitor.html" title=" " alt="" coords="227,5,407,47"/>
-<area shape="rect" id="node4" title=" " alt="" coords="46,209,122,235"/>
-<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service_1_1_named_runnable.html" title=" " alt="" coords="223,136,412,177"/>
-<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_stream_gobbler.html" title=" " alt="" coords="237,201,397,243"/>
-<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server.html" title=" " alt="" coords="222,267,413,308"/>
-<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1logic_1_1shared_1_1listener_1_1_postgres_s_q_l_notification_listener.html" title=" " alt="" coords="211,332,424,373"/>
+<area shape="rect" id="node1" href="$classorg_1_1jabref_1_1gui_1_1_jab_ref_executor_service.html" title=" " alt="" coords="5,5,195,47"/>
 </map>

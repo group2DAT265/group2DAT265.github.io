@@ -1,15 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,339,153,366"/>
-<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_abstract_undoable_jab_ref_edit.html" title=" " alt="" coords="201,332,380,373"/>
-<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_add_or_remove_group.html" title=" " alt="" coords="428,5,623,47"/>
-<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1gui_1_1groups_1_1_undoable_modify_subtree.html" title=" " alt="" coords="428,71,623,112"/>
-<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_change_type.html" title=" " alt="" coords="433,136,617,177"/>
-<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_field_change.html" title=" " alt="" coords="433,201,617,243"/>
-<area shape="rect" id="node7" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html" title=" " alt="" coords="433,267,617,308"/>
-<area shape="rect" id="node8" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_string.html" title=" " alt="" coords="433,332,617,373"/>
-<area shape="rect" id="node9" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change.html" title=" " alt="" coords="433,397,617,439"/>
-<area shape="rect" id="node10" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_preamble_change.html" title=" " alt="" coords="433,463,617,504"/>
-<area shape="rect" id="node11" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_remove_entries.html" title=" " alt="" coords="433,528,617,569"/>
-<area shape="rect" id="node12" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_remove_string.html" title=" " alt="" coords="433,593,617,635"/>
-<area shape="rect" id="node13" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_string_change.html" title=" " alt="" coords="433,659,617,700"/>
+<area shape="rect" id="node1" href="$classorg_1_1jabref_1_1gui_1_1texparser_1_1_reference_view_model.html" title=" " alt="" coords="5,5,160,47"/>
 </map>

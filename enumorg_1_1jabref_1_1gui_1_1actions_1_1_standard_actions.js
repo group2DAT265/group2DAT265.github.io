@@ -1,5 +1,6 @@
 var enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions =
 [
+    [ "Constants", "classorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions_1_1_constants.html", "classorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions_1_1_constants" ],
     [ "StandardActions", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a4bf0a369d22b3dc98e972ab46ef445ef", null ],
     [ "StandardActions", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a41cdb4ec4c44e5e17d11f81be6f00aa5", null ],
     [ "StandardActions", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a92e0200509db7f52b6ea12ac0b55e4d5", null ],

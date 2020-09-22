@@ -68,7 +68,7 @@ var searchData=
   ['connectionlostevent_9206',['ConnectionLostEvent',['../classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_connection_lost_event.html',1,'org::jabref::logic::shared::event']]],
   ['connecttoshareddatabasecommand_9207',['ConnectToSharedDatabaseCommand',['../classorg_1_1jabref_1_1gui_1_1shared_1_1_connect_to_shared_database_command.html',1,'org::jabref::gui::shared']]],
   ['consolidatecitations_9208',['ConsolidateCitations',['../enumorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_grobid_service_1_1_consolidate_citations.html',1,'org::jabref::logic::importer::util::GrobidService']]],
-  ['constants_9209',['Constants',['../classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_standard_external_file_type_1_1_constants.html',1,'org::jabref::gui::externalfiletype::StandardExternalFileType']]],
+  ['constants_9209',['Constants',['../classorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions_1_1_constants.html',1,'org.jabref.gui.actions.StandardActions.Constants'],['../classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_standard_external_file_type_1_1_constants.html',1,'org.jabref.gui.externalfiletype.StandardExternalFileType.Constants']]],
   ['containbasedsearchrule_9210',['ContainBasedSearchRule',['../classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_contain_based_search_rule.html',1,'org::jabref::model::search::rules']]],
   ['containsandregexbasedsearchruledescriber_9211',['ContainsAndRegexBasedSearchRuleDescriber',['../classorg_1_1jabref_1_1gui_1_1search_1_1rules_1_1describer_1_1_contains_and_regex_based_search_rule_describer.html',1,'org::jabref::gui::search::rules::describer']]],
   ['contentselector_9212',['ContentSelector',['../classorg_1_1jabref_1_1model_1_1metadata_1_1_content_selector.html',1,'org::jabref::model::metadata']]],

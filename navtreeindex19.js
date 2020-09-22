@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a97ddb6d6abf12aa7c029ef1f1e31e895":[2,0,0,0,2,31,2,48],
+"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a98b5359b4fd0c1a431fed051d5ef6765":[2,0,0,0,2,31,2,53],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#aa8814f5a7baa7d59361cc227183b7c10":[2,0,0,0,2,31,2,49],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#ac7a6d2cfa7c9686c430c04fb73d11f3e":[2,0,0,0,2,31,2,51],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#ac7e991e59822222883c1ed70b8e80eee":[2,0,0,0,2,31,2,40],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_special_field_column.html#aa5672d1d3c1d2263554e65cf97e065c2":[2,0,0,0,2,33,0,4,1],
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_special_field_column.html#abf1b11a87bcf7397852dc7e39eb5168c":[2,0,0,0,2,33,0,4,0],
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_special_field_column.html#ad5067ca66e06e956a9f902b9eaeb96ec":[2,0,0,0,2,33,0,4,4],
-"classorg_1_1jabref_1_1gui_1_1menus_1_1_change_entry_type_menu.html":[2,0,0,0,2,34,0],
-"classorg_1_1jabref_1_1gui_1_1menus_1_1_change_entry_type_menu.html#a193bc48b138c7cd60363a070d744af54":[2,0,0,0,2,34,0,0],
-"classorg_1_1jabref_1_1gui_1_1menus_1_1_change_entry_type_menu.html#a5d216b2fc061e3c85545a771086da50b":[2,0,0,0,2,34,0,7]
+"classorg_1_1jabref_1_1gui_1_1menus_1_1_change_entry_type_menu.html":[2,0,0,0,2,34,0]
 };

@@ -1,8 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,143,59,170"/>
-<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1cleanup_1_1_cleanup_preset_panel.html" title=" " alt="" coords="136,5,329,47"/>
-<area shape="rect" id="node3" href="$classorg_1_1jabref_1_1gui_1_1commonfxcontrols_1_1_field_formatter_cleanups_panel.html" title=" " alt="" coords="129,71,336,112"/>
-<area shape="rect" id="node4" href="$classorg_1_1jabref_1_1gui_1_1commonfxcontrols_1_1_save_order_config_panel.html" title=" " alt="" coords="129,136,336,177"/>
-<area shape="rect" id="node5" href="$classorg_1_1jabref_1_1gui_1_1preferences_1_1_abstract_preference_tab_view.html" title=" " alt="" coords="107,201,359,257"/>
-<area shape="rect" id="node6" href="$classorg_1_1jabref_1_1gui_1_1preview_1_1_preview_panel.html" title=" " alt="" coords="136,280,329,321"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,57,39"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_panel.html" title=" " alt="" coords="105,5,308,47"/>
 </map>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_action.html#a4522a252ded48d0c371b49914c50c430":[2,0,0,0,2,27,2,0],
+"classorg_1_1jabref_1_1gui_1_1importer_1_1_import_action.html#a6e917d19045da13008289eac8b4527ce":[2,0,0,0,2,27,2,10],
 "classorg_1_1jabref_1_1gui_1_1importer_1_1_import_action.html#aa2154156a5e8c849468dc6ba1725b2b6":[2,0,0,0,2,27,2,2],
 "classorg_1_1jabref_1_1gui_1_1importer_1_1_import_action.html#aa4a5f78362e55bd1802b3638d5a2ed01":[2,0,0,0,2,27,2,5],
 "classorg_1_1jabref_1_1gui_1_1importer_1_1_import_action.html#abebcbef4e8fd478801efbdfd4aa8c56c":[2,0,0,0,2,27,2,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a46fe8bf4a79e20f659ddabb0126cd602":[2,0,0,0,2,29,3,18],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a4c35b42920cf9b8721bbed5e63e10474":[2,0,0,0,2,29,3,7],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a5e83147068b0e6d4b64e6a53b4e27bd8":[2,0,0,0,2,29,3,1],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a5fda12e222b4f1ee1560a40653ac623f":[2,0,0,0,2,29,3,13],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a679abca9be954b4ac1c017519a07b645":[2,0,0,0,2,29,3,8],
-"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a8dae7ade7780bf458fcf7010db07a955":[2,0,0,0,2,29,3,9]
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a5fda12e222b4f1ee1560a40653ac623f":[2,0,0,0,2,29,3,13]
 };

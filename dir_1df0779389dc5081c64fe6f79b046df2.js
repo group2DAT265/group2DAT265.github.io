@@ -17,6 +17,7 @@ var dir_1df0779389dc5081c64fe6f79b046df2 =
       [ "Sources", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_sources.html", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_sources" ]
     ] ],
     [ "StandardActions.java", "_standard_actions_8java.html", [
-      [ "StandardActions", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions" ]
+      [ "StandardActions", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions" ],
+      [ "Constants", "classorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions_1_1_constants.html", "classorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions_1_1_constants" ]
     ] ]
 ];

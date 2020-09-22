@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"classorg_1_1jabref_1_1model_1_1database_1_1_bib_database.html#af326fde3ecd1ffb21eb0f7e041b37ff1":[2,0,0,0,5,0,1,59],
+"classorg_1_1jabref_1_1model_1_1database_1_1_bib_database.html#af36bbf7bf0b1bbe3ed38778cc9c0811c":[2,0,0,0,5,0,1,24],
 "classorg_1_1jabref_1_1model_1_1database_1_1_bib_database.html#af378aa809dda47ac2e2643addafa0eec":[2,0,0,0,5,0,1,53],
 "classorg_1_1jabref_1_1model_1_1database_1_1_bib_database.html#aff7cc00fb971bc9524ec47d8f15a0590":[2,0,0,0,5,0,1,17],
 "classorg_1_1jabref_1_1model_1_1database_1_1_bib_database_context.html":[2,0,0,0,5,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX46 =
 "classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#afea42d04adc269cc139ceb1d88350f34":[2,0,0,0,5,1,7,5],
 "classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type_builder.html":[2,0,0,0,5,1,8],
 "classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type_builder.html#a1b845bbd745630d210a20e2c8aa5f73c":[2,0,0,0,5,1,8,1],
-"classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type_builder.html#a1fb2773863ea04e5b80f2dd015ee1feb":[2,0,0,0,5,1,8,10],
-"classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type_builder.html#a4e8d819344f5122642fe132587f71c62":[2,0,0,0,5,1,8,0],
-"classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type_builder.html#a52e11fe45e7a68fc7a19f767ec3d8ba1":[2,0,0,0,5,1,8,5]
+"classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type_builder.html#a1fb2773863ea04e5b80f2dd015ee1feb":[2,0,0,0,5,1,8,10]
 };

@@ -318,6 +318,7 @@ var hierarchy =
     [ "org.jabref.logic.importer.fetcher.ComplexSearchQuery.ComplexSearchQueryBuilder", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_complex_search_query_1_1_complex_search_query_builder.html", null ],
     [ "org.jabref.logic.shared.event.ConnectionLostEvent", "classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_connection_lost_event.html", null ],
     [ "org.jabref.logic.importer.util.GrobidService.ConsolidateCitations", "enumorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_grobid_service_1_1_consolidate_citations.html", null ],
+    [ "org.jabref.gui.actions.StandardActions.Constants", "classorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions_1_1_constants.html", null ],
     [ "org.jabref.gui.externalfiletype.StandardExternalFileType.Constants", "classorg_1_1jabref_1_1gui_1_1externalfiletype_1_1_standard_external_file_type_1_1_constants.html", null ],
     [ "org.jabref.model.metadata.ContentSelector", "classorg_1_1jabref_1_1model_1_1metadata_1_1_content_selector.html", null ],
     [ "org.jabref.model.metadata.ContentSelectors", "classorg_1_1jabref_1_1model_1_1metadata_1_1_content_selectors.html", null ],

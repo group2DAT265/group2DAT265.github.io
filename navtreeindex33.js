@@ -1,5 +1,7 @@
 var NAVTREEINDEX33 =
 {
+"classorg_1_1jabref_1_1logic_1_1externalfiles_1_1_linked_file_handler.html#a5f54fb8b7842793b8050f5727583d61d":[2,0,0,0,3,9,1,1],
+"classorg_1_1jabref_1_1logic_1_1externalfiles_1_1_linked_file_handler.html#a6a59e03faeb34a86a94a131a3aa43dac":[2,0,0,0,3,9,1,6],
 "classorg_1_1jabref_1_1logic_1_1externalfiles_1_1_linked_file_handler.html#a75f1c6cce23c8075fd89c34c61d69086":[2,0,0,0,3,9,1,5],
 "classorg_1_1jabref_1_1logic_1_1externalfiles_1_1_linked_file_handler.html#a9f50abde5ddf084c90b123dfa9fc00d5":[2,0,0,0,3,9,1,0],
 "classorg_1_1jabref_1_1logic_1_1externalfiles_1_1_linked_file_handler.html#aaa6e119e1dd85b13e2de04cc3fe498d2":[2,0,0,0,3,9,1,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX33 =
 "classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_sentence_case_formatter.html#a82fa6fb538e642312d7be8da5190f964":[2,0,0,0,3,10,1,3,3],
 "classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_sentence_case_formatter.html#ae2e90b2e5c167a1fc838a514b8bc82d6":[2,0,0,0,3,10,1,3,4],
 "classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_sentence_case_formatter.html#afef8e937b0eff1c1589e8250440703ba":[2,0,0,0,3,10,1,3,2],
-"classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_title.html":[2,0,0,0,3,10,1,4],
-"classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_title.html#a0c0bf772a7a95c3771ebb59f56bd3e42":[2,0,0,0,3,10,1,4,2],
-"classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_title.html#a4afd7ccaf162569b3db2f907a2f53d1c":[2,0,0,0,3,10,1,4,4]
+"classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_title.html":[2,0,0,0,3,10,1,4]
 };

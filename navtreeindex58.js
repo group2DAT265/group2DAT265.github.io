@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a566cb1c4583373f1845a893e91c15db6":[2,0,0,0,5,1,1,10,126],
+"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a59b60df146b62b1996782f914aacbfaf":[2,0,0,0,5,1,1,10,7],
 "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a5ac81363db43f17a0703ab4e2db04a67":[2,0,0,0,5,1,1,10,39],
 "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a5dca09f1c7a6d78739c12a7883482942":[2,0,0,0,5,1,1,10,54],
 "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a600a797e7c5f91d4ba859722b9b924e7":[2,0,0,0,5,1,1,10,116],
@@ -194,8 +196,8 @@ var NAVTREEINDEX58 =
 "functions_d.html":[2,3,0,3],
 "functions_e.html":[2,3,0,4],
 "functions_f.html":[2,3,0,5],
-"functions_func.html":[2,3,1,0],
 "functions_func.html":[2,3,1],
+"functions_func.html":[2,3,1,0],
 "functions_func_b.html":[2,3,1,1],
 "functions_func_c.html":[2,3,1,2],
 "functions_func_d.html":[2,3,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "functions_vars_g.html":[2,3,2,6],
 "functions_vars_h.html":[2,3,2,7],
 "functions_vars_i.html":[2,3,2,8],
-"functions_vars_j.html":[2,3,2,9],
-"functions_vars_k.html":[2,3,2,10],
-"functions_vars_l.html":[2,3,2,11]
+"functions_vars_j.html":[2,3,2,9]
 };

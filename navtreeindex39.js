@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classorg_1_1jabref_1_1logic_1_1integrity_1_1_person_names_checker.html#a32602e985e424b841bb70182c486fb59":[2,0,0,0,3,14,31,0],
+"classorg_1_1jabref_1_1logic_1_1integrity_1_1_person_names_checker.html#a73b4d349a79d19e8e5cab7ccafbf492b":[2,0,0,0,3,14,31,1],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_person_names_checker.html#acd85cc6f687a5f6095e522e3018b5a82":[2,0,0,0,3,14,31,2],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker.html":[2,0,0,0,3,14,32],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_title_checker.html#a4f813d5d5c5ddaa5ff2633f217159bb2":[2,0,0,0,3,14,32,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#a4f31ef3a9ad4ea9c1c1dad96ea3ec698":[2,0,0,0,3,17,0,20,9],
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#a56cbc39599ba1036f0708239907da252":[2,0,0,0,3,17,0,20,5],
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#a5a1689c1d40463855a9e1c09019f5fc2":[2,0,0,0,3,17,0,20,18],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#a5aac9315178fe3a5beadd78fa5a5040c":[2,0,0,0,3,17,0,20,0],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#a642a65daf96c50704b6cd236873bd827":[2,0,0,0,3,17,0,20,26],
-"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#a68637b82536fe58c1d0ac3a2cd3d1b20":[2,0,0,0,3,17,0,20,7]
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_authors.html#a5aac9315178fe3a5beadd78fa5a5040c":[2,0,0,0,3,17,0,20,0]
 };
