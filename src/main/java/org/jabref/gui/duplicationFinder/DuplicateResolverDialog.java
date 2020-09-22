@@ -19,6 +19,7 @@ import org.jabref.model.entry.BibEntry;
 
 public class DuplicateResolverDialog extends BaseDialog<DuplicateResolverResult> {
 
+    private static final String KEEP_BOTH = "Keep both";
     private final BibDatabaseContext database;
     private final StateManager stateManager;
 
@@ -66,20 +67,20 @@ public class DuplicateResolverDialog extends BaseDialog<DuplicateResolverResult>
             case DUPLICATE_SEARCH:
                 first = new ButtonType(Localization.lang("Keep left"), ButtonData.APPLY);
                 second = new ButtonType(Localization.lang("Keep right"), ButtonData.APPLY);
-                both = new ButtonType(Localization.lang("Keep both"), ButtonData.APPLY);
+                both = new ButtonType(Localization.lang(KEEP_BOTH), ButtonData.APPLY);
                 me = new MergeEntries(one, two);
                 break;
             case INSPECTION:
                 first = new ButtonType(Localization.lang("Remove old entry"), ButtonData.APPLY);
                 second = new ButtonType(Localization.lang("Remove entry from import"), ButtonData.APPLY);
-                both = new ButtonType(Localization.lang("Keep both"), ButtonData.APPLY);
+                both = new ButtonType(Localization.lang(KEEP_BOTH), ButtonData.APPLY);
                 me = new MergeEntries(one, two, Localization.lang("Old entry"),
                         Localization.lang("From import"));
                 break;
             case DUPLICATE_SEARCH_WITH_EXACT:
                 first = new ButtonType(Localization.lang("Keep left"), ButtonData.APPLY);
                 second = new ButtonType(Localization.lang("Keep right"), ButtonData.APPLY);
-                both = new ButtonType(Localization.lang("Keep both"), ButtonData.APPLY);
+                both = new ButtonType(Localization.lang(KEEP_BOTH), ButtonData.APPLY);
 
                 removeExactVisible = true;
 
