@@ -1,5 +1,8 @@
-on: push
 name: SonarQube Analysis
+on:
+  push:
+    branches:
+      - master
 jobs:
   sonarQubeTrigger:
     name: SonarQube Trigger
