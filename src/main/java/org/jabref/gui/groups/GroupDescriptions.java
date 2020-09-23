@@ -8,6 +8,11 @@ import org.jabref.model.strings.StringUtil;
 
 public class GroupDescriptions {
 
+    // Constants to avoid duplication and critical code smells
+    private static final String B_TAG = "</b> - ";
+    private static final String INCLUDES_SUBGROUPS = "includes subgroups";
+    private static final String REFINES_SUPERGROUP = "refines supergroup";
+
     private GroupDescriptions() {
     }
 
@@ -19,7 +24,7 @@ public class GroupDescriptions {
         } else {
             sb.append(StringUtil.quoteForHTML(keywordGroup.getName()));
         }
-        sb.append("</b> - ");
+        sb.append(B_TAG);
         sb.append(Localization.lang("dynamic group"));
         sb.append(" <b>");
         sb.append(keywordGroup.getSearchField());
@@ -30,10 +35,10 @@ public class GroupDescriptions {
         sb.append("</b>)");
         switch (keywordGroup.getHierarchicalContext()) {
             case INCLUDING:
-                sb.append(", ").append(Localization.lang("includes subgroups"));
+                sb.append(", ").append(Localization.lang(INCLUDES_SUBGROUPS));
                 break;
             case REFINING:
-                sb.append(", ").append(Localization.lang("refines supergroup"));
+                sb.append(", ").append(Localization.lang(REFINES_SUPERGROUP));
                 break;
             default:
                 break;
@@ -43,13 +48,13 @@ public class GroupDescriptions {
 
     public static String getShortDescriptionExplicitGroup(ExplicitGroup explicitGroup) {
         StringBuilder sb = new StringBuilder();
-        sb.append("<b>").append(explicitGroup.getName()).append("</b> - ").append(Localization.lang("static group"));
+        sb.append("<b>").append(explicitGroup.getName()).append("B_TAG").append(Localization.lang("static group"));
         switch (explicitGroup.getHierarchicalContext()) {
             case INCLUDING:
-                sb.append(", ").append(Localization.lang("includes subgroups"));
+                sb.append(", ").append(Localization.lang(INCLUDES_SUBGROUPS));
                 break;
             case REFINING:
-                sb.append(", ").append(Localization.lang("refines supergroup"));
+                sb.append(", ").append(Localization.lang(REFINES_SUPERGROUP));
                 break;
             default:
                 break;
@@ -69,17 +74,17 @@ public class GroupDescriptions {
         } else {
             sb.append(StringUtil.quoteForHTML(searchGroup.getName()));
         }
-        sb.append("</b> - ");
+        sb.append("B_TAG");
         sb.append(Localization.lang("dynamic group"));
         sb.append(" (");
         sb.append(Localization.lang("search expression"));
         sb.append(" <b>").append(StringUtil.quoteForHTML(searchGroup.getSearchExpression())).append("</b>)");
         switch (searchGroup.getHierarchicalContext()) {
             case INCLUDING:
-                sb.append(", ").append(Localization.lang("includes subgroups"));
+                sb.append(", ").append(Localization.lang(INCLUDES_SUBGROUPS));
                 break;
             case REFINING:
-                sb.append(", ").append(Localization.lang("refines supergroup"));
+                sb.append(", ").append(Localization.lang(REFINES_SUPERGROUP));
                 break;
             default:
                 break;

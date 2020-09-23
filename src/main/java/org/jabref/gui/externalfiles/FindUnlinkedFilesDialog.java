@@ -61,6 +61,9 @@ import org.slf4j.LoggerFactory;
  */
 public class FindUnlinkedFilesDialog extends BaseDialog<Boolean> {
 
+    // Constants to avoid duplication and critical code smells
+    private static final String TEXT_BUTTON = "text-button";
+
     private static final Logger LOGGER = LoggerFactory.getLogger(FindUnlinkedFilesDialog.class);
     private final BibDatabaseContext databaseContext;
     private final ImportHandler importHandler;
@@ -99,7 +102,7 @@ public class FindUnlinkedFilesDialog extends BaseDialog<Boolean> {
     private void initialize() {
         Button buttonBrowse = new Button(Localization.lang("Browse"));
         buttonBrowse.setTooltip(new Tooltip(Localization.lang("Opens the file browser.")));
-        buttonBrowse.getStyleClass().add("text-button");
+        buttonBrowse.getStyleClass().add(TEXT_BUTTON);
         buttonBrowse.setOnAction(e -> {
             DirectoryDialogConfiguration directoryDialogConfiguration = new DirectoryDialogConfiguration.Builder()
                     .withInitialDirectory(preferences.get(JabRefPreferences.WORKING_DIRECTORY)).build();
@@ -118,7 +121,7 @@ public class FindUnlinkedFilesDialog extends BaseDialog<Boolean> {
 
         buttonExport = new Button(Localization.lang("Export selected entries"));
         buttonExport.setTooltip(new Tooltip(Localization.lang("Export to text file.")));
-        buttonExport.getStyleClass().add("text-button");
+        buttonExport.getStyleClass().add(TEXT_BUTTON);
         buttonExport.setDisable(true);
         buttonExport.setOnAction(e -> startExport());
 
@@ -134,7 +137,7 @@ public class FindUnlinkedFilesDialog extends BaseDialog<Boolean> {
         /* Actions for the TreeView */
         Button buttonOptionSelectAll = new Button();
         buttonOptionSelectAll.setText(Localization.lang("Select all"));
-        buttonOptionSelectAll.getStyleClass().add("text-button");
+        buttonOptionSelectAll.getStyleClass().add(TEXT_BUTTON);
         buttonOptionSelectAll.setOnAction(event -> {
             CheckBoxTreeItem<FileNodeWrapper> root = (CheckBoxTreeItem<FileNodeWrapper>) tree.getRoot();
             // Need to toggle a twice to make sure everything is selected
@@ -144,7 +147,7 @@ public class FindUnlinkedFilesDialog extends BaseDialog<Boolean> {
         });
         Button buttonOptionDeselectAll = new Button();
         buttonOptionDeselectAll.setText(Localization.lang("Unselect all"));
-        buttonOptionDeselectAll.getStyleClass().add("text-button");
+        buttonOptionDeselectAll.getStyleClass().add(TEXT_BUTTON);
         buttonOptionDeselectAll.setOnAction(event -> {
             CheckBoxTreeItem<FileNodeWrapper> root = (CheckBoxTreeItem<FileNodeWrapper>) tree.getRoot();
             // Need to toggle a twice to make sure nothing is selected
@@ -154,14 +157,14 @@ public class FindUnlinkedFilesDialog extends BaseDialog<Boolean> {
         });
         Button buttonOptionExpandAll = new Button();
         buttonOptionExpandAll.setText(Localization.lang("Expand all"));
-        buttonOptionExpandAll.getStyleClass().add("text-button");
+        buttonOptionExpandAll.getStyleClass().add(TEXT_BUTTON);
         buttonOptionExpandAll.setOnAction(event -> {
             CheckBoxTreeItem<FileNodeWrapper> root = (CheckBoxTreeItem<FileNodeWrapper>) tree.getRoot();
             expandTree(root, true);
         });
         Button buttonOptionCollapseAll = new Button();
         buttonOptionCollapseAll.setText(Localization.lang("Collapse all"));
-        buttonOptionCollapseAll.getStyleClass().add("text-button");
+        buttonOptionCollapseAll.getStyleClass().add(TEXT_BUTTON);
         buttonOptionCollapseAll.setOnAction(event -> {
             CheckBoxTreeItem<FileNodeWrapper> root = (CheckBoxTreeItem<FileNodeWrapper>) tree.getRoot();
             expandTree(root, false);
@@ -264,7 +267,7 @@ public class FindUnlinkedFilesDialog extends BaseDialog<Boolean> {
      * Expands or collapses the specified tree according to the <code>expand</code>-parameter.
      */
     private void expandTree(TreeItem<?> item, boolean expand) {
-        if (item != null && !item.isLeaf()) {
+        if ((item != null) && !item.isLeaf()) {
             item.setExpanded(expand);
             for (TreeItem<?> child : item.getChildren()) {
                 expandTree(child, expand);
