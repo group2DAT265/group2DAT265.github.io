@@ -35,6 +35,10 @@ import org.slf4j.LoggerFactory;
  */
 public class DownloadFullTextAction extends SimpleCommand {
 
+    // Constants to avoid duplication and critical code smells
+    private static final String DOWNLOAD_FULL_TEXT_DOCUMENTS = "Download full text documents";
+    private static final String UNDEFINED = "undefined";
+
     private static final Logger LOGGER = LoggerFactory.getLogger(DownloadFullTextAction.class);
     // The minimum number of selected entries to ask the user for confirmation
     private static final int WARNING_LIMIT = 5;
@@ -67,14 +71,14 @@ public class DownloadFullTextAction extends SimpleCommand {
 
         if (entries.size() >= WARNING_LIMIT) {
             boolean confirmDownload = dialogService.showConfirmationDialogAndWait(
-                    Localization.lang("Download full text documents"),
+                                                                                  Localization.lang(DOWNLOAD_FULL_TEXT_DOCUMENTS),
                     Localization.lang(
                             "You are about to download full text documents for %0 entries.",
                             String.valueOf(stateManager.getSelectedEntries().size())) + "\n"
                             + Localization.lang("JabRef will send at least one request per entry to a publisher.")
                             + "\n"
                             + Localization.lang("Do you still want to continue?"),
-                    Localization.lang("Download full text documents"),
+                                                                                  Localization.lang(DOWNLOAD_FULL_TEXT_DOCUMENTS),
                     Localization.lang("Cancel"));
 
             if (!confirmDownload) {
@@ -101,7 +105,7 @@ public class DownloadFullTextAction extends SimpleCommand {
                 downloadFullTexts(findFullTextsTask.getValue(), stateManager.getActiveDatabase().get()));
 
         dialogService.showProgressDialog(
-                Localization.lang("Download full text documents"),
+                                         Localization.lang(DOWNLOAD_FULL_TEXT_DOCUMENTS),
                 Localization.lang("Looking for full text document..."),
                 findFullTextsTask);
 
@@ -126,7 +130,7 @@ public class DownloadFullTextAction extends SimpleCommand {
                 addLinkedFileFromURL(databaseContext, result.get(), entry, dir.get());
             } else {
                 dialogService.notify(Localization.lang("No full text document found for entry %0.",
-                        entry.getCiteKeyOptional().orElse(Localization.lang("undefined"))));
+                                                       entry.getCiteKeyOptional().orElse(Localization.lang(UNDEFINED))));
             }
         }
     }
@@ -164,7 +168,7 @@ public class DownloadFullTextAction extends SimpleCommand {
                             ExternalFileTypes.getInstance());
                     entry.addFile(downloadedFile);
                     dialogService.notify(Localization.lang("Finished downloading full text document for entry %0.",
-                            entry.getCiteKeyOptional().orElse(Localization.lang("undefined"))));
+                                                           entry.getCiteKeyOptional().orElse(Localization.lang(UNDEFINED))));
                 });
                 downloadTask.titleProperty().set(Localization.lang("Downloading"));
                 downloadTask.messageProperty().set(
@@ -176,7 +180,7 @@ public class DownloadFullTextAction extends SimpleCommand {
             }
         } else {
             dialogService.notify(Localization.lang("Full text document for entry %0 already linked.",
-                    entry.getCiteKeyOptional().orElse(Localization.lang("undefined"))));
+                                                   entry.getCiteKeyOptional().orElse(Localization.lang(UNDEFINED))));
         }
     }
 }

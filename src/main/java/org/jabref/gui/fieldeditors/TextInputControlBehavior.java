@@ -35,6 +35,10 @@ import com.sun.javafx.scene.control.Properties;
  */
 public class TextInputControlBehavior {
 
+    // Constants to avoid duplication and critical code smells
+    private static final String CONTEXT_MENU_SCREEN_X = "CONTEXT_MENU_SCREEN_X";
+    private static final String CONTEXT_MENU_SCENE_X = "CONTEXT_MENU_SCENE_X";
+
     private static final boolean SHOW_HANDLES = Properties.IS_TOUCH_SUPPORTED && !OS.OS_X;
 
     /**
@@ -109,7 +113,7 @@ public class TextInputControlBehavior {
                 menuPos = skin.getMenuPosition();
             } else {
                 menuPos = skin.getMenuPosition();
-                if (menuPos != null && (menuPos.getX() <= 0 || menuPos.getY() <= 0)) {
+                if ((menuPos != null) && ((menuPos.getX() <= 0) || (menuPos.getY() <= 0))) {
                     skin.positionCaret(skin.getIndex(e.getX(), e.getY()), false);
                     menuPos = skin.getMenuPosition();
                 }
@@ -133,17 +137,17 @@ public class TextInputControlBehavior {
         Rectangle2D bounds = currentScreen.getBounds();
 
         if (menuX < bounds.getMinX()) {
-            textField.getProperties().put("CONTEXT_MENU_SCREEN_X", screenX);
-            textField.getProperties().put("CONTEXT_MENU_SCENE_X", sceneX);
+            textField.getProperties().put(CONTEXT_MENU_SCREEN_X, screenX);
+            textField.getProperties().put(CONTEXT_MENU_SCENE_X, sceneX);
             contextMenu.show(textField, bounds.getMinX(), screenY);
-        } else if (screenX + menuWidth > bounds.getMaxX()) {
+        } else if ((screenX + menuWidth) > bounds.getMaxX()) {
             double leftOver = menuWidth - (bounds.getMaxX() - screenX);
-            textField.getProperties().put("CONTEXT_MENU_SCREEN_X", screenX);
-            textField.getProperties().put("CONTEXT_MENU_SCENE_X", sceneX);
+            textField.getProperties().put(CONTEXT_MENU_SCREEN_X, screenX);
+            textField.getProperties().put(CONTEXT_MENU_SCENE_X, sceneX);
             contextMenu.show(textField, screenX - leftOver, screenY);
         } else {
-            textField.getProperties().put("CONTEXT_MENU_SCREEN_X", 0);
-            textField.getProperties().put("CONTEXT_MENU_SCENE_X", 0);
+            textField.getProperties().put(CONTEXT_MENU_SCREEN_X, 0);
+            textField.getProperties().put(CONTEXT_MENU_SCENE_X, 0);
             contextMenu.show(textField, menuX, screenY);
         }
     }
@@ -165,7 +169,7 @@ public class TextInputControlBehavior {
                 menuPos = skin.getMenuPosition();
             } else {
                 menuPos = skin.getMenuPosition();
-                if (menuPos != null && (menuPos.getX() <= 0 || menuPos.getY() <= 0)) {
+                if ((menuPos != null) && ((menuPos.getX() <= 0) || (menuPos.getY() <= 0))) {
                     skin.positionCaret(skin.getIndex(e.getX(), e.getY()), false);
                     menuPos = skin.getMenuPosition();
                 }
@@ -189,17 +193,17 @@ public class TextInputControlBehavior {
         Rectangle2D bounds = currentScreen.getBounds();
 
         if (menuX < bounds.getMinX()) {
-            textArea.getProperties().put("CONTEXT_MENU_SCREEN_X", screenX);
-            textArea.getProperties().put("CONTEXT_MENU_SCENE_X", sceneX);
+            textArea.getProperties().put(CONTEXT_MENU_SCREEN_X, screenX);
+            textArea.getProperties().put(CONTEXT_MENU_SCENE_X, sceneX);
             contextMenu.show(textArea, bounds.getMinX(), screenY);
-        } else if (screenX + menuWidth > bounds.getMaxX()) {
+        } else if ((screenX + menuWidth) > bounds.getMaxX()) {
             double leftOver = menuWidth - (bounds.getMaxX() - screenX);
-            textArea.getProperties().put("CONTEXT_MENU_SCREEN_X", screenX);
-            textArea.getProperties().put("CONTEXT_MENU_SCENE_X", sceneX);
+            textArea.getProperties().put(CONTEXT_MENU_SCREEN_X, screenX);
+            textArea.getProperties().put(CONTEXT_MENU_SCENE_X, sceneX);
             contextMenu.show(textArea, screenX - leftOver, screenY);
         } else {
-            textArea.getProperties().put("CONTEXT_MENU_SCREEN_X", 0);
-            textArea.getProperties().put("CONTEXT_MENU_SCENE_X", 0);
+            textArea.getProperties().put(CONTEXT_MENU_SCREEN_X, 0);
+            textArea.getProperties().put(CONTEXT_MENU_SCENE_X, 0);
             contextMenu.show(textArea, menuX, screenY);
         }
     }
