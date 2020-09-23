@@ -5,6 +5,10 @@ import java.util.Map;
 
 public class HTMLUnicodeConversionMaps {
 
+	// Constants
+	private static final String MU = "$\\mu$";
+	private static final String VARTHETA = "$\\vartheta$";
+
     // most of the LaTeX commands can be read at http://en.wikibooks.org/wiki/LaTeX/Accents
     // The symbols can be seen at http://www.fileformat.info/info/unicode/char/a4/index.htm. Replace "a4" with the U+ number
     // http://detexify.kirelabs.org/classify.html and http://www.ctan.org/tex-archive/info/symbols/comprehensive/ might help to find the right LaTeX command
@@ -59,8 +63,8 @@ public class HTMLUnicodeConversionMaps {
             //                                 = cubed, U+00B3 ISOnum
             {"180", "acute", "{\\'{}}"}, // acute accent = spacing acute,
             //                                 U+00B4 ISOdia
-            {"181", "micro", "$\\mu$"}, // micro sign, U+00B5 ISOnum
-            {"", "mu", "$\\mu$"}, // micro sign, U+00B5 ISOnum
+			{ "181", "micro", MU }, // micro sign, U+00B5 ISOnum
+			{ "", "mu", MU }, // micro sign, U+00B5 ISOnum
             {"182", "para", "{{\\P}}"}, // pilcrow sign = paragraph sign,
             //                                 U+00B6 ISOnum
             {"183", "middot", "$\\cdot$"}, // middle dot = Georgian comma
@@ -266,7 +270,7 @@ public class HTMLUnicodeConversionMaps {
             //                                   U+03BA ISOgrk3
             {"955", "lambda", "$\\lambda$"}, // greek small letter lambda,
             //                                   U+03BB ISOgrk3
-            {"956", "mu", "$\\mu$"}, // greek small letter mu, U+03BC ISOgrk3
+			{ "956", "mu", MU }, // greek small letter mu, U+03BC ISOgrk3
             {"957", "nu", "$\\nu$"}, // greek small letter nu, U+03BD ISOgrk3
             {"958", "xi", "$\\xi$"}, // greek small letter xi, U+03BE ISOgrk3
             {"959", "omicron", "$\\omicron$"}, // greek small letter omicron, U+03BF NEW
@@ -285,9 +289,9 @@ public class HTMLUnicodeConversionMaps {
             {"968", "psi", "$\\psi$"}, // greek small letter psi, U+03C8 ISOgrk3
             {"969", "omega", "$\\omega$"}, // greek small letter omega,
             //                                   U+03C9 ISOgrk3
-            {"977", "thetasym", "$\\vartheta$"}, // greek small letter theta symbol,
-            {"", "thetav", "$\\vartheta$"}, // greek small letter theta symbol,
-            {"", "vartheta", "$\\vartheta$"}, // greek small letter theta symbol,
+			{ "977", "thetasym", VARTHETA }, // greek small letter theta symbol,
+			{ "", "thetav", VARTHETA }, // greek small letter theta symbol,
+			{ "", "vartheta", VARTHETA }, // greek small letter theta symbol,
             //                                   U+03D1 NEW
             {"978", "upsih", "{{$\\Upsilon$}}"}, // greek upsilon with hook symbol,
             //                                   U+03D2 NEW

@@ -10,13 +10,16 @@ import org.jabref.model.strings.StringUtil;
 
 public class PagesChecker implements ValueChecker {
 
+	// Constants
+	private static final String REGEX = "[A-Za-z]?\\d*";
+
     private static final String PAGES_EXP_BIBTEX = ""
             + "\\A"                 // begin String
             + "("
-            + "[A-Za-z]?\\d*"     // optional prefix and number
+			+ REGEX // optional prefix and number
             + "("
             + "\\+|-{2}"    // separator
-            + "[A-Za-z]?\\d*" // optional prefix and number
+			+ REGEX // optional prefix and number
             + ")?"
             + ",?"                // page range separation
             + ")*"
@@ -25,10 +28,10 @@ public class PagesChecker implements ValueChecker {
     private static final String PAGES_EXP_BIBLATEX = ""
             + "\\A"                 // begin String
             + "("
-            + "[A-Za-z]?\\d*"     // optional prefix and number
+			+ REGEX // optional prefix and number
             + "("
             + "\\+|-{1,2}|\u2013" // separator
-            + "[A-Za-z]?\\d*" // optional prefix and number
+			+ REGEX // optional prefix and number
             + ")?"
             + ",?"                // page range separation
             + ")*"
