@@ -1,5 +1,15 @@
 var NAVTREEINDEX38 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#adb2da6495e28f89cfe5d554705420272":[2,0,0,0,3,13,1,17,11],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#ae3aa5a8e0e110be16fbb9ea2515271be":[2,0,0,0,3,13,1,17,3],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#ae965b028a03d1bc037e953a62e9355e7":[2,0,0,0,3,13,1,17,12],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#aee7ca285d7fbef3f00b6b5fa2b03bd29":[2,0,0,0,3,13,1,17,10],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#aef8d54a1e26623ed2861c0622f77d5dc":[2,0,0,0,3,13,1,17,8],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#afa61438f09a583acdf8ebe98c14898fa":[2,0,0,0,3,13,1,17,13],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html":[2,0,0,0,3,13,1,18],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a09d35d59e493dfaf9af825b21f49a094":[2,0,0,0,3,13,1,18,3],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a0c406a614052bf8f1095bfbb4f390486":[2,0,0,0,3,13,1,18,22],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a17b794d078f476576df318698d74df75":[2,0,0,0,3,13,1,18,18],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a184c5efcf27c6f353e692cf8462d4620":[2,0,0,0,3,13,1,18,12],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a190ba3610d5e69a23c22d7eb7dd81fe6":[2,0,0,0,3,13,1,18,2],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a1f63d47603862a9ac4f781d9d4244e3d":[2,0,0,0,3,13,1,18,19],
@@ -239,15 +249,5 @@ var NAVTREEINDEX38 =
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_month_checker.html#a6f083f1ad3798b851d46e4cc2dd60fff":[2,0,0,0,3,14,27,1],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_month_checker.html#aeb93475b1e1d78bfbfcbb4b916f7c0b2":[2,0,0,0,3,14,27,4],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_month_checker.html#af4701b7f47b5ff8e9cc8743854aa2931":[2,0,0,0,3,14,27,0],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_no_bibtex_field_checker.html":[2,0,0,0,3,14,28],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_no_bibtex_field_checker.html#a66da24b0c2c7031047ab83630647801c":[2,0,0,0,3,14,28,0],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_no_bibtex_field_checker.html#af173899d18fb7fbe57a9b7fdd2f859ee":[2,0,0,0,3,14,28,1],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_note_checker.html":[2,0,0,0,3,14,29],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_note_checker.html#a4920653be3a9131c52059a4c35d581dc":[2,0,0,0,3,14,29,3],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_note_checker.html#a881fa66d8a1c740f513e29854ed9e5ff":[2,0,0,0,3,14,29,1],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_note_checker.html#a97217199989391ccaaa9e2997c09f3b3":[2,0,0,0,3,14,29,2],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_note_checker.html#aae4761724cbd29972012f10236bcf2bd":[2,0,0,0,3,14,29,0],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_pages_checker.html":[2,0,0,0,3,14,30],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_pages_checker.html#a06a994c93a8b547aaea9f5f495d9869a":[2,0,0,0,3,14,30,3],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_pages_checker.html#a0d0f3d774d9a8797937ae4787ed5691c":[2,0,0,0,3,14,30,0]
+"classorg_1_1jabref_1_1logic_1_1integrity_1_1_no_bibtex_field_checker.html":[2,0,0,0,3,14,28]
 };

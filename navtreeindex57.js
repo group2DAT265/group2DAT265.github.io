@@ -1,5 +1,15 @@
 var NAVTREEINDEX57 =
 {
+"enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#a2767ccd481f8e93470bf06bfee3f9a96":[2,0,0,0,3,19,4,13],
+"enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#a2f557b7e2903e2054486e011561bb601":[2,0,0,0,3,19,4,4],
+"enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#a356ecbf36086e11872e1d48078916fdf":[2,0,0,0,3,19,4,1],
+"enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#a36efdba8d3b35d8c9636bde08dab7ec7":[2,0,0,0,3,19,4,9],
+"enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#a3929add218897b876f2d7e4de5dc7d66":[2,0,0,0,3,19,4,0],
+"enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#a3c7ba07e550ab4b8c79402c071f01029":[2,0,0,0,3,19,4,11],
+"enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#a911dfc045972b3555caa86d300259947":[2,0,0,0,3,19,4,10],
+"enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#aa6492a8eab90f5f472ecb195455a6bad":[2,0,0,0,3,19,4,3],
+"enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#ad1c7ebab5dd7d63183365dfe477b2dc0":[2,0,0,0,3,19,4,5],
+"enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#ae10780418655a187f834e75246754e33":[2,0,0,0,3,19,4,2],
 "enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#ae32b5e8b44680e6f43810e2dcd0a697e":[2,0,0,0,3,19,4,14],
 "enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#afa3a6f37097223b5a559682dfb0db106":[2,0,0,0,3,19,4,7],
 "enumorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_util_1_1_formatting.html":[2,0,0,0,3,21,3,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX57 =
 "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#ac70bfc35456b0ee1bfa1544cecdd897d":[2,0,0,0,5,1,1,9,16],
 "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#ad5cc44f1658f5fc19616a012e029b63e":[2,0,0,0,5,1,1,9,8],
 "enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#ad89dc0df05afdbf9e9bbc4025a73c912":[2,0,0,0,5,1,1,9,15],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#aed589fa4262680ff716734cbb2174ba6":[2,0,0,0,5,1,1,9,4],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#aeff0c8ea0485d1c8faf93f384f6f2a8c":[2,0,0,0,5,1,1,9,14],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#affd611cbcdfdec54f394836b7484be5e":[2,0,0,0,5,1,1,9,20],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html":[2,0,0,0,5,1,1,10],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a005885d84f840b88d6c5d9d8d2b82dd1":[2,0,0,0,5,1,1,10,71],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a02cac6425f365b1976242b07d9555618":[2,0,0,0,5,1,1,10,57],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a02d2eaec1bd2e4afbb9717c9d608bf5f":[2,0,0,0,5,1,1,10,107],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a06aad7e783ca1ddace6cafb500a11ff0":[2,0,0,0,5,1,1,10,115],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a09df4f298b0037f46c51feafd1ca4ea3":[2,0,0,0,5,1,1,10,127],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a0a10ade4afbf961c331c931b95b3434d":[2,0,0,0,5,1,1,10,72],
-"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a0c4ef48beb7646ea3329daeff9983048":[2,0,0,0,5,1,1,10,90]
+"enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_special_field_value.html#aed589fa4262680ff716734cbb2174ba6":[2,0,0,0,5,1,1,9,4]
 };

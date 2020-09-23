@@ -1,5 +1,14 @@
 var NAVTREEINDEX18 =
 {
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviate_action.html#af29ecf10504d94f93c6458ddc4315a59":[2,0,0,0,2,29,0,5],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html":[2,0,0,0,2,29,3],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a11ced14f03e03ac82421224212625f37":[2,0,0,0,2,29,3,2],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a37e8d20a2067592e3b55de64a3eaf144":[2,0,0,0,2,29,3,12],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a3b50ef11d7e23d2d0f919b4e029461d3":[2,0,0,0,2,29,3,0],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a46fe8bf4a79e20f659ddabb0126cd602":[2,0,0,0,2,29,3,18],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a4c35b42920cf9b8721bbed5e63e10474":[2,0,0,0,2,29,3,7],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a5e83147068b0e6d4b64e6a53b4e27bd8":[2,0,0,0,2,29,3,1],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a5fda12e222b4f1ee1560a40653ac623f":[2,0,0,0,2,29,3,13],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a679abca9be954b4ac1c017519a07b645":[2,0,0,0,2,29,3,8],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#a8dae7ade7780bf458fcf7010db07a955":[2,0,0,0,2,29,3,9],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviation_view_model.html#aa91baa54fbf8db33986518eab53e35a8":[2,0,0,0,2,29,3,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX18 =
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a5d0681c5c54b3cf4ce844934c523d492":[2,0,0,0,2,31,2,38],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a630427105bc4cc410b6f6a12f572b081":[2,0,0,0,2,31,2,34],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a63c26fa432461c5a43697db4410c1ade":[2,0,0,0,2,31,2,15],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a670b683aaa960170733276f4b403f5a3":[2,0,0,0,2,31,2,25],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a7338489bfb4d43de71d567ceb041c06e":[2,0,0,0,2,31,2,11],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a767b57dd177d57bd8add939da1dc81e0":[2,0,0,0,2,31,2,18],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a78bb18e82cce48872754fbd94fda4443":[2,0,0,0,2,31,2,44],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a820002883565338f2460ef211b2f3aa9":[2,0,0,0,2,31,2,0],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a8217d042060b3aeb64a0714755439265":[2,0,0,0,2,31,2,35],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a840da9dbf84488f58523b0d6deac2ecb":[2,0,0,0,2,31,2,26],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a93438d6c5e369528b0c6ec8eae1af43c":[2,0,0,0,2,31,2,24],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a94ac1e4ca6df35d84abb3b186fd9ee3b":[2,0,0,0,2,31,2,3],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a9614ab716077975ebf1493b98cd08420":[2,0,0,0,2,31,2,37]
+"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a670b683aaa960170733276f4b403f5a3":[2,0,0,0,2,31,2,25]
 };

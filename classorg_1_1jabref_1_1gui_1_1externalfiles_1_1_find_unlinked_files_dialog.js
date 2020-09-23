@@ -20,6 +20,7 @@ var classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog =
     [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ab8ef4d652bb3e0873c7b2e7fa3b3ffcd", null ],
     [ "panelSearchProgress", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a6b74c0d7206a643a5cccc34f2b8cf380", null ],
     [ "preferences", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a5071105434ab4d297fbccadd002fbb25", null ],
+    [ "TEXT_BUTTON", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#abda43e4fde2a768e7eb9be732dcf1245", null ],
     [ "textfieldDirectoryPath", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a88e8b6af54c99ef12272e5f323603f3e", null ],
     [ "tree", "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a3afda6a07f9b32e898cbba1becf161f9", null ]
 ];

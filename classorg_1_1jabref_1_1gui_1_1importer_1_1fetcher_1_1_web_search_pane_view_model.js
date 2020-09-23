@@ -16,6 +16,7 @@ var classorg_1_1jabref_1_1gui_1_1importer_1_1fetcher_1_1_web_search_pane_view_mo
     [ "dialogService", "classorg_1_1jabref_1_1gui_1_1importer_1_1fetcher_1_1_web_search_pane_view_model.html#abff1d89963a54c453ac29ea70d5b0864", null ],
     [ "fetchers", "classorg_1_1jabref_1_1gui_1_1importer_1_1fetcher_1_1_web_search_pane_view_model.html#abfa79f7dad1e762fd08498d758b335f6", null ],
     [ "frame", "classorg_1_1jabref_1_1gui_1_1importer_1_1fetcher_1_1_web_search_pane_view_model.html#a869b4c3b3c0aef5126d2c0d7f8ce3901", null ],
+    [ "INVALID", "classorg_1_1jabref_1_1gui_1_1importer_1_1fetcher_1_1_web_search_pane_view_model.html#a629edf353d9c26d4d25bd5c3b11c797f", null ],
     [ "laxQueryPattern", "classorg_1_1jabref_1_1gui_1_1importer_1_1fetcher_1_1_web_search_pane_view_model.html#ad89857d6f93e8b609faff03f230b502b", null ],
     [ "query", "classorg_1_1jabref_1_1gui_1_1importer_1_1fetcher_1_1_web_search_pane_view_model.html#a35a7286f3eb6b4cf112251a4a90675d8", null ],
     [ "queryPattern", "classorg_1_1jabref_1_1gui_1_1importer_1_1fetcher_1_1_web_search_pane_view_model.html#ad51db43d3c61ba94f063c399fcf2c848", null ],

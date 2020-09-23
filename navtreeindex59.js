@@ -1,5 +1,15 @@
 var NAVTREEINDEX59 =
 {
+"functions_func_e.html":[2,3,1,4],
+"functions_func_f.html":[2,3,1,5],
+"functions_func_g.html":[2,3,1,6],
+"functions_func_h.html":[2,3,1,7],
+"functions_func_i.html":[2,3,1,8],
+"functions_func_j.html":[2,3,1,9],
+"functions_func_k.html":[2,3,1,10],
+"functions_func_l.html":[2,3,1,11],
+"functions_func_m.html":[2,3,1,12],
+"functions_func_n.html":[2,3,1,13],
 "functions_func_o.html":[2,3,1,14],
 "functions_func_p.html":[2,3,1,15],
 "functions_func_q.html":[2,3,1,16],
@@ -239,15 +249,5 @@ var NAVTREEINDEX59 =
 "interfaceorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_message_handler.html":[2,0,0,0,3,26,1,0],
 "interfaceorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_message_handler.html#abbec13573be0cbe6bea89be140a8299e":[2,0,0,0,3,26,1,0,0],
 "interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection.html":[2,0,0,0,3,28,5],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection.html#a10847df4ece142b942d1b9290fd95337":[2,0,0,0,3,28,5,1],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection.html#afdec6d9b6ceb5071969ef43a65e53c4e":[2,0,0,0,3,28,5,0],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties.html":[2,0,0,0,3,28,6],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties.html#a2f034db430e48c3dae28adf54d294bcb":[2,0,0,0,3,28,6,1],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties.html#a32fe92bc04318a0a6f06209503029566":[2,0,0,0,3,28,6,10],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties.html#a3e17f9204c28cfc538de292c86bf8182":[2,0,0,0,3,28,6,5],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties.html#a3f9b1f8fc9b2f1139e6ea0d4d17f48d5":[2,0,0,0,3,28,6,8],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties.html#a42a54101c5c137c653dcd884d01308eb":[2,0,0,0,3,28,6,0],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties.html#a53f8ee4ad79a26505239ee35e7a32372":[2,0,0,0,3,28,6,3],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties.html#a575edd2f39763590b5a5be720cfd2654":[2,0,0,0,3,28,6,7],
-"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection_properties.html#a6a517ff2a89a55705cdb66f806260d82":[2,0,0,0,3,28,6,4]
+"interfaceorg_1_1jabref_1_1logic_1_1shared_1_1_database_connection.html#a10847df4ece142b942d1b9290fd95337":[2,0,0,0,3,28,5,1]
 };
