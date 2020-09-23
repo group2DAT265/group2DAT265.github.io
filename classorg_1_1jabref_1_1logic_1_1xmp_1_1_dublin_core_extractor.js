@@ -24,6 +24,7 @@ var classorg_1_1jabref_1_1logic_1_1xmp_1_1_dublin_core_extractor =
     [ "fillKeywords", "classorg_1_1jabref_1_1logic_1_1xmp_1_1_dublin_core_extractor.html#a0b602a59a687df98fd11e989b4d6cc6d", null ],
     [ "fillPublisher", "classorg_1_1jabref_1_1logic_1_1xmp_1_1_dublin_core_extractor.html#a4fb1e0e36930e7727840a504397a77df", null ],
     [ "fillTitle", "classorg_1_1jabref_1_1logic_1_1xmp_1_1_dublin_core_extractor.html#a6f673ed4e05d6e1b84afcf5dc9a57ac5", null ],
+    [ "AND", "classorg_1_1jabref_1_1logic_1_1xmp_1_1_dublin_core_extractor.html#a57b1c47639cd04870931bbd233d2dd22", null ],
     [ "bibEntry", "classorg_1_1jabref_1_1logic_1_1xmp_1_1_dublin_core_extractor.html#a4fa497698529e3017b3309a78b12dc31", null ],
     [ "dcSchema", "classorg_1_1jabref_1_1logic_1_1xmp_1_1_dublin_core_extractor.html#a91724f14526914159f03bee71f89183e", null ],
     [ "xmpPreferences", "classorg_1_1jabref_1_1logic_1_1xmp_1_1_dublin_core_extractor.html#a941737ad82d67d2b1ee7755197028cb8", null ]

@@ -9,5 +9,6 @@ var classorg_1_1jabref_1_1logic_1_1shared_1_1_oracle_processor =
     [ "stopNotificationListener", "classorg_1_1jabref_1_1logic_1_1shared_1_1_oracle_processor.html#a7e04abfb08909390a2ca63f96fda6352", null ],
     [ "databaseChangeRegistration", "classorg_1_1jabref_1_1logic_1_1shared_1_1_oracle_processor.html#ad67c063be5ce4c8c8d5b82565db82fe7", null ],
     [ "listener", "classorg_1_1jabref_1_1logic_1_1shared_1_1_oracle_processor.html#aa4ea74d3f1304fe785ab7719689f1f80", null ],
-    [ "oracleConnection", "classorg_1_1jabref_1_1logic_1_1shared_1_1_oracle_processor.html#a83282a34da16600b875405c1e53cce3d", null ]
+    [ "oracleConnection", "classorg_1_1jabref_1_1logic_1_1shared_1_1_oracle_processor.html#a83282a34da16600b875405c1e53cce3d", null ],
+    [ "SQL_ERROR", "classorg_1_1jabref_1_1logic_1_1shared_1_1_oracle_processor.html#abd2f2308cdb4b8b6b962cfea7594c62a", null ]
 ];

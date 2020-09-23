@@ -13,5 +13,6 @@ var classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_groups_parser =
     [ "legacyExplicitGroupFromString", "classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_groups_parser.html#abdadd1605492f95c7977b90ad9971f38", null ],
     [ "searchGroupFromString", "classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_groups_parser.html#a4e7a0a2e63ab87567cee4dd432b2d4d2", null ],
     [ "texGroupFromString", "classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_groups_parser.html#a0da4f2debe83cd82e93e5a7ea39be243", null ],
+    [ "KEYWORDGROUP_CANNOT_BE_CREATED_FROM", "classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_groups_parser.html#ae4f15bc1a5f28e0c328071f0039d8c61", null ],
     [ "LOGGER", "classorg_1_1jabref_1_1logic_1_1importer_1_1util_1_1_groups_parser.html#ae36af2bcc2f9e359f0569753e2fea67b", null ]
 ];

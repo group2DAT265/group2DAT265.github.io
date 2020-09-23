@@ -248,6 +248,6 @@ var NAVTREEINDEX37 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#afa61438f09a583acdf8ebe98c14898fa":[2,0,0,0,3,13,1,17,13],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html":[2,0,0,0,3,13,1,18],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a09d35d59e493dfaf9af825b21f49a094":[2,0,0,0,3,13,1,18,3],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a0c406a614052bf8f1095bfbb4f390486":[2,0,0,0,3,13,1,18,19],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a17b794d078f476576df318698d74df75":[2,0,0,0,3,13,1,18,16]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a0c406a614052bf8f1095bfbb4f390486":[2,0,0,0,3,13,1,18,22],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_pdf_content_importer.html#a17b794d078f476576df318698d74df75":[2,0,0,0,3,13,1,18,18]
 };

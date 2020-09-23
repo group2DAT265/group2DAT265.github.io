@@ -23,5 +23,6 @@ var classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download =
     [ "parameters", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a12a7d397b58ddd41fc9f7acdd952716c", null ],
     [ "postData", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a2ab9bd96f37788e7c3718f238c761f47", null ],
     [ "source", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#adee45f896d019b110265f55ba9c12121", null ],
-    [ "USER_AGENT", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a64d460b36e63f7cbe432a2f0e1913a6d", null ]
+    [ "USER_AGENT", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#a64d460b36e63f7cbe432a2f0e1913a6d", null ],
+    [ "USER_AGENT_STRING", "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#ac2168ced6147c85fc1be75eece124e75", null ]
 ];

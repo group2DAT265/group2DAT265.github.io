@@ -1,5 +1,11 @@
 var NAVTREEINDEX41 =
 {
+"classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database.html#ab0d5df365b9c2e3bfe6f30ecf4e678c1":[2,0,0,0,3,19,3,4],
+"classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database.html#ab55e9533bf579e77a7baafca00686aca":[2,0,0,0,3,19,3,8],
+"classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database.html#add649badc9bc25cebd31ede121195194":[2,0,0,0,3,19,3,3],
+"classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database.html#aed4244ae930c08aec39f2d824d42a003":[2,0,0,0,3,19,3,0],
+"classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_mapping.html":[2,0,0,0,3,19,5],
+"classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_mapping.html#a51e64496038f8e2ae55a0f48d4f25b55":[2,0,0,0,3,19,5,8],
 "classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_mapping.html#a53189470569241fdbaa608da11e77d06":[2,0,0,0,3,19,5,2],
 "classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_mapping.html#a5f002864d70cd421e6bd38fc1ca8b25d":[2,0,0,0,3,19,5,6],
 "classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_mapping.html#a744231aaaff14989c4a21eaf4f3db9fa":[2,0,0,0,3,19,5,4],
@@ -92,6 +98,7 @@ var NAVTREEINDEX41 =
 "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#aaa5eba250605b45dca1211d860e6335c":[2,0,0,0,3,20,4,1],
 "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#aabd2aa7fd75a2dcf668743d78f3d3bf3":[2,0,0,0,3,20,4,6],
 "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#abbc4d0a80c56b3a0a5debbf665d73c3c":[2,0,0,0,3,20,4,7],
+"classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#ac2168ced6147c85fc1be75eece124e75":[2,0,0,0,3,20,4,24],
 "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#acbb817cf14e5e4234799003dbe306b65":[2,0,0,0,3,20,4,9],
 "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#ad365296246d7bffafb1b0783fa49ef31":[2,0,0,0,3,20,4,3],
 "classorg_1_1jabref_1_1logic_1_1net_1_1_u_r_l_download.html#adee45f896d019b110265f55ba9c12121":[2,0,0,0,3,20,4,22],
@@ -242,12 +249,5 @@ var NAVTREEINDEX41 =
 "classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_file_search.html#a8fe47c157419c9f04c99fdc9fba48109":[2,0,0,0,3,21,4,4],
 "classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_file_search.html#ad75b041d73f8716cbf561e89fa7c3486":[2,0,0,0,3,21,4,0],
 "classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_preferences.html":[2,0,0,0,3,21,5],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_preferences.html#a026b38f86efebbe5e22306ae38801b64":[2,0,0,0,3,21,5,35],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_preferences.html#a04d1ec563ec4c2d7645e7ee3e57c67e7":[2,0,0,0,3,21,5,5],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_preferences.html#a09b71b09570b89327359ac87b7ae057b":[2,0,0,0,3,21,5,22],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_preferences.html#a0d0c129b0ffc3a5bd1a7fb96157210f2":[2,0,0,0,3,21,5,17],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_preferences.html#a0f06b9a80677eb3ef5439fdab81eac9e":[2,0,0,0,3,21,5,11],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_preferences.html#a0f392612aa919201a001280868a56b9f":[2,0,0,0,3,21,5,28],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_preferences.html#a12563a6adc5c49e9b052713f2ab058fa":[2,0,0,0,3,21,5,2],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_preferences.html#a15010c4c7090b62ef6ea3fb5f9d93a8e":[2,0,0,0,3,21,5,37]
+"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_open_office_preferences.html#a026b38f86efebbe5e22306ae38801b64":[2,0,0,0,3,21,5,35]
 };

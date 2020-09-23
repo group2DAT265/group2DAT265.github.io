@@ -8,5 +8,6 @@ var classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database =
     [ "entries", "classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database.html#a895cffce9fe8c33bc6cc6b4fe1b6225b", null ],
     [ "LOGGER", "classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database.html#a75cc57b79de5cf1ce9e41fe94aa195f5", null ],
     [ "NAMESPACE", "classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database.html#a71a1880a4906787da5304573fe80edc9", null ],
-    [ "PREFIX", "classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database.html#ab55e9533bf579e77a7baafca00686aca", null ]
+    [ "PREFIX", "classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database.html#ab55e9533bf579e77a7baafca00686aca", null ],
+    [ "SOURCES", "classorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_database.html#a1b52efca889f201b3363d88a2d8acd7f", null ]
 ];

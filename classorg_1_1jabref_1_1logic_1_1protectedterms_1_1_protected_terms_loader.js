@@ -12,6 +12,7 @@ var classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader =
     [ "reloadProtectedTermsList", "classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader.html#a020d2bfdff92da0139f1a48f19f10efb", null ],
     [ "removeProtectedTermsList", "classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader.html#ae4d00d8594759365fff73f2f46e7f26f", null ],
     [ "update", "classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader.html#adb6b2638be513db32f69a326fcf60102", null ],
+    [ "CANNOT_FIND_PROTECTED_TERMS_FILE", "classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader.html#a1891f2602f7b89f4aaece06c4f7568b9", null ],
     [ "INTERNAL_LISTS", "classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader.html#afc12a95c3c0f1631d27d3a7e5cde0490", null ],
     [ "LOGGER", "classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader.html#a3a6ac55d7b10635c910aa0dd06cc2141", null ],
     [ "mainList", "classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_loader.html#ac1a3943130222b291173891b1f1f898d", null ]
