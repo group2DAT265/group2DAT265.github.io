@@ -29,7 +29,7 @@ import org.w3c.dom.NodeList;
 class MSBibEntry {
 
 	// Constants
-	private static final String MONTH = "Month";
+	private static final String MONTH_STRING = "Month";
 	private static final String AUTHOR = "Author";
 	private static final String ACCESSED = "Accessed";
 
@@ -159,7 +159,7 @@ class MSBibEntry {
             number = getXmlElementTextContent("PatentNumber", entry);
         }
         journalName = getXmlElementTextContent("JournalName", entry);
-		month = getXmlElementTextContent(MONTH, entry);
+		month = getXmlElementTextContent(MONTH_STRING, entry);
         internetSiteTitle = getXmlElementTextContent("InternetSiteTitle", entry);
 
         String monthAccessed = getXmlElementTextContent("MonthAccessed", entry);
@@ -279,7 +279,7 @@ class MSBibEntry {
             addField(document, rootNode, "Pages", pages.toString("-"));
         }
         addField(document, rootNode, "Year", year);
-		addField(document, rootNode, MONTH, month);
+		addField(document, rootNode, MONTH_STRING, month);
         addField(document, rootNode, "Day", day);
 
         addField(document, rootNode, "JournalName", journalName);
@@ -350,7 +350,7 @@ class MSBibEntry {
 
         parsedDateAcesseField.flatMap(Date::getMonth)
                              .map(Month::getTwoDigitNumber).ifPresent(monthAcessed -> {
-					addField(document, rootNode, MONTH + ACCESSED, monthAcessed);
+					addField(document, rootNode, MONTH_STRING + ACCESSED, monthAcessed);
         });
         parsedDateAcesseField.flatMap(Date::getDay).map(Object::toString).ifPresent(dayAccessed -> {
 			addField(document, rootNode, "Day" + ACCESSED, dayAccessed);
