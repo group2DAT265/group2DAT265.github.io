@@ -29,6 +29,9 @@ import org.apache.xmpbox.schema.DublinCoreSchema;
 
 public class DublinCoreExtractor {
 
+	// Constants
+	private static final String AND = " and ";
+
     private final DublinCoreSchema dcSchema;
     private final XmpPreferences xmpPreferences;
 
@@ -51,7 +54,7 @@ public class DublinCoreExtractor {
     private void extractEditor() {
         List<String> contributors = dcSchema.getContributors();
         if ((contributors != null) && !contributors.isEmpty()) {
-            bibEntry.setField(StandardField.EDITOR, String.join(" and ", contributors));
+			bibEntry.setField(StandardField.EDITOR, String.join(AND, contributors));
         }
     }
 
@@ -61,7 +64,7 @@ public class DublinCoreExtractor {
     private void extractAuthor() {
         List<String> creators = dcSchema.getCreators();
         if ((creators != null) && !creators.isEmpty()) {
-           bibEntry.setField(StandardField.AUTHOR, String.join(" and ", creators));
+			bibEntry.setField(StandardField.AUTHOR, String.join(AND, creators));
         }
     }
 
@@ -121,7 +124,7 @@ public class DublinCoreExtractor {
     private void extractPublisher() {
         List<String> publishers = dcSchema.getPublishers();
         if ((publishers != null) && !publishers.isEmpty()) {
-            bibEntry.setField(StandardField.PUBLISHER, String.join(" and ", publishers));
+			bibEntry.setField(StandardField.PUBLISHER, String.join(AND, publishers));
         }
     }
 

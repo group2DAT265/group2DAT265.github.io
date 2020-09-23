@@ -61,6 +61,9 @@ import org.slf4j.LoggerFactory;
  */
 public class URLDownload {
 
+	// Constants
+	private static final String USER_AGENT_STRING = "User-Agent";
+
     public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0";
 
     private static final Logger LOGGER = LoggerFactory.getLogger(URLDownload.class);
@@ -81,7 +84,7 @@ public class URLDownload {
      */
     public URLDownload(URL source) {
         this.source = source;
-        this.addHeader("User-Agent", URLDownload.USER_AGENT);
+		this.addHeader(USER_AGENT_STRING, URLDownload.USER_AGENT);
     }
 
     /**
@@ -134,7 +137,8 @@ public class URLDownload {
     }
 
     public String getMimeType() {
-        Unirest.config().setDefaultHeader("User-Agent", "Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6");
+		Unirest.config().setDefaultHeader(USER_AGENT_STRING,
+				"Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6");
 
         String contentType;
         // Try to use HEAD request to avoid downloading the whole file
@@ -179,10 +183,11 @@ public class URLDownload {
      * @return the status code of the response
      */
     public boolean canBeReached() throws UnirestException {
-        Unirest.config().setDefaultHeader("User-Agent", "Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6");
+		Unirest.config().setDefaultHeader(USER_AGENT_STRING,
+				"Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6");
 
         int statusCode = Unirest.head(source.toString()).asString().getStatus();
-        return statusCode >= 200 && statusCode < 300;
+        return (statusCode >= 200) && (statusCode < 300);
     }
 
     public boolean isMimeType(String type) {

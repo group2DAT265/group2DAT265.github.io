@@ -36,6 +36,9 @@ import org.slf4j.LoggerFactory;
  */
 public class GroupsParser {
 
+	// Constants
+	private static final String KEYWORDGROUP_CANNOT_BE_CREATED_FROM = "KeywordGroup cannot be created from \"";
+
     private static final org.slf4j.Logger LOGGER = LoggerFactory.getLogger(GroupsParser.class);
 
     private GroupsParser() {
@@ -145,7 +148,7 @@ public class GroupsParser {
 
     private static AbstractGroup automaticPersonsGroupFromString(String string) {
         if (!string.startsWith(MetadataSerializationConfiguration.AUTOMATIC_PERSONS_GROUP_ID)) {
-            throw new IllegalArgumentException("KeywordGroup cannot be created from \"" + string + "\".");
+			throw new IllegalArgumentException(KEYWORDGROUP_CANNOT_BE_CREATED_FROM + string + "\".");
         }
         QuotedStringTokenizer tok = new QuotedStringTokenizer(string.substring(MetadataSerializationConfiguration.AUTOMATIC_PERSONS_GROUP_ID
                 .length()), MetadataSerializationConfiguration.GROUP_UNIT_SEPARATOR, MetadataSerializationConfiguration.GROUP_QUOTE_CHAR);
@@ -160,7 +163,7 @@ public class GroupsParser {
 
     private static AbstractGroup automaticKeywordGroupFromString(String string) {
         if (!string.startsWith(MetadataSerializationConfiguration.AUTOMATIC_KEYWORD_GROUP_ID)) {
-            throw new IllegalArgumentException("KeywordGroup cannot be created from \"" + string + "\".");
+			throw new IllegalArgumentException(KEYWORDGROUP_CANNOT_BE_CREATED_FROM + string + "\".");
         }
         QuotedStringTokenizer tok = new QuotedStringTokenizer(string.substring(MetadataSerializationConfiguration.AUTOMATIC_KEYWORD_GROUP_ID
                 .length()), MetadataSerializationConfiguration.GROUP_UNIT_SEPARATOR, MetadataSerializationConfiguration.GROUP_QUOTE_CHAR);
@@ -182,7 +185,7 @@ public class GroupsParser {
      */
     private static KeywordGroup keywordGroupFromString(String s, Character keywordSeparator) throws ParseException {
         if (!s.startsWith(MetadataSerializationConfiguration.KEYWORD_GROUP_ID)) {
-            throw new IllegalArgumentException("KeywordGroup cannot be created from \"" + s + "\".");
+			throw new IllegalArgumentException(KEYWORDGROUP_CANNOT_BE_CREATED_FROM + s + "\".");
         }
         QuotedStringTokenizer tok = new QuotedStringTokenizer(s.substring(MetadataSerializationConfiguration.KEYWORD_GROUP_ID
                 .length()), MetadataSerializationConfiguration.GROUP_UNIT_SEPARATOR, MetadataSerializationConfiguration.GROUP_QUOTE_CHAR);
