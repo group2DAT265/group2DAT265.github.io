@@ -23,6 +23,11 @@ public class ExporterFactory {
 
     private final List<Exporter> exporters;
 
+    private static final String TABLE_REFS = "tablerefs";
+    private static final String LIST_REFS = "listrefs";
+    private static final String TABLE_REFS_ABS_BIB = "tablerefsabsbib";
+    private static final String HARVARD = "harvard";
+
     private ExporterFactory(List<Exporter> exporters) {
         this.exporters = Objects.requireNonNull(exporters);
     }
@@ -41,10 +46,10 @@ public class ExporterFactory {
         exporters.add(new TemplateExporter("DocBook 4", "docbook4", "docbook4", null, StandardFileType.XML, layoutPreferences, savePreferences));
         exporters.add(new TemplateExporter("DIN 1505", "din1505", "din1505winword", "din1505", StandardFileType.RTF, layoutPreferences, savePreferences));
         exporters.add(new TemplateExporter("BibO RDF", "bibordf", "bibordf", null, StandardFileType.RDF, layoutPreferences, savePreferences));
-        exporters.add(new TemplateExporter(Localization.lang("HTML table"), "tablerefs", "tablerefs", "tablerefs", StandardFileType.HTML, layoutPreferences, savePreferences));
-        exporters.add(new TemplateExporter(Localization.lang("HTML list"), "listrefs", "listrefs", "listrefs", StandardFileType.HTML, layoutPreferences, savePreferences));
-        exporters.add(new TemplateExporter(Localization.lang("HTML table (with Abstract & BibTeX)"), "tablerefsabsbib", "tablerefsabsbib", "tablerefsabsbib", StandardFileType.HTML, layoutPreferences, savePreferences));
-        exporters.add(new TemplateExporter("Harvard RTF", "harvard", "harvard", "harvard", StandardFileType.RDF, layoutPreferences, savePreferences));
+        exporters.add(new TemplateExporter(Localization.lang("HTML table"), TABLE_REFS, TABLE_REFS, TABLE_REFS, StandardFileType.HTML, layoutPreferences, savePreferences));
+        exporters.add(new TemplateExporter(Localization.lang("HTML list"), LIST_REFS, LIST_REFS, LIST_REFS, StandardFileType.HTML, layoutPreferences, savePreferences));
+        exporters.add(new TemplateExporter(Localization.lang("HTML table (with Abstract & BibTeX)"), TABLE_REFS_ABS_BIB, TABLE_REFS_ABS_BIB, TABLE_REFS_ABS_BIB, StandardFileType.HTML, layoutPreferences, savePreferences));
+        exporters.add(new TemplateExporter("Harvard RTF", HARVARD, HARVARD, HARVARD, StandardFileType.RDF, layoutPreferences, savePreferences));
         exporters.add(new TemplateExporter("ISO 690 RTF", "iso690rtf", "iso690RTF", "iso690rtf", StandardFileType.RTF, layoutPreferences, savePreferences));
         exporters.add(new TemplateExporter("ISO 690", "iso690txt", "iso690", "iso690txt", StandardFileType.TXT, layoutPreferences, savePreferences));
         exporters.add(new TemplateExporter("Endnote", "endnote", "EndNote", "endnote", StandardFileType.TXT, layoutPreferences, savePreferences));

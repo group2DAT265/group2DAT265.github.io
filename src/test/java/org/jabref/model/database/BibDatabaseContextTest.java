@@ -110,7 +110,7 @@ class BibDatabaseContextTest {
     @Test
     void testTypeBasedOnInferredModeBiblatex() {
         BibDatabase db = new BibDatabase();
-        BibEntry e1 = new BibEntry(IEEETranEntryType.Electronic);
+        BibEntry e1 = new BibEntry(IEEETranEntryType.ELECTRONIC);
         db.insertEntry(e1);
 
         BibDatabaseContext bibDatabaseContext = new BibDatabaseContext(db);

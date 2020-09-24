@@ -26,7 +26,7 @@ public class GrobidCitationFetcherTest {
     static GrobidCitationFetcher grobidCitationFetcher = new GrobidCitationFetcher(importFormatPreferences);
 
     static String example1 = "Derwing, T. M., Rossiter, M. J., & Munro, M. J. (2002). Teaching native speakers to listen to foreign-accented speech. Journal of Multilingual and Multicultural Development, 23(4), 245-259.";
-    static BibEntry example1AsBibEntry = new BibEntry(StandardEntryType.Article).withCiteKey("-1")
+    static BibEntry example1AsBibEntry = new BibEntry(StandardEntryType.ARTICLE).withCiteKey("-1")
                 .withField(StandardField.AUTHOR, "Derwing, T and Rossiter, M and Munro, M")
                 .withField(StandardField.TITLE, "Teaching native speakers to listen to foreign-accented speech")
                 .withField(StandardField.JOURNAL, "Journal of Multilingual and Multicultural Development")
@@ -51,7 +51,7 @@ public class GrobidCitationFetcherTest {
             .withField(StandardField.ADDRESS, "Oxford, England");
 
     static String example4 = "Carr, I., & Kidner, R. (2003). Statutes and conventions on international trade law (4th ed.). London, England: Cavendish.";
-    static BibEntry example4AsBibEntry = new BibEntry(StandardEntryType.InBook).withCiteKey("-1")
+    static BibEntry example4AsBibEntry = new BibEntry(StandardEntryType.IN_BOOK).withCiteKey("-1")
             .withField(StandardField.AUTHOR, "Carr, I and Kidner, R")
             .withField(StandardField.BOOKTITLE, "Statutes and conventions on international trade law")
             .withField(StandardField.PUBLISHER, "Cavendish")

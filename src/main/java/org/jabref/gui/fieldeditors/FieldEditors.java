@@ -79,7 +79,7 @@ public class FieldEditors {
         } else if (fieldProperties.contains(FieldProperty.PAGINATION)) {
             return new OptionEditor<>(new PaginationEditorViewModel(field, suggestionProvider, fieldCheckers));
         } else if (fieldProperties.contains(FieldProperty.TYPE)) {
-            if (entryType.equals(IEEETranEntryType.Patent)) {
+            if (entryType.equals(IEEETranEntryType.PATENT)) {
                 return new OptionEditor<>(new PatentTypeEditorViewModel(field, suggestionProvider, fieldCheckers));
             } else {
                 return new OptionEditor<>(new TypeEditorViewModel(field, suggestionProvider, fieldCheckers));

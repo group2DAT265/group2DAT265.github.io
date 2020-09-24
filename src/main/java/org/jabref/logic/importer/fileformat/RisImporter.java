@@ -74,7 +74,7 @@ public class RisImporter extends Importer {
             int datePriority = dateTags.size();
             int tagPriority;
 
-            EntryType type = StandardEntryType.Misc;
+            EntryType type = StandardEntryType.MISC;
             String author = "";
             String editor = "";
             String startPage = "";
@@ -108,23 +108,23 @@ public class RisImporter extends Importer {
                     String value = entry.substring(6).trim();
                     if ("TY".equals(tag)) {
                         if ("BOOK".equals(value)) {
-                            type = StandardEntryType.Book;
+                            type = StandardEntryType.BOOK;
                         } else if ("JOUR".equals(value) || "MGZN".equals(value)) {
-                            type = StandardEntryType.Article;
+                            type = StandardEntryType.ARTICLE;
                         } else if ("THES".equals(value)) {
-                            type = StandardEntryType.PhdThesis;
+                            type = StandardEntryType.PHD_THESIS;
                         } else if ("UNPB".equals(value)) {
-                            type = StandardEntryType.Unpublished;
+                            type = StandardEntryType.UNPUBLISHED;
                         } else if ("RPRT".equals(value)) {
-                            type = StandardEntryType.TechReport;
+                            type = StandardEntryType.TECH_REPORT;
                         } else if ("CONF".equals(value)) {
-                            type = StandardEntryType.InProceedings;
+                            type = StandardEntryType.IN_PROCEEDINGS;
                         } else if ("CHAP".equals(value)) {
-                            type = StandardEntryType.InCollection;
+                            type = StandardEntryType.IN_COLLECTION;
                         } else if ("PAT".equals(value)) {
-                            type = IEEETranEntryType.Patent;
+                            type = IEEETranEntryType.PATENT;
                         } else {
-                            type = StandardEntryType.Misc;
+                            type = StandardEntryType.MISC;
                         }
                     } else if ("T1".equals(tag) || "TI".equals(tag)) {
                         String oldVal = fields.get(StandardField.TITLE);
@@ -161,7 +161,7 @@ public class RisImporter extends Importer {
                             editor += " and " + value;
                         }
                     } else if ("JA".equals(tag) || "JF".equals(tag)) {
-                        if (type.equals(StandardEntryType.InProceedings)) {
+                        if (type.equals(StandardEntryType.IN_PROCEEDINGS)) {
                             fields.put(StandardField.BOOKTITLE, value);
                         } else {
                             fields.put(StandardField.JOURNAL, value);
@@ -177,7 +177,7 @@ public class RisImporter extends Importer {
                     } else if ("SP".equals(tag)) {
                         startPage = value;
                     } else if ("PB".equals(tag)) {
-                        if (type.equals(StandardEntryType.PhdThesis)) {
+                        if (type.equals(StandardEntryType.PHD_THESIS)) {
                             fields.put(StandardField.SCHOOL, value);
                         } else {
                             fields.put(StandardField.PUBLISHER, value);

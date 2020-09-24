@@ -279,7 +279,7 @@ public class PdfContentImporter extends Importer {
         // year is a class variable as the method extractYear() uses it;
         String publisher = null;
 
-        EntryType type = StandardEntryType.InProceedings;
+        EntryType type = StandardEntryType.IN_PROCEEDINGS;
         if (curString.length() > 4) {
             // special case: possibly conference as first line on the page
             extractYear();
@@ -361,7 +361,7 @@ public class PdfContentImporter extends Importer {
 
                 int pos = lower.indexOf("technical");
                 if (pos >= 0) {
-                    type = StandardEntryType.TechReport;
+                    type = StandardEntryType.TECH_REPORT;
                     pos = curString.trim().lastIndexOf(' ');
                     if (pos >= 0) {
                         // assumption: last character of curString is NOT ' '

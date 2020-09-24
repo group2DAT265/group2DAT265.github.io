@@ -13,7 +13,7 @@ public class TestEntry {
 
     public static BibEntry getTestEntry() {
 
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         entry.setCiteKey("Smith2016");
         entry.setField(StandardField.AUTHOR, "Smith, Bill and Jones, Bob and Williams, Jeff");
         entry.setField(StandardField.EDITOR, "Taylor, Phil");
@@ -42,7 +42,7 @@ public class TestEntry {
     }
 
     public static BibEntry getTestEntryBook() {
-        BibEntry entry = new BibEntry(StandardEntryType.Book);
+        BibEntry entry = new BibEntry(StandardEntryType.BOOK);
         entry.setCiteKey("Harrer2018");
         entry.setField(StandardField.AUTHOR, "Simon Harrer and Jörg Lenhard and Linus Dietz");
         entry.setField(StandardField.EDITOR, "Andrea Steward");

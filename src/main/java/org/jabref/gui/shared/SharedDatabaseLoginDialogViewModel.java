@@ -83,6 +83,8 @@ public class SharedDatabaseLoginDialogViewModel extends AbstractViewModel {
     private final Validator keystoreValidator;
     private final CompositeValidator formValidator;
 
+    private static final String REQ_FIELD_IS_EMPTY = "Required field \"%0\" is empty.";
+
     public SharedDatabaseLoginDialogViewModel(JabRefFrame frame, DialogService dialogService) {
         this.frame = frame;
         this.dialogService = dialogService;
@@ -95,10 +97,10 @@ public class SharedDatabaseLoginDialogViewModel extends AbstractViewModel {
         Predicate<String> fileExists = input -> Files.exists(Path.of(input));
         Predicate<String> notEmptyAndfilesExist = notEmpty.and(fileExists);
 
-        databaseValidator = new FunctionBasedValidator<>(database, notEmpty, ValidationMessage.error(Localization.lang("Required field \"%0\" is empty.", Localization.lang("Library"))));
-        hostValidator = new FunctionBasedValidator<>(host, notEmpty, ValidationMessage.error(Localization.lang("Required field \"%0\" is empty.", Localization.lang("Port"))));
-        portValidator = new FunctionBasedValidator<>(port, notEmpty, ValidationMessage.error(Localization.lang("Required field \"%0\" is empty.", Localization.lang("Host"))));
-        userValidator = new FunctionBasedValidator<>(user, notEmpty, ValidationMessage.error(Localization.lang("Required field \"%0\" is empty.", Localization.lang("User"))));
+        databaseValidator = new FunctionBasedValidator<>(database, notEmpty, ValidationMessage.error(Localization.lang(REQ_FIELD_IS_EMPTY, Localization.lang("Library"))));
+        hostValidator = new FunctionBasedValidator<>(host, notEmpty, ValidationMessage.error(Localization.lang(REQ_FIELD_IS_EMPTY, Localization.lang("Port"))));
+        portValidator = new FunctionBasedValidator<>(port, notEmpty, ValidationMessage.error(Localization.lang(REQ_FIELD_IS_EMPTY, Localization.lang("Host"))));
+        userValidator = new FunctionBasedValidator<>(user, notEmpty, ValidationMessage.error(Localization.lang(REQ_FIELD_IS_EMPTY, Localization.lang("User"))));
         folderValidator = new FunctionBasedValidator<>(folder, notEmptyAndfilesExist, ValidationMessage.error(Localization.lang("Please enter a valid file path.")));
         keystoreValidator = new FunctionBasedValidator<>(keystore, notEmptyAndfilesExist, ValidationMessage.error(Localization.lang("Please enter a valid file path.")));
 

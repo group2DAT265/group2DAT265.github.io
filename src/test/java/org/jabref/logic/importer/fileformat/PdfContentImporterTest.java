@@ -51,7 +51,7 @@ class PdfContentImporterTest {
         Path file = Path.of(PdfContentImporter.class.getResource("/pdfs/minimal.pdf").toURI());
         List<BibEntry> result = importer.importDatabase(file, StandardCharsets.UTF_8).getDatabase().getEntries();
 
-        BibEntry expected = new BibEntry(StandardEntryType.InProceedings);
+        BibEntry expected = new BibEntry(StandardEntryType.IN_PROCEEDINGS);
         expected.setField(StandardField.AUTHOR, "1 ");
         expected.setField(StandardField.TITLE, "Hello World");
         expected.setFiles(Collections.singletonList(new LinkedFile("", file.toAbsolutePath(), "PDF")));
@@ -64,7 +64,7 @@ class PdfContentImporterTest {
     @Test
     void testParsingEditorWithoutPagesorSeriesInformation() {
 
-        BibEntry entry = new BibEntry(StandardEntryType.InProceedings);
+        BibEntry entry = new BibEntry(StandardEntryType.IN_PROCEEDINGS);
         entry.setField(StandardField.AUTHOR, "Anke Lüdeling and Merja Kytö (Eds.)");
         entry.setField(StandardField.EDITOR, "Anke Lüdeling and Merja Kytö");
         entry.setField(StandardField.PUBLISHER, "Springer");

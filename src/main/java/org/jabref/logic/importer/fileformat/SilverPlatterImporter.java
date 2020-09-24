@@ -76,7 +76,7 @@ public class SilverPlatterImporter extends Importer {
             }
         }
         String[] entries = sb.toString().split("__::__");
-        EntryType type = StandardEntryType.Misc;
+        EntryType type = StandardEntryType.MISC;
         Map<Field, String> h = new HashMap<>();
         for (String entry : entries) {
             if (entry.trim().length() < 6) {
@@ -152,13 +152,13 @@ public class SilverPlatterImporter extends Importer {
                 } else if ("DT".equals(f3)) {
                     frest = frest.trim();
                     if ("Monograph".equals(frest)) {
-                        type = StandardEntryType.Book;
+                        type = StandardEntryType.BOOK;
                     } else if (frest.startsWith("Dissertation")) {
-                        type = StandardEntryType.PhdThesis;
+                        type = StandardEntryType.PHD_THESIS;
                     } else if (frest.toLowerCase(Locale.ROOT).contains(StandardField.JOURNAL.getName())) {
-                        type = StandardEntryType.Article;
+                        type = StandardEntryType.ARTICLE;
                     } else if ("Contribution".equals(frest) || "Chapter".equals(frest)) {
-                        type = StandardEntryType.InCollection;
+                        type = StandardEntryType.IN_COLLECTION;
                         // This entry type contains page numbers and booktitle in the
                         // title field.
                         isChapter = true;

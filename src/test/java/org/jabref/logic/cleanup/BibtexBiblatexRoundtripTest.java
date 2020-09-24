@@ -16,7 +16,7 @@ class BibtexBiblatexRoundtripTest {
 
     @BeforeEach
     void setUp() {
-        bibtex = new BibEntry(StandardEntryType.Article)
+        bibtex = new BibEntry(StandardEntryType.ARTICLE)
                 .withField(StandardField.AUTHOR, "Frame, J. S. and Robinson, G. de B. and Thrall, R. M.")
                 .withField(StandardField.TITLE, "The hook graphs of the symmetric groups")
                 .withField(StandardField.JOURNAL, "Canadian J. Math.")
@@ -29,7 +29,7 @@ class BibtexBiblatexRoundtripTest {
                 .withField(StandardField.MR_NUMBER, "0062127")
                 .withField(new UnknownField("mrreviewer"), "D. E. Littlewood");
 
-        biblatex = new BibEntry(StandardEntryType.Article)
+        biblatex = new BibEntry(StandardEntryType.ARTICLE)
                 .withField(StandardField.AUTHOR, "Frame, J. S. and Robinson, G. de B. and Thrall, R. M.")
                 .withField(StandardField.TITLE, "The hook graphs of the symmetric groups")
                 .withField(StandardField.JOURNALTITLE, "Canadian J. Math.")

@@ -115,9 +115,9 @@ public class InspecImporter extends Importer {
                 } else if ("RT".equals(f3)) {
                     frest = frest.trim();
                     if ("Journal-Paper".equals(frest)) {
-                        type = StandardEntryType.Article;
+                        type = StandardEntryType.ARTICLE;
                     } else if ("Conference-Paper".equals(frest) || "Conference-Paper; Journal-Paper".equals(frest)) {
-                        type = StandardEntryType.InProceedings;
+                        type = StandardEntryType.IN_PROCEEDINGS;
                     } else {
                         type = EntryTypeFactory.parse(frest.replace(" ", ""));
                     }

@@ -83,7 +83,7 @@ class MedlinePlainImporterTest {
         BibEntry testEntry = entries.get(0);
 
         assertEquals(7, entries.size());
-        assertEquals(StandardEntryType.Article, testEntry.getType());
+        assertEquals(StandardEntryType.ARTICLE, testEntry.getType());
         assertEquals(Optional.empty(), testEntry.getField(StandardField.MONTH));
         assertEquals(Optional.of("Long, Vicky and Marland, Hilary"), testEntry.getField(StandardField.AUTHOR));
         assertEquals(
@@ -92,32 +92,32 @@ class MedlinePlainImporterTest {
                 testEntry.getField(StandardField.TITLE));
 
         testEntry = entries.get(1);
-        assertEquals(StandardEntryType.Conference, testEntry.getType());
+        assertEquals(StandardEntryType.CONFERENCE, testEntry.getType());
         assertEquals(Optional.of("06"), testEntry.getField(StandardField.MONTH));
         assertEquals(Optional.empty(), testEntry.getField(StandardField.AUTHOR));
         assertEquals(Optional.empty(), testEntry.getField(StandardField.TITLE));
 
         testEntry = entries.get(2);
-        assertEquals(StandardEntryType.Book, testEntry.getType());
+        assertEquals(StandardEntryType.BOOK, testEntry.getType());
         assertEquals(
                 Optional.of(
                         "This is a Testtitle: This title should be appended: This title should also be appended. Another append to the Title? LastTitle"),
                 testEntry.getField(StandardField.TITLE));
 
         testEntry = entries.get(3);
-        assertEquals(StandardEntryType.TechReport, testEntry.getType());
+        assertEquals(StandardEntryType.TECH_REPORT, testEntry.getType());
         assertTrue(testEntry.getField(StandardField.DOI).isPresent());
 
         testEntry = entries.get(4);
-        assertEquals(StandardEntryType.InProceedings, testEntry.getType());
+        assertEquals(StandardEntryType.IN_PROCEEDINGS, testEntry.getType());
         assertEquals(Optional.of("Inproceedings book title"), testEntry.getField(StandardField.BOOKTITLE));
 
-        BibEntry expectedEntry5 = new BibEntry(StandardEntryType.Proceedings);
+        BibEntry expectedEntry5 = new BibEntry(StandardEntryType.PROCEEDINGS);
         expectedEntry5.setField(StandardField.KEYWORDS, "Female");
         assertEquals(expectedEntry5, entries.get(5));
 
         BibEntry expectedEntry6 = new BibEntry();
-        expectedEntry6.setType(StandardEntryType.Misc);
+        expectedEntry6.setType(StandardEntryType.MISC);
         expectedEntry6.setField(StandardField.KEYWORDS, "Female");
         assertEquals(expectedEntry6, entries.get(6));
     }
@@ -230,7 +230,7 @@ class MedlinePlainImporterTest {
             List<BibEntry> actualEntries = importer.importDatabase(reader).getDatabase().getEntries();
 
             BibEntry expectedEntry = new BibEntry();
-            expectedEntry.setType(StandardEntryType.Article);
+            expectedEntry.setType(StandardEntryType.ARTICLE);
             expectedEntry.setField(StandardField.KEYWORDS, "Female");
 
             assertEquals(Collections.singletonList(expectedEntry), actualEntries);

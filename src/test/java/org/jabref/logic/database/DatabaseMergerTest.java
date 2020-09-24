@@ -28,15 +28,15 @@ class DatabaseMergerTest {
         BibEntry entry1 = new BibEntry()
                 .withField(StandardField.AUTHOR, "Phillip Kaye and Michele Mosca")
                 .withField(StandardField.TITLE, "Quantum Networks for Generating Arbitrary Quantum States");
-        entry1.setType(StandardEntryType.Article);
+        entry1.setType(StandardEntryType.ARTICLE);
         BibEntry entry2 = new BibEntry()
                 .withField(StandardField.AUTHOR, "Phillip Kaye and Michele Mosca")
                 .withField(StandardField.TITLE, "Quantum Networks for Generating Arbitrary Quantum States");
-        entry2.setType(StandardEntryType.Article);
+        entry2.setType(StandardEntryType.ARTICLE);
         BibEntry entry3 = new BibEntry()
                 .withField(StandardField.AUTHOR, "Stephen Blaha")
                 .withField(StandardField.TITLE, "Quantum Computers and Quantum Computer Languages: Quantum Assembly Language and Quantum C Language");
-        entry3.setType(StandardEntryType.Article);
+        entry3.setType(StandardEntryType.ARTICLE);
 
         BibDatabase database = new BibDatabase(List.of(entry1));
         BibDatabase other = new BibDatabase(List.of(entry2, entry3));

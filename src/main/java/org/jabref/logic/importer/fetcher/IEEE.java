@@ -66,10 +66,10 @@ public class IEEE implements FulltextFetcher, SearchBasedParserFetcher {
         BibEntry entry = new BibEntry();
 
         switch (jsonEntry.optString("content_type")) {
-            case "Books" -> entry.setType(StandardEntryType.Book);
-            case "Conferences" -> entry.setType(StandardEntryType.InProceedings);
-            case "Courses" -> entry.setType(StandardEntryType.Misc);
-            default -> entry.setType(StandardEntryType.Article);
+            case "Books" -> entry.setType(StandardEntryType.BOOK);
+            case "Conferences" -> entry.setType(StandardEntryType.IN_PROCEEDINGS);
+            case "Courses" -> entry.setType(StandardEntryType.MISC);
+            default -> entry.setType(StandardEntryType.ARTICLE);
         }
 
         entry.setField(StandardField.ABSTRACT, jsonEntry.optString("abstract"));

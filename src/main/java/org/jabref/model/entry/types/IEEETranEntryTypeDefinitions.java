@@ -24,7 +24,7 @@ public class IEEETranEntryTypeDefinitions {
      * Optional fields: author, month, year, title, language, howpublished, organization, address, note, url
      */
     private static final BibEntryType ELECTRONIC = new BibEntryTypeBuilder()
-            .withType(IEEETranEntryType.Electronic)
+                                                                            .withType(IEEETranEntryType.ELECTRONIC)
             .withImportantFields(StandardField.AUTHOR, StandardField.MONTH, StandardField.YEAR, StandardField.TITLE, StandardField.LANGUAGE,
                     StandardField.HOWPUBLISHED, StandardField.ORGANIZATION, StandardField.ADDRESS, StandardField.NOTE, StandardField.URL)
             .build();
@@ -33,7 +33,7 @@ public class IEEETranEntryTypeDefinitions {
      * Special entry type that can be used to externally control some aspects of the bibliography style.
      */
     private static final BibEntryType IEEETRANBSTCTL = new BibEntryTypeBuilder()
-            .withType(IEEETranEntryType.IEEEtranBSTCTL)
+                                                                                .withType(IEEETranEntryType.IEEE_TRAN_BSTCTL)
             .withImportantFields(IEEEField.CTLUSE_ARTICLE_NUMBER, IEEEField.CTLUSE_PAPER, IEEEField.CTLUSE_FORCED_ETAL,
                     IEEEField.CTLUSE_URL, IEEEField.CTLMAX_NAMES_FORCED_ETAL, IEEEField.CTLNAMES_SHOW_ETAL,
                     IEEEField.CTLUSE_ALT_SPACING, IEEEField.CTLALT_STRETCH_FACTOR, IEEEField.CTLDASH_REPEATED_NAMES,
@@ -47,7 +47,7 @@ public class IEEETranEntryTypeDefinitions {
      * Optional fields: editor, language, series, volume, number, organization, month, note, url
      */
     private static final BibEntryType PERIODICAL = new BibEntryTypeBuilder()
-            .withType(IEEETranEntryType.Periodical)
+                                                                            .withType(IEEETranEntryType.PERIODICAL)
             .withRequiredFields(StandardField.TITLE, StandardField.YEAR)
             .withImportantFields(StandardField.EDITOR, StandardField.LANGUAGE, StandardField.SERIES, StandardField.VOLUME, StandardField.NUMBER, StandardField.ORGANIZATION, StandardField.MONTH, StandardField.NOTE, StandardField.URL)
             .build();
@@ -59,7 +59,7 @@ public class IEEETranEntryTypeDefinitions {
      * Optional fields: author, title, language, assignee, address, type, number, day, dayfiled, month, monthfiled, note, url
      */
     private static final BibEntryType PATENT = new BibEntryTypeBuilder()
-            .withType(IEEETranEntryType.Patent)
+                                                                        .withType(IEEETranEntryType.PATENT)
             .withRequiredFields(new OrFields(StandardField.YEAR, StandardField.YEARFILED), StandardField.NATIONALITY, StandardField.NUMBER)
             .withImportantFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.LANGUAGE, StandardField.ASSIGNEE, StandardField.ADDRESS,
                     StandardField.TYPE, StandardField.NUMBER, StandardField.DAY, StandardField.DAYFILED, StandardField.MONTH,
@@ -73,7 +73,7 @@ public class IEEETranEntryTypeDefinitions {
      * Optional fields: author, language, howpublished, type, number, revision, address, month, year, note, url
      */
     private static final BibEntryType STANDARD = new BibEntryTypeBuilder()
-            .withType(IEEETranEntryType.Standard)
+                                                                          .withType(IEEETranEntryType.STANDARD)
             .withRequiredFields(new OrFields(StandardField.ORGANIZATION, StandardField.INSTITUTION), StandardField.TITLE)
             .withImportantFields(StandardField.AUTHOR, StandardField.LANGUAGE, StandardField.HOWPUBLISHED, StandardField.TYPE,
                     StandardField.NUMBER, StandardField.REVISION, StandardField.ADDRESS, StandardField.MONTH, StandardField.YEAR,

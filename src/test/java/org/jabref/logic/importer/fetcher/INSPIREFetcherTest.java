@@ -32,7 +32,7 @@ class INSPIREFetcherTest {
 
     @Test
     void searchByQueryFindsEntry() throws Exception {
-        BibEntry master = new BibEntry(StandardEntryType.MastersThesis)
+        BibEntry master = new BibEntry(StandardEntryType.MASTER_THESIS)
                 .withCiteKey("Diez:2014ppa")
                 .withField(StandardField.AUTHOR, "Diez, Tobias")
                 .withField(StandardField.TITLE, "Slice theorem for Fr\\'echet group actions and covariant symplectic field theory")
@@ -47,7 +47,7 @@ class INSPIREFetcherTest {
 
     @Test
     public void searchByIdentifierFindsEntry() throws Exception {
-        BibEntry article = new BibEntry(StandardEntryType.Article)
+        BibEntry article = new BibEntry(StandardEntryType.ARTICLE)
                 .withCiteKey("Melnikov:1998pr")
                 .withField(StandardField.AUTHOR, "Melnikov, Kirill and Yelkhovsky, Alexander")
                 .withField(StandardField.TITLE, "Top quark production at threshold with O(alpha-s**2) accuracy")

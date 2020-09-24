@@ -33,7 +33,7 @@ public class DBLPFetcherTest {
         dblpFetcher = new DBLPFetcher(importFormatPreferences);
         entry = new BibEntry();
 
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setCiteKey("DBLP:journals/stt/GeigerHL16");
         entry.setField(StandardField.TITLE,
                 "Process Engine Benchmarking with Betsy in the Context of {ISO/IEC} Quality Standards");
