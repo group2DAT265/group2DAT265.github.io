@@ -18,6 +18,7 @@ var classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_impo
     [ "isRecognizedFormat", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#aa52555c78cd958630017e85eae1c161e", null ],
     [ "COMPLETE_DATE_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#a9954b4069efa2918888f241b7b6fed23", null ],
     [ "CREATE_DATE_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#a674b94df5979b968a0ddac50b126b16d", null ],
+    [ "INVESTIGATOR", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#abc6fcf3b82642c261d5e648a0eafade9", null ],
     [ "PMC_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#a2938daa8d085dbdb9826ab7520488983", null ],
     [ "PMCR_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#a055fbdaa094621b6d1ee5f3e5a46dc5d", null ],
     [ "PMID_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#aea5f9c2a09c31f40cbcd825e26ca4492", null ]

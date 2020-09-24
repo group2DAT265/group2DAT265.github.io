@@ -50,6 +50,7 @@ var classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_mo
     [ "portValidator", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a135e69108dc1f6b24e94172951f0c344", null ],
     [ "prefs", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#aff65ea19c574a08cfda82a58b0361aed", null ],
     [ "rememberPassword", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#ab1575e95800805dbdc3a4384b5994cd8", null ],
+    [ "REQ_FIELD_IS_EMPTY", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#adb00aabe64c16b26a3517cc437aaa5c0", null ],
     [ "selectedDBMSType", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a5efc3230e4569e29a7218b395f14eda1", null ],
     [ "serverTimezone", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a2a129c567be247109474a8d3561811cd", null ],
     [ "user", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a5d583340987834461a5ab19d81ad2c23", null ],

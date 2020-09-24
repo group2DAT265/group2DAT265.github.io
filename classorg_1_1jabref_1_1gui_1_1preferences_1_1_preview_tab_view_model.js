@@ -41,8 +41,10 @@ var classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view_model =
     [ "localDragboard", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view_model.html#a560e1dca48db1655f69e49eb5ff2cc62", null ],
     [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view_model.html#aed418bb5297c4dac5de921cb97bb62df", null ],
     [ "preferences", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view_model.html#a1bc645c81ea837288134f15cf0ad3399", null ],
+    [ "PREVIEW", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view_model.html#af9c9f9f2b3aa5203e2faed55fa6f9203", null ],
     [ "selectedIsEditableProperty", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view_model.html#a57d1caff352282eb256ef87b8c448c31", null ],
     [ "showAsExtraTab", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view_model.html#ae20ea12a4f498bec78a15a7c2e6e207e", null ],
     [ "sourceTextProperty", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view_model.html#a44f03cbd0e1ae574a7606a1a9f46a130", null ],
+    [ "TAGMARK", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view_model.html#a4659b85dbb13c02eead0c19e1943a016", null ],
     [ "taskExecutor", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view_model.html#acc5c10bcb40f7ba673c1f7ccec865ece", null ]
 ];

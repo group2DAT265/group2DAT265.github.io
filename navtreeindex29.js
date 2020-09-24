@@ -1,5 +1,17 @@
 var NAVTREEINDEX29 =
 {
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a65730f66cabb4fa282672e400c7a0abc":[2,0,0,0,2,48,1,0,0],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#aa17de89abdb530ee800b5a4159ccd343":[2,0,0,0,2,48,1,0,2],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#ad77fcb7af3e8dec609d07f1493349cf9":[2,0,0,0,2,48,1,0,3],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html":[2,0,0,0,2,48,1,1],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#a0c9c15012cb336bc8d58ba70d3152b97":[2,0,0,0,2,48,1,1,8],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#a0cd52e8d28c8fdcc324c25364a762c48":[2,0,0,0,2,48,1,1,3],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#a1029d88f6125679e8cd725a9a7761c1e":[2,0,0,0,2,48,1,1,1],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#a9cbf3cc2d2af620acdf6e7ecf492ab2d":[2,0,0,0,2,48,1,1,6],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#ab72798545f6a84c003d50518098c66ce":[2,0,0,0,2,48,1,1,9],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#ac3c3e0208de8773bdc548df8c7296b80":[2,0,0,0,2,48,1,1,5],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#ad3c5d89860a2765e1f60f01ea4edafcc":[2,0,0,0,2,48,1,1,7],
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#aea3c3715501e6d14f38c3cceafaa9786":[2,0,0,0,2,48,1,1,4],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#aeef86637d2a9a92b03f0513e13abd747":[2,0,0,0,2,48,1,1,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#afa389251228623126e6490b293272b7c":[2,0,0,0,2,48,1,1,2],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag_bar.html":[2,0,0,0,2,48,1,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX29 =
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_file_field_writer.html#ad38d04c684a417822758bfd40eefdd71":[2,0,0,0,3,2,6,1],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception.html":[2,0,0,0,3,2,7],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception.html#a72651b1f3882426d8305e8c763f5878b":[2,0,0,0,3,2,7,0],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html":[2,0,0,0,3,2,0,0],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#a098e736284777aa94118da013d874c24":[2,0,0,0,3,2,0,0,11],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#a0e7705db6462d0d03baefdaead027b2f":[2,0,0,0,3,2,0,0,10],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#a0e8ba901d9c5aac0e3f924fd84ffcf9b":[2,0,0,0,3,2,0,0,6],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#a51659edfe16abbb602c2a7d16afca336":[2,0,0,0,3,2,0,0,1],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#a5c9e3bf54bd36f423d282d9fc3c2e597":[2,0,0,0,3,2,0,0,0],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#a733191f081e25e970bd3b79ff491deb6":[2,0,0,0,3,2,0,0,12],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#a9777c5cb43cc6fc263f41fda135c6170":[2,0,0,0,3,2,0,0,5],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#aa2a7d93ffde6aa4ab89a753175b00846":[2,0,0,0,3,2,0,0,9],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#ac093c701acf767c48b8c086db85acf03":[2,0,0,0,3,2,0,0,4],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#ad2b0a1478f400bc376b0d73562c7d854":[2,0,0,0,3,2,0,0,3],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#ad546858b964841eda3aace11b7b40e21":[2,0,0,0,3,2,0,0,7],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#aee8b49505ca15c5b2cf5f520f6c18343":[2,0,0,0,3,2,0,0,8]
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html":[2,0,0,0,3,2,0,0]
 };

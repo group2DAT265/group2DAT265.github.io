@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_main_table_column.html#a432319dbd6c9f3707082d1773d15b990":[2,0,0,0,2,33,0,3,0],
+"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_main_table_column.html#a7803aea8ec6d30b16ed6dd7833c7099e":[2,0,0,0,2,33,0,3,2],
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_main_table_column.html#a95926b1a8492370bd2bbe0c847e0d649":[2,0,0,0,2,33,0,3,3],
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_main_table_column.html#af7693cb3bd374e52a4e31454678da6cf":[2,0,0,0,2,33,0,3,1],
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_special_field_column.html":[2,0,0,0,2,33,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a7b6d8b44a1731051d020f20b8a50779c":[2,0,0,0,2,37,7,5],
 "classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a804d816892b252c74ef31f14fe6afcd7":[2,0,0,0,2,37,7,2],
 "classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#aa1bad53989d02d36b2cb62741d2b13fd":[2,0,0,0,2,37,7,13],
-"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#ab18a923345533b5ef3be90f4d546f423":[2,0,0,0,2,37,7,8],
-"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#abd5fc5d3c6f3813dcf0e0b824b11fa5b":[2,0,0,0,2,37,7,0],
-"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#aca67f78170d869908ec33262b7a5c99b":[2,0,0,0,2,37,7,4]
+"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#ab18a923345533b5ef3be90f4d546f423":[2,0,0,0,2,37,7,8]
 };

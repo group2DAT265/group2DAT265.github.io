@@ -12,7 +12,9 @@ var classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model =
     [ "validSettings", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model.html#ab1e2eb0b91c0e0abbbe152b725e17f2a", null ],
     [ "dialogService", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model.html#ab89ff333efdd04485aa66890b86b7373", null ],
     [ "frame", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model.html#a02748e4df159d894f31988f00080f862", null ],
+    [ "JABREF_RESTART", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model.html#afd90f40efb4c58f22e82af71406599cc", null ],
     [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model.html#ade0606fae3136cf4f1e432e59217d06b", null ],
     [ "preferences", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model.html#a8bf5d125ffefe738dcbca40eb56d7fce", null ],
-    [ "preferenceTabs", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model.html#aef23f3a32599e2aaff95cf789bb2ec56", null ]
+    [ "preferenceTabs", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model.html#aef23f3a32599e2aaff95cf789bb2ec56", null ],
+    [ "RESET_PREFERENCES", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preferences_dialog_view_model.html#a88008b5521eab132411c6d3f55658fed", null ]
 ];

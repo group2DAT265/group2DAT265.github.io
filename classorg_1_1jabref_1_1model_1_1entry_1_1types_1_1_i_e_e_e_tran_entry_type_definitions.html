@@ -211,7 +211,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(IEEETranEntryType.Electronic)</div>
+<div class="line">                                                                            .withType(IEEETranEntryType.ELECTRONIC)</div>
 <div class="line">            .withImportantFields(StandardField.AUTHOR, StandardField.MONTH, StandardField.YEAR, StandardField.TITLE, StandardField.LANGUAGE,</div>
 <div class="line">                    StandardField.HOWPUBLISHED, StandardField.ORGANIZATION, StandardField.ADDRESS, StandardField.NOTE, StandardField.URL)</div>
 <div class="line">            .build()</div>
@@ -240,7 +240,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(IEEETranEntryType.IEEEtranBSTCTL)</div>
+<div class="line">                                                                                .withType(IEEETranEntryType.IEEE_TRAN_BSTCTL)</div>
 <div class="line">            .withImportantFields(IEEEField.CTLUSE_ARTICLE_NUMBER, IEEEField.CTLUSE_PAPER, IEEEField.CTLUSE_FORCED_ETAL,</div>
 <div class="line">                    IEEEField.CTLUSE_URL, IEEEField.CTLMAX_NAMES_FORCED_ETAL, IEEEField.CTLNAMES_SHOW_ETAL,</div>
 <div class="line">                    IEEEField.CTLUSE_ALT_SPACING, IEEEField.CTLALT_STRETCH_FACTOR, IEEEField.CTLDASH_REPEATED_NAMES,</div>
@@ -270,7 +270,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(IEEETranEntryType.Patent)</div>
+<div class="line">                                                                        .withType(IEEETranEntryType.PATENT)</div>
 <div class="line">            .withRequiredFields(<span class="keyword">new</span> OrFields(StandardField.YEAR, StandardField.YEARFILED), StandardField.NATIONALITY, StandardField.NUMBER)</div>
 <div class="line">            .withImportantFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.LANGUAGE, StandardField.ASSIGNEE, StandardField.ADDRESS,</div>
 <div class="line">                    StandardField.TYPE, StandardField.NUMBER, StandardField.DAY, StandardField.DAYFILED, StandardField.MONTH,</div>
@@ -301,7 +301,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(IEEETranEntryType.Periodical)</div>
+<div class="line">                                                                            .withType(IEEETranEntryType.PERIODICAL)</div>
 <div class="line">            .withRequiredFields(StandardField.TITLE, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.EDITOR, StandardField.LANGUAGE, StandardField.SERIES, StandardField.VOLUME, StandardField.NUMBER, StandardField.ORGANIZATION, StandardField.MONTH, StandardField.NOTE, StandardField.URL)</div>
 <div class="line">            .build()</div>
@@ -330,7 +330,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(IEEETranEntryType.Standard)</div>
+<div class="line">                                                                          .withType(IEEETranEntryType.STANDARD)</div>
 <div class="line">            .withRequiredFields(<span class="keyword">new</span> OrFields(StandardField.ORGANIZATION, StandardField.INSTITUTION), StandardField.TITLE)</div>
 <div class="line">            .withImportantFields(StandardField.AUTHOR, StandardField.LANGUAGE, StandardField.HOWPUBLISHED, StandardField.TYPE,</div>
 <div class="line">                    StandardField.NUMBER, StandardField.REVISION, StandardField.ADDRESS, StandardField.MONTH, StandardField.YEAR,</div>

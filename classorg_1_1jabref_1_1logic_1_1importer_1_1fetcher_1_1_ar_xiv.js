@@ -18,6 +18,7 @@ var classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv =
     [ "searchForEntries", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv.html#aa36acd3d74c010e5155651eedbf10927", null ],
     [ "searchForEntry", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv.html#a7f7a3faf90705f9da774e62e06fd950a", null ],
     [ "searchForEntryById", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv.html#a590cf8e9487a497a527805c92ef2ba56", null ],
+    [ "API_REQ_FAILED", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv.html#ac2b834301e8acfaf45e5054e979d1d7d", null ],
     [ "API_URL", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv.html#a263e3b93a1d9c021a8b303ff22af459d", null ],
     [ "importFormatPreferences", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv.html#ab64e58cbefbc43a688fbb05a1494b293", null ],
     [ "LOGGER", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_ar_xiv.html#af598cbc14e8f0a6c16c7634acafe52c0", null ]

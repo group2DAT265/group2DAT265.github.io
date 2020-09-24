@@ -7,6 +7,7 @@ var classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer =
     [ "importDatabase", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#aca22e4102b35bce619cac065d1ec3904", null ],
     [ "isRecognizedFormat", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#aacb95d272ac59263cb757e255f848a53", null ],
     [ "BOOK_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#a52c9dec86ef4667ae3b1c8260c662929", null ],
+    [ "CHAPTER_TITLE", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#abf9bfacf76e50bbb0b099ca1f4bfd5a6", null ],
     [ "INCOLLECTION_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#a97d8d3c383619a190b9c293be1d79ff8", null ],
     [ "MAX_ITEMS", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#aef8d54a1e26623ed2861c0622f77d5dc", null ],
     [ "OVID_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#abae36d6511f0fd1609a442531d19ddc6", null ],

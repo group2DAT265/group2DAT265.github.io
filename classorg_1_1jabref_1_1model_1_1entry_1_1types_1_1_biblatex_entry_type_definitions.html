@@ -242,7 +242,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Article)</div>
+<div class="line">            .withType(StandardEntryType.ARTICLE)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.EDITOR, StandardField.SERIES, StandardField.VOLUME, StandardField.NUMBER,</div>
 <div class="line">                    StandardField.EID, StandardField.ISSUE, StandardField.PAGES, StandardField.NOTE, StandardField.ISSN, StandardField.DOI,</div>
@@ -281,7 +281,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Book)</div>
+<div class="line">            .withType(StandardEntryType.BOOK)</div>
 <div class="line">            .withImportantFields(StandardField.EDITOR,</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.MAINTITLE, StandardField.MAINSUBTITLE,</div>
 <div class="line">                    StandardField.MAINTITLEADDON, StandardField.VOLUME, StandardField.EDITION, StandardField.PUBLISHER, StandardField.ISBN,</div>
@@ -321,7 +321,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.BookInBook)</div>
+<div class="line">            .withType(StandardEntryType.BOOK_IN_BOOK)</div>
 <div class="line">            .withImportantFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a9b9447ea25aac5b221b62387d967c63f">INBOOK</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a77a9841db28ddeaa6fc52e0d7ca48714">getPrimaryOptionalFields</a>())</div>
 <div class="line">            .withDetailFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a9b9447ea25aac5b221b62387d967c63f">INBOOK</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a31844e3b8ddcdd67458087bcc3b731ef">getSecondaryOptionalFields</a>())</div>
 <div class="line">            .withRequiredFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a9b9447ea25aac5b221b62387d967c63f">INBOOK</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a99bd16692caf6766b61f9e921beba432">getRequiredFields</a>())</div>
@@ -349,7 +349,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Booklet)</div>
+<div class="line">            .withType(StandardEntryType.BOOKLET)</div>
 <div class="line">            .withImportantFields(StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.HOWPUBLISHED,</div>
 <div class="line">                    StandardField.CHAPTER, StandardField.PAGES, StandardField.DOI, StandardField.EPRINT, StandardField.EPRINTCLASS,</div>
 <div class="line">                    StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -382,7 +382,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Collection)</div>
+<div class="line">            .withType(StandardEntryType.COLLECTION)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.TRANSLATOR, StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.MAINTITLE,</div>
 <div class="line">                    StandardField.MAINSUBTITLE, StandardField.MAINTITLEADDON, StandardField.VOLUME, StandardField.EDITION,</div>
@@ -422,7 +422,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Conference)</div>
+<div class="line">                                                                            .withType(StandardEntryType.CONFERENCE)</div>
 <div class="line">            .withImportantFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a11f900d8e1e97e4a514041194d84d919">INPROCEEDINGS</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a77a9841db28ddeaa6fc52e0d7ca48714">getPrimaryOptionalFields</a>())</div>
 <div class="line">            .withDetailFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a11f900d8e1e97e4a514041194d84d919">INPROCEEDINGS</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a31844e3b8ddcdd67458087bcc3b731ef">getSecondaryOptionalFields</a>())</div>
 <div class="line">            .withRequiredFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a11f900d8e1e97e4a514041194d84d919">INPROCEEDINGS</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a99bd16692caf6766b61f9e921beba432">getRequiredFields</a>())</div>
@@ -450,7 +450,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Dataset)</div>
+<div class="line">                                                                         .withType(StandardEntryType.DATASET)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.HOWPUBLISHED, StandardField.LOCATION, StandardField.DOI,</div>
 <div class="line">                    StandardField.EPRINT, StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -483,7 +483,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(IEEETranEntryType.Electronic)</div>
+<div class="line">                                                                            .withType(IEEETranEntryType.ELECTRONIC)</div>
 <div class="line">            .withImportantFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#aa7af225b3303423fcc3bde628acf25d9">ONLINE</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a77a9841db28ddeaa6fc52e0d7ca48714">getPrimaryOptionalFields</a>())</div>
 <div class="line">            .withDetailFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#aa7af225b3303423fcc3bde628acf25d9">ONLINE</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a31844e3b8ddcdd67458087bcc3b731ef">getSecondaryOptionalFields</a>())</div>
 <div class="line">            .withRequiredFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#aa7af225b3303423fcc3bde628acf25d9">ONLINE</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a99bd16692caf6766b61f9e921beba432">getRequiredFields</a>())</div>
@@ -511,7 +511,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.InBook)</div>
+<div class="line">            .withType(StandardEntryType.IN_BOOK)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.BOOKAUTHOR, StandardField.EDITOR, StandardField.SUBTITLE, StandardField.TITLEADDON,</div>
 <div class="line">                    StandardField.MAINTITLE, StandardField.MAINSUBTITLE, StandardField.MAINTITLEADDON, StandardField.BOOKSUBTITLE,</div>
@@ -552,7 +552,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.InCollection)</div>
+<div class="line">            .withType(StandardEntryType.IN_COLLECTION)</div>
 <div class="line">            .withImportantFields(StandardField.TRANSLATOR, StandardField.SUBTITLE, StandardField.TITLEADDON,</div>
 <div class="line">                    StandardField.MAINTITLE, StandardField.MAINSUBTITLE, StandardField.MAINTITLEADDON, StandardField.BOOKSUBTITLE,</div>
 <div class="line">                    StandardField.BOOKTITLEADDON, StandardField.VOLUME, StandardField.EDITION, StandardField.PUBLISHER,</div>
@@ -592,7 +592,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.InProceedings)</div>
+<div class="line">                                                                               .withType(StandardEntryType.IN_PROCEEDINGS)</div>
 <div class="line">            .withImportantFields(StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.MAINTITLE,</div>
 <div class="line">                    StandardField.MAINSUBTITLE, StandardField.MAINTITLEADDON, StandardField.BOOKSUBTITLE,</div>
 <div class="line">                    StandardField.BOOKTITLEADDON, StandardField.EVENTTITLE, StandardField.VOLUME, StandardField.PUBLISHER,</div>
@@ -631,7 +631,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.InReference)</div>
+<div class="line">                                                                             .withType(StandardEntryType.IN_REFERENCE)</div>
 <div class="line">            .withImportantFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a1c788f231eaff98871f8ab4d00e2bfa0">INCOLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a77a9841db28ddeaa6fc52e0d7ca48714">getPrimaryOptionalFields</a>())</div>
 <div class="line">            .withDetailFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a1c788f231eaff98871f8ab4d00e2bfa0">INCOLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a31844e3b8ddcdd67458087bcc3b731ef">getSecondaryOptionalFields</a>())</div>
 <div class="line">            .withRequiredFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a1c788f231eaff98871f8ab4d00e2bfa0">INCOLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a99bd16692caf6766b61f9e921beba432">getRequiredFields</a>())</div>
@@ -659,7 +659,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Manual)</div>
+<div class="line">            .withType(StandardEntryType.MANUAL)</div>
 <div class="line">            .withImportantFields(StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.EDITION, StandardField.PUBLISHER,</div>
 <div class="line">                    StandardField.ISBN, StandardField.CHAPTER, StandardField.PAGES, StandardField.DOI, StandardField.EPRINT,</div>
 <div class="line">                    StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -693,7 +693,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.MastersThesis)</div>
+<div class="line">                                                                               .withType(StandardEntryType.MASTER_THESIS)</div>
 <div class="line">            .withImportantFields(StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.TYPE,</div>
 <div class="line">                    StandardField.CHAPTER, StandardField.PAGES, StandardField.PAGETOTAL, StandardField.DOI, StandardField.EPRINT,</div>
 <div class="line">                    StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -726,7 +726,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Misc)</div>
+<div class="line">            .withType(StandardEntryType.MISC)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.HOWPUBLISHED, StandardField.LOCATION, StandardField.DOI,</div>
 <div class="line">                    StandardField.EPRINT, StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -759,7 +759,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.MvBook)</div>
+<div class="line">            .withType(StandardEntryType.MV_BOOK)</div>
 <div class="line">            .withImportantFields(StandardField.EDITOR, StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.EDITION,</div>
 <div class="line">                    StandardField.PUBLISHER, StandardField.ISBN, StandardField.PAGETOTAL, StandardField.DOI, StandardField.EPRINT,</div>
 <div class="line">                    StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -795,7 +795,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.MvCollection)</div>
+<div class="line">            .withType(StandardEntryType.MV_COLLECTION)</div>
 <div class="line">            .withImportantFields(StandardField.TRANSLATOR, StandardField.SUBTITLE, StandardField.TITLEADDON,</div>
 <div class="line">                    StandardField.EDITION, StandardField.PUBLISHER, StandardField.ISBN, StandardField.DOI, StandardField.EPRINT,</div>
 <div class="line">                    StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -831,7 +831,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.MvProceedings)</div>
+<div class="line">                                                                               .withType(StandardEntryType.MV_PROCEEDINGS)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.MAINTITLE, StandardField.MAINSUBTITLE,</div>
 <div class="line">                    StandardField.MAINTITLEADDON, StandardField.EVENTTITLE, StandardField.VOLUME, StandardField.PUBLISHER, StandardField.ISBN,</div>
@@ -869,7 +869,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.MvReference)</div>
+<div class="line">                                                                             .withType(StandardEntryType.MV_REFERENCE)</div>
 <div class="line">            .withImportantFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a72ae1f51a0406e936d18e860cf4edec9">MVCOLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a77a9841db28ddeaa6fc52e0d7ca48714">getPrimaryOptionalFields</a>())</div>
 <div class="line">            .withDetailFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a72ae1f51a0406e936d18e860cf4edec9">MVCOLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a31844e3b8ddcdd67458087bcc3b731ef">getSecondaryOptionalFields</a>())</div>
 <div class="line">            .withRequiredFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a72ae1f51a0406e936d18e860cf4edec9">MVCOLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a99bd16692caf6766b61f9e921beba432">getRequiredFields</a>())</div>
@@ -897,7 +897,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Online)</div>
+<div class="line">                                                                        .withType(StandardEntryType.ON_LINE)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.NOTE, StandardField.ORGANIZATION, StandardField.URLDATE)</div>
 <div class="line">            .withRequiredFields(<span class="keyword">new</span> OrFields(StandardField.AUTHOR, StandardField.EDITOR), StandardField.TITLE, StandardField.DATE, StandardField.URL)</div>
@@ -928,7 +928,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(IEEETranEntryType.Patent)</div>
+<div class="line">                                                                        .withType(IEEETranEntryType.PATENT)</div>
 <div class="line">            .withImportantFields(StandardField.HOLDER,</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.DOI, StandardField.EPRINT, StandardField.EPRINTCLASS,</div>
 <div class="line">                    StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -961,7 +961,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(IEEETranEntryType.Periodical)</div>
+<div class="line">                                                                            .withType(IEEETranEntryType.PERIODICAL)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.ISSUETITLE, StandardField.ISSUESUBTITLE, StandardField.ISSN, StandardField.DOI,</div>
 <div class="line">                    StandardField.EPRINT, StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -995,7 +995,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.PhdThesis)</div>
+<div class="line">                                                                           .withType(StandardEntryType.PHD_THESIS)</div>
 <div class="line">            .withImportantFields(StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.TYPE,</div>
 <div class="line">                    StandardField.CHAPTER, StandardField.PAGES, StandardField.PAGETOTAL, StandardField.DOI, StandardField.EPRINT,</div>
 <div class="line">                    StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -1028,7 +1028,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Proceedings)</div>
+<div class="line">                                                                             .withType(StandardEntryType.PROCEEDINGS)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.MAINTITLE, StandardField.MAINSUBTITLE,</div>
 <div class="line">                    StandardField.MAINTITLEADDON, StandardField.EVENTTITLE, StandardField.VOLUME, StandardField.PUBLISHER, StandardField.ISBN,</div>
@@ -1067,7 +1067,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Reference)</div>
+<div class="line">                                                                           .withType(StandardEntryType.REFERENCE)</div>
 <div class="line">            .withImportantFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a306266cee84bdc5eedf25e4cbb00b1d1">COLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a77a9841db28ddeaa6fc52e0d7ca48714">getPrimaryOptionalFields</a>())</div>
 <div class="line">            .withDetailFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a306266cee84bdc5eedf25e4cbb00b1d1">COLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a31844e3b8ddcdd67458087bcc3b731ef">getSecondaryOptionalFields</a>())</div>
 <div class="line">            .withRequiredFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a306266cee84bdc5eedf25e4cbb00b1d1">COLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a99bd16692caf6766b61f9e921beba432">getRequiredFields</a>())</div>
@@ -1095,7 +1095,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Report)</div>
+<div class="line">                                                                        .withType(StandardEntryType.REPORT)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.NUMBER, StandardField.ISRN,</div>
 <div class="line">                    StandardField.CHAPTER, StandardField.PAGES, StandardField.PAGETOTAL, StandardField.DOI, StandardField.EPRINT,</div>
@@ -1130,7 +1130,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Set)</div>
+<div class="line">                                                                     .withType(StandardEntryType.SET)</div>
 <div class="line">            .withRequiredFields(StandardField.ENTRYSET, StandardField.CROSSREF)</div>
 <div class="line">            .build()</div>
 </div><!-- fragment -->
@@ -1156,7 +1156,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Software)</div>
+<div class="line">                                                                          .withType(StandardEntryType.SOFTWARE)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.HOWPUBLISHED, StandardField.LOCATION, StandardField.DOI,</div>
 <div class="line">                    StandardField.EPRINT, StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -1189,7 +1189,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.SuppBook)</div>
+<div class="line">            .withType(StandardEntryType.SUPP_BOOK)</div>
 <div class="line">            .withImportantFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a9b9447ea25aac5b221b62387d967c63f">INBOOK</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a77a9841db28ddeaa6fc52e0d7ca48714">getPrimaryOptionalFields</a>())</div>
 <div class="line">            .withDetailFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a9b9447ea25aac5b221b62387d967c63f">INBOOK</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a31844e3b8ddcdd67458087bcc3b731ef">getSecondaryOptionalFields</a>())</div>
 <div class="line">            .withRequiredFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a9b9447ea25aac5b221b62387d967c63f">INBOOK</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a99bd16692caf6766b61f9e921beba432">getRequiredFields</a>())</div>
@@ -1217,7 +1217,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.SuppCollection)</div>
+<div class="line">            .withType(StandardEntryType.SUPP_COLLECTION)</div>
 <div class="line">            .withImportantFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a1c788f231eaff98871f8ab4d00e2bfa0">INCOLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a77a9841db28ddeaa6fc52e0d7ca48714">getPrimaryOptionalFields</a>())</div>
 <div class="line">            .withDetailFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a1c788f231eaff98871f8ab4d00e2bfa0">INCOLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a31844e3b8ddcdd67458087bcc3b731ef">getSecondaryOptionalFields</a>())</div>
 <div class="line">            .withRequiredFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a1c788f231eaff98871f8ab4d00e2bfa0">INCOLLECTION</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a99bd16692caf6766b61f9e921beba432">getRequiredFields</a>())</div>
@@ -1245,7 +1245,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.SuppPeriodical)</div>
+<div class="line">                                                                                .withType(StandardEntryType.SUPP_PERIODICAL)</div>
 <div class="line">            .withImportantFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#ad0d7eea6ed690b02f4bf77845219a2c8">ARTICLE</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a77a9841db28ddeaa6fc52e0d7ca48714">getPrimaryOptionalFields</a>())</div>
 <div class="line">            .withDetailFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#ad0d7eea6ed690b02f4bf77845219a2c8">ARTICLE</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a31844e3b8ddcdd67458087bcc3b731ef">getSecondaryOptionalFields</a>())</div>
 <div class="line">            .withRequiredFields(<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#ad0d7eea6ed690b02f4bf77845219a2c8">ARTICLE</a>.<a class="code" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#a99bd16692caf6766b61f9e921beba432">getRequiredFields</a>())</div>
@@ -1273,7 +1273,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.TechReport)</div>
+<div class="line">                                                                            .withType(StandardEntryType.TECH_REPORT)</div>
 <div class="line">            .withImportantFields(</div>
 <div class="line">                    StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.TYPE, StandardField.NUMBER, StandardField.ISRN,</div>
 <div class="line">                    StandardField.CHAPTER, StandardField.PAGES, StandardField.PAGETOTAL, StandardField.DOI, StandardField.EPRINT,</div>
@@ -1308,7 +1308,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Thesis)</div>
+<div class="line">                                                                        .withType(StandardEntryType.THESIS)</div>
 <div class="line">            .withImportantFields(StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.CHAPTER,</div>
 <div class="line">                    StandardField.PAGES, StandardField.PAGETOTAL, StandardField.DOI, StandardField.EPRINT, StandardField.EPRINTCLASS,</div>
 <div class="line">                    StandardField.EPRINTTYPE, StandardField.URL, StandardField.URLDATE)</div>
@@ -1341,7 +1341,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Unpublished)</div>
+<div class="line">                                                                             .withType(StandardEntryType.UNPUBLISHED)</div>
 <div class="line">            .withImportantFields(StandardField.SUBTITLE, StandardField.TITLEADDON, StandardField.HOWPUBLISHED,</div>
 <div class="line">                    StandardField.PUBSTATE, StandardField.URL, StandardField.URLDATE)</div>
 <div class="line">            .withRequiredFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.DATE)</div>

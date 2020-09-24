@@ -15,6 +15,7 @@ var classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application =
     [ "couldNotCall", "classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application.html#adb35136c4372a601b5234fd2408a6aa3", null ],
     [ "couldNotConnect", "classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application.html#a21c07d4f5bde52611337a6093e089237", null ],
     [ "dialogService", "classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application.html#af050891d4115f34b743e91f06b43c5aa", null ],
+    [ "ERROR_PUSHING_ENTRIES", "classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application.html#a9734c2d90f15abd10b59b644975e4143", null ],
     [ "LOGGER", "classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application.html#aad5cdc7d4b1299a9bd5a008334deef1b", null ],
     [ "notDefined", "classorg_1_1jabref_1_1gui_1_1push_1_1_abstract_push_to_application.html#ac8af5eddd710585fc2216e448c8122ca", null ]
 ];

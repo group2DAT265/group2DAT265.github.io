@@ -218,6 +218,9 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 <li>BIB_LOC_AS_PRIMARY_DIR
 : <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences.html#aa95e040a85363a41c67069192cedcb59">org.jabref.preferences.JabRefPreferences</a>
 </li>
+<li>BIBCODE
+: <a class="el" href="classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#aa1ee754cd72b554e6a7545243b3b9c30">org.jabref.logic.importer.fetcher.AstrophysicsDataSystem</a>
+</li>
 <li>bibDatabase
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_field_value_formatter.html#a1647e38466db49524332702f21533ae0">org.jabref.gui.maintable.MainTableFieldValueFormatter</a>
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1metadata_1_1_bibtex_string_editor_dialog_view_model.html#a1a9f72bf7b3639f1bd999db3567e4059">org.jabref.gui.metadata.BibtexStringEditorDialogViewModel</a>
@@ -477,7 +480,7 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 : <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences.html#a98082097de54cfd71cfae58dfaf315f0">org.jabref.preferences.JabRefPreferences</a>
 </li>
 <li>bindBidirectional()
-: <a class="el" href="classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper.html#a2e8fdb708ad8840fb88c7a01cb58eb77">org.jabref.gui.util.BindingsHelper</a>
+: <a class="el" href="classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper.html#a31b02915198fd7c9436da778191a3507">org.jabref.gui.util.BindingsHelper</a>
 </li>
 <li>bindContentBidirectional()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1util_1_1_bindings_helper.html#ab786b6217b034eb8c2dffb94eb0332a4">org.jabref.gui.util.BindingsHelper</a>
@@ -538,16 +541,13 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 </li>
 <li>BOOK
 : <a class="el" href="enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#aee4036f094b33c135cf056e6410bb76b">org.jabref.gui.icon.IconTheme.JabRefIcons</a>
-</li>
-<li>Book
-: <a class="el" href="enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#ae10780418655a187f834e75246754e33">org.jabref.logic.msbib.MSBibEntryType</a>
-</li>
-<li>BOOK
-: <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a7f4de1eb24daf88bfd0cc1306a0edf05">org.jabref.model.entry.types.BiblatexEntryTypeDefinitions</a>
+, <a class="el" href="enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#a9e371030274ec789a46402cd0d53766b">org.jabref.logic.msbib.MSBibEntryType</a>
+, <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a7f4de1eb24daf88bfd0cc1306a0edf05">org.jabref.model.entry.types.BiblatexEntryTypeDefinitions</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_bibtex_entry_type_definitions.html#a60949f40b7da02fbc33f3b3730575f11">org.jabref.model.entry.types.BibtexEntryTypeDefinitions</a>
+, <a class="el" href="enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#a0c352d1c97185847ffe12f81104fdee7">org.jabref.model.entry.types.StandardEntryType</a>
 </li>
-<li>Book
-: <a class="el" href="enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#a9e6c4b6962a34ab33ef5adb858990504">org.jabref.model.entry.types.StandardEntryType</a>
+<li>BOOK_IN_BOOK
+: <a class="el" href="enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#a810f9e951c76fa7a3830903d9b228182">org.jabref.model.entry.types.StandardEntryType</a>
 </li>
 <li>BOOK_NAME
 : <a class="el" href="enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_field_property.html#ada2c8a5ed1faee56d002112a58f963b4">org.jabref.model.entry.field.FieldProperty</a>
@@ -555,27 +555,22 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 <li>BOOK_PATTERN
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_ovid_importer.html#a52c9dec86ef4667ae3b1c8260c662929">org.jabref.logic.importer.fileformat.OvidImporter</a>
 </li>
+<li>BOOK_SECTION
+: <a class="el" href="enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#ae3f4deaeddaf961696f55eca529c8821">org.jabref.logic.msbib.MSBibEntryType</a>
+</li>
 <li>BOOKAUTHOR
 : <a class="el" href="enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#aba9b82a7b32e51094e01d4f67571528b">org.jabref.model.entry.field.StandardField</a>
 </li>
 <li>BOOKINBOOK
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#af0a7ad54a7cfb3b88d48237180938a52">org.jabref.model.entry.types.BiblatexEntryTypeDefinitions</a>
 </li>
-<li>BookInBook
-: <a class="el" href="enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#a88b6837a7b7074fe1ae67dfcbd0cbd90">org.jabref.model.entry.types.StandardEntryType</a>
-</li>
 <li>BOOKLET
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#a117de92ff72c5305442eb3ea803eb5d2">org.jabref.model.entry.types.BiblatexEntryTypeDefinitions</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_bibtex_entry_type_definitions.html#a60792bb48347bb9ea63420babebaf210">org.jabref.model.entry.types.BibtexEntryTypeDefinitions</a>
-</li>
-<li>Booklet
-: <a class="el" href="enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#ae021ed9d5331cee91ba38769b8569134">org.jabref.model.entry.types.StandardEntryType</a>
+, <a class="el" href="enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#aee22dbc5a8ce6bdd7157d5c69a3a7cfb">org.jabref.model.entry.types.StandardEntryType</a>
 </li>
 <li>BOOKPAGINATION
 : <a class="el" href="enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a4ae568f87abd6ccf05f04f8d258c2b8b">org.jabref.model.entry.field.StandardField</a>
-</li>
-<li>BookSection
-: <a class="el" href="enumorg_1_1jabref_1_1logic_1_1msbib_1_1_m_s_bib_entry_type.html#aa6492a8eab90f5f472ecb195455a6bad">org.jabref.logic.msbib.MSBibEntryType</a>
 </li>
 <li>BOOKSUBTITLE
 : <a class="el" href="enumorg_1_1jabref_1_1model_1_1entry_1_1field_1_1_standard_field.html#a94c58e8cc21ba8e9be87a4f0e99d0ef9">org.jabref.model.entry.field.StandardField</a>
@@ -593,7 +588,7 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1strings_1_1_string_util.html#aef49086a8b8fd4226aa8e2e732c7aad6">org.jabref.model.strings.StringUtil</a>
 </li>
 <li>bootstrap()
-: <a class="el" href="classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap.html#a7c1e8e67cca7595eaf834ffaab93012c">org.jabref.gui.openoffice.Bootstrap</a>
+: <a class="el" href="classorg_1_1jabref_1_1gui_1_1openoffice_1_1_bootstrap.html#a950b1e1f78b31e145529d18a833875da">org.jabref.gui.openoffice.Bootstrap</a>
 </li>
 <li>BOTH
 : <a class="el" href="enumorg_1_1jabref_1_1gui_1_1autocompleter_1_1_auto_complete_first_name_mode.html#a15a53af9fbd23518070ae2afb34d6fa4">org.jabref.gui.autocompleter.AutoCompleteFirstNameMode</a>
@@ -627,7 +622,7 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#ab6e0f1d79359488fccb4f7e5f8cbe3da">org.jabref.logic.openoffice.OOBibStyle</a>
 </li>
 <li>BracketedPattern()
-: <a class="el" href="classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a688b8b2b89e48936f22c7f0319695eda">org.jabref.logic.citationkeypattern.BracketedPattern</a>
+: <a class="el" href="classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a9d50a0e9a557e7ee76c60a2f83723360">org.jabref.logic.citationkeypattern.BracketedPattern</a>
 </li>
 <li>BRAZILIAN_PORTUGUESE
 : <a class="el" href="enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#aa7f1e28cd9b531ec417434ee544b6734">org.jabref.logic.l10n.Language</a>
@@ -669,8 +664,8 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#adea9bcb3e0dee9d37888292021879c17">org.jabref.gui.openoffice.ManualConnectDialogView</a>
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view_model.html#a14a33a8b83f089f20c609493ba4c9682">org.jabref.gui.openoffice.ManualConnectDialogViewModel</a>
 </li>
-<li>browseOOPath()
-: <a class="el" href="classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a13c7c16325b0a985eb2827be8b24a893">org.jabref.gui.openoffice.ManualConnectDialogView</a>
+<li>browseOOPath
+: <a class="el" href="classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a212b95effe7d60918c2a0f82678f8401">org.jabref.gui.openoffice.ManualConnectDialogView</a>
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view_model.html#a7e0b08c271e1655bd0575a8164181ea7">org.jabref.gui.openoffice.ManualConnectDialogViewModel</a>
 </li>
 <li>browseUserDir()

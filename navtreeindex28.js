@@ -1,5 +1,17 @@
 var NAVTREEINDEX28 =
 {
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a8c736f9db38dd88205b1f8095325bbc5":[2,0,0,0,2,48,16,0,7],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ab2da00058bab20a36c50ee4a3556bbce":[2,0,0,0,2,48,16,0,2],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ab903d3e3a42fc8557acde1407b824a74":[2,0,0,0,2,48,16,0,5],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#acde4c820559bfeab5de69acebce0abe0":[2,0,0,0,2,48,16,0,10],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ad189a0158ee514d36ca607d2f230aa71":[2,0,0,0,2,48,16,0,15],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ad75927fba330c94f957f364ea0771a02":[2,0,0,0,2,48,16,0,9],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ad77ef18e31520d61108b966db7646a3d":[2,0,0,0,2,48,16,0,3],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#aec789107f50e9c055adef60a1f3d8c71":[2,0,0,0,2,48,16,0,11],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html":[2,0,0,0,2,48,17],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html#a06408e8d9e37bc1aca02b8ac7a60b849":[2,0,0,0,2,48,17,0],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html#a1459b962f531951bfcb403c435678120":[2,0,0,0,2,48,17,6],
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html#a58b990d33b7febd45a8a4fce9d3d8faa":[2,0,0,0,2,48,17,9],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html#a6d505e8e264b337e45d1be93356bf42a":[2,0,0,0,2,48,17,5],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html#a76d88d963b94458fe91a18bb15822cae":[2,0,0,0,2,48,17,4],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html#a7a5419e18cf3d98ac4ab2c09df0fc645":[2,0,0,0,2,48,17,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX28 =
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html":[2,0,0,0,2,48,1,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a2b585c162e1ddc70f337e1ffab13dd24":[2,0,0,0,2,48,1,0,4],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a3a53fe3d49a6cb3bf0d268699961dd7e":[2,0,0,0,2,48,1,0,5],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a46e683f435bc5e3a977e44266db64076":[2,0,0,0,2,48,1,0,1],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a65730f66cabb4fa282672e400c7a0abc":[2,0,0,0,2,48,1,0,0],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#aa17de89abdb530ee800b5a4159ccd343":[2,0,0,0,2,48,1,0,2],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#ad77fcb7af3e8dec609d07f1493349cf9":[2,0,0,0,2,48,1,0,3],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html":[2,0,0,0,2,48,1,1],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#a0c9c15012cb336bc8d58ba70d3152b97":[2,0,0,0,2,48,1,1,8],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#a0cd52e8d28c8fdcc324c25364a762c48":[2,0,0,0,2,48,1,1,3],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#a1029d88f6125679e8cd725a9a7761c1e":[2,0,0,0,2,48,1,1,1],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#a9cbf3cc2d2af620acdf6e7ecf492ab2d":[2,0,0,0,2,48,1,1,6],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#ab72798545f6a84c003d50518098c66ce":[2,0,0,0,2,48,1,1,9],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#ac3c3e0208de8773bdc548df8c7296b80":[2,0,0,0,2,48,1,1,5],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#ad3c5d89860a2765e1f60f01ea4edafcc":[2,0,0,0,2,48,1,1,7],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_tag.html#aea3c3715501e6d14f38c3cceafaa9786":[2,0,0,0,2,48,1,1,4]
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a46e683f435bc5e3a977e44266db64076":[2,0,0,0,2,48,1,0,1]
 };

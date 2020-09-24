@@ -12,6 +12,7 @@ var classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer =
     [ "parsePages", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer.html#a38b2c8d750fb9f2ab423defac4dbd2a1", null ],
     [ "processCapitalization", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer.html#a1c735ca38dc438f1ee5d21f124f8c9db", null ],
     [ "processSubSup", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer.html#a8b1856233a08111e553fc86cbf4a7aed", null ],
+    [ "AND", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer.html#a054300012aa4e9e65f12a2d6bdc26865", null ],
     [ "EOL", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer.html#aa6b92ef5a5fb75512a6cf75e2664e549", null ],
     [ "EOL_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer.html#a800551e999b1416e0a0dd8e2faed14cf", null ],
     [ "ISI_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_isi_importer.html#a8a06a8878ab5fdd60f4a106f065ef1d5", null ],

@@ -18,5 +18,8 @@ var classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_sys
     [ "API_EXPORT_URL", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#aa8d10969dddca2a1d3a6bfe9a0e64ae9", null ],
     [ "API_KEY", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#a8ccfb92f67662cbc59ac315ec8f029e9", null ],
     [ "API_SEARCH_URL", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#a99f9751670bc324fce2d2069aea45a6c", null ],
-    [ "preferences", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#a98431d9f99a54ac723ec7b7f98b4346a", null ]
+    [ "BIBCODE", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#aa1ee754cd72b554e6a7545243b3b9c30", null ],
+    [ "NETWORK_ERROR_OCCURRED", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#affe918be8fcca063310c95760453316e", null ],
+    [ "preferences", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#a98431d9f99a54ac723ec7b7f98b4346a", null ],
+    [ "SEARCH_URI_MALFORMED", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_astrophysics_data_system.html#afe51a40716bfb91de6046075cdecb178", null ]
 ];

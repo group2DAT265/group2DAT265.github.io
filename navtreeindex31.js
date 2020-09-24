@@ -1,5 +1,17 @@
 var NAVTREEINDEX31 =
 {
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a64f68f74d6e9238297793863851a9c21":[2,0,0,0,3,4,1,5],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a6603918d6dc439fcc300757999dc065d":[2,0,0,0,3,4,1,34],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a688b8b2b89e48936f22c7f0319695eda":[2,0,0,0,3,4,1,1],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a6954a52f3533fac7f97e95c0e9557631":[2,0,0,0,3,4,1,26],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a747cda110aadbacd45284b1408a81a71":[2,0,0,0,3,4,1,47],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a762d33ab727963d3137a9d8e75509db9":[2,0,0,0,3,4,1,45],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a7dfe933a5e228c2c0e7de72d1894dd2b":[2,0,0,0,3,4,1,38],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a7eb2e2d1dcc5d716c9834e8addd89499":[2,0,0,0,3,4,1,7],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a84c116603be75b7fe4783f3cc95f7ce7":[2,0,0,0,3,4,1,41],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a8f62ed30d4aa9a896c68cb99324831d0":[2,0,0,0,3,4,1,22],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a9676c92de544666f3691d02d7240b7d2":[2,0,0,0,3,4,1,14],
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a983bcfffb3cb2eec094a253382cefb38":[2,0,0,0,3,4,1,31],
 "classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a9d50a0e9a557e7ee76c60a2f83723360":[2,0,0,0,3,4,1,2],
 "classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a9ece370c01023affbd2fd7847ad87566":[2,0,0,0,3,4,1,43],
 "classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#aa5772ecbe4096d51460c88355c94937c":[2,0,0,0,3,4,1,21],
@@ -237,17 +249,5 @@ var NAVTREEINDEX31 =
 "classorg_1_1jabref_1_1logic_1_1cleanup_1_1_rename_pdf_cleanup.html#a781d786f6a7a6fb82574aa289da84406":[2,0,0,0,3,6,18,5],
 "classorg_1_1jabref_1_1logic_1_1cleanup_1_1_rename_pdf_cleanup.html#aabb26f02e9a3b425537ea31b95c9ea02":[2,0,0,0,3,6,18,3],
 "classorg_1_1jabref_1_1logic_1_1cleanup_1_1_rename_pdf_cleanup.html#ab246643f42f5ab7165f7f31f39e775db":[2,0,0,0,3,6,18,1],
-"classorg_1_1jabref_1_1logic_1_1cleanup_1_1_rename_pdf_cleanup.html#ab6e5672b26d7d7fc3045577e451de8d1":[2,0,0,0,3,6,18,2],
-"classorg_1_1jabref_1_1logic_1_1cleanup_1_1_rename_pdf_cleanup.html#ac0c4b8094961ce0721c2ffef79999b14":[2,0,0,0,3,6,18,0],
-"classorg_1_1jabref_1_1logic_1_1cleanup_1_1_upgrade_pdf_ps_to_file_cleanup.html":[2,0,0,0,3,6,19],
-"classorg_1_1jabref_1_1logic_1_1cleanup_1_1_upgrade_pdf_ps_to_file_cleanup.html#a747e899ffbbac1a4ca25ba910cf6ba50":[2,0,0,0,3,6,19,0],
-"classorg_1_1jabref_1_1logic_1_1cleanup_1_1_upgrade_pdf_ps_to_file_cleanup.html#a8962de988706ffee52f0df037646eef3":[2,0,0,0,3,6,19,2],
-"classorg_1_1jabref_1_1logic_1_1cleanup_1_1_upgrade_pdf_ps_to_file_cleanup.html#afcaf9424938dca1cd178f05d15cf8597":[2,0,0,0,3,6,19,1],
-"classorg_1_1jabref_1_1logic_1_1database_1_1_database_merger.html":[2,0,0,0,3,7,0],
-"classorg_1_1jabref_1_1logic_1_1database_1_1_database_merger.html#a133ca9ba7dbd3eadb56cf737495da138":[2,0,0,0,3,7,0,1],
-"classorg_1_1jabref_1_1logic_1_1database_1_1_database_merger.html#a2f7b3d5b19d222a407f4f0308618d963":[2,0,0,0,3,7,0,4],
-"classorg_1_1jabref_1_1logic_1_1database_1_1_database_merger.html#a3d42a67747b6f38ddcac3616cf939cc9":[2,0,0,0,3,7,0,5],
-"classorg_1_1jabref_1_1logic_1_1database_1_1_database_merger.html#a489af1ee00f9fe9840fe2d4532808d1a":[2,0,0,0,3,7,0,2],
-"classorg_1_1jabref_1_1logic_1_1database_1_1_database_merger.html#a53770437795ee42160cbe39ffd5c6f50":[2,0,0,0,3,7,0,3],
-"classorg_1_1jabref_1_1logic_1_1database_1_1_database_merger.html#a916d7de7725a45ba1799cc4aa84069dd":[2,0,0,0,3,7,0,7]
+"classorg_1_1jabref_1_1logic_1_1cleanup_1_1_rename_pdf_cleanup.html#ab6e5672b26d7d7fc3045577e451de8d1":[2,0,0,0,3,6,18,2]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX27 =
 {
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_string.html#a36df466916d2195a19e2178d486389bd":[2,0,0,0,2,47,6,3],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_string.html#a4741cc839aeb2809bcdd79710f37fc33":[2,0,0,0,2,47,6,4],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_string.html#a52f687c52708fac86e35f1622849decb":[2,0,0,0,2,47,6,2],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_string.html#a90148af5d16a11ae5466a0278252a62a":[2,0,0,0,2,47,6,5],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_string.html#ad623d7d18c6df0d343098a1247392ab7":[2,0,0,0,2,47,6,6],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_string.html#afdf490bef3beee8ad8a2aac57b204a21":[2,0,0,0,2,47,6,0],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change.html":[2,0,0,0,2,47,7],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change.html#a1311cdd210b412330c91f0d092e80815":[2,0,0,0,2,47,7,5],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change.html#a4274d50230106d0ee75e06ccd60fbc2c":[2,0,0,0,2,47,7,0],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change.html#a623567c6191d327ebe64dcbfdc8c1df0":[2,0,0,0,2,47,7,1],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change.html#a790e8f1f9958b70fba43a0125d00a01b":[2,0,0,0,2,47,7,3],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change.html#aa3b34a2b76dd333623630dbd6b622c95":[2,0,0,0,2,47,7,4],
 "classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change.html#aac0c7023ba747f81f9d1c26eb894bccb":[2,0,0,0,2,47,7,6],
 "classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change.html#ace9e53f8dcdfa4aab5f4fd747ec631dc":[2,0,0,0,2,47,7,2],
 "classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_key_change.html#ad6c6a7352e0c4b52a5e3266e1f935295":[2,0,0,0,2,47,7,7],
@@ -237,17 +249,5 @@ var NAVTREEINDEX27 =
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a72079777ede37b0b58b1150354ef4acc":[2,0,0,0,2,48,16,0,13],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a7d812146c84764e7042ec1d45958ecf1":[2,0,0,0,2,48,16,0,14],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a83b4b5e02a3dd29c3f35e0ce27af2c93":[2,0,0,0,2,48,16,0,1],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a84615b42ae5639b62cb926971221e8fb":[2,0,0,0,2,48,16,0,4],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a8c736f9db38dd88205b1f8095325bbc5":[2,0,0,0,2,48,16,0,7],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ab2da00058bab20a36c50ee4a3556bbce":[2,0,0,0,2,48,16,0,2],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ab903d3e3a42fc8557acde1407b824a74":[2,0,0,0,2,48,16,0,5],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#acde4c820559bfeab5de69acebce0abe0":[2,0,0,0,2,48,16,0,10],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ad189a0158ee514d36ca607d2f230aa71":[2,0,0,0,2,48,16,0,15],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ad75927fba330c94f957f364ea0771a02":[2,0,0,0,2,48,16,0,9],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ad77ef18e31520d61108b966db7646a3d":[2,0,0,0,2,48,16,0,3],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#aec789107f50e9c055adef60a1f3d8c71":[2,0,0,0,2,48,16,0,11],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html":[2,0,0,0,2,48,17],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html#a06408e8d9e37bc1aca02b8ac7a60b849":[2,0,0,0,2,48,17,0],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html#a1459b962f531951bfcb403c435678120":[2,0,0,0,2,48,17,6],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_filter_converter.html#a58b990d33b7febd45a8a4fce9d3d8faa":[2,0,0,0,2,48,17,9]
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a84615b42ae5639b62cb926971221e8fb":[2,0,0,0,2,48,16,0,4]
 };

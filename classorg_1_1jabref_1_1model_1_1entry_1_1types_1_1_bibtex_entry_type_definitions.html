@@ -230,7 +230,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Article)</div>
+<div class="line">                                                                         .withType(StandardEntryType.ARTICLE)</div>
 <div class="line">            .withRequiredFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.JOURNAL, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.VOLUME, StandardField.NUMBER, StandardField.PAGES, StandardField.MONTH, StandardField.ISSN, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -259,7 +259,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Book)</div>
+<div class="line">                                                                      .withType(StandardEntryType.BOOK)</div>
 <div class="line">            .withRequiredFields(<span class="keyword">new</span> OrFields(StandardField.AUTHOR, StandardField.EDITOR), StandardField.TITLE, StandardField.PUBLISHER, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.VOLUME, StandardField.NUMBER, StandardField.SERIES, StandardField.ADDRESS, StandardField.EDITION, StandardField.MONTH, StandardField.ISBN, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -288,7 +288,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Booklet)</div>
+<div class="line">                                                                         .withType(StandardEntryType.BOOKLET)</div>
 <div class="line">            .withRequiredFields(StandardField.TITLE)</div>
 <div class="line">            .withImportantFields(StandardField.AUTHOR, StandardField.HOWPUBLISHED, StandardField.ADDRESS, StandardField.MONTH, StandardField.YEAR, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -317,7 +317,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Conference)</div>
+<div class="line">                                                                            .withType(StandardEntryType.CONFERENCE)</div>
 <div class="line">            .withRequiredFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.BOOKTITLE, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.EDITOR, StandardField.VOLUME, StandardField.NUMBER, StandardField.SERIES, StandardField.PAGES, StandardField.ADDRESS, StandardField.MONTH, StandardField.ORGANIZATION, StandardField.PUBLISHER, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -346,7 +346,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.InBook)</div>
+<div class="line">                                                                        .withType(StandardEntryType.IN_BOOK)</div>
 <div class="line">            .withRequiredFields(Arrays.asList(<span class="keyword">new</span> OrFields(StandardField.CHAPTER, StandardField.PAGES), <span class="keyword">new</span> OrFields(StandardField.AUTHOR, StandardField.EDITOR)), StandardField.TITLE, StandardField.PUBLISHER, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.VOLUME, StandardField.NUMBER, StandardField.SERIES, StandardField.TYPE, StandardField.ADDRESS, StandardField.EDITION, StandardField.MONTH, StandardField.ISBN, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -375,7 +375,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.InCollection)</div>
+<div class="line">                                                                              .withType(StandardEntryType.IN_COLLECTION)</div>
 <div class="line">            .withRequiredFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.BOOKTITLE, StandardField.PUBLISHER, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.EDITOR, StandardField.VOLUME, StandardField.NUMBER, StandardField.SERIES, StandardField.TYPE, StandardField.CHAPTER, StandardField.PAGES, StandardField.ADDRESS, StandardField.EDITION, StandardField.MONTH, StandardField.ISBN, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -403,7 +403,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.InProceedings)</div>
+<div class="line">                                                                               .withType(StandardEntryType.IN_PROCEEDINGS)</div>
 <div class="line">            .withRequiredFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.BOOKTITLE, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.EDITOR, StandardField.VOLUME, StandardField.NUMBER, StandardField.SERIES, StandardField.PAGES, StandardField.ADDRESS, StandardField.MONTH, StandardField.ORGANIZATION, StandardField.PUBLISHER, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -431,7 +431,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder().withRequiredFields(StandardField.TITLE).withImportantFields(StandardField.AUTHOR, StandardField.ORGANIZATION, StandardField.ADDRESS, StandardField.EDITION, StandardField.MONTH, StandardField.YEAR, StandardField.ISBN, StandardField.NOTE).withType(StandardEntryType.Manual)</div>
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder().withRequiredFields(StandardField.TITLE).withImportantFields(StandardField.AUTHOR, StandardField.ORGANIZATION, StandardField.ADDRESS, StandardField.EDITION, StandardField.MONTH, StandardField.YEAR, StandardField.ISBN, StandardField.NOTE).withType(StandardEntryType.MANUAL)</div>
 <div class="line">                                                                        .build()</div>
 </div><!-- fragment --><p>Technical documentation. Required field: title. Optional fields: author, organization, address, edition, month, year, note. </p>
 
@@ -457,7 +457,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.MastersThesis)</div>
+<div class="line">                                                                               .withType(StandardEntryType.MASTER_THESIS)</div>
 <div class="line">            .withRequiredFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.SCHOOL, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.TYPE, StandardField.ADDRESS, StandardField.MONTH, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -486,7 +486,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Misc)</div>
+<div class="line">                                                                      .withType(StandardEntryType.MISC)</div>
 <div class="line">            .withImportantFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.HOWPUBLISHED, StandardField.MONTH, StandardField.YEAR, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
 </div><!-- fragment --><p>Use this type when nothing else fits. </p>
@@ -514,7 +514,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.PhdThesis)</div>
+<div class="line">                                                                           .withType(StandardEntryType.PHD_THESIS)</div>
 <div class="line">            .withRequiredFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.SCHOOL, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.TYPE, StandardField.ADDRESS, StandardField.MONTH, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -543,7 +543,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Proceedings)</div>
+<div class="line">                                                                             .withType(StandardEntryType.PROCEEDINGS)</div>
 <div class="line">            .withRequiredFields(StandardField.TITLE, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.EDITOR, StandardField.VOLUME, StandardField.NUMBER, StandardField.SERIES, StandardField.ADDRESS, StandardField.PUBLISHER, StandardField.MONTH, StandardField.ORGANIZATION, StandardField.ISBN, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -572,7 +572,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.TechReport)</div>
+<div class="line">                                                                            .withType(StandardEntryType.TECH_REPORT)</div>
 <div class="line">            .withRequiredFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.INSTITUTION, StandardField.YEAR)</div>
 <div class="line">            .withImportantFields(StandardField.TYPE, StandardField.NUMBER, StandardField.ADDRESS, StandardField.MONTH, StandardField.NOTE)</div>
 <div class="line">            .build()</div>
@@ -601,7 +601,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> BibEntryTypeBuilder()</div>
-<div class="line">            .withType(StandardEntryType.Unpublished)</div>
+<div class="line">                                                                             .withType(StandardEntryType.UNPUBLISHED)</div>
 <div class="line">            .withRequiredFields(StandardField.AUTHOR, StandardField.TITLE, StandardField.NOTE)</div>
 <div class="line">            .withImportantFields(StandardField.MONTH, StandardField.YEAR)</div>
 <div class="line">            .build()</div>

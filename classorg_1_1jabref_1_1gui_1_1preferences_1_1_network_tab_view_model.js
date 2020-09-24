@@ -26,7 +26,9 @@ var classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model =
     [ "dialogService", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a954dfe1d3d340f7b2a447388af766e91", null ],
     [ "initialProxyPreferences", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#aa768d9fc86fec580d1ab84461231bde7", null ],
     [ "initialRemotePreferences", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a5f98b86cad9c07fac06ce64357ba887a", null ],
+    [ "NETWORK", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a095b39ddd52fefcaf51a376c86d1f992", null ],
     [ "preferences", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a692169f233d9d6a9599f01b89a79b71d", null ],
+    [ "PROXY_CONFIGURATION", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a0357edab03172629e888aa973f33d30e", null ],
     [ "proxyHostnameProperty", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a72b7336c4b96c5ef87a80d45654a6dae", null ],
     [ "proxyHostnameValidator", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a7e57152e1f2db3df56eef4a9abe836f1", null ],
     [ "proxyPasswordProperty", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a1d34449a45c4918abd48dacec815225b", null ],
@@ -40,5 +42,6 @@ var classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model =
     [ "remotePortProperty", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#ad82c8fe4f3ff355a5ebc0f97b21f0c34", null ],
     [ "remotePortValidator", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a1964cd55fa93dc836ca5f045fef99433", null ],
     [ "remoteServerProperty", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a9f7dbd48337eb3836cb760454b3da0c4", null ],
-    [ "restartWarning", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a9621d97ae0534e6b74b6f233ad8cccc4", null ]
+    [ "restartWarning", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a9621d97ae0534e6b74b6f233ad8cccc4", null ],
+    [ "STRING_SERIES", "classorg_1_1jabref_1_1gui_1_1preferences_1_1_network_tab_view_model.html#a4ee598a5bc6dd6e109be3ec1bd044c05", null ]
 ];

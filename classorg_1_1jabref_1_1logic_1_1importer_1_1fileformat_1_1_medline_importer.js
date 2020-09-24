@@ -35,6 +35,7 @@ var classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer =
     [ "putIfValueNotNull", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer.html#a46ae577e5972fb5c716490067a69a0af", null ],
     [ "putStringFromSerializableList", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer.html#a55ffa3e9cd136638f82e92d43d9f5b01", null ],
     [ "unmarshallRoot", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer.html#af0df6089737bbd7be5a83216589d3199", null ],
+    [ "AND", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer.html#a2dd904eb032e77767ec82afb0f49d5d4", null ],
     [ "ENGLISH", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer.html#a2449c270d35b823460c14581ff1ec310", null ],
     [ "KEYWORD_SEPARATOR", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer.html#afcf5bbc87ddefc5d6762492b63b750d5", null ],
     [ "LOGGER", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_importer.html#aa0567ac68f29e8f49f4f2e8fa5a67afa", null ],

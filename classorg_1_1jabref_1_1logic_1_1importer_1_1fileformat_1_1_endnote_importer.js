@@ -9,6 +9,7 @@ var classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer =
     [ "importDatabase", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer.html#a61752a5a939abfd920dba3961616d7da", null ],
     [ "isRecognizedFormat", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer.html#af397bd942f8838b8aad83547fb078df8", null ],
     [ "A_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer.html#a53ae895f4bd9a6aaa9eb941b04588be3", null ],
+    [ "AND", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer.html#a87c77ccf49794597e22d374d8c0adea9", null ],
     [ "E_PATTERN", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer.html#a2cf3fdd0cb7f350a9c494d5e43d6968a", null ],
     [ "ENDOFRECORD", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer.html#a2f128861ef661e49a7218330cd1760ac", null ],
     [ "preferences", "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_endnote_importer.html#a0493704d5516420bd78cfbe4edbcccd0", null ]

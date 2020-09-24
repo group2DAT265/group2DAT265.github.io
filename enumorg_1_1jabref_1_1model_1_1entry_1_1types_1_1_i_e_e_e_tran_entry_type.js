@@ -5,9 +5,9 @@ var enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type =
     [ "getDisplayName", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#a1c2cf73e8c4173f97bac9cb4115bfc7d", null ],
     [ "getName", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#a8ded4ed5efdb4f5e4479f313920a5867", null ],
     [ "displayName", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#a966c9fc993beb5b7f28b10ee8d9899d1", null ],
-    [ "Electronic", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#aae58256a3367453564bc855709040815", null ],
-    [ "IEEEtranBSTCTL", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#ab849b6122f889f3d0fee3e0788a42aa0", null ],
-    [ "Patent", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#aa658f89565df5aa5b87b3d4f0c96913e", null ],
-    [ "Periodical", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#a9b81732e1be759e7d480d78388a8f921", null ],
-    [ "Standard", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#ada85150c0b2b8475cfa31ab59ad6c992", null ]
+    [ "ELECTRONIC", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#a1ff946e314054ed6865d61fb54707b76", null ],
+    [ "IEEE_TRAN_BSTCTL", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#a03667b57a83c44ffa4b6780f17518745", null ],
+    [ "PATENT", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#ac2125a945f76fa7620a019a6052d7f82", null ],
+    [ "PERIODICAL", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#ace16a83ad75e37403bb580aa3f49bdd9", null ],
+    [ "STANDARD", "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_i_e_e_e_tran_entry_type.html#ab836e380bb2e337d680a82a25cc01236", null ]
 ];
