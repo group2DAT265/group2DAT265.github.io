@@ -10,7 +10,7 @@ import org.jabref.model.entry.field.StandardField;
 
 public class BiblatexSoftwareEntryTypeDefinitions {
     private static final BibEntryType SOFTWARE = new BibEntryTypeBuilder()
-            .withType(StandardEntryType.Software)
+                                                                          .withType(StandardEntryType.SOFTWARE)
             .withImportantFields(StandardField.DATE, StandardField.DOI, StandardField.EPRINTTYPE, StandardField.EPRINTCLASS, StandardField.EPRINT,
                     StandardField.EDITOR, StandardField.FILE, StandardField.HALID, StandardField.HALVERSION, StandardField.INSTITUTION, StandardField.INTRODUCEDIN,
                     StandardField.LICENSE, StandardField.MONTH, StandardField.NOTE, StandardField.ORGANIZATION, StandardField.PUBLISHER, StandardField.RELATED,
@@ -19,7 +19,7 @@ public class BiblatexSoftwareEntryTypeDefinitions {
             .build();
 
     private static final BibEntryType SOFTWAREVERSION = new BibEntryTypeBuilder()
-            .withType(StandardEntryType.SoftwareVersion)
+                                                                                 .withType(StandardEntryType.SOFTWARE_VERSION)
             .withImportantFields(StandardField.DATE, StandardField.EPRINTCLASS, StandardField.EPRINTTYPE, StandardField.HALID, StandardField.HALVERSION,
                     StandardField.INSTITUTION, StandardField.INTRODUCEDIN, StandardField.LICENSE, StandardField.MONTH, StandardField.NOTE, StandardField.ORGANIZATION,
                     StandardField.PUBLISHER, StandardField.RELATED, StandardField.RELATEDTYPE, StandardField.RELATEDSTRING,
@@ -32,7 +32,7 @@ public class BiblatexSoftwareEntryTypeDefinitions {
             .withRequiredFields(new OrFields(StandardField.AUTHOR, StandardField.EDITOR), StandardField.TITLE, StandardField.URL, StandardField.YEAR)
             .build();
     private static final BibEntryType SOFTWAREMODULE = new BibEntryTypeBuilder()
-            .withType(StandardEntryType.SoftwareModule)
+                                                                                .withType(StandardEntryType.SOFTWARE_MODULE)
             .withImportantFields(StandardField.DATE, StandardField.DOI, StandardField.EPRINTTYPE, StandardField.EPRINTCLASS, StandardField.EPRINT,
                     StandardField.EDITOR, StandardField.FILE, StandardField.HALID, StandardField.HALVERSION, StandardField.INSTITUTION, StandardField.INTRODUCEDIN,
                     StandardField.LICENSE, StandardField.MONTH, StandardField.NOTE, StandardField.ORGANIZATION, StandardField.PUBLISHER, StandardField.RELATED,
@@ -41,7 +41,7 @@ public class BiblatexSoftwareEntryTypeDefinitions {
             .build();
 
     private static final BibEntryType CODEFRAGMENT = new BibEntryTypeBuilder()
-            .withType(StandardEntryType.CodeFragment)
+                                                                              .withType(StandardEntryType.CODE_FRAGMENT)
             .withImportantFields(StandardField.DATE, StandardField.DOI, StandardField.EPRINTTYPE, StandardField.EPRINTCLASS, StandardField.EPRINT,
                     StandardField.EDITOR, StandardField.FILE, StandardField.HALID, StandardField.HALVERSION, StandardField.INSTITUTION, StandardField.INTRODUCEDIN,
                     StandardField.LICENSE, StandardField.MONTH, StandardField.NOTE, StandardField.ORGANIZATION, StandardField.PUBLISHER, StandardField.RELATED,

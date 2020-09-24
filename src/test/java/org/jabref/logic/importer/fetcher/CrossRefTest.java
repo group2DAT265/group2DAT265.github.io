@@ -119,7 +119,7 @@ public class CrossRefTest {
 
     @Test
     public void performSearchByIdFindsPaperWithoutTitle() throws Exception {
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         entry.setField(StandardField.AUTHOR, "Dominik Wujastyk");
         entry.setField(StandardField.DOI, "10.1023/a:1003473214310");
         entry.setField(StandardField.ISSN, "0019-7246");

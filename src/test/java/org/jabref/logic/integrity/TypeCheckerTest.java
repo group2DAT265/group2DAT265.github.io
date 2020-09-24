@@ -18,14 +18,14 @@ public class TypeCheckerTest {
 
     @Test
     void inProceedingshasPagesNumbers() {
-        entry = new BibEntry(StandardEntryType.InProceedings);
+        entry = new BibEntry(StandardEntryType.IN_PROCEEDINGS);
         entry.setField(StandardField.PAGES, "11--15");
         assertEquals(Collections.emptyList(), checker.check(entry));
     }
 
     @Test
     void proceedingsDoesNotHavePageNumbers() {
-        entry = new BibEntry(StandardEntryType.Proceedings);
+        entry = new BibEntry(StandardEntryType.PROCEEDINGS);
         entry.setField(StandardField.PAGES, "11--15");
         assertEquals(List.of(new IntegrityMessage("wrong entry type as proceedings has page numbers", entry, StandardField.PAGES)), checker.check(entry));
     }

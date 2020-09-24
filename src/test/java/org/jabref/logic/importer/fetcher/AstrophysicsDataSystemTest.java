@@ -38,7 +38,7 @@ public class AstrophysicsDataSystemTest {
         fetcher = new AstrophysicsDataSystem(importFormatPreferences);
 
         diezSliceTheoremEntry = new BibEntry();
-        diezSliceTheoremEntry.setType(StandardEntryType.Article);
+        diezSliceTheoremEntry.setType(StandardEntryType.ARTICLE);
         diezSliceTheoremEntry.setCiteKey("2018arXiv181204698D");
         diezSliceTheoremEntry.setField(StandardField.AUTHOR, "Diez, Tobias and Rudolph, Gerd");
         diezSliceTheoremEntry.setField(StandardField.TITLE, "Slice theorem and orbit type stratification in infinite dimensions");
@@ -56,7 +56,7 @@ public class AstrophysicsDataSystemTest {
                 "We establish a general slice theorem for the action of a locally convex         Lie group on a locally convex manifold, which generalizes the         classical slice theorem of Palais to infinite dimensions. We         discuss two important settings under which the assumptions of         this theorem are fulfilled. First, using Gl{\\\"o}ckner's inverse         function theorem, we show that the linear action of a compact         Lie group on a Fr{\\'e}chet space admits a slice. Second, using         the Nash--Moser theorem, we establish a slice theorem for the         tame action of a tame Fr{\\'e}chet Lie group on a tame         Fr{\\'e}chet manifold. For this purpose, we develop the concept         of a graded Riemannian metric, which allows the construction of         a path-length metric compatible with the manifold topology and         of a local addition. Finally, generalizing a classical result in         finite dimensions, we prove that the existence of a slice         implies that the decomposition of the manifold into orbit types         of the group action is a stratification.");
 
         famaeyMcGaughEntry = new BibEntry();
-        famaeyMcGaughEntry.setType(StandardEntryType.Article);
+        famaeyMcGaughEntry.setType(StandardEntryType.ARTICLE);
         famaeyMcGaughEntry.setCiteKey("2012LRR....15...10F");
         famaeyMcGaughEntry.setField(StandardField.AUTHOR, "Famaey, Beno{\\^\\i}t and McGaugh, Stacy S.");
         famaeyMcGaughEntry.setField(StandardField.TITLE, "Modified Newtonian Dynamics (MOND): Observational Phenomenology and Relativistic Extensions");
@@ -75,7 +75,7 @@ public class AstrophysicsDataSystemTest {
         famaeyMcGaughEntry.setField(StandardField.URL, "https://ui.adsabs.harvard.edu/abs/2012LRR....15...10F");
 
         sunWelchEntry = new BibEntry();
-        sunWelchEntry.setType(StandardEntryType.Article);
+        sunWelchEntry.setType(StandardEntryType.ARTICLE);
         sunWelchEntry.setCiteKey("2012NatMa..11...44S");
         sunWelchEntry.setField(StandardField.AUTHOR, "Sun, Yanming and Welch, Gregory C. and Leong, Wei Lin and Takacs, Christopher J. and Bazan, Guillermo C. and Heeger, Alan J.");
         sunWelchEntry.setField(StandardField.DOI, "10.1038/nmat3160");
@@ -89,7 +89,7 @@ public class AstrophysicsDataSystemTest {
         sunWelchEntry.setField(StandardField.URL, "https://ui.adsabs.harvard.edu/abs/2012NatMa..11...44S");
 
         xiongSunEntry = new BibEntry();
-        xiongSunEntry.setType(StandardEntryType.Article);
+        xiongSunEntry.setType(StandardEntryType.ARTICLE);
         xiongSunEntry.setCiteKey("2007ITGRS..45..879X");
         xiongSunEntry.setField(StandardField.AUTHOR, "Xiong, Xiaoxiong and Sun, Junqiang and Barnes, William and Salomonson, Vincent and Esposito, Joseph and Erives, Hector and Guenther, Bruce");
         xiongSunEntry.setField(StandardField.DOI, "10.1109/TGRS.2006.890567");
@@ -103,7 +103,7 @@ public class AstrophysicsDataSystemTest {
         xiongSunEntry.setField(StandardField.URL, "https://ui.adsabs.harvard.edu/abs/2007ITGRS..45..879X");
 
         ingersollPollardEntry = new BibEntry();
-        ingersollPollardEntry.setType(StandardEntryType.Article);
+        ingersollPollardEntry.setType(StandardEntryType.ARTICLE);
         ingersollPollardEntry.setCiteKey("1982Icar...52...62I");
         ingersollPollardEntry.setField(StandardField.ABSTRACT, "If Jupiter's and Saturn's fluid interiors were inviscid and adiabatic,         any steady zonal motion would take the form of differentially         rotating cylinders concentric about the planetary axis of         rotation. B. A. Smith et al. [ Science215, 504-537 (1982)]         showed that Saturn's observed zonal wind profile extends a         significant distance below cloud base. Further extension into         the interior occurs if the values of the eddy viscosity and         superadiabaticity are small. We estimate these values using a         scaling analysis of deep convection in the presence of         differential rotation. The differential rotation inhibits the         convection and reduces the effective eddy viscosity. Viscous         dissipation of zonal mean kinetic energy is then within the         bounds set by the internal heat source. The differential         rotation increases the superadiabaticity, but not so much as to         eliminate the cylindrical structure of the flow. Very large         departures from adiabaticity, necessary for decoupling the         atmosphere and interior, do not occur. Using our scaling         analysis we develop the anelastic equations that describe         motions in Jupiter's and Saturn's interiors. A simple problem is         solved, that of an adiabatic fluid with a steady zonal wind         varying as a function of cylindrical radius. Low zonal         wavenumber perturbations are two dimensional (independent of the         axial coordinate) and obey a modified barotropic stability         equation. The parameter analogous to {\\ensuremath{\\beta}} is         negative and is three to four times larger than the         {\\ensuremath{\\beta}} for thin atmospheres. Jupiter's and         Saturn's observed zonal wind profiles are close to marginal         stability according to this deep sphere criterion, but are         several times supercritical according to the thin atmosphere         criterion.");
         ingersollPollardEntry.setField(StandardField.AUTHOR, "Ingersoll, A. P. and Pollard, D.");
@@ -119,7 +119,7 @@ public class AstrophysicsDataSystemTest {
         ingersollPollardEntry.setField(StandardField.URL, "https://ui.adsabs.harvard.edu/abs/1982Icar...52...62I");
 
         luceyPaulEntry = new BibEntry();
-        luceyPaulEntry.setType(StandardEntryType.Article);
+        luceyPaulEntry.setType(StandardEntryType.ARTICLE);
         luceyPaulEntry.setCiteKey("2000JGR...10520297L");
         luceyPaulEntry.setField(StandardField.AUTHOR, "Lucey, Paul G. and Blewett, David T. and Jolliff, Bradley L.");
         luceyPaulEntry.setField(StandardField.DOI, "10.1029/1999JE001117");

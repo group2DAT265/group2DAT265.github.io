@@ -23,6 +23,9 @@ public class DOI implements Identifier {
     public static final URI AGENCY_RESOLVER = URI.create("https://doi.org/doiRA");
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DOI.class);
+    
+    private static final String URN = "(?:urn:)?";
+    private static final String DOI = "(?:doi:)?";
 
     // DOI/Short DOI resolver
     private static final URI RESOLVER = URI.create("https://doi.org");
@@ -30,8 +33,8 @@ public class DOI implements Identifier {
     // Regex
     // (see http://www.doi.org/doi_handbook/2_Numbering.html)
     private static final String DOI_EXP = ""
-            + "(?:urn:)?"                       // optional urn
-            + "(?:doi:)?"                       // optional doi
+            + URN                       // optional urn
+            + DOI                       // optional doi
             + "("                               // begin group \1
             + "10"                              // directory indicator
             + "(?:\\.[0-9]+)+"                  // registrant codes
@@ -39,8 +42,8 @@ public class DOI implements Identifier {
             + "(?:.+)"                          // suffix alphanumeric string
             + ")";                              // end group \1
     private static final String FIND_DOI_EXP = ""
-            + "(?:urn:)?"                       // optional urn
-            + "(?:doi:)?"                       // optional doi
+            + URN                       // optional urn
+            + DOI                       // optional doi
             + "("                               // begin group \1
             + "10"                              // directory indicator
             + "(?:\\.[0-9]+)+"                  // registrant codes
@@ -50,16 +53,16 @@ public class DOI implements Identifier {
 
     // Regex (Short DOI)
     private static final String SHORT_DOI_EXP = ""
-            + "(?:urn:)?"                       // optional urn
-            + "(?:doi:)?"                       // optional doi
+            + URN                       // optional urn
+            + DOI                       // optional doi
             + "("                               // begin group \1
             + "10"                              // directory indicator
             + "[/:%]"                            // divider
             + "[a-zA-Z0-9]+"
             + ")";                              // end group \1
     private static final String FIND_SHORT_DOI_EXP = ""
-            + "(?:urn:)?"                       // optional urn
-            + "(?:doi:)?"                       // optional doi
+            + URN                       // optional urn
+            + DOI                       // optional doi
             + "("                               // begin group \1
             + "10"                              // directory indicator
             + "[/:]"                            // divider

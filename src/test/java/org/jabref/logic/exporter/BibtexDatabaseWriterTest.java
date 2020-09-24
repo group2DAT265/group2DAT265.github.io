@@ -126,7 +126,7 @@ class BibtexDatabaseWriterTest {
     @Test
     void writeEntry() throws Exception {
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         database.insertEntry(entry);
 
         databaseWriter.savePartOfDatabase(bibtexContext, Collections.singletonList(entry));
@@ -142,7 +142,7 @@ class BibtexDatabaseWriterTest {
     void writeEncodingAndEntry() throws Exception {
         when(preferences.getEncoding()).thenReturn(StandardCharsets.US_ASCII);
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         database.insertEntry(entry);
 
         databaseWriter.savePartOfDatabase(bibtexContext, Collections.singletonList(entry));
@@ -419,7 +419,7 @@ class BibtexDatabaseWriterTest {
     @Test
     void writeSavedSerializationOfEntryIfUnchanged() throws Exception {
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setField(StandardField.AUTHOR, "Mr. author");
         entry.setParsedSerialization("presaved serialization");
         entry.setChanged(false);
@@ -433,7 +433,7 @@ class BibtexDatabaseWriterTest {
     @Test
     void reformatEntryIfAskedToDoSo() throws Exception {
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setField(StandardField.AUTHOR, "Mr. author");
         entry.setParsedSerialization("wrong serialization");
         entry.setChanged(false);
@@ -512,7 +512,7 @@ class BibtexDatabaseWriterTest {
     void writeCustomKeyPattern() throws Exception {
         AbstractCitationKeyPattern pattern = new DatabaseCitationKeyPattern(mock(GlobalCitationKeyPattern.class));
         pattern.setDefaultValue("test");
-        pattern.addCitationKeyPattern(StandardEntryType.Article, "articleTest");
+        pattern.addCitationKeyPattern(StandardEntryType.ARTICLE, "articleTest");
         metaData.setCiteKeyPattern(pattern);
 
         databaseWriter.savePartOfDatabase(bibtexContext, Collections.emptyList());
@@ -564,17 +564,17 @@ class BibtexDatabaseWriterTest {
         metaData.setSaveOrderConfig(saveOrderConfig);
 
         BibEntry firstEntry = new BibEntry();
-        firstEntry.setType(StandardEntryType.Article);
+        firstEntry.setType(StandardEntryType.ARTICLE);
         firstEntry.setField(StandardField.AUTHOR, "A");
         firstEntry.setField(StandardField.YEAR, "2010");
 
         BibEntry secondEntry = new BibEntry();
-        secondEntry.setType(StandardEntryType.Article);
+        secondEntry.setType(StandardEntryType.ARTICLE);
         secondEntry.setField(StandardField.AUTHOR, "A");
         secondEntry.setField(StandardField.YEAR, "2000");
 
         BibEntry thirdEntry = new BibEntry();
-        thirdEntry.setType(StandardEntryType.Article);
+        thirdEntry.setType(StandardEntryType.ARTICLE);
         thirdEntry.setField(StandardField.AUTHOR, "B");
         thirdEntry.setField(StandardField.YEAR, "2000");
 
@@ -606,17 +606,17 @@ class BibtexDatabaseWriterTest {
     @Test
     void writeEntriesInOriginalOrderWhenNoSaveOrderConfigIsSetInMetadata() throws Exception {
         BibEntry firstEntry = new BibEntry();
-        firstEntry.setType(StandardEntryType.Article);
+        firstEntry.setType(StandardEntryType.ARTICLE);
         firstEntry.setField(StandardField.AUTHOR, "A");
         firstEntry.setField(StandardField.YEAR, "2010");
 
         BibEntry secondEntry = new BibEntry();
-        secondEntry.setType(StandardEntryType.Article);
+        secondEntry.setType(StandardEntryType.ARTICLE);
         secondEntry.setField(StandardField.AUTHOR, "B");
         secondEntry.setField(StandardField.YEAR, "2000");
 
         BibEntry thirdEntry = new BibEntry();
-        thirdEntry.setType(StandardEntryType.Article);
+        thirdEntry.setType(StandardEntryType.ARTICLE);
         thirdEntry.setField(StandardField.AUTHOR, "A");
         thirdEntry.setField(StandardField.YEAR, "2000");
 
@@ -647,7 +647,7 @@ class BibtexDatabaseWriterTest {
 
     @Test
     void trimFieldContents() throws IOException {
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         entry.setField(StandardField.NOTE, "        some note    \t");
         database.insertEntry(entry);
 
@@ -664,7 +664,7 @@ class BibtexDatabaseWriterTest {
     void newlineAtEndOfAbstractFieldIsDeleted() throws Exception {
         String text = "lorem ipsum lorem ipsum" + OS.NEWLINE + "lorem ipsum lorem ipsum";
 
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         entry.setField(StandardField.ABSTRACT, text + OS.NEWLINE);
         database.insertEntry(entry);
 

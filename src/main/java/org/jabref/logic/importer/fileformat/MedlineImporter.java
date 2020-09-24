@@ -104,6 +104,8 @@ public class MedlineImporter extends Importer implements Parser {
         return Joiner.on(string).join(list);
     }
 
+    private static final String AND = " and ";
+
     @Override
     public String getName() {
         return "Medline/PubMed";
@@ -267,7 +269,7 @@ public class MedlineImporter extends Importer implements Parser {
             putIfValueNotNull(fields, StandardField.PUBSTATE, bookData.getPublicationStatus());
         }
 
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         entry.setField(fields);
 
         bibItems.add(entry);
@@ -414,7 +416,7 @@ public class MedlineImporter extends Importer implements Parser {
             }
         }
 
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         entry.setField(fields);
 
         bibItems.add(entry);
@@ -468,7 +470,7 @@ public class MedlineImporter extends Importer implements Parser {
                     fields.put(new UnknownField("affiliation"), join(affiliationInfos, ", "));
                 }
             }
-            fields.put(new UnknownField("investigator"), join(investigatorNames, " and "));
+            fields.put(new UnknownField("investigator"), join(investigatorNames, AND));
         }
     }
 
@@ -518,7 +520,7 @@ public class MedlineImporter extends Importer implements Parser {
                     }
                     personalNames.add(name);
                 }
-                fields.put(StandardField.AUTHOR, join(personalNames, " and "));
+                fields.put(StandardField.AUTHOR, join(personalNames, AND));
             }
         }
     }
@@ -667,7 +669,7 @@ public class MedlineImporter extends Importer implements Parser {
                 authorNames.add(authorName);
             }
         }
-        fields.put(StandardField.AUTHOR, join(authorNames, " and "));
+        fields.put(StandardField.AUTHOR, join(authorNames, AND));
     }
 
     private void addDateRevised(Map<Field, String> fields, DateRevised dateRevised) {

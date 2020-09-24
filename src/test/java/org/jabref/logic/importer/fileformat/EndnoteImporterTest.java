@@ -86,13 +86,13 @@ public class EndnoteImporterTest {
         assertEquals(5, bibEntries.size());
 
         BibEntry first = bibEntries.get(0);
-        assertEquals(StandardEntryType.Misc, first.getType());
+        assertEquals(StandardEntryType.MISC, first.getType());
         assertEquals(Optional.of("testA0 and testA1"), first.getField(StandardField.AUTHOR));
         assertEquals(Optional.of("testE0 and testE1"), first.getField(StandardField.EDITOR));
         assertEquals(Optional.of("testT"), first.getField(StandardField.TITLE));
 
         BibEntry second = bibEntries.get(1);
-        assertEquals(StandardEntryType.Misc, second.getType());
+        assertEquals(StandardEntryType.MISC, second.getType());
         assertEquals(Optional.of("testC"), second.getField(StandardField.ADDRESS));
         assertEquals(Optional.of("testB2"), second.getField(StandardField.BOOKTITLE));
         assertEquals(Optional.of("test8"), second.getField(StandardField.DATE));
@@ -101,16 +101,16 @@ public class EndnoteImporterTest {
         assertEquals(Optional.of("testD"), second.getField(StandardField.YEAR));
 
         BibEntry third = bibEntries.get(2);
-        assertEquals(StandardEntryType.Article, third.getType());
+        assertEquals(StandardEntryType.ARTICLE, third.getType());
         assertEquals(Optional.of("testB0"), third.getField(StandardField.JOURNAL));
 
         BibEntry fourth = bibEntries.get(3);
-        assertEquals(StandardEntryType.Book, fourth.getType());
+        assertEquals(StandardEntryType.BOOK, fourth.getType());
         assertEquals(Optional.of("testI0"), fourth.getField(StandardField.PUBLISHER));
         assertEquals(Optional.of("testB1"), fourth.getField(StandardField.SERIES));
 
         BibEntry fifth = bibEntries.get(4);
-        assertEquals(StandardEntryType.MastersThesis, fifth.getType());
+        assertEquals(StandardEntryType.MASTER_THESIS, fifth.getType());
         assertEquals(Optional.of("testX"), fifth.getField(StandardField.ABSTRACT));
         assertEquals(Optional.of("testF"), fifth.getCiteKeyOptional());
         assertEquals(Optional.of("testR"), fifth.getField(StandardField.DOI));
@@ -132,7 +132,7 @@ public class EndnoteImporterTest {
         BibEntry entry = bibEntries.get(0);
 
         assertEquals(1, bibEntries.size());
-        assertEquals(StandardEntryType.Misc, entry.getType());
+        assertEquals(StandardEntryType.MISC, entry.getType());
         assertEquals(Optional.of("testA"), entry.getField(StandardField.AUTHOR));
         assertEquals(Optional.of("testE0, testE1"), entry.getField(StandardField.EDITOR));
         assertEquals(Optional.of("testO"), entry.getField(StandardField.PAGES));
@@ -146,7 +146,7 @@ public class EndnoteImporterTest {
         BibEntry entry = bibEntries.get(0);
 
         assertEquals(1, bibEntries.size());
-        assertEquals(StandardEntryType.Book, entry.getType());
+        assertEquals(StandardEntryType.BOOK, entry.getType());
         assertEquals(Optional.of("Heidelberg"), entry.getField(StandardField.ADDRESS));
         assertEquals(Optional.of("Preißel, René and Stachmann, Bjørn"), entry.getField(StandardField.AUTHOR));
         assertEquals(Optional.of("3., aktualisierte und erweiterte Auflage"), entry.getField(StandardField.EDITION));

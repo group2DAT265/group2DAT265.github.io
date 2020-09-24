@@ -30,7 +30,7 @@ public class DoiFetcherTest {
         fetcher = new DoiFetcher(mock(ImportFormatPreferences.class, Answers.RETURNS_DEEP_STUBS));
 
         bibEntryBurd2011 = new BibEntry();
-        bibEntryBurd2011.setType(StandardEntryType.Book);
+        bibEntryBurd2011.setType(StandardEntryType.BOOK);
         bibEntryBurd2011.setCiteKey("Burd_2011");
         bibEntryBurd2011.setField(StandardField.TITLE, "Java{\\textregistered} For Dummies{\\textregistered}");
         bibEntryBurd2011.setField(StandardField.PUBLISHER, "Wiley Publishing, Inc.");
@@ -40,7 +40,7 @@ public class DoiFetcherTest {
         bibEntryBurd2011.setField(StandardField.DOI, "10.1002/9781118257517");
 
         bibEntryDecker2007 = new BibEntry();
-        bibEntryDecker2007.setType(StandardEntryType.InProceedings);
+        bibEntryDecker2007.setType(StandardEntryType.IN_PROCEEDINGS);
         bibEntryDecker2007.setCiteKey("Decker_2007");
         bibEntryDecker2007.setField(StandardField.AUTHOR, "Gero Decker and Oliver Kopp and Frank Leymann and Mathias Weske");
         bibEntryDecker2007.setField(StandardField.BOOKTITLE, "{IEEE} International Conference on Web Services ({ICWS} 2007)");
@@ -51,7 +51,7 @@ public class DoiFetcherTest {
         bibEntryDecker2007.setField(StandardField.DOI, "10.1109/icws.2007.59");
 
         // mEDRA BibEntry
-        bibEntryIannarelli2019 = new BibEntry(StandardEntryType.Article)
+        bibEntryIannarelli2019 = new BibEntry(StandardEntryType.ARTICLE)
                                                                         .withField(StandardField.AUTHOR,
                                                                                    ""
                                                                                                          + "Iannarelli Riccardo  and "

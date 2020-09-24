@@ -79,9 +79,9 @@ public class Medra implements IdBasedParserFetcher {
     private EntryType convertType(String type) {
         switch (type) {
             case "article-journal":
-                return StandardEntryType.Article;
+                return StandardEntryType.ARTICLE;
             default:
-                return StandardEntryType.Misc;
+                return StandardEntryType.MISC;
         }
     }
 

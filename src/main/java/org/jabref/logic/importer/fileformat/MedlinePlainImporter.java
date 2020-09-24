@@ -34,6 +34,8 @@ public class MedlinePlainImporter extends Importer {
     private static final Pattern CREATE_DATE_PATTERN = Pattern.compile("\\d{4}/[0123]?\\d/\\s?[012]\\d:[0-5]\\d");
     private static final Pattern COMPLETE_DATE_PATTERN = Pattern.compile("\\d{8}");
 
+    private static final String INVESTIGATOR = "investigator";
+
     @Override
     public String getName() {
         return "Medline/PubMed Plain";
@@ -180,11 +182,11 @@ public class MedlinePlainImporter extends Importer {
                 }
 
                 if ("IRAD".equals(label) || "IR".equals(label) || "FIR".equals(label)) {
-                    String oldInvestigator = fieldConversionMap.get(new UnknownField("investigator"));
+                    String oldInvestigator = fieldConversionMap.get(new UnknownField(INVESTIGATOR));
                     if (oldInvestigator == null) {
-                        fieldConversionMap.put(new UnknownField("investigator"), value);
+                        fieldConversionMap.put(new UnknownField(INVESTIGATOR), value);
                     } else {
-                        fieldConversionMap.put(new UnknownField("investigator"), oldInvestigator + ", " + value);
+                        fieldConversionMap.put(new UnknownField(INVESTIGATOR), oldInvestigator + ", " + value);
                     }
                 } else if ("MH".equals(label) || "OT".equals(label)) {
                     if (!fieldConversionMap.containsKey(StandardField.KEYWORDS)) {
@@ -227,24 +229,24 @@ public class MedlinePlainImporter extends Importer {
         String val = value.toLowerCase(Locale.ENGLISH);
         switch (val) {
             case "book":
-                return StandardEntryType.Book;
+                return StandardEntryType.BOOK;
             case "journal article":
             case "classical article":
             case "corrected and republished article":
             case "historical article":
             case "introductory journal article":
             case "newspaper article":
-                return StandardEntryType.Article;
+                return StandardEntryType.ARTICLE;
             case "clinical conference":
             case "consensus development conference":
             case "consensus development conference, nih":
-                return StandardEntryType.Conference;
+                return StandardEntryType.CONFERENCE;
             case "technical report":
-                return StandardEntryType.TechReport;
+                return StandardEntryType.TECH_REPORT;
             case "editorial":
-                return StandardEntryType.InProceedings;
+                return StandardEntryType.IN_PROCEEDINGS;
             case "overall":
-                return StandardEntryType.Proceedings;
+                return StandardEntryType.PROCEEDINGS;
             default:
                 return type;
         }
@@ -319,7 +321,7 @@ public class MedlinePlainImporter extends Importer {
         } else if ("BTI".equals(lab) || "CTI".equals(lab)) {
             hm.put(StandardField.BOOKTITLE, val);
         } else if ("JT".equals(lab)) {
-            if (type.equals(StandardEntryType.InProceedings)) {
+            if (type.equals(StandardEntryType.IN_PROCEEDINGS)) {
                 hm.put(StandardField.BOOKTITLE, val);
             } else {
                 hm.put(StandardField.JOURNAL, val);

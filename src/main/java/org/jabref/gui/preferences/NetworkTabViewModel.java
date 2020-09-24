@@ -52,6 +52,10 @@ public class NetworkTabViewModel implements PreferenceTabViewModel {
 
     private final List<String> restartWarning = new ArrayList<>();
 
+    private static final String STRING_SERIES = "\"%s > %s %n %n %s\"";
+    private static final String NETWORK = "Network";
+    private static final String PROXY_CONFIGURATION = "Proxy configuration";
+
     public NetworkTabViewModel(DialogService dialogService, PreferencesService preferences) {
         this.dialogService = dialogService;
         this.preferences = preferences;
@@ -68,44 +72,45 @@ public class NetworkTabViewModel implements PreferenceTabViewModel {
                         return false;
                     }
                 },
-                ValidationMessage.error(String.format("%s > %s %n %n %s",
-                        Localization.lang("Network"),
+                                                           ValidationMessage.error(String.format(STRING_SERIES,
+                                                                                                 Localization.lang(NETWORK),
                         Localization.lang("Remote operation"),
                         Localization.lang("You must enter an integer value in the interval 1025-65535"))));
 
         proxyHostnameValidator = new FunctionBasedValidator<>(
                 proxyHostnameProperty,
                 input -> !StringUtil.isNullOrEmpty(input),
-                ValidationMessage.error(String.format("%s > %s %n %n %s",
-                        Localization.lang("Network"),
-                        Localization.lang("Proxy configuration"),
+                                                              ValidationMessage.error(String.format(STRING_SERIES,
+                                                                                                    Localization.lang(NETWORK),
+                                                                                                    Localization.lang(PROXY_CONFIGURATION),
                         Localization.lang("Please specify a hostname"))));
 
         proxyPortValidator = new FunctionBasedValidator<>(
                 proxyPortProperty,
                 input -> getPortAsInt(input).isPresent(),
-                ValidationMessage.error(String.format("%s > %s %n %n %s",
-                        Localization.lang("Network"),
-                        Localization.lang("Proxy configuration"),
+                                                          ValidationMessage.error(String.format(STRING_SERIES,
+                                                                                                Localization.lang(NETWORK),
+                                                                                                Localization.lang(PROXY_CONFIGURATION),
                         Localization.lang("Please specify a port"))));
 
         proxyUsernameValidator = new FunctionBasedValidator<>(
                 proxyUsernameProperty,
                 input -> !StringUtil.isNullOrEmpty(input),
-                ValidationMessage.error(String.format("%s > %s %n %n %s",
-                        Localization.lang("Network"),
-                        Localization.lang("Proxy configuration"),
+                                                              ValidationMessage.error(String.format(STRING_SERIES,
+                                                                                                    Localization.lang(NETWORK),
+                                                                                                    Localization.lang(PROXY_CONFIGURATION),
                         Localization.lang("Please specify a username"))));
 
         proxyPasswordValidator = new FunctionBasedValidator<>(
                 proxyPasswordProperty,
                 input -> input.length() > 0,
-                ValidationMessage.error(String.format("%s > %s %n %n %s",
-                        Localization.lang("Network"),
-                        Localization.lang("Proxy configuration"),
+                                                              ValidationMessage.error(String.format(STRING_SERIES,
+                                                                                                    Localization.lang(NETWORK),
+                                                                                                    Localization.lang(PROXY_CONFIGURATION),
                         Localization.lang("Please specify a password"))));
     }
 
+    @Override
     public void setValues() {
         remoteServerProperty.setValue(initialRemotePreferences.useRemoteServer());
         remotePortProperty.setValue(String.valueOf(initialRemotePreferences.getPort()));
@@ -122,6 +127,7 @@ public class NetworkTabViewModel implements PreferenceTabViewModel {
         proxyPasswordProperty.setValue(initialProxyPreferences.getPassword());
     }
 
+    @Override
     public void storeSettings() {
         storeRemoteSettings();
         storeProxySettings();
@@ -196,6 +202,7 @@ public class NetworkTabViewModel implements PreferenceTabViewModel {
         return proxyPasswordValidator.getValidationStatus();
     }
 
+    @Override
     public boolean validateSettings() {
         CompositeValidator validator = new CompositeValidator();
 

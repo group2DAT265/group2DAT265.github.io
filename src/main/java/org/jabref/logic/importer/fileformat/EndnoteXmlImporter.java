@@ -160,20 +160,20 @@ public class EndnoteXmlImporter extends Importer implements Parser {
     private static EntryType convertRefNameToType(String refName) {
         switch (refName.toLowerCase().trim()) {
             case "artwork":
-                return StandardEntryType.Misc;
+                return StandardEntryType.MISC;
             case "generic":
-                return StandardEntryType.Misc;
+                return StandardEntryType.MISC;
             case "electronic article":
-                return IEEETranEntryType.Electronic;
+                return IEEETranEntryType.ELECTRONIC;
             case "book section":
-                return StandardEntryType.InBook;
+                return StandardEntryType.IN_BOOK;
             case "book":
-                return StandardEntryType.Book;
+                return StandardEntryType.BOOK;
             case "journal article":
-                return StandardEntryType.Article;
+                return StandardEntryType.ARTICLE;
 
             default:
-                return StandardEntryType.Article;
+                return StandardEntryType.ARTICLE;
         }
     }
 
@@ -238,7 +238,7 @@ public class EndnoteXmlImporter extends Importer implements Parser {
         return Optional.ofNullable(record.getRefType())
                        .map(RefType::getName)
                        .map(EndnoteXmlImporter::convertRefNameToType)
-                       .orElse(StandardEntryType.Article);
+                       .orElse(StandardEntryType.ARTICLE);
     }
 
     private List<LinkedFile> getLinkedFiles(Record record) {

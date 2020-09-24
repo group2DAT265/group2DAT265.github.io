@@ -44,7 +44,7 @@ public class ContainBasedSearchRuleTest {
     }
 
     public BibEntry makeBibtexEntry() {
-        BibEntry e = new BibEntry(StandardEntryType.InCollection);
+        BibEntry e = new BibEntry(StandardEntryType.IN_COLLECTION);
         e.setField(StandardField.TITLE, "Marine finfish larviculture in Europe");
         e.setCiteKey("shields01");
         e.setField(StandardField.YEAR, "2001");

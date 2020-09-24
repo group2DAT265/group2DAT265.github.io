@@ -58,6 +58,8 @@ public class ArXiv implements FulltextFetcher, SearchBasedFetcher, IdBasedFetche
 
     private static final String API_URL = "https://export.arxiv.org/api/query";
 
+    private static final String API_REQ_FAILED = "arXiv API request failed";
+
     private final ImportFormatPreferences importFormatPreferences;
 
     public ArXiv(ImportFormatPreferences importFormatPreferences) {
@@ -78,7 +80,7 @@ public class ArXiv implements FulltextFetcher, SearchBasedFetcher, IdBasedFetche
 
             return pdfUrl;
         } catch (FetcherException e) {
-            LOGGER.warn("arXiv API request failed", e);
+            LOGGER.warn(API_REQ_FAILED, e);
         }
 
         return Optional.empty();
@@ -211,7 +213,7 @@ public class ArXiv implements FulltextFetcher, SearchBasedFetcher, IdBasedFetche
                 return builder.parse(connection.getInputStream());
             }
         } catch (SAXException | ParserConfigurationException | IOException | URISyntaxException exception) {
-            throw new FetcherException("arXiv API request failed", exception);
+            throw new FetcherException(API_REQ_FAILED, exception);
         }
     }
 
@@ -235,7 +237,7 @@ public class ArXiv implements FulltextFetcher, SearchBasedFetcher, IdBasedFetche
                 return new FetcherException(errorMessage);
             }
         }
-        return new FetcherException("arXiv API request failed");
+        return new FetcherException(API_REQ_FAILED);
     }
 
     @Override
@@ -405,7 +407,7 @@ public class ArXiv implements FulltextFetcher, SearchBasedFetcher, IdBasedFetche
         }
 
         public BibEntry toBibEntry(Character keywordDelimiter) {
-            BibEntry bibEntry = new BibEntry(StandardEntryType.Article);
+            BibEntry bibEntry = new BibEntry(StandardEntryType.ARTICLE);
             bibEntry.setField(StandardField.EPRINTTYPE, "arXiv");
             bibEntry.setField(StandardField.AUTHOR, String.join(" and ", authorNames));
             bibEntry.addKeywords(categories, keywordDelimiter);

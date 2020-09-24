@@ -50,11 +50,11 @@ public class CoinsParser implements Parser {
         if (matcherType.find()) {
             switch (matcherType.group(1)) {
                 case "article":
-                    entry.setType(StandardEntryType.Article);
+                    entry.setType(StandardEntryType.ARTICLE);
                     break;
                 case "unknown":
                 default:
-                    entry.setType(StandardEntryType.Misc);
+                    entry.setType(StandardEntryType.MISC);
                     break;
             }
         }

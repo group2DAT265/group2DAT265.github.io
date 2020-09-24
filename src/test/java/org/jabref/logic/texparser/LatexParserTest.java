@@ -44,7 +44,7 @@ public class LatexParserTest {
         database = new BibDatabase();
         database2 = new BibDatabase();
 
-        BibEntry darwin = new BibEntry(StandardEntryType.Book)
+        BibEntry darwin = new BibEntry(StandardEntryType.BOOK)
                 .withCiteKey(DARWIN)
                 .withField(StandardField.TITLE, "The descent of man, and selection in relation to sex")
                 .withField(StandardField.PUBLISHER, "J. Murray")
@@ -52,7 +52,7 @@ public class LatexParserTest {
                 .withField(StandardField.AUTHOR, "Darwin, Charles");
         database.insertEntry(darwin);
 
-        BibEntry einstein = new BibEntry(StandardEntryType.Book)
+        BibEntry einstein = new BibEntry(StandardEntryType.BOOK)
                 .withCiteKey(EINSTEIN)
                 .withField(StandardField.TITLE, "Relativity: The special and general theory")
                 .withField(StandardField.PUBLISHER, "Penguin")
@@ -60,7 +60,7 @@ public class LatexParserTest {
                 .withField(StandardField.AUTHOR, "Einstein, Albert");
         database.insertEntry(einstein);
 
-        BibEntry newton = new BibEntry(StandardEntryType.Book)
+        BibEntry newton = new BibEntry(StandardEntryType.BOOK)
                 .withCiteKey(NEWTON)
                 .withField(StandardField.TITLE, "The Principia: mathematical principles of natural philosophy")
                 .withField(StandardField.PUBLISHER, "Univ of California Press")
@@ -69,19 +69,19 @@ public class LatexParserTest {
         database.insertEntry(newton);
         database2.insertEntry(newton);
 
-        BibEntry einsteinA = new BibEntry(StandardEntryType.InBook)
+        BibEntry einsteinA = new BibEntry(StandardEntryType.IN_BOOK)
                 .withCiteKey(EINSTEIN_A)
                 .withField(StandardField.CROSSREF, "Einstein1920")
                 .withField(StandardField.PAGES, "22--23");
         database.insertEntry(einsteinA);
 
-        BibEntry einsteinB = new BibEntry(StandardEntryType.InBook)
+        BibEntry einsteinB = new BibEntry(StandardEntryType.IN_BOOK)
                 .withCiteKey(EINSTEIN_B)
                 .withField(StandardField.CROSSREF, "Einstein1921")
                 .withField(StandardField.PAGES, "22--23");
         database.insertEntry(einsteinB);
 
-        BibEntry einsteinC = new BibEntry(StandardEntryType.InBook)
+        BibEntry einsteinC = new BibEntry(StandardEntryType.IN_BOOK)
                 .withCiteKey(EINSTEIN_C)
                 .withField(StandardField.CROSSREF, "Einstein1920")
                 .withField(StandardField.PAGES, "25--33");

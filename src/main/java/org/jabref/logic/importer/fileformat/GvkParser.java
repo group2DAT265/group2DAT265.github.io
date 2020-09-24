@@ -28,6 +28,7 @@ import org.xml.sax.SAXException;
 
 public class GvkParser implements Parser {
     private static final Logger LOGGER = LoggerFactory.getLogger(GvkParser.class);
+    private static final String AND = " and ";
 
     @Override
     public List<BibEntry> parseEntries(InputStream inputStream) throws ParseException {
@@ -94,7 +95,7 @@ public class GvkParser implements Parser {
         String mak = "";
         String subtitle = "";
 
-        EntryType entryType = StandardEntryType.Book; // Default
+        EntryType entryType = StandardEntryType.BOOK; // Default
 
         // Alle relevanten Informationen einsammeln
 
@@ -124,7 +125,7 @@ public class GvkParser implements Parser {
                 if (author == null) {
                     author = "";
                 } else {
-                    author = author.concat(" and ");
+                    author = author.concat(AND);
                 }
                 author = author.concat(vorname + " " + nachname);
             }
@@ -136,7 +137,7 @@ public class GvkParser implements Parser {
                 if (author == null) {
                     author = "";
                 } else {
-                    author = author.concat(" and ");
+                    author = author.concat(AND);
                 }
                 author = author.concat(vorname + " " + nachname);
             }
@@ -149,7 +150,7 @@ public class GvkParser implements Parser {
                 if (editor == null) {
                     editor = "";
                 } else {
-                    editor = editor.concat(" and ");
+                    editor = editor.concat(AND);
                 }
                 editor = editor.concat(vorname + " " + nachname);
             }
@@ -246,7 +247,7 @@ public class GvkParser implements Parser {
 
                 String st = getSubfield("a", datafield);
                 if ((st != null) && st.contains("Diss")) {
-                    entryType = StandardEntryType.PhdThesis;
+                    entryType = StandardEntryType.PHD_THESIS;
                 }
             }
 
@@ -287,12 +288,12 @@ public class GvkParser implements Parser {
                     subtitle = getSubfield("a", datafield);
                 }
 
-                entryType = StandardEntryType.Proceedings;
+                entryType = StandardEntryType.PROCEEDINGS;
             }
 
             // Wenn eine Verlagsdiss vorliegt
-            if (entryType.equals(StandardEntryType.PhdThesis) && (isbn != null)) {
-                entryType = StandardEntryType.Book;
+            if (entryType.equals(StandardEntryType.PHD_THESIS) && (isbn != null)) {
+                entryType = StandardEntryType.BOOK;
             }
 
             // Hilfskategorien zur Entscheidung @article
@@ -341,10 +342,10 @@ public class GvkParser implements Parser {
             entryType = BibEntry.DEFAULT_TYPE;
 
             if (quelle.contains("ISBN")) {
-                entryType = StandardEntryType.InCollection;
+                entryType = StandardEntryType.IN_COLLECTION;
             }
             if (quelle.contains("ZDB-ID")) {
-                entryType = StandardEntryType.Article;
+                entryType = StandardEntryType.ARTICLE;
             }
         } else if (mak.isEmpty()) {
             entryType = BibEntry.DEFAULT_TYPE;

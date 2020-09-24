@@ -164,9 +164,9 @@ public class CrossRef implements IdParserFetcher<DOI>, EntryBasedParserFetcher, 
     private EntryType convertType(String type) {
         switch (type) {
             case "journal-article":
-                return StandardEntryType.Article;
+                return StandardEntryType.ARTICLE;
             default:
-                return StandardEntryType.Misc;
+                return StandardEntryType.MISC;
         }
     }
 

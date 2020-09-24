@@ -206,100 +206,100 @@ public class EntryTypeView extends BaseDialog<EntryType> {
     public static String getDescription(EntryType selectedType) {
         if (selectedType instanceof StandardEntryType) {
             switch ((StandardEntryType) selectedType) {
-                case Article -> {
+                case ARTICLE -> {
                     return Localization.lang("An article in a journal, magazine, newspaper, or other periodical which forms a self-contained unit with its own title.");
                 }
-                case Book -> {
+                case BOOK -> {
                     return Localization.lang("A single-volume book with one or more authors where the authors share credit for the work as a whole.");
                 }
-                case Booklet -> {
+                case BOOKLET -> {
                     return Localization.lang("A book-like work without a formal publisher or sponsoring institution.");
                 }
-                case Collection -> {
+                case COLLECTION -> {
                     return Localization.lang("A single-volume collection with multiple, self-contained contributions by distinct authors which have their own title. The work as a whole has no overall author but it will usually have an editor.");
                 }
-                case Conference -> {
+                case CONFERENCE -> {
                     return Localization.lang("A legacy alias for \"InProceedings\".");
                 }
-                case InBook -> {
+                case IN_BOOK -> {
                     return Localization.lang("A part of a book which forms a self-contained unit with its own title.");
                 }
-                case InCollection -> {
+                case IN_COLLECTION -> {
                     return Localization.lang("A contribution to a collection which forms a self-contained unit with a distinct author and title.");
                 }
-                case InProceedings -> {
+                case IN_PROCEEDINGS -> {
                     return Localization.lang("An article in a conference proceedings.");
                 }
-                case Manual -> {
+                case MANUAL -> {
                     return Localization.lang("Technical or other documentation, not necessarily in printed form.");
                 }
-                case MastersThesis -> {
+                case MASTER_THESIS -> {
                     return Localization.lang("Similar to \"Thesis\" except that the type field is optional and defaults to the localised term  Master's thesis.");
                 }
-                case Misc -> {
+                case MISC -> {
                     return Localization.lang("A fallback type for entries which do not fit into any other category.");
                 }
-                case PhdThesis -> {
+                case PHD_THESIS -> {
                     return Localization.lang("Similar to \"Thesis\" except that the type field is optional and defaults to the localised term PhD thesis.");
                 }
-                case Proceedings -> {
+                case PROCEEDINGS -> {
                     return Localization.lang("A single-volume conference proceedings. This type is very similar to \"Collection\".");
                 }
-                case TechReport -> {
+                case TECH_REPORT -> {
                     return Localization.lang("Similar to \"Report\" except that the type field is optional and defaults to the localised term technical report.");
                 }
-                case Unpublished -> {
+                case UNPUBLISHED -> {
                     return Localization.lang("A work with an author and a title which has not been formally published, such as a manuscript or the script of a talk.");
                 }
-                case BookInBook -> {
+                case BOOK_IN_BOOK -> {
                     return Localization.lang("This type is similar to \"InBook\" but intended for works originally published as a stand-alone book.");
                 }
-                case InReference -> {
+                case IN_REFERENCE -> {
                     return Localization.lang("An article in a work of reference. This is a more specific variant of the generic \"InCollection\" entry type.");
                 }
-                case MvBook -> {
+                case MV_BOOK -> {
                     return Localization.lang("A multi-volume \"Book\".");
                 }
-                case MvCollection -> {
+                case MV_COLLECTION -> {
                     return Localization.lang("A multi-volume \"Collection\".");
                 }
-                case MvProceedings -> {
+                case MV_PROCEEDINGS -> {
                     return Localization.lang("A multi-volume \"Proceedings\" entry.");
                 }
-                case MvReference -> {
+                case MV_REFERENCE -> {
                     return Localization.lang("A multi-volume \"Reference\" entry. The standard styles will treat this entry type as an alias for \"MvCollection\".");
                 }
-                case Online -> {
+                case ON_LINE -> {
                     return Localization.lang("This entry type is intended for sources such as web sites which are intrinsically online resources.");
                 }
-                case Reference -> {
+                case REFERENCE -> {
                     return Localization.lang("A single-volume work of reference such as an encyclopedia or a dictionary.");
                 }
-                case Report -> {
+                case REPORT -> {
                     return Localization.lang("A technical report, research report, or white paper published by a university or some other institution.");
                 }
-                case Set -> {
+                case SET -> {
                     return Localization.lang("An entry set is a group of entries which are cited as a single reference and listed as a single item in the bibliography.");
                 }
-                case SuppBook -> {
+                case SUPP_BOOK -> {
                     return Localization.lang("Supplemental material in a \"Book\". This type is provided for elements such as prefaces, introductions, forewords, afterwords, etc. which often have a generic title only.");
                 }
-                case SuppCollection -> {
+                case SUPP_COLLECTION -> {
                     return Localization.lang("Supplemental material in a \"Collection\".");
                 }
-                case SuppPeriodical -> {
+                case SUPP_PERIODICAL -> {
                     return Localization.lang("Supplemental material in a \"Periodical\". This type may be useful when referring to items such as regular columns, obituaries, letters to the editor, etc. which only have a generic title.");
                 }
-                case Thesis -> {
+                case THESIS -> {
                     return Localization.lang("A thesis written for an educational institution to satisfy the requirements for a degree.");
                 }
                 case WWW -> {
                     return Localization.lang("An alias for \"Online\", provided for jurabib compatibility.");
                 }
-                case Software -> {
+                case SOFTWARE -> {
                     return Localization.lang("Computer software. The standard styles will treat this entry type as an alias for \"Misc\".");
                 }
-                case Dataset -> {
+                case DATASET -> {
                     return Localization.lang("A data set or a similar collection of (mostly) raw data.");
                 }
                 default -> {

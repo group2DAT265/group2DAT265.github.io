@@ -99,10 +99,10 @@ class DBMSProcessorTest {
     void testInsertMultipleEntries() throws SQLException {
         List<BibEntry> entries = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
-            entries.add(new BibEntry(StandardEntryType.Article).withField(StandardField.JOURNAL, "journal " + i)
+            entries.add(new BibEntry(StandardEntryType.ARTICLE).withField(StandardField.JOURNAL, "journal " + i)
             .withField(StandardField.ISSUE, Integer.toString(i)));
         }
-        entries.get(3).setType(StandardEntryType.Thesis);
+        entries.get(3).setType(StandardEntryType.THESIS);
         dbmsProcessor.insertEntries(entries);
 
         Map<Integer, Map<String, String>> actualFieldMap = new HashMap<>();
@@ -158,7 +158,7 @@ class DBMSProcessorTest {
         BibEntry expectedEntry = getBibEntryExample();
         dbmsProcessor.insertEntry(expectedEntry);
 
-        expectedEntry.setType(StandardEntryType.Book);
+        expectedEntry.setType(StandardEntryType.BOOK);
         expectedEntry.setField(StandardField.AUTHOR, "Michael J and Hutchings");
         expectedEntry.setField(new UnknownField("customField"), "custom value");
         expectedEntry.clearField(StandardField.BOOKTITLE);
@@ -361,7 +361,7 @@ class DBMSProcessorTest {
     }
 
     private static BibEntry getBibEntryExample() {
-        return new BibEntry(StandardEntryType.InProceedings)
+        return new BibEntry(StandardEntryType.IN_PROCEEDINGS)
                 .withField(StandardField.AUTHOR, "Wirthlin, Michael J and Hutchings, Brad L and Gilson, Kent L")
                 .withField(StandardField.TITLE, "The nano processor: a low resource reconfigurable processor")
                 .withField(StandardField.BOOKTITLE, "FPGAs for Custom Computing Machines, 1994. Proceedings. IEEE Workshop on")
@@ -370,7 +370,7 @@ class DBMSProcessorTest {
     }
 
     private static BibEntry getBibEntryExample2() {
-        return new BibEntry(StandardEntryType.InProceedings)
+        return new BibEntry(StandardEntryType.IN_PROCEEDINGS)
                 .withField(StandardField.AUTHOR, "Shelah, Saharon and Ziegler, Martin")
                 .withField(StandardField.TITLE, "Algebraically closed groups of large cardinality")
                 .withField(StandardField.JOURNAL, "The Journal of Symbolic Logic")
@@ -379,7 +379,7 @@ class DBMSProcessorTest {
     }
 
     private static BibEntry getBibEntryExample3() {
-        return new BibEntry(StandardEntryType.InProceedings)
+        return new BibEntry(StandardEntryType.IN_PROCEEDINGS)
                 .withField(StandardField.AUTHOR, "Hodges, Wilfrid and Shelah, Saharon")
                 .withField(StandardField.TITLE, "Infinite games and reduced products")
                 .withField(StandardField.JOURNAL, "Annals of Mathematical Logic")

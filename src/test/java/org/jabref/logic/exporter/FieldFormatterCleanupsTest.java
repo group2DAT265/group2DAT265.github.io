@@ -28,7 +28,7 @@ public class FieldFormatterCleanupsTest {
     @BeforeEach
     public void setUp() {
         entry = new BibEntry();
-        entry.setType(StandardEntryType.InProceedings);
+        entry.setType(StandardEntryType.IN_PROCEEDINGS);
         entry.setCiteKey("6055279");
         entry.setField(StandardField.TITLE, "Educational session 1");
         entry.setField(StandardField.BOOKTITLE, "Custom Integrated Circuits Conference (CICC), 2011 IEEE");

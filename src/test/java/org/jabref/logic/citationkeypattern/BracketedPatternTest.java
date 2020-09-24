@@ -27,7 +27,7 @@ class BracketedPatternTest {
         bibentry.setField(StandardField.PAGES, "213--216");
 
         dbentry = new BibEntry();
-        dbentry.setType(StandardEntryType.Article);
+        dbentry.setType(StandardEntryType.ARTICLE);
         dbentry.setCiteKey("HipKro03");
         dbentry.setField(StandardField.AUTHOR, "Eric von Hippel and Georg von Krogh");
         dbentry.setField(StandardField.TITLE, "Open Source Software and the \"Private-Collective\" Innovation Model: Issues for Organization Science");

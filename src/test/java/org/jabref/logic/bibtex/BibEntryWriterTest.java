@@ -47,7 +47,7 @@ class BibEntryWriterTest {
     void testSerialization() throws IOException {
         StringWriter stringWriter = new StringWriter();
 
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         // set a required field
         entry.setField(StandardField.AUTHOR, "Foo Bar");
         entry.setField(StandardField.JOURNAL, "International Journal of Something");
@@ -91,7 +91,7 @@ class BibEntryWriterTest {
 
     @Test
     void writeEntryWithFile() throws Exception {
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         LinkedFile file = new LinkedFile("test", "/home/uers/test.pdf", "PDF");
         entry.addFile(file);
 
@@ -110,7 +110,7 @@ class BibEntryWriterTest {
     void writeEntryWithOrField() throws Exception {
         StringWriter stringWriter = new StringWriter();
 
-        BibEntry entry = new BibEntry(StandardEntryType.InBook);
+        BibEntry entry = new BibEntry(StandardEntryType.IN_BOOK);
         // set an required OR field (author/editor)
         entry.setField(StandardField.EDITOR, "Foo Bar");
         entry.setField(StandardField.JOURNAL, "International Journal of Something");
@@ -138,7 +138,7 @@ class BibEntryWriterTest {
     void writeEntryWithOrFieldBothFieldsPresent() throws Exception {
         StringWriter stringWriter = new StringWriter();
 
-        BibEntry entry = new BibEntry(StandardEntryType.InBook);
+        BibEntry entry = new BibEntry(StandardEntryType.IN_BOOK);
         // set an required OR field with both fields(author/editor)
         entry.setField(StandardField.AUTHOR, "Foo Thor");
         entry.setField(StandardField.EDITOR, "Edi Bar");
@@ -321,7 +321,7 @@ class BibEntryWriterTest {
         BibEntry entry = entries.iterator().next();
 
         // modify entry
-        entry.setType(StandardEntryType.InProceedings);
+        entry.setType(StandardEntryType.IN_PROCEEDINGS);
 
         // write out bibtex string
         StringWriter stringWriter = new StringWriter();
@@ -428,7 +428,7 @@ class BibEntryWriterTest {
 
     @Test
     void constantMonthApril() throws Exception {
-        BibEntry entry = new BibEntry(StandardEntryType.Misc)
+        BibEntry entry = new BibEntry(StandardEntryType.MISC)
                 .withField(StandardField.MONTH, "#apr#");
         // enable writing
         entry.setChanged(true);
@@ -445,7 +445,7 @@ class BibEntryWriterTest {
 
     @Test
     void monthApril() throws Exception {
-        BibEntry entry = new BibEntry(StandardEntryType.Misc)
+        BibEntry entry = new BibEntry(StandardEntryType.MISC)
                 .withField(StandardField.MONTH, "apr");
         // enable writing
         entry.setChanged(true);
@@ -500,7 +500,7 @@ class BibEntryWriterTest {
     void doNotWriteEmptyFields() throws IOException {
         StringWriter stringWriter = new StringWriter();
 
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         entry.setField(StandardField.AUTHOR, "  ");
         entry.setField(StandardField.NOTE, "some note");
 
@@ -519,7 +519,7 @@ class BibEntryWriterTest {
     void writeThrowsErrorIfFieldContainsUnbalancedBraces() {
         StringWriter stringWriter = new StringWriter();
 
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         entry.setField(StandardField.NOTE, "some text with unbalanced { braces");
 
         assertThrows(IOException.class, () -> writer.write(entry, stringWriter, BibDatabaseMode.BIBTEX));
@@ -591,7 +591,7 @@ class BibEntryWriterTest {
     void alphabeticSerialization() throws IOException {
         StringWriter stringWriter = new StringWriter();
 
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         // required fields
         entry.setField(StandardField.AUTHOR, "Foo Bar");
         entry.setField(StandardField.JOURNALTITLE, "International Journal of Something");
