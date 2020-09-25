@@ -442,6 +442,7 @@ localization.script = 'scripts/syncLang.py'
 test {
     useJUnitPlatform {
         excludeTags 'DatabaseTest', 'FetcherTest', 'GUITest'
+        jvmArgs "-Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw -Dprism.text=t2k -Dtestfx.setup.timeout=2500"
     }
 
     moduleOptions {
