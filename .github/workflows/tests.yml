@@ -75,6 +75,8 @@ jobs:
         run: xvfb-run --auto-servernum ./gradlew check -x checkstyleJmh -x checkstyleMain -x checkstyleTest
         env:
           CI: "true"
+      - name: Grant execute permission for after failure script
+        run: chmod +x scripts/after-failure.sh
       - name: Format failed test results
         if: failure()
         run: |
