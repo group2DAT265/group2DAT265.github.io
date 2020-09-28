@@ -76,6 +76,7 @@ jobs:
         env:
           CI: "true"
       - name: Grant execute permission for after failure script
+        if: failure()
         run: chmod +x scripts/after-failure.sh
       - name: Format failed test results
         if: failure()
