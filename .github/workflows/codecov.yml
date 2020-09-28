@@ -1,11 +1,6 @@
 name: CodeCov
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    # always run on pull requests
+on: [push, pull_request] #Run on all pushes and pull requests
 
 jobs:
   codecoverage:
