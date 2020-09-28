@@ -195,37 +195,37 @@ public class BiblioscapeImporter extends Importer {
                     }
                     type[i] = type[i].toLowerCase(Locale.ROOT);
                     if (type[i].contains("article")) {
-                        bibtexType = StandardEntryType.Article;
+                        bibtexType = StandardEntryType.ARTICLE;
                     } else if (type[i].contains("journal")) {
-                        bibtexType = StandardEntryType.Article;
+                        bibtexType = StandardEntryType.ARTICLE;
                     } else if (type[i].contains("book section")) {
-                        bibtexType = StandardEntryType.InBook;
+                        bibtexType = StandardEntryType.IN_BOOK;
                     } else if (type[i].contains("book")) {
-                        bibtexType = StandardEntryType.Book;
+                        bibtexType = StandardEntryType.BOOK;
                     } else if (type[i].contains("conference")) {
-                        bibtexType = StandardEntryType.InProceedings;
+                        bibtexType = StandardEntryType.IN_PROCEEDINGS;
                     } else if (type[i].contains("proceedings")) {
-                        bibtexType = StandardEntryType.InProceedings;
+                        bibtexType = StandardEntryType.IN_PROCEEDINGS;
                     } else if (type[i].contains("report")) {
-                        bibtexType = StandardEntryType.TechReport;
+                        bibtexType = StandardEntryType.TECH_REPORT;
                     } else if (type[i].contains("thesis")
                             && type[i].contains("master")) {
-                        bibtexType = StandardEntryType.MastersThesis;
+                        bibtexType = StandardEntryType.MASTER_THESIS;
                     } else if (type[i].contains("thesis")) {
-                        bibtexType = StandardEntryType.PhdThesis;
+                        bibtexType = StandardEntryType.PHD_THESIS;
                     }
                 }
 
                 // depending on bibtexType, decide where to place the titleRT and
                 // titleTI
-                if (bibtexType.equals(StandardEntryType.Article)) {
+                if (bibtexType.equals(StandardEntryType.ARTICLE)) {
                     if (titleST != null) {
                         hm.put(StandardField.JOURNAL, titleST);
                     }
                     if (titleTI != null) {
                         hm.put(StandardField.TITLE, titleTI);
                     }
-                } else if (bibtexType.equals(StandardEntryType.InBook)) {
+                } else if (bibtexType.equals(StandardEntryType.IN_BOOK)) {
                     if (titleST != null) {
                         hm.put(StandardField.BOOKTITLE, titleST);
                     }

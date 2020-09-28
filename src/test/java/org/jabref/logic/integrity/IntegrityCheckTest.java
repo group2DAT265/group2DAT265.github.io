@@ -47,22 +47,22 @@ class IntegrityCheckTest {
 
     @Test
     void bibTexAcceptsStandardEntryType() {
-        assertCorrect(withMode(createContext(StandardField.TITLE, "sometitle", StandardEntryType.Article), BibDatabaseMode.BIBTEX));
+        assertCorrect(withMode(createContext(StandardField.TITLE, "sometitle", StandardEntryType.ARTICLE), BibDatabaseMode.BIBTEX));
     }
 
     @Test
     void bibTexDoesNotAcceptIEEETranEntryType() {
-        assertWrong(withMode(createContext(StandardField.TITLE, "sometitle", IEEETranEntryType.Patent), BibDatabaseMode.BIBTEX));
+        assertWrong(withMode(createContext(StandardField.TITLE, "sometitle", IEEETranEntryType.PATENT), BibDatabaseMode.BIBTEX));
     }
 
     @Test
     void bibLaTexAcceptsIEEETranEntryType() {
-        assertCorrect((withMode(createContext(StandardField.TITLE, "sometitle", IEEETranEntryType.Patent), BibDatabaseMode.BIBLATEX)));
+        assertCorrect((withMode(createContext(StandardField.TITLE, "sometitle", IEEETranEntryType.PATENT), BibDatabaseMode.BIBLATEX)));
     }
 
     @Test
     void bibLaTexAcceptsStandardEntryType() {
-        assertCorrect(withMode(createContext(StandardField.TITLE, "sometitle", StandardEntryType.Article), BibDatabaseMode.BIBLATEX));
+        assertCorrect(withMode(createContext(StandardField.TITLE, "sometitle", StandardEntryType.ARTICLE), BibDatabaseMode.BIBLATEX));
     }
 
     @ParameterizedTest

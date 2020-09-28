@@ -22,6 +22,9 @@ import oracle.jdbc.dcn.DatabaseChangeRegistration;
  */
 public class OracleProcessor extends DBMSProcessor {
 
+	// Constants
+	private static final String SQL_ERROR = "SQL Error: ";
+
     private OracleConnection oracleConnection;
 
     private OracleNotificationListener listener;
@@ -96,7 +99,7 @@ public class OracleProcessor extends DBMSProcessor {
                 statement.executeQuery(selectQuery.toString());
             }
         } catch (SQLException e) {
-            LOGGER.error("SQL Error: ", e);
+			LOGGER.error(SQL_ERROR, e);
         }
     }
 
@@ -125,7 +128,7 @@ public class OracleProcessor extends DBMSProcessor {
                 }
             }
         } catch (SQLException e) {
-            LOGGER.error("SQL Error: ", e);
+			LOGGER.error(SQL_ERROR, e);
         }
     }
 
@@ -168,7 +171,7 @@ public class OracleProcessor extends DBMSProcessor {
                 preparedFieldStatement.executeUpdate();
             }
         } catch (SQLException e) {
-            LOGGER.error("SQL Error: ", e);
+			LOGGER.error(SQL_ERROR, e);
         }
     }
 
@@ -178,7 +181,7 @@ public class OracleProcessor extends DBMSProcessor {
             oracleConnection.unregisterDatabaseChangeNotification(databaseChangeRegistration);
             oracleConnection.close();
         } catch (SQLException e) {
-            LOGGER.error("SQL Error: ", e);
+			LOGGER.error(SQL_ERROR, e);
         }
     }
 

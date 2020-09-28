@@ -21,7 +21,7 @@ class CanonicalBibEntryTest {
 
     @Test
     public void simpleCanonicalRepresentation() {
-        BibEntry e = new BibEntry(StandardEntryType.Article);
+        BibEntry e = new BibEntry(StandardEntryType.ARTICLE);
         e.setCiteKey("key");
         e.setField(StandardField.AUTHOR, "abc");
         e.setField(StandardField.TITLE, "def");
@@ -33,7 +33,7 @@ class CanonicalBibEntryTest {
 
     @Test
     public void canonicalRepresentationWithNewlines() {
-        BibEntry e = new BibEntry(StandardEntryType.Article);
+        BibEntry e = new BibEntry(StandardEntryType.ARTICLE);
         e.setCiteKey("key");
         e.setField(StandardField.ABSTRACT, "line 1\nline 2");
         String canonicalRepresentation = CanonicalBibEntry.getCanonicalRepresentation(e);

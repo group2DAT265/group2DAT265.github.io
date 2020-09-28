@@ -59,11 +59,11 @@ public class SpringerFetcher implements SearchBasedParserFetcher {
         String isbn = springerJsonEntry.optString("isbn");
         if (com.google.common.base.Strings.isNullOrEmpty(isbn)) {
             // Probably article
-            entry.setType(StandardEntryType.Article);
+            entry.setType(StandardEntryType.ARTICLE);
             nametype = StandardField.JOURNAL;
         } else {
             // Probably book chapter or from proceeding, go for book chapter
-            entry.setType(StandardEntryType.InCollection);
+            entry.setType(StandardEntryType.IN_COLLECTION);
             nametype = StandardField.BOOKTITLE;
             entry.setField(StandardField.ISBN, isbn);
         }

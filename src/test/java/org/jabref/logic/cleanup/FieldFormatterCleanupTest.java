@@ -26,7 +26,7 @@ public class FieldFormatterCleanupTest {
         fieldMap = new HashMap<>();
         entry = new BibEntry();
 
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         fieldMap.put(StandardField.TITLE, "JabRef");
         fieldMap.put(StandardField.BOOKTITLE, "JabRefBook");
         fieldMap.put(StandardField.YEAR, "twohundredsixteen");

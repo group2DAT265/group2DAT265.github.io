@@ -21,15 +21,15 @@ class BiblioscapeImporterTestTypes {
 
     private static Stream<Arguments> types() {
         return Stream.of(
-                Arguments.of("journal", StandardEntryType.Article),
-                Arguments.of("book section", StandardEntryType.InBook),
-                Arguments.of("book", StandardEntryType.Book),
-                Arguments.of("conference", StandardEntryType.InProceedings),
-                Arguments.of("proceedings", StandardEntryType.InProceedings),
-                Arguments.of("report", StandardEntryType.TechReport),
-                Arguments.of("master thesis", StandardEntryType.MastersThesis),
-                Arguments.of("thesis", StandardEntryType.PhdThesis),
-                Arguments.of("master", StandardEntryType.Misc)
+                         Arguments.of("journal", StandardEntryType.ARTICLE),
+                         Arguments.of("book section", StandardEntryType.IN_BOOK),
+                         Arguments.of("book", StandardEntryType.BOOK),
+                         Arguments.of("conference", StandardEntryType.IN_PROCEEDINGS),
+                         Arguments.of("proceedings", StandardEntryType.IN_PROCEEDINGS),
+                         Arguments.of("report", StandardEntryType.TECH_REPORT),
+                         Arguments.of("master thesis", StandardEntryType.MASTER_THESIS),
+                         Arguments.of("thesis", StandardEntryType.PHD_THESIS),
+                         Arguments.of("master", StandardEntryType.MISC)
         );
     }
 

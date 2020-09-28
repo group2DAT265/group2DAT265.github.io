@@ -63,6 +63,8 @@ class ModsExporter extends Exporter {
     private static final String MODS_SCHEMA_LOCATION = "http://www.loc.gov/standards/mods/v3/mods-3-6.xsd";
     private JAXBContext context;
 
+    private static final String NAMEPART = "namePart";
+
     public ModsExporter() {
         super("mods", "MODS", StandardFileType.XML);
     }
@@ -296,7 +298,7 @@ class ModsExporter extends Exporter {
                 namePart.setAtType("family");
                 namePart.setValue(familyName);
 
-                JAXBElement<NamePartDefinition> element = new JAXBElement<>(new QName(MODS_NAMESPACE_URI, "namePart"),
+                JAXBElement<NamePartDefinition> element = new JAXBElement<>(new QName(MODS_NAMESPACE_URI, NAMEPART),
                         NamePartDefinition.class, namePart);
                 name.getNamePartOrDisplayFormOrAffiliation().add(element);
 
@@ -308,7 +310,7 @@ class ModsExporter extends Exporter {
                         NamePartDefinition namePartDefinition = new NamePartDefinition();
                         namePartDefinition.setAtType("given");
                         namePartDefinition.setValue(given);
-                        element = new JAXBElement<>(new QName(MODS_NAMESPACE_URI, "namePart"), NamePartDefinition.class,
+                        element = new JAXBElement<>(new QName(MODS_NAMESPACE_URI, NAMEPART), NamePartDefinition.class,
                                 namePartDefinition);
                         name.getNamePartOrDisplayFormOrAffiliation().add(element);
                     }
@@ -318,7 +320,7 @@ class ModsExporter extends Exporter {
                 // no "," indicates that there should only be a family name
                 namePart.setAtType("family");
                 namePart.setValue(author);
-                JAXBElement<NamePartDefinition> element = new JAXBElement<>(new QName(MODS_NAMESPACE_URI, "namePart"),
+                JAXBElement<NamePartDefinition> element = new JAXBElement<>(new QName(MODS_NAMESPACE_URI, NAMEPART),
                         NamePartDefinition.class, namePart);
                 name.getNamePartOrDisplayFormOrAffiliation().add(element);
                 mods.getModsGroup().add(name);

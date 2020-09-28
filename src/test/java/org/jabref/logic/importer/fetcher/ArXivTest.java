@@ -37,7 +37,7 @@ class ArXivTest implements SearchBasedFetcherCapabilityTest {
         when(importFormatPreferences.getKeywordSeparator()).thenReturn(',');
         fetcher = new ArXiv(importFormatPreferences);
         entry = new BibEntry();
-        sliceTheoremPaper = new BibEntry(StandardEntryType.Article)
+        sliceTheoremPaper = new BibEntry(StandardEntryType.ARTICLE)
                 .withField(StandardField.AUTHOR, "Tobias Diez")
                 .withField(StandardField.TITLE, "Slice theorem for Fréchet group actions and covariant symplectic field theory")
                 .withField(StandardField.DATE, "2014-05-09")
@@ -146,7 +146,7 @@ class ArXivTest implements SearchBasedFetcherCapabilityTest {
 
     @Test
     void searchEntryByOldId() throws Exception {
-        BibEntry expected = new BibEntry(StandardEntryType.Article)
+        BibEntry expected = new BibEntry(StandardEntryType.ARTICLE)
                 .withField(StandardField.AUTHOR, "H1 Collaboration")
                 .withField(StandardField.TITLE, "Multi-Electron Production at High Transverse Momenta in ep Collisions at HERA")
                 .withField(StandardField.DATE, "2003-07-07")
@@ -251,7 +251,7 @@ class ArXivTest implements SearchBasedFetcherCapabilityTest {
 
     @Test
     public void supportsPhraseSearch() throws Exception {
-        BibEntry expected = new BibEntry(StandardEntryType.Article)
+        BibEntry expected = new BibEntry(StandardEntryType.ARTICLE)
                 .withField(StandardField.AUTHOR, "Tobias Büscher and Angel L. Diez and Gerhard Gompper and Jens Elgeti")
                 .withField(StandardField.TITLE, "Instability and fingering of interfaces in growing tissue")
                 .withField(StandardField.DATE, "2020-03-10")
@@ -276,7 +276,7 @@ class ArXivTest implements SearchBasedFetcherCapabilityTest {
 
     @Test
     public void supportsBooleanANDSearch() throws Exception {
-        BibEntry expected = new BibEntry(StandardEntryType.Article)
+        BibEntry expected = new BibEntry(StandardEntryType.ARTICLE)
                 .withField(StandardField.AUTHOR, "Tobias Büscher and Angel L. Diez and Gerhard Gompper and Jens Elgeti")
                 .withField(StandardField.TITLE, "Instability and fingering of interfaces in growing tissue")
                 .withField(StandardField.DATE, "2020-03-10")

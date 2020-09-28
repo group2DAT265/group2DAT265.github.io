@@ -26,7 +26,7 @@ public class MedraTest {
 
                 Arguments.of("10.2143/TVF.80.3.3285690",
                         Optional.of(
-                                new BibEntry(StandardEntryType.Article)
+                                                  new BibEntry(StandardEntryType.ARTICLE)
                                         .withField(StandardField.AUTHOR, "SPILEERS, Steven ")
                                         .withField(StandardField.PUBLISHER, "Peeters online journals")
                                         .withField(StandardField.TITLE, "Algemene kroniek")
@@ -39,7 +39,7 @@ public class MedraTest {
 
                 Arguments.of("10.3303/CET1977146",
                         Optional.of(
-                                new BibEntry(StandardEntryType.Article)
+                                                  new BibEntry(StandardEntryType.ARTICLE)
                                         .withField(StandardField.AUTHOR,
                                                 ""
                                                         + "Iannarelli Riccardo  and "
@@ -58,7 +58,7 @@ public class MedraTest {
                                         .withField(StandardField.VOLUME, "77"))),
                 Arguments.of("10.1400/115378",
                         Optional.of(
-                                new BibEntry(StandardEntryType.Article)
+                                                  new BibEntry(StandardEntryType.ARTICLE)
                                         .withField(StandardField.AUTHOR, "Paola Cisternino")
                                         .withField(StandardField.PUBLISHER, "Edizioni Otto Novecento")
                                         .withField(StandardField.TITLE, "Diagramma semantico dei lemmi : casa, parola, silenzio e attesa in È fatto giorno e Margherite e rosolacci di Rocco Scotellaro")

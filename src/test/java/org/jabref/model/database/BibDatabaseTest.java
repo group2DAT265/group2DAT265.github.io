@@ -371,9 +371,9 @@ class BibDatabaseTest {
 
     @Test
     void getEntriesSortedWithTwoEntries() {
-        BibEntry entryB = new BibEntry(StandardEntryType.Article);
+        BibEntry entryB = new BibEntry(StandardEntryType.ARTICLE);
         entryB.setId("2");
-        BibEntry entryA = new BibEntry(StandardEntryType.Article);
+        BibEntry entryA = new BibEntry(StandardEntryType.ARTICLE);
         entryB.setId("1");
         database.insertEntries(entryB, entryA);
         assertEquals(Arrays.asList(entryA, entryB), database.getEntriesSorted(Comparator.comparing(BibEntry::getId)));

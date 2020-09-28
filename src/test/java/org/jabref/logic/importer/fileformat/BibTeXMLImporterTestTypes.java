@@ -25,19 +25,19 @@ public class BibTeXMLImporterTestTypes {
 
     public static Collection<EntryType> types() {
         return Arrays.asList(
-                StandardEntryType.Article,
-                StandardEntryType.Book,
-                StandardEntryType.Booklet,
-                StandardEntryType.Conference,
-                StandardEntryType.InBook,
-                StandardEntryType.InCollection,
-                StandardEntryType.InProceedings,
-                StandardEntryType.Manual,
-                StandardEntryType.MastersThesis,
-                StandardEntryType.Misc,
-                StandardEntryType.PhdThesis,
-                StandardEntryType.TechReport,
-                StandardEntryType.Unpublished);
+                             StandardEntryType.ARTICLE,
+                             StandardEntryType.BOOK,
+                             StandardEntryType.BOOKLET,
+                             StandardEntryType.CONFERENCE,
+                             StandardEntryType.IN_BOOK,
+                             StandardEntryType.IN_COLLECTION,
+                             StandardEntryType.IN_PROCEEDINGS,
+                             StandardEntryType.MANUAL,
+                             StandardEntryType.MASTER_THESIS,
+                             StandardEntryType.MISC,
+                             StandardEntryType.PHD_THESIS,
+                             StandardEntryType.TECH_REPORT,
+                             StandardEntryType.UNPUBLISHED);
     }
 
     @ParameterizedTest

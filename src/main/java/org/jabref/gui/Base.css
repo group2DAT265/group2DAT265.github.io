@@ -837,7 +837,6 @@
 .menu-bar > .container > .menu-button:hover,
 .menu-bar > .container > .menu-button:focused,
 .menu-bar > .container > .menu-button:showing {
-    -fx-background-color: -jr-menu-background-active;
     -fx-background: -jr-menu-background-active;
 }
 

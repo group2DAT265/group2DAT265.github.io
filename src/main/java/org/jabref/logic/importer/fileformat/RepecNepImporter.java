@@ -384,7 +384,7 @@ public class RepecNepImporter extends Importer {
                     this.inOverviewSection = this.preLine.startsWith("In this issue we have");
                 }
                 if (isStartOfWorkingPaper()) {
-                    BibEntry be = new BibEntry(StandardEntryType.TechReport);
+                    BibEntry be = new BibEntry(StandardEntryType.TECH_REPORT);
                     paperNoStr = this.lastLine.substring(0, this.lastLine.indexOf('.'));
                     parseTitleString(be, reader);
                     if (startsWithKeyword(RepecNepImporter.RECOGNIZED_FIELDS)) {

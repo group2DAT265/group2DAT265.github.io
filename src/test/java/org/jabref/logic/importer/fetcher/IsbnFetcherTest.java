@@ -32,7 +32,7 @@ class IsbnFetcherTest {
         fetcher = new IsbnFetcher(mock(ImportFormatPreferences.class, Answers.RETURNS_DEEP_STUBS));
 
         bibEntry = new BibEntry();
-        bibEntry.setType(StandardEntryType.Book);
+        bibEntry.setType(StandardEntryType.BOOK);
         bibEntry.setCiteKey("9780134685991");
         bibEntry.setField(StandardField.TITLE, "Effective Java");
         bibEntry.setField(StandardField.PUBLISHER, "Addison Wesley");

@@ -47,7 +47,7 @@ class BibEntryTest {
 
     @Test
     void testDefaultConstructor() {
-        assertEquals(StandardEntryType.Misc, entry.getType());
+        assertEquals(StandardEntryType.MISC, entry.getType());
         assertNotNull(entry.getId());
         assertFalse(entry.getField(StandardField.AUTHOR).isPresent());
     }
@@ -105,7 +105,7 @@ class BibEntryTest {
 
     @Test
     void clonedBibEntryWithBookTypeAndOneFieldHasOriginalChangedFlag() throws Exception {
-        entry = new BibEntry(StandardEntryType.Book).withField(StandardField.AUTHOR, "value");
+        entry = new BibEntry(StandardEntryType.BOOK).withField(StandardField.AUTHOR, "value");
         BibEntry entryClone = (BibEntry) entry.clone();
         assertFalse(entryClone.hasChanged());
     }
@@ -303,7 +303,7 @@ class BibEntryTest {
 
     @Test
     void allFieldsPresentDefault() {
-        BibEntry e = new BibEntry(StandardEntryType.Article);
+        BibEntry e = new BibEntry(StandardEntryType.ARTICLE);
         e.setField(StandardField.AUTHOR, "abc");
         e.setField(StandardField.TITLE, "abc");
         e.setField(StandardField.JOURNAL, "abc");
@@ -319,7 +319,7 @@ class BibEntryTest {
 
     @Test
     void allFieldsPresentOr() {
-        BibEntry e = new BibEntry(StandardEntryType.Article);
+        BibEntry e = new BibEntry(StandardEntryType.ARTICLE);
         e.setField(StandardField.AUTHOR, "abc");
         e.setField(StandardField.TITLE, "abc");
         e.setField(StandardField.JOURNAL, "abc");
@@ -334,13 +334,13 @@ class BibEntryTest {
 
     @Test
     void isNullCiteKeyThrowsNPE() {
-        BibEntry e = new BibEntry(StandardEntryType.Article);
+        BibEntry e = new BibEntry(StandardEntryType.ARTICLE);
         assertThrows(NullPointerException.class, () -> e.setCiteKey(null));
     }
 
     @Test
     void isEmptyCiteKey() {
-        BibEntry e = new BibEntry(StandardEntryType.Article);
+        BibEntry e = new BibEntry(StandardEntryType.ARTICLE);
         assertFalse(e.hasCiteKey());
 
         e.setCiteKey("");

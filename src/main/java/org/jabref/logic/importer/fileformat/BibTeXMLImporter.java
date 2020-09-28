@@ -96,50 +96,50 @@ public class BibTeXMLImporter extends Importer {
             for (Entry entry : entries) {
                 BibEntry bibEntry = new BibEntry();
                 if (entry.getArticle() != null) {
-                    bibEntry.setType(StandardEntryType.Article);
+                    bibEntry.setType(StandardEntryType.ARTICLE);
                     parse(entry.getArticle(), fields);
                 } else if (entry.getBook() != null) {
-                    bibEntry.setType(StandardEntryType.Book);
+                    bibEntry.setType(StandardEntryType.BOOK);
                     parse(entry.getBook(), fields);
                 } else if (entry.getBooklet() != null) {
-                    bibEntry.setType(StandardEntryType.Booklet);
+                    bibEntry.setType(StandardEntryType.BOOKLET);
                     parse(entry.getBooklet(), fields);
                 } else if (entry.getConference() != null) {
-                    bibEntry.setType(StandardEntryType.Conference);
+                    bibEntry.setType(StandardEntryType.CONFERENCE);
                     parse(entry.getConference(), fields);
                 } else if (entry.getInbook() != null) {
-                    bibEntry.setType(StandardEntryType.InBook);
+                    bibEntry.setType(StandardEntryType.IN_BOOK);
                     parseInbook(entry.getInbook(), fields);
                 } else if (entry.getIncollection() != null) {
-                    bibEntry.setType(StandardEntryType.InCollection);
+                    bibEntry.setType(StandardEntryType.IN_COLLECTION);
                     Incollection incollection = entry.getIncollection();
                     if (incollection.getChapter() != null) {
                         fields.put(StandardField.CHAPTER, String.valueOf(incollection.getChapter()));
                     }
                     parse(incollection, fields);
                 } else if (entry.getInproceedings() != null) {
-                    bibEntry.setType(StandardEntryType.InProceedings);
+                    bibEntry.setType(StandardEntryType.IN_PROCEEDINGS);
                     parse(entry.getInproceedings(), fields);
                 } else if (entry.getManual() != null) {
-                    bibEntry.setType(StandardEntryType.Manual);
+                    bibEntry.setType(StandardEntryType.MANUAL);
                     parse(entry.getManual(), fields);
                 } else if (entry.getMastersthesis() != null) {
-                    bibEntry.setType(StandardEntryType.MastersThesis);
+                    bibEntry.setType(StandardEntryType.MASTER_THESIS);
                     parse(entry.getMastersthesis(), fields);
                 } else if (entry.getMisc() != null) {
-                    bibEntry.setType(StandardEntryType.Misc);
+                    bibEntry.setType(StandardEntryType.MISC);
                     parse(entry.getMisc(), fields);
                 } else if (entry.getPhdthesis() != null) {
-                    bibEntry.setType(StandardEntryType.PhdThesis);
+                    bibEntry.setType(StandardEntryType.PHD_THESIS);
                     parse(entry.getPhdthesis(), fields);
                 } else if (entry.getProceedings() != null) {
-                    bibEntry.setType(StandardEntryType.Proceedings);
+                    bibEntry.setType(StandardEntryType.PROCEEDINGS);
                     parse(entry.getProceedings(), fields);
                 } else if (entry.getTechreport() != null) {
-                    bibEntry.setType(StandardEntryType.TechReport);
+                    bibEntry.setType(StandardEntryType.TECH_REPORT);
                     parse(entry.getTechreport(), fields);
                 } else if (entry.getUnpublished() != null) {
-                    bibEntry.setType(StandardEntryType.Unpublished);
+                    bibEntry.setType(StandardEntryType.UNPUBLISHED);
                     parse(entry.getUnpublished(), fields);
                 }
 

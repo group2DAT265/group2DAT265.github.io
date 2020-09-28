@@ -5,11 +5,12 @@ import java.util.Locale;
 import java.util.Optional;
 
 public enum IEEETranEntryType implements EntryType {
-    IEEEtranBSTCTL("IEEEtranBSTCTL"),
-    Electronic("Electronic"),
-    Patent("Patent"),
-    Periodical("Periodical"),
-    Standard("Standard");
+
+    IEEE_TRAN_BSTCTL("IEEEtranBSTCTL"),
+    ELECTRONIC("Electronic"),
+    PATENT("Patent"),
+    PERIODICAL("Periodical"),
+    STANDARD("Standard");
 
     private final String displayName;
 

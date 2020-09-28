@@ -19,14 +19,14 @@ public class BibDatabaseModeDetectionTest {
 
     @Test
     public void detectBiblatex() {
-        List<BibEntry> entries = Arrays.asList(new BibEntry(StandardEntryType.MvBook));
+        List<BibEntry> entries = Arrays.asList(new BibEntry(StandardEntryType.MV_BOOK));
 
         assertEquals(BibDatabaseMode.BIBLATEX, BibDatabaseModeDetection.inferMode(new BibDatabase(entries)));
     }
 
     @Test
     public void detectUndistinguishableAsBibtex() {
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
         entry.setField(StandardField.TITLE, "My cool paper");
         List<BibEntry> entries = Arrays.asList(entry);
 
@@ -35,9 +35,9 @@ public class BibDatabaseModeDetectionTest {
 
     @Test
     public void detectMixedModeAsBiblatex() {
-        BibEntry bibtex = new BibEntry(StandardEntryType.Article);
+        BibEntry bibtex = new BibEntry(StandardEntryType.ARTICLE);
         bibtex.setField(StandardField.JOURNAL, "IEEE Trans. Services Computing");
-        BibEntry biblatex = new BibEntry(StandardEntryType.Article);
+        BibEntry biblatex = new BibEntry(StandardEntryType.ARTICLE);
         biblatex.setField(StandardField.TRANSLATOR, "Stefan Kolb");
         List<BibEntry> entries = Arrays.asList(bibtex, biblatex);
 
@@ -55,8 +55,8 @@ public class BibDatabaseModeDetectionTest {
     @Test
     public void ignoreUnknownTypesForBibtexDecision() {
         BibEntry custom = new BibEntry(UNKNOWN_TYPE);
-        BibEntry bibtex = new BibEntry(StandardEntryType.Article);
-        BibEntry biblatex = new BibEntry(StandardEntryType.Article);
+        BibEntry bibtex = new BibEntry(StandardEntryType.ARTICLE);
+        BibEntry biblatex = new BibEntry(StandardEntryType.ARTICLE);
         List<BibEntry> entries = Arrays.asList(custom, bibtex, biblatex);
 
         assertEquals(BibDatabaseMode.BIBTEX, BibDatabaseModeDetection.inferMode(new BibDatabase(entries)));
@@ -65,8 +65,8 @@ public class BibDatabaseModeDetectionTest {
     @Test
     public void ignoreUnknownTypesForBiblatexDecision() {
         BibEntry custom = new BibEntry(UNKNOWN_TYPE);
-        BibEntry bibtex = new BibEntry(StandardEntryType.Article);
-        BibEntry biblatex = new BibEntry(StandardEntryType.MvBook);
+        BibEntry bibtex = new BibEntry(StandardEntryType.ARTICLE);
+        BibEntry biblatex = new BibEntry(StandardEntryType.MV_BOOK);
         List<BibEntry> entries = Arrays.asList(custom, bibtex, biblatex);
 
         assertEquals(BibDatabaseMode.BIBLATEX, BibDatabaseModeDetection.inferMode(new BibDatabase(entries)));

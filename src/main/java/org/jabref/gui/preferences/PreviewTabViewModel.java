@@ -83,6 +83,9 @@ public class PreviewTabViewModel implements PreferenceTabViewModel {
     private ListProperty<PreviewLayout> dragSourceList = null;
     private ObjectProperty<MultipleSelectionModel<PreviewLayout>> dragSourceSelectionModel = null;
 
+    private static final String PREVIEW = "Preview";
+    private static final String TAGMARK = "tagmark";
+
     public PreviewTabViewModel(DialogService dialogService, PreferencesService preferences, TaskExecutor taskExecutor, StateManager stateManager) {
         this.dialogService = dialogService;
         this.preferences = preferences;
@@ -112,6 +115,7 @@ public class PreviewTabViewModel implements PreferenceTabViewModel {
         return showAsExtraTab;
     }
 
+    @Override
     public void setValues() {
         showAsExtraTab.set(initialPreviewPreferences.showPreviewAsExtraTab());
         chosenListProperty().getValue().clear();
@@ -180,7 +184,7 @@ public class PreviewTabViewModel implements PreferenceTabViewModel {
             return chosenListProperty.getValue().get(0);
         }
 
-        PreviewLayout layout = findLayoutByName("Preview");
+        PreviewLayout layout = findLayoutByName(PREVIEW);
         if (layout == null) {
             layout = initialPreviewPreferences.getTextBasedPreviewLayout();
         }
@@ -196,7 +200,7 @@ public class PreviewTabViewModel implements PreferenceTabViewModel {
             chosenListProperty.add(previewPreferences.getTextBasedPreviewLayout());
         }
 
-        PreviewLayout previewStyle = findLayoutByName("Preview");
+        PreviewLayout previewStyle = findLayoutByName(PREVIEW);
         if (previewStyle == null) {
             previewStyle = previewPreferences.getTextBasedPreviewLayout();
         }
@@ -304,7 +308,7 @@ public class PreviewTabViewModel implements PreferenceTabViewModel {
     }
 
     public void resetDefaultLayout() {
-        PreviewLayout defaultLayout = findLayoutByName("Preview");
+        PreviewLayout defaultLayout = findLayoutByName(PREVIEW);
         if (defaultLayout instanceof TextBasedPreviewLayout) {
             ((TextBasedPreviewLayout) defaultLayout).setText(preferences.getPreviewPreferences().getDefaultPreviewStyle());
         }
@@ -349,7 +353,7 @@ public class PreviewTabViewModel implements PreferenceTabViewModel {
                 if (matcher.group("ELEMENT") != null) {
                     String attributesText = matcher.group(GROUP_ATTRIBUTES_SECTION);
 
-                    spansBuilder.add(Collections.singleton("tagmark"), matcher.end(GROUP_OPEN_BRACKET) - matcher.start(GROUP_OPEN_BRACKET));
+                    spansBuilder.add(Collections.singleton(TAGMARK), matcher.end(GROUP_OPEN_BRACKET) - matcher.start(GROUP_OPEN_BRACKET));
                     spansBuilder.add(Collections.singleton("anytag"), matcher.end(GROUP_ELEMENT_NAME) - matcher.end(GROUP_OPEN_BRACKET));
 
                     if (!attributesText.isEmpty()) {
@@ -360,7 +364,7 @@ public class PreviewTabViewModel implements PreferenceTabViewModel {
                         while (attributesMatcher.find()) {
                             spansBuilder.add(Collections.emptyList(), attributesMatcher.start() - lastKeywordEnd);
                             spansBuilder.add(Collections.singleton("attribute"), attributesMatcher.end(GROUP_ATTRIBUTE_NAME) - attributesMatcher.start(GROUP_ATTRIBUTE_NAME));
-                            spansBuilder.add(Collections.singleton("tagmark"), attributesMatcher.end(GROUP_EQUAL_SYMBOL) - attributesMatcher.end(GROUP_ATTRIBUTE_NAME));
+                            spansBuilder.add(Collections.singleton(TAGMARK), attributesMatcher.end(GROUP_EQUAL_SYMBOL) - attributesMatcher.end(GROUP_ATTRIBUTE_NAME));
                             spansBuilder.add(Collections.singleton("avalue"), attributesMatcher.end(GROUP_ATTRIBUTE_VALUE) - attributesMatcher.end(GROUP_EQUAL_SYMBOL));
                             lastKeywordEnd = attributesMatcher.end();
                         }
@@ -371,7 +375,7 @@ public class PreviewTabViewModel implements PreferenceTabViewModel {
 
                     lastKeywordEnd = matcher.end(GROUP_ATTRIBUTES_SECTION);
 
-                    spansBuilder.add(Collections.singleton("tagmark"), matcher.end(GROUP_CLOSE_BRACKET) - lastKeywordEnd);
+                    spansBuilder.add(Collections.singleton(TAGMARK), matcher.end(GROUP_CLOSE_BRACKET) - lastKeywordEnd);
                 }
             }
             lastKeywordEnd = matcher.end();

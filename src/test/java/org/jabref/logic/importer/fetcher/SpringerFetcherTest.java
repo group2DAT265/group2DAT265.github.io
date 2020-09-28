@@ -32,7 +32,7 @@ class SpringerFetcherTest implements SearchBasedFetcherCapabilityTest {
 
     @Test
     void searchByQueryFindsEntry() throws Exception {
-        BibEntry expected = new BibEntry(StandardEntryType.Article)
+        BibEntry expected = new BibEntry(StandardEntryType.ARTICLE)
                 .withField(StandardField.AUTHOR, "Steinmacher, Igor and Gerosa, Marco and Conte, Tayana U. and Redmiles, David F.")
                 .withField(StandardField.DATE, "2019-04-15")
                 .withField(StandardField.DOI, "10.1007/s10606-018-9335-z")
@@ -95,7 +95,7 @@ class SpringerFetcherTest implements SearchBasedFetcherCapabilityTest {
     @Test
     public void supportsPhraseSearch() throws Exception {
         // Normal search should match due to Redmiles, Elissa M., phrase search on the other hand should not find it.
-        BibEntry expected = new BibEntry(StandardEntryType.InCollection)
+        BibEntry expected = new BibEntry(StandardEntryType.IN_COLLECTION)
                 .withField(StandardField.AUTHOR, "Booth, Kayla M. and Dosono, Bryan and Redmiles, Elissa M. and Morales, Miraida and Depew, Michael and Farzan, Rosta and Herman, Everett and Trahan, Keith and Tananis, Cindy")
                 .withField(StandardField.DATE, "2018-01-01")
                 .withField(StandardField.DOI, "10.1007/978-3-319-78105-1_75")

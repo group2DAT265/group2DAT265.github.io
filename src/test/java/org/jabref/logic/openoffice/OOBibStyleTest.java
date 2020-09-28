@@ -171,7 +171,7 @@ class OOBibStyleTest {
                 "Boström, G.; Wäyrynen, J.; Bodén, M.; Beznosov, K. and Kruchten, P. (<b>2006</b>). <i>Extending XP practices to support security requirements engineering</i>,   : 11-18.",
                 l.doLayout(entry, database));
 
-        l = style.getReferenceFormat(StandardEntryType.InCollection);
+        l = style.getReferenceFormat(StandardEntryType.IN_COLLECTION);
         l.setPostFormatter(new OOPreFormatter());
         assertEquals(
                 "Boström, G.; Wäyrynen, J.; Bodén, M.; Beznosov, K. and Kruchten, P. (<b>2006</b>). <i>Extending XP practices to support security requirements engineering</i>. In:  (Ed.), <i>SESS '06: Proceedings of the 2006 international workshop on Software engineering for secure systems</i>, ACM.",
@@ -183,11 +183,11 @@ class OOBibStyleTest {
         OOBibStyle style = new OOBibStyle(StyleLoader.DEFAULT_NUMERICAL_STYLE_PATH, layoutFormatterPreferences);
         BibDatabase database = new BibDatabase();
 
-        Layout l = style.getReferenceFormat(StandardEntryType.Article);
+        Layout l = style.getReferenceFormat(StandardEntryType.ARTICLE);
         l.setPostFormatter(new OOPreFormatter());
 
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setField(StandardField.AUTHOR, "{JabRef Development Team}");
         entry.setField(StandardField.TITLE, "JabRef Manual");
         entry.setField(StandardField.YEAR, "2016");
@@ -202,11 +202,11 @@ class OOBibStyleTest {
                 layoutFormatterPreferences);
         BibDatabase database = new BibDatabase();
 
-        Layout l = style.getReferenceFormat(StandardEntryType.Article);
+        Layout l = style.getReferenceFormat(StandardEntryType.ARTICLE);
         l.setPostFormatter(new OOPreFormatter());
 
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setField(StandardField.AUTHOR, "Alpha von Beta");
         entry.setField(StandardField.TITLE, "JabRef Manual");
         entry.setField(StandardField.YEAR, "2016");
@@ -225,7 +225,7 @@ class OOBibStyleTest {
         BibDatabase database = new BibDatabase();
 
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setField(StandardField.AUTHOR, "{JabRef Development Team}");
         entry.setField(StandardField.TITLE, "JabRef Manual");
         entry.setField(StandardField.YEAR, "2016");
@@ -245,7 +245,7 @@ class OOBibStyleTest {
         BibDatabase database = new BibDatabase();
 
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setField(StandardField.AUTHOR, "Alpha von Beta");
         entry.setField(StandardField.TITLE, "JabRef Manual");
         entry.setField(StandardField.YEAR, "2016");
@@ -265,7 +265,7 @@ class OOBibStyleTest {
         BibDatabase database = new BibDatabase();
 
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setField(StandardField.YEAR, "2016");
         database.insertEntry(entry);
         entries.add(entry);
@@ -283,7 +283,7 @@ class OOBibStyleTest {
         BibDatabase database = new BibDatabase();
 
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setField(StandardField.AUTHOR, "Alpha von Beta");
         database.insertEntry(entry);
         entries.add(entry);
@@ -301,7 +301,7 @@ class OOBibStyleTest {
         BibDatabase database = new BibDatabase();
 
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         database.insertEntry(entry);
         entries.add(entry);
         entryDBMap.put(entry, database);
@@ -497,7 +497,7 @@ class OOBibStyleTest {
         BibDatabase database = new BibDatabase();
 
         BibEntry entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setField(StandardField.AUTHOR, "Alpha von Beta and Gamma Epsilon and Ypsilon Tau");
         entry.setField(StandardField.TITLE, "JabRef Manual");
         entry.setField(StandardField.YEAR, "2016");

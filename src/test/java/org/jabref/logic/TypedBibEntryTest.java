@@ -24,7 +24,7 @@ public class TypedBibEntryTest {
 
     @Test
     public void hasAllRequiredFieldsFail() {
-        BibEntry e = new BibEntry(StandardEntryType.Article);
+        BibEntry e = new BibEntry(StandardEntryType.ARTICLE);
         e.setField(StandardField.AUTHOR, "abc");
         e.setField(StandardField.TITLE, "abc");
         e.setField(StandardField.JOURNAL, "abc");
@@ -35,7 +35,7 @@ public class TypedBibEntryTest {
 
     @Test
     public void hasAllRequiredFields() {
-        BibEntry e = new BibEntry(StandardEntryType.Article);
+        BibEntry e = new BibEntry(StandardEntryType.ARTICLE);
         e.setField(StandardField.AUTHOR, "abc");
         e.setField(StandardField.TITLE, "abc");
         e.setField(StandardField.JOURNAL, "abc");
@@ -55,7 +55,7 @@ public class TypedBibEntryTest {
 
     @Test
     public void getTypeForDisplayReturnsTypeName() {
-        BibEntry e = new BibEntry(StandardEntryType.InProceedings);
+        BibEntry e = new BibEntry(StandardEntryType.IN_PROCEEDINGS);
 
         TypedBibEntry typedEntry = new TypedBibEntry(e, BibDatabaseMode.BIBTEX);
         assertEquals("InProceedings", typedEntry.getTypeForDisplay());

@@ -137,7 +137,7 @@ public class IsiImporterTest {
                 Optional.of(
                         "James Brown and James Marc Brown and Brown, J. M. and Brown, J. and Brown, J. M. and Brown, J."),
                 entry.getField(StandardField.AUTHOR));
-        assertEquals(StandardEntryType.Article, entry.getType());
+        assertEquals(StandardEntryType.ARTICLE, entry.getType());
         assertEquals(Optional.of("Optical Materials"), entry.getField(StandardField.JOURNAL));
         assertEquals(Optional.of("2006"), entry.getField(StandardField.YEAR));
         assertEquals(Optional.of("28"), entry.getField(StandardField.VOLUME));
@@ -154,7 +154,7 @@ public class IsiImporterTest {
         assertEquals(3, entries.size());
         assertEquals(Optional.of("Optical properties of MgO doped LiNbO$_3$ single crystals"),
                 entry.getField(StandardField.TITLE));
-        assertEquals(StandardEntryType.Misc, entry.getType());
+        assertEquals(StandardEntryType.MISC, entry.getType());
         assertEquals(Optional.of("Optical Materials"), entry.getField(StandardField.JOURNAL));
         assertEquals(Optional.of("2006"), entry.getField(StandardField.YEAR));
         assertEquals(Optional.of("28"), entry.getField(StandardField.VOLUME));
@@ -182,7 +182,7 @@ public class IsiImporterTest {
                 Optional.of(
                         "Second harmonic generation of continuous wave ultraviolet light and production of beta -BaB$_2$O$_4$ optical waveguides"),
                 first.getField(StandardField.TITLE));
-        assertEquals(StandardEntryType.Article, first.getType());
+        assertEquals(StandardEntryType.ARTICLE, first.getType());
 
         assertEquals(Optional.of("Degl'Innocenti, R. and Guarino, A. and Poberaj, G. and Gunter, P."),
                 first.getField(StandardField.AUTHOR));
@@ -196,7 +196,7 @@ public class IsiImporterTest {
         assertEquals(
                 Optional.of("Optical and photoelectric spectroscopy of photorefractive Sn$_2$P$_2$S$_6$ crystals"),
                 second.getField(StandardField.TITLE));
-        assertEquals(StandardEntryType.Article, second.getType());
+        assertEquals(StandardEntryType.ARTICLE, second.getType());
     }
 
     @Test
@@ -262,7 +262,7 @@ public class IsiImporterTest {
         BibEntry entry = entries.get(0);
 
         assertEquals(1, entries.size());
-        assertEquals(StandardEntryType.Article, entry.getType());
+        assertEquals(StandardEntryType.ARTICLE, entry.getType());
         assertEquals(Optional.of("Geoscience and Remote Sensing Letters, IEEE"), entry.getField(StandardField.JOURNAL));
         assertEquals(Optional.of("Improving Urban Road Extraction in High-Resolution "
                         + "Images Exploiting Directional Filtering, Perceptual " + "Grouping, and Simple Topological Concepts"),
@@ -285,7 +285,7 @@ public class IsiImporterTest {
         BibEntry entry = entries.get(0);
 
         assertEquals(1, entries.size());
-        assertEquals(StandardEntryType.Article, entry.getType());
+        assertEquals(StandardEntryType.ARTICLE, entry.getType());
         assertEquals(Optional.of("Geoscience and Remote Sensing Letters, IEEE"), entry.getField(StandardField.JOURNAL));
         assertEquals(
                 Optional.of(
@@ -321,7 +321,7 @@ public class IsiImporterTest {
         assertEquals(Optional.of("12"), first.getField(StandardField.VOLUME));
         assertEquals(Optional.of("20"), first.getField(StandardField.NUMBER));
         assertEquals(Optional.of("2457--71"), first.getField(StandardField.PAGES));
-        assertEquals(StandardEntryType.Article, first.getType());
+        assertEquals(StandardEntryType.ARTICLE, first.getType());
         assertEquals(
                 Optional.of(
                         "Estrogen therapy selectively enhances prefrontal cognitive processes: a randomized, double-blind, placebo-controlled study with functional magnetic resonance imaging in perimenopausal and recently postmenopausal women."),
@@ -335,7 +335,7 @@ public class IsiImporterTest {
         assertEquals(Optional.of("13"), second.getField(StandardField.VOLUME));
         assertEquals(Optional.of("3"), second.getField(StandardField.NUMBER));
         assertEquals(Optional.of("411--22"), second.getField(StandardField.PAGES));
-        assertEquals(StandardEntryType.Article, second.getType());
+        assertEquals(StandardEntryType.ARTICLE, second.getType());
     }
 
     @Test

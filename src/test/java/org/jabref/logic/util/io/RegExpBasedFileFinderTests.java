@@ -25,7 +25,7 @@ public class RegExpBasedFileFinderTests {
     public void setUp() {
 
         entry = new BibEntry();
-        entry.setType(StandardEntryType.Article);
+        entry.setType(StandardEntryType.ARTICLE);
         entry.setCiteKey("HipKro03");
         entry.setField(StandardField.AUTHOR, "Eric von Hippel and Georg von Krogh");
         entry.setField(StandardField.TITLE, "Open Source Software and the \"Private-Collective\" Innovation Model: Issues for Organization Science");
@@ -46,7 +46,7 @@ public class RegExpBasedFileFinderTests {
     @Test
     public void testFindFiles() throws Exception {
         // given
-        BibEntry localEntry = new BibEntry(StandardEntryType.Article);
+        BibEntry localEntry = new BibEntry(StandardEntryType.ARTICLE);
         localEntry.setCiteKey("pdfInDatabase");
         localEntry.setField(StandardField.YEAR, "2001");
 
@@ -82,7 +82,7 @@ public class RegExpBasedFileFinderTests {
     @Test
     public void testAuthorWithDiacritics() throws Exception {
         // given
-        BibEntry localEntry = new BibEntry(StandardEntryType.Article);
+        BibEntry localEntry = new BibEntry(StandardEntryType.ARTICLE);
         localEntry.setCiteKey("Grazulis2017");
         localEntry.setField(StandardField.YEAR, "2017");
         localEntry.setField(StandardField.AUTHOR, "Gražulis, Saulius and O. Kitsune");
@@ -104,7 +104,7 @@ public class RegExpBasedFileFinderTests {
     @Test
     public void testFindFileInSubdirectory() throws Exception {
         // given
-        BibEntry localEntry = new BibEntry(StandardEntryType.Article);
+        BibEntry localEntry = new BibEntry(StandardEntryType.ARTICLE);
         localEntry.setCiteKey("pdfInSubdirectory");
         localEntry.setField(StandardField.YEAR, "2017");
 
@@ -124,7 +124,7 @@ public class RegExpBasedFileFinderTests {
     @Test
     public void testFindFileNonRecursive() throws Exception {
         // given
-        BibEntry localEntry = new BibEntry(StandardEntryType.Article);
+        BibEntry localEntry = new BibEntry(StandardEntryType.ARTICLE);
         localEntry.setCiteKey("pdfInSubdirectory");
         localEntry.setField(StandardField.YEAR, "2017");
 

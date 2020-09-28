@@ -49,7 +49,7 @@ class BibEntryTypesManagerTest {
                 List.of(new BibField(StandardField.AUTHOR, FieldPriority.IMPORTANT)),
                 Collections.emptySet());
         overwrittenStandardType = new BibEntryType(
-                StandardEntryType.Article,
+                                                   StandardEntryType.ARTICLE,
                 List.of(new BibField(StandardField.TITLE, FieldPriority.IMPORTANT)),
                 Collections.emptySet());
         entryTypesManager = new BibEntryTypesManager();
@@ -164,7 +164,7 @@ class BibEntryTypesManagerTest {
     void testsModifyingArticle(BibDatabaseMode mode) {
 
         overwrittenStandardType = new BibEntryType(
-                                                   StandardEntryType.Article,
+                                                   StandardEntryType.ARTICLE,
                                                    List.of(new BibField(StandardField.TITLE, FieldPriority.IMPORTANT),
                                                            new BibField(StandardField.NUMBER, FieldPriority.IMPORTANT),
                                                            new BibField(new UnknownField("langid"), FieldPriority.IMPORTANT),
@@ -180,7 +180,7 @@ class BibEntryTypesManagerTest {
     void testsModifyingArticleWithParsing(BibDatabaseMode mode) {
 
         overwrittenStandardType = new BibEntryType(
-                                                   StandardEntryType.Article,
+                                                   StandardEntryType.ARTICLE,
                                                    List.of(new BibField(StandardField.TITLE, FieldPriority.IMPORTANT),
                                                            new BibField(StandardField.NUMBER, FieldPriority.IMPORTANT),
                                                            new BibField(new UnknownField("langid"), FieldPriority.IMPORTANT),
@@ -199,7 +199,7 @@ class BibEntryTypesManagerTest {
     void testsModifyingArticleWithParsingKeepsListOrder(BibDatabaseMode mode) {
 
         overwrittenStandardType = new BibEntryType(
-                                                   StandardEntryType.Article,
+                                                   StandardEntryType.ARTICLE,
                                                    List.of(new BibField(StandardField.TITLE, FieldPriority.IMPORTANT),
                                                            new BibField(StandardField.NUMBER, FieldPriority.IMPORTANT),
                                                            new BibField(new UnknownField("langid"), FieldPriority.IMPORTANT),

@@ -10,21 +10,21 @@ package org.jabref.logic.msbib;
  * See BIBFORM.XML, shared-bibliography.xsd (ECMA standard)
  */
 public enum MSBibEntryType {
-    ArticleInAPeriodical,
-    Book,
-    BookSection,
-    JournalArticle,
-    ConferenceProceedings,
-    Report,
-    SoundRecording,
-    Performance,
-    Art,
-    DocumentFromInternetSite,
-    InternetSite,
-    Film,
-    Interview,
-    Patent,
-    ElectronicSource,
-    Case,
-    Misc
+    ARTICLE_IN_A_PERIODICAL,
+    BOOK,
+    BOOK_SECTION,
+    JOURNAL_ARTICLE,
+    CONFERENCE_PROCEEDINGS,
+    REPORT,
+    SOUND_RECORDING,
+    PERFORMANCE,
+    ART,
+    DOCUMENT_FROM_INTERNET_SITE,
+    INTERNET_SITE,
+    FILM,
+    INTERVIEW,
+    PATENT,
+    ELECTRONIC_SOURCE,
+    CASE,
+    MISC
 }

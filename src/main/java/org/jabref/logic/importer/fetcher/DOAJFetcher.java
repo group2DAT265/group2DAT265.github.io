@@ -58,7 +58,7 @@ public class DOAJFetcher implements SearchBasedParserFetcher {
         // Fields that are accessible in the journal part of the BibJson object
         Field[] journalSingleFields = {StandardField.PUBLISHER, StandardField.NUMBER, StandardField.VOLUME};
 
-        BibEntry entry = new BibEntry(StandardEntryType.Article);
+        BibEntry entry = new BibEntry(StandardEntryType.ARTICLE);
 
         // Authors
         if (bibJsonEntry.has("author")) {
@@ -170,7 +170,7 @@ public class DOAJFetcher implements SearchBasedParserFetcher {
             path = "/";
         }
 
-        if (path.charAt(path.length() - 1) == '/' || segment.startsWith("/")) {
+        if ((path.charAt(path.length() - 1) == '/') || segment.startsWith("/")) {
             return path + segment;
         }
 
