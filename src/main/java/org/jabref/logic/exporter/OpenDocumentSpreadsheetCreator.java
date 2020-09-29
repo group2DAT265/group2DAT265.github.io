@@ -4,15 +4,9 @@ import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
-import java.net.URL;
 import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
@@ -21,24 +15,13 @@ import java.util.zip.CRC32;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
-
 import org.jabref.logic.l10n.Localization;
 import org.jabref.logic.util.StandardFileType;
 import org.jabref.model.database.BibDatabase;
 import org.jabref.model.database.BibDatabaseContext;
 import org.jabref.model.entry.BibEntry;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-public class OpenDocumentSpreadsheetCreator extends Exporter {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(OpenDocumentSpreadsheetCreator.class);
+public class OpenDocumentSpreadsheetCreator extends OpenOfficeCreator {
 
     /**
      * Creates a new instance of OpenOfficeDocumentCreator
@@ -87,7 +70,7 @@ public class OpenDocumentSpreadsheetCreator extends Exporter {
 
         // First store the xml formatted content to a temporary file.
         File tmpFile = File.createTempFile("opendocument", null);
-        OpenDocumentSpreadsheetCreator.exportOpenDocumentSpreadsheetXML(tmpFile, database, entries);
+        OpenOfficeCreator.exportOpenDocumentOrSpreadsheet(tmpFile, database, entries);
 
         // Then add the content to the zip file:
         try (BufferedInputStream in = new BufferedInputStream(new FileInputStream(tmpFile))) {
@@ -106,46 +89,6 @@ public class OpenDocumentSpreadsheetCreator extends Exporter {
         Objects.requireNonNull(entries);
         if (!entries.isEmpty()) { // Only export if entries exists
             OpenDocumentSpreadsheetCreator.exportOpenDocumentSpreadsheet(file, databaseContext.getDatabase(), entries);
-        }
-    }
-
-    private static void exportOpenDocumentSpreadsheetXML(File tmpFile, BibDatabase database, List<BibEntry> entries) {
-        OpenDocumentRepresentation od = new OpenDocumentRepresentation(database, entries);
-
-        try (Writer ps = new OutputStreamWriter(new FileOutputStream(tmpFile), StandardCharsets.UTF_8)) {
-
-            DOMSource source = new DOMSource(od.getDOMrepresentation());
-            StreamResult result = new StreamResult(ps);
-            Transformer trans = TransformerFactory.newInstance().newTransformer();
-            trans.setOutputProperty(OutputKeys.INDENT, "yes");
-            trans.transform(source, result);
-        } catch (Exception e) {
-            throw new Error(e);
-        }
-    }
-
-    private static void addResourceFile(String name, String resource, ZipOutputStream out) throws IOException {
-        ZipEntry zipEntry = new ZipEntry(name);
-        out.putNextEntry(zipEntry);
-        OpenDocumentSpreadsheetCreator.addFromResource(resource, out);
-        out.closeEntry();
-    }
-
-    private static void addFromResource(String resource, OutputStream out) {
-        URL url = OpenDocumentSpreadsheetCreator.class.getResource(resource);
-        try (InputStream in = url.openStream()) {
-            byte[] buffer = new byte[256];
-            synchronized (out) {
-                while (true) {
-                    int bytesRead = in.read(buffer);
-                    if (bytesRead == -1) {
-                        break;
-                    }
-                    out.write(buffer, 0, bytesRead);
-                }
-            }
-        } catch (IOException e) {
-            LOGGER.warn("Cannot get resource", e);
         }
     }
 }
