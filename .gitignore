@@ -4,6 +4,8 @@
 #Keep doxygen docs local
 docs
 
+.checkstyle
+
 # no generated files in version control
 src/main/gen/
 src/main/generated/
