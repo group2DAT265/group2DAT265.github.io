@@ -1,6 +1,7 @@
 package org.jabref.logic.util.strings;
 
 import java.util.HashMap;
+import java.util.LinkedList;
 
 public class XmlCharsMap extends HashMap<String, String> {
 
@@ -59,15 +60,17 @@ public class XmlCharsMap extends HashMap<String, String> {
         put("\\{\\\\c\\{c\\}\\}", "&#x00E7;");
         put("\\{\\\\c\\{C\\}\\}", "&#x00C7;");
 
-		put("\\{\\\\\\\uFFFD\\{E\\}\\}", C9);
-		put("\\{\\\\\\\uFFFD\\{i\\}\\}", ED);
-		put("\\{\\\\\\\uFFFD\\{I\\}\\}", CD);
-		put("\\{\\\\\\\uFFFD\\{o\\}\\}", F3);
-		put("\\{\\\\\\\uFFFD\\{O\\}\\}", D3);
-		put("\\{\\\\\\\uFFFD\\{u\\}\\}", FA);
-		put("\\{\\\\\\\uFFFD\\{U\\}\\}", DA);
-		put("\\{\\\\\\\uFFFD\\{a\\}\\}", E1);
-		put("\\{\\\\\\\uFFFD\\{A\\}\\}", C1);
+        LinkedList<String> temp = new LinkedList<>();
+        temp.add("\\{\\\\\\\uFFFD\\{E\\}\\}");
+        temp.add("\\{\\\\\\\uFFFD\\{i\\}\\}");
+        temp.add("\\{\\\\\\\uFFFD\\{I\\}\\}");
+        temp.add("\\{\\\\\\\uFFFD\\{o\\}\\}");
+        temp.add("\\{\\\\\\\uFFFD\\{O\\}\\}");
+        temp.add("\\{\\\\\\\uFFFD\\{u\\}\\}");
+        temp.add("\\{\\\\\\\uFFFD\\{U\\}\\}");
+        temp.add("\\{\\\\\\\uFFFD\\{a\\}\\}");
+        temp.add("\\{\\\\\\\uFFFD\\{A\\}\\}");
+        addPairsToHashMap(temp);
 
         // next 2 rows were missing...
         put("\\{\\\\\\^\\{a\\}\\}", "&#x00E2;");
@@ -113,15 +116,19 @@ public class XmlCharsMap extends HashMap<String, String> {
 		put("\\{\\\\\\`u\\}", F9);
 		put("\\{\\\\\\`U\\}", D9);
         put("\\{\\\\\\'e\\}", "&#x00E9;");
-		put("\\{\\\\\\'E\\}", C9);
-		put("\\{\\\\\\'i\\}", ED);
-		put("\\{\\\\\\'I\\}", CD);
-		put("\\{\\\\\\'o\\}", F3);
-		put("\\{\\\\\\'O\\}", D3);
-		put("\\{\\\\\\'u\\}", FA);
-		put("\\{\\\\\\'U\\}", DA);
-		put("\\{\\\\\\'a\\}", E1);
-		put("\\{\\\\\\'A\\}", C1);
+        
+        temp.clear();
+        temp.add("\\{\\\\\\'E\\}");
+        temp.add("\\{\\\\\\'i\\}");
+        temp.add("\\{\\\\\\'I\\}");
+        temp.add("\\{\\\\\\'o\\}");
+        temp.add("\\{\\\\\\'O\\}");
+        temp.add("\\{\\\\\\'u\\}");
+        temp.add("\\{\\\\\\'U\\}");
+        temp.add("\\{\\\\\\'a\\}");
+        temp.add("\\{\\\\\\'A\\}");
+        addPairsToHashMap(temp);
+
         // added next two chars...
         put("\\{\\\\\\'c\\}", "&#x0107;");
         put("\\{\\\\\\'C\\}", "&#x0106;");
@@ -144,5 +151,17 @@ public class XmlCharsMap extends HashMap<String, String> {
         put("\\{\\\\\\~N\\}", "&#x00D1;");
         put("\\{\\\\\\~a\\}", "&#x00E3;");
         put("\\{\\\\\\~A\\}", "&#x00C3;");
+    }
+
+    private void addPairsToHashMap(LinkedList<String> array){
+        put(array.get(0), C9);
+		put(array.get(1), ED);
+		put(array.get(2), CD);
+		put(array.get(3), F3);
+		put(array.get(4), D3);
+		put(array.get(5), FA);
+		put(array.get(6), DA);
+		put(array.get(7), E1);
+        put(array.get(8), C1);
     }
 }
