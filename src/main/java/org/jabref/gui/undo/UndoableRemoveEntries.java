@@ -55,24 +55,10 @@ public class UndoableRemoveEntries extends AbstractUndoableJabRefEdit {
     public String getPresentationName() {
         if (cut) {
             return removeEntries("cut entries");
-            //            if (entries.size() > 1) {
-            //                return Localization.lang("cut entries");
-            //            } else if (entries.size() == 1) {
-            //                return Localization.lang("cut entry %0",
-            //                        StringUtil.boldHTML(entries.get(0).getCiteKeyOptional().orElse(Localization.lang("undefined"))));
-            //            } else {
-            //                return null;
-            //            }
+
         } else {
             return removeEntries("remove entries");
-            //            if (entries.size() > 1) {
-            //                return Localization.lang("remove entries");
-            //            } else if (entries.size() == 1) {
-            //                return Localization.lang("remove entry %0",
-            //                        StringUtil.boldHTML(entries.get(0).getCiteKeyOptional().orElse(Localization.lang("undefined"))));
-            //            } else {
-            //                return null;
-            //            }
+
         }
     }
 
