@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classorg_1_1jabref_1_1logic_1_1exporter_1_1_template_exporter.html#add7daf3759961c373179193f63698c94":[2,0,0,0,3,8,13,13],
 "classorg_1_1jabref_1_1logic_1_1exporter_1_1_template_exporter.html#aea37257d76a702e1181ad667b4b19eac":[2,0,0,0,3,8,13,24],
 "classorg_1_1jabref_1_1logic_1_1exporter_1_1_template_exporter.html#aeb6443361d38e058ebecdf9582340b24":[2,0,0,0,3,8,13,16],
 "classorg_1_1jabref_1_1logic_1_1exporter_1_1_template_exporter.html#aedcc1825a9e4a55fc44f15d6059511b0":[2,0,0,0,3,8,13,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_units_to_latex_formatter.html#ae9daea0cea8f667a2c747eccf78120cd":[2,0,0,0,3,10,0,24,6],
 "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_units_to_latex_formatter.html#aea9f51790520c1df140d9bc33ad75f84":[2,0,0,0,3,10,0,24,1],
 "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_units_to_latex_formatter.html#af6420675ece0ef7a07fec9f292cf3a33":[2,0,0,0,3,10,0,24,0],
-"classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_capitalize_formatter.html":[2,0,0,0,3,10,1,0],
-"classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_capitalize_formatter.html#a1d631c52f97393e9365d03207875bf79":[2,0,0,0,3,10,1,0,4]
+"classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_capitalize_formatter.html":[2,0,0,0,3,10,1,0]
 };

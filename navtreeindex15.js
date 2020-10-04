@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classorg_1_1jabref_1_1gui_1_1filelist_1_1_attach_file_action.html#a295ddfe441c0214f967ba1142a96e209":[2,0,0,0,2,23,0,3],
 "classorg_1_1jabref_1_1gui_1_1filelist_1_1_attach_file_action.html#a4b715393a5a1f134e9f9c53b6e1d1233":[2,0,0,0,2,23,0,5],
 "classorg_1_1jabref_1_1gui_1_1filelist_1_1_attach_file_action.html#a60de2e8ef64ca570fc3c3ecd9d5fc5bf":[2,0,0,0,2,23,0,4],
 "classorg_1_1jabref_1_1gui_1_1filelist_1_1_attach_file_action.html#a6b0f4f0b73315b33794f497b0d4ccb44":[2,0,0,0,2,23,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane.html#a9e37105713c42beb729d26ab62774b20":[2,0,0,0,2,24,5,7],
 "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane.html#ac90971c96e0b883c92a12d3921d873d3":[2,0,0,0,2,24,5,3],
 "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane.html#adeb1558c09c75bebfb34e6b1b9afa8da":[2,0,0,0,2,24,5,5],
-"classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model.html":[2,0,0,0,2,24,7],
-"classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model.html#a12d2002b67636dc93c0a52eebf0654c1":[2,0,0,0,2,24,7,13]
+"classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model.html":[2,0,0,0,2,24,7]
 };

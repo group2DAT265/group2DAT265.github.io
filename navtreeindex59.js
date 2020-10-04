@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"enumorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparison_operator.html":[2,0,0,0,5,5,1,1,1],
 "enumorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparison_operator.html#a63f994c7f6af8daabfdd1d0746028259":[2,0,0,0,5,5,1,1,1,0],
 "enumorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparison_operator.html#a6c3d1015d72449f9a467467b1957b190":[2,0,0,0,5,5,1,1,1,2],
 "enumorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule_1_1_comparison_operator.html#a829ad61f07ee04bed7ef35113e6b13cf":[2,0,0,0,5,5,1,1,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_fetcher.html#ad196a49989827ea5209e245093ce14c1":[2,0,0,0,3,13,25,1],
 "interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_fetcher.html#ae290f55e0f23a4d17bed85e4e96ad787":[2,0,0,0,3,13,25,0],
 "interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher.html":[2,0,0,0,3,13,26],
-"interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher.html#a58464610fd3a234db468d6d8a30f76fb":[2,0,0,0,3,13,26,6],
-"interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher.html#a9171da7277b773fe25db7a5b63add35a":[2,0,0,0,3,13,26,3]
+"interfaceorg_1_1jabref_1_1logic_1_1importer_1_1_search_based_parser_fetcher.html#a58464610fd3a234db468d6d8a30f76fb":[2,0,0,0,3,13,26,6]
 };

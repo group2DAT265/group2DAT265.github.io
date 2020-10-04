@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer.html#aebf00143b39cf0d6978ea92a4fabe2ed":[2,0,0,0,3,13,1,15,6],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer.html#af30b55a2cdc12724460d3812676b2450":[2,0,0,0,3,13,1,15,4],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer.html#af6a11fb6eb2d3ea77bec31fca6a0998a":[2,0,0,0,3,13,1,15,14],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mr_d_lib_importer_1_1_ranked_bib_entry.html":[2,0,0,0,3,13,1,15,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_integrity_check.html":[2,0,0,0,3,14,22],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_integrity_check.html#a11c4c7e6734c1a7427c7c5b1555e1868":[2,0,0,0,3,14,22,4],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_integrity_check.html#a31ee8078ec6c81bad553cc829a44e956":[2,0,0,0,3,14,22,5],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_integrity_check.html#a321bb2ff75ad1d6a01fb2a0784c60d02":[2,0,0,0,3,14,22,0],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_integrity_check.html#a7a1f74515ca787715f79f897cfe469d8":[2,0,0,0,3,14,22,2]
+"classorg_1_1jabref_1_1logic_1_1integrity_1_1_integrity_check.html#a321bb2ff75ad1d6a01fb2a0784c60d02":[2,0,0,0,3,14,22,0]
 };

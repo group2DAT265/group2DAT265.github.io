@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_view_model.html":[2,0,0,0,2,40,2],
 "classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_view_model.html#a0b346683b0d8c7683f33e14d6327889f":[2,0,0,0,2,40,2,9],
 "classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_view_model.html#a10fc656c54e06e49cec63a9b99a9cfc6":[2,0,0,0,2,40,2,0],
 "classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_view_model.html#a30caa9b2cc234aca08516d96b9031c13":[2,0,0,0,2,40,2,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a709c98f06b2c8b22131b0f0a1fed6e2f":[2,0,0,0,2,44,3,8],
 "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a73b57450be3db502c22af2a19ed0b2f0":[2,0,0,0,2,44,3,30],
 "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a75704a6c85e98b94d9f5ad72738f77c4":[2,0,0,0,2,44,3,16],
-"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a7eee3f04ff9000c7b2375e90bb11fc41":[2,0,0,0,2,44,3,27],
-"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a8dbaf23852293e4a03cdb25a4a1c62de":[2,0,0,0,2,44,3,23]
+"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a7eee3f04ff9000c7b2375e90bb11fc41":[2,0,0,0,2,44,3,27]
 };

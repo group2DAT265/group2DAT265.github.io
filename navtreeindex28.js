@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a84615b42ae5639b62cb926971221e8fb":[2,0,0,0,2,48,16,0,4],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a8c736f9db38dd88205b1f8095325bbc5":[2,0,0,0,2,48,16,0,7],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ab2da00058bab20a36c50ee4a3556bbce":[2,0,0,0,2,48,16,0,2],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#ab903d3e3a42fc8557acde1407b824a74":[2,0,0,0,2,48,16,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classorg_1_1jabref_1_1gui_1_1util_1_1comparator_1_1_read_status_field_comparator.html#a7d48b531ae247ae1048f2e8491c1e58f":[2,0,0,0,2,48,0,3,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html":[2,0,0,0,2,48,1,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a2b585c162e1ddc70f337e1ffab13dd24":[2,0,0,0,2,48,1,0,4],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a3a53fe3d49a6cb3bf0d268699961dd7e":[2,0,0,0,2,48,1,0,5],
-"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a46e683f435bc5e3a977e44266db64076":[2,0,0,0,2,48,1,0,1]
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a3a53fe3d49a6cb3bf0d268699961dd7e":[2,0,0,0,2,48,1,0,5]
 };
