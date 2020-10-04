@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread.html":[2,0,0,0,3,26,1,3],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread.html#a2fbbbf96de81c39fe3ddd1012ab2afeb":[2,0,0,0,3,26,1,3,0],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread.html#a3f8d55e03c58a2982b5b56ca7f7bde5d":[2,0,0,0,3,26,1,3,1],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread.html#a7df3354c103bb5841939531f50039fdf":[2,0,0,0,3,26,1,3,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classorg_1_1jabref_1_1logic_1_1shared_1_1listener_1_1_oracle_notification_listener.html#af7d52747a96a95a259e189ab1083fd24":[2,0,0,0,3,28,2,0,1],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1listener_1_1_postgres_s_q_l_notification_listener.html":[2,0,0,0,3,28,2,1],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1listener_1_1_postgres_s_q_l_notification_listener.html#a01a4e74a2c33967bb0e31d9d72cf2a3e":[2,0,0,0,3,28,2,1,4],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1listener_1_1_postgres_s_q_l_notification_listener.html#a594558a45a08ffd7bb24b0c78202f60a":[2,0,0,0,3,28,2,1,0],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1listener_1_1_postgres_s_q_l_notification_listener.html#a6bd10eb4fe1ba503b3abb084744449ec":[2,0,0,0,3,28,2,1,2]
+"classorg_1_1jabref_1_1logic_1_1shared_1_1listener_1_1_postgres_s_q_l_notification_listener.html#a594558a45a08ffd7bb24b0c78202f60a":[2,0,0,0,3,28,2,1,0]
 };

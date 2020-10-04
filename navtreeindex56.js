@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a5c5d462774114aa368946a7cdfbb4ae7":[2,0,0,0,2,30,1,10],
 "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a5d0f26b48dd3aad2002d7d9ad26b2c18":[2,0,0,0,2,30,1,89],
 "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a5fde82564fda9d1285917944843d3897":[2,0,0,0,2,30,1,3],
 "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a60a5a26a3ffa39dd69ea9b610817d504":[2,0,0,0,2,30,1,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a28f25add9b706ab870b738aeeb959c08":[2,0,0,0,3,16,1,24],
 "enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a2fd14809804ee9337b02678d9331f682":[2,0,0,0,3,16,1,21],
 "enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a32472db668d17bd0983f59e3cb1730fa":[2,0,0,0,3,16,1,13],
-"enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a33ac737a83e344eaf8a66852b32460e8":[2,0,0,0,3,16,1,22],
-"enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a34d570dddb4c2ed9a2a197d47a9460e3":[2,0,0,0,3,16,1,3]
+"enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a33ac737a83e344eaf8a66852b32460e8":[2,0,0,0,3,16,1,22]
 };

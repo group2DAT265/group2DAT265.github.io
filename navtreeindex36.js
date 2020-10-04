@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher.html#a40c2a961eb5e0a49c64f89c7d5ae03ff":[2,0,0,0,3,13,0,20,6],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher.html#a7396aff306d75a68ef511bbafbb51fe2":[2,0,0,0,3,13,0,20,1],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher.html#ad796aa4abb2017dfe376103471f14915":[2,0,0,0,3,13,0,20,2],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_gvk_fetcher.html#aefd216c522192e1832a875baf411d244":[2,0,0,0,3,13,0,20,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html#a63200c8f6f75945d988833d487c718f2":[2,0,0,0,3,13,1,3,6],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html#a65eac0059db24c6f0f986244c1cacd12":[2,0,0,0,3,13,1,3,28],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html#a67a97b0cc87ad73802ba7ae11ed9c32d":[2,0,0,0,3,13,1,3,53],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html#a68bd7459dc04778dc270d780b27de30a":[2,0,0,0,3,13,1,3,23],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html#a6d2452d2d905b8c34b8bf588595209a2":[2,0,0,0,3,13,1,3,52]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html#a68bd7459dc04778dc270d780b27de30a":[2,0,0,0,3,13,1,3,23]
 };

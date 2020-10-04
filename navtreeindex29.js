@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a3a53fe3d49a6cb3bf0d268699961dd7e":[2,0,0,0,2,48,1,0,5],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a46e683f435bc5e3a977e44266db64076":[2,0,0,0,2,48,1,0,1],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#a65730f66cabb4fa282672e400c7a0abc":[2,0,0,0,2,48,1,0,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1component_1_1_diff_highlighting_text_pane.html#aa17de89abdb530ee800b5a4159ccd343":[2,0,0,0,2,48,1,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_file_field_writer.html#a5b9358f796925fbb9320f7041eeb0b41":[2,0,0,0,3,2,6,3],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_file_field_writer.html#a9cb79c5093e1fb17e77c76d88190f954":[2,0,0,0,3,2,6,0],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_file_field_writer.html#ad38d04c684a417822758bfd40eefdd71":[2,0,0,0,3,2,6,1],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception.html":[2,0,0,0,3,2,7],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception.html#a72651b1f3882426d8305e8c763f5878b":[2,0,0,0,3,2,7,0]
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception.html":[2,0,0,0,3,2,7]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#ae0559d6415ca3bc67121eaa59f835d24":[2,0,0,0,3,21,1,65],
 "classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#ae257f9755951341182fdfc75a443624e":[2,0,0,0,3,21,1,76],
 "classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#ae66a5d3dff236a2c9e2e95c7702b8cb4":[2,0,0,0,3,21,1,94],
 "classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#ae75b07b513450c63e3cde03148d33a66":[2,0,0,0,3,21,1,89],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_lifecycle.html#ac5ab1418b931ab426a8ab010b6b7f995":[2,0,0,0,3,26,1,2,0],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_lifecycle.html#ac69ca788c9a6085de5c6ec82ae5cd86a":[2,0,0,0,3,26,1,2,6],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_lifecycle.html#ac6e6d545d7ee5ef4af6059f962395ce6":[2,0,0,0,3,26,1,2,1],
-"classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_lifecycle.html#ae2f8893ce67143e3d96dd14c0a1e79a9":[2,0,0,0,3,26,1,2,3],
-"classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_thread.html":[2,0,0,0,3,26,1,3]
+"classorg_1_1jabref_1_1logic_1_1remote_1_1server_1_1_remote_listener_server_lifecycle.html#ae2f8893ce67143e3d96dd14c0a1e79a9":[2,0,0,0,3,26,1,2,3]
 };
