@@ -40,6 +40,7 @@ jobs:
           path: build
   sonarqubeanalysis:
     name: Sonarqube analysis
+    needs: jacocogeneration
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
