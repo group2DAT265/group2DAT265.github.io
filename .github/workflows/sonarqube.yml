@@ -33,11 +33,11 @@ jobs:
       - name: Update test coverage metrics
         if: ${{ steps.checksecrets.outputs.secretspresent }}
         run: xvfb-run --auto-servernum ./gradlew jacocoTestReport
-    - name: SonarQube Scan
-      uses: kitabisa/sonarqube-action@master
-      with:
-        host: ${{ secrets.SONARQUBE_HOST }}
-        login: ${{ secrets.SONARQUBE_TOKEN }}
-        projectKey: "dat265group2"
-        projectName: "Software-Evolution-Group-2"
-        projectVersion: "v0.0.1"
+      - name: SonarQube Scan
+        uses: kitabisa/sonarqube-action@master
+        with:
+          host: ${{ secrets.SONARQUBE_HOST }}
+          login: ${{ secrets.SONARQUBE_TOKEN }}
+          projectKey: "dat265group2"
+          projectName: "Software-Evolution-Group-2"
+          projectVersion: "v0.0.1"
