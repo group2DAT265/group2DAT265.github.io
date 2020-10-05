@@ -6,7 +6,7 @@ on: [push, pull_request]
     #  - master
 jobs:
   sonarQubeTrigger:
-    name: SonarQube Trigger
+    name: SonarQube Analysis
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
@@ -32,7 +32,6 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew    
       - name: Update test coverage metrics
-        if: ${{ steps.checksecrets.outputs.secretspresent }}
         run: xvfb-run --auto-servernum ./gradlew jacocoTestReport
       - name: SonarQube Scan
         uses: kitabisa/sonarqube-action@master
