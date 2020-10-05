@@ -5,8 +5,8 @@ on: [push, pull_request]
     #branches:
     #  - master
 jobs:
-  sonarQubeTrigger:
-    name: SonarQube Analysis
+  jacocogeneration:
+    name: Generate Jacoco Code Coverage Report
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
@@ -33,6 +33,24 @@ jobs:
         run: chmod +x gradlew    
       - name: Update test coverage metrics
         run: xvfb-run --auto-servernum ./gradlew jacocoTestReport
+      - name: Archive Jacoco Report
+        uses: actions/upload-artifact@v2
+        with:
+          name: builddir
+          path: build
+  sonarqubeanalysis:
+    name: Sonarqube analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+      - uses: actions/download-artifact@v2
+        with:
+          name: builddir
+      - name: Set up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 14
       - name: SonarQube Scan
         uses: kitabisa/sonarqube-action@master
         with:
@@ -41,3 +59,6 @@ jobs:
           projectKey: "dat265group2"
           projectName: "Software-Evolution-Group-2"
           projectVersion: "v0.0.1"
+
+
+     
