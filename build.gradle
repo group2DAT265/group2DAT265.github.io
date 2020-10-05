@@ -575,6 +575,24 @@ jacocoTestReport {
     }
 }
 
+project.tasks["sonarqube"].dependsOn "jacocoTestReport"
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "dat265group2:system"
+    property "sonar.projectName", "Software-Evolution-Project-group-2:system"
+    property "sonar.host.url", "http://localhost:9000"
+    property "sonar.login", "admin"
+    property "sonar.password", "admin"
+    property "sonar.projectVersion", "1.0"
+    property "sonar.sources", "."
+    property "sonar.java.binaries", "."
+    property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml"
+    property "sonar.language", "java"
+    property "sonar.sourceEncoding", "UTF-8"
+  }
+}
+
 // Code quality tasks
 checkstyle {
     // will only run when called explicitly from the command line
@@ -808,12 +826,4 @@ task bundleLibreOffice(type: Jar) {
 
     destinationDir = file('lib')
     archiveName = 'libreoffice.jar'
-}
-
-sonarqube {
-  properties {
-    property "sonar.projectKey", "Hafmaestro_Group2DAT265"
-    property "sonar.organization", "hafmaestro"
-    property "sonar.host.url", "https://sonarcloud.io"
-  }
 }
