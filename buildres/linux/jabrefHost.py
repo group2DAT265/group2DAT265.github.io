@@ -13,7 +13,6 @@ import struct
 import subprocess
 import sys
 from pathlib import Path
-from buildres.commonDefs import get_message
 
 # We assume that this python script is located in "jabref/lib" while the executable is "jabref/bin/JabRef"
 script_dir = Path(__file__).resolve().parent.parent
@@ -29,6 +28,20 @@ logging_dir = Path.home() / ".mozilla/native-messaging-hosts/"
 if not logging_dir.exists():
     logging_dir.mkdir(parents=True)
 logging.basicConfig(filename=str(logging_dir / "jabref_browser_extension.log"))
+
+# Read a message from stdin and decode it.
+def get_message():
+    raw_length = sys.stdin.buffer.read(4)
+    if not raw_length:
+        logging.error("Raw_length null")
+        sys.exit(0)
+    message_length = struct.unpack("=I", raw_length)[0]
+    logging.info("Got length: {} bytes to be read".format(message_length))
+    message = sys.stdin.buffer.read(message_length).decode("utf-8")
+    logging.info("Got message of {} chars".format(len(message)))
+    data = json.loads(message)
+    logging.info("Successfully retrieved JSON")
+    return data
 
 # Encode a message for transmission, given its content.
 def encode_message(message_content):
