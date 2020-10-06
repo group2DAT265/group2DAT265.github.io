@@ -1,9 +1,8 @@
 name: SonarQube Analysis
-on: [push, pull_request]
-#on:
- # push:
-    #branches:
-    #  - master
+on:
+  push:
+    branches:
+      - master
 jobs:
   jacocogeneration:
     name: Generate Jacoco Code Coverage Report
