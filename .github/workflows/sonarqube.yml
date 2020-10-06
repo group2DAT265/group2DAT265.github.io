@@ -4,8 +4,8 @@ on:
     branches:
       - master
 jobs:
-  sonarQubeTrigger:
-    name: SonarQube Trigger
+  jacocogeneration:
+    name: Generate Jacoco Code Coverage Report
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
@@ -31,13 +31,30 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew    
       - name: Update test coverage metrics
-        if: ${{ steps.checksecrets.outputs.secretspresent }}
         run: xvfb-run --auto-servernum ./gradlew jacocoTestReport
-    - name: SonarQube Scan
-      uses: kitabisa/sonarqube-action@master
-      with:
-        host: ${{ secrets.SONARQUBE_HOST }}
-        login: ${{ secrets.SONARQUBE_TOKEN }}
-        projectKey: "dat265group2"
-        projectName: "Software-Evolution-Group-2"
-        projectVersion: "v0.0.1"
+      - name: Archive Jacoco Report
+        uses: actions/upload-artifact@v2
+        with:
+          name: builddir
+          path: build/reports/jacoco/test/jacocoTestReport.xml
+  sonarqubeanalysis:
+    name: Sonarqube analysis
+    needs: jacocogeneration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+      - uses: actions/download-artifact@v2
+        with:
+          name: builddir
+      - name: SonarQube Scan
+        uses: kitabisa/sonarqube-action@master
+        with:
+          host: ${{ secrets.SONARQUBE_HOST }}
+          login: ${{ secrets.SONARQUBE_TOKEN }}
+          projectKey: "dat265group2"
+          projectName: "Software-Evolution-Group-2"
+          projectVersion: "v0.0.1"
+
+
+     
