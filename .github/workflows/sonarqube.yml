@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: builddir
-          path: build\reports\jacoco\test\jacocoTestReport.xml
+          path: build/reports/jacoco/test/jacocoTestReport.xml
   sonarqubeanalysis:
     name: Sonarqube analysis
     needs: jacocogeneration
