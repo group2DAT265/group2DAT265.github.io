@@ -53,5 +53,5 @@ jobs:
           host: ${{ secrets.SONARQUBE_HOST }}
           login: ${{ secrets.SONARQUBE_TOKEN }}
           projectKey: "original"
-          projectName: "Original Jabref"
+          projectName: "Original-Jabref"
           projectVersion: "v0.0.1"
