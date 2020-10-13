@@ -39,9 +39,9 @@ public class OpenOfficeDocumentCreator extends OpenOfficeCreator {
 
             // Add manifest (required for OOo 2.0), "meta.xml", "mimetype" files. These are in the
             // resource/openoffice directory, and are copied verbatim into the zip file.
-            OpenOfficeCreator.addResourceFile("meta.xml", "/resource/openoffice/meta.xml", out);
-            OpenOfficeDocumentCreator.addResourceFile("mimetype", "/resource/openoffice/mimetype", out);
-            OpenOfficeDocumentCreator.addResourceFile("META-INF/manifest.xml", "/resource/openoffice/manifest.xml",
+            addResourceFile("meta.xml", "/resource/openoffice/meta.xml", out);
+            addResourceFile("mimetype", "/resource/openoffice/mimetype", out);
+            addResourceFile("META-INF/manifest.xml", "/resource/openoffice/manifest.xml",
                     out);
         }
     }
@@ -49,11 +49,11 @@ public class OpenOfficeDocumentCreator extends OpenOfficeCreator {
     private static void exportOpenOfficeCalc(Path file, BibDatabase database, List<BibEntry> entries) throws Exception {
         // First store the xml formatted content to a temporary file.
         File tmpFile = File.createTempFile("oocalc", null);
-        OpenOfficeCreator.exportOpenDocumentOrSpreadsheet(tmpFile, database, entries);
+        exportOpenDocumentOrSpreadsheet(tmpFile, database, entries);
 
         // Then add the content to the zip file:
         try (BufferedInputStream in = new BufferedInputStream(new FileInputStream(tmpFile))) {
-            OpenOfficeDocumentCreator.storeOpenOfficeFile(file, in);
+            storeOpenOfficeFile(file, in);
         }
 
         // Delete the temporary file:
@@ -68,7 +68,7 @@ public class OpenOfficeDocumentCreator extends OpenOfficeCreator {
         Objects.requireNonNull(databaseContext);
         Objects.requireNonNull(entries);
         if (!entries.isEmpty()) { // Do not export if no entries
-            OpenOfficeDocumentCreator.exportOpenOfficeCalc(file, databaseContext.getDatabase(), entries);
+            exportOpenOfficeCalc(file, databaseContext.getDatabase(), entries);
         }
     }
 }

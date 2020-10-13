@@ -28,13 +28,13 @@ import org.slf4j.LoggerFactory;
 
 public abstract class OpenOfficeCreator extends Exporter {
 
-    protected static final Logger LOGGER = LoggerFactory.getLogger(OpenOfficeDocumentCreator.class);
+    static final Logger LOGGER = LoggerFactory.getLogger(OpenOfficeDocumentCreator.class);
 
     public OpenOfficeCreator(String id, String displayName, FileType extension) {
         super(id, displayName, extension);
     }
 
-    protected static void exportOpenDocumentOrSpreadsheet(File tmpFile, BibDatabase database, List<BibEntry> entries) {
+    static void exportOpenDocumentOrSpreadsheet(File tmpFile, BibDatabase database, List<BibEntry> entries) {
         OpenDocumentRepresentation od = new OpenDocumentRepresentation(database, entries);
 
         try (Writer ps = new OutputStreamWriter(new FileOutputStream(tmpFile), StandardCharsets.UTF_8)) {
@@ -49,7 +49,7 @@ public abstract class OpenOfficeCreator extends Exporter {
         }
     }
 
-    protected static void addResourceFile(String name, String resource, ZipOutputStream out) throws IOException {
+    static void addResourceFile(String name, String resource, ZipOutputStream out) throws IOException {
         ZipEntry zipEntry = new ZipEntry(name);
         out.putNextEntry(zipEntry);
         OpenOfficeCreator.addFromResource(resource, out);

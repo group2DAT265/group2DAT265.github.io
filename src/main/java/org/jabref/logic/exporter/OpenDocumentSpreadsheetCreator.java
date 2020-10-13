@@ -59,9 +59,9 @@ public class OpenDocumentSpreadsheetCreator extends OpenOfficeCreator {
 
             // Add manifest (required for OOo 2.0) and "meta.xml": These are in the
             // resource/ods directory, and are copied verbatim into the zip file.
-            OpenDocumentSpreadsheetCreator.addResourceFile("meta.xml", "/resource/ods/meta.xml", out);
+            addResourceFile("meta.xml", "/resource/ods/meta.xml", out);
 
-            OpenDocumentSpreadsheetCreator.addResourceFile("META-INF/manifest.xml", "/resource/ods/manifest.xml", out);
+            addResourceFile("META-INF/manifest.xml", "/resource/ods/manifest.xml", out);
         }
     }
 
@@ -70,11 +70,11 @@ public class OpenDocumentSpreadsheetCreator extends OpenOfficeCreator {
 
         // First store the xml formatted content to a temporary file.
         File tmpFile = File.createTempFile("opendocument", null);
-        OpenOfficeCreator.exportOpenDocumentOrSpreadsheet(tmpFile, database, entries);
+        exportOpenDocumentOrSpreadsheet(tmpFile, database, entries);
 
         // Then add the content to the zip file:
         try (BufferedInputStream in = new BufferedInputStream(new FileInputStream(tmpFile))) {
-            OpenDocumentSpreadsheetCreator.storeOpenDocumentSpreadsheetFile(file, in);
+            storeOpenDocumentSpreadsheetFile(file, in);
         }
         // Delete the temporary file:
         if (!tmpFile.delete()) {
@@ -88,7 +88,7 @@ public class OpenDocumentSpreadsheetCreator extends OpenOfficeCreator {
         Objects.requireNonNull(databaseContext);
         Objects.requireNonNull(entries);
         if (!entries.isEmpty()) { // Only export if entries exists
-            OpenDocumentSpreadsheetCreator.exportOpenDocumentSpreadsheet(file, databaseContext.getDatabase(), entries);
+            exportOpenDocumentSpreadsheet(file, databaseContext.getDatabase(), entries);
         }
     }
 }
