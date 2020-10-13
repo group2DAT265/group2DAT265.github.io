@@ -87,8 +87,6 @@ public enum KeyBinding {
     WEB_SEARCH("Web search", Localization.lang("Web search"), "alt+4", KeyBindingCategory.SEARCH),
     WRITE_XMP("Write XMP", Localization.lang("Write XMP"), "F6", KeyBindingCategory.TOOLS),
     CLEAR_SEARCH("Clear search", Localization.lang("Clear search"), "ESCAPE", KeyBindingCategory.SEARCH),
-
-    //New features
     GENERATE_WORDCLOUD("Generate wordcloud", Localization.lang("Generate wordcloud"), "ctrl+shift+W", KeyBindingCategory.QUALITY);
 
 
