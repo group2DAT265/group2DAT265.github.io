@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane prefWidth="476.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jabref.gui.wordcloud.WordCloudView">
+    <buttonTypes>
+        <ButtonType fx:constant="CANCEL" />
+<!--        TODO: Add download id-->
+<!--        TODO: Add button data-->
+        <ButtonType fx:id="generateButton" text="%Generate" />
+    </buttonTypes>
+    <content>
+        <VBox prefHeight="200.0" prefWidth="400.0">
+            <children>
+                <HBox>
+                    <children>
+                        <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
+                            <children>
+                                <Label text="General" />
+<!--                              TODO: Add actions and variables-->
+                                <CheckBox text="Include title words" />
+                                <CheckBox text="Save to disk" />
+                            </children>
+                        </VBox>
+                        <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
+                            <children>
+                                <Label text="Font" />
+                                <ChoiceBox value="Comic Sans">
+                                    <items>
+                                        <FXCollections fx:factory="observableArrayList">
+                                            <String fx:value="Comic Sans" />
+                                        </FXCollections>
+                                    </items>
+                                </ChoiceBox>
+                                <Label text="Word rotation" />
+                                <ChoiceBox value="Horizontal">
+                                    <items>
+                                        <FXCollections fx:factory="observableArrayList">
+                                            <String fx:value="Horizontal" />
+                                        </FXCollections>
+                                    </items>
+                                </ChoiceBox>
+                                <Label text="Color palette" />
+                                <ChoiceBox value="Blue, cyan, other blue">
+                                    <items>
+                                        <FXCollections fx:factory="observableArrayList">
+                                            <String fx:value="Blue, cyan, other blue" />
+                                        </FXCollections>
+                                    </items>
+                                </ChoiceBox>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <ImageView fitHeight="150.0" fitWidth="300.0" preserveRatio="true">
+                    <Image url="@/src/examplecloud.png" />
+                </ImageView>
+            </children>
+        </VBox>
+    </content>
+</DialogPane>
