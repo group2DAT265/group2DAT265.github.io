@@ -119,6 +119,7 @@ import org.jabref.gui.undo.CountingUndoManager;
 import org.jabref.gui.undo.UndoRedoAction;
 import org.jabref.gui.util.BackgroundTask;
 import org.jabref.gui.util.DefaultTaskExecutor;
+import org.jabref.gui.wordcloud.GenerateWordCloudAction;
 import org.jabref.logic.autosaveandbackup.AutosaveManager;
 import org.jabref.logic.autosaveandbackup.BackupManager;
 import org.jabref.logic.citationstyle.CitationStyleOutputFormat;
@@ -525,7 +526,7 @@ public class JabRefFrame extends BorderPane {
                 rightSpacer,
 
                 new HBox(
-                                               factory.createIconButton(StandardActions.NEW_ARTICLE, new NewEntryAction(this, StandardEntryType.ARTICLE, dialogService, Globals.prefs, stateManager)),
+                        factory.createIconButton(StandardActions.NEW_ARTICLE, new NewEntryAction(this, StandardEntryType.ARTICLE, dialogService, Globals.prefs, stateManager)),
                         factory.createIconButton(StandardActions.NEW_ENTRY, new NewEntryAction(this, dialogService, Globals.prefs, stateManager)),
                         factory.createIconButton(StandardActions.NEW_ENTRY_FROM_PLAIN_TEXT, new ExtractBibtexAction(stateManager)),
                         factory.createIconButton(StandardActions.DELETE_ENTRY, new EditAction(StandardActions.DELETE_ENTRY, this, stateManager))
@@ -546,7 +547,9 @@ public class JabRefFrame extends BorderPane {
                 new HBox(
                         pushToApplicationButton,
                         factory.createIconButton(StandardActions.GENERATE_CITE_KEYS, new GenerateCitationKeyAction(this, dialogService, stateManager)),
-                        factory.createIconButton(StandardActions.CLEANUP_ENTRIES, new CleanupAction(this, prefs, dialogService, stateManager))
+                        factory.createIconButton(StandardActions.CLEANUP_ENTRIES, new CleanupAction(this, prefs, dialogService, stateManager)),
+                                               factory.createIconButton(StandardActions.GENERATE_WORDCLOUD, new GenerateWordCloudAction(dialogService,
+                                                                                                                                        stateManager))
                 ),
 
                 new Separator(Orientation.VERTICAL),
