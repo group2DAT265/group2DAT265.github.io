@@ -10,12 +10,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class JabRefCLITest {
 
+    private static String someFile = "some/file";
+
     @Test
     void parsingLongOptions() throws ParseException {
         JabRefCLI cli = new JabRefCLI(new String[]{"--nogui", "--help", "--blank", "--version", "--import=some/file", "--output=some/export/file"});
 
         assertEquals(Collections.emptyList(), cli.getLeftOver());
-        assertEquals("some/file", cli.getFileImport());
+        assertEquals(someFile, cli.getFileImport());
         assertTrue(cli.isDisableGui());
         assertTrue(cli.isHelp());
         assertTrue(cli.isBlank());
@@ -28,13 +30,13 @@ class JabRefCLITest {
         JabRefCLI cli = new JabRefCLI(new String[]{"-n", "-h", "-b", "-v", "-i=some/file", "-o=some/export/file"});
 
         assertEquals(Collections.emptyList(), cli.getLeftOver());
-        assertEquals("some/file", cli.getFileImport());
+        assertEquals(someFile, cli.getFileImport());
         assertTrue(cli.isFileImport());
         assertTrue(cli.isDisableGui());
         assertTrue(cli.isHelp());
         assertTrue(cli.isBlank());
         assertTrue(cli.isShowVersion());
-        assertEquals("some/file", cli.getImportToOpenBase());
+        assertEquals(someFile, cli.getImportToOpenBase());
         assertEquals("some/export/file", cli.getFileExport());
         assertTrue(cli.isFileExport());
     }
@@ -44,7 +46,7 @@ class JabRefCLITest {
         JabRefCLI cli = new JabRefCLI(new String[]{"-n", "-h", "-b", "-v", "-x=some/file"});
 
         assertEquals(Collections.emptyList(), cli.getLeftOver());
-        assertEquals("some/file", cli.getPreferencesExport());
+        assertEquals(someFile, cli.getPreferencesExport());
         assertTrue(cli.isPreferencesExport());
         assertTrue(cli.isDisableGui());
         assertTrue(cli.isHelp());
@@ -56,7 +58,7 @@ class JabRefCLITest {
     void preferencesImport() throws ParseException {
         JabRefCLI cli = new JabRefCLI(new String[]{"-n", "-p=some/file"});
         assertEquals(Collections.emptyList(), cli.getLeftOver());
-        assertEquals("some/file", cli.getPreferencesImport());
+        assertEquals(someFile, cli.getPreferencesImport());
         assertTrue(cli.isPreferencesImport());
     }
 
@@ -64,7 +66,7 @@ class JabRefCLITest {
     void auxImport() throws ParseException {
         JabRefCLI cli = new JabRefCLI(new String[]{"-a=some/file"});
         assertEquals(Collections.emptyList(), cli.getLeftOver());
-        assertEquals("some/file", cli.getAuxImport());
+        assertEquals(someFile, cli.getAuxImport());
         assertTrue(cli.isAuxImport());
     }
 
@@ -102,7 +104,7 @@ class JabRefCLITest {
     void exportMatchesTest() throws ParseException {
         JabRefCLI cli = new JabRefCLI(new String[]{"-m=some/file"});
         assertTrue(cli.isExportMatches());
-        assertEquals("some/file", cli.getExportMatches());
+        assertEquals(someFile, cli.getExportMatches());
     }
 
     @Test
