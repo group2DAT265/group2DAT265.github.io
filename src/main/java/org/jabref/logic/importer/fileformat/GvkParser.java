@@ -118,19 +118,7 @@ public class GvkParser implements Parser {
             }
 
             // author
-            if ("028A".equals(tag)) {
-                String vorname = getSubfield("d", datafield);
-                String nachname = getSubfield("a", datafield);
-
-                if (author == null) {
-                    author = "";
-                } else {
-                    author = author.concat(AND);
-                }
-                author = author.concat(vorname + " " + nachname);
-            }
-            // author (weiterer)
-            if ("028B".equals(tag)) {
+            if ("028A".equals(tag) || "028B".equals(tag)) {
                 String vorname = getSubfield("d", datafield);
                 String nachname = getSubfield("a", datafield);
 
