@@ -1,7 +1,5 @@
 package org.jabref.logic.util.strings;
-
 import java.util.HashMap;
-
 public class XmlCharsMap extends HashMap<String, String> {
     public XmlCharsMap() {
         put("\\{\\\\\\\"\\{a\\}\\}", "&#x00E4;");
@@ -14,11 +12,9 @@ public class XmlCharsMap extends HashMap<String, String> {
         put("\\{\\\\\\\"\\{O\\}\\}", "&#x00D6;");
         put("\\{\\\\\\\"\\{u\\}\\}", "&#x00FC;");
         put("\\{\\\\\\\"\\{U\\}\\}", "&#x00DC;");
-
         // next 2 rows were missing...
         put("\\{\\\\\\`\\{a\\}\\}", "&#x00E0;");
         put("\\{\\\\\\`\\{A\\}\\}", "&#x00C0;");
-
         put("\\{\\\\\\`\\{e\\}\\}", "&#x00E8;");
         put("\\{\\\\\\`\\{E\\}\\}", "&#x00C8;");
         put("\\{\\\\\\`\\{i\\}\\}", "&#x00EC;");
@@ -27,7 +23,6 @@ public class XmlCharsMap extends HashMap<String, String> {
         put("\\{\\\\\\`\\{O\\}\\}", "&#x00D2;");
         put("\\{\\\\\\`\\{u\\}\\}", "&#x00F9;");
         put("\\{\\\\\\`\\{U\\}\\}", "&#x00D9;");
-
         // corrected these 10 lines below...
         put("\\{\\\\\\'\\{a\\}\\}", "&#x00E1;");
         put("\\{\\\\\\'\\{A\\}\\}", "&#x00C1;");
@@ -44,7 +39,6 @@ public class XmlCharsMap extends HashMap<String, String> {
         put("\\{\\\\\\'\\{C\\}\\}", "&#x0106;");
         put("\\{\\\\c\\{c\\}\\}", "&#x00E7;");
         put("\\{\\\\c\\{C\\}\\}", "&#x00C7;");
-
         put("\\{\\\\\\\uFFFD\\{E\\}\\}", "&#x00C9;");
         put("\\{\\\\\\\uFFFD\\{i\\}\\}", "&#x00ED;");
         put("\\{\\\\\\\uFFFD\\{I\\}\\}", "&#x00CD;");
@@ -54,11 +48,9 @@ public class XmlCharsMap extends HashMap<String, String> {
         put("\\{\\\\\\\uFFFD\\{U\\}\\}", "&#x00DA;");
         put("\\{\\\\\\\uFFFD\\{a\\}\\}", "&#x00E1;");
         put("\\{\\\\\\\uFFFD\\{A\\}\\}", "&#x00C1;");
-
         // next 2 rows were missing...
         put("\\{\\\\\\^\\{a\\}\\}", "&#x00E2;");
         put("\\{\\\\\\^\\{A\\}\\}", "&#x00C2;");
-
         put("\\{\\\\\\^\\{o\\}\\}", "&#x00F4;");
         put("\\{\\\\\\^\\{O\\}\\}", "&#x00D4;");
         put("\\{\\\\\\^\\{u\\}\\}", "&#x00F9;");
@@ -67,14 +59,12 @@ public class XmlCharsMap extends HashMap<String, String> {
         put("\\{\\\\\\^\\{E\\}\\}", "&#x00CA;");
         put("\\{\\\\\\^\\{i\\}\\}", "&#x00EE;");
         put("\\{\\\\\\^\\{I\\}\\}", "&#x00CE;");
-
         put("\\{\\\\\\~\\{o\\}\\}", "&#x00F5;");
         put("\\{\\\\\\~\\{O\\}\\}", "&#x00D5;");
         put("\\{\\\\\\~\\{n\\}\\}", "&#x00F1;");
         put("\\{\\\\\\~\\{N\\}\\}", "&#x00D1;");
         put("\\{\\\\\\~\\{a\\}\\}", "&#x00E3;");
         put("\\{\\\\\\~\\{A\\}\\}", "&#x00C3;");
-
         put("\\{\\\\\\\"a\\}", "&#x00E4;");
         put("\\{\\\\\\\"A\\}", "&#x00C4;");
         put("\\{\\\\\\\"e\\}", "&#x00EB;");
@@ -85,11 +75,9 @@ public class XmlCharsMap extends HashMap<String, String> {
         put("\\{\\\\\\\"O\\}", "&#x00D6;");
         put("\\{\\\\\\\"u\\}", "&#x00FC;");
         put("\\{\\\\\\\"U\\}", "&#x00DC;");
-
         // next 2 rows were missing...
         put("\\{\\\\\\`a\\}", "&#x00E0;");
         put("\\{\\\\\\`A\\}", "&#x00C0;");
-
         put("\\{\\\\\\`e\\}", "&#x00E8;");
         put("\\{\\\\\\`E\\}", "&#x00C8;");
         put("\\{\\\\\\`i\\}", "&#x00EC;");
@@ -111,11 +99,9 @@ public class XmlCharsMap extends HashMap<String, String> {
         // added next two chars...
         put("\\{\\\\\\'c\\}", "&#x0107;");
         put("\\{\\\\\\'C\\}", "&#x0106;");
-
         // next two lines were wrong...
         put("\\{\\\\\\^a\\}", "&#x00E2;");
         put("\\{\\\\\\^A\\}", "&#x00C2;");
-
         put("\\{\\\\\\^o\\}", "&#x00F4;");
         put("\\{\\\\\\^O\\}", "&#x00D4;");
         put("\\{\\\\\\^u\\}", "&#x00F9;");
