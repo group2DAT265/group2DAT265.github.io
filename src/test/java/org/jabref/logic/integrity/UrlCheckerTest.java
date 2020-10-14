@@ -40,4 +40,9 @@ public class UrlCheckerTest {
     void urlFieldDoesNotAcceptPartialLocalPath() {
         assertNotEquals(Optional.empty(), checker.checkValue("c:/asdf/asdf"));
     }
+
+    @Test
+    void urlFieldDoesNotAcceptBlankUrls() {
+        assertEquals(Optional.empty(), checker.checkValue(""));
+    }
 }

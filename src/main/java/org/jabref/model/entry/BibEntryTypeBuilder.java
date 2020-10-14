@@ -19,7 +19,7 @@ import com.google.common.collect.Streams;
 
 public class BibEntryTypeBuilder {
 
-    private EntryType type = StandardEntryType.Misc;
+    private EntryType type = StandardEntryType.MISC;
     private Set<BibField> fields = new LinkedHashSet<>();
     private Set<OrFields> requiredFields = new LinkedHashSet<>();
 

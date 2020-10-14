@@ -13,13 +13,15 @@ import org.jabref.gui.externalfiletype.ExternalFileTypes;
 @AllowedToUseAwt("Requires AWT to open a file")
 public class OSX implements NativeDesktop {
 
+    private static final String PATH = "/usr/bin/open";
+
     @Override
     public void openFile(String filePath, String fileType) throws IOException {
         Optional<ExternalFileType> type = ExternalFileTypes.getInstance().getExternalFileTypeByExt(fileType);
         if (type.isPresent() && !type.get().getOpenWithApplication().isEmpty()) {
             openFileWithApplication(filePath, type.get().getOpenWithApplication());
         } else {
-            String[] cmd = {"/usr/bin/open", filePath};
+            String[] cmd = {PATH, filePath};
             Runtime.getRuntime().exec(cmd);
         }
     }
@@ -27,8 +29,8 @@ public class OSX implements NativeDesktop {
     @Override
     public void openFileWithApplication(String filePath, String application) throws IOException {
         // Use "-a <application>" if the app is specified, and just "open <filename>" otherwise:
-        String[] cmd = (application != null) && !application.isEmpty() ? new String[] {"/usr/bin/open", "-a",
-                application, filePath} : new String[] {"/usr/bin/open", filePath};
+        String[] cmd = (application != null) && !application.isEmpty() ? new String[] {PATH, "-a",
+                                                                                       application, filePath} : new String[] {PATH, filePath};
         Runtime.getRuntime().exec(cmd);
     }
 

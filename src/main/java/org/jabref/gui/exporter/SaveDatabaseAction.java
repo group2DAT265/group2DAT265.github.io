@@ -48,6 +48,7 @@ import org.slf4j.LoggerFactory;
  */
 public class SaveDatabaseAction {
     private static final Logger LOGGER = LoggerFactory.getLogger(SaveDatabaseAction.class);
+    private static final String SAVE_LIBRARY = "Save library";
 
     private final BasePanel panel;
     private final JabRefFrame frame;
@@ -94,7 +95,7 @@ public class SaveDatabaseAction {
                 dialogService.notify(Localization.lang("Saved selected to '%0'.", path.toString()));
             } catch (SaveException ex) {
                 LOGGER.error("A problem occurred when trying to save the file", ex);
-                dialogService.showErrorDialogAndWait(Localization.lang("Save library"), Localization.lang("Could not save file."), ex);
+                dialogService.showErrorDialogAndWait(Localization.lang(SAVE_LIBRARY), Localization.lang("Could not save file."), ex);
             }
         });
     }
@@ -207,7 +208,7 @@ public class SaveDatabaseAction {
             return success;
         } catch (SaveException ex) {
             LOGGER.error(String.format("A problem occurred when trying to save the file %s", targetPath), ex);
-            dialogService.showErrorDialogAndWait(Localization.lang("Save library"), Localization.lang("Could not save file."), ex);
+            dialogService.showErrorDialogAndWait(Localization.lang(SAVE_LIBRARY), Localization.lang("Could not save file."), ex);
             return false;
         } finally {
             // release panel from save status
@@ -255,11 +256,11 @@ public class SaveDatabaseAction {
         ButtonType tryDifferentEncoding = new ButtonType(Localization.lang("Try different encoding"), ButtonBar.ButtonData.OTHER);
         ButtonType ignore = new ButtonType(Localization.lang("Ignore"), ButtonBar.ButtonData.APPLY);
         boolean saveWithDifferentEncoding = dialogService
-                .showCustomDialogAndWait(Localization.lang("Save library"), pane, ignore, tryDifferentEncoding)
+                                                         .showCustomDialogAndWait(Localization.lang(SAVE_LIBRARY), pane, ignore, tryDifferentEncoding)
                 .filter(buttonType -> buttonType.equals(tryDifferentEncoding))
                 .isPresent();
         if (saveWithDifferentEncoding) {
-            Optional<Charset> newEncoding = dialogService.showChoiceDialogAndWait(Localization.lang("Save library"), Localization.lang("Select new encoding"), Localization.lang("Save library"), encoding, Encodings.getCharsets());
+            Optional<Charset> newEncoding = dialogService.showChoiceDialogAndWait(Localization.lang(SAVE_LIBRARY), Localization.lang("Select new encoding"), Localization.lang(SAVE_LIBRARY), encoding, Encodings.getCharsets());
             if (newEncoding.isPresent()) {
                 // Make sure to remember which encoding we used.
                 panel.getBibDatabaseContext().getMetaData().setEncoding(newEncoding.get(), ChangePropagation.DO_NOT_POST_EVENT);

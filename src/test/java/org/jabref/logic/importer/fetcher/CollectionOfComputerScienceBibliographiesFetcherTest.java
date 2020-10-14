@@ -51,7 +51,7 @@ class CollectionOfComputerScienceBibliographiesFetcherTest {
     public void performSearchReturnsMatchingMultipleEntries() throws FetcherException {
         List<BibEntry> searchResult = fetcher.performSearch("jabref");
 
-        BibEntry firstBibEntry = new BibEntry(StandardEntryType.InProceedings)
+        BibEntry firstBibEntry = new BibEntry(StandardEntryType.IN_PROCEEDINGS)
                 .withCiteKey("conf/ecsa/OlssonEW17")
                 .withField(StandardField.AUTHOR, "Tobias Olsson and Morgan Ericsson and Anna Wingkvist")
                 .withField(StandardField.EDITOR, "Rog{\\'e}rio de Lemos")
@@ -65,7 +65,7 @@ class CollectionOfComputerScienceBibliographiesFetcherTest {
                 .withField(new UnknownField("bibsource"), "DBLP, http://dblp.uni-trier.de/https://doi.org/10.1145/3129790.3129810; DBLP, http://dblp.uni-trier.de/db/conf/ecsa/ecsa2017c.html#OlssonEW17")
                 .withField(new UnknownField("bibdate"), "2018-11-06");
 
-        BibEntry secondBibEntry = new BibEntry(StandardEntryType.Article)
+        BibEntry secondBibEntry = new BibEntry(StandardEntryType.ARTICLE)
                 .withCiteKey("oai:DiVA.org:lnu-68408")
                 .withField(StandardField.ISBN, "978-1-4503-5217-8")
                 .withField(StandardField.DOI, "10.1145/3129790.3129810")

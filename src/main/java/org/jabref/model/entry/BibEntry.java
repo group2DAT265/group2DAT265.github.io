@@ -55,7 +55,7 @@ import org.slf4j.LoggerFactory;
 @AllowedToUseLogic("because it needs access to parser and writers")
 public class BibEntry implements Cloneable {
 
-    public static final EntryType DEFAULT_TYPE = StandardEntryType.Misc;
+    public static final EntryType DEFAULT_TYPE = StandardEntryType.MISC;
     private static final Logger LOGGER = LoggerFactory.getLogger(BibEntry.class);
     private static final Pattern REMOVE_TRAILING_WHITESPACE = Pattern.compile("\\s+$");
     private final SharedBibEntryData sharedBibEntryData;
@@ -150,12 +150,12 @@ public class BibEntry implements Cloneable {
         }
 
         //// 2. Handle special field mappings
-        if (((sourceEntry == StandardEntryType.MvBook) && (targetEntry == StandardEntryType.InBook)) ||
-                ((sourceEntry == StandardEntryType.MvBook) && (targetEntry == StandardEntryType.BookInBook)) ||
-                ((sourceEntry == StandardEntryType.MvBook) && (targetEntry == StandardEntryType.SuppBook)) ||
-                ((sourceEntry == StandardEntryType.Book) && (targetEntry == StandardEntryType.InBook)) ||
-                ((sourceEntry == StandardEntryType.Book) && (targetEntry == StandardEntryType.BookInBook)) ||
-                ((sourceEntry == StandardEntryType.Book) && (targetEntry == StandardEntryType.SuppBook))) {
+        if (((sourceEntry == StandardEntryType.MV_BOOK) && (targetEntry == StandardEntryType.IN_BOOK)) ||
+            ((sourceEntry == StandardEntryType.MV_BOOK) && (targetEntry == StandardEntryType.BOOK_IN_BOOK)) ||
+            ((sourceEntry == StandardEntryType.MV_BOOK) && (targetEntry == StandardEntryType.SUPP_BOOK)) ||
+            ((sourceEntry == StandardEntryType.BOOK) && (targetEntry == StandardEntryType.IN_BOOK)) ||
+            ((sourceEntry == StandardEntryType.BOOK) && (targetEntry == StandardEntryType.BOOK_IN_BOOK)) ||
+            ((sourceEntry == StandardEntryType.BOOK) && (targetEntry == StandardEntryType.SUPP_BOOK))) {
             if (targetField == StandardField.AUTHOR) {
                 return Optional.of(StandardField.AUTHOR);
             }
@@ -164,17 +164,17 @@ public class BibEntry implements Cloneable {
             }
         }
 
-        if (((sourceEntry == StandardEntryType.MvBook) && (targetEntry == StandardEntryType.Book)) ||
-                ((sourceEntry == StandardEntryType.MvBook) && (targetEntry == StandardEntryType.InBook)) ||
-                ((sourceEntry == StandardEntryType.MvBook) && (targetEntry == StandardEntryType.BookInBook)) ||
-                ((sourceEntry == StandardEntryType.MvBook) && (targetEntry == StandardEntryType.SuppBook)) ||
-                ((sourceEntry == StandardEntryType.MvCollection) && (targetEntry == StandardEntryType.Collection)) ||
-                ((sourceEntry == StandardEntryType.MvCollection) && (targetEntry == StandardEntryType.InCollection)) ||
-                ((sourceEntry == StandardEntryType.MvCollection) && (targetEntry == StandardEntryType.SuppCollection)) ||
-                ((sourceEntry == StandardEntryType.MvProceedings) && (targetEntry == StandardEntryType.Proceedings)) ||
-                ((sourceEntry == StandardEntryType.MvProceedings) && (targetEntry == StandardEntryType.InProceedings)) ||
-                ((sourceEntry == StandardEntryType.MvReference) && (targetEntry == StandardEntryType.Reference)) ||
-                ((sourceEntry == StandardEntryType.MvReference) && (targetEntry == StandardEntryType.InReference))) {
+        if (((sourceEntry == StandardEntryType.MV_BOOK) && (targetEntry == StandardEntryType.BOOK)) ||
+            ((sourceEntry == StandardEntryType.MV_BOOK) && (targetEntry == StandardEntryType.IN_BOOK)) ||
+            ((sourceEntry == StandardEntryType.MV_BOOK) && (targetEntry == StandardEntryType.BOOK_IN_BOOK)) ||
+            ((sourceEntry == StandardEntryType.MV_BOOK) && (targetEntry == StandardEntryType.SUPP_BOOK)) ||
+            ((sourceEntry == StandardEntryType.MV_COLLECTION) && (targetEntry == StandardEntryType.COLLECTION)) ||
+            ((sourceEntry == StandardEntryType.MV_COLLECTION) && (targetEntry == StandardEntryType.IN_COLLECTION)) ||
+            ((sourceEntry == StandardEntryType.MV_COLLECTION) && (targetEntry == StandardEntryType.SUPP_COLLECTION)) ||
+            ((sourceEntry == StandardEntryType.MV_PROCEEDINGS) && (targetEntry == StandardEntryType.PROCEEDINGS)) ||
+            ((sourceEntry == StandardEntryType.MV_PROCEEDINGS) && (targetEntry == StandardEntryType.IN_PROCEEDINGS)) ||
+            ((sourceEntry == StandardEntryType.MV_REFERENCE) && (targetEntry == StandardEntryType.REFERENCE)) ||
+            ((sourceEntry == StandardEntryType.MV_REFERENCE) && (targetEntry == StandardEntryType.IN_REFERENCE))) {
             if (targetField == StandardField.MAINTITLE) {
                 return Optional.of(StandardField.TITLE);
             }
@@ -198,13 +198,13 @@ public class BibEntry implements Cloneable {
             }
         }
 
-        if (((sourceEntry == StandardEntryType.Book) && (targetEntry == StandardEntryType.InBook)) ||
-            ((sourceEntry == StandardEntryType.Book) && (targetEntry == StandardEntryType.BookInBook)) ||
-            ((sourceEntry == StandardEntryType.Book) && (targetEntry == StandardEntryType.SuppBook)) ||
-            ((sourceEntry == StandardEntryType.Collection) && (targetEntry == StandardEntryType.InCollection)) ||
-            ((sourceEntry == StandardEntryType.Collection) && (targetEntry == StandardEntryType.SuppCollection)) ||
-            ((sourceEntry == StandardEntryType.Reference) && (targetEntry == StandardEntryType.InReference)) ||
-            ((sourceEntry == StandardEntryType.Proceedings) && (targetEntry == StandardEntryType.InProceedings))) {
+        if (((sourceEntry == StandardEntryType.BOOK) && (targetEntry == StandardEntryType.IN_BOOK)) ||
+            ((sourceEntry == StandardEntryType.BOOK) && (targetEntry == StandardEntryType.BOOK_IN_BOOK)) ||
+            ((sourceEntry == StandardEntryType.BOOK) && (targetEntry == StandardEntryType.SUPP_BOOK)) ||
+            ((sourceEntry == StandardEntryType.COLLECTION) && (targetEntry == StandardEntryType.IN_COLLECTION)) ||
+            ((sourceEntry == StandardEntryType.COLLECTION) && (targetEntry == StandardEntryType.SUPP_COLLECTION)) ||
+            ((sourceEntry == StandardEntryType.REFERENCE) && (targetEntry == StandardEntryType.IN_REFERENCE)) ||
+            ((sourceEntry == StandardEntryType.PROCEEDINGS) && (targetEntry == StandardEntryType.IN_PROCEEDINGS))) {
             if (targetField == StandardField.BOOKTITLE) {
                 return Optional.of(StandardField.TITLE);
             }
@@ -228,8 +228,8 @@ public class BibEntry implements Cloneable {
             }
         }
 
-        if (((sourceEntry == IEEETranEntryType.Periodical) && (targetEntry == StandardEntryType.Article)) ||
-            ((sourceEntry == IEEETranEntryType.Periodical) && (targetEntry == StandardEntryType.SuppPeriodical))) {
+        if (((sourceEntry == IEEETranEntryType.PERIODICAL) && (targetEntry == StandardEntryType.ARTICLE)) ||
+            ((sourceEntry == IEEETranEntryType.PERIODICAL) && (targetEntry == StandardEntryType.SUPP_PERIODICAL))) {
             if (targetField == StandardField.JOURNALTITLE) {
                 return Optional.of(StandardField.TITLE);
             }

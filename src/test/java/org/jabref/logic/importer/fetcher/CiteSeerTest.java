@@ -16,12 +16,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @FetcherTest
 class CiteSeerTest {
 
-    private CiteSeer fetcher = new CiteSeer();
+    private final CiteSeer fetcher = new CiteSeer();
 
     @Test
     @Disabled("CiteseerX currently has issues with ncites query")
     void searchByQueryFindsEntryRigorousDerivation() throws Exception {
-        BibEntry expected = new BibEntry(StandardEntryType.Misc)
+        BibEntry expected = new BibEntry(StandardEntryType.MISC)
                 .withField(StandardField.AUTHOR, "Wang Wei and Zhang Pingwen and Zhang Zhifei")
                 .withField(StandardField.TITLE, "Rigorous Derivation from Landau-de Gennes Theory to Eericksen-leslie Theory")
                 .withField(StandardField.DOI, "10.1.1.744.5780");
@@ -32,7 +32,7 @@ class CiteSeerTest {
 
     @Test
     void searchByQueryFindsEntryCopingTheoryAndResearch() throws Exception {
-        BibEntry expected = new BibEntry(StandardEntryType.Misc)
+        BibEntry expected = new BibEntry(StandardEntryType.MISC)
                 .withField(StandardField.AUTHOR, "Lazarus Richard S.")
                 .withField(StandardField.TITLE, "Coping Theory and Research: Past Present and Future")
                 .withField(StandardField.DOI, "10.1.1.115.9665")

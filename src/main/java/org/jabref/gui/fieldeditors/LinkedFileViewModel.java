@@ -75,6 +75,10 @@ public class LinkedFileViewModel extends AbstractViewModel {
     private final LinkedFileHandler linkedFileHandler;
     private final ExternalFileTypes externalFileTypes;
 
+    // Constants
+    private static final String COULD_NOT_FIND_FILE = "Could not find file '%0'.";
+    private static final String FILE_NOT_FOUND = "File not found";
+
     private final Validator fileExistsValidator;
 
     public LinkedFileViewModel(LinkedFile linkedFile,
@@ -106,7 +110,7 @@ public class LinkedFileViewModel extends AbstractViewModel {
                         return path.isPresent() && Files.exists(path.get());
                     }
                 },
-                ValidationMessage.warning(Localization.lang("Could not find file '%0'.", linkedFile.getLink())));
+                                                           ValidationMessage.warning(Localization.lang(COULD_NOT_FIND_FILE, linkedFile.getLink())));
 
         downloadOngoing.bind(downloadProgress.greaterThanOrEqualTo(0).and(downloadProgress.lessThan(1)));
         canWriteXMPMetadata.setValue(!linkedFile.isOnlineLink() && linkedFile.getFileType().equalsIgnoreCase("pdf"));
@@ -195,7 +199,7 @@ public class LinkedFileViewModel extends AbstractViewModel {
             Optional<ExternalFileType> type = ExternalFileTypes.getInstance().fromLinkedFile(linkedFile, true);
             boolean successful = JabRefDesktop.openExternalFileAnyFormat(databaseContext, linkedFile.getLink(), type);
             if (!successful) {
-                dialogService.showErrorDialogAndWait(Localization.lang("File not found"), Localization.lang("Could not find file '%0'.", linkedFile.getLink()));
+                dialogService.showErrorDialogAndWait(Localization.lang(FILE_NOT_FOUND), Localization.lang(COULD_NOT_FIND_FILE, linkedFile.getLink()));
             }
         } catch (IOException e) {
             dialogService.showErrorDialogAndWait(Localization.lang("Error opening file '%0'.", linkedFile.getLink()), e);
@@ -213,7 +217,7 @@ public class LinkedFileViewModel extends AbstractViewModel {
                 if (resolvedPath.isPresent()) {
                     JabRefDesktop.openFolderAndSelectFile(resolvedPath.get());
                 } else {
-                    dialogService.showErrorDialogAndWait(Localization.lang("File not found"));
+                    dialogService.showErrorDialogAndWait(Localization.lang(FILE_NOT_FOUND));
                 }
             } else {
                 dialogService.showErrorDialogAndWait(Localization.lang("Cannot open folder as the file is an online link."));
@@ -244,7 +248,7 @@ public class LinkedFileViewModel extends AbstractViewModel {
         if (file.isPresent()) {
             performRenameWithConflictCheck(targetFileName);
         } else {
-            dialogService.showErrorDialogAndWait(Localization.lang("File not found"), Localization.lang("Could not find file '%0'.", linkedFile.getLink()));
+            dialogService.showErrorDialogAndWait(Localization.lang(FILE_NOT_FOUND), Localization.lang(COULD_NOT_FIND_FILE, linkedFile.getLink()));
         }
     }
 
@@ -291,12 +295,12 @@ public class LinkedFileViewModel extends AbstractViewModel {
             } catch (IOException exception) {
                 dialogService.showErrorDialogAndWait(
                         Localization.lang("Move file"),
-                        Localization.lang("Could not move file '%0'.", file.get().toString()),
+                                                     Localization.lang(COULD_NOT_FIND_FILE, file.get().toString()),
                         exception);
             }
         } else {
             // File doesn't exist, so we can't move it.
-            dialogService.showErrorDialogAndWait(Localization.lang("File not found"), Localization.lang("Could not find file '%0'.", linkedFile.getLink()));
+            dialogService.showErrorDialogAndWait(Localization.lang(FILE_NOT_FOUND), Localization.lang(COULD_NOT_FIND_FILE, linkedFile.getLink()));
         }
     }
 
@@ -431,7 +435,7 @@ public class LinkedFileViewModel extends AbstractViewModel {
                 List<LinkedFile> linkedFiles = entry.getFiles();
                 int oldFileIndex = -1;
                 int i = 0;
-                while (i < linkedFiles.size() && oldFileIndex == -1) {
+                while ((i < linkedFiles.size()) && (oldFileIndex == -1)) {
                     LinkedFile file = linkedFiles.get(i);
                     // The file type changes as part of download process (see prepareDownloadTask), thus we only compare by link
                     if (file.getLink().equalsIgnoreCase(linkedFile.getLink())) {

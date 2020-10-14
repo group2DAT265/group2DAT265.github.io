@@ -21,6 +21,8 @@ import static org.jabref.gui.actions.ActionHelper.needsEntriesSelected;
 
 public class CopyFilesAction extends SimpleCommand {
 
+    private static final String DISPLAY_TEXT = "Copy linked files to folder...";
+
     private final DialogService dialogService;
     private final StateManager stateManager;
 
@@ -33,7 +35,7 @@ public class CopyFilesAction extends SimpleCommand {
 
     private void showDialog(List<CopyFilesResultItemViewModel> data) {
         if (data.isEmpty()) {
-            dialogService.showInformationDialogAndWait(Localization.lang("Copy linked files to folder..."), Localization.lang("No linked files found for export."));
+            dialogService.showInformationDialogAndWait(Localization.lang(DISPLAY_TEXT), Localization.lang("No linked files found for export."));
             return;
         }
         CopyFilesDialogView dialog = new CopyFilesDialogView(new CopyFilesResultListDependency(data));
@@ -52,8 +54,8 @@ public class CopyFilesAction extends SimpleCommand {
         exportPath.ifPresent(path -> {
             Task<List<CopyFilesResultItemViewModel>> exportTask = new CopyFilesTask(database, entries, path);
             dialogService.showProgressDialog(
-                    Localization.lang("Copy linked files to folder..."),
-                    Localization.lang("Copy linked files to folder..."),
+                                             Localization.lang(DISPLAY_TEXT),
+                                             Localization.lang(DISPLAY_TEXT),
                     exportTask);
             Globals.TASK_EXECUTOR.execute(exportTask);
             exportTask.setOnSucceeded((e) -> showDialog(exportTask.getValue()));

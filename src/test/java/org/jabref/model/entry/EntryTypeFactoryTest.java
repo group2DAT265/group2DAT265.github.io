@@ -12,7 +12,7 @@ public class EntryTypeFactoryTest {
 
     @Test
     public void testParseEntryTypePatent() {
-        EntryType patent = IEEETranEntryType.Patent;
+        EntryType patent = IEEETranEntryType.PATENT;
         assertEquals(patent, EntryTypeFactory.parse("patent"));
     }
 }

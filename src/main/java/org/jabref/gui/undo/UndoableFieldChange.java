@@ -22,6 +22,8 @@ public class UndoableFieldChange extends AbstractUndoableJabRefEdit {
     private final String oldValue;
     private final String newValue;
 
+    private static final String UNDEFINED = "undefined";
+
     public UndoableFieldChange(BibEntry entry, Field field, String oldValue, String newValue) {
         this.entry = entry;
         this.field = field;
@@ -36,9 +38,9 @@ public class UndoableFieldChange extends AbstractUndoableJabRefEdit {
     @Override
     public String getPresentationName() {
         return Localization.lang("change field %0 of entry %1 from %2 to %3", StringUtil.boldHTML(field.getDisplayName()),
-                StringUtil.boldHTML(entry.getCiteKeyOptional().orElse(Localization.lang("undefined"))),
-                StringUtil.boldHTML(oldValue, Localization.lang("undefined")),
-                StringUtil.boldHTML(newValue, Localization.lang("undefined")));
+                                 StringUtil.boldHTML(entry.getCiteKeyOptional().orElse(Localization.lang(UNDEFINED))),
+                                 StringUtil.boldHTML(oldValue, Localization.lang(UNDEFINED)),
+                                 StringUtil.boldHTML(newValue, Localization.lang(UNDEFINED)));
     }
 
     @Override

@@ -52,7 +52,7 @@ class BstPreviewLayoutTest {
     }
 
     private static BibEntry getSliceTheoremPaper() {
-        return new BibEntry(StandardEntryType.Article)
+        return new BibEntry(StandardEntryType.ARTICLE)
                 .withField(StandardField.AUTHOR, "Tobias Diez")
                 .withField(StandardField.TITLE, "Slice theorem for Fréchet group actions and covariant symplectic field theory")
                 .withField(StandardField.DATE, "2014-05-09")

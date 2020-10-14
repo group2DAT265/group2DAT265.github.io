@@ -35,6 +35,7 @@ public class EndnoteImporter extends Importer {
 
     private static final Pattern A_PATTERN = Pattern.compile("%A .*");
     private static final Pattern E_PATTERN = Pattern.compile("%E .*");
+    private static final String AND = " and ";
 
     private final ImportFormatPreferences preferences;
 
@@ -137,34 +138,34 @@ public class EndnoteImporter extends Importer {
                     if ("".equals(author)) {
                         author = val;
                     } else {
-                        author += " and " + val;
+                        author += AND + val;
                     }
                 } else if ("E".equals(prefix)) {
                     if ("".equals(editor)) {
                         editor = val;
                     } else {
-                        editor += " and " + val;
+                        editor += AND + val;
                     }
                 } else if ("T".equals(prefix)) {
                     hm.put(StandardField.TITLE, val);
                 } else if ("0".equals(prefix)) {
                     if (val.indexOf("Journal") == 0) {
-                        type = StandardEntryType.Article;
+                        type = StandardEntryType.ARTICLE;
                     } else if (val.indexOf("Book Section") == 0) {
-                        type = StandardEntryType.InCollection;
+                        type = StandardEntryType.IN_COLLECTION;
                     } else if (val.indexOf("Book") == 0) {
-                        type = StandardEntryType.Book;
+                        type = StandardEntryType.BOOK;
                     } else if (val.indexOf("Edited Book") == 0) {
-                        type = StandardEntryType.Book;
+                        type = StandardEntryType.BOOK;
                         isEditedBook = true;
                     } else if (val.indexOf("Conference") == 0) {
-                        type = StandardEntryType.InProceedings;
+                        type = StandardEntryType.IN_PROCEEDINGS;
                     } else if (val.indexOf("Report") == 0) {
-                        type = StandardEntryType.TechReport;
+                        type = StandardEntryType.TECH_REPORT;
                     } else if (val.indexOf("Review") == 0) {
-                        type = StandardEntryType.Article;
+                        type = StandardEntryType.ARTICLE;
                     } else if (val.indexOf("Thesis") == 0) {
-                        type = StandardEntryType.PhdThesis;
+                        type = StandardEntryType.PHD_THESIS;
                     } else {
                         type = BibEntry.DEFAULT_TYPE; //
                     }
@@ -183,16 +184,16 @@ public class EndnoteImporter extends Importer {
                 } else if ("B".equals(prefix)) {
                     // This prefix stands for "journal" in a journal entry, and
                     // "series" in a book entry.
-                    if (type.equals(StandardEntryType.Article)) {
+                    if (type.equals(StandardEntryType.ARTICLE)) {
                         hm.put(StandardField.JOURNAL, val);
-                    } else if (type.equals(StandardEntryType.Book) || type.equals(StandardEntryType.InBook)) {
+                    } else if (type.equals(StandardEntryType.BOOK) || type.equals(StandardEntryType.IN_BOOK)) {
                         hm.put(StandardField.SERIES, val);
                     } else {
                         /* type = inproceedings */
                         hm.put(StandardField.BOOKTITLE, val);
                     }
                 } else if ("I".equals(prefix)) {
-                    if (type.equals(StandardEntryType.PhdThesis)) {
+                    if (type.equals(StandardEntryType.PHD_THESIS)) {
                         hm.put(StandardField.SCHOOL, val);
                     } else {
                         hm.put(StandardField.PUBLISHER, val);
@@ -226,10 +227,10 @@ public class EndnoteImporter extends Importer {
                     hm.put(StandardField.ABSTRACT, val);
                 } else if ("9".equals(prefix)) {
                     if (val.indexOf("Ph.D.") == 0) {
-                        type = StandardEntryType.PhdThesis;
+                        type = StandardEntryType.PHD_THESIS;
                     }
                     if (val.indexOf("Masters") == 0) {
-                        type = StandardEntryType.MastersThesis;
+                        type = StandardEntryType.MASTER_THESIS;
                     }
                 } else if ("F".equals(prefix)) {
                     hm.put(InternalField.KEY_FIELD, CitationKeyGenerator.cleanKey(val, ""));
@@ -275,14 +276,14 @@ public class EndnoteImporter extends Importer {
      * @return The fixed author string
      */
     private static String fixAuthor(String s) {
-        int index = s.indexOf(" and ");
+        int index = s.indexOf(AND);
         if (index >= 0) {
             return AuthorList.fixAuthorLastNameFirst(s);
         }
         // Look for the comma at the end:
         index = s.lastIndexOf(',');
         if (index == (s.length() - 1)) {
-            String mod = s.substring(0, s.length() - 1).replace(", ", " and ");
+            String mod = s.substring(0, s.length() - 1).replace(", ", AND);
             return AuthorList.fixAuthorLastNameFirst(mod);
         } else {
             return AuthorList.fixAuthorLastNameFirst(s);

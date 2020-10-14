@@ -30,6 +30,8 @@ public abstract class AbstractPushToApplication implements PushToApplication {
 
     protected DialogService dialogService;
 
+    private static final String ERROR_PUSHING_ENTRIES = "Error pushing entries";
+
     public AbstractPushToApplication(DialogService dialogService) {
         this.dialogService = dialogService;
     }
@@ -91,15 +93,15 @@ public abstract class AbstractPushToApplication implements PushToApplication {
     public void operationCompleted() {
         if (notDefined) {
             dialogService.showErrorDialogAndWait(
-                    Localization.lang("Error pushing entries"),
+                                                 Localization.lang(ERROR_PUSHING_ENTRIES),
                     Localization.lang("Path to %0 not defined", getApplicationName()) + ".");
         } else if (couldNotCall) {
             dialogService.showErrorDialogAndWait(
-                    Localization.lang("Error pushing entries"),
+                                                 Localization.lang(ERROR_PUSHING_ENTRIES),
                     Localization.lang("Could not call executable") + " '" + commandPath + "'.");
         } else if (couldNotConnect) {
             dialogService.showErrorDialogAndWait(
-                    Localization.lang("Error pushing entries"),
+                                                 Localization.lang(ERROR_PUSHING_ENTRIES),
                     Localization.lang("Could not connect to %0", getApplicationName()) + ".");
         } else {
             dialogService.notify(Localization.lang("Pushed citations to %0", getApplicationName()) + ".");

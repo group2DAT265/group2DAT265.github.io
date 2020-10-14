@@ -52,6 +52,10 @@ public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBased
     private static final String API_KEY = new BuildInfo().astrophysicsDataSystemAPIKey;
     private final ImportFormatPreferences preferences;
 
+    private static final String BIBCODE = "bibcode";
+    private static final String SEARCH_URI_MALFORMED = "Search URI is malformed";
+    private static final String NETWORK_ERROR_OCCURRED = "A network error occurred";
+
     public AstrophysicsDataSystem(ImportFormatPreferences preferences) {
         this.preferences = Objects.requireNonNull(preferences);
     }
@@ -61,7 +65,7 @@ public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBased
      */
     private static String buildPostData(Collection<String> bibcodes) {
         JSONObject obj = new JSONObject();
-        obj.put("bibcode", bibcodes);
+        obj.put(BIBCODE, bibcodes);
         return obj.toString();
     }
 
@@ -85,7 +89,7 @@ public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBased
     public URL getURLForQuery(String query) throws URISyntaxException, MalformedURLException, FetcherException {
         URIBuilder builder = new URIBuilder(API_SEARCH_URL);
         builder.addParameter("q", query);
-        builder.addParameter("fl", "bibcode");
+        builder.addParameter("fl", BIBCODE);
         return builder.build().toURL();
     }
 
@@ -111,7 +115,7 @@ public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBased
 
         URIBuilder builder = new URIBuilder(API_SEARCH_URL);
         builder.addParameter("q", query);
-        builder.addParameter("fl", "bibcode");
+        builder.addParameter("fl", BIBCODE);
         builder.addParameter("rows", "20");
         return builder.build().toURL();
     }
@@ -125,7 +129,7 @@ public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBased
         String query = "doi:\"" + identifier + "\" OR " + "bibcode:\"" + identifier + "\"";
         URIBuilder builder = new URIBuilder(API_SEARCH_URL);
         builder.addParameter("q", query);
-        builder.addParameter("fl", "bibcode");
+        builder.addParameter("fl", BIBCODE);
         return builder.build().toURL();
     }
 
@@ -175,9 +179,9 @@ public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBased
             List<String> bibcodes = fetchBibcodes(getURLForEntry(entry));
             return performSearchByIds(bibcodes);
         } catch (URISyntaxException e) {
-            throw new FetcherException("Search URI is malformed", e);
+            throw new FetcherException(SEARCH_URI_MALFORMED, e);
         } catch (IOException e) {
-            throw new FetcherException("A network error occurred", e);
+            throw new FetcherException(NETWORK_ERROR_OCCURRED, e);
         }
     }
 
@@ -192,9 +196,9 @@ public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBased
             List<String> bibcodes = fetchBibcodes(getURLForQuery(query));
             return performSearchByIds(bibcodes);
         } catch (URISyntaxException e) {
-            throw new FetcherException("Search URI is malformed", e);
+            throw new FetcherException(SEARCH_URI_MALFORMED, e);
         } catch (IOException e) {
-            throw new FetcherException("A network error occurred", e);
+            throw new FetcherException(NETWORK_ERROR_OCCURRED, e);
         }
     }
 
@@ -212,11 +216,11 @@ public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBased
             JSONArray codes = obj.getJSONObject("response").getJSONArray("docs");
             List<String> bibcodes = new ArrayList<>();
             for (int i = 0; i < codes.length(); i++) {
-                bibcodes.add(codes.getJSONObject(i).getString("bibcode"));
+                bibcodes.add(codes.getJSONObject(i).getString(BIBCODE));
             }
             return bibcodes;
         } catch (IOException e) {
-            throw new FetcherException("A network error occurred", e);
+            throw new FetcherException(NETWORK_ERROR_OCCURRED, e);
         } catch (JSONException e) {
             return Collections.emptyList();
         }
@@ -242,9 +246,9 @@ public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBased
             BibEntry entry = fetchedEntries.get(0);
             return Optional.of(entry);
         } catch (URISyntaxException e) {
-            throw new FetcherException("Search URI is malformed", e);
+            throw new FetcherException(SEARCH_URI_MALFORMED, e);
         } catch (IOException e) {
-            throw new FetcherException("A network error occurred", e);
+            throw new FetcherException(NETWORK_ERROR_OCCURRED, e);
         }
     }
 
@@ -279,9 +283,9 @@ public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBased
                 return Collections.emptyList();
             }
         } catch (URISyntaxException e) {
-            throw new FetcherException("Search URI is malformed", e);
+            throw new FetcherException(SEARCH_URI_MALFORMED, e);
         } catch (IOException e) {
-            throw new FetcherException("A network error occurred", e);
+            throw new FetcherException(NETWORK_ERROR_OCCURRED, e);
         } catch (ParseException e) {
             throw new FetcherException("An internal parser error occurred", e);
         }

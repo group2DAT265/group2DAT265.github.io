@@ -58,7 +58,7 @@ public class InspecImporterTest {
 
     @Test
     public void testCompleteBibtexEntryOnJournalPaperImport() throws IOException, URISyntaxException {
-        BibEntry expectedEntry = new BibEntry(StandardEntryType.Article);
+        BibEntry expectedEntry = new BibEntry(StandardEntryType.ARTICLE);
         expectedEntry.setField(StandardField.TITLE, "The SIS project : software reuse with a natural language approach");
         expectedEntry.setField(StandardField.AUTHOR, "Prechelt, Lutz");
         expectedEntry.setField(StandardField.YEAR, "1992");
@@ -78,7 +78,7 @@ public class InspecImporterTest {
                 "\n" +
                 "RT ~ Conference-Paper\n" +
                 "AU ~ Prechelt, Lutz";
-        BibEntry expectedEntry = new BibEntry(StandardEntryType.InProceedings);
+        BibEntry expectedEntry = new BibEntry(StandardEntryType.IN_PROCEEDINGS);
         expectedEntry.setField(StandardField.AUTHOR, "Prechelt, Lutz");
 
         try (BufferedReader reader = new BufferedReader(new StringReader(testInput))) {
@@ -93,7 +93,7 @@ public class InspecImporterTest {
                 "\n" +
                 "AU ~ Prechelt, Lutz \n" +
                 "RT ~ Misc";
-        BibEntry expectedEntry = new BibEntry(StandardEntryType.Misc);
+        BibEntry expectedEntry = new BibEntry(StandardEntryType.MISC);
         expectedEntry.setField(StandardField.AUTHOR, "Prechelt, Lutz");
 
         try (BufferedReader reader = new BufferedReader(new StringReader(testInput))) {

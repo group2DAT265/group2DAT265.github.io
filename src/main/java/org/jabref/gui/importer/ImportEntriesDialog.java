@@ -176,8 +176,8 @@ public class ImportEntriesDialog extends BaseDialog<Boolean> {
     }
 
     private IconTheme.JabRefIcons getIcon(EntryType type) {
-        EnumSet<StandardEntryType> crossRefTypes = EnumSet.of(StandardEntryType.InBook, StandardEntryType.InProceedings, StandardEntryType.InCollection);
-        if (type == StandardEntryType.Book) {
+        EnumSet<StandardEntryType> crossRefTypes = EnumSet.of(StandardEntryType.IN_BOOK, StandardEntryType.IN_PROCEEDINGS, StandardEntryType.IN_COLLECTION);
+        if (type == StandardEntryType.BOOK) {
             return IconTheme.JabRefIcons.BOOK;
         } else if (crossRefTypes.contains(type)) {
             return IconTheme.JabRefIcons.OPEN_LINK;

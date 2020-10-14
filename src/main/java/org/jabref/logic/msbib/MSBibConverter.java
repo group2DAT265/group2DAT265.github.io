@@ -55,7 +55,7 @@ public class MSBibConverter {
 
         result.number = entry.getLatexFreeField(StandardField.NUMBER).orElse(null);
 
-        if (entry.getType().equals(IEEETranEntryType.Patent)) {
+        if (entry.getType().equals(IEEETranEntryType.PATENT)) {
             result.patentNumber = entry.getLatexFreeField(StandardField.NUMBER).orElse(null);
             result.number = null;
         }
@@ -88,13 +88,13 @@ public class MSBibConverter {
         if (entry.getLatexFreeField(StandardField.TYPE).isPresent()) {
             result.thesisType = entry.getLatexFreeField(StandardField.TYPE).get();
         } else {
-            if (entry.getType().equals(StandardEntryType.TechReport)) {
+            if (entry.getType().equals(StandardEntryType.TECH_REPORT)) {
                 result.thesisType = "Tech. rep.";
-            } else if (entry.getType().equals(StandardEntryType.MastersThesis)) {
+            } else if (entry.getType().equals(StandardEntryType.MASTER_THESIS)) {
                 result.thesisType = "Master's thesis";
-            } else if (entry.getType().equals(StandardEntryType.PhdThesis)) {
+            } else if (entry.getType().equals(StandardEntryType.PHD_THESIS)) {
                 result.thesisType = "Ph.D. dissertation";
-            } else if (entry.getType().equals(StandardEntryType.Unpublished)) {
+            } else if (entry.getType().equals(StandardEntryType.UNPUBLISHED)) {
                 result.thesisType = "unpublished";
             }
         }

@@ -34,7 +34,7 @@ public class SynchronizationTestSimulator {
     private final GlobalCitationKeyPattern pattern = GlobalCitationKeyPattern.fromPattern("[auth][year]");
 
     private BibEntry getBibEntryExample(int index) {
-        return new BibEntry(StandardEntryType.InProceedings)
+        return new BibEntry(StandardEntryType.IN_PROCEEDINGS)
                 .withField(StandardField.AUTHOR, "Wirthlin, Michael J and Hutchings, Brad L and Gilson, Kent L " + index)
                 .withField(StandardField.TITLE, "The nano processor: a low resource reconfigurable processor " + index)
                 .withField(StandardField.BOOKTITLE, "FPGAs for Custom Computing Machines, 1994. Proceedings. IEEE Workshop on " + index)

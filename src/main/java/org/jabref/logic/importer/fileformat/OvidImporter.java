@@ -47,6 +47,8 @@ public class OvidImporter extends Importer {
 
     private static final int MAX_ITEMS = 50;
 
+    private static final String CHAPTER_TITLE = "chaptertitle";
+
     @Override
     public String getName() {
         return "Ovid";
@@ -120,7 +122,7 @@ public class OvidImporter extends Importer {
                     }
                     h.put(StandardField.TITLE, content);
                 } else if (fieldName.startsWith("Chapter Title")) {
-                    h.put(new UnknownField("chaptertitle"), content);
+                    h.put(new UnknownField(CHAPTER_TITLE), content);
                 } else if (fieldName.startsWith("Source")) {
                     Matcher matcher;
                     if ((matcher = OvidImporter.OVID_SOURCE_PATTERN.matcher(content)).find()) {
@@ -202,11 +204,11 @@ public class OvidImporter extends Importer {
             // Set the entrytype properly:
             EntryType entryType = h.containsKey(InternalField.TYPE_HEADER) ? EntryTypeFactory.parse(h.get(InternalField.TYPE_HEADER)) : BibEntry.DEFAULT_TYPE;
             h.remove(InternalField.TYPE_HEADER);
-            if (entryType.equals(StandardEntryType.Book) && h.containsKey(new UnknownField("chaptertitle"))) {
+            if (entryType.equals(StandardEntryType.BOOK) && h.containsKey(new UnknownField(CHAPTER_TITLE))) {
                 // This means we have an "incollection" entry.
-                entryType = StandardEntryType.InCollection;
+                entryType = StandardEntryType.IN_COLLECTION;
                 // Move the "chaptertitle" to just "title":
-                h.put(StandardField.TITLE, h.remove(new UnknownField("chaptertitle")));
+                h.put(StandardField.TITLE, h.remove(new UnknownField(CHAPTER_TITLE)));
             }
             BibEntry b = new BibEntry(entryType);
             b.setField(h);

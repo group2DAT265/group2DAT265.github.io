@@ -251,28 +251,28 @@ public class JabRefFrame extends BorderPane {
                         getGlobalSearchBar().focus();
                         break;
                     case NEW_ARTICLE:
-                        new NewEntryAction(this, StandardEntryType.Article, dialogService, prefs, stateManager).execute();
+                        new NewEntryAction(this, StandardEntryType.ARTICLE, dialogService, prefs, stateManager).execute();
                         break;
                     case NEW_BOOK:
-                        new NewEntryAction(this, StandardEntryType.Book, dialogService, prefs, stateManager).execute();
+                        new NewEntryAction(this, StandardEntryType.BOOK, dialogService, prefs, stateManager).execute();
                         break;
                     case NEW_INBOOK:
-                        new NewEntryAction(this, StandardEntryType.InBook, dialogService, prefs, stateManager).execute();
+                        new NewEntryAction(this, StandardEntryType.IN_BOOK, dialogService, prefs, stateManager).execute();
                         break;
                     case NEW_MASTERSTHESIS:
-                        new NewEntryAction(this, StandardEntryType.MastersThesis, dialogService, prefs, stateManager).execute();
+                        new NewEntryAction(this, StandardEntryType.MASTER_THESIS, dialogService, prefs, stateManager).execute();
                         break;
                     case NEW_PHDTHESIS:
-                        new NewEntryAction(this, StandardEntryType.PhdThesis, dialogService, prefs, stateManager).execute();
+                        new NewEntryAction(this, StandardEntryType.PHD_THESIS, dialogService, prefs, stateManager).execute();
                         break;
                     case NEW_PROCEEDINGS:
-                        new NewEntryAction(this, StandardEntryType.Proceedings, dialogService, prefs, stateManager).execute();
+                        new NewEntryAction(this, StandardEntryType.PROCEEDINGS, dialogService, prefs, stateManager).execute();
                         break;
                     case NEW_TECHREPORT:
-                        new NewEntryAction(this, StandardEntryType.TechReport, dialogService, prefs, stateManager).execute();
+                        new NewEntryAction(this, StandardEntryType.TECH_REPORT, dialogService, prefs, stateManager).execute();
                         break;
                     case NEW_UNPUBLISHED:
-                        new NewEntryAction(this, StandardEntryType.Unpublished, dialogService, prefs, stateManager).execute();
+                        new NewEntryAction(this, StandardEntryType.UNPUBLISHED, dialogService, prefs, stateManager).execute();
                         break;
                     case PASTE:
                         if (OS.OS_X) { // Workaround for a jdk issue that executes paste twice when using cmd+v in a TextField
@@ -525,7 +525,7 @@ public class JabRefFrame extends BorderPane {
                 rightSpacer,
 
                 new HBox(
-                        factory.createIconButton(StandardActions.NEW_ARTICLE, new NewEntryAction(this, StandardEntryType.Article, dialogService, Globals.prefs, stateManager)),
+                                               factory.createIconButton(StandardActions.NEW_ARTICLE, new NewEntryAction(this, StandardEntryType.ARTICLE, dialogService, Globals.prefs, stateManager)),
                         factory.createIconButton(StandardActions.NEW_ENTRY, new NewEntryAction(this, dialogService, Globals.prefs, stateManager)),
                         factory.createIconButton(StandardActions.NEW_ENTRY_FROM_PLAIN_TEXT, new ExtractBibtexAction(stateManager)),
                         factory.createIconButton(StandardActions.DELETE_ENTRY, new EditAction(StandardActions.DELETE_ENTRY, this, stateManager))

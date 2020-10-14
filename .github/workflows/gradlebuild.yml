@@ -3,11 +3,7 @@
 
 name: Java CI with Gradle
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: [push, pull_request] #Run on all pushes and pull requests
 
 jobs:
   build:

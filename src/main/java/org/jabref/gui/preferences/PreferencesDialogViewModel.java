@@ -38,6 +38,9 @@ public class PreferencesDialogViewModel extends AbstractViewModel {
     private final ObservableList<PreferencesTab> preferenceTabs;
     private final JabRefFrame frame;
 
+    private static final String JABREF_RESTART = "You must restart JabRef for this to come into effect.";
+    private static final String RESET_PREFERENCES = "Reset preferences";
+
     public PreferencesDialogViewModel(DialogService dialogService, JabRefFrame frame) {
         this.dialogService = dialogService;
         this.preferences = Globals.prefs;
@@ -76,7 +79,7 @@ public class PreferencesDialogViewModel extends AbstractViewModel {
                 updateAfterPreferenceChanges();
 
                 dialogService.showWarningDialogAndWait(Localization.lang("Import preferences"),
-                        Localization.lang("You must restart JabRef for this to come into effect."));
+                                                       Localization.lang(JABREF_RESTART));
             } catch (JabRefException ex) {
                 LOGGER.error("Error while importing preferences", ex);
                 dialogService.showErrorDialogAndWait(Localization.lang("Import preferences"), ex);
@@ -110,19 +113,19 @@ public class PreferencesDialogViewModel extends AbstractViewModel {
 
     public void resetPreferences() {
         boolean resetPreferencesConfirmed = dialogService.showConfirmationDialogAndWait(
-                Localization.lang("Reset preferences"),
+                                                                                        Localization.lang(RESET_PREFERENCES),
                 Localization.lang("Are you sure you want to reset all settings to default values?"),
-                Localization.lang("Reset preferences"),
+                                                                                        Localization.lang(RESET_PREFERENCES),
                 Localization.lang("Cancel"));
         if (resetPreferencesConfirmed) {
             try {
                 preferences.clear();
 
-                dialogService.showWarningDialogAndWait(Localization.lang("Reset preferences"),
-                        Localization.lang("You must restart JabRef for this to come into effect."));
+                dialogService.showWarningDialogAndWait(Localization.lang(RESET_PREFERENCES),
+                                                       Localization.lang(JABREF_RESTART));
             } catch (BackingStoreException ex) {
                 LOGGER.error("Error while resetting preferences", ex);
-                dialogService.showErrorDialogAndWait(Localization.lang("Reset preferences"), ex);
+                dialogService.showErrorDialogAndWait(Localization.lang(RESET_PREFERENCES), ex);
             }
 
             updateAfterPreferenceChanges();
@@ -184,7 +187,7 @@ public class PreferencesDialogViewModel extends AbstractViewModel {
             dialogService.showWarningDialogAndWait(Localization.lang("Restart required"),
                     String.join(",\n", restartWarnings)
                             + "\n\n"
-                            + Localization.lang("You must restart JabRef for this to come into effect."));
+                                                                                          + Localization.lang(JABREF_RESTART));
         }
 
         frame.setupAllTables();

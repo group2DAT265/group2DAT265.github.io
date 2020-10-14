@@ -83,7 +83,7 @@ class IEEETest implements SearchBasedFetcherCapabilityTest {
 
     @Test
     void searchResultHasNoKeywordTerms() throws Exception {
-        BibEntry expected = new BibEntry(StandardEntryType.Article)
+        BibEntry expected = new BibEntry(StandardEntryType.ARTICLE)
                 .withField(StandardField.AUTHOR, "Shatakshi Jha and Ikhlaq Hussain and Bhim Singh and Sukumar Mishra")
                 .withField(StandardField.DATE, "25 2 2019")
                 .withField(StandardField.YEAR, "2019")
@@ -104,7 +104,7 @@ class IEEETest implements SearchBasedFetcherCapabilityTest {
 
     @Test
     void searchByQueryFindsEntry() throws Exception {
-        BibEntry expected = new BibEntry(StandardEntryType.InProceedings)
+        BibEntry expected = new BibEntry(StandardEntryType.IN_PROCEEDINGS)
                 .withField(StandardField.AUTHOR, "Igor Steinmacher and Tayana Uchoa Conte and Christoph Treude and Marco Aurélio Gerosa")
                 .withField(StandardField.DATE, "14-22 May 2016")
                 .withField(StandardField.YEAR, "2016")

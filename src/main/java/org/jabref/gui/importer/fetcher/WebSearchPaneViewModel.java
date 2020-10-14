@@ -35,6 +35,9 @@ import com.tobiasdiez.easybind.EasyBind;
 
 public class WebSearchPaneViewModel {
 
+    // Constants to avoid duplication and critical code smells
+    private static final String INVALID = "invalid";
+
     private final ObjectProperty<SearchBasedFetcher> selectedFetcher = new SimpleObjectProperty<>();
     private final ListProperty<SearchBasedFetcher> fetchers = new SimpleListProperty<>(FXCollections.observableArrayList());
     private final StringProperty query = new SimpleStringProperty();
@@ -145,17 +148,17 @@ public class WebSearchPaneViewModel {
     }
 
     private void setPseudoClassToUnsupported(TextField querySource) {
-        querySource.pseudoClassStateChanged(PseudoClass.getPseudoClass("invalid"), false);
+        querySource.pseudoClassStateChanged(PseudoClass.getPseudoClass(INVALID), false);
         querySource.pseudoClassStateChanged(PseudoClass.getPseudoClass("unsupported"), true);
     }
 
     public void setPseudoClassToValid(TextField querySource) {
-        querySource.pseudoClassStateChanged(PseudoClass.getPseudoClass("invalid"), false);
+        querySource.pseudoClassStateChanged(PseudoClass.getPseudoClass(INVALID), false);
         querySource.pseudoClassStateChanged(PseudoClass.getPseudoClass("unsupported"), false);
     }
 
     private void setPseudoClassToInvalid(TextField querySource) {
-        querySource.pseudoClassStateChanged(PseudoClass.getPseudoClass("invalid"), true);
+        querySource.pseudoClassStateChanged(PseudoClass.getPseudoClass(INVALID), true);
     }
 
     private boolean containsYearAndYearRange(String queryString) {

@@ -3,6 +3,8 @@ package org.jabref.benchmarks;
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
@@ -45,14 +47,15 @@ public class Benchmarks {
 
     private String bibtexString;
     private final BibDatabase database = new BibDatabase();
+    private Random randomizer;
     private String latexConversionString;
     private String htmlConversionString;
 
     @Setup
-    public void init() throws Exception {
+    public void init() throws IOException, NoSuchAlgorithmException {
         Globals.prefs = JabRefPreferences.getInstance();
+        this.randomizer = SecureRandom.getInstanceStrong();
 
-        Random randomizer = new Random();
         for (int i = 0; i < 1000; i++) {
             BibEntry entry = new BibEntry();
             entry.setCiteKey("id" + i);

@@ -49,6 +49,8 @@ public class IsiImporter extends Importer {
     private static final String EOL = "EOLEOL";
     private static final Pattern EOL_PATTERN = Pattern.compile(EOL);
 
+    private static final String AND = " and ";
+
     @Override
     public String getName() {
         return "ISI";
@@ -210,21 +212,21 @@ public class IsiImporter extends Importer {
                     } else {
                         PT = value;
                     }
-                    type = StandardEntryType.Article; // make all of them PT?
+                    type = StandardEntryType.ARTICLE; // make all of them PT?
                 } else if ("TY".equals(beg)) {
                     if ("JOUR".equals(value)) {
-                        type = StandardEntryType.Article;
+                        type = StandardEntryType.ARTICLE;
                     } else if ("CONF".equals(value)) {
-                        type = StandardEntryType.InProceedings;
+                        type = StandardEntryType.IN_PROCEEDINGS;
                     }
                 } else if ("JO".equals(beg)) {
                     hm.put(StandardField.BOOKTITLE, value);
                 } else if ("AU".equals(beg)) {
-                    String author = IsiImporter.isiAuthorsConvert(EOL_PATTERN.matcher(value).replaceAll(" and "));
+                    String author = IsiImporter.isiAuthorsConvert(EOL_PATTERN.matcher(value).replaceAll(AND));
 
                     // if there is already someone there then append with "and"
                     if (hm.get(StandardField.AUTHOR) != null) {
-                        author = hm.get(StandardField.AUTHOR) + " and " + author;
+                        author = hm.get(StandardField.AUTHOR) + AND + author;
                     }
 
                     hm.put(StandardField.AUTHOR, author);
@@ -275,9 +277,9 @@ public class IsiImporter extends Importer {
                     }
                 } else if ("DT".equals(beg)) {
                     if ("Review".equals(value)) {
-                        type = StandardEntryType.Article; // set "Review" in Note/Comment?
+                        type = StandardEntryType.ARTICLE; // set "Review" in Note/Comment?
                     } else if (value.startsWith("Article") || value.startsWith("Journal") || "article".equals(PT)) {
-                        type = StandardEntryType.Article;
+                        type = StandardEntryType.ARTICLE;
                     } else {
                         type = BibEntry.DEFAULT_TYPE;
                     }
@@ -414,6 +416,6 @@ public class IsiImporter extends Importer {
 
     public static String isiAuthorsConvert(String authors) {
         String[] s = IsiImporter.isiAuthorsConvert(authors.split(" and |;"));
-        return String.join(" and ", s);
+        return String.join(AND, s);
     }
 }

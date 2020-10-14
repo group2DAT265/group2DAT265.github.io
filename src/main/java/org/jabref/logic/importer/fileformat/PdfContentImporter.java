@@ -42,6 +42,11 @@ import org.apache.pdfbox.text.PDFTextStripper;
  */
 public class PdfContentImporter extends Importer {
 
+	// Constants
+	private static final String AND = " and ";
+	private static final String ABSTRACT = "Abstract";
+	private static final String KEYWORDS = "Keywords";
+
     private static final Pattern YEAR_EXTRACT_PATTERN = Pattern.compile("\\d{4}");
     private final ImportFormatPreferences importFormatPreferences;
     // input lines into several lines
@@ -97,11 +102,11 @@ public class PdfContentImporter extends Importer {
                     // skip possible ands between names
                     curName = curName.substring(3).trim();
                 } else {
-                    int posAnd = curName.indexOf(" and ");
+					int posAnd = curName.indexOf(AND);
                     if (posAnd >= 0) {
                         String nameBefore = curName.substring(0, posAnd);
                         // cannot be first name as "," is contained in the string
-                        res = res.concat(" and ").concat(removeNonLettersAtEnd(nameBefore));
+						res = res.concat(AND).concat(removeNonLettersAtEnd(nameBefore));
                         curName = curName.substring(posAnd + 5);
                     }
                 }
@@ -113,7 +118,7 @@ public class PdfContentImporter extends Importer {
                     if (isFirst) {
                         isFirst = false;
                     } else {
-                        res = res.concat(" and ");
+						res = res.concat(AND);
                     }
                     res = res.concat(curName);
                 }
@@ -160,7 +165,7 @@ public class PdfContentImporter extends Importer {
                         if (isFirst) {
                             isFirst = false;
                         } else {
-                            res = res.concat(" and ");
+							res = res.concat(AND);
                         }
                         if ("et".equalsIgnoreCase(splitNames[i]) && (splitNames.length > (i + 1))
                                 && "al.".equalsIgnoreCase(splitNames[i + 1])) {
@@ -274,7 +279,7 @@ public class PdfContentImporter extends Importer {
         // year is a class variable as the method extractYear() uses it;
         String publisher = null;
 
-        EntryType type = StandardEntryType.InProceedings;
+        EntryType type = StandardEntryType.IN_PROCEEDINGS;
         if (curString.length() > 4) {
             // special case: possibly conference as first line on the page
             extractYear();
@@ -312,7 +317,7 @@ public class PdfContentImporter extends Importer {
                 if ("".equals(curString)) {
                     // if lines[i] is "and" then "" is returned by streamlineNames -> do nothing
                 } else {
-                    author = author.concat(" and ").concat(curString);
+					author = author.concat(AND).concat(curString);
                 }
             }
             lineIndex++;
@@ -323,12 +328,13 @@ public class PdfContentImporter extends Importer {
         // then, abstract and keywords follow
         while (lineIndex < lines.length) {
             curString = lines[lineIndex];
-            if ((curString.length() >= "Abstract".length()) && "Abstract".equalsIgnoreCase(curString.substring(0, "Abstract".length()))) {
-                if (curString.length() == "Abstract".length()) {
+			if ((curString.length() >= ABSTRACT.length())
+					&& ABSTRACT.equalsIgnoreCase(curString.substring(0, ABSTRACT.length()))) {
+				if (curString.length() == ABSTRACT.length()) {
                     // only word "abstract" found -- skip line
                     curString = "";
                 } else {
-                    curString = curString.substring("Abstract".length() + 1).trim().concat(System.lineSeparator());
+					curString = curString.substring(ABSTRACT.length() + 1).trim().concat(System.lineSeparator());
                 }
                 lineIndex++;
                 // fillCurStringWithNonEmptyLines() cannot be used as that uses " " as line separator
@@ -339,12 +345,13 @@ public class PdfContentImporter extends Importer {
                 }
                 abstractT = curString.trim();
                 lineIndex++;
-            } else if ((curString.length() >= "Keywords".length()) && "Keywords".equalsIgnoreCase(curString.substring(0, "Keywords".length()))) {
-                if (curString.length() == "Keywords".length()) {
+			} else if ((curString.length() >= KEYWORDS.length())
+					&& KEYWORDS.equalsIgnoreCase(curString.substring(0, KEYWORDS.length()))) {
+				if (curString.length() == KEYWORDS.length()) {
                     // only word "Keywords" found -- skip line
                     curString = "";
                 } else {
-                    curString = curString.substring("Keywords".length() + 1).trim();
+					curString = curString.substring(KEYWORDS.length() + 1).trim();
                 }
                 lineIndex++;
                 fillCurStringWithNonEmptyLines();
@@ -354,7 +361,7 @@ public class PdfContentImporter extends Importer {
 
                 int pos = lower.indexOf("technical");
                 if (pos >= 0) {
-                    type = StandardEntryType.TechReport;
+                    type = StandardEntryType.TECH_REPORT;
                     pos = curString.trim().lastIndexOf(' ');
                     if (pos >= 0) {
                         // assumption: last character of curString is NOT ' '

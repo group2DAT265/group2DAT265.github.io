@@ -55,7 +55,7 @@ public class DocBook5ExporterTest {
 
         databaseContext = new BibDatabaseContext();
         charset = StandardCharsets.UTF_8;
-        BibEntry entry = new BibEntry(StandardEntryType.Book);
+        BibEntry entry = new BibEntry(StandardEntryType.BOOK);
         entry.setField(StandardField.TITLE, "my paper title");
         entry.setField(StandardField.AUTHOR, "Stefan Kolb and Tobias Diez");
         entry.setField(StandardField.ISBN, "1-2-34");

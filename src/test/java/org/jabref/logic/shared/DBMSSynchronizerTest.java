@@ -44,7 +44,7 @@ public class DBMSSynchronizerTest {
     private DBMSType dbmsType;
 
     private BibEntry createExampleBibEntry(int index) {
-        BibEntry bibEntry = new BibEntry(StandardEntryType.Book)
+        BibEntry bibEntry = new BibEntry(StandardEntryType.BOOK)
                 .withField(StandardField.AUTHOR, "Wirthlin, Michael J" + index)
                 .withField(StandardField.TITLE, "The nano processor" + index);
         bibEntry.getSharedBibEntryData().setSharedID(index);
@@ -192,7 +192,7 @@ public class DBMSSynchronizerTest {
         BibEntry modifiedBibEntry = createExampleBibEntry(1)
                 .withField(new UnknownField("custom"), "custom value");
         modifiedBibEntry.clearField(StandardField.TITLE);
-        modifiedBibEntry.setType(StandardEntryType.Article);
+        modifiedBibEntry.setType(StandardEntryType.ARTICLE);
 
         dbmsProcessor.updateEntry(modifiedBibEntry);
         assertEquals(1, modifiedBibEntry.getSharedBibEntryData().getSharedID());
@@ -211,7 +211,7 @@ public class DBMSSynchronizerTest {
         BibEntry modifiedBibEntry = createExampleBibEntry(1)
                 .withField(new UnknownField("custom"), "custom value");
         modifiedBibEntry.clearField(StandardField.TITLE);
-        modifiedBibEntry.setType(StandardEntryType.Article);
+        modifiedBibEntry.setType(StandardEntryType.ARTICLE);
 
         dbmsProcessor.updateEntry(modifiedBibEntry);
 

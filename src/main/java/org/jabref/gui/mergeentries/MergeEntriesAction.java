@@ -18,7 +18,9 @@ import org.jabref.model.database.BibDatabaseContext;
 import org.jabref.model.entry.BibEntry;
 
 public class MergeEntriesAction extends SimpleCommand {
-
+    // Constants to avoid duplication and critical code smells
+    private static final String MERGE_ENTRIES = "Merge entries";
+    
     private final JabRefFrame frame;
     private final DialogService dialogService;
     private final StateManager stateManager;
@@ -43,7 +45,7 @@ public class MergeEntriesAction extends SimpleCommand {
         if (selectedEntries.size() != 2) {
             // Inform the user to select entries first.
             dialogService.showInformationDialogAndWait(
-                    Localization.lang("Merge entries"),
+                    Localization.lang(MERGE_ENTRIES),
                     Localization.lang("You have to choose exactly two entries to merge."));
             return;
         }
@@ -53,7 +55,7 @@ public class MergeEntriesAction extends SimpleCommand {
         BibEntry two = selectedEntries.get(1);
 
         MergeEntriesDialog dlg = new MergeEntriesDialog(one, two);
-        dlg.setTitle(Localization.lang("Merge entries"));
+        dlg.setTitle(Localization.lang(MERGE_ENTRIES));
         Optional<BibEntry> mergedEntry = dlg.showAndWait();
         if (mergedEntry.isPresent()) {
             // ToDo: BibDatabase::insertEntry does not contain logic to mark the BasePanel as changed and to mark
@@ -63,7 +65,7 @@ public class MergeEntriesAction extends SimpleCommand {
 
             // Create a new entry and add it to the undo stack
             // Remove the other two entries and add them to the undo stack (which is not working...)
-            NamedCompound ce = new NamedCompound(Localization.lang("Merge entries"));
+            NamedCompound ce = new NamedCompound(Localization.lang(MERGE_ENTRIES));
             ce.addEdit(new UndoableInsertEntries(databaseContext.getDatabase(), mergedEntry.get()));
             List<BibEntry> entriesToRemove = Arrays.asList(one, two);
             ce.addEdit(new UndoableRemoveEntries(databaseContext.getDatabase(), entriesToRemove));

@@ -64,7 +64,7 @@ public class BibtexExtractor {
     }
 
     private BibEntry generateEntity(String input) {
-        EntryType type = isArticle ? StandardEntryType.Article : StandardEntryType.Book;
+        EntryType type = isArticle ? StandardEntryType.ARTICLE : StandardEntryType.BOOK;
         BibEntry extractedEntity = new BibEntry(type);
         extractedEntity.setField(StandardField.AUTHOR, String.join(" and ", authors));
         extractedEntity.setField(StandardField.URL, String.join(", ", urls));

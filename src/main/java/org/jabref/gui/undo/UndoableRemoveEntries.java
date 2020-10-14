@@ -40,26 +40,25 @@ public class UndoableRemoveEntries extends AbstractUndoableJabRefEdit {
         this.cut = cut;
     }
 
+    public String removeEntries(String removeOrCutEntries) {
+        if (entries.size() > 1) {
+            return Localization.lang(removeOrCutEntries);
+        } else if (entries.size() == 1) {
+            return Localization.lang(removeOrCutEntries + "%0",
+                                     StringUtil.boldHTML(entries.get(0).getCiteKeyOptional().orElse(Localization.lang("undefined"))));
+        } else {
+            return null;
+        }
+    }
+
     @Override
     public String getPresentationName() {
         if (cut) {
-            if (entries.size() > 1) {
-                return Localization.lang("cut entries");
-            } else if (entries.size() == 1) {
-                return Localization.lang("cut entry %0",
-                        StringUtil.boldHTML(entries.get(0).getCiteKeyOptional().orElse(Localization.lang("undefined"))));
-            } else {
-                return null;
-            }
+            return removeEntries("cut entries");
+
         } else {
-            if (entries.size() > 1) {
-                return Localization.lang("remove entries");
-            } else if (entries.size() == 1) {
-                return Localization.lang("remove entry %0",
-                        StringUtil.boldHTML(entries.get(0).getCiteKeyOptional().orElse(Localization.lang("undefined"))));
-            } else {
-                return null;
-            }
+            return removeEntries("remove entries");
+
         }
     }
 
