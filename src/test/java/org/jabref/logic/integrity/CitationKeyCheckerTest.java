@@ -9,6 +9,7 @@ import org.jabref.model.entry.field.StandardField;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class CitationKeyCheckerTest {
 
@@ -21,6 +22,14 @@ public class CitationKeyCheckerTest {
         entry.setField(StandardField.AUTHOR, "Knuth");
         entry.setField(StandardField.YEAR, "2014");
         assertEquals(Collections.emptyList(), checker.check(entry));
+    }
+
+    @Test
+    void citationkeycheckerReturnsIntegrityMessage() {
+        entry.setField(StandardField.AUTHOR, "Knuth");
+        entry.setField(StandardField.YEAR, "2014");
+        entry.setField(StandardField.TITLE, "TITLE OF PAPER");
+        assertNotEquals(Collections.emptyList(), checker.check(entry));
     }
 
 }

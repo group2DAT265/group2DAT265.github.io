@@ -1,6 +1,41 @@
 [![Quality gate](http://157.230.19.67:9000/api/project_badges/quality_gate?project=dat265group2)](http://157.230.19.67:9000/dashboard?id=dat265group2)
 
+# CI/CD Documenation - Group2 DAT265
 
+Currently there are 5 differernt pipelines running
+ - Builing the system using ./gradlew build
+ - Running tests and checkstyle
+ - Scanning the code for static analysis for SonarQube
+ - Calculating Code coverage and posting to Codecov
+ - Creating Doxygen documentation with Gaphviz diagrams
+
+## Only on master
+The following pipelines run only on succesful pushes to the master branch:
+ - Creating Doxygen documentation with Gaphviz diagrams
+ - Scanning the code for static analysis for SonarQube
+
+The doxygen documenation can be found [here](https://group2dat265.github.io/)
+
+The SonarQube can be found [here](http://157.230.19.67:9000/dashboard?id=dat265group2)
+
+## On all pushes and pull requests
+The following pipelines run on a push to any branch and all pull requests:
+ - Builing the system using ./gradlew build
+ - Running tests and checkstyle
+ - Calculating Code coverage and posting to Codecov
+
+The status of the project builing and the tests and checkstyle can be found under ach action in the [Github Actions tab](https://github.com/group2DAT265/group2DAT265.github.io/actions). Go to the action you want to look and and read the logs.
+
+The test and checkstyle pipeline run the following steps:
+ - Checkstyle (Checks the formatting of the code according to the Java Coding Conventions)
+ - Unit tests (All tests that are not database, fetching or GUI)
+ - Database tests (Tests using Postgres and MySQL databases)
+ - GUI tests (Runs tests for the GUI)
+ - Fetcher tests (Run tests that fetch data from API endpoints)
+
+The Codecoverage of codecov can be found [here](https://codecov.io/gh/group2DAT265/group2DAT265.github.io)
+
+<!---
 # JabRef Bibliography Management
 
 Sebastian was here!
@@ -102,3 +137,4 @@ For IntelliJ IDEA, just import the project via a Gradle Import by pointing at th
 `gradlew test` executes all tests. We use [Github Actions](https://github.com/JabRef/jabref/actions) for executing the tests after each commit. For developing, it is sufficient to locally only run the associated test for the classes you changed. Github will report any other failure.
 
 [JabRef]: https://www.jabref.org
+-->

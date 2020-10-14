@@ -40,7 +40,6 @@ def get_message():
     logging.info("Successfully retrieved JSON")
     return data
 
-
 # Encode a message for transmission, given its content.
 def encode_message(message_content):
     encoded_content = json.dumps(message_content).encode("utf-8")

@@ -4,6 +4,10 @@
 #Keep doxygen docs local
 docs
 
+jacocoTestReport.xml
+
+.checkstyle
+
 # no generated files in version control
 src/main/gen/
 src/main/generated/

@@ -1,0 +1,57 @@
+name: SonarQube Analysis
+on:
+  push:
+    branches:
+      - master
+jobs:
+  jacocogeneration:
+    name: Generate Jacoco Code Coverage Report
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+      - name: Set up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 14
+      - uses: actions/cache@v1
+        name: Restore gradle chache
+        with:
+          path: ~/.gradle/caches
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
+          restore-keys: |
+            ${{ runner.OS }}-gradle-${{ env.cache-name }}-
+            ${{ runner.OS }}-gradle-
+            ${{ runner.OS }}-
+      - uses: actions/cache@v1
+        name: Restore gradle wrapper
+        with:
+          path: ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('gradle/wrapper/gradle-wrapper.properties') }}
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew    
+      - name: Update test coverage metrics
+        run: xvfb-run --auto-servernum ./gradlew jacocoTestReport
+      - name: Archive Jacoco Report
+        uses: actions/upload-artifact@v2
+        with:
+          name: builddir
+          path: build/reports/jacoco/test/jacocoTestReport.xml
+  sonarqubeanalysis:
+    name: Sonarqube analysis
+    needs: jacocogeneration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+      - uses: actions/download-artifact@v2
+        with:
+          name: builddir
+      - name: SonarQube Scan
+        uses: kitabisa/sonarqube-action@master
+        with:
+          host: ${{ secrets.SONARQUBE_HOST }}
+          login: ${{ secrets.SONARQUBE_TOKEN }}
+          projectKey: "dat265group2"
+          projectName: "Software-Evolution-Group-2"
+          projectVersion: "v0.0.1"

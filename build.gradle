@@ -5,6 +5,8 @@ import org.jabref.build.antlr.JabRefAntlrPlugin
 import org.jabref.build.localization.LocalizationPlugin
 import org.jabref.build.xjc.XjcPlugin
 import org.jabref.build.xjc.XjcTask
+import org.gradle.api.tasks.testing.logging.TestExceptionFormat
+import org.gradle.api.tasks.testing.logging.TestLogEvent
 
 // to update the gradle wrapper, execute
 // ./gradlew wrapper --gradle-version=6.0 --distribution-type=bin
@@ -448,13 +450,6 @@ test {
         // TODO: Remove this as soon as archunit is modularized
         runOnClasspath = true
     }
-
-    testLogging {
-        // set options for log level LIFECYCLE
-        // for debugging tests: add "STANDARD_OUT", "STANDARD_ERROR"
-        events = ["FAILED"]
-        exceptionFormat "full"
-    }
 }
 
 testlogger {
@@ -465,35 +460,17 @@ task databaseTest(type: Test) {
     useJUnitPlatform {
         includeTags 'DatabaseTest'
     }
-
-    testLogging {
-        // set options for log level LIFECYCLE
-        events = ["FAILED"]
-        exceptionFormat "full"
-    }
 }
 
 task fetcherTest(type: Test) {
     useJUnitPlatform {
         includeTags 'FetcherTest'
     }
-
-    testLogging {
-        // set options for log level LIFECYCLE
-        events = ["FAILED"]
-        exceptionFormat "full"
-    }
 }
 
 task guiTest(type: Test) {
     useJUnitPlatform {
         includeTags 'GUITest'
-    }
-
-    testLogging {
-        // set options for log level LIFECYCLE
-        events = ["FAILED"]
-        exceptionFormat "full"
     }
 }
 
@@ -506,6 +483,39 @@ processTestResources.dependsOn copyTestResources
 
 tasks.withType(Test) {
     reports.html.destination = file("${reporting.baseDir}/${name}")
+    testLogging {
+        // set options for log level LIFECYCLE
+        events TestLogEvent.FAILED,
+               TestLogEvent.PASSED,
+               TestLogEvent.SKIPPED,
+               TestLogEvent.STANDARD_OUT
+        exceptionFormat TestExceptionFormat.FULL
+        showExceptions true
+        showCauses true
+        showStackTraces true
+
+        // set options for log level DEBUG and INFO
+        debug {
+            events TestLogEvent.STARTED,
+                   TestLogEvent.FAILED,
+                   TestLogEvent.PASSED,
+                   TestLogEvent.SKIPPED,
+                   TestLogEvent.STANDARD_ERROR,
+                   TestLogEvent.STANDARD_OUT
+            exceptionFormat TestExceptionFormat.FULL
+        }
+        info.events = debug.events
+        info.exceptionFormat = debug.exceptionFormat
+
+        afterSuite { desc, result ->
+            if (!desc.parent) { // will match the outermost suite
+                def output = "Results: ${result.resultType} (${result.testCount} tests, ${result.successfulTestCount} passed, ${result.failedTestCount} failed, ${result.skippedTestCount} skipped)"
+                def startItem = '|  ', endItem = '  |'
+                def repeatLength = startItem.length() + output.length() + endItem.length()
+                println('\n' + ('-' * repeatLength) + '\n' + startItem + output + endItem + '\n' + ('-' * repeatLength))
+            }
+        }
+    }
 }
 
 task jacocoMergePrep() {
@@ -538,6 +548,7 @@ jacocoTestReport {
         xml.enabled = true // coveralls plugin depends on xml format report
     }
 }
+
 
 // Code quality tasks
 checkstyle {
@@ -772,12 +783,4 @@ task bundleLibreOffice(type: Jar) {
 
     destinationDir = file('lib')
     archiveName = 'libreoffice.jar'
-}
-
-sonarqube {
-  properties {
-    property "sonar.projectKey", "Hafmaestro_Group2DAT265"
-    property "sonar.organization", "hafmaestro"
-    property "sonar.host.url", "https://sonarcloud.io"
-  }
 }
