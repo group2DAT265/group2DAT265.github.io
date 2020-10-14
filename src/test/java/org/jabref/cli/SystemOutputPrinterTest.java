@@ -9,8 +9,6 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.mockito.Mockito.*;
-
 class SystemOutputPrinterTest {
 
     private final PrintStream standardOut = System.out;
@@ -23,15 +21,11 @@ class SystemOutputPrinterTest {
 
     @Test
     void setStatusTest() {
-        SystemOutputPrinter sop = mock(SystemOutputPrinter.class);
-        verify(sop, times(1)).setStatus("message");
         assertEquals("message", outputStreamCaptor.toString().trim());
     }
 
     @Test
     void showMessageTest() {
-        SystemOutputPrinter sop = mock(SystemOutputPrinter.class);
-        verify(sop, times(1)).showMessage("message");
         assertEquals("message", outputStreamCaptor.toString().trim());
     }
 
