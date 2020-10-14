@@ -216,8 +216,8 @@ var hierarchy =
       [ "org.jabref.logic.bst.VM.StackFunction", "classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_stack_function.html", null ],
       [ "org.jabref.logic.bst.WidthFunction", "classorg_1_1jabref_1_1logic_1_1bst_1_1_width_function.html", null ]
     ] ],
-    [ "org.jabref.gui.util.DirectoryDialogConfiguration.Builder", "classorg_1_1jabref_1_1gui_1_1util_1_1_directory_dialog_configuration_1_1_builder.html", null ],
     [ "org.jabref.gui.util.FileDialogConfiguration.Builder", "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html", null ],
+    [ "org.jabref.gui.util.DirectoryDialogConfiguration.Builder", "classorg_1_1jabref_1_1gui_1_1util_1_1_directory_dialog_configuration_1_1_builder.html", null ],
     [ "org.jabref.preferences.PreviewPreferences.Builder", "classorg_1_1jabref_1_1preferences_1_1_preview_preferences_1_1_builder.html", null ],
     [ "Builder", null, [
       [ "org.jabref.gui.logging.ApplicationInsightsAppender.Builder< B extends Builder< B >", "classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_appender_1_1_builder.html", null ],
@@ -499,8 +499,10 @@ var hierarchy =
     ] ],
     [ "org.jabref.logic.exporter.Exporter", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_exporter.html", [
       [ "org.jabref.logic.exporter.BibTeXMLExporter", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_bib_te_x_m_l_exporter.html", null ],
-      [ "org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator.html", null ],
-      [ "org.jabref.logic.exporter.OpenOfficeDocumentCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator.html", null ],
+      [ "org.jabref.logic.exporter.OpenOfficeCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_creator.html", [
+        [ "org.jabref.logic.exporter.OpenDocumentSpreadsheetCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator.html", null ],
+        [ "org.jabref.logic.exporter.OpenOfficeDocumentCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator.html", null ]
+      ] ],
       [ "org.jabref.logic.exporter.TemplateExporter", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_template_exporter.html", null ],
       [ "org.jabref.logic.exporter.XmpExporter", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_exporter.html", null ],
       [ "org.jabref.logic.exporter.XmpPdfExporter", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_xmp_pdf_exporter.html", null ]
@@ -1125,8 +1127,8 @@ var hierarchy =
     [ "org.jabref.model.TreeNode< GroupTreeNode >", "classorg_1_1jabref_1_1model_1_1_tree_node.html", null ],
     [ "org.jabref.logic.importer.fetcher.TrustLevel", "enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level.html", null ],
     [ "org.jabref.model.entry.BibtexString.Type", "enumorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string_1_1_type.html", null ],
-    [ "org.jabref.gui.maintable.MainTableColumnModel.Type", "enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html", null ],
     [ "org.jabref.gui.util.Theme.Type", "enumorg_1_1jabref_1_1gui_1_1util_1_1_theme_1_1_type.html", null ],
+    [ "org.jabref.gui.maintable.MainTableColumnModel.Type", "enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html", null ],
     [ "org.jabref.logic.TypedBibEntry", "classorg_1_1jabref_1_1logic_1_1_typed_bib_entry.html", null ],
     [ "org.jabref.gui.util.uithreadaware.UiThreadObservableList< org.jabref.gui.fieldeditors.LinkedFileViewModel >", "classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html", null ],
     [ "UncaughtExceptionHandler", null, [

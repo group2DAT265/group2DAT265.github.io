@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1_file_field_writer.html#ad38d04c684a417822758bfd40eefdd71":[2,0,0,0,3,2,6,1],
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception.html":[2,0,0,0,3,2,7],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_invalid_field_value_exception.html#a72651b1f3882426d8305e8c763f5878b":[2,0,0,0,3,2,7,0],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html":[2,0,0,0,3,2,0,0],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_bib_database_diff.html#a098e736284777aa94118da013d874c24":[2,0,0,0,3,2,0,0,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a2f03f71cfd974a8c3f5f83f2222f9feb":[2,0,0,0,3,4,1,16],
 "classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a37f6391c1c48a4655145d708d0d8c8ef":[2,0,0,0,3,4,1,29],
 "classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a3fdd3e0e842a99eb3b0ba3ee4876e1a3":[2,0,0,0,3,4,1,3],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a4877e2ec5d44326eac903c26e0f99f6c":[2,0,0,0,3,4,1,44],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a54b14fc8ce2cfb9ab77f58b403a4f68c":[2,0,0,0,3,4,1,8],
-"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a55072ba08f84839a70d813d2bd37a785":[2,0,0,0,3,4,1,48]
+"classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_bracketed_pattern.html#a4877e2ec5d44326eac903c26e0f99f6c":[2,0,0,0,3,4,1,44]
 };

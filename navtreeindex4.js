@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"_special_field_8java.html":[3,0,0,0,0,0,0,5,1,1,8],
+"_special_field_action_8java.html":[3,0,0,0,0,0,0,2,45,0],
 "_special_field_column_8java.html":[3,0,0,0,0,0,0,2,33,0,4],
 "_special_field_database_change_listener_8java.html":[3,0,0,0,0,0,0,2,45,1],
 "_special_field_menu_item_factory_8java.html":[3,0,0,0,0,0,0,2,45,2],
@@ -40,7 +42,7 @@ var NAVTREEINDEX4 =
 "_tag_8java.html":[3,0,0,0,0,0,0,2,48,1,1],
 "_tag_bar_8java.html":[3,0,0,0,0,0,0,2,48,1,2],
 "_task_executor_8java.html":[3,0,0,0,0,0,0,2,48,28],
-"_template_exporter_8java.html":[3,0,0,0,0,0,0,3,8,17],
+"_template_exporter_8java.html":[3,0,0,0,0,0,0,3,8,19],
 "_temporal_accessor_picker_8java.html":[3,0,0,0,0,0,0,2,48,1,3],
 "_test_entry_8java.html":[3,0,0,0,0,0,0,3,32,11],
 "_tex_bib_entries_resolver_8java.html":[3,0,0,0,0,0,0,3,30,2],
@@ -148,8 +150,8 @@ var NAVTREEINDEX4 =
 "_x_m_l_chars_8java.html":[3,0,0,0,0,0,0,3,17,0,71],
 "_x_m_l_util_8java.html":[3,0,0,0,0,0,0,3,32,0,10],
 "_xml_chars_map_8java.html":[3,0,0,0,0,0,0,3,32,1,6],
-"_xmp_exporter_8java.html":[3,0,0,0,0,0,0,3,8,18],
-"_xmp_pdf_exporter_8java.html":[3,0,0,0,0,0,0,3,8,19],
+"_xmp_exporter_8java.html":[3,0,0,0,0,0,0,3,8,20],
+"_xmp_pdf_exporter_8java.html":[3,0,0,0,0,0,0,3,8,21],
 "_xmp_preferences_8java.html":[3,0,0,0,0,0,0,3,33,3],
 "_xmp_privacy_tab_view_8java.html":[3,0,0,0,0,0,0,2,38,33],
 "_xmp_privacy_tab_view_model_8java.html":[3,0,0,0,0,0,0,2,38,34],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#ade4578ff2d22dcf6b5e161750c24f400":[2,0,0,0,1,4,45],
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#adf13908f182ff0ac2e476a5a2c3b8bf8":[2,0,0,0,1,4,39],
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#ae01d53e18b43bccafc26a0ab53e56834":[2,0,0,0,1,4,41],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#aeaec46b9da849129b90799a2642269be":[2,0,0,0,1,4,29],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#aebf639b7e41091b4a08cae92a7ce44e9":[2,0,0,0,1,4,3],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#aecaf5a7766100eac7eb6a604d35734cd":[2,0,0,0,1,4,9]
+"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#aeaec46b9da849129b90799a2642269be":[2,0,0,0,1,4,29]
 };

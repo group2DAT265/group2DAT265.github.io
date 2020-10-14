@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane.html#adeb1558c09c75bebfb34e6b1b9afa8da":[2,0,0,0,2,24,5,5],
+"classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model.html":[2,0,0,0,2,24,7],
 "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model.html#a12d2002b67636dc93c0a52eebf0654c1":[2,0,0,0,2,24,7,13],
 "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model.html#a1370621fe3d69c37c466ba6c0b49f15f":[2,0,0,0,2,24,7,0],
 "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model.html#a1b7886a36539010bd5e654cbd7756a1c":[2,0,0,0,2,24,7,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#a8291134dff2e18182609838c176fd17e":[2,0,0,0,2,26,1,8],
 "classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#a8ed2d8c9acd10b88773993ee1af7a95b":[2,0,0,0,2,26,1,3],
 "classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#aae8c242b6737d5768ebbc0016cd381c8":[2,0,0,0,2,26,1,11],
-"classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#acf35569cd864c6460e3c8579bb28c1ba":[2,0,0,0,2,26,1,12],
-"classorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_icon_view.html":[2,0,0,0,2,26,3],
-"classorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_icon_view.html#a022cde25ae160f147b9d498600c7507a":[2,0,0,0,2,26,3,3]
+"classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#acf35569cd864c6460e3c8579bb28c1ba":[2,0,0,0,2,26,1,12]
 };

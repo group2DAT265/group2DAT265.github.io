@@ -1,8 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a5c5d462774114aa368946a7cdfbb4ae7":[2,0,0,0,2,30,1,10],
-"enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a5d0f26b48dd3aad2002d7d9ad26b2c18":[2,0,0,0,2,30,1,89],
-"enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a5fde82564fda9d1285917944843d3897":[2,0,0,0,2,30,1,3],
 "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a60a5a26a3ffa39dd69ea9b610817d504":[2,0,0,0,2,30,1,4],
 "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a63b35f25c7c174d2ef0d7a414fff8818":[2,0,0,0,2,30,1,8],
 "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a69c02ae64d2c2c5cee7ffff73376552f":[2,0,0,0,2,30,1,34],
@@ -178,9 +175,9 @@ var NAVTREEINDEX56 =
 "enumorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset_1_1_cleanup_step.html#adc3eaa40d83a76dcd085557706243880":[2,0,0,0,3,6,2,0,10],
 "enumorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset_1_1_cleanup_step.html#adf1b3f98bbe5c9596cc39488e8c58b90":[2,0,0,0,3,6,2,0,8],
 "enumorg_1_1jabref_1_1logic_1_1cleanup_1_1_cleanup_preset_1_1_cleanup_step.html#aec09ae49e9280e2fd9346162b16e61d5":[2,0,0,0,3,6,2,0,0],
-"enumorg_1_1jabref_1_1logic_1_1exporter_1_1_save_preferences_1_1_database_save_type.html":[2,0,0,0,3,8,12,0],
-"enumorg_1_1jabref_1_1logic_1_1exporter_1_1_save_preferences_1_1_database_save_type.html#a3c203c3056e2f9ff2d95c9bbfb1c1c21":[2,0,0,0,3,8,12,0,1],
-"enumorg_1_1jabref_1_1logic_1_1exporter_1_1_save_preferences_1_1_database_save_type.html#aa66c19e1d9cbeceb1e0dfbc1e7b23a92":[2,0,0,0,3,8,12,0,0],
+"enumorg_1_1jabref_1_1logic_1_1exporter_1_1_save_preferences_1_1_database_save_type.html":[2,0,0,0,3,8,13,0],
+"enumorg_1_1jabref_1_1logic_1_1exporter_1_1_save_preferences_1_1_database_save_type.html#a3c203c3056e2f9ff2d95c9bbfb1c1c21":[2,0,0,0,3,8,13,0,1],
+"enumorg_1_1jabref_1_1logic_1_1exporter_1_1_save_preferences_1_1_database_save_type.html#aa66c19e1d9cbeceb1e0dfbc1e7b23a92":[2,0,0,0,3,8,13,0,0],
 "enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file.html":[2,0,0,0,3,12,0],
 "enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file.html#a01cc18bd1100b2b6645f21650fc8efe0":[2,0,0,0,3,12,0,35],
 "enumorg_1_1jabref_1_1logic_1_1help_1_1_help_file.html#a05af0456eb9d149a9a158a7786d4e1ca":[2,0,0,0,3,12,0,36],
@@ -249,5 +246,8 @@ var NAVTREEINDEX56 =
 "enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a28f25add9b706ab870b738aeeb959c08":[2,0,0,0,3,16,1,24],
 "enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a2fd14809804ee9337b02678d9331f682":[2,0,0,0,3,16,1,21],
 "enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a32472db668d17bd0983f59e3cb1730fa":[2,0,0,0,3,16,1,13],
-"enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a33ac737a83e344eaf8a66852b32460e8":[2,0,0,0,3,16,1,22]
+"enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a33ac737a83e344eaf8a66852b32460e8":[2,0,0,0,3,16,1,22],
+"enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a34d570dddb4c2ed9a2a197d47a9460e3":[2,0,0,0,3,16,1,3],
+"enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a47a9f1a9c1c3185909d38f6f7febfcc6":[2,0,0,0,3,16,1,1],
+"enumorg_1_1jabref_1_1logic_1_1l10n_1_1_language.html#a4c8e206b7609269f40da0e0e137bdfd1":[2,0,0,0,3,16,1,9]
 };

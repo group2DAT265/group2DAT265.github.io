@@ -30,9 +30,13 @@ var dir_64fcb357acf134cbe548507523aa677c =
     [ "ModsExporter.java", "_mods_exporter_8java.html", null ],
     [ "MSBibExporter.java", "_m_s_bib_exporter_8java.html", null ],
     [ "OOCalcDatabase.java", "_o_o_calc_database_8java.html", null ],
+    [ "OOShared.java", "_o_o_shared_8java.html", null ],
     [ "OpenDocumentRepresentation.java", "_open_document_representation_8java.html", null ],
     [ "OpenDocumentSpreadsheetCreator.java", "_open_document_spreadsheet_creator_8java.html", [
       [ "OpenDocumentSpreadsheetCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator" ]
+    ] ],
+    [ "OpenOfficeCreator.java", "_open_office_creator_8java.html", [
+      [ "OpenOfficeCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_creator.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_creator" ]
     ] ],
     [ "OpenOfficeDocumentCreator.java", "_open_office_document_creator_8java.html", [
       [ "OpenOfficeDocumentCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator" ]

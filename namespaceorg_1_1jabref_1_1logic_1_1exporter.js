@@ -10,6 +10,7 @@ var namespaceorg_1_1jabref_1_1logic_1_1exporter =
     [ "GroupSerializer", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_group_serializer.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_group_serializer" ],
     [ "MetaDataSerializer", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_meta_data_serializer" ],
     [ "OpenDocumentSpreadsheetCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator" ],
+    [ "OpenOfficeCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_creator.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_creator" ],
     [ "OpenOfficeDocumentCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator" ],
     [ "SaveException", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_save_exception.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_save_exception" ],
     [ "SavePreferences", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_save_preferences.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_save_preferences" ],

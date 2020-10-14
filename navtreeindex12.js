@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a1d2ee718d3abda656a2d4acdb179722d":[2,0,0,0,2,18,0,0],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a23762be99a4087543658af950522ddf9":[2,0,0,0,2,18,0,6],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a406eca75751fe3e76f5211621c28130c":[2,0,0,0,2,18,0,16],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a47f0a721ee0f09f50f107f1915b7062b":[2,0,0,0,2,18,0,1],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a4e2c1ffd46b9f306c90834fb6cfdbf5b":[2,0,0,0,2,18,0,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ab720ad7bc352a12e284fef8e29e4c8b7":[2,0,0,0,2,20,6,12],
 "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ab8ef4d652bb3e0873c7b2e7fa3b3ffcd":[2,0,0,0,2,20,6,17],
 "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ab9fa52114d64d7f1a412ca120fb07def":[2,0,0,0,2,20,6,9],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#abd300c3aa3526f3631619e24dcbc7720":[2,0,0,0,2,20,6,15],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#abda43e4fde2a768e7eb9be732dcf1245":[2,0,0,0,2,20,6,20],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#abe65705a86dd942a528faf2e18baa2f3":[2,0,0,0,2,20,6,6]
+"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#abd300c3aa3526f3631619e24dcbc7720":[2,0,0,0,2,20,6,15]
 };
