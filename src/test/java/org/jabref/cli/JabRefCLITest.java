@@ -34,7 +34,6 @@ class JabRefCLITest {
         assertTrue(cli.isHelp());
         assertTrue(cli.isBlank());
         assertTrue(cli.isShowVersion());
-        assertTrue(cli.isImportToOpenBase());
         assertEquals("some/file", cli.getImportToOpenBase());
         assertEquals("some/export/file", cli.getFileExport());
         assertTrue(cli.isFileExport());
@@ -100,12 +99,6 @@ class JabRefCLITest {
     }
 
     @Test
-    void loadSessionTest() throws ParseException {
-        JabRefCLI cli = new JabRefCLI(new String[]{"--loads"});
-        assertTrue(cli.isLoadSession());
-    }
-
-    @Test
     void exportMatchesTest() throws ParseException {
         JabRefCLI cli = new JabRefCLI(new String[]{"-m=some/file"});
         assertTrue(cli.isExportMatches());
@@ -121,19 +114,19 @@ class JabRefCLITest {
 
     @Test
     void debugLoggingTest() throws ParseException {
-        JabRefCLI cli = new JabRefCLI(new String[]{});
+        JabRefCLI cli = new JabRefCLI(new String[]{"--debug"});
         assertTrue(cli.isDebugLogging());
     }
 
     @Test
     void generateCitationKeysTest() throws ParseException {
-        JabRefCLI cli = new JabRefCLI(new String[]{});
+        JabRefCLI cli = new JabRefCLI(new String[]{"-g"});
         assertTrue(cli.isGenerateCitationKeys());
     }
 
     @Test
     void automaticallySetFileLinksTest() throws ParseException {
-        JabRefCLI cli = new JabRefCLI(new String[]{});
+        JabRefCLI cli = new JabRefCLI(new String[]{"-asfl"});
         assertTrue(cli.isAutomaticallySetFileLinks());
     }
 }
