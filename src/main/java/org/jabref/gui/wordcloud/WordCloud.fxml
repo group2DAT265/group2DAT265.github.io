@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.collections.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
 <DialogPane prefWidth="476.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jabref.gui.wordcloud.WordCloudView">
@@ -11,7 +10,7 @@
         <ButtonType fx:id="generateButton" buttonData="OK_DONE" text="%Generate" />
     </buttonTypes>
     <content>
-        <VBox prefHeight="200.0" prefWidth="400.0">
+        <VBox prefHeight="200.0" prefWidth="400.0" spacing="10.0">
             <children>
                 <HBox>
                     <children>
@@ -34,6 +33,8 @@
                         </VBox>
                     </children>
                 </HBox>
+                <Label text="Preview" />
+                <ImageView fx:id="wordcloudImageView" fitWidth="350.0" preserveRatio="true" />
             </children>
         </VBox>
     </content>

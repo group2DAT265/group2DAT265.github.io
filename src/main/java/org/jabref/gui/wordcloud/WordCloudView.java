@@ -17,6 +17,7 @@ import org.jabref.logic.l10n.Localization;
 import org.jabref.model.WordCloud;
 
 import javax.inject.Inject;
+import java.io.File;
 
 public class WordCloudView extends BaseDialog<WordCloud> {
     // TODO: Add available items to comboBoxes
@@ -26,7 +27,7 @@ public class WordCloudView extends BaseDialog<WordCloud> {
     @FXML private ComboBox<String> fontSelection;
     @FXML private ComboBox<String> rotationSelection;
     @FXML private ComboBox<String> colorPaletteSelection;
-    @FXML private ImageView resultImageView;
+    @FXML private ImageView wordcloudImageView;
 
     private final BasePanel basePanel;
     private final DialogService dialogService;
@@ -57,6 +58,11 @@ public class WordCloudView extends BaseDialog<WordCloud> {
         // TODO: Add available color palette settings
         ObservableList<String> paletteList = FXCollections.observableArrayList("Blue, Cyan, Other blue", "Red, Orange, Maroon");
         colorPaletteSelection.setItems(paletteList);
+
+        // TODO: Add real image after generated word cloud
+        File file = new File("examplewordcloud.png");
+        Image image = new Image(file.toURI().toString());
+        wordcloudImageView.setImage(image);
     }
 
 }
