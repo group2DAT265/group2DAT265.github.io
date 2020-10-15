@@ -548,8 +548,7 @@ public class JabRefFrame extends BorderPane {
                         pushToApplicationButton,
                         factory.createIconButton(StandardActions.GENERATE_CITE_KEYS, new GenerateCitationKeyAction(this, dialogService, stateManager)),
                         factory.createIconButton(StandardActions.CLEANUP_ENTRIES, new CleanupAction(this, prefs, dialogService, stateManager)),
-                                               factory.createIconButton(StandardActions.GENERATE_WORDCLOUD, new GenerateWordCloudAction(dialogService,
-                                                                                                                                        stateManager))
+                        factory.createIconButton(StandardActions.GENERATE_WORDCLOUD, new GenerateWordCloudAction(this, dialogService, stateManager))
                 ),
 
                 new Separator(Orientation.VERTICAL),
