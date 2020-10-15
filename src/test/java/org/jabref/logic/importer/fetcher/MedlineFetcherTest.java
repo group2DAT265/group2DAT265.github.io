@@ -9,7 +9,7 @@ import org.jabref.model.entry.field.StandardField;
 import org.jabref.model.entry.field.UnknownField;
 import org.jabref.model.entry.types.StandardEntryType;
 import org.jabref.testutils.category.FetcherTest;
-
+import org.junit.Ignore;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -170,6 +170,7 @@ public class MedlineFetcherTest {
     }
 
     @Test
+    @Ignore("Too many requests (429) returned by the host")
     public void testMultipleEntries() throws Exception {
         List<BibEntry> entryList = fetcher.performSearch("java");
         entryList.forEach(entry -> entry.clearField(StandardField.ABSTRACT)); // Remove abstract due to copyright);

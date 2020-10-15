@@ -50,9 +50,9 @@ public final class BuildInfo {
         year = properties.getProperty("year", "");
         developers = properties.getProperty("developers", "");
         azureInstrumentationKey = BuildInfo.getValue(properties, "azureInstrumentationKey", "");
-        springerNatureAPIKey = BuildInfo.getValue(properties, "springerNatureAPIKey", "118d90a519d0fc2a01ee9715400054d4");
-        astrophysicsDataSystemAPIKey = BuildInfo.getValue(properties, "astrophysicsDataSystemAPIKey", "tAhPRKADc6cC26mZUnAoBt3MAjCvKbuCZsB4lI3c");
-        ieeeAPIKey = BuildInfo.getValue(properties, "ieeeAPIKey", "5jv3wyt4tt2bwcwv7jjk7pc3");
+        springerNatureAPIKey = BuildInfo.getValue(properties, "springerNatureAPIKey", "2f7835081bf4f00f99bb0667d04223c9");
+        astrophysicsDataSystemAPIKey = BuildInfo.getValue(properties, "astrophysicsDataSystemAPIKey", "Il6y1nCe5NG7SSbybudHENIpuGcASv4pP9HFn7AZ");
+        ieeeAPIKey = BuildInfo.getValue(properties, "ieeeAPIKey", "zdzyz5zz95vhuhhe7aam6bh8");
         minRequiredJavaVersion = properties.getProperty("minRequiredJavaVersion", "1.8");
         allowJava9 = "true".equals(properties.getProperty("allowJava9", "true"));
     }

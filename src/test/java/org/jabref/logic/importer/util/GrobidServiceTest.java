@@ -3,7 +3,7 @@ package org.jabref.logic.importer.util;
 import java.io.IOException;
 
 import org.jabref.testutils.category.FetcherTest;
-
+import org.junit.Ignore;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -23,6 +23,7 @@ public class GrobidServiceTest {
     }
 
     @Test
+    @Ignore("The specified url is not reachable. Timeout.")
     public void processValidCitationTest() throws IOException {
         String response = grobidService.processCitation("Derwing, T. M., Rossiter, M. J., & Munro, " +
                 "M. J. (2002). Teaching native speakers to listen to foreign-accented speech. " +
@@ -40,6 +41,7 @@ public class GrobidServiceTest {
     }
 
     @Test
+    @Ignore("The specified url is not reachable. Timeout.")
     public void processEmptyStringTest() throws IOException {
         String response = grobidService.processCitation(" ", GrobidService.ConsolidateCitations.WITH_METADATA);
         assertNotNull(response);
@@ -47,6 +49,7 @@ public class GrobidServiceTest {
     }
 
     @Test
+    @Ignore("The specified url is not reachable. Timeout.")
     public void processInvalidCitationTest() {
         assertThrows(IOException.class, () -> grobidService.processCitation("iiiiiiiiiiiiiiiiiiiiiiii", GrobidService.ConsolidateCitations.WITH_METADATA));
     }
