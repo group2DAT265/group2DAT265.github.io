@@ -222,8 +222,12 @@ dependencies {
     checkstyle 'com.puppycrawl.tools:checkstyle:8.36'
     xjc group: 'org.glassfish.jaxb', name: 'jaxb-xjc', version: '2.3.3'
     jython 'org.python:jython-standalone:2.7.2'
-}
 
+    // Used by the modified kumo-core
+    implementation group: 'commons-io', name: 'commons-io', version: '2.8.0'
+    compile group: 'com.github.davidmoten', name: 'rtree', version: '0.8.7'
+
+}
 dependencyUpdates {
     outputFormatter = "json"
 }
