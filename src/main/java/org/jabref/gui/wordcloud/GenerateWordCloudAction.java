@@ -1,14 +1,23 @@
 package org.jabref.gui.wordcloud;
 
-import java.util.Optional;
-
+import com.kennycason.kumo.CollisionMode;
+import com.kennycason.kumo.WordCloud;
+import com.kennycason.kumo.WordFrequency;
+import com.kennycason.kumo.bg.RectangleBackground;
+import com.kennycason.kumo.font.scale.LinearFontScalar;
+import com.kennycason.kumo.nlp.FrequencyAnalyzer;
+import com.kennycason.kumo.palette.ColorPalette;
 import org.jabref.gui.DialogService;
 import org.jabref.gui.JabRefFrame;
 import org.jabref.gui.StateManager;
 import org.jabref.gui.actions.ActionHelper;
 import org.jabref.gui.actions.SimpleCommand;
 import org.jabref.logic.l10n.Localization;
-import org.jabref.preferences.JabRefPreferences;
+
+import java.awt.*;
+import java.io.IOException;
+import java.util.List;
+
 
 /*
  * Action used when generating a wordcloud from selected entries
@@ -54,5 +63,30 @@ public class GenerateWordCloudAction extends SimpleCommand {
         WordCloudView view = new WordCloudView(jabRefFrame.getCurrentBasePanel(), dialogService);
 //        jabRefFrame.getCurrentBasePanel().inser
         view.showAndWait();
+
+
+        try {
+            generateWordCloud();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void generateWordCloud() throws IOException {
+
+        // This is currently just an example. We need to use the preferences from the dialog and the selected entries instead
+        final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
+        final List<WordFrequency> wordFrequencies = frequencyAnalyzer.load("./src/main/resources/wordcloud/text.txt");
+        final Dimension dimension = new Dimension(600, 600);
+        final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.RECTANGLE);
+        wordCloud.setPadding(0);
+        wordCloud.setBackgroundColor(Color.WHITE);
+        wordCloud.setBackground(new RectangleBackground(dimension));
+        wordCloud.setColorPalette(new ColorPalette(Color.RED, Color.GREEN, Color.YELLOW, Color.BLUE));
+        wordCloud.setFontScalar(new LinearFontScalar(10, 40));
+        wordCloud.build(wordFrequencies);
+        wordCloud.writeToFile("./src/main/resources/wordcloud/wordcloud_rectangle.png");
+
     }
 }
