@@ -303,7 +303,8 @@ public class IconTheme {
         HOME(MaterialDesignIcon.HOME),
         LINK(MaterialDesignIcon.LINK),
         LINK_VARIANT(MaterialDesignIcon.LINK_VARIANT),
-        WORDCLOUD(MaterialDesignIcon.CLOUD);
+        WORDCLOUD(MaterialDesignIcon.CLOUD),
+        WEBOFSCIENCE(MaterialDesignIcon.CLOUD);
 
         private final JabRefIcon icon;
 
