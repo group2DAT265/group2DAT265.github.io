@@ -9,6 +9,11 @@ Currently there are 5 differernt pipelines running
  - Calculating Code coverage and posting to Codecov
  - Creating Doxygen documentation with Gaphviz diagrams
 
+## Individual Contribution
+
+Our individual contribution can be found in the Appendix in this document.
+https://docs.google.com/document/d/12XRkVkrnM08bRQg0eBXS33Lk4u0lWqmr9tMrsbtTAZ4/edit#heading=h.u8zeh9pjy074
+
 ## Only on master
 The following pipelines run only on succesful pushes to the master branch:
  - Creating Doxygen documentation with Gaphviz diagrams
