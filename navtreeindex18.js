@@ -1,5 +1,9 @@
 var NAVTREEINDEX18 =
 {
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviate_action.html#a366e10631dd8ab544a98fecfab8db74c":[2,0,0,0,2,29,0,1],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviate_action.html#a460393a77e1e57d51a423789db7ea331":[2,0,0,0,2,29,0,0],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviate_action.html#a600528e09fc06f2f5a288eae8f89e19c":[2,0,0,0,2,29,0,7],
+"classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviate_action.html#a68cfbb8a67d7c79f60b635f86e812593":[2,0,0,0,2,29,0,6],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviate_action.html#a78de615c092847caf46cb6fe8afb85f1":[2,0,0,0,2,29,0,9],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviate_action.html#a9f8e488abfb2707d843fb9e54c9e50eb":[2,0,0,0,2,29,0,2],
 "classorg_1_1jabref_1_1gui_1_1journals_1_1_abbreviate_action.html#ab71c874a6eb6f5a7bdbc2912593a08ac":[2,0,0,0,2,29,0,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a3e0049ce4b2827708605b3259f8a5e15":[2,0,0,0,2,31,2,41],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a3e345172d2538cf6713878f4e80d9f2e":[2,0,0,0,2,31,2,32],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a3f6ada2d22f308049596e0a09434ffd4":[2,0,0,0,2,31,2,29],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a4011aa95e064b80b44968b70c5d087a2":[2,0,0,0,2,31,2,47],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a4660ea0af0125f9b46a3aae78eb10d7a":[2,0,0,0,2,31,2,54],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a52cc5e5a49e9862726d9f2079ad2523f":[2,0,0,0,2,31,2,20],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a5991ed1579b8f2fdc0d394891923085b":[2,0,0,0,2,31,2,45],
-"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a59da20f8c6e59f1f39fa91aa0de5575e":[2,0,0,0,2,31,2,39]
+"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a4011aa95e064b80b44968b70c5d087a2":[2,0,0,0,2,31,2,47]
 };

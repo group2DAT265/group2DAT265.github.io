@@ -155,6 +155,7 @@ var hierarchy =
     ] ],
     [ "org.jabref.gui.util.BaseDialog< PreferencesDialogViewModel >", "classorg_1_1jabref_1_1gui_1_1util_1_1_base_dialog.html", null ],
     [ "org.jabref.gui.util.BaseDialog< Void >", "classorg_1_1jabref_1_1gui_1_1util_1_1_base_dialog.html", null ],
+    [ "org.jabref.gui.util.BaseDialog< WordCloudPreset >", "classorg_1_1jabref_1_1gui_1_1util_1_1_base_dialog.html", null ],
     [ "org.jabref.gui.BasePanelMode", "enumorg_1_1jabref_1_1gui_1_1_base_panel_mode.html", null ],
     [ "org.jabref.gui.BasePanelPreferences", "classorg_1_1jabref_1_1gui_1_1_base_panel_preferences.html", null ],
     [ "org.jabref.model.database.BibDatabase", "classorg_1_1jabref_1_1model_1_1database_1_1_bib_database.html", null ],
@@ -416,7 +417,9 @@ var hierarchy =
         [ "org.jabref.gui.protectedterms.NewProtectedTermsFileDialog", "classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_new_protected_terms_file_dialog.html", null ],
         [ "org.jabref.gui.shared.SharedDatabaseLoginDialogView", "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html", null ],
         [ "org.jabref.gui.texparser.ParseLatexDialogView", "classorg_1_1jabref_1_1gui_1_1texparser_1_1_parse_latex_dialog_view.html", null ],
-        [ "org.jabref.gui.texparser.ParseLatexResultView", "classorg_1_1jabref_1_1gui_1_1texparser_1_1_parse_latex_result_view.html", null ]
+        [ "org.jabref.gui.texparser.ParseLatexResultView", "classorg_1_1jabref_1_1gui_1_1texparser_1_1_parse_latex_result_view.html", null ],
+        [ "org.jabref.gui.wordcloud.WordCloudGeneratedView", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_generated_view.html", null ],
+        [ "org.jabref.gui.wordcloud.WordCloudPresetView", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html", null ]
       ] ]
     ] ],
     [ "org.jabref.gui.DialogService", "interfaceorg_1_1jabref_1_1gui_1_1_dialog_service.html", [
@@ -1126,8 +1129,8 @@ var hierarchy =
     ] ],
     [ "org.jabref.model.TreeNode< GroupTreeNode >", "classorg_1_1jabref_1_1model_1_1_tree_node.html", null ],
     [ "org.jabref.logic.importer.fetcher.TrustLevel", "enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level.html", null ],
-    [ "org.jabref.model.entry.BibtexString.Type", "enumorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string_1_1_type.html", null ],
     [ "org.jabref.gui.util.Theme.Type", "enumorg_1_1jabref_1_1gui_1_1util_1_1_theme_1_1_type.html", null ],
+    [ "org.jabref.model.entry.BibtexString.Type", "enumorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string_1_1_type.html", null ],
     [ "org.jabref.gui.maintable.MainTableColumnModel.Type", "enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html", null ],
     [ "org.jabref.logic.TypedBibEntry", "classorg_1_1jabref_1_1logic_1_1_typed_bib_entry.html", null ],
     [ "org.jabref.gui.util.uithreadaware.UiThreadObservableList< org.jabref.gui.fieldeditors.LinkedFileViewModel >", "classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html", null ],
@@ -1240,6 +1243,7 @@ var hierarchy =
     [ "org.jabref.logic.importer.WebFetchers", "classorg_1_1jabref_1_1logic_1_1importer_1_1_web_fetchers.html", null ],
     [ "org.jabref.gui.importer.fetcher.WebSearchPaneViewModel", "classorg_1_1jabref_1_1gui_1_1importer_1_1fetcher_1_1_web_search_pane_view_model.html", null ],
     [ "org.jabref.logic.formatter.casechanger.Word", "classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_word.html", null ],
+    [ "org.jabref.model.wordcloud.WordCloudPreset", "classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html", null ],
     [ "org.jabref.gui.autocompleter.WordSuggestionProvider", "classorg_1_1jabref_1_1gui_1_1autocompleter_1_1_word_suggestion_provider.html", null ],
     [ "org.jabref.logic.util.io.XMLUtil", "classorg_1_1jabref_1_1logic_1_1util_1_1io_1_1_x_m_l_util.html", null ],
     [ "org.jabref.logic.xmp.XmpPreferences", "classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_preferences.html", null ],
@@ -1391,7 +1395,8 @@ var hierarchy =
         [ "org.jabref.gui.SidePaneComponent.ToggleCommand", "classorg_1_1jabref_1_1gui_1_1_side_pane_component_1_1_toggle_command.html", null ],
         [ "org.jabref.gui.specialfields.SpecialFieldAction", "classorg_1_1jabref_1_1gui_1_1specialfields_1_1_special_field_action.html", null ],
         [ "org.jabref.gui.texparser.ParseLatexAction", "classorg_1_1jabref_1_1gui_1_1texparser_1_1_parse_latex_action.html", null ],
-        [ "org.jabref.gui.undo.UndoRedoAction", "classorg_1_1jabref_1_1gui_1_1undo_1_1_undo_redo_action.html", null ]
+        [ "org.jabref.gui.undo.UndoRedoAction", "classorg_1_1jabref_1_1gui_1_1undo_1_1_undo_redo_action.html", null ],
+        [ "org.jabref.gui.wordcloud.GenerateWordCloudAction", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_generate_word_cloud_action.html", null ]
       ] ]
     ] ],
     [ "Comparator", null, [

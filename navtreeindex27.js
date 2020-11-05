@@ -1,5 +1,9 @@
 var NAVTREEINDEX27 =
 {
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#a91e868a8d2ef56c9cef22fa714f7e11b":[2,0,0,0,2,47,5,2],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#ade8efd9efa259cbc8aac5d90e49dde94":[2,0,0,0,2,47,5,0],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#ae07b4b4822f89fef982a2061def4f641":[2,0,0,0,2,47,5,3],
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#af6efa86585cb850b7a1ed39358a415c3":[2,0,0,0,2,47,5,5],
 "classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#af6f86cad1b2dd8ceafd2ecaa5108efd7":[2,0,0,0,2,47,5,8],
 "classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_string.html":[2,0,0,0,2,47,6],
 "classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_string.html#a0df0fa6a3ac85fc3f9f349516ddda5df":[2,0,0,0,2,47,6,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX27 =
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration.html#ada9371ae2c8ccaa65c9f2b47d30e842b":[2,0,0,0,2,48,16,10],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration.html#af2cae0e2b23f4bc5e8ad5ceb46e6962e":[2,0,0,0,2,48,16,7],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration.html#af8960736311dece2635085aa4487831d":[2,0,0,0,2,48,16,2],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html":[2,0,0,0,2,48,16,0],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a0776f13bd59ea410e6bade081a384302":[2,0,0,0,2,48,16,0,0],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a1aa48c15fd86453fe695d15b5341f52a":[2,0,0,0,2,48,16,0,12],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a70f5c9a8a6fd9dad0a3ff554476e584c":[2,0,0,0,2,48,16,0,8],
-"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a71c7957d7a854aa5139fe70b5ffa055c":[2,0,0,0,2,48,16,0,6]
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html":[2,0,0,0,2,48,16,0]
 };

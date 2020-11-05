@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,2398,116,2425"/>
-<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1actions_1_1_simple_command.html" title=" " alt="" coords="164,2391,347,2432"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,2430,116,2457"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1actions_1_1_simple_command.html" title=" " alt="" coords="164,2423,347,2464"/>
 <area shape="rect" id="node3" href="$classorg_1_1jabref_1_1gui_1_1auximport_1_1_new_sub_library_action.html" title=" " alt="" coords="427,5,585,47"/>
 <area shape="rect" id="node4" href="$classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_extract_bibtex_action.html" title=" " alt="" coords="413,71,599,112"/>
 <area shape="rect" id="node5" href="$classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_action.html" title=" " alt="" coords="405,136,607,177"/>
@@ -75,4 +75,5 @@
 <area shape="rect" id="node74" href="$classorg_1_1jabref_1_1gui_1_1specialfields_1_1_special_field_action.html" title=" " alt="" coords="420,4657,592,4699"/>
 <area shape="rect" id="node75" href="$classorg_1_1jabref_1_1gui_1_1texparser_1_1_parse_latex_action.html" title=" " alt="" coords="429,4723,583,4764"/>
 <area shape="rect" id="node76" href="$classorg_1_1jabref_1_1gui_1_1undo_1_1_undo_redo_action.html" title=" " alt="" coords="426,4788,586,4829"/>
+<area shape="rect" id="node77" href="$classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_generate_word_cloud_action.html" title=" " alt="" coords="419,4853,593,4895"/>
 </map>

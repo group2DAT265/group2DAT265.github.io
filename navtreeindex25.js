@@ -1,5 +1,9 @@
 var NAVTREEINDEX25 =
 {
+"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#ace84e34441a6705a44228e3ab416bfba":[2,0,0,0,2,40,1,10],
+"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#ad0d77b858f0476d6522f72f259683cf7":[2,0,0,0,2,40,1,1],
+"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#add15bf22537019fa8c619c723783e9b8":[2,0,0,0,2,40,1,2],
+"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#aec4dde4bfa8aaac328e3ff1ca016c9d9":[2,0,0,0,2,40,1,0],
 "classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#af9fcf142786f17a07070eb04e3afb6f0":[2,0,0,0,2,40,1,5],
 "classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#afb9f632a4809964f7f995e995751be4f":[2,0,0,0,2,40,1,6],
 "classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_view_model.html":[2,0,0,0,2,40,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX25 =
 "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a5efc3230e4569e29a7218b395f14eda1":[2,0,0,0,2,44,3,51],
 "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a5f913bd3c214beffcf096beae44bf007":[2,0,0,0,2,44,3,15],
 "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a63e651bc62dd25d2bd129aef879054f8":[2,0,0,0,2,44,3,10],
-"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a6a744152b09287c2f68e139b95104450":[2,0,0,0,2,44,3,31],
-"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a6ebdb0aaae1d232610328fd78007bb3d":[2,0,0,0,2,44,3,36],
-"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a70332851ae5252555e71cda0a67663ee":[2,0,0,0,2,44,3,2],
-"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a709c98f06b2c8b22131b0f0a1fed6e2f":[2,0,0,0,2,44,3,8],
-"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a73b57450be3db502c22af2a19ed0b2f0":[2,0,0,0,2,44,3,30]
+"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a6a744152b09287c2f68e139b95104450":[2,0,0,0,2,44,3,31]
 };

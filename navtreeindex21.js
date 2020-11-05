@@ -1,5 +1,9 @@
 var NAVTREEINDEX21 =
 {
+"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a32d46adbf78e9e7efd7ee7a2235fef76":[2,0,0,0,2,37,7,16],
+"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a3a375e5988aaf63862130d2c2ae11185":[2,0,0,0,2,37,7,11],
+"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a456fb7dffe418989108077114c29de06":[2,0,0,0,2,37,7,9],
+"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a7b6d8b44a1731051d020f20b8a50779c":[2,0,0,0,2,37,7,5],
 "classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a804d816892b252c74ef31f14fe6afcd7":[2,0,0,0,2,37,7,2],
 "classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#aa1bad53989d02d36b2cb62741d2b13fd":[2,0,0,0,2,37,7,13],
 "classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#ab18a923345533b5ef3be90f4d546f423":[2,0,0,0,2,37,7,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX21 =
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#a8a6805d85fe622c6b0c61b8a3b1424d9":[2,0,0,0,2,38,5,1],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#a9c7bc5509098f9bca34d3b49719e9891":[2,0,0,0,2,38,5,6],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#ab7a60d634aa753804a74cd0e84df28f2":[2,0,0,0,2,38,5,15],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#ac9d2f945e916948a91d4fbc5a64387c5":[2,0,0,0,2,38,5,10],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#acd3d54c7b9588409bab9685e5d50ef93":[2,0,0,0,2,38,5,14],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#aec58614367f01386a101fba5f3a15aed":[2,0,0,0,2,38,5,16],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#aec9f8a476eb16f8db424ecfa7c61253b":[2,0,0,0,2,38,5,3],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#afb08d53d1d714f151bf5d5a6de3a733f":[2,0,0,0,2,38,5,4]
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#ac9d2f945e916948a91d4fbc5a64387c5":[2,0,0,0,2,38,5,10]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX19 =
 {
+"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a4660ea0af0125f9b46a3aae78eb10d7a":[2,0,0,0,2,31,2,54],
+"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a52cc5e5a49e9862726d9f2079ad2523f":[2,0,0,0,2,31,2,20],
+"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a5991ed1579b8f2fdc0d394891923085b":[2,0,0,0,2,31,2,45],
+"classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a59da20f8c6e59f1f39fa91aa0de5575e":[2,0,0,0,2,31,2,39],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a5a485428b6197ef2694aa5ea274fd064":[2,0,0,0,2,31,2,1],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a5d0681c5c54b3cf4ce844934c523d492":[2,0,0,0,2,31,2,38],
 "classorg_1_1jabref_1_1gui_1_1libraryproperties_1_1_library_properties_dialog_view_model.html#a630427105bc4cc410b6f6a12f572b081":[2,0,0,0,2,31,2,34],
@@ -245,9 +249,5 @@ var NAVTREEINDEX19 =
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_file_column.html#acf994633bf4332f4fb701035ede93496":[2,0,0,0,2,33,0,1,6],
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_file_column.html#ae334ddb3e1dbc46df0e6fc107dc850d4":[2,0,0,0,2,33,0,1,8],
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html":[2,0,0,0,2,33,0,2],
-"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#a084ae66cbf7889a37abf31823394d1f9":[2,0,0,0,2,33,0,2,0],
-"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#a21c1c23de50f53af7fe64fe9bddd358a":[2,0,0,0,2,33,0,2,5],
-"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#a3ac6b1e6415e6137699de5ab8739187a":[2,0,0,0,2,33,0,2,4],
-"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#a825550bfb9725d92c6a4982d938c6e4c":[2,0,0,0,2,33,0,2,2],
-"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#accc08ad273a5c92bfa4a35bb8e0f6b1b":[2,0,0,0,2,33,0,2,6]
+"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#a084ae66cbf7889a37abf31823394d1f9":[2,0,0,0,2,33,0,2,0]
 };

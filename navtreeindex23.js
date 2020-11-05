@@ -1,5 +1,9 @@
 var NAVTREEINDEX23 =
 {
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view.html#ac9fc702f9280b60c50fe3421c4b9ac2c":[2,0,0,0,2,38,13,7],
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html":[2,0,0,0,2,38,14],
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a039355dfb2a3b4ee74bb962c02d40e64":[2,0,0,0,2,38,14,7],
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a070529c802f045042c4e9fcb09db7560":[2,0,0,0,2,38,14,0],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a0d30914834627e9af61e301f9bac66df":[2,0,0,0,2,38,14,9],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a1797e8fc3c0d559b948d241f840367a7":[2,0,0,0,2,38,14,1],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a27df212278d7825fb18bcd544fe5435e":[2,0,0,0,2,38,14,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX23 =
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#aa5a8a839bbd86ce628affd62072e84a8":[2,0,0,0,2,38,26,10],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#aaecdbb902bda350d9828f6af52a13a82":[2,0,0,0,2,38,26,17],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#ab25cd0cb24ce84fef724689495d7042d":[2,0,0,0,2,38,26,4],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#ac3b0426adf1725ac6363a44a31e87fc2":[2,0,0,0,2,38,26,11],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#ac4df7c1b38c38d37049ada8cc630c475":[2,0,0,0,2,38,26,23],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#aca796a17ebf89d11f3bf5f7e84a59260":[2,0,0,0,2,38,26,6],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#acb1da6a04d2daa30ef9c80d749d50338":[2,0,0,0,2,38,26,25],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#ad17321c23186171fbcbb0d8016fb60a3":[2,0,0,0,2,38,26,28]
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#ac3b0426adf1725ac6363a44a31e87fc2":[2,0,0,0,2,38,26,11]
 };

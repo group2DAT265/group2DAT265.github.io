@@ -1,5 +1,9 @@
 var NAVTREEINDEX22 =
 {
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#acd3d54c7b9588409bab9685e5d50ef93":[2,0,0,0,2,38,5,14],
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#aec58614367f01386a101fba5f3a15aed":[2,0,0,0,2,38,5,16],
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#aec9f8a476eb16f8db424ecfa7c61253b":[2,0,0,0,2,38,5,3],
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#afb08d53d1d714f151bf5d5a6de3a733f":[2,0,0,0,2,38,5,4],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view.html#afcf6f670f47596651bed11df4f37bfc2":[2,0,0,0,2,38,5,12],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view_model.html":[2,0,0,0,2,38,6],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_entry_editor_tab_view_model.html#a101202c891ebc97a2f2305eb6828aa68":[2,0,0,0,2,38,6,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX22 =
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view.html#a65a1d862b0ea3f9d3a66be5c946dc52b":[2,0,0,0,2,38,13,0],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view.html#aad58a2e0b64483d21f67f3eddc9c2022":[2,0,0,0,2,38,13,4],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view.html#ac0a05717aecfaeee07d6264fe0d3d6e3":[2,0,0,0,2,38,13,5],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view.html#ac3b549921029cf6305f487521567f5ec":[2,0,0,0,2,38,13,3],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view.html#ac9fc702f9280b60c50fe3421c4b9ac2c":[2,0,0,0,2,38,13,7],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html":[2,0,0,0,2,38,14],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a039355dfb2a3b4ee74bb962c02d40e64":[2,0,0,0,2,38,14,7],
-"classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a070529c802f045042c4e9fcb09db7560":[2,0,0,0,2,38,14,0]
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view.html#ac3b549921029cf6305f487521567f5ec":[2,0,0,0,2,38,13,3]
 };

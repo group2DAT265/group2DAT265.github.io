@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"_sources_8java.html":[3,0,0,0,0,0,0,2,0,5],
 "_special_field_8java.html":[3,0,0,0,0,0,0,5,1,1,8],
 "_special_field_action_8java.html":[3,0,0,0,0,0,0,2,45,0],
 "_special_field_column_8java.html":[3,0,0,0,0,0,0,2,33,0,4],
@@ -17,7 +18,7 @@ var NAVTREEINDEX4 =
 "_standard_external_file_type_8java.html":[3,0,0,0,0,0,0,2,21,8],
 "_standard_field_8java.html":[3,0,0,0,0,0,0,5,1,1,10],
 "_standard_file_type_8java.html":[3,0,0,0,0,0,0,3,32,10],
-"_state_manager_8java.html":[3,0,0,0,0,0,0,2,76],
+"_state_manager_8java.html":[3,0,0,0,0,0,0,2,77],
 "_stream_gobbler_8java.html":[3,0,0,0,0,0,0,2,48,27],
 "_string_add_change_view_model_8java.html":[3,0,0,0,0,0,0,2,6,12],
 "_string_change_view_model_8java.html":[3,0,0,0,0,0,0,2,6,13],
@@ -63,7 +64,7 @@ var NAVTREEINDEX4 =
 "_to_upper_case_8java.html":[3,0,0,0,0,0,0,3,17,0,68],
 "_tooltip_text_util_8java.html":[3,0,0,0,0,0,0,2,48,31],
 "_tree_collector_8java.html":[3,0,0,0,0,0,0,5,8,7],
-"_tree_node_8java.html":[3,0,0,0,0,0,0,5,11],
+"_tree_node_8java.html":[3,0,0,0,0,0,0,5,12],
 "_trim_whitespace_formatter_8java.html":[3,0,0,0,0,0,0,3,10,0,22],
 "_truncate_formatter_8java.html":[3,0,0,0,0,0,0,3,10,2,1],
 "_trust_level_8java.html":[3,0,0,0,0,0,0,3,13,0,38],
@@ -112,7 +113,7 @@ var NAVTREEINDEX4 =
 "_unlinked_p_d_f_file_filter_8java.html":[3,0,0,0,0,0,0,2,27,15],
 "_update_field_8java.html":[3,0,0,0,0,0,0,3,32,13],
 "_update_refused_event_8java.html":[3,0,0,0,0,0,0,3,28,0,2],
-"_update_timestamp_listener_8java.html":[3,0,0,0,0,0,0,2,77],
+"_update_timestamp_listener_8java.html":[3,0,0,0,0,0,0,2,78],
 "_upgrade_pdf_ps_to_file_cleanup_8java.html":[3,0,0,0,0,0,0,3,6,19],
 "_upper_case_formatter_8java.html":[3,0,0,0,0,0,0,3,10,1,7],
 "_url_checker_8java.html":[3,0,0,0,0,0,0,3,14,34],
@@ -132,7 +133,7 @@ var NAVTREEINDEX4 =
 "_view_model_text_field_table_cell_visualization_factory_8java.html":[3,0,0,0,0,0,0,2,48,36],
 "_view_model_tree_cell_factory_8java.html":[3,0,0,0,0,0,0,2,48,37],
 "_view_model_tree_table_cell_factory_8java.html":[3,0,0,0,0,0,0,2,48,38],
-"_wait_for_save_finished_dialog_8java.html":[3,0,0,0,0,0,0,2,78],
+"_wait_for_save_finished_dialog_8java.html":[3,0,0,0,0,0,0,2,79],
 "_warn_8java.html":[3,0,0,0,0,0,0,3,3,12],
 "_watch_service_unavailable_exception_8java.html":[3,0,0,0,0,0,0,3,36],
 "_web_fetcher_8java.html":[3,0,0,0,0,0,0,3,13,27],
@@ -142,6 +143,9 @@ var NAVTREEINDEX4 =
 "_width_function_8java.html":[3,0,0,0,0,0,0,3,3,13],
 "_windows_8java.html":[3,0,0,0,0,0,0,2,12,0,4],
 "_word_8java.html":[3,0,0,0,0,0,0,3,10,1,8],
+"_word_cloud_generated_view_8java.html":[3,0,0,0,0,0,0,2,49,1],
+"_word_cloud_preset_8java.html":[3,0,0,0,0,0,0,5,9,0],
+"_word_cloud_preset_view_8java.html":[3,0,0,0,0,0,0,2,49,2],
 "_word_keyword_group_8java.html":[3,0,0,0,0,0,0,5,2,14],
 "_word_suggestion_provider_8java.html":[3,0,0,0,0,0,0,2,1,18],
 "_wrap_content_8java.html":[3,0,0,0,0,0,0,3,17,0,69],
@@ -245,9 +249,5 @@ var NAVTREEINDEX4 =
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#aca895d4ea589be21ba802c531e09f405":[2,0,0,0,1,4,24],
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#acd680e1c6817d10511f6ff37c057a5e8":[2,0,0,0,1,4,16],
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#acefae0c8a904c8fa3cfd1e48dbc72224":[2,0,0,0,1,4,12],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#ad3f5a1e3a1979edd1ba5b6e938427b22":[2,0,0,0,1,4,10],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#ade4578ff2d22dcf6b5e161750c24f400":[2,0,0,0,1,4,45],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#adf13908f182ff0ac2e476a5a2c3b8bf8":[2,0,0,0,1,4,39],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#ae01d53e18b43bccafc26a0ab53e56834":[2,0,0,0,1,4,41],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#aeaec46b9da849129b90799a2642269be":[2,0,0,0,1,4,29]
+"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#ad3f5a1e3a1979edd1ba5b6e938427b22":[2,0,0,0,1,4,10]
 };

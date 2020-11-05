@@ -1,5 +1,9 @@
 var NAVTREEINDEX26 =
 {
+"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a6ebdb0aaae1d232610328fd78007bb3d":[2,0,0,0,2,44,3,36],
+"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a70332851ae5252555e71cda0a67663ee":[2,0,0,0,2,44,3,2],
+"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a709c98f06b2c8b22131b0f0a1fed6e2f":[2,0,0,0,2,44,3,8],
+"classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a73b57450be3db502c22af2a19ed0b2f0":[2,0,0,0,2,44,3,30],
 "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a75704a6c85e98b94d9f5ad72738f77c4":[2,0,0,0,2,44,3,16],
 "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a7eee3f04ff9000c7b2375e90bb11fc41":[2,0,0,0,2,44,3,27],
 "classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view_model.html#a8dbaf23852293e4a03cdb25a4a1c62de":[2,0,0,0,2,44,3,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX26 =
 "classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#a46f2ab3f804bf636e8d1461a7db4a775":[2,0,0,0,2,47,5,1],
 "classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#a4e3e104d0bbfe7c3fc0d5c35760bfba4":[2,0,0,0,2,47,5,9],
 "classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#a7a850e679a8bdc980ad02374b3d8a695":[2,0,0,0,2,47,5,4],
-"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#a8a885f087afe6832da72f83075b4a696":[2,0,0,0,2,47,5,7],
-"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#a91e868a8d2ef56c9cef22fa714f7e11b":[2,0,0,0,2,47,5,2],
-"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#ade8efd9efa259cbc8aac5d90e49dde94":[2,0,0,0,2,47,5,0],
-"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#ae07b4b4822f89fef982a2061def4f641":[2,0,0,0,2,47,5,3],
-"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#af6efa86585cb850b7a1ed39358a415c3":[2,0,0,0,2,47,5,5]
+"classorg_1_1jabref_1_1gui_1_1undo_1_1_undoable_insert_entries.html#a8a885f087afe6832da72f83075b4a696":[2,0,0,0,2,47,5,7]
 };

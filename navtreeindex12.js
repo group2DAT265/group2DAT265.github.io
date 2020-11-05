@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#ae3bff6ffc405e18aad3b8ba0902eef69":[2,0,0,0,2,17,0,3,2],
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#af45cf6580c77f3f050e6fce0bc3538a0":[2,0,0,0,2,17,0,3,17],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html":[2,0,0,0,2,18,0],
+"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a086b086e9ddc6ba8f2c01c0b835187fe":[2,0,0,0,2,18,0,14],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a1d2ee718d3abda656a2d4acdb179722d":[2,0,0,0,2,18,0,0],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a23762be99a4087543658af950522ddf9":[2,0,0,0,2,18,0,6],
 "classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a406eca75751fe3e76f5211621c28130c":[2,0,0,0,2,18,0,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a8fdffbdfc06450ceca9e4bb3ba9bb8c5":[2,0,0,0,2,20,6,10],
 "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#a94815000379453a1018b170aefceb9f3":[2,0,0,0,2,20,6,1],
 "classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#aa58d36ed171c7bb4ce3f8fc9b5526675":[2,0,0,0,2,20,6,16],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#aab0e4dccfc5cfd49815e85c8cf68a7b8":[2,0,0,0,2,20,6,7],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ab720ad7bc352a12e284fef8e29e4c8b7":[2,0,0,0,2,20,6,12],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ab8ef4d652bb3e0873c7b2e7fa3b3ffcd":[2,0,0,0,2,20,6,17],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#ab9fa52114d64d7f1a412ca120fb07def":[2,0,0,0,2,20,6,9],
-"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#abd300c3aa3526f3631619e24dcbc7720":[2,0,0,0,2,20,6,15]
+"classorg_1_1jabref_1_1gui_1_1externalfiles_1_1_find_unlinked_files_dialog.html#aab0e4dccfc5cfd49815e85c8cf68a7b8":[2,0,0,0,2,20,6,7]
 };

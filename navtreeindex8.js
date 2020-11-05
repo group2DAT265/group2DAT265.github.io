@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_panel.html#a4cb8c14e4047d39b384686d2d7567189":[2,0,0,0,2,4,2,5],
+"classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_panel.html#a5538ac4482be9d51487bac5161fd5dbc":[2,0,0,0,2,4,2,4],
+"classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_panel.html#a62f7cf6f7e327c6e41b37e3be9f477f0":[2,0,0,0,2,4,2,6],
+"classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_panel.html#a6834ef52ec1487589f9f5d43852e43de":[2,0,0,0,2,4,2,3],
 "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_panel.html#a8a7ec5a637ced179c1fd601a122b5b94":[2,0,0,0,2,4,2,1],
 "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_panel.html#a8c46fb0a224fe911f9c666872fe7eb03":[2,0,0,0,2,4,2,8],
 "classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_panel.html#aa1babe229840fcc97927ecb1052ad64c":[2,0,0,0,2,4,2,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_action.html#a2ba27114e4287233655fde56a3b0bf5f":[2,0,0,0,2,9,0,2],
 "classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_action.html#a7be21fdf5e5168a6816d191e9caa0053":[2,0,0,0,2,9,0,1],
 "classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_action.html#a7c0d4e73391508fa3f592da792eea3e6":[2,0,0,0,2,9,0,0],
-"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_action.html#abc2916837e04e618f9d31a8398dd44af":[2,0,0,0,2,9,0,3],
-"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_action.html#acdc4dc6dfe5622d6addbd59f015190e2":[2,0,0,0,2,9,0,5],
-"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view.html":[2,0,0,0,2,9,1],
-"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view.html#a0d0a1a0ae7f104b090d58a5036309cf5":[2,0,0,0,2,9,1,1],
-"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view.html#a18c6c0248556c8ed4f23ac4b7e9729dd":[2,0,0,0,2,9,1,7]
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_action.html#abc2916837e04e618f9d31a8398dd44af":[2,0,0,0,2,9,0,3]
 };

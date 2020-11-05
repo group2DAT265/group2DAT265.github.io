@@ -168,6 +168,7 @@ var enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons =
     [ "UNDO", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#ae2de6c031f2953cd351148d24fb36e9a", null ],
     [ "UP", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#afd454df2da3c5d42b51db5f0a4ecdf74", null ],
     [ "WARNING", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#ab4cac66175c24af38e61962f008fe5f4", null ],
+    [ "WORDCLOUD", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#ab431114e338671f463d7aaddddb42e6b", null ],
     [ "WRITE_XMP", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#ac7303e3d46e494350669f420488d1aea", null ],
     [ "WWW", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a468c83dec0ad73897becba7c099822f3", null ],
     [ "ZOOM_IN", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a4b0dceca7ee918933be11e9145aa52b2", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX11 =
 {
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a27e1ea8f585bb9c64badaab3c0eca597":[2,0,0,0,2,17,2,18],
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a28ea95811bbabea7ccd359114b228c9b":[2,0,0,0,2,17,2,7],
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a2a73763244a2fb8be6dd64fa5e8070f8":[2,0,0,0,2,17,2,34],
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a358921cde5e9a2f6f0c6eb7719df3981":[2,0,0,0,2,17,2,29],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a4882f21816c56d6cb0824612991ce4e9":[2,0,0,0,2,17,2,31],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a56d0680a551bd8954b3bd4acbb3c4305":[2,0,0,0,2,17,2,30],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a6643233737905d8c6b39af85caf41d71":[2,0,0,0,2,17,2,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX11 =
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#a7f900b162c38180c0080288b7b9702b1":[2,0,0,0,2,17,0,3,12],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#a98d1737cbe836669fb117027ac51d964":[2,0,0,0,2,17,0,3,0],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#a9ccda0dfb24453aff0910782b1c95d25":[2,0,0,0,2,17,0,3,3],
-"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#acec5a14f6dc1e5d2a747ff3483635100":[2,0,0,0,2,17,0,3,6],
-"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#ae3bff6ffc405e18aad3b8ba0902eef69":[2,0,0,0,2,17,0,3,2],
-"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#af45cf6580c77f3f050e6fce0bc3538a0":[2,0,0,0,2,17,0,3,17],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html":[2,0,0,0,2,18,0],
-"classorg_1_1jabref_1_1gui_1_1errorconsole_1_1_error_console_view.html#a086b086e9ddc6ba8f2c01c0b835187fe":[2,0,0,0,2,18,0,14]
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#acec5a14f6dc1e5d2a747ff3483635100":[2,0,0,0,2,17,0,3,6]
 };

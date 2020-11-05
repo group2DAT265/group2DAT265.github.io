@@ -1,5 +1,9 @@
 var NAVTREEINDEX16 =
 {
+"classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane.html#a8a7d3095f866acd1d60f3b2ff0996b89":[2,0,0,0,2,24,5,8],
+"classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane.html#a8ad7251eee0963020092b95ea81e7af7":[2,0,0,0,2,24,5,0],
+"classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane.html#a9e37105713c42beb729d26ab62774b20":[2,0,0,0,2,24,5,7],
+"classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane.html#ac90971c96e0b883c92a12d3921d873d3":[2,0,0,0,2,24,5,3],
 "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_side_pane.html#adeb1558c09c75bebfb34e6b1b9afa8da":[2,0,0,0,2,24,5,5],
 "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model.html":[2,0,0,0,2,24,7],
 "classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_node_view_model.html#a12d2002b67636dc93c0a52eebf0654c1":[2,0,0,0,2,24,7,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX16 =
 "classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#a4f3c676fe25c289927b0e907ed7049a7":[2,0,0,0,2,26,1,1],
 "classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#a5ae81729ea14a6a8026a23fa084f955b":[2,0,0,0,2,26,1,7],
 "classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#a5e03975f5c317e13ccab3a4c2fe23af4":[2,0,0,0,2,26,1,4],
-"classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#a7c22de7e3263fbcc78c9389ebdffadb2":[2,0,0,0,2,26,1,5],
-"classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#a8291134dff2e18182609838c176fd17e":[2,0,0,0,2,26,1,8],
-"classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#a8ed2d8c9acd10b88773993ee1af7a95b":[2,0,0,0,2,26,1,3],
-"classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#aae8c242b6737d5768ebbc0016cd381c8":[2,0,0,0,2,26,1,11],
-"classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#acf35569cd864c6460e3c8579bb28c1ba":[2,0,0,0,2,26,1,12]
+"classorg_1_1jabref_1_1gui_1_1icon_1_1_internal_material_design_icon.html#a7c22de7e3263fbcc78c9389ebdffadb2":[2,0,0,0,2,26,1,5]
 };

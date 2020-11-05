@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="58,1379,117,1406"/>
-<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_base_dialog.html" title=" " alt="" coords="217,1397,365,1439"/>
+<area shape="rect" id="node1" title=" " alt="" coords="58,1445,117,1471"/>
+<area shape="rect" id="node2" href="$classorg_1_1jabref_1_1gui_1_1util_1_1_base_dialog.html" title=" " alt="" coords="217,1463,365,1504"/>
 <area shape="rect" id="node3" href="$classorg_1_1jabref_1_1gui_1_1auximport_1_1_from_aux_dialog.html" title=" " alt="" coords="449,5,606,47"/>
 <area shape="rect" id="node4" href="$classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_extract_bibtex_dialog.html" title=" " alt="" coords="435,71,620,112"/>
 <area shape="rect" id="node5" href="$classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_dialog.html" title=" " alt="" coords="426,136,629,177"/>
@@ -45,5 +45,7 @@
 <area shape="rect" id="node44" href="$classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html" title=" " alt="" coords="437,2671,618,2712"/>
 <area shape="rect" id="node45" href="$classorg_1_1jabref_1_1gui_1_1texparser_1_1_parse_latex_dialog_view.html" title=" " alt="" coords="450,2736,605,2777"/>
 <area shape="rect" id="node46" href="$classorg_1_1jabref_1_1gui_1_1texparser_1_1_parse_latex_result_view.html" title=" " alt="" coords="450,2801,605,2843"/>
-<area shape="rect" id="node47" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog.html" title=" " alt="" coords="5,1430,169,1457"/>
+<area shape="rect" id="node47" href="$classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_generated_view.html" title=" " alt="" coords="440,2867,615,2908"/>
+<area shape="rect" id="node48" href="$classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html" title=" " alt="" coords="447,2932,607,2973"/>
+<area shape="rect" id="node49" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog.html" title=" " alt="" coords="5,1495,169,1522"/>
 </map>

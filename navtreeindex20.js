@@ -1,5 +1,9 @@
 var NAVTREEINDEX20 =
 {
+"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#a21c1c23de50f53af7fe64fe9bddd358a":[2,0,0,0,2,33,0,2,5],
+"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#a3ac6b1e6415e6137699de5ab8739187a":[2,0,0,0,2,33,0,2,4],
+"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#a825550bfb9725d92c6a4982d938c6e4c":[2,0,0,0,2,33,0,2,2],
+"classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#accc08ad273a5c92bfa4a35bb8e0f6b1b":[2,0,0,0,2,33,0,2,6],
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#addfb6016c4f556eedf1855b333224d5f":[2,0,0,0,2,33,0,2,1],
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_linked_identifier_column.html#af786080ebbf15c8afe49396fde55213c":[2,0,0,0,2,33,0,2,3],
 "classorg_1_1jabref_1_1gui_1_1maintable_1_1columns_1_1_main_table_column.html":[2,0,0,0,2,33,0,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX20 =
 "classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a13c7c16325b0a985eb2827be8b24a893":[2,0,0,0,2,37,7,3],
 "classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a14bb3ecb9ab561779cf1d9e5e41a1e42":[2,0,0,0,2,37,7,12],
 "classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a212b95effe7d60918c2a0f82678f8401":[2,0,0,0,2,37,7,7],
-"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a2de8e09db39436a548ac889a5f70d378":[2,0,0,0,2,37,7,14],
-"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a32d46adbf78e9e7efd7ee7a2235fef76":[2,0,0,0,2,37,7,16],
-"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a3a375e5988aaf63862130d2c2ae11185":[2,0,0,0,2,37,7,11],
-"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a456fb7dffe418989108077114c29de06":[2,0,0,0,2,37,7,9],
-"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a7b6d8b44a1731051d020f20b8a50779c":[2,0,0,0,2,37,7,5]
+"classorg_1_1jabref_1_1gui_1_1openoffice_1_1_manual_connect_dialog_view.html#a2de8e09db39436a548ac889a5f70d378":[2,0,0,0,2,37,7,14]
 };

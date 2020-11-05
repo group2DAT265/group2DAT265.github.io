@@ -1,5 +1,9 @@
 var NAVTREEINDEX24 =
 {
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#ac4df7c1b38c38d37049ada8cc630c475":[2,0,0,0,2,38,26,23],
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#aca796a17ebf89d11f3bf5f7e84a59260":[2,0,0,0,2,38,26,6],
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#acb1da6a04d2daa30ef9c80d749d50338":[2,0,0,0,2,38,26,25],
+"classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#ad17321c23186171fbcbb0d8016fb60a3":[2,0,0,0,2,38,26,28],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#ad61125dc88da561904f9a2ba7ff0e3ec":[2,0,0,0,2,38,26,15],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#ad74c6b119a694fda323fac4085e82900":[2,0,0,0,2,38,26,29],
 "classorg_1_1jabref_1_1gui_1_1preferences_1_1_preview_tab_view.html#ae446e61689e8a064851a8ad699ac3764":[2,0,0,0,2,38,26,30],
@@ -245,9 +249,5 @@ var NAVTREEINDEX24 =
 "classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#aa77a485c803bd98a4d37fe58f8a90b8e":[2,0,0,0,2,40,1,4],
 "classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#aa8726e84ca118f04fb2124fe45142b65":[2,0,0,0,2,40,1,11],
 "classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#ab942ffb1ada5f0e04fb39c355fb708b0":[2,0,0,0,2,40,1,14],
-"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#acacad4a1af001fcd7f4727c8cf0c3e5e":[2,0,0,0,2,40,1,8],
-"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#ace84e34441a6705a44228e3ab416bfba":[2,0,0,0,2,40,1,10],
-"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#ad0d77b858f0476d6522f72f259683cf7":[2,0,0,0,2,40,1,1],
-"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#add15bf22537019fa8c619c723783e9b8":[2,0,0,0,2,40,1,2],
-"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#aec4dde4bfa8aaac328e3ff1ca016c9d9":[2,0,0,0,2,40,1,0]
+"classorg_1_1jabref_1_1gui_1_1protectedterms_1_1_manage_protected_terms_dialog.html#acacad4a1af001fcd7f4727c8cf0c3e5e":[2,0,0,0,2,40,1,8]
 };

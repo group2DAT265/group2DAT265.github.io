@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_action.html#acdc4dc6dfe5622d6addbd59f015190e2":[2,0,0,0,2,9,0,5],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view.html":[2,0,0,0,2,9,1],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view.html#a0d0a1a0ae7f104b090d58a5036309cf5":[2,0,0,0,2,9,1,1],
+"classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view.html#a18c6c0248556c8ed4f23ac4b7e9729dd":[2,0,0,0,2,9,1,7],
 "classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view.html#a46c242c31b7ebcd72f44046b3bf48fa4":[2,0,0,0,2,9,1,2],
 "classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view.html#a595997f71393ac9436eb43ba7df7bde4":[2,0,0,0,2,9,1,0],
 "classorg_1_1jabref_1_1gui_1_1copyfiles_1_1_copy_files_dialog_view.html#a64bb88dcd380fc1cb933f6a7c6ab715c":[2,0,0,0,2,9,1,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control.html#ab8879c34d0bdfcbab14b8ec8f9200fee":[2,0,0,0,2,14,1,6],
 "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control.html#aca04ef1ef665b08cb1a3a13a06cb7b25":[2,0,0,0,2,14,1,17],
 "classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control.html#ad99f25a6459f64747ae1be3eef9058e0":[2,0,0,0,2,14,1,7],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control.html#ae2d7237c568fd574a57dcc01434d10a2":[2,0,0,0,2,14,1,16],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control.html#aed361d448622409c0366e9c0f8715f14":[2,0,0,0,2,14,1,14],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control.html#aee6874849d66808d552e0a6110a99024":[2,0,0,0,2,14,1,15],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html":[2,0,0,0,2,14,1,0],
-"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control_1_1_document_viewer_page.html#a0777ea507aad739d828c98dc17f6310f":[2,0,0,0,2,14,1,0,3]
+"classorg_1_1jabref_1_1gui_1_1documentviewer_1_1_document_viewer_control.html#ae2d7237c568fd574a57dcc01434d10a2":[2,0,0,0,2,14,1,16]
 };

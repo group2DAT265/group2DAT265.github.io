@@ -49,6 +49,7 @@ var dir_34a37ecfa731635400d72a1e8ea2fc8d =
     [ "texparser", "dir_e55fbdf6c6410e47855f965af06daa3c.html", "dir_e55fbdf6c6410e47855f965af06daa3c" ],
     [ "undo", "dir_cc9ba44afe84414bbe62db12be0a4ad7.html", "dir_cc9ba44afe84414bbe62db12be0a4ad7" ],
     [ "util", "dir_3ce9b760298287d87ff8bc447bd2609a.html", "dir_3ce9b760298287d87ff8bc447bd2609a" ],
+    [ "wordcloud", "dir_e35debadbe6d5ec6984500f9e255fb5d.html", "dir_e35debadbe6d5ec6984500f9e255fb5d" ],
     [ "AbstractViewModel.java", "_abstract_view_model_8java.html", [
       [ "AbstractViewModel", "classorg_1_1jabref_1_1gui_1_1_abstract_view_model.html", null ]
     ] ],

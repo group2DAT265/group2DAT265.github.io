@@ -67,6 +67,7 @@ var enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions =
     [ "FIND_UNLINKED_FILES", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a6bd49c883939f3f5c5f40bcb381e3d8a", null ],
     [ "GENERATE_CITE_KEY", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a04b2e2eec9c6cf74129bb702d3496439", null ],
     [ "GENERATE_CITE_KEYS", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a21c0bee832be59d052349274056b0178", null ],
+    [ "GENERATE_WORDCLOUD", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#ac041ca4387a91be051ab162a0459fb9b", null ],
     [ "HELP", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#ade5f6fc6b4ea09cd41b5e00625515710", null ],
     [ "HELP_KEY_PATTERNS", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a97ab679a7fcadf75e0a0636531c4f453", null ],
     [ "HELP_NAME_FORMATTER", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a76bca515f8c582741547c352cf3c46d7", null ],

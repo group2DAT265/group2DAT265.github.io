@@ -131,6 +131,10 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GENERATE_KEYS_BEFORE_SAVING
 : <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences.html#a416be6ba64a84ffe8491b34c3b9976fc">org.jabref.preferences.JabRefPreferences</a>
 </li>
+<li>GENERATE_WORDCLOUD
+: <a class="el" href="enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#ac041ca4387a91be051ab162a0459fb9b">org.jabref.gui.actions.StandardActions</a>
+, <a class="el" href="enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#acc4c73bc33b9214f60cd1844a0827b2b">org.jabref.gui.keyboard.KeyBinding</a>
+</li>
 <li>generateAndSetKey()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1citationkeypattern_1_1_citation_key_generator.html#af667039f9ca2733e4fd083d6dd145338">org.jabref.logic.citationkeypattern.CitationKeyGenerator</a>
 </li>
@@ -143,6 +147,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>generateButton
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1auximport_1_1_from_aux_dialog.html#a226b73ff8d669fc7bf35a2bf01e668d3">org.jabref.gui.auximport.FromAuxDialog</a>
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1_entry_type_view.html#a470cde9125d51496a0206bdad5445966">org.jabref.gui.EntryTypeView</a>
+, <a class="el" href="classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a66dd7fe6d1a34481685b8d347fb58cd2">org.jabref.gui.wordcloud.WordCloudPresetView</a>
 </li>
 <li>generateButtonType
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1auximport_1_1_from_aux_dialog.html#aec3c77d67d6bfa1d4ce769da68e306cd">org.jabref.gui.auximport.FromAuxDialog</a>
@@ -202,6 +207,12 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>generateSymmetricHighlighting()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1mergeentries_1_1_diff_highlighting.html#aa587bd4c00b95889d1f8b8a185acf1b6">org.jabref.gui.mergeentries.DiffHighlighting</a>
+</li>
+<li>generateWordCloud()
+: <a class="el" href="classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_generate_word_cloud_action.html#a807bebae8aab7983101ade2d4f9e3f76">org.jabref.gui.wordcloud.GenerateWordCloudAction</a>
+</li>
+<li>GenerateWordCloudAction()
+: <a class="el" href="classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_generate_word_cloud_action.html#aee3bf3be6a0cec5e4015c6eebb7c469b">org.jabref.gui.wordcloud.GenerateWordCloudAction</a>
 </li>
 <li>generateXmpStringWithoutXmpDeclaration()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1xmp_1_1_xmp_util_writer.html#a9d1b3c81d010e7fb056d7ddc8aa53212">org.jabref.logic.xmp.XmpUtilWriter</a>
@@ -475,6 +486,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getAvailableDBMSTypes()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1shared_1_1_d_b_m_s_connection.html#a3cb3e685c96b809ad4c6a0266f601b65">org.jabref.logic.shared.DBMSConnection</a>
 </li>
+<li>getBackground()
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html#a1572fe5d7c16b47d979065ae4fe216f5">org.jabref.model.wordcloud.WordCloudPreset</a>
+</li>
 <li>getBackgroundTasks()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1_state_manager.html#a1367d567bebd2bc80fb3a530e5368162">org.jabref.gui.StateManager</a>
 </li>
@@ -734,6 +748,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getColor()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1groups_1_1_group_node_view_model.html#ad543cc89b5e0da7e22ed9f7cbb58a4d3">org.jabref.gui.groups.GroupNodeViewModel</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_abstract_group.html#ad1d7e769e70855c15c65479ef6a6fe39">org.jabref.model.groups.AbstractGroup</a>
+</li>
+<li>getColors()
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html#a5f5397c5892dd5d7c2513efd27c5c949">org.jabref.model.wordcloud.WordCloudPreset</a>
 </li>
 <li>getColStart()
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1texparser_1_1_citation.html#a6a84f24859dd65b8f0d97cd74a4fcf41">org.jabref.model.texparser.Citation</a>
@@ -1718,6 +1735,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getFocusOwner()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1_state_manager.html#ac22e368e248f72ab3d18340b6d4c8b28">org.jabref.gui.StateManager</a>
+</li>
+<li>getFont()
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html#a61243317069ae80c40ba84f3c0b6b10f">org.jabref.model.wordcloud.WordCloudPreset</a>
 </li>
 <li>getFontSize()
 : <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences.html#ae669565f338f042ec81ca5ad9825a99d">org.jabref.preferences.JabRefPreferences</a>
@@ -3256,7 +3276,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1_side_pane_component.html#a120ca6ddba7f2ca4a97820037ff4b577">org.jabref.gui.SidePaneComponent</a>
 </li>
 <li>getResolvedFieldOrAlias()
-: <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#abc3457800c02a3a82f5a798367432f9a">org.jabref.model.entry.BibEntry</a>
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#a54ed2e1d81d831fe3183751c716c3991">org.jabref.model.entry.BibEntry</a>
 </li>
 <li>getResolvedFieldOrAliasLatexFree()
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#ac9ddc7bb5915d07fc3108afe8b24677e">org.jabref.model.entry.BibEntry</a>
@@ -3351,7 +3371,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_keyword_group.html#afa8b6d9a6104a08ab7d90f3ff3dcaa61">org.jabref.model.groups.KeywordGroup</a>
 </li>
 <li>getSearchMatcher()
-: <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node.html#a2e7c5db506aaea2e34d9207161e09955">org.jabref.model.groups.GroupTreeNode</a>
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node.html#a88fe5e992135720583ac32935369d26a">org.jabref.model.groups.GroupTreeNode</a>
 </li>
 <li>getSearchPreferences()
 : <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences.html#ac3a85b084c15e338a1afb04345c1a68a">org.jabref.preferences.JabRefPreferences</a>
@@ -3436,6 +3456,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getSettingsPane()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1push_1_1_push_to_application_settings.html#a289931edde165edeb12831c555ff52d9">org.jabref.gui.push.PushToApplicationSettings</a>
+</li>
+<li>getShape()
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html#a36de6547e9eb38455507d33c92592894">org.jabref.model.wordcloud.WordCloudPreset</a>
 </li>
 <li>getSharedBibEntry()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_update_refused_event.html#a274a7cb2b36c6b96a48c7a54ebdf3f24">org.jabref.logic.shared.event.UpdateRefusedEvent</a>
@@ -3637,7 +3660,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_gvk_parser.html#a971344bbcea6e57a8284e6af23a976a2">org.jabref.logic.importer.fileformat.GvkParser</a>
 </li>
 <li>getSuggestedFileName()
-: <a class="el" href="classorg_1_1jabref_1_1logic_1_1externalfiles_1_1_linked_file_handler.html#af5cf3d649794868ba48f42a386384308">org.jabref.logic.externalfiles.LinkedFileHandler</a>
+: <a class="el" href="classorg_1_1jabref_1_1logic_1_1externalfiles_1_1_linked_file_handler.html#a5376b7cb016e3e83f1c01dbdcafe7d27">org.jabref.logic.externalfiles.LinkedFileHandler</a>
 </li>
 <li>getSuggestionProvider()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_field_editors.html#a9c1749ad92ee70f406ff8be361575915">org.jabref.gui.fieldeditors.FieldEditors</a>
@@ -4050,6 +4073,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model.html#ad3b97e7ab526db0285128255d4f20ba2">org.jabref.gui.maintable.MainTableColumnModel</a>
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1util_1_1_dialog_window_state.html#a21149bee2374f52750878c11d99f0286">org.jabref.gui.util.DialogWindowState</a>
 </li>
+<li>getWordCloudPreset()
+: <a class="el" href="classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a09a35c152c3620d3835af2608183d180">org.jabref.gui.wordcloud.WordCloudPresetView</a>
+</li>
 <li>getWords()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1formatter_1_1casechanger_1_1_title.html#a659d45ac3b53d8c2b1c1b6e7c727ce59">org.jabref.logic.formatter.casechanger.Title</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_sentence_analyzer.html#a823708748d2085c46902e4df6f4f0565">org.jabref.model.search.rules.SentenceAnalyzer</a>
@@ -4287,8 +4313,8 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>groupViewModeUnion
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view.html#a2eb421e7cb4cd4a37d8db0ac01d52d1a">org.jabref.gui.preferences.GroupsTabView</a>
 </li>
-<li>groupViewModeUnionProperty()
-: <a class="el" href="classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a27df212278d7825fb18bcd544fe5435e">org.jabref.gui.preferences.GroupsTabViewModel</a>
+<li>groupViewModeUnionProperty
+: <a class="el" href="classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a97f7d8b9b73ef17c6c509303cf49527e">org.jabref.gui.preferences.GroupsTabViewModel</a>
 </li>
 <li>GuiAppender()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1logging_1_1_gui_appender.html#ac0752cfd20638929ef16fc3e22563c2d">org.jabref.gui.logging.GuiAppender</a>

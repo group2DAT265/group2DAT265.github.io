@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"_name_formatter_preferences_8java.html":[3,0,0,0,0,0,0,3,17,0,51],
 "_name_formatter_tab_view_8java.html":[3,0,0,0,0,0,0,2,38,18],
 "_name_formatter_tab_view_model_8java.html":[3,0,0,0,0,0,0,2,38,19],
 "_named_compound_8java.html":[3,0,0,0,0,0,0,2,47,2],
@@ -40,7 +41,7 @@ var NAVTREEINDEX3 =
 "_only_integer_formatter_8java.html":[3,0,0,0,0,0,0,2,48,21],
 "_open_access_doi_8java.html":[3,0,0,0,0,0,0,3,13,0,32],
 "_open_browser_action_8java.html":[3,0,0,0,0,0,0,2,16,9],
-"_open_console_action_8java.html":[3,0,0,0,0,0,0,2,70],
+"_open_console_action_8java.html":[3,0,0,0,0,0,0,2,71],
 "_open_database_8java.html":[3,0,0,0,0,0,0,3,13,19],
 "_open_database_action_8java.html":[3,0,0,0,0,0,0,2,27,0,4],
 "_open_document_representation_8java.html":[3,0,0,0,0,0,0,3,8,13],
@@ -223,7 +224,7 @@ var NAVTREEINDEX3 =
 "_search_rules_8java.html":[3,0,0,0,0,0,0,5,5,1,4],
 "_search_short_science_action_8java.html":[3,0,0,0,0,0,0,2,33,16],
 "_search_text_field_8java.html":[3,0,0,0,0,0,0,2,43,3],
-"_send_as_e_mail_action_8java.html":[3,0,0,0,0,0,0,2,71],
+"_send_as_e_mail_action_8java.html":[3,0,0,0,0,0,0,2,72],
 "_sentence_analyzer_8java.html":[3,0,0,0,0,0,0,5,5,1,5],
 "_sentence_case_formatter_8java.html":[3,0,0,0,0,0,0,3,10,1,3],
 "_setup_general_fields_action_8java.html":[3,0,0,0,0,0,0,2,11,2],
@@ -239,15 +240,14 @@ var NAVTREEINDEX3 =
 "_shorten_d_o_i_formatter_8java.html":[3,0,0,0,0,0,0,3,10,0,21],
 "_show_document_viewer_action_8java.html":[3,0,0,0,0,0,0,2,14,8],
 "_show_preferences_action_8java.html":[3,0,0,0,0,0,0,2,38,30],
-"_side_pane_8java.html":[3,0,0,0,0,0,0,2,72],
-"_side_pane_component_8java.html":[3,0,0,0,0,0,0,2,73],
-"_side_pane_manager_8java.html":[3,0,0,0,0,0,0,2,74],
-"_side_pane_type_8java.html":[3,0,0,0,0,0,0,2,75],
+"_side_pane_8java.html":[3,0,0,0,0,0,0,2,73],
+"_side_pane_component_8java.html":[3,0,0,0,0,0,0,2,74],
+"_side_pane_manager_8java.html":[3,0,0,0,0,0,0,2,75],
+"_side_pane_type_8java.html":[3,0,0,0,0,0,0,2,76],
 "_silver_platter_importer_8java.html":[3,0,0,0,0,0,0,3,13,1,23],
 "_simple_command_8java.html":[3,0,0,0,0,0,0,2,0,4],
 "_simple_editor_8java.html":[3,0,0,0,0,0,0,2,22,35],
 "_simple_editor_view_model_8java.html":[3,0,0,0,0,0,0,2,22,36],
 "_smart_constrained_resize_policy_8java.html":[3,0,0,0,0,0,0,2,33,17],
-"_source_tab_8java.html":[3,0,0,0,0,0,0,2,17,17],
-"_sources_8java.html":[3,0,0,0,0,0,0,2,0,5]
+"_source_tab_8java.html":[3,0,0,0,0,0,0,2,17,17]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"_group_dialog_view_8java.html":[3,0,0,0,0,0,0,2,24,1],
 "_group_dialog_view_model_8java.html":[3,0,0,0,0,0,0,2,24,2],
 "_group_diff_8java.html":[3,0,0,0,0,0,0,3,2,0,8],
 "_group_entry_changer_8java.html":[3,0,0,0,0,0,0,5,2,7],
@@ -91,17 +92,17 @@ var NAVTREEINDEX2 =
 "_jab_ref_action_8java.html":[3,0,0,0,0,0,0,2,0,3],
 "_jab_ref_c_l_i_8java.html":[3,0,0,0,0,0,0,1,4],
 "_jab_ref_desktop_8java.html":[3,0,0,0,0,0,0,2,12,1],
-"_jab_ref_dialog_service_8java.html":[3,0,0,0,0,0,0,2,64],
+"_jab_ref_dialog_service_8java.html":[3,0,0,0,0,0,0,2,65],
 "_jab_ref_exception_8java.html":[3,0,0,0,0,0,0,3,34],
-"_jab_ref_executor_service_8java.html":[3,0,0,0,0,0,0,2,65],
-"_jab_ref_frame_8java.html":[3,0,0,0,0,0,0,2,66],
-"_jab_ref_g_u_i_8java.html":[3,0,0,0,0,0,0,2,67],
+"_jab_ref_executor_service_8java.html":[3,0,0,0,0,0,0,2,66],
+"_jab_ref_frame_8java.html":[3,0,0,0,0,0,0,2,67],
+"_jab_ref_g_u_i_8java.html":[3,0,0,0,0,0,0,2,68],
 "_jab_ref_icon_8java.html":[3,0,0,0,0,0,0,2,26,2],
 "_jab_ref_icon_view_8java.html":[3,0,0,0,0,0,0,2,26,3],
-"_jab_ref_launcher_8java.html":[3,0,0,0,0,0,0,2,68],
+"_jab_ref_launcher_8java.html":[3,0,0,0,0,0,0,2,69],
 "_jab_ref_locale_provider_8java.html":[3,0,0,0,0,0,0,3,5,6],
 "_jab_ref_logger_8java.html":[3,0,0,0,0,0,0,3,18,0],
-"_jab_ref_main_8java.html":[3,0,0,0,0,0,0,2,69],
+"_jab_ref_main_8java.html":[3,0,0,0,0,0,0,2,70],
 "_jab_ref_material_design_icon_8java.html":[3,0,0,0,0,0,0,2,26,4],
 "_jab_ref_message_handler_8java.html":[3,0,0,0,0,0,0,2,42,0],
 "_jab_ref_preferences_8java.html":[3,0,0,0,0,0,0,6,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "_multi_key_map_8java.html":[3,0,0,0,0,0,0,5,8,5],
 "_my_s_q_l_processor_8java.html":[3,0,0,0,0,0,0,3,28,16],
 "_name_formatter_8java.html":[3,0,0,0,0,0,0,3,17,0,50],
-"_name_formatter_item_model_8java.html":[3,0,0,0,0,0,0,2,38,17],
-"_name_formatter_preferences_8java.html":[3,0,0,0,0,0,0,3,17,0,51]
+"_name_formatter_item_model_8java.html":[3,0,0,0,0,0,0,2,38,17]
 };

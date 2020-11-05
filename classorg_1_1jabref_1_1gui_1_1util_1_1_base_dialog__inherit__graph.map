@@ -1,5 +1,5 @@
 <map id="org.jabref.gui.util.BaseDialog&lt; T &gt;" name="org.jabref.gui.util.BaseDialog&lt; T &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="217,1555,365,1596"/>
+<area shape="rect" id="node1" title=" " alt="" coords="217,1588,365,1629"/>
 <area shape="rect" id="node4" href="$classorg_1_1jabref_1_1gui_1_1auximport_1_1_from_aux_dialog.html" title=" " alt="" coords="473,5,637,47"/>
 <area shape="rect" id="node5" href="$classorg_1_1jabref_1_1gui_1_1bibtexextractor_1_1_extract_bibtex_dialog.html" title=" " alt="" coords="459,71,650,112"/>
 <area shape="rect" id="node6" href="$classorg_1_1jabref_1_1gui_1_1citationkeypattern_1_1_citation_key_pattern_dialog.html" title=" " alt="" coords="445,136,665,177"/>
@@ -45,6 +45,7 @@
 <area shape="rect" id="node46" href="$classorg_1_1jabref_1_1gui_1_1shared_1_1_shared_database_login_dialog_view.html" title=" " alt="" coords="444,3018,665,3074"/>
 <area shape="rect" id="node47" href="$classorg_1_1jabref_1_1gui_1_1texparser_1_1_parse_latex_dialog_view.html" title=" " alt="" coords="451,3097,658,3139"/>
 <area shape="rect" id="node48" href="$classorg_1_1jabref_1_1gui_1_1texparser_1_1_parse_latex_result_view.html" title=" " alt="" coords="451,3163,659,3204"/>
-<area shape="rect" id="node2" title=" " alt="" coords="16,1525,159,1567"/>
-<area shape="rect" id="node3" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog.html" title=" " alt="" coords="5,1591,169,1618"/>
+<area shape="rect" id="node49" href="$classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_generated_view.html" title=" " alt="" coords="465,3227,645,3283"/>
+<area shape="rect" id="node2" title=" " alt="" coords="16,1559,159,1600"/>
+<area shape="rect" id="node3" href="$interfaceorg_1_1jabref_1_1gui_1_1_dialog.html" title=" " alt="" coords="5,1625,169,1651"/>
 </map>

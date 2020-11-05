@@ -9,6 +9,7 @@ var dir_b46d58be399d38ded6ea4bebc2ac8862 =
     [ "strings", "dir_e5a14c3a8d56cc6783cd84f176514a9c.html", "dir_e5a14c3a8d56cc6783cd84f176514a9c" ],
     [ "texparser", "dir_8e879fde9ea602567f9ceb004c6a9b8f.html", "dir_8e879fde9ea602567f9ceb004c6a9b8f" ],
     [ "util", "dir_090dd6a1b461b52c69ba206685931817.html", "dir_090dd6a1b461b52c69ba206685931817" ],
+    [ "wordcloud", "dir_6647f0c815dfc9956189acfac65c83f0.html", "dir_6647f0c815dfc9956189acfac65c83f0" ],
     [ "ChainNode.java", "_chain_node_8java.html", [
       [ "ChainNode", "classorg_1_1jabref_1_1model_1_1_chain_node.html", "classorg_1_1jabref_1_1model_1_1_chain_node" ]
     ] ],

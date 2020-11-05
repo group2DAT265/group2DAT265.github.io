@@ -49,6 +49,7 @@ var namespaceorg_1_1jabref_1_1gui =
     [ "texparser", "namespaceorg_1_1jabref_1_1gui_1_1texparser.html", "namespaceorg_1_1jabref_1_1gui_1_1texparser" ],
     [ "undo", "namespaceorg_1_1jabref_1_1gui_1_1undo.html", "namespaceorg_1_1jabref_1_1gui_1_1undo" ],
     [ "util", "namespaceorg_1_1jabref_1_1gui_1_1util.html", "namespaceorg_1_1jabref_1_1gui_1_1util" ],
+    [ "wordcloud", "namespaceorg_1_1jabref_1_1gui_1_1wordcloud.html", "namespaceorg_1_1jabref_1_1gui_1_1wordcloud" ],
     [ "AbstractViewModel", "classorg_1_1jabref_1_1gui_1_1_abstract_view_model.html", null ],
     [ "BasePanel", "classorg_1_1jabref_1_1gui_1_1_base_panel.html", "classorg_1_1jabref_1_1gui_1_1_base_panel" ],
     [ "BasePanelMode", "enumorg_1_1jabref_1_1gui_1_1_base_panel_mode.html", "enumorg_1_1jabref_1_1gui_1_1_base_panel_mode" ],

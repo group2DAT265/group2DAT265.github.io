@@ -23,6 +23,7 @@ var enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type =
     [ "MEDLINE_PLAIN", "enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a76a70e800d719ad76857828802615720", null ],
     [ "ODS", "enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a1e96992eef160765fa6dc1fece95ab6a", null ],
     [ "PDF", "enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a57b7dfbd3c5e728adfefd28a6b7b6a53", null ],
+    [ "PNG", "enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a982a3cef4442b8c5ad6015e82209d4e5", null ],
     [ "PUBMED", "enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a7b41d4bcc970f81052814ca8fdbe00bf", null ],
     [ "RDF", "enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a582195efd04bf8c979d7054957f29288", null ],
     [ "RIS", "enumorg_1_1jabref_1_1logic_1_1util_1_1_standard_file_type.html#a8a01f0a383a8b67da8cc2566049b84bc", null ],

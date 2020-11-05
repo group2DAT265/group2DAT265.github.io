@@ -43,6 +43,7 @@ var enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding =
     [ "FILE_LIST_EDITOR_MOVE_ENTRY_UP", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#aa76cea4650b46a81729c5b8d6e181968", null ],
     [ "FIND_UNLINKED_FILES", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a0d72a326be6bf3acdc239474c726bc74", null ],
     [ "FOCUS_ENTRY_TABLE", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a47e9db26c72f72907ee7597346485696", null ],
+    [ "GENERATE_WORDCLOUD", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#acc4c73bc33b9214f60cd1844a0827b2b", null ],
     [ "HELP", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#ab05969810eef738775cb28990816f276", null ],
     [ "IMPORT_INTO_CURRENT_DATABASE", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a90a4ce7359a2067502292eeeee48a676", null ],
     [ "IMPORT_INTO_NEW_DATABASE", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#ab0e2d29692a58f5e43f11315d4ca23e9", null ],
