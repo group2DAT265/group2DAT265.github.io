@@ -36,6 +36,8 @@ public class WebOfScienceAction extends SimpleCommand {
 
         dialogService.notify(Localization.lang("Generating a citation graph using %0 selected entries...", Integer.toString(stateManager.getSelectedEntries().size())));
 
-        // TODO: Implementation of web of science dialog view
+        WebOfScienceView view = new WebOfScienceView(jabRefFrame.getCurrentBasePanel(), dialogService);
+        view.showAndWait();
+
     }
 }
