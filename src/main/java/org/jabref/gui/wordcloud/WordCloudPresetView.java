@@ -15,8 +15,8 @@ import org.jabref.model.wordcloud.WordCloudPreset;
 
 import javax.inject.Inject;
 
+//Dialog to collect thee user's preferences about the word cloud generation
 public class WordCloudPresetView extends BaseDialog<WordCloudPreset> {
-    // TODO: Add available items to comboBoxes
     @Inject StateManager stateManager;
 
     @FXML private ButtonType generateButton;
@@ -45,9 +45,6 @@ public class WordCloudPresetView extends BaseDialog<WordCloudPreset> {
                 return null;
             }
         });
-
-        // TODO: Should trigger action that generates word cloud
-        // ControlHelper.setAction(generateButton, this.getDialogPane(), event -> getWordCloudPreset());
     }
 
     @FXML
@@ -74,6 +71,7 @@ public class WordCloudPresetView extends BaseDialog<WordCloudPreset> {
         //wordcloudImageView.setImage(image);
     }
 
+    // Generates the preferences from the user's selection in the dialog
     public WordCloudPreset getWordCloudPreset() {
         String font = fontSelection.getValue();
         String shape = shapeSelection.getValue();

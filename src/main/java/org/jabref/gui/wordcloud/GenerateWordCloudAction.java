@@ -72,7 +72,7 @@ public class GenerateWordCloudAction extends SimpleCommand {
             return;
         }
 
-        // TODO: Implement generation and export of wordcloud using wordcloudPreferences and selected entries in stateManager
+        // Opens dialog to collects user's preferences for generation of a word cloud
         Optional<WordCloudPreset> chosenPreset = new WordCloudPresetView(jabRefFrame.getCurrentBasePanel(), dialogService).showAndWait();
 
         chosenPreset.ifPresent(wordCloudPreset -> {
@@ -87,17 +87,16 @@ public class GenerateWordCloudAction extends SimpleCommand {
     }
 
     public void generateWordCloud(WordCloudPreset wordCloudPreset) throws IOException {
-
+        // Reads file with stopword, words to be removed, to be able to remove all those words from the abstracts before word cloud generation
         List<String> stopWords = Files.readAllLines(Paths.get("./src/main/resources/wordcloud/stopwords.txt"));
+
+        // Collect the abstracts of the selected entries, reads all the abstracts, removes stopwords and puts them in a temp file to be used for wordcloud generation
         ObservableList<BibEntry> listOfSelectedEntries = stateManager.getSelectedEntries();
         BibDatabase activeDatabase = stateManager.getActiveDatabase().get().getDatabase();
         File tmpFile = null;
         try {
             tmpFile = File.createTempFile("test", ".txt");
             FileWriter writer = new FileWriter(tmpFile);
-
-
-
             listOfSelectedEntries.forEach((entry) -> {
                 if(entry.hasField(StandardField.ABSTRACT)){
                     String abstractWords = entry.getField(StandardField.ABSTRACT).get();
@@ -126,10 +125,11 @@ public class GenerateWordCloudAction extends SimpleCommand {
         }
 
         if(tmpFile != null){
-            // This is currently just an example. We need to use the preferences from the dialog and the selected entries instead
+            // Generation of word cloud
             final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
             final Dimension dimension = new Dimension(600, 600);
 
+            // Rectangle or circle as the background
             final WordCloud wordCloud;
             if(wordCloudPreset.getShape() == "Rectangle"){
                 wordCloud = new WordCloud(dimension, CollisionMode.RECTANGLE);
@@ -148,7 +148,10 @@ public class GenerateWordCloudAction extends SimpleCommand {
             wordCloud.setKumoFont(wordCloudPreset.getFont());
             wordCloud.setFontScalar(new LinearFontScalar(10, 40));
             wordCloud.build(wordFrequencies);
+            // Temp save of word-cloud
             wordCloud.writeToFile("./src/main/resources/wordcloud/generated_wordcloud.png");
+
+            //Opens a dialog with a preview of the word-cloud and the option to download or cancel
             Optional<WordCloudPreset> downloadOrNot = new WordCloudGeneratedView(jabRefFrame.getCurrentBasePanel(), dialogService).showAndWait();
             downloadOrNot.ifPresent(preset -> {
                 FileDialogConfiguration fileDialogConfiguration = new FileDialogConfiguration.Builder()
@@ -156,17 +159,15 @@ public class GenerateWordCloudAction extends SimpleCommand {
                         .withDefaultExtension(StandardFileType.PNG)
                         .withInitialDirectory(preferences.get(JabRefPreferences.WORKING_DIRECTORY))
                         .build();
+
+                // Collect the path that the user wants the image saved to
                 Optional<Path> selectedPath = dialogService.showFileSaveDialog(fileDialogConfiguration);
                 selectedPath.ifPresent(path -> {
                     wordCloud.writeToFile(path.toString());
                 });
 
-                System.out.println(selectedPath);
+                dialogService.notify(Localization.lang("Word cloud saved!"));
             });
-
-            //dialogService.notify(Localization.lang("Word cloud generated!"));
-
-
         }else{
             System.out.println("The tmp file for abstracts is null.");
         }

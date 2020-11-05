@@ -15,9 +15,8 @@ import org.jabref.model.wordcloud.WordCloudPreset;
 import javax.inject.Inject;
 import java.io.File;
 
-
+// Dialog  display the user the generated word cloud and give the  option tp download it or not
 public class WordCloudGeneratedView extends BaseDialog<WordCloudPreset> {
-    // TODO: Add available items to comboBoxes
     @Inject StateManager stateManager;
 
     @FXML private ButtonType downloadButton;
@@ -37,14 +36,13 @@ public class WordCloudGeneratedView extends BaseDialog<WordCloudPreset> {
 
         setResultConverter(button -> {
             if (button == this.downloadButton) {
+                // Used to determine if the user wants to download or not
                 return new WordCloudPreset();
             } else {
                 return null;
             }
         });
 
-        // TODO: Should trigger action that generates word cloud
-        // ControlHelper.setAction(downloadButton, this.getDialogPane(), event -> saveWordCloud());
     }
 
     @FXML

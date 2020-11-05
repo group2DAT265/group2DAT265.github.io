@@ -6,13 +6,16 @@ import com.kennycason.kumo.font.KumoFont;
 
 import java.awt.*;
 
+// This class holds the preferences from the user to be used when generating a word cloud
+
 public class WordCloudPreset {
 
-    private KumoFont font;
-    private String shape;
-    private ColorPalette colors;
-    private Color background;
+    private KumoFont font; // The font of the word cloud
+    private String shape; // The shape; Rectangle or Circle
+    private ColorPalette colors; // The colors used in the word cloud for the text
+    private Color background; // The background color, currently only white or black
 
+    // Dummy constructor used when downloading or not
     public WordCloudPreset(){
     }
 
