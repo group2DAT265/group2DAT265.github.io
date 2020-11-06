@@ -1,5 +1,9 @@
 var NAVTREEINDEX48 =
 {
+"classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a5d670ee5555bc3bec721acfe0cd3e990":[2,0,0,0,5,1,18,14],
+"classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a5fbf525090296076f9a7eccba36ef978":[2,0,0,0,5,1,18,12],
+"classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a755366c3c6ab8271efa12549d125cd63":[2,0,0,0,5,1,18,2],
+"classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a76614c950630fa2ce97dd63581688b2d":[2,0,0,0,5,1,18,19],
 "classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a79a4c375e7a49073ae5a81fcd52d6a02":[2,0,0,0,5,1,18,13],
 "classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a8eaa23e764fe0a3357aac550ebce8f4d":[2,0,0,0,5,1,18,8],
 "classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a96ef478aa757661e9d76cfaca011dbbe":[2,0,0,0,5,1,18,18],
@@ -245,9 +249,5 @@ var NAVTREEINDEX48 =
 "classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#af0a7ad54a7cfb3b88d48237180938a52":[2,0,0,0,5,1,3,0,3],
 "classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html":[2,0,0,0,5,1,3,1],
 "classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#a1275ee7fb4f3b5ef5f3892fdb33d2355":[2,0,0,0,5,1,3,1,0],
-"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#a829bbfc193a9c4ccccb0716bd307496a":[2,0,0,0,5,1,3,1,4],
-"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#ab00cf200dd2782a4d7d5face5b85c165":[2,0,0,0,5,1,3,1,1],
-"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#acc3c9bf534eefc15b65f089ba7465daa":[2,0,0,0,5,1,3,1,2],
-"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#ad9fe4cbb548282b0acd4d4358cfdd905":[2,0,0,0,5,1,3,1,3],
-"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_bibtex_entry_type_definitions.html":[2,0,0,0,5,1,3,2]
+"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#a829bbfc193a9c4ccccb0716bd307496a":[2,0,0,0,5,1,3,1,4]
 };

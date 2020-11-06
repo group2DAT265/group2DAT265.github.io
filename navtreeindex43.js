@@ -1,5 +1,9 @@
 var NAVTREEINDEX43 =
 {
+"classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_util.html":[2,0,0,0,3,26,4],
+"classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_util.html#a7124d0963d61751376b7854c37d2c458":[2,0,0,0,3,26,4,0],
+"classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_util.html#adac3110765b5d97c3ebede9326f270e9":[2,0,0,0,3,26,4,1],
+"classorg_1_1jabref_1_1logic_1_1remote_1_1client_1_1_remote_client.html":[2,0,0,0,3,26,0,0],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1client_1_1_remote_client.html#a25587257898ce674e25313930a10e71b":[2,0,0,0,3,26,0,0,3],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1client_1_1_remote_client.html#a5103b523dd11c47259ca5711f7bef457":[2,0,0,0,3,26,0,0,4],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1client_1_1_remote_client.html#a603a93d52b2d78382e8bdf698f05184d":[2,0,0,0,3,26,0,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX43 =
 "classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_connection_lost_event.html#a94ddfc549909eab12025b37395ae9b98":[2,0,0,0,3,28,0,0,0],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_connection_lost_event.html#ac921bb1a93c13b7204a35236f13db8c4":[2,0,0,0,3,28,0,0,1],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_shared_entries_not_present_event.html":[2,0,0,0,3,28,0,1],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_shared_entries_not_present_event.html#a0d48bce7abfa5e458fbca305eb0c59ec":[2,0,0,0,3,28,0,1,1],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_shared_entries_not_present_event.html#a2f49154308f60bb3325e4fe59ba953c2":[2,0,0,0,3,28,0,1,0],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_shared_entries_not_present_event.html#a94aff18adf7f742556daa552225dc865":[2,0,0,0,3,28,0,1,2],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_update_refused_event.html":[2,0,0,0,3,28,0,2],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_update_refused_event.html#a1cb347a26fe11e4cc9ede628c5f475ed":[2,0,0,0,3,28,0,2,2]
+"classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_shared_entries_not_present_event.html#a0d48bce7abfa5e458fbca305eb0c59ec":[2,0,0,0,3,28,0,1,1]
 };

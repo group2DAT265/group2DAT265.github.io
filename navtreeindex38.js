@@ -1,5 +1,9 @@
 var NAVTREEINDEX38 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ab012c5e27acd5d323865610d4784a1f6":[2,0,0,0,3,13,1,14,12],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ab2a7243a52b6883a320d5da05ff2fb23":[2,0,0,0,3,13,1,14,21],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ac089bd7971b8cf499b0fd9e8c34ce042":[2,0,0,0,3,13,1,14,0],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ac1cfb6a885fd37ed881d24707c1d6c9d":[2,0,0,0,3,13,1,14,15],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ac3f9127014eb69b84572a59f061cf891":[2,0,0,0,3,13,1,14,9],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ac41d1c69ba3748a29c63d7bf1e4678d2":[2,0,0,0,3,13,1,14,23],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ac42f6f5909d3ed8daa99412f02e85165":[2,0,0,0,3,13,1,14,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX38 =
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_entry_link_checker.html":[2,0,0,0,3,14,16],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_entry_link_checker.html#a2ea70fe3e07f6ec17e63dc13e6894b8c":[2,0,0,0,3,14,16,1],
 "classorg_1_1jabref_1_1logic_1_1integrity_1_1_entry_link_checker.html#a3427748d6d4c389bff9abdc47ca4deb9":[2,0,0,0,3,14,16,0],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_entry_link_checker.html#abbdaa52d9fb5ec0bc82932bb38394bdb":[2,0,0,0,3,14,16,2],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_field_checker.html":[2,0,0,0,3,14,17],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_field_checker.html#a5219ef173ce000638afd986073e7d6c8":[2,0,0,0,3,14,17,3],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_field_checker.html#a60b5311eb1653a085fb2a58d4a0eb999":[2,0,0,0,3,14,17,0],
-"classorg_1_1jabref_1_1logic_1_1integrity_1_1_field_checker.html#aa47bd8a41fb4349fe2d5442e842d5274":[2,0,0,0,3,14,17,1]
+"classorg_1_1jabref_1_1logic_1_1integrity_1_1_entry_link_checker.html#abbdaa52d9fb5ec0bc82932bb38394bdb":[2,0,0,0,3,14,16,2]
 };

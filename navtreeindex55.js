@@ -1,5 +1,9 @@
 var NAVTREEINDEX55 =
 {
+"enumorg_1_1jabref_1_1gui_1_1customentrytypes_1_1_custom_entry_type_dialog_view_model_1_1_field_type.html#af54f4e6bb118ff89e8f288f8a0f54698":[2,0,0,0,2,10,0,0,5],
+"enumorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_resolver_dialog_1_1_duplicate_resolver_result.html":[2,0,0,0,2,15,0,0],
+"enumorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_resolver_dialog_1_1_duplicate_resolver_result.html#a35215591aba8782c206651211a399ffe":[2,0,0,0,2,15,0,0,2],
+"enumorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_resolver_dialog_1_1_duplicate_resolver_result.html#a4fca264cd4343710ed4f01ab959104da":[2,0,0,0,2,15,0,0,4],
 "enumorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_resolver_dialog_1_1_duplicate_resolver_result.html#a61b0b239b855b363466036332e7bf2bc":[2,0,0,0,2,15,0,0,3],
 "enumorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_resolver_dialog_1_1_duplicate_resolver_result.html#a6ad397febc65b3111405c2d5875bfb74":[2,0,0,0,2,15,0,0,1],
 "enumorg_1_1jabref_1_1gui_1_1duplication_finder_1_1_duplicate_resolver_dialog_1_1_duplicate_resolver_result.html#a7d9366dbd431e2888294add0da32895b":[2,0,0,0,2,15,0,0,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX55 =
 "enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html#a4c78926fc5617b6b99994877f10ba6d3":[2,0,0,0,2,26,4,2],
 "enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html#a4d3949d9e5937481b6a5ab7461e1dd75":[2,0,0,0,2,26,4,10],
 "enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html#a680d6fef5cbbae181fa3aba1ce0bf0dd":[2,0,0,0,2,26,4,14],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html#a8541d4988000335fec238b528f6dfbce":[2,0,0,0,2,26,4,5],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html#a897b121ff14615d57e6525c14575f3ba":[2,0,0,0,2,26,4,13],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html#aa61fe1485577444eee41e4a34eea3074":[2,0,0,0,2,26,4,17],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html#abb27a06647f3d5ba53ec59b5b4575d7f":[2,0,0,0,2,26,4,0],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html#ac329d98f845fbb1fd8c9360ef0ba4917":[2,0,0,0,2,26,4,9]
+"enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html#a8541d4988000335fec238b528f6dfbce":[2,0,0,0,2,26,4,5]
 };

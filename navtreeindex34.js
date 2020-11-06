@@ -1,5 +1,9 @@
 var NAVTREEINDEX34 =
 {
+"classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_replace_tabs_by_space_formater.html#ae0448a13cd47b0af045b5c80fa29c73f":[2,0,0,0,3,10,0,20,5],
+"classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_shorten_d_o_i_formatter.html":[2,0,0,0,3,10,0,21],
+"classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_shorten_d_o_i_formatter.html#a1634bb5d011839f688032017d03c0491":[2,0,0,0,3,10,0,21,2],
+"classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_shorten_d_o_i_formatter.html#a1c68e2c5d370bef4182043458d018f1f":[2,0,0,0,3,10,0,21,4],
 "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_shorten_d_o_i_formatter.html#a3ff21d38e645ea89976e95d6681b1558":[2,0,0,0,3,10,0,21,1],
 "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_shorten_d_o_i_formatter.html#a40d9381b620138f81032f4cfc4469361":[2,0,0,0,3,10,0,21,5],
 "classorg_1_1jabref_1_1logic_1_1formatter_1_1bibtexfields_1_1_shorten_d_o_i_formatter.html#a4131c784b2cc4014eaf63131ccd86452":[2,0,0,0,3,10,0,21,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX34 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#a929dbde61b365c7caaaeb980e875cd5d":[2,0,0,0,3,13,23,16],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#a9b80be14abc4ffc858de6cc479651666":[2,0,0,0,3,13,23,17],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#aad449935885a0682c7bff1bedc78f698":[2,0,0,0,3,13,23,14],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#ab87a93e97fa872d17214dd9596b26b51":[2,0,0,0,3,13,23,35],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#abba051079d5125509fdbdc3b8d403386":[2,0,0,0,3,13,23,24],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#ac142fb6f246c88c237dd10ea215deaf4":[2,0,0,0,3,13,23,20],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#ac39eeaaf6ac9d13d8c29e957457bb29b":[2,0,0,0,3,13,23,5],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#acc20df6237cfc115cc2c288f33a4f510":[2,0,0,0,3,13,23,25]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#ab87a93e97fa872d17214dd9596b26b51":[2,0,0,0,3,13,23,35]
 };

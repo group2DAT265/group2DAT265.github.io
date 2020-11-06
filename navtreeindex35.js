@@ -1,5 +1,9 @@
 var NAVTREEINDEX35 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#abba051079d5125509fdbdc3b8d403386":[2,0,0,0,3,13,23,24],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#ac142fb6f246c88c237dd10ea215deaf4":[2,0,0,0,3,13,23,20],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#ac39eeaaf6ac9d13d8c29e957457bb29b":[2,0,0,0,3,13,23,5],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#acc20df6237cfc115cc2c288f33a4f510":[2,0,0,0,3,13,23,25],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#acf00710facf2d9d820bfb7852dae0fc7":[2,0,0,0,3,13,23,18],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#ad4956176f420ce4292d5cac6f4fc1a27":[2,0,0,0,3,13,23,8],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1_parser_result.html#ae39c951cef4294db2a0423dd7a865f1d":[2,0,0,0,3,13,23,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX35 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution.html#a6e9e98087d8ad22c04362cf439296cd2":[2,0,0,0,3,13,0,17,0],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_doi_resolution.html#a930c69fb91c9eaadd0913ae5ac50d988":[2,0,0,0,3,13,0,17,1],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html":[2,0,0,0,3,13,0,18],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#a4410fdd44a18b084757ef1dee6db5f98":[2,0,0,0,3,13,0,18,6],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#a6a0fce65ca689b55ebb2e7583bbbc9b2":[2,0,0,0,3,13,0,18,12],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#a7579ebe43d586cc3e74c06c15c6a4588":[2,0,0,0,3,13,0,18,11],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#a96725ccc71be73839d23d80fc08c246e":[2,0,0,0,3,13,0,18,10],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#aa3ce15f15813cbc0aeef9e9903061b89":[2,0,0,0,3,13,0,18,9]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#a4410fdd44a18b084757ef1dee6db5f98":[2,0,0,0,3,13,0,18,6]
 };

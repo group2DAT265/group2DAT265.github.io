@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a2555302955fcf349363bbe3d4c1587ac":[2,0,0,0,2,17,2,16],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a27e1ea8f585bb9c64badaab3c0eca597":[2,0,0,0,2,17,2,18],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a28ea95811bbabea7ccd359114b228c9b":[2,0,0,0,2,17,2,7],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1_entry_editor.html#a2a73763244a2fb8be6dd64fa5e8070f8":[2,0,0,0,2,17,2,34],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#a7c0ced5bb35df60bea60e80e31c21eb2":[2,0,0,0,2,17,0,3,4],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#a7f900b162c38180c0080288b7b9702b1":[2,0,0,0,2,17,0,3,12],
 "classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#a98d1737cbe836669fb117027ac51d964":[2,0,0,0,2,17,0,3,0],
-"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#a9ccda0dfb24453aff0910782b1c95d25":[2,0,0,0,2,17,0,3,3],
-"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#acec5a14f6dc1e5d2a747ff3483635100":[2,0,0,0,2,17,0,3,6]
+"classorg_1_1jabref_1_1gui_1_1entryeditor_1_1fileannotationtab_1_1_file_annotation_view_model.html#a9ccda0dfb24453aff0910782b1c95d25":[2,0,0,0,2,17,0,3,3]
 };

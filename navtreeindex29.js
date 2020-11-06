@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"classorg_1_1jabref_1_1gui_1_1util_1_1comparator_1_1_priority_field_comparator.html#a214da3b86be34e7f22272b45812ab943":[2,0,0,0,2,48,0,1,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1comparator_1_1_ranking_field_comparator.html":[2,0,0,0,2,48,0,2],
 "classorg_1_1jabref_1_1gui_1_1util_1_1comparator_1_1_ranking_field_comparator.html#ac1bfd12d3d94e2f6d8de49bc98c2d4ae":[2,0,0,0,2,48,0,2,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1comparator_1_1_read_status_field_comparator.html":[2,0,0,0,2,48,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_content_formatter_preferences.html#aeafc745d7c2a30e290cc4705dd777b1e":[2,0,0,0,3,2,3,1],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer.html":[2,0,0,0,3,2,4],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer.html#a01d01d0529cad628cb0cafa35e2b18a5":[2,0,0,0,3,2,4,15],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer.html#a1ad7bc7777788fc0f39052981dd7fd82":[2,0,0,0,3,2,4,1],
-"classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer.html#a1bd77fa60dfd7e646ea8f5743934ea4e":[2,0,0,0,3,2,4,9]
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer.html#a1ad7bc7777788fc0f39052981dd7fd82":[2,0,0,0,3,2,4,1]
 };

@@ -52,6 +52,7 @@ var NAVTREEINDEX3 =
 "_open_hyperlinks_in_external_browser_8java.html":[3,0,0,0,0,0,0,2,48,22],
 "_open_office_creator_8java.html":[3,0,0,0,0,0,0,3,8,15],
 "_open_office_document_creator_8java.html":[3,0,0,0,0,0,0,3,8,16],
+"_open_office_exp_util_8java.html":[3,0,0,0,0,0,0,3,8,17],
 "_open_office_file_search_8java.html":[3,0,0,0,0,0,0,3,21,4],
 "_open_office_panel_8java.html":[3,0,0,0,0,0,0,2,37,14],
 "_open_office_preferences_8java.html":[3,0,0,0,0,0,0,3,21,5],
@@ -204,11 +205,11 @@ var NAVTREEINDEX3 =
 "_save_action_8java.html":[3,0,0,0,0,0,0,2,19,8],
 "_save_all_action_8java.html":[3,0,0,0,0,0,0,2,19,9],
 "_save_database_action_8java.html":[3,0,0,0,0,0,0,2,19,10],
-"_save_exception_8java.html":[3,0,0,0,0,0,0,3,8,17],
+"_save_exception_8java.html":[3,0,0,0,0,0,0,3,8,18],
 "_save_order_config_8java.html":[3,0,0,0,0,0,0,5,3,4],
 "_save_order_config_panel_8java.html":[3,0,0,0,0,0,0,2,7,5],
 "_save_order_config_panel_view_model_8java.html":[3,0,0,0,0,0,0,2,7,6],
-"_save_preferences_8java.html":[3,0,0,0,0,0,0,3,8,18],
+"_save_preferences_8java.html":[3,0,0,0,0,0,0,3,8,19],
 "_science_direct_8java.html":[3,0,0,0,0,0,0,3,13,0,34],
 "_search_based_fetcher_8java.html":[3,0,0,0,0,0,0,3,13,25],
 "_search_based_parser_fetcher_8java.html":[3,0,0,0,0,0,0,3,13,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "_simple_command_8java.html":[3,0,0,0,0,0,0,2,0,4],
 "_simple_editor_8java.html":[3,0,0,0,0,0,0,2,22,35],
 "_simple_editor_view_model_8java.html":[3,0,0,0,0,0,0,2,22,36],
-"_smart_constrained_resize_policy_8java.html":[3,0,0,0,0,0,0,2,33,17],
-"_source_tab_8java.html":[3,0,0,0,0,0,0,2,17,17]
+"_smart_constrained_resize_policy_8java.html":[3,0,0,0,0,0,0,2,33,17]
 };

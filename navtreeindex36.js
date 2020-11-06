@@ -1,5 +1,9 @@
 var NAVTREEINDEX36 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#a6a0fce65ca689b55ebb2e7583bbbc9b2":[2,0,0,0,3,13,0,18,12],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#a7579ebe43d586cc3e74c06c15c6a4588":[2,0,0,0,3,13,0,18,11],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#a96725ccc71be73839d23d80fc08c246e":[2,0,0,0,3,13,0,18,10],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#aa3ce15f15813cbc0aeef9e9903061b89":[2,0,0,0,3,13,0,18,9],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#aa6ffb3c9ad5545ad6f84ba6f1938e29c":[2,0,0,0,3,13,0,18,8],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#aad69faee37335630afb11ab94d3fb830":[2,0,0,0,3,13,0,18,5],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_google_scholar.html#ab627fae2f608f46c8c2ee4f487cdd9cc":[2,0,0,0,3,13,0,18,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX36 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#a51cc857edc9933ea24592c6b42ba560c":[2,0,0,0,3,13,1,1,4],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#a7d295ed6eccc0a07f6055588748850bd":[2,0,0,0,3,13,1,1,1],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#a96dc85ac3a37d88b347b74e3902fec92":[2,0,0,0,3,13,1,1,5],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#aa29463650ec2232a1eb6ce8a7afe2fc0":[2,0,0,0,3,13,1,1,8],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#aada56943222920da9c6a88ea4ca95df9":[2,0,0,0,3,13,1,1,0],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#aaeb1e5c628d00abe06e031e8974c0b1e":[2,0,0,0,3,13,1,1,2],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#aaf9d719a442149e9b8dd16f1366c29c6":[2,0,0,0,3,13,1,1,9],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#ad0d796e20be187702c55d3fed5db7d32":[2,0,0,0,3,13,1,1,3]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#aa29463650ec2232a1eb6ce8a7afe2fc0":[2,0,0,0,3,13,1,1,8]
 };

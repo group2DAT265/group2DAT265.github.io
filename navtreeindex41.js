@@ -1,5 +1,9 @@
 var NAVTREEINDEX41 =
 {
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_ris_month.html#a220dd6be7d221b459cf93f5410ffde99":[2,0,0,0,3,17,0,65,0],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_to_lower_case.html":[2,0,0,0,3,17,0,67],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_to_lower_case.html#ae4c257b5a4a68d409b3df1fdb46901a7":[2,0,0,0,3,17,0,67,0],
+"classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_to_upper_case.html":[2,0,0,0,3,17,0,68],
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_to_upper_case.html#a8048d1a185419626fb865e53a45b1fc4":[2,0,0,0,3,17,0,68,0],
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_wrap_content.html":[2,0,0,0,3,17,0,69],
 "classorg_1_1jabref_1_1logic_1_1layout_1_1format_1_1_wrap_content.html#a1dd3b6243e73dfc357a04afd1691c07f":[2,0,0,0,3,17,0,69,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX41 =
 "classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#a9dd2d66281262994985fd570308cd9d7":[2,0,0,0,3,21,1,66],
 "classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#aa13406497b9b7a55daf0510ff91495c1":[2,0,0,0,3,21,1,4],
 "classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#aa261557dc7df3a5926dcafe6bb59ace1":[2,0,0,0,3,21,1,6],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#aa365d7be167bbf01ff67d8d59bf8d85e":[2,0,0,0,3,21,1,13],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#aa463def8fc85f2ceb5cc39dd40931c18":[2,0,0,0,3,21,1,54],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#aa5b74e005b7c06b6ccb055cecbf09e46":[2,0,0,0,3,21,1,35],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#aa8aff7036c59a9462d2e98e81f5111c1":[2,0,0,0,3,21,1,30],
-"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#aac3a04b00885f6948b20b5fab5429f1e":[2,0,0,0,3,21,1,18]
+"classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#aa365d7be167bbf01ff67d8d59bf8d85e":[2,0,0,0,3,21,1,13]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX49 =
 {
+"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#ab00cf200dd2782a4d7d5face5b85c165":[2,0,0,0,5,1,3,1,1],
+"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#acc3c9bf534eefc15b65f089ba7465daa":[2,0,0,0,5,1,3,1,2],
+"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#ad9fe4cbb548282b0acd4d4358cfdd905":[2,0,0,0,5,1,3,1,3],
+"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_bibtex_entry_type_definitions.html":[2,0,0,0,5,1,3,2],
 "classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_bibtex_entry_type_definitions.html#a0e4bf5607c41e10b868497a5062f7d13":[2,0,0,0,5,1,3,2,11],
 "classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_bibtex_entry_type_definitions.html#a1b4fa33ecdfc653b14019f6e1b74e2ff":[2,0,0,0,5,1,3,2,7],
 "classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_bibtex_entry_type_definitions.html#a21f446e4e5cc911eedcb8b7c96a16427":[2,0,0,0,5,1,3,2,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX49 =
 "classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html#a45d2637b372b85f7452e546c2a235727":[2,0,0,0,5,3,3,66],
 "classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html#a487a48d312f913e333562451035f4aca":[2,0,0,0,5,3,3,21],
 "classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html#a4d8e8385b1de8734087bd19cbe563667":[2,0,0,0,5,3,3,35],
-"classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html#a50d9a5803088dcb19191cb941a15a347":[2,0,0,0,5,3,3,15],
-"classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html#a523478134875b9aaf0ab9250eca9f99b":[2,0,0,0,5,3,3,56],
-"classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html#a5831bb3f64c073000788cde3b015b501":[2,0,0,0,5,3,3,39],
-"classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html#a5b673ff2578977be9620f19f6c89b35c":[2,0,0,0,5,3,3,58],
-"classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html#a60e1dba0871d2f2305546527f1a0068b":[2,0,0,0,5,3,3,40]
+"classorg_1_1jabref_1_1model_1_1metadata_1_1_meta_data.html#a50d9a5803088dcb19191cb941a15a347":[2,0,0,0,5,3,3,15]
 };

@@ -12,6 +12,7 @@ var namespaceorg_1_1jabref_1_1logic_1_1exporter =
     [ "OpenDocumentSpreadsheetCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_document_spreadsheet_creator" ],
     [ "OpenOfficeCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_creator.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_creator" ],
     [ "OpenOfficeDocumentCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator" ],
+    [ "OpenOfficeExpUtil", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_exp_util.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_exp_util" ],
     [ "SaveException", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_save_exception.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_save_exception" ],
     [ "SavePreferences", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_save_preferences.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_save_preferences" ],
     [ "TemplateExporter", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_template_exporter.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_template_exporter" ],

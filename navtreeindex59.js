@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#aa511a2bb229a29f3a6aff9ffc4d58bd9":[2,0,0,0,5,1,3,7,8],
+"enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#aac8b71d550cfe6b6a016b1fc12a0c3d7":[2,0,0,0,5,1,3,7,25],
+"enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#ab130b01c70747911f89932b3d79e61c9":[2,0,0,0,5,1,3,7,14],
+"enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#ab2e3c00f611dfd7859e6f9e66ed0a436":[2,0,0,0,5,1,3,7,11],
 "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#ab2e61d66fd7d1362fa2c0fbb41c16b17":[2,0,0,0,5,1,3,7,22],
 "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#ab5949eed7b24513345d8b7e606891682":[2,0,0,0,5,1,3,7,0],
 "enumorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_standard_entry_type.html#abdcd004305009e1b1b3bf85726b7655a":[2,0,0,0,5,1,3,7,38],
@@ -62,8 +66,8 @@ var NAVTREEINDEX59 =
 "enumorg_1_1jabref_1_1preferences_1_1_new_line_separator.html#a82c5ec0b3779b9e1f00c6ef3c0a284f4":[2,0,0,0,6,10,4],
 "enumorg_1_1jabref_1_1preferences_1_1_new_line_separator.html#a98170228f113c50ae4e8404258e01536":[2,0,0,0,6,10,0],
 "files.html":[3,0],
-"functions.html":[2,3,0],
 "functions.html":[2,3,0,0],
+"functions.html":[2,3,0],
 "functions_b.html":[2,3,0,1],
 "functions_c.html":[2,3,0,2],
 "functions_d.html":[2,3,0,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor.html#a25b4db2316eefbc3daee4dc2f9e370b1":[2,0,0,0,2,48,28,3],
 "interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor.html#a7f2fa3c71a8282c253d0f7312a51a6ab":[2,0,0,0,2,48,28,1],
 "interfaceorg_1_1jabref_1_1gui_1_1util_1_1_task_executor.html#a9348ff1e95a924aa15726a5030c7e74c":[2,0,0,0,2,48,28,2],
-"interfaceorg_1_1jabref_1_1logic_1_1auxparser_1_1_aux_parser.html":[2,0,0,0,3,1,0],
-"interfaceorg_1_1jabref_1_1logic_1_1auxparser_1_1_aux_parser.html#a2dfe78e9ebff2d13b9b9ff5c53e935c3":[2,0,0,0,3,1,0,0],
-"interfaceorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_bst_function.html":[2,0,0,0,3,3,10,1],
-"interfaceorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_bst_function.html#afb044c56ad8640831ad9fb4a99ac9e5b":[2,0,0,0,3,3,10,1,0],
-"interfaceorg_1_1jabref_1_1logic_1_1bst_1_1_warn.html":[2,0,0,0,3,3,12]
+"interfaceorg_1_1jabref_1_1logic_1_1auxparser_1_1_aux_parser.html":[2,0,0,0,3,1,0]
 };

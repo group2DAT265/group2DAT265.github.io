@@ -41,6 +41,9 @@ var dir_64fcb357acf134cbe548507523aa677c =
     [ "OpenOfficeDocumentCreator.java", "_open_office_document_creator_8java.html", [
       [ "OpenOfficeDocumentCreator", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_document_creator" ]
     ] ],
+    [ "OpenOfficeExpUtil.java", "_open_office_exp_util_8java.html", [
+      [ "OpenOfficeExpUtil", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_exp_util.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_open_office_exp_util" ]
+    ] ],
     [ "SaveException.java", "_save_exception_8java.html", [
       [ "SaveException", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_save_exception.html", "classorg_1_1jabref_1_1logic_1_1exporter_1_1_save_exception" ]
     ] ],

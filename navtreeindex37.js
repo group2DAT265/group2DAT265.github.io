@@ -1,5 +1,9 @@
 var NAVTREEINDEX37 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#aada56943222920da9c6a88ea4ca95df9":[2,0,0,0,3,13,1,1,0],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#aaeb1e5c628d00abe06e031e8974c0b1e":[2,0,0,0,3,13,1,1,2],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#aaf9d719a442149e9b8dd16f1366c29c6":[2,0,0,0,3,13,1,1,9],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#ad0d796e20be187702c55d3fed5db7d32":[2,0,0,0,3,13,1,1,3],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#aeb38f919833cab703c800c2d8a6b34ef":[2,0,0,0,3,13,1,1,10],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html":[2,0,0,0,3,13,1,3],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_parser.html#a00366ddd2582543ad549e0ad40d310b7":[2,0,0,0,3,13,1,3,45],
@@ -245,9 +249,5 @@ var NAVTREEINDEX37 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a8b68f263aaa7ed0542dabfc514c47825":[2,0,0,0,3,13,1,14,16],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a92dc9cd031131d1526f2d692f7ff991b":[2,0,0,0,3,13,1,14,14],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a95267ea05c9117604669ff120c9d6d69":[2,0,0,0,3,13,1,14,26],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a9607527d9bebb1a9dd805eaca6486993":[2,0,0,0,3,13,1,14,22],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ab012c5e27acd5d323865610d4784a1f6":[2,0,0,0,3,13,1,14,12],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ab2a7243a52b6883a320d5da05ff2fb23":[2,0,0,0,3,13,1,14,21],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ac089bd7971b8cf499b0fd9e8c34ce042":[2,0,0,0,3,13,1,14,0],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#ac1cfb6a885fd37ed881d24707c1d6c9d":[2,0,0,0,3,13,1,14,15]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a9607527d9bebb1a9dd805eaca6486993":[2,0,0,0,3,13,1,14,22]
 };

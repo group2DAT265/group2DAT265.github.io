@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"_source_tab_8java.html":[3,0,0,0,0,0,0,2,17,17],
 "_sources_8java.html":[3,0,0,0,0,0,0,2,0,5],
 "_special_field_8java.html":[3,0,0,0,0,0,0,5,1,1,8],
 "_special_field_action_8java.html":[3,0,0,0,0,0,0,2,45,0],
@@ -43,7 +44,7 @@ var NAVTREEINDEX4 =
 "_tag_8java.html":[3,0,0,0,0,0,0,2,48,1,1],
 "_tag_bar_8java.html":[3,0,0,0,0,0,0,2,48,1,2],
 "_task_executor_8java.html":[3,0,0,0,0,0,0,2,48,28],
-"_template_exporter_8java.html":[3,0,0,0,0,0,0,3,8,19],
+"_template_exporter_8java.html":[3,0,0,0,0,0,0,3,8,20],
 "_temporal_accessor_picker_8java.html":[3,0,0,0,0,0,0,2,48,1,3],
 "_test_entry_8java.html":[3,0,0,0,0,0,0,3,32,11],
 "_tex_bib_entries_resolver_8java.html":[3,0,0,0,0,0,0,3,30,2],
@@ -154,8 +155,8 @@ var NAVTREEINDEX4 =
 "_x_m_l_chars_8java.html":[3,0,0,0,0,0,0,3,17,0,71],
 "_x_m_l_util_8java.html":[3,0,0,0,0,0,0,3,32,0,10],
 "_xml_chars_map_8java.html":[3,0,0,0,0,0,0,3,32,1,6],
-"_xmp_exporter_8java.html":[3,0,0,0,0,0,0,3,8,20],
-"_xmp_pdf_exporter_8java.html":[3,0,0,0,0,0,0,3,8,21],
+"_xmp_exporter_8java.html":[3,0,0,0,0,0,0,3,8,21],
+"_xmp_pdf_exporter_8java.html":[3,0,0,0,0,0,0,3,8,22],
 "_xmp_preferences_8java.html":[3,0,0,0,0,0,0,3,33,3],
 "_xmp_privacy_tab_view_8java.html":[3,0,0,0,0,0,0,2,38,33],
 "_xmp_privacy_tab_view_model_8java.html":[3,0,0,0,0,0,0,2,38,34],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#ac29fd8954cbd5635afcb0e9a635b2157":[2,0,0,0,1,4,34],
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#aca895d4ea589be21ba802c531e09f405":[2,0,0,0,1,4,24],
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#acd680e1c6817d10511f6ff37c057a5e8":[2,0,0,0,1,4,16],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#acefae0c8a904c8fa3cfd1e48dbc72224":[2,0,0,0,1,4,12],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#ad3f5a1e3a1979edd1ba5b6e938427b22":[2,0,0,0,1,4,10]
+"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#acefae0c8a904c8fa3cfd1e48dbc72224":[2,0,0,0,1,4,12]
 };
