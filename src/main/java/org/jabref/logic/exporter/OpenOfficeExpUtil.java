@@ -68,6 +68,12 @@ public class OpenOfficeExpUtil {
             Element row = result.createElement("table:table-row");
             row.setAttribute("table.style-name", "ro1");
             OOShared.buildTable(result, row, entries, table);
+<<<<<<< HEAD
+=======
+            if (includeSpreadsheet) {
+                collection.appendChild(body);
+            }
+>>>>>>> 10190461881cc4e74124b57288fb3efaab645dec
 
             result.appendChild(collection);
         } catch (Exception e) {
