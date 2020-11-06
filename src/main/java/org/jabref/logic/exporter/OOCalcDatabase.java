@@ -10,13 +10,10 @@ import org.jabref.model.database.BibDatabase;
 import org.jabref.model.entry.BibEntry;
 import org.jabref.model.entry.field.InternalField;
 import org.jabref.model.entry.field.StandardField;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 
 class OOCalcDatabase {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(OOCalcDatabase.class);
     private final List<BibEntry> entries;
 
     public OOCalcDatabase(BibDatabase bibtex, List<BibEntry> entries) {
