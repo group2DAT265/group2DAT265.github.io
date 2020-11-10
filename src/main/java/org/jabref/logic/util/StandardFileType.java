@@ -1,9 +1,9 @@
 package org.jabref.logic.util;
 
+import org.jabref.model.util.OptionalUtil;
+
 import java.util.Arrays;
 import java.util.List;
-
-import org.jabref.model.util.OptionalUtil;
 
 /**
  * @implNote Enter the extensions in lowercase without a dot! The dot is added implicitly.
@@ -41,7 +41,8 @@ public enum StandardFileType implements FileType {
     JSON("json"),
     XMP("xmp"),
     ZIP("zip"),
-    CSS("css");
+    CSS("css"),
+    PNG("png");
 
     private final List<String> extensions;
 

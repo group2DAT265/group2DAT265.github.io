@@ -49,6 +49,9 @@ open module org.jabref {
     // Libre Office
     requires org.jabref.thirdparty.libreoffice;
 
+    //Wordcloud
+    requires com.kennycason.kumo.core;
+
     // Other modules
     requires commons.logging;
     requires com.google.common;
