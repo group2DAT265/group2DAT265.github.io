@@ -14,14 +14,20 @@ public class WordCloudPreset {
     private String shape; // The shape; Rectangle or Circle
     private ColorPalette colors; // The colors used in the word cloud for the text
     private Color background; // The background color, currently only white or black
+    private int numberOfWords;
+    private String direction;
+    private String content;
 
     // Dummy constructor used when downloading or not
     public WordCloudPreset(){
     }
 
-    public WordCloudPreset(String font, String shape, String color, String background) {
+    public WordCloudPreset(String font, String shape, String color, String background, String content, String direction, int num) {
         this.font = new KumoFont(font, FontWeight.PLAIN);
         this.shape = shape;
+        this.content = content;
+        this.direction = direction;
+        this.numberOfWords = num;
         switch(color){
             case "Blue color palette":  this.colors = new ColorPalette(new Color(3,37,76), new Color(17,103,177), new Color(24, 123, 205), new Color(42, 157, 244));
                                         break;
@@ -56,7 +62,17 @@ public class WordCloudPreset {
         return background;
     }
 
+    public int getNumberOfWords() {
+        return numberOfWords;
+    }
 
+    public String getDirection() {
+        return direction;
+    }
+
+    public String getContent() {
+        return content;
+    }
 
 
 }
