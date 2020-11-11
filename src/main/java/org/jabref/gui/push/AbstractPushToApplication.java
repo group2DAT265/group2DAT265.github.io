@@ -19,6 +19,8 @@ import org.slf4j.LoggerFactory;
  */
 public abstract class AbstractPushToApplication implements PushToApplication {
 
+    private static final String ERROR_PUSHING_ENTRIES = "Error pushing entries";
+    
     private static final Logger LOGGER = LoggerFactory.getLogger(AbstractPushToApplication.class);
 
     protected boolean couldNotCall; // Set to true in case the command could not be executed, e.g., if the file is not found
@@ -29,8 +31,6 @@ public abstract class AbstractPushToApplication implements PushToApplication {
     protected String commandPathPreferenceKey;
 
     protected DialogService dialogService;
-
-    private static final String ERROR_PUSHING_ENTRIES = "Error pushing entries";
 
     public AbstractPushToApplication(DialogService dialogService) {
         this.dialogService = dialogService;

@@ -232,8 +232,7 @@ public class CopyMoreAction extends SimpleCommand {
 
         if (entriesWithKey.size() == entries.size()) {
             // All entries had keys.
-			dialogService
-					.notify(Localization.lang(COPIED,
+            dialogService.notify(Localization.lang(COPIED,
                     JabRefDialogService.shortenDialogMessage(keyAndLink.toString())));
         } else {
             dialogService.notify(Localization.lang(WARNING,

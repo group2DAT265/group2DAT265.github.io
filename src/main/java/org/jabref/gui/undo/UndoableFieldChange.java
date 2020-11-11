@@ -15,14 +15,15 @@ import org.slf4j.LoggerFactory;
  * new value. Old/new values can be null.
  */
 public class UndoableFieldChange extends AbstractUndoableJabRefEdit {
+
+    private static final String UNDEFINED = "undefined";
+
     private static final Logger LOGGER = LoggerFactory.getLogger(UndoableFieldChange.class);
 
     private final BibEntry entry;
     private final Field field;
     private final String oldValue;
     private final String newValue;
-
-    private static final String UNDEFINED = "undefined";
 
     public UndoableFieldChange(BibEntry entry, Field field, String oldValue, String newValue) {
         this.entry = entry;

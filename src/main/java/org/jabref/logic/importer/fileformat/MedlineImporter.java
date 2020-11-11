@@ -94,6 +94,8 @@ import org.slf4j.LoggerFactory;
  */
 public class MedlineImporter extends Importer implements Parser {
 
+    private static final String AND = " and ";
+
     private static final Logger LOGGER = LoggerFactory.getLogger(MedlineImporter.class);
     private static final String KEYWORD_SEPARATOR = "; ";
 
@@ -103,9 +105,7 @@ public class MedlineImporter extends Importer implements Parser {
     private static String join(List<String> list, String string) {
         return Joiner.on(string).join(list);
     }
-
-    private static final String AND = " and ";
-
+    
     @Override
     public String getName() {
         return "Medline/PubMed";
