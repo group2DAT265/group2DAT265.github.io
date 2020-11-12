@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@Disabled("Grobid does not seem to work...")
 @FetcherTest
 public class GrobidServiceTest {
 

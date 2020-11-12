@@ -20,6 +20,7 @@ import org.mockito.Answers;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
 
+@Disabled("Grobid does not seem to work...")
 @FetcherTest
 public class GrobidCitationFetcherTest {
 
