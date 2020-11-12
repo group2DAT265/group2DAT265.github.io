@@ -16,6 +16,7 @@ Currently there are 5 differernt pipelines running
 - Creating Doxygen documentation with Gaphviz diagrams
 
 ### Only on master
+
 The following pipelines run only on succesful pushes to the master branch:
 
 - Creating Doxygen documentation with Gaphviz diagrams
@@ -26,6 +27,7 @@ The doxygen documenation can be found [here](https://group2dat265.github.io/)
 The SonarQube can be found [here](http://157.230.19.67:9000/dashboard?id=dat265group2)
 
 ### On all pushes and pull requests
+
 The following pipelines run on a push to any branch and all pull requests:
 
 - Builing the system using ./gradlew build
