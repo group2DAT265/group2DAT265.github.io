@@ -24,6 +24,9 @@ public class WordCloudPresetView extends BaseDialog<WordCloudPreset> {
     @FXML private ComboBox<String> shapeSelection;
     @FXML private ComboBox<String> colorPaletteSelection;
     @FXML private ComboBox<String> backgroundSelection;
+    @FXML private ComboBox<String> contentSelection;
+    @FXML private ComboBox<String> directionSelection;
+    @FXML private ComboBox<Integer> numberOfWordsSelection;
     //@FXML private ImageView wordcloudImageView;
 
     private final BasePanel basePanel;
@@ -65,6 +68,18 @@ public class WordCloudPresetView extends BaseDialog<WordCloudPreset> {
         backgroundSelection.setItems(backgroundList);
         backgroundSelection.getSelectionModel().selectFirst();
 
+        ObservableList<String> contentList = FXCollections.observableArrayList("Abstract", "Title", "Keywords", "All");
+        contentSelection.setItems(contentList);
+        contentSelection.getSelectionModel().selectFirst();
+
+        ObservableList<String> directionList = FXCollections.observableArrayList("Random", "Horizontal");
+        directionSelection.setItems(directionList);
+        directionSelection.getSelectionModel().selectFirst();
+
+        ObservableList<Integer> numberOfWordsList = FXCollections.observableArrayList(50, 100, 150, 200, 250, 300, 350, 400, 450, 500);
+        numberOfWordsSelection.setItems(numberOfWordsList);
+        numberOfWordsSelection.getSelectionModel().selectFirst();
+
         // TODO: Add real image after generated word cloud
         //File file = new File("./src/main/resources/wordcloud/examplewordcloud.png");
         //Image image = new Image(file.toURI().toString());
@@ -77,7 +92,10 @@ public class WordCloudPresetView extends BaseDialog<WordCloudPreset> {
         String shape = shapeSelection.getValue();
         String color = colorPaletteSelection.getValue();
         String background = backgroundSelection.getValue();
-        return new WordCloudPreset(font, shape, color, background);
+        String content = contentSelection.getValue();
+        String direction = directionSelection.getValue();
+        int numberOfWords = numberOfWordsSelection.getValue();
+        return new WordCloudPreset(font, shape, color, background, content, direction, numberOfWords);
     }
 
 }

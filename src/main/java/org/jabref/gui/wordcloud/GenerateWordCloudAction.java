@@ -6,6 +6,7 @@ import com.kennycason.kumo.WordFrequency;
 import com.kennycason.kumo.bg.CircleBackground;
 import com.kennycason.kumo.bg.RectangleBackground;
 import com.kennycason.kumo.font.scale.LinearFontScalar;
+import com.kennycason.kumo.image.AngleGenerator;
 import com.kennycason.kumo.nlp.FrequencyAnalyzer;
 import javafx.collections.ObservableList;
 import org.jabref.gui.DialogService;
@@ -98,24 +99,27 @@ public class GenerateWordCloudAction extends SimpleCommand {
             tmpFile = File.createTempFile("test", ".txt");
             FileWriter writer = new FileWriter(tmpFile);
             listOfSelectedEntries.forEach((entry) -> {
-                if(entry.hasField(StandardField.ABSTRACT)){
-                    String abstractWords = entry.getField(StandardField.ABSTRACT).get();
-                    System.out.println("Abstract: "+abstractWords);
-                    ArrayList<String> allWords =
-                            Stream.of(abstractWords.toLowerCase().split(" "))
-                                    .collect(Collectors.toCollection(ArrayList<String>::new));
-                    allWords.removeAll(stopWords);
+                String words = "";
+                if((wordCloudPreset.getContent() == "Abstract" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.ABSTRACT)){
+                    words += entry.getField(StandardField.ABSTRACT).get();
+                }else if((wordCloudPreset.getContent() == "Title" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.TITLE)){
+                    words += entry.getField(StandardField.TITLE).get();
+                }else if((wordCloudPreset.getContent() == "Keywords" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.KEYWORDS)){
+                    words += entry.getField(StandardField.KEYWORDS).get();
+                }
 
-                    abstractWords = allWords.stream().collect(Collectors.joining(" "));
-                    try {
-                        writer.write(abstractWords);
-                        writer.write(" ");
-                    } catch (IOException e) {
-                        System.out.println("Could not write to tmp abstract file.");
-                        e.printStackTrace();
-                    }
-                }else{
-                    System.out.println("Entry has no abstract.");
+                ArrayList<String> allWords =
+                        Stream.of(words.toLowerCase().split(" "))
+                                .collect(Collectors.toCollection(ArrayList<String>::new));
+                allWords.removeAll(stopWords);
+
+                words = allWords.stream().collect(Collectors.joining(" "));
+                try {
+                    writer.write(words);
+                    writer.write(" ");
+                } catch (IOException e) {
+                    System.out.println("Could not write to tmp abstract file.");
+                    e.printStackTrace();
                 }
             });
             writer.close();
@@ -134,19 +138,22 @@ public class GenerateWordCloudAction extends SimpleCommand {
             if(wordCloudPreset.getShape() == "Rectangle"){
                 wordCloud = new WordCloud(dimension, CollisionMode.RECTANGLE);
                 wordCloud.setBackground(new RectangleBackground(dimension));
-                frequencyAnalyzer.setWordFrequenciesToReturn(300);
             }else{
                 wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
                 wordCloud.setBackground(new CircleBackground(300));
-                frequencyAnalyzer.setWordFrequenciesToReturn(150);
             }
+            if(wordCloudPreset.getDirection() == "Horizontal"){
+                wordCloud.setAngleGenerator(new AngleGenerator(0));
+                //wordCloud.setAngleGenerator(new AngleGenerator(0,0.01,2));
+            }
+            frequencyAnalyzer.setWordFrequenciesToReturn(wordCloudPreset.getNumberOfWords());
             final List<WordFrequency> wordFrequencies = frequencyAnalyzer.load(tmpFile);
 
             wordCloud.setPadding(1);
             wordCloud.setBackgroundColor(wordCloudPreset.getBackground());
             wordCloud.setColorPalette(wordCloudPreset.getColors());
             wordCloud.setKumoFont(wordCloudPreset.getFont());
-            wordCloud.setFontScalar(new LinearFontScalar(10, 40));
+            wordCloud.setFontScalar(new LinearFontScalar(10, 50));
             wordCloud.build(wordFrequencies);
             // Temp save of word-cloud
             wordCloud.writeToFile("./src/main/resources/wordcloud/generated_wordcloud.png");
