@@ -830,6 +830,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1openoffice_1_1_open_office_panel.html#aa3e8ebf2fd72388f90ea837d1f1b1e7c">org.jabref.gui.openoffice.OpenOfficePanel</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string.html#a8741ed130f01620db73061feb9c83c2e">org.jabref.model.entry.BibtexString</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1pdf_1_1_file_annotation.html#a54b8913a409b91fcd753ab3e7988033b">org.jabref.model.pdf.FileAnnotation</a>
+, <a class="el" href="classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html#a89925fe1026ccafbbede27afe5cfa8b7">org.jabref.model.wordcloud.WordCloudPreset</a>
 , <a class="el" href="classorg_1_1jabref_1_1styletester_1_1_style_tester_view.html#ae0fef6e43d817e6b8352a665b3391b4f">org.jabref.styletester.StyleTesterView</a>
 </li>
 <li>getContentPane()
@@ -1176,6 +1177,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getDifferences()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_meta_data_diff.html#a9c8e6f6db42774f31be9196f8b1d13e8">org.jabref.logic.bibtex.comparator.MetaDataDiff</a>
+</li>
+<li>getDirection()
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html#a2f318f228791d854250a16cd298e7ed8">org.jabref.model.wordcloud.WordCloudPreset</a>
 </li>
 <li>getDisabledExternalTermLists()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_preferences.html#afc3afb4c068edb1b0ef4ef642123126c">org.jabref.logic.protectedterms.ProtectedTermsPreferences</a>
@@ -2843,6 +2847,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getNumberOfKeyOccurrences()
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1database_1_1_bib_database.html#a03be85f584a7ac17b82d8be39df9e0eb">org.jabref.model.database.BibDatabase</a>
 </li>
+<li>getNumberOfWords()
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html#aed8692c84801b00f2213ff84bda4e340">org.jabref.model.wordcloud.WordCloudPreset</a>
+</li>
 <li>getNumCitationMarker()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#ad65430fbaac3d1361b3ec0771ae89d62">org.jabref.logic.openoffice.OOBibStyle</a>
 </li>
@@ -3277,7 +3284,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1_side_pane_component.html#a120ca6ddba7f2ca4a97820037ff4b577">org.jabref.gui.SidePaneComponent</a>
 </li>
 <li>getResolvedFieldOrAlias()
-: <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#a54ed2e1d81d831fe3183751c716c3991">org.jabref.model.entry.BibEntry</a>
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#abc3457800c02a3a82f5a798367432f9a">org.jabref.model.entry.BibEntry</a>
 </li>
 <li>getResolvedFieldOrAliasLatexFree()
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#ac9ddc7bb5915d07fc3108afe8b24677e">org.jabref.model.entry.BibEntry</a>
@@ -3372,7 +3379,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_keyword_group.html#afa8b6d9a6104a08ab7d90f3ff3dcaa61">org.jabref.model.groups.KeywordGroup</a>
 </li>
 <li>getSearchMatcher()
-: <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node.html#a2e7c5db506aaea2e34d9207161e09955">org.jabref.model.groups.GroupTreeNode</a>
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node.html#a88fe5e992135720583ac32935369d26a">org.jabref.model.groups.GroupTreeNode</a>
 </li>
 <li>getSearchPreferences()
 : <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences.html#ac3a85b084c15e338a1afb04345c1a68a">org.jabref.preferences.JabRefPreferences</a>
@@ -3817,7 +3824,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_grammar_based_search_rule.html#a3f295859764e720bb88f6f1c5de35962">org.jabref.model.search.rules.GrammarBasedSearchRule</a>
 </li>
 <li>getTreeItemByValue()
-: <a class="el" href="classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a75bbb86636d2966ee70d1d489dd8cf38">org.jabref.gui.groups.GroupTreeView</a>
+: <a class="el" href="classorg_1_1jabref_1_1gui_1_1groups_1_1_group_tree_view.html#a47a957afc56b616c117d05535fadef17">org.jabref.gui.groups.GroupTreeView</a>
 </li>
 <li>getTruncatedDescriptionAndLink()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_file_view_model.html#a68b2192a6b7e85c7fe4429955e945e81">org.jabref.gui.fieldeditors.LinkedFileViewModel</a>
@@ -3858,7 +3865,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#a2d7b0f2b121e3129e860d4325ffffd62">org.jabref.model.entry.BibEntry</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#ae102c0bbb6ee0c855237fd07eaca2b08">org.jabref.model.entry.BibEntryType</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string.html#ab9507d3857689c475237d61d8ecac8b8">org.jabref.model.entry.BibtexString</a>
-, <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences_filter_1_1_preference_option.html#aade7ff92b25719795ab1e6f39b3ed3d9">org.jabref.preferences.JabRefPreferencesFilter.PreferenceOption</a>
+, <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences_filter_1_1_preference_option.html#a14f4bdfcb2879f74c4a85551c9c1cb3e">org.jabref.preferences.JabRefPreferencesFilter.PreferenceOption</a>
 </li>
 <li>getTypeForDisplay()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1_typed_bib_entry.html#aa7f318c2391b45e939e968f34bf1bb5f">org.jabref.logic.TypedBibEntry</a>
@@ -4314,8 +4321,8 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>groupViewModeUnion
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view.html#a2eb421e7cb4cd4a37d8db0ac01d52d1a">org.jabref.gui.preferences.GroupsTabView</a>
 </li>
-<li>groupViewModeUnionProperty()
-: <a class="el" href="classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a27df212278d7825fb18bcd544fe5435e">org.jabref.gui.preferences.GroupsTabViewModel</a>
+<li>groupViewModeUnionProperty
+: <a class="el" href="classorg_1_1jabref_1_1gui_1_1preferences_1_1_groups_tab_view_model.html#a97f7d8b9b73ef17c6c509303cf49527e">org.jabref.gui.preferences.GroupsTabViewModel</a>
 </li>
 <li>GuiAppender()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1logging_1_1_gui_appender.html#ac0752cfd20638929ef16fc3e22563c2d">org.jabref.gui.logging.GuiAppender</a>

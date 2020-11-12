@@ -6,8 +6,11 @@ var classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view =
     [ "backgroundSelection", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a1a8f704ce121d6aa1edf4dee88887177", null ],
     [ "basePanel", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a6c42441200d345eef2da24552a1b9c7a", null ],
     [ "colorPaletteSelection", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a3d5c4310536f71ddf1975dd7a9bb160e", null ],
+    [ "contentSelection", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a63d4d7486c6f951db9497ffea261b11b", null ],
     [ "dialogService", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a7acb166dd86f6a05a0c33d78b8346e11", null ],
+    [ "directionSelection", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a2409ef209d47bfca65ef7470299cca46", null ],
     [ "fontSelection", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a3c9e0601c5f9b66e4c883d16f8abc591", null ],
     [ "generateButton", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a66dd7fe6d1a34481685b8d347fb58cd2", null ],
+    [ "numberOfWordsSelection", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a3e59ba83a1a86861e23a9470ba454baf", null ],
     [ "shapeSelection", "classorg_1_1jabref_1_1gui_1_1wordcloud_1_1_word_cloud_preset_view.html#a05f594ff288283279b65696f73b7d917", null ]
 ];

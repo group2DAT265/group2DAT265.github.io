@@ -786,6 +786,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1openoffice_1_1_open_office_panel.html#aa3e8ebf2fd72388f90ea837d1f1b1e7c">org.jabref.gui.openoffice.OpenOfficePanel</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string.html#a8741ed130f01620db73061feb9c83c2e">org.jabref.model.entry.BibtexString</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1pdf_1_1_file_annotation.html#a54b8913a409b91fcd753ab3e7988033b">org.jabref.model.pdf.FileAnnotation</a>
+, <a class="el" href="classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html#a89925fe1026ccafbbede27afe5cfa8b7">org.jabref.model.wordcloud.WordCloudPreset</a>
 , <a class="el" href="classorg_1_1jabref_1_1styletester_1_1_style_tester_view.html#ae0fef6e43d817e6b8352a665b3391b4f">org.jabref.styletester.StyleTesterView</a>
 </li>
 <li>getContentPane()
@@ -1132,6 +1133,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>getDifferences()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1bibtex_1_1comparator_1_1_meta_data_diff.html#a9c8e6f6db42774f31be9196f8b1d13e8">org.jabref.logic.bibtex.comparator.MetaDataDiff</a>
+</li>
+<li>getDirection()
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html#a2f318f228791d854250a16cd298e7ed8">org.jabref.model.wordcloud.WordCloudPreset</a>
 </li>
 <li>getDisabledExternalTermLists()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_preferences.html#afc3afb4c068edb1b0ef4ef642123126c">org.jabref.logic.protectedterms.ProtectedTermsPreferences</a>
@@ -2415,7 +2419,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1search_1_1_database_searcher.html#a176b40bd12557b3a1ef9aec60c9d0254">org.jabref.logic.search.DatabaseSearcher</a>
 </li>
 <li>getMatchingGroups()
-: <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node.html#ae382d972c67855c72e09b7e6c1882bfc">org.jabref.model.groups.GroupTreeNode</a>
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node.html#adeb8d49eb3a7443e02708773b383b654">org.jabref.model.groups.GroupTreeNode</a>
 </li>
 <li>getMaterialDesignIconsStream()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme.html#ab82bcf754b1e649351e8a120e473c9b5">org.jabref.gui.icon.IconTheme</a>
@@ -2798,6 +2802,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>getNumberOfKeyOccurrences()
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1database_1_1_bib_database.html#a03be85f584a7ac17b82d8be39df9e0eb">org.jabref.model.database.BibDatabase</a>
+</li>
+<li>getNumberOfWords()
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1wordcloud_1_1_word_cloud_preset.html#aed8692c84801b00f2213ff84bda4e340">org.jabref.model.wordcloud.WordCloudPreset</a>
 </li>
 <li>getNumCitationMarker()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1openoffice_1_1_o_o_bib_style.html#ad65430fbaac3d1361b3ec0771ae89d62">org.jabref.logic.openoffice.OOBibStyle</a>
@@ -3233,7 +3240,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="classorg_1_1jabref_1_1gui_1_1_side_pane_component.html#a120ca6ddba7f2ca4a97820037ff4b577">org.jabref.gui.SidePaneComponent</a>
 </li>
 <li>getResolvedFieldOrAlias()
-: <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#abc3457800c02a3a82f5a798367432f9a">org.jabref.model.entry.BibEntry</a>
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#a54ed2e1d81d831fe3183751c716c3991">org.jabref.model.entry.BibEntry</a>
 </li>
 <li>getResolvedFieldOrAliasLatexFree()
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#ac9ddc7bb5915d07fc3108afe8b24677e">org.jabref.model.entry.BibEntry</a>
@@ -3328,7 +3335,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_keyword_group.html#afa8b6d9a6104a08ab7d90f3ff3dcaa61">org.jabref.model.groups.KeywordGroup</a>
 </li>
 <li>getSearchMatcher()
-: <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node.html#a88fe5e992135720583ac32935369d26a">org.jabref.model.groups.GroupTreeNode</a>
+: <a class="el" href="classorg_1_1jabref_1_1model_1_1groups_1_1_group_tree_node.html#a2e7c5db506aaea2e34d9207161e09955">org.jabref.model.groups.GroupTreeNode</a>
 </li>
 <li>getSearchPreferences()
 : <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences.html#ac3a85b084c15e338a1afb04345c1a68a">org.jabref.preferences.JabRefPreferences</a>
@@ -3587,7 +3594,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>getStringRepresentation()
 : <a class="el" href="classorg_1_1jabref_1_1gui_1_1fieldeditors_1_1_linked_files_editor_view_model.html#a5524bd87547c2c6d95b9393db3d79901">org.jabref.gui.fieldeditors.LinkedFilesEditorViewModel</a>
-, <a class="el" href="classorg_1_1jabref_1_1logic_1_1bibtex_1_1_file_field_writer.html#a5b9358f796925fbb9320f7041eeb0b41">org.jabref.logic.bibtex.FileFieldWriter</a>
+, <a class="el" href="classorg_1_1jabref_1_1logic_1_1bibtex_1_1_file_field_writer.html#a0025de4f64d150cc4792885cae3dd0d7">org.jabref.logic.bibtex.FileFieldWriter</a>
 </li>
 <li>getStrings()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m.html#a415bf690d452b182664ed1a46d26a6a3">org.jabref.logic.bst.VM</a>
@@ -3814,7 +3821,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry.html#a2d7b0f2b121e3129e860d4325ffffd62">org.jabref.model.entry.BibEntry</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bib_entry_type.html#ae102c0bbb6ee0c855237fd07eaca2b08">org.jabref.model.entry.BibEntryType</a>
 , <a class="el" href="classorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string.html#ab9507d3857689c475237d61d8ecac8b8">org.jabref.model.entry.BibtexString</a>
-, <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences_filter_1_1_preference_option.html#a14f4bdfcb2879f74c4a85551c9c1cb3e">org.jabref.preferences.JabRefPreferencesFilter.PreferenceOption</a>
+, <a class="el" href="classorg_1_1jabref_1_1preferences_1_1_jab_ref_preferences_filter_1_1_preference_option.html#aade7ff92b25719795ab1e6f39b3ed3d9">org.jabref.preferences.JabRefPreferencesFilter.PreferenceOption</a>
 </li>
 <li>getTypeForDisplay()
 : <a class="el" href="classorg_1_1jabref_1_1logic_1_1_typed_bib_entry.html#aa7f318c2391b45e939e968f34bf1bb5f">org.jabref.logic.TypedBibEntry</a>

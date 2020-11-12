@@ -1,5 +1,8 @@
 var NAVTREEINDEX48 =
 {
+"classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a3d986abb8b266e30acd977ec405db731":[2,0,0,0,5,1,18,16],
+"classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a5637a19677cf27e32e056c718ba9427b":[2,0,0,0,5,1,18,20],
+"classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a581198244a8a593f5f9ebecbbed589c2":[2,0,0,0,5,1,18,21],
 "classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a5d670ee5555bc3bec721acfe0cd3e990":[2,0,0,0,5,1,18,14],
 "classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a5fbf525090296076f9a7eccba36ef978":[2,0,0,0,5,1,18,12],
 "classorg_1_1jabref_1_1model_1_1entry_1_1_linked_file.html#a755366c3c6ab8271efa12549d125cd63":[2,0,0,0,5,1,18,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX48 =
 "classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#acb7d9c91747807d29b614a259330f251":[2,0,0,0,5,1,3,0,25],
 "classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#ad0d7eea6ed690b02f4bf77845219a2c8":[2,0,0,0,5,1,3,0,1],
 "classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#ad290ae2d49ae8c1d7dd009b5c2f64f8f":[2,0,0,0,5,1,3,0,8],
-"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#af0a7ad54a7cfb3b88d48237180938a52":[2,0,0,0,5,1,3,0,3],
-"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html":[2,0,0,0,5,1,3,1],
-"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#a1275ee7fb4f3b5ef5f3892fdb33d2355":[2,0,0,0,5,1,3,1,0],
-"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_software_entry_type_definitions.html#a829bbfc193a9c4ccccb0716bd307496a":[2,0,0,0,5,1,3,1,4]
+"classorg_1_1jabref_1_1model_1_1entry_1_1types_1_1_biblatex_entry_type_definitions.html#af0a7ad54a7cfb3b88d48237180938a52":[2,0,0,0,5,1,3,0,3]
 };
