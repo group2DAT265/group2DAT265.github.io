@@ -7,7 +7,6 @@ import org.jabref.gui.icon.JabRefIcon;
 import org.jabref.gui.keyboard.KeyBinding;
 import org.jabref.logic.l10n.Localization;
 
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -29,7 +28,7 @@ public class StandardActionsTest {
 
     @Test
     void verifyGetDescription() {
-    	assertEquals(Localization.lang("Save all open libraries"), action.getDescription());
+        assertEquals(Localization.lang("Save all open libraries"), action.getDescription());
     }
 
     @Test

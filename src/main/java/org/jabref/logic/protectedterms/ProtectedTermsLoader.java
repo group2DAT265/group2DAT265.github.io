@@ -19,8 +19,7 @@ import org.slf4j.LoggerFactory;
 
 public class ProtectedTermsLoader {
 
-	// Constants
-	private static final String CANNOT_FIND_PROTECTED_TERMS_FILE = "Cannot find protected terms file ";
+    private static final String CANNOT_FIND_PROTECTED_TERMS_FILE = "Cannot find protected terms file ";
 
     private static final Map<String, Supplier<String>> INTERNAL_LISTS = new HashMap<>();
 
@@ -79,7 +78,7 @@ public class ProtectedTermsLoader {
                 mainList.add(readProtectedTermsListFromFile(new File(filename), true));
             } catch (FileNotFoundException e) {
                 // The file couldn't be found...
-				LOGGER.warn(CANNOT_FIND_PROTECTED_TERMS_FILE + filename, e);
+                LOGGER.warn(CANNOT_FIND_PROTECTED_TERMS_FILE + filename, e);
             }
         }
 
@@ -89,7 +88,7 @@ public class ProtectedTermsLoader {
                     mainList.add(readProtectedTermsListFromFile(new File(filename), false));
                 } catch (FileNotFoundException e) {
                     // The file couldn't be found...
-					LOGGER.warn(CANNOT_FIND_PROTECTED_TERMS_FILE + filename, e);
+                    // LOGGER.warn(CANNOT_FIND_PROTECTED_TERMS_FILE + filename, e);
                 }
             }
         }
@@ -129,7 +128,7 @@ public class ProtectedTermsLoader {
             mainList.add(readProtectedTermsListFromFile(new File(fileName), enabled));
         } catch (FileNotFoundException e) {
             // The file couldn't be found...
-			LOGGER.warn(CANNOT_FIND_PROTECTED_TERMS_FILE + fileName, e);
+            LOGGER.warn(CANNOT_FIND_PROTECTED_TERMS_FILE + fileName, e);
         }
     }
 

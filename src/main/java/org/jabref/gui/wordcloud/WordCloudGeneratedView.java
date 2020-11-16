@@ -1,10 +1,14 @@
 package org.jabref.gui.wordcloud;
 
-import com.airhacks.afterburner.views.ViewLoader;
+import java.io.File;
+
+import javax.inject.Inject;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.ButtonType;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+
 import org.jabref.gui.BasePanel;
 import org.jabref.gui.DialogService;
 import org.jabref.gui.StateManager;
@@ -12,8 +16,7 @@ import org.jabref.gui.util.BaseDialog;
 import org.jabref.logic.l10n.Localization;
 import org.jabref.model.wordcloud.WordCloudPreset;
 
-import javax.inject.Inject;
-import java.io.File;
+import com.airhacks.afterburner.views.ViewLoader;
 
 // Dialog  display the user the generated word cloud and give the  option tp download it or not
 public class WordCloudGeneratedView extends BaseDialog<WordCloudPreset> {

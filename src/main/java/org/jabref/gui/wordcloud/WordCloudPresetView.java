@@ -1,11 +1,13 @@
 package org.jabref.gui.wordcloud;
 
-import com.airhacks.afterburner.views.ViewLoader;
+import javax.inject.Inject;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.ComboBox;
+
 import org.jabref.gui.BasePanel;
 import org.jabref.gui.DialogService;
 import org.jabref.gui.StateManager;
@@ -13,9 +15,9 @@ import org.jabref.gui.util.BaseDialog;
 import org.jabref.logic.l10n.Localization;
 import org.jabref.model.wordcloud.WordCloudPreset;
 
-import javax.inject.Inject;
+import com.airhacks.afterburner.views.ViewLoader;
 
-//Dialog to collect thee user's preferences about the word cloud generation
+// Dialog to collect thee user's preferences about the word cloud generation
 public class WordCloudPresetView extends BaseDialog<WordCloudPreset> {
     @Inject StateManager stateManager;
 
@@ -27,7 +29,7 @@ public class WordCloudPresetView extends BaseDialog<WordCloudPreset> {
     @FXML private ComboBox<String> contentSelection;
     @FXML private ComboBox<String> directionSelection;
     @FXML private ComboBox<Integer> numberOfWordsSelection;
-    //@FXML private ImageView wordcloudImageView;
+    // @FXML private ImageView wordcloudImageView;
 
     private final BasePanel basePanel;
     private final DialogService dialogService;
@@ -81,9 +83,9 @@ public class WordCloudPresetView extends BaseDialog<WordCloudPreset> {
         numberOfWordsSelection.getSelectionModel().selectFirst();
 
         // TODO: Add real image after generated word cloud
-        //File file = new File("./src/main/resources/wordcloud/examplewordcloud.png");
-        //Image image = new Image(file.toURI().toString());
-        //wordcloudImageView.setImage(image);
+        // File file = new File("./src/main/resources/wordcloud/examplewordcloud.png");
+        // Image image = new Image(file.toURI().toString());
+        // wordcloudImageView.setImage(image);
     }
 
     // Generates the preferences from the user's selection in the dialog

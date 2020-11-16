@@ -13,9 +13,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class AuxCommandLine {
+    private static final Logger LOGGER = LoggerFactory.getLogger(AuxCommandLine.class);
+
     private final String auxFile;
     private final BibDatabase database;
-    private static final Logger LOGGER = LoggerFactory.getLogger(AuxCommandLine.class);
 
     public AuxCommandLine(String auxFile, BibDatabase database) {
         this.auxFile = StringUtil.getCorrectFileName(auxFile, "aux");

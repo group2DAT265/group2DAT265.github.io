@@ -17,8 +17,7 @@ import org.postgresql.PGConnection;
  */
 public class PostgreSQLProcessor extends DBMSProcessor {
 
-	// Constants
-	private static final String SQL_ERROR = "SQL Error: ";
+    private static final String SQL_ERROR = "SQL Error: ";
 
     private PostgresSQLNotificationListener listener;
 
@@ -82,7 +81,7 @@ public class PostgreSQLProcessor extends DBMSProcessor {
                 }
             }
         } catch (SQLException e) {
-			LOGGER.error(SQL_ERROR, e);
+            LOGGER.error(SQL_ERROR, e);
         }
     }
 
@@ -103,7 +102,7 @@ public class PostgreSQLProcessor extends DBMSProcessor {
             listener = new PostgresSQLNotificationListener(dbmsSynchronizer, pgConnection);
             JabRefExecutorService.INSTANCE.execute(listener);
         } catch (SQLException e) {
-			LOGGER.error(SQL_ERROR, e);
+            LOGGER.error(SQL_ERROR, e);
         }
     }
 
@@ -113,7 +112,7 @@ public class PostgreSQLProcessor extends DBMSProcessor {
             listener.stop();
             connection.close();
         } catch (SQLException e) {
-			LOGGER.error(SQL_ERROR, e);
+            LOGGER.error(SQL_ERROR, e);
         }
     }
 
@@ -122,7 +121,7 @@ public class PostgreSQLProcessor extends DBMSProcessor {
         try {
             connection.createStatement().execute("NOTIFY jabrefLiveUpdate, '" + PROCESSOR_ID + "';");
         } catch (SQLException e) {
-			LOGGER.error(SQL_ERROR, e);
+            LOGGER.error(SQL_ERROR, e);
         }
     }
 }

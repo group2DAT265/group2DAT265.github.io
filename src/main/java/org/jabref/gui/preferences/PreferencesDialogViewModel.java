@@ -31,15 +31,15 @@ import org.slf4j.LoggerFactory;
 
 public class PreferencesDialogViewModel extends AbstractViewModel {
 
+    private static final String JABREF_RESTART = "You must restart JabRef for this to come into effect.";
+    private static final String RESET_PREFERENCES = "Reset preferences";
+    
     private static final Logger LOGGER = LoggerFactory.getLogger(PreferencesDialogViewModel.class);
 
     private final DialogService dialogService;
     private final JabRefPreferences preferences;
     private final ObservableList<PreferencesTab> preferenceTabs;
     private final JabRefFrame frame;
-
-    private static final String JABREF_RESTART = "You must restart JabRef for this to come into effect.";
-    private static final String RESET_PREFERENCES = "Reset preferences";
 
     public PreferencesDialogViewModel(DialogService dialogService, JabRefFrame frame) {
         this.dialogService = dialogService;

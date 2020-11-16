@@ -3,6 +3,7 @@ package org.jabref.logic.integrity;
 import java.util.Optional;
 
 import org.jabref.logic.l10n.Localization;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -34,6 +35,4 @@ public class ValidCitationKeyCheckerTest {
         // assertNotEquals(Optional.empty(), checker.checkValue(null));
         assertEquals(Optional.of(Localization.lang("Invalid citation key")), checker.checkValue("Slominski2019ÖÖ%%"));
     }
-
-
 }

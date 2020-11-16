@@ -31,11 +31,10 @@ import org.xml.sax.SAXException;
  */
 public class MSBibDatabase {
 
-	// Constants
-	private static final String SOURCES = "Sources";
-
     public static final String NAMESPACE = "http://schemas.openxmlformats.org/officeDocument/2006/bibliography";
     public static final String PREFIX = "b:";
+
+    private static final String SOURCES = "Sources";
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MSBibDatabase.class);
 
@@ -82,9 +81,9 @@ public class MSBibDatabase {
             LOGGER.warn("Could not parse document", e);
             return Collections.emptyList();
         }
-		NodeList rootList = inputDocument.getElementsByTagNameNS("*", SOURCES);
+        NodeList rootList = inputDocument.getElementsByTagNameNS("*", SOURCES);
         if (rootList.getLength() == 0) {
-			rootList = inputDocument.getElementsByTagNameNS("*", SOURCES);
+            rootList = inputDocument.getElementsByTagNameNS("*", SOURCES);
         }
         List<BibEntry> bibitems = new ArrayList<>();
         if (rootList.getLength() == 0) {
@@ -122,7 +121,7 @@ public class MSBibDatabase {
             DocumentBuilder documentBuilder = factory.newDocumentBuilder();
             document = documentBuilder.newDocument();
 
-			Element rootNode = document.createElementNS(NAMESPACE, PREFIX + SOURCES);
+            Element rootNode = document.createElementNS(NAMESPACE, PREFIX + SOURCES);
             rootNode.setAttributeNS("http://www.w3.org/2000/xmlns/", "xmlns", NAMESPACE);
             rootNode.setAttributeNS("http://www.w3.org/2000/xmlns/",
                     "xmlns:" + PREFIX.substring(0, PREFIX.length() - 1), NAMESPACE);

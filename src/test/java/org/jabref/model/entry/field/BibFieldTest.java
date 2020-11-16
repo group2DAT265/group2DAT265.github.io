@@ -30,6 +30,4 @@ class BibFieldTest {
         BibField bibField = new BibField(StandardField.AUTHOR, FieldPriority.IMPORTANT);
         assertFalse(bibField.equals(1));
     }
-
-
 }

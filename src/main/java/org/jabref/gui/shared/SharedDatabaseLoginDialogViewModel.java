@@ -53,6 +53,8 @@ import org.slf4j.LoggerFactory;
 
 public class SharedDatabaseLoginDialogViewModel extends AbstractViewModel {
 
+    private static final String REQ_FIELD_IS_EMPTY = "Required field \"%0\" is empty.";
+
     private static final Logger LOGGER = LoggerFactory.getLogger(SharedDatabaseLoginDialogViewModel.class);
 
     private final ObjectProperty<DBMSType> selectedDBMSType = new SimpleObjectProperty<>(DBMSType.values()[0]);
@@ -82,8 +84,6 @@ public class SharedDatabaseLoginDialogViewModel extends AbstractViewModel {
     private final Validator folderValidator;
     private final Validator keystoreValidator;
     private final CompositeValidator formValidator;
-
-    private static final String REQ_FIELD_IS_EMPTY = "Required field \"%0\" is empty.";
 
     public SharedDatabaseLoginDialogViewModel(JabRefFrame frame, DialogService dialogService) {
         this.frame = frame;

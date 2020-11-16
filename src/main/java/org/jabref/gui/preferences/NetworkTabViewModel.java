@@ -30,6 +30,11 @@ import de.saxsys.mvvmfx.utils.validation.Validator;
 import kong.unirest.UnirestException;
 
 public class NetworkTabViewModel implements PreferenceTabViewModel {
+
+    private static final String STRING_SERIES = "\"%s > %s %n %n %s\"";
+    private static final String NETWORK = "Network";
+    private static final String PROXY_CONFIGURATION = "Proxy configuration";
+    
     private final BooleanProperty remoteServerProperty = new SimpleBooleanProperty();
     private final StringProperty remotePortProperty = new SimpleStringProperty("");
     private final BooleanProperty proxyUseProperty = new SimpleBooleanProperty();
@@ -51,10 +56,6 @@ public class NetworkTabViewModel implements PreferenceTabViewModel {
     private final ProxyPreferences initialProxyPreferences;
 
     private final List<String> restartWarning = new ArrayList<>();
-
-    private static final String STRING_SERIES = "\"%s > %s %n %n %s\"";
-    private static final String NETWORK = "Network";
-    private static final String PROXY_CONFIGURATION = "Proxy configuration";
 
     public NetworkTabViewModel(DialogService dialogService, PreferencesService preferences) {
         this.dialogService = dialogService;

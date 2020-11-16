@@ -58,6 +58,9 @@ import org.slf4j.LoggerFactory;
  * */
 public class PreviewTabViewModel implements PreferenceTabViewModel {
 
+    private static final String PREVIEW = "Preview";
+    private static final String TAGMARK = "tagmark";
+    
     private static final Logger LOGGER = LoggerFactory.getLogger(PreviewTabViewModel.class);
 
     private final ListProperty<PreviewLayout> availableListProperty = new SimpleListProperty<>(FXCollections.observableArrayList());
@@ -82,9 +85,6 @@ public class PreviewTabViewModel implements PreferenceTabViewModel {
     private final CustomLocalDragboard localDragboard;
     private ListProperty<PreviewLayout> dragSourceList = null;
     private ObjectProperty<MultipleSelectionModel<PreviewLayout>> dragSourceSelectionModel = null;
-
-    private static final String PREVIEW = "Preview";
-    private static final String TAGMARK = "tagmark";
 
     public PreviewTabViewModel(DialogService dialogService, PreferencesService preferences, TaskExecutor taskExecutor, StateManager stateManager) {
         this.dialogService = dialogService;

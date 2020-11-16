@@ -46,15 +46,15 @@ import org.apache.http.client.utils.URIBuilder;
  */
 public class AstrophysicsDataSystem implements IdBasedParserFetcher, SearchBasedParserFetcher, EntryBasedParserFetcher {
 
+    private static final String BIBCODE = "bibcode";
+    private static final String SEARCH_URI_MALFORMED = "Search URI is malformed";
+    private static final String NETWORK_ERROR_OCCURRED = "A network error occurred";
+
     private static final String API_SEARCH_URL = "https://api.adsabs.harvard.edu/v1/search/query";
     private static final String API_EXPORT_URL = "https://api.adsabs.harvard.edu/v1/export/bibtexabs";
 
     private static final String API_KEY = new BuildInfo().astrophysicsDataSystemAPIKey;
     private final ImportFormatPreferences preferences;
-
-    private static final String BIBCODE = "bibcode";
-    private static final String SEARCH_URI_MALFORMED = "Search URI is malformed";
-    private static final String NETWORK_ERROR_OCCURRED = "A network error occurred";
 
     public AstrophysicsDataSystem(ImportFormatPreferences preferences) {
         this.preferences = Objects.requireNonNull(preferences);

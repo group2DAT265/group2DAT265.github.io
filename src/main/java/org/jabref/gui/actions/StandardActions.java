@@ -1,6 +1,7 @@
 package org.jabref.gui.actions;
 
 import java.util.Optional;
+
 import org.jabref.gui.icon.IconTheme;
 import org.jabref.gui.icon.JabRefIcon;
 import org.jabref.gui.keyboard.KeyBinding;
@@ -158,7 +159,6 @@ public enum StandardActions implements Action {
     SEARCH_FOR_UPDATES(Localization.lang("Check for updates")),
     ABOUT(Localization.lang("About JabRef"), Localization.lang("About JabRef")),
     GENERATE_WORDCLOUD(Localization.lang("Generate wordcloud"), IconTheme.JabRefIcons.WORDCLOUD, KeyBinding.GENERATE_WORDCLOUD);
-
 
     // Constant to avoid duplication and critical code smells
     private static class Constants {

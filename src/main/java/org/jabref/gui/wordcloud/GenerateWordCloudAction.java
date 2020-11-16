@@ -1,14 +1,20 @@
 package org.jabref.gui.wordcloud;
 
-import com.kennycason.kumo.CollisionMode;
-import com.kennycason.kumo.WordCloud;
-import com.kennycason.kumo.WordFrequency;
-import com.kennycason.kumo.bg.CircleBackground;
-import com.kennycason.kumo.bg.RectangleBackground;
-import com.kennycason.kumo.font.scale.LinearFontScalar;
-import com.kennycason.kumo.image.AngleGenerator;
-import com.kennycason.kumo.nlp.FrequencyAnalyzer;
+import java.awt.Dimension;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 import javafx.collections.ObservableList;
+
+import org.jabref.architecture.AllowedToUseAwt;
 import org.jabref.gui.DialogService;
 import org.jabref.gui.Globals;
 import org.jabref.gui.JabRefFrame;
@@ -24,19 +30,14 @@ import org.jabref.model.entry.field.StandardField;
 import org.jabref.model.wordcloud.WordCloudPreset;
 import org.jabref.preferences.JabRefPreferences;
 
-import java.awt.*;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
+import com.kennycason.kumo.CollisionMode;
+import com.kennycason.kumo.WordCloud;
+import com.kennycason.kumo.WordFrequency;
+import com.kennycason.kumo.bg.CircleBackground;
+import com.kennycason.kumo.bg.RectangleBackground;
+import com.kennycason.kumo.font.scale.LinearFontScalar;
+import com.kennycason.kumo.image.AngleGenerator;
+import com.kennycason.kumo.nlp.FrequencyAnalyzer;
 
 /*
  * Action used when generating a wordcloud from selected entries
@@ -44,6 +45,7 @@ import java.util.stream.Stream;
  *
  */
 
+@AllowedToUseAwt("Requires AWT to create word cloud")
 public class GenerateWordCloudAction extends SimpleCommand {
 
     private final DialogService dialogService;
@@ -83,13 +85,11 @@ public class GenerateWordCloudAction extends SimpleCommand {
                 e.printStackTrace();
             }
         });
-
-
     }
 
     public void generateWordCloud(WordCloudPreset wordCloudPreset) throws IOException {
         // Reads file with stopword, words to be removed, to be able to remove all those words from the abstracts before word cloud generation
-        List<String> stopWords = Files.readAllLines(Paths.get("./src/main/resources/wordcloud/stopwords.txt"));
+        List<String> stopWords = Files.readAllLines(Path.of("./src/main/resources/wordcloud/stopwords.txt"));
 
         // Collect the abstracts of the selected entries, reads all the abstracts, removes stopwords and puts them in a temp file to be used for wordcloud generation
         ObservableList<BibEntry> listOfSelectedEntries = stateManager.getSelectedEntries();
@@ -100,11 +100,11 @@ public class GenerateWordCloudAction extends SimpleCommand {
             FileWriter writer = new FileWriter(tmpFile);
             listOfSelectedEntries.forEach((entry) -> {
                 String words = "";
-                if((wordCloudPreset.getContent() == "Abstract" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.ABSTRACT)){
+                if ((wordCloudPreset.getContent() == "Abstract" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.ABSTRACT)) {
                     words += entry.getField(StandardField.ABSTRACT).get();
-                }else if((wordCloudPreset.getContent() == "Title" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.TITLE)){
+                } else if ((wordCloudPreset.getContent() == "Title" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.TITLE)) {
                     words += entry.getField(StandardField.TITLE).get();
-                }else if((wordCloudPreset.getContent() == "Keywords" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.KEYWORDS)){
+                } else if ((wordCloudPreset.getContent() == "Keywords" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.KEYWORDS)) {
                     words += entry.getField(StandardField.KEYWORDS).get();
                 }
 
@@ -128,23 +128,23 @@ public class GenerateWordCloudAction extends SimpleCommand {
             e.printStackTrace();
         }
 
-        if(tmpFile != null){
+        if (tmpFile != null) {
             // Generation of word cloud
             final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
             final Dimension dimension = new Dimension(600, 600);
 
             // Rectangle or circle as the background
             final WordCloud wordCloud;
-            if(wordCloudPreset.getShape() == "Rectangle"){
+            if (wordCloudPreset.getShape() == "Rectangle") {
                 wordCloud = new WordCloud(dimension, CollisionMode.RECTANGLE);
                 wordCloud.setBackground(new RectangleBackground(dimension));
-            }else{
+            } else {
                 wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
                 wordCloud.setBackground(new CircleBackground(300));
             }
-            if(wordCloudPreset.getDirection() == "Horizontal"){
+            if (wordCloudPreset.getDirection() == "Horizontal") {
                 wordCloud.setAngleGenerator(new AngleGenerator(0));
-                //wordCloud.setAngleGenerator(new AngleGenerator(0,0.01,2));
+                // wordCloud.setAngleGenerator(new AngleGenerator(0,0.01,2));
             }
             frequencyAnalyzer.setWordFrequenciesToReturn(wordCloudPreset.getNumberOfWords());
             final List<WordFrequency> wordFrequencies = frequencyAnalyzer.load(tmpFile);
@@ -158,7 +158,7 @@ public class GenerateWordCloudAction extends SimpleCommand {
             // Temp save of word-cloud
             wordCloud.writeToFile("./src/main/resources/wordcloud/generated_wordcloud.png");
 
-            //Opens a dialog with a preview of the word-cloud and the option to download or cancel
+            // Opens a dialog with a preview of the word-cloud and the option to download or cancel
             Optional<WordCloudPreset> downloadOrNot = new WordCloudGeneratedView(jabRefFrame.getCurrentBasePanel(), dialogService).showAndWait();
             downloadOrNot.ifPresent(preset -> {
                 FileDialogConfiguration fileDialogConfiguration = new FileDialogConfiguration.Builder()
@@ -175,11 +175,8 @@ public class GenerateWordCloudAction extends SimpleCommand {
 
                 dialogService.notify(Localization.lang("Word cloud saved!"));
             });
-        }else{
+        } else {
             System.out.println("The tmp file for abstracts is null.");
         }
-
-
-
     }
 }
