@@ -42,10 +42,9 @@ import org.apache.pdfbox.text.PDFTextStripper;
  */
 public class PdfContentImporter extends Importer {
 
-	// Constants
-	private static final String AND = " and ";
-	private static final String ABSTRACT = "Abstract";
-	private static final String KEYWORDS = "Keywords";
+    private static final String AND = " and ";
+    private static final String ABSTRACT = "Abstract";
+    private static final String KEYWORDS = "Keywords";
 
     private static final Pattern YEAR_EXTRACT_PATTERN = Pattern.compile("\\d{4}");
     private final ImportFormatPreferences importFormatPreferences;
@@ -102,11 +101,11 @@ public class PdfContentImporter extends Importer {
                     // skip possible ands between names
                     curName = curName.substring(3).trim();
                 } else {
-					int posAnd = curName.indexOf(AND);
+                    int posAnd = curName.indexOf(AND);
                     if (posAnd >= 0) {
                         String nameBefore = curName.substring(0, posAnd);
                         // cannot be first name as "," is contained in the string
-						res = res.concat(AND).concat(removeNonLettersAtEnd(nameBefore));
+                        res = res.concat(AND).concat(removeNonLettersAtEnd(nameBefore));
                         curName = curName.substring(posAnd + 5);
                     }
                 }
@@ -118,7 +117,7 @@ public class PdfContentImporter extends Importer {
                     if (isFirst) {
                         isFirst = false;
                     } else {
-						res = res.concat(AND);
+                        res = res.concat(AND);
                     }
                     res = res.concat(curName);
                 }
@@ -165,7 +164,7 @@ public class PdfContentImporter extends Importer {
                         if (isFirst) {
                             isFirst = false;
                         } else {
-							res = res.concat(AND);
+                            res = res.concat(AND);
                         }
                         if ("et".equalsIgnoreCase(splitNames[i]) && (splitNames.length > (i + 1))
                                 && "al.".equalsIgnoreCase(splitNames[i + 1])) {
@@ -317,7 +316,7 @@ public class PdfContentImporter extends Importer {
                 if ("".equals(curString)) {
                     // if lines[i] is "and" then "" is returned by streamlineNames -> do nothing
                 } else {
-					author = author.concat(AND).concat(curString);
+                    author = author.concat(AND).concat(curString);
                 }
             }
             lineIndex++;
@@ -328,13 +327,13 @@ public class PdfContentImporter extends Importer {
         // then, abstract and keywords follow
         while (lineIndex < lines.length) {
             curString = lines[lineIndex];
-			if ((curString.length() >= ABSTRACT.length())
-					&& ABSTRACT.equalsIgnoreCase(curString.substring(0, ABSTRACT.length()))) {
-				if (curString.length() == ABSTRACT.length()) {
+            if ((curString.length() >= ABSTRACT.length())
+                    && ABSTRACT.equalsIgnoreCase(curString.substring(0, ABSTRACT.length()))) {
+                if (curString.length() == ABSTRACT.length()) {
                     // only word "abstract" found -- skip line
                     curString = "";
                 } else {
-					curString = curString.substring(ABSTRACT.length() + 1).trim().concat(System.lineSeparator());
+                    curString = curString.substring(ABSTRACT.length() + 1).trim().concat(System.lineSeparator());
                 }
                 lineIndex++;
                 // fillCurStringWithNonEmptyLines() cannot be used as that uses " " as line separator
@@ -345,13 +344,13 @@ public class PdfContentImporter extends Importer {
                 }
                 abstractT = curString.trim();
                 lineIndex++;
-			} else if ((curString.length() >= KEYWORDS.length())
-					&& KEYWORDS.equalsIgnoreCase(curString.substring(0, KEYWORDS.length()))) {
-				if (curString.length() == KEYWORDS.length()) {
+            } else if ((curString.length() >= KEYWORDS.length())
+                    && KEYWORDS.equalsIgnoreCase(curString.substring(0, KEYWORDS.length()))) {
+                if (curString.length() == KEYWORDS.length()) {
                     // only word "Keywords" found -- skip line
                     curString = "";
                 } else {
-					curString = curString.substring(KEYWORDS.length() + 1).trim();
+                    curString = curString.substring(KEYWORDS.length() + 1).trim();
                 }
                 lineIndex++;
                 fillCurStringWithNonEmptyLines();

@@ -1,7 +1,7 @@
 package org.jabref.logic.bibtex.comparator;
 
 import java.nio.charset.Charset;
-import java.nio.file.Paths;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -25,6 +25,7 @@ import org.jabref.model.metadata.ContentSelector;
 import org.jabref.model.metadata.MetaData;
 import org.jabref.model.metadata.SaveOrderConfig;
 import org.jabref.preferences.JabRefPreferences;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -32,7 +33,7 @@ import static org.junit.jupiter.api.Assertions.assertLinesMatch;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.mockito.Mockito.mock;
 
-public class MetaDataDiffTest {
+class MetaDataDiffTest {
 
     private JabRefPreferences prefs = JabRefPreferences.getInstance();
 
@@ -113,7 +114,7 @@ public class MetaDataDiffTest {
         originalMetaData.setGroups(otherRootGroup);
 
         MetaDataDiff metaDataDiff = MetaDataDiff.compare(originalMetaData, newMetaData).get();
-        
+
         List<String> expected = new ArrayList<>();
         expected.add(Localization.lang("Modified groups tree"));
 
@@ -129,7 +130,7 @@ public class MetaDataDiffTest {
         newMetaData.setEncoding(Charset.forName("UTF-16"));
 
         MetaDataDiff metaDataDiff = MetaDataDiff.compare(originalMetaData, newMetaData).get();
-        
+
         List<String> expected = new ArrayList<>();
         expected.add(Localization.lang("Library encoding"));
 
@@ -145,12 +146,11 @@ public class MetaDataDiffTest {
         SaveOrderConfig saveOrderConfigOther = new SaveOrderConfig();
         saveOrderConfigOther.setSaveInSpecifiedOrder();
 
-
         originalMetaData.setSaveOrderConfig(saveOrderConfig);
         newMetaData.setSaveOrderConfig(saveOrderConfigOther);
 
         MetaDataDiff metaDataDiff = MetaDataDiff.compare(originalMetaData, newMetaData).get();
-        
+
         List<String> expected = new ArrayList<>();
         expected.add(Localization.lang("Save sort order"));
 
@@ -173,7 +173,7 @@ public class MetaDataDiffTest {
         newMetaData.setCiteKeyPattern(patternNew);
 
         MetaDataDiff metaDataDiff = MetaDataDiff.compare(originalMetaData, newMetaData).get();
-        
+
         List<String> expected = new ArrayList<>();
         expected.add(Localization.lang("Key patterns"));
         expected.add(Localization.lang("Default pattern"));
@@ -190,7 +190,7 @@ public class MetaDataDiffTest {
         newMetaData.setUserFileDirectory("userNew", "pathNew");
 
         MetaDataDiff metaDataDiff = MetaDataDiff.compare(originalMetaData, newMetaData).get();
-        
+
         List<String> expected = new ArrayList<>();
         expected.add(Localization.lang("User-specific file directory"));
 
@@ -202,11 +202,11 @@ public class MetaDataDiffTest {
         MetaData originalMetaData = new MetaData();
         MetaData newMetaData = new MetaData();
 
-        originalMetaData.setLatexFileDirectory("user", Paths.get("/tmp/foo"));
-        newMetaData.setLatexFileDirectory("user", Paths.get("/tmp/foo/bar"));
+        originalMetaData.setLatexFileDirectory("user", Path.of("/tmp/foo"));
+        newMetaData.setLatexFileDirectory("user", Path.of("/tmp/foo/bar"));
 
         MetaDataDiff metaDataDiff = MetaDataDiff.compare(originalMetaData, newMetaData).get();
-        
+
         List<String> expected = new ArrayList<>();
         expected.add(Localization.lang("LaTeX file directory"));
 
@@ -225,7 +225,7 @@ public class MetaDataDiffTest {
         newMetaData.setSaveActions(saveActionsNew);
 
         MetaDataDiff metaDataDiff = MetaDataDiff.compare(originalMetaData, newMetaData).get();
-        
+
         List<String> expected = new ArrayList<>();
         expected.add(Localization.lang("Save actions"));
 
@@ -241,7 +241,7 @@ public class MetaDataDiffTest {
         newMetaData.setMode(BibDatabaseMode.BIBLATEX);
 
         MetaDataDiff metaDataDiff = MetaDataDiff.compare(originalMetaData, newMetaData).get();
-        
+
         List<String> expected = new ArrayList<>();
         expected.add(Localization.lang("Library mode"));
 
@@ -257,7 +257,7 @@ public class MetaDataDiffTest {
         newMetaData.setDefaultFileDirectory("tmp/foo/bar");
 
         MetaDataDiff metaDataDiff = MetaDataDiff.compare(originalMetaData, newMetaData).get();
-        
+
         List<String> expected = new ArrayList<>();
         expected.add(Localization.lang("General file directory"));
 
@@ -285,6 +285,4 @@ public class MetaDataDiffTest {
             return null;
         }
     }
-
-
 }

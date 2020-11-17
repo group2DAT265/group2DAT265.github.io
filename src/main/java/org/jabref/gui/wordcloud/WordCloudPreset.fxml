@@ -4,13 +4,13 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<DialogPane prefWidth="476.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jabref.gui.wordcloud.WordCloudPresetView">
+<DialogPane prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jabref.gui.wordcloud.WordCloudPresetView">
     <buttonTypes>
         <ButtonType fx:constant="CANCEL" />
         <ButtonType fx:id="generateButton" buttonData="OK_DONE" text="%Generate" />
     </buttonTypes>
     <content>
-        <VBox prefHeight="200.0" prefWidth="400.0" spacing="10.0">
+        <VBox prefHeight="300.0" prefWidth="300.0" spacing="10.0">
             <children>
                 <HBox>
                     <children>
@@ -24,6 +24,12 @@
                                 <ComboBox fx:id="colorPaletteSelection" prefHeight="30.0" prefWidth="300.0" />
                                 <Label text="Background" />
                                 <ComboBox fx:id="backgroundSelection" prefHeight="30.0" prefWidth="300.0" />
+                                <Label text="Direction" />
+                                <ComboBox fx:id="directionSelection" prefHeight="30.0" prefWidth="300.0" />
+                                <Label text="Number of words" />
+                                <ComboBox fx:id="numberOfWordsSelection" prefHeight="30.0" prefWidth="300.0" />
+                                <Label text="Content" />
+                                <ComboBox fx:id="contentSelection" prefHeight="30.0" prefWidth="300.0" />
                             </children>
                         </VBox>
                     </children>

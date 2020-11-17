@@ -21,12 +21,12 @@ public class ExporterFactory {
      */
     @Deprecated public static int entryNumber;
 
-    private final List<Exporter> exporters;
-
     private static final String TABLE_REFS = "tablerefs";
     private static final String LIST_REFS = "listrefs";
     private static final String TABLE_REFS_ABS_BIB = "tablerefsabsbib";
     private static final String HARVARD = "harvard";
+
+    private final List<Exporter> exporters;
 
     private ExporterFactory(List<Exporter> exporters) {
         this.exporters = Objects.requireNonNull(exporters);

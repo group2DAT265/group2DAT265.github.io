@@ -59,6 +59,10 @@ import org.slf4j.LoggerFactory;
 
 public class LinkedFileViewModel extends AbstractViewModel {
 
+    // Constants
+    private static final String COULD_NOT_FIND_FILE = "Could not find file '%0'.";
+    private static final String FILE_NOT_FOUND = "File not found";
+    
     private static final Logger LOGGER = LoggerFactory.getLogger(LinkedFileViewModel.class);
 
     private final LinkedFile linkedFile;
@@ -74,10 +78,6 @@ public class LinkedFileViewModel extends AbstractViewModel {
     private final XmpPreferences xmpPreferences;
     private final LinkedFileHandler linkedFileHandler;
     private final ExternalFileTypes externalFileTypes;
-
-    // Constants
-    private static final String COULD_NOT_FIND_FILE = "Could not find file '%0'.";
-    private static final String FILE_NOT_FOUND = "File not found";
 
     private final Validator fileExistsValidator;
 

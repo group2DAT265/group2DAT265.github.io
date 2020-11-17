@@ -57,13 +57,12 @@ import org.jabref.model.entry.types.EntryType;
  */
 class ModsExporter extends Exporter {
 
+    private static final String NAMEPART = "namePart";
     private static final String MODS_NAMESPACE_URI = "http://www.loc.gov/mods/v3";
     private static final String MINUS = "-";
     private static final String DOUBLE_MINUS = "--";
     private static final String MODS_SCHEMA_LOCATION = "http://www.loc.gov/standards/mods/v3/mods-3-6.xsd";
     private JAXBContext context;
-
-    private static final String NAMEPART = "namePart";
 
     public ModsExporter() {
         super("mods", "MODS", StandardFileType.XML);

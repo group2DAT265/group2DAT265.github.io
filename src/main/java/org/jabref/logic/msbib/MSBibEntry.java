@@ -28,10 +28,9 @@ import org.w3c.dom.NodeList;
  */
 class MSBibEntry {
 
-	// Constants
-	private static final String MONTH_STRING = "Month";
-	private static final String AUTHOR = "Author";
-	private static final String ACCESSED = "Accessed";
+    private static final String MONTH_STRING = "Month";
+    private static final String AUTHOR = "Author";
+    private static final String ACCESSED = "Accessed";
 
     // MSBib fields and values
     public Map<String, String> fields = new HashMap<>();
@@ -159,7 +158,7 @@ class MSBibEntry {
             number = getXmlElementTextContent("PatentNumber", entry);
         }
         journalName = getXmlElementTextContent("JournalName", entry);
-		month = getXmlElementTextContent(MONTH_STRING, entry);
+        month = getXmlElementTextContent(MONTH_STRING, entry);
         internetSiteTitle = getXmlElementTextContent("InternetSiteTitle", entry);
 
         String monthAccessed = getXmlElementTextContent("MonthAccessed", entry);
@@ -172,14 +171,14 @@ class MSBibEntry {
 
         parsedDateAcessed.map(Date::getNormalized).ifPresent(date -> dateAccessed = date);
 
-		NodeList nodeLst = entry.getElementsByTagNameNS("*", AUTHOR);
+        NodeList nodeLst = entry.getElementsByTagNameNS("*", AUTHOR);
         if (nodeLst.getLength() > 0) {
             getAuthors((Element) nodeLst.item(0));
         }
     }
 
     private void getAuthors(Element authorsElem) {
-		authors = getSpecificAuthors(AUTHOR, authorsElem);
+        authors = getSpecificAuthors(AUTHOR, authorsElem);
         bookAuthors = getSpecificAuthors("BookAuthor", authorsElem);
         editors = getSpecificAuthors("Editor", authorsElem);
         translators = getSpecificAuthors("Translator", authorsElem);
@@ -255,9 +254,9 @@ class MSBibEntry {
 
         Optional.ofNullable(dateAccessed).ifPresent(field -> addDateAcessedFields(document, rootNode));
 
-		Element allAuthors = document.createElementNS(MSBibDatabase.NAMESPACE, MSBibDatabase.PREFIX + AUTHOR);
+        Element allAuthors = document.createElementNS(MSBibDatabase.NAMESPACE, MSBibDatabase.PREFIX + AUTHOR);
 
-		addAuthor(document, allAuthors, AUTHOR, authors);
+        addAuthor(document, allAuthors, AUTHOR, authors);
         addAuthor(document, allAuthors, "BookAuthor", bookAuthors);
         addAuthor(document, allAuthors, "Editor", editors);
         addAuthor(document, allAuthors, "Translator", translators);
@@ -279,7 +278,7 @@ class MSBibEntry {
             addField(document, rootNode, "Pages", pages.toString("-"));
         }
         addField(document, rootNode, "Year", year);
-		addField(document, rootNode, MONTH_STRING, month);
+        addField(document, rootNode, MONTH_STRING, month);
         addField(document, rootNode, "Day", day);
 
         addField(document, rootNode, "JournalName", journalName);
@@ -345,15 +344,15 @@ class MSBibEntry {
     private void addDateAcessedFields(Document document, Element rootNode) {
         Optional<Date> parsedDateAcesseField = Date.parse(dateAccessed);
         parsedDateAcesseField.flatMap(Date::getYear).map(Object::toString).ifPresent(yearAccessed -> {
-			addField(document, rootNode, "Year" + ACCESSED, yearAccessed);
+            addField(document, rootNode, "Year" + ACCESSED, yearAccessed);
         });
 
         parsedDateAcesseField.flatMap(Date::getMonth)
                              .map(Month::getTwoDigitNumber).ifPresent(monthAcessed -> {
-					addField(document, rootNode, MONTH_STRING + ACCESSED, monthAcessed);
+                                 addField(document, rootNode, MONTH_STRING + ACCESSED, monthAcessed);
         });
         parsedDateAcesseField.flatMap(Date::getDay).map(Object::toString).ifPresent(dayAccessed -> {
-			addField(document, rootNode, "Day" + ACCESSED, dayAccessed);
+            addField(document, rootNode, "Day" + ACCESSED, dayAccessed);
         });
     }
 

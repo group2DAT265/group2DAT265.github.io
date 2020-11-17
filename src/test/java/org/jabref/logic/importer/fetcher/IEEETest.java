@@ -10,6 +10,7 @@ import org.jabref.logic.importer.SearchBasedFetcher;
 import org.jabref.model.entry.BibEntry;
 import org.jabref.model.entry.field.StandardField;
 import org.jabref.model.entry.types.StandardEntryType;
+import org.jabref.support.DisabledOnCIServer;
 import org.jabref.testutils.category.FetcherTest;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -33,6 +34,13 @@ class IEEETest implements SearchBasedFetcherCapabilityTest {
         entry = new BibEntry();
     }
 
+    @DisabledOnCIServer("Only 200 calls per day")
+    @Test
+    @Override
+    public void supportsAuthorSearch() throws Exception {
+    }
+
+    @DisabledOnCIServer("Only 200 calls per day")
     @Test
     void findByDOI() throws Exception {
         entry.setField(StandardField.DOI, "10.1109/ACCESS.2016.2535486");
@@ -40,6 +48,7 @@ class IEEETest implements SearchBasedFetcherCapabilityTest {
                 fetcher.findFullText(entry));
     }
 
+    @DisabledOnCIServer("Only 200 calls per day")
     @Test
     void findByDocumentUrl() throws Exception {
         entry.setField(StandardField.URL, "https://ieeexplore.ieee.org/document/7421926/");
@@ -47,6 +56,7 @@ class IEEETest implements SearchBasedFetcherCapabilityTest {
                 fetcher.findFullText(entry));
     }
 
+    @DisabledOnCIServer("Only 200 calls per day")
     @Test
     void findByURL() throws Exception {
         entry.setField(StandardField.URL, "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7421926&ref=");
@@ -54,6 +64,7 @@ class IEEETest implements SearchBasedFetcherCapabilityTest {
                 fetcher.findFullText(entry));
     }
 
+    @DisabledOnCIServer("Only 200 calls per day")
     @Test
     void findByOldURL() throws Exception {
         entry.setField(StandardField.URL, "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7421926");
@@ -61,6 +72,7 @@ class IEEETest implements SearchBasedFetcherCapabilityTest {
                 fetcher.findFullText(entry));
     }
 
+    @DisabledOnCIServer("Only 200 calls per day")
     @Test
     void findByDOIButNotURL() throws Exception {
         entry.setField(StandardField.DOI, "10.1109/ACCESS.2016.2535486");
@@ -69,18 +81,21 @@ class IEEETest implements SearchBasedFetcherCapabilityTest {
                 fetcher.findFullText(entry));
     }
 
+    @DisabledOnCIServer("Only 200 calls per day")
     @Test
     void notFoundByURL() throws Exception {
         entry.setField(StandardField.URL, "http://dx.doi.org/10.1109/ACCESS.2016.2535486");
         assertEquals(Optional.empty(), fetcher.findFullText(entry));
     }
 
+    @DisabledOnCIServer("Only 200 calls per day")
     @Test
     void notFoundByDOI() throws Exception {
         entry.setField(StandardField.DOI, "10.1021/bk-2006-WWW.ch014");
         assertEquals(Optional.empty(), fetcher.findFullText(entry));
     }
 
+    @DisabledOnCIServer("Only 200 calls per day")
     @Test
     void searchResultHasNoKeywordTerms() throws Exception {
         BibEntry expected = new BibEntry(StandardEntryType.ARTICLE)
@@ -103,6 +118,7 @@ class IEEETest implements SearchBasedFetcherCapabilityTest {
     }
 
     @Test
+    @DisabledOnCIServer("Only 200 calls per day")
     void searchByQueryFindsEntry() throws Exception {
         BibEntry expected = new BibEntry(StandardEntryType.IN_PROCEEDINGS)
                 .withField(StandardField.AUTHOR, "Igor Steinmacher and Tayana Uchoa Conte and Christoph Treude and Marco Aurélio Gerosa")

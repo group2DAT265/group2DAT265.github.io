@@ -17,6 +17,7 @@ import org.jabref.support.DisabledOnCIServer;
 import org.jabref.testutils.category.FetcherTest;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -36,6 +37,32 @@ class GoogleScholarTest implements SearchBasedFetcherCapabilityTest {
                 mock(FieldContentFormatterPreferences.class));
         finder = new GoogleScholar(importFormatPreferences);
         entry = new BibEntry();
+    }
+
+    @Disabled("Is not supported by the current API")
+    @Test
+    @Override
+    public void supportsYearSearch() throws Exception {
+    }
+
+    @Disabled("Is not supported by the current API")
+    @Test
+    @Override
+    public void supportsYearRangeSearch() throws Exception {
+
+    }
+
+    @Disabled("Is not supported by the current API")
+    @Test
+    @Override
+    public void supportsAuthorSearch() throws Exception {
+    }
+
+    @Disabled("Is not supported by the current API")
+    @Test
+    @Override
+    public void supportsJournalSearch() throws Exception {
+
     }
 
     @Test
@@ -59,6 +86,7 @@ class GoogleScholarTest implements SearchBasedFetcherCapabilityTest {
 
     @Test
     @DisabledOnCIServer("CI server is blocked by Google")
+    @Disabled("Not our problem.")
     void findSingleEntry() throws FetcherException {
         entry.setType(StandardEntryType.IN_PROCEEDINGS);
         entry.setCiteKey("geiger2013detecting");
@@ -75,6 +103,7 @@ class GoogleScholarTest implements SearchBasedFetcherCapabilityTest {
 
     @Test
     @DisabledOnCIServer("CI server is blocked by Google")
+    @Disabled("Not our problem.")
     void findManyEntries() throws FetcherException {
         List<BibEntry> foundEntries = finder.performSearch("random test string");
 
