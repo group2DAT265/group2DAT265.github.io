@@ -1,5 +1,16 @@
 var NAVTREEINDEX37 =
 {
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bib_te_x_m_l_importer.html#affc960ec003793252e93b2f2ab8982f6":[2,0,0,0,3,13,1,2,10],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer.html":[2,0,0,0,3,13,1,0],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer.html#a0cf2d79347edf7f773678d9689960b15":[2,0,0,0,3,13,1,0,3],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer.html#a2a2305768dc3713c2d3c7a29b00170e1":[2,0,0,0,3,13,1,0,1],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer.html#a2f17de14e68015fc123d20b016e99fd3":[2,0,0,0,3,13,1,0,0],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer.html#aa55028f025e1207769f481e9ad40fac9":[2,0,0,0,3,13,1,0,4],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_biblioscape_importer.html#ae0ce638ac8487bd4da1b4d53e9e0a292":[2,0,0,0,3,13,1,0,2],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html":[2,0,0,0,3,13,1,1],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#a101b9530dae82b575ea0e9ebe68524b6":[2,0,0,0,3,13,1,1,7],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#a435c891831e15a1710a457b75a50030c":[2,0,0,0,3,13,1,1,6],
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#a51cc857edc9933ea24592c6b42ba560c":[2,0,0,0,3,13,1,1,4],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#a7d295ed6eccc0a07f6055588748850bd":[2,0,0,0,3,13,1,1,1],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#a96dc85ac3a37d88b347b74e3902fec92":[2,0,0,0,3,13,1,1,5],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_bibtex_importer.html#aa29463650ec2232a1eb6ce8a7afe2fc0":[2,0,0,0,3,13,1,1,8],
@@ -238,16 +249,5 @@ var NAVTREEINDEX37 =
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#adf0412703dcc3fbc9467ed9ef3b4e2fe":[2,0,0,0,3,13,1,13,0],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#ae157a96655a9ea9a6074e08317bfe4d6":[2,0,0,0,3,13,1,13,12],
 "classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#ae4dbcbd80ee6d83b8a4ced6d7e1e1104":[2,0,0,0,3,13,1,13,10],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#aea5f9c2a09c31f40cbcd825e26ca4492":[2,0,0,0,3,13,1,13,21],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#af2a4b1ea7f96c1e27f9ddf156943363e":[2,0,0,0,3,13,1,13,3],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html":[2,0,0,0,3,13,1,14],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a0ec4583f76268f79368273f889e58be4":[2,0,0,0,3,13,1,14,2],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a28ec9764d1c8c55035dc40bec172a56f":[2,0,0,0,3,13,1,14,25],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a2d3927492410ff307221d6c6682f1fcc":[2,0,0,0,3,13,1,14,24],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a371dd7307754a5675314fa1b7788de06":[2,0,0,0,3,13,1,14,13],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a529d90031cf813538d7c53b3c57f59b1":[2,0,0,0,3,13,1,14,10],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a68a2913af50178fb26a39e62e57773df":[2,0,0,0,3,13,1,14,6],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a6b95ac3c6ac91de810cba18e6d0479bb":[2,0,0,0,3,13,1,14,8],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a86997f82e48f19608b58f30af1593e7a":[2,0,0,0,3,13,1,14,3],
-"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_mods_importer.html#a8b68f263aaa7ed0542dabfc514c47825":[2,0,0,0,3,13,1,14,16]
+"classorg_1_1jabref_1_1logic_1_1importer_1_1fileformat_1_1_medline_plain_importer.html#aea5f9c2a09c31f40cbcd825e26ca4492":[2,0,0,0,3,13,1,13,21]
 };

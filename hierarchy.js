@@ -217,8 +217,8 @@ var hierarchy =
       [ "org.jabref.logic.bst.VM.StackFunction", "classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_stack_function.html", null ],
       [ "org.jabref.logic.bst.WidthFunction", "classorg_1_1jabref_1_1logic_1_1bst_1_1_width_function.html", null ]
     ] ],
-    [ "org.jabref.gui.util.FileDialogConfiguration.Builder", "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html", null ],
     [ "org.jabref.gui.util.DirectoryDialogConfiguration.Builder", "classorg_1_1jabref_1_1gui_1_1util_1_1_directory_dialog_configuration_1_1_builder.html", null ],
+    [ "org.jabref.gui.util.FileDialogConfiguration.Builder", "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html", null ],
     [ "org.jabref.preferences.PreviewPreferences.Builder", "classorg_1_1jabref_1_1preferences_1_1_preview_preferences_1_1_builder.html", null ],
     [ "Builder", null, [
       [ "org.jabref.gui.logging.ApplicationInsightsAppender.Builder< B extends Builder< B >", "classorg_1_1jabref_1_1gui_1_1logging_1_1_application_insights_appender_1_1_builder.html", null ],
@@ -1056,6 +1056,7 @@ var hierarchy =
     ] ],
     [ "org.jabref.model.search.rules.SearchRules", "classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_search_rules.html", null ],
     [ "org.jabref.gui.search.SearchTextField", "classorg_1_1jabref_1_1gui_1_1search_1_1_search_text_field.html", null ],
+    [ "org.jabref.logic.importer.fetcher.SemanticScholar", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar.html", null ],
     [ "org.jabref.model.search.rules.SentenceAnalyzer", "classorg_1_1jabref_1_1model_1_1search_1_1rules_1_1_sentence_analyzer.html", null ],
     [ "Serializable", null, [
       [ "org.jabref.logic.layout.StringInt", "classorg_1_1jabref_1_1logic_1_1layout_1_1_string_int.html", null ]
@@ -1131,8 +1132,8 @@ var hierarchy =
     [ "org.jabref.model.TreeNode< GroupTreeNode >", "classorg_1_1jabref_1_1model_1_1_tree_node.html", null ],
     [ "org.jabref.logic.importer.fetcher.TrustLevel", "enumorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_trust_level.html", null ],
     [ "org.jabref.model.entry.BibtexString.Type", "enumorg_1_1jabref_1_1model_1_1entry_1_1_bibtex_string_1_1_type.html", null ],
-    [ "org.jabref.gui.maintable.MainTableColumnModel.Type", "enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html", null ],
     [ "org.jabref.gui.util.Theme.Type", "enumorg_1_1jabref_1_1gui_1_1util_1_1_theme_1_1_type.html", null ],
+    [ "org.jabref.gui.maintable.MainTableColumnModel.Type", "enumorg_1_1jabref_1_1gui_1_1maintable_1_1_main_table_column_model_1_1_type.html", null ],
     [ "org.jabref.logic.TypedBibEntry", "classorg_1_1jabref_1_1logic_1_1_typed_bib_entry.html", null ],
     [ "org.jabref.gui.util.uithreadaware.UiThreadObservableList< org.jabref.gui.fieldeditors.LinkedFileViewModel >", "classorg_1_1jabref_1_1gui_1_1util_1_1uithreadaware_1_1_ui_thread_observable_list.html", null ],
     [ "UncaughtExceptionHandler", null, [

@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_content_formatter_preferences.html#aeafc745d7c2a30e290cc4705dd777b1e":[2,0,0,0,3,2,3,1],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer.html":[2,0,0,0,3,2,4],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer.html#a01d01d0529cad628cb0cafa35e2b18a5":[2,0,0,0,3,2,4,15],
 "classorg_1_1jabref_1_1logic_1_1bibtex_1_1_field_writer.html#a1ad7bc7777788fc0f39052981dd7fd82":[2,0,0,0,3,2,4,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_stack_function.html#aefcfc96c2d75a45c9d18a919db8acd68":[2,0,0,0,3,3,10,4,3],
 "classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_variable.html":[2,0,0,0,3,3,10,5],
 "classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_variable.html#a6b14db0d3df49be86c571e6d8430fd14":[2,0,0,0,3,3,10,5,0],
-"classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_variable.html#a9a38ca5e806e5ff540f95ce1392c34e7":[2,0,0,0,3,3,10,5,2],
-"classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_variable.html#afdc0a2ab451fd3ab4e2a20972fcd453d":[2,0,0,0,3,3,10,5,1]
+"classorg_1_1jabref_1_1logic_1_1bst_1_1_v_m_1_1_variable.html#a9a38ca5e806e5ff540f95ce1392c34e7":[2,0,0,0,3,3,10,5,2]
 };

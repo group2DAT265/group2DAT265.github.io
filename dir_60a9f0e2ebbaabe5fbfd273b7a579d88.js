@@ -107,6 +107,9 @@ var dir_60a9f0e2ebbaabe5fbfd273b7a579d88 =
     [ "ScienceDirect.java", "_science_direct_8java.html", [
       [ "ScienceDirect", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct" ]
     ] ],
+    [ "SemanticScholar.java", "_semantic_scholar_8java.html", [
+      [ "SemanticScholar", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar" ]
+    ] ],
     [ "SpringerFetcher.java", "_springer_fetcher_8java.html", [
       [ "SpringerFetcher", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher" ]
     ] ],

@@ -35,6 +35,7 @@ var namespaceorg_1_1jabref_1_1logic_1_1importer_1_1fetcher =
     [ "OpenAccessDoi", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_open_access_doi" ],
     [ "RfcFetcher", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_rfc_fetcher.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_rfc_fetcher" ],
     [ "ScienceDirect", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_science_direct" ],
+    [ "SemanticScholar", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar" ],
     [ "SpringerFetcher", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_fetcher" ],
     [ "SpringerLink", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_link.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_springer_link" ],
     [ "TitleFetcher", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_title_fetcher.html", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_title_fetcher" ],

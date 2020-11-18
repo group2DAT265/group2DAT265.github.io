@@ -1,5 +1,16 @@
 var NAVTREEINDEX55 =
 {
+"enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#af98076dc4f8eb910f46ab5b645ae4dc4":[2,0,0,0,2,0,5,63],
+"enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#afa9a612fdee3145b93e6c7e8c0bbbc26":[2,0,0,0,2,0,5,100],
+"enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#afcb92d98b5473a0c096284fd451d943e":[2,0,0,0,2,0,5,130],
+"enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#afd4a09babcac1679d5c18af479532f4b":[2,0,0,0,2,0,5,60],
+"enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#aff4c0c612001d0eea9b41bd3c81cb752":[2,0,0,0,2,0,5,11],
+"enumorg_1_1jabref_1_1gui_1_1autocompleter_1_1_auto_complete_first_name_mode.html":[2,0,0,0,2,1,2],
+"enumorg_1_1jabref_1_1gui_1_1autocompleter_1_1_auto_complete_first_name_mode.html#a05dfa82d62dfab7929fa283cb9b44184":[2,0,0,0,2,1,2,2],
+"enumorg_1_1jabref_1_1gui_1_1autocompleter_1_1_auto_complete_first_name_mode.html#a15a53af9fbd23518070ae2afb34d6fa4":[2,0,0,0,2,1,2,1],
+"enumorg_1_1jabref_1_1gui_1_1autocompleter_1_1_auto_complete_first_name_mode.html#a5f39d10902afdb94c34fcafa46b67f5d":[2,0,0,0,2,1,2,0],
+"enumorg_1_1jabref_1_1gui_1_1autocompleter_1_1_auto_complete_first_name_mode.html#a8f93a89521084abb2e1b2489d7b8070d":[2,0,0,0,2,1,2,3],
+"enumorg_1_1jabref_1_1gui_1_1autocompleter_1_1_auto_complete_preferences_1_1_name_format.html":[2,0,0,0,2,1,3,0],
 "enumorg_1_1jabref_1_1gui_1_1autocompleter_1_1_auto_complete_preferences_1_1_name_format.html#a8957a4348ca5a41685b8ef231bd71ce2":[2,0,0,0,2,1,3,0,0],
 "enumorg_1_1jabref_1_1gui_1_1autocompleter_1_1_auto_complete_preferences_1_1_name_format.html#ab90e42152c86aee7467067b035297d3e":[2,0,0,0,2,1,3,0,2],
 "enumorg_1_1jabref_1_1gui_1_1autocompleter_1_1_auto_complete_preferences_1_1_name_format.html#ac95ff28c03687af3561690b60b9c4f3e":[2,0,0,0,2,1,3,0,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX55 =
 "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#aeaa1b6754d4ec72fcdfa1bef42cb7526":[2,0,0,0,2,26,0,0,15],
 "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#aebeb425fe47abc1a0b8a6bb56931b0d2":[2,0,0,0,2,26,0,0,18],
 "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#aec06ebc63c219ad1ab9c1fbb3915fe80":[2,0,0,0,2,26,0,0,164],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#aed610d43e62d2fe38d4037661b75b68a":[2,0,0,0,2,26,0,0,138],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#aee4036f094b33c135cf056e6410bb76b":[2,0,0,0,2,26,0,0,31],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#af1c8ac12f1b43231b09c06df7cc5e463":[2,0,0,0,2,26,0,0,33],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#af2744a498e1ba5d8879bb6a93cc26c1e":[2,0,0,0,2,26,0,0,144],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#af73746a713553d2a167666e0891efb00":[2,0,0,0,2,26,0,0,95],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#af9a9320c6362352727836bab66667a2c":[2,0,0,0,2,26,0,0,79],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#afb09429f6cefc75699fac553353eb5ab":[2,0,0,0,2,26,0,0,17],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#afb90d0af749af9c4b1fd140cb2b99657":[2,0,0,0,2,26,0,0,159],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#afd454df2da3c5d42b51db5f0a4ecdf74":[2,0,0,0,2,26,0,0,166],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#afdf3621562c7a9fa07428f796b64d8d1":[2,0,0,0,2,26,0,0,148],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html":[2,0,0,0,2,26,4],
-"enumorg_1_1jabref_1_1gui_1_1icon_1_1_jab_ref_material_design_icon.html#a0364ed945773a6a774e42072ad7ce30c":[2,0,0,0,2,26,4,18]
+"enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#aed610d43e62d2fe38d4037661b75b68a":[2,0,0,0,2,26,0,0,138]
 };

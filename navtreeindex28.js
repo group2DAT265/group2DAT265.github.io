@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration.html#af8960736311dece2635085aa4487831d":[2,0,0,0,2,48,16,2],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html":[2,0,0,0,2,48,16,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a0776f13bd59ea410e6bade081a384302":[2,0,0,0,2,48,16,0,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_file_dialog_configuration_1_1_builder.html#a1aa48c15fd86453fe695d15b5341f52a":[2,0,0,0,2,48,16,0,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classorg_1_1jabref_1_1gui_1_1util_1_1_zip_file_chooser.html#a266d6b67c76b7898d5c4606afe4a826c":[2,0,0,0,2,48,38,0],
 "classorg_1_1jabref_1_1gui_1_1util_1_1_zip_file_chooser.html#a329c0d631ee70041823c13a58a0aaa50":[2,0,0,0,2,48,38,1],
 "classorg_1_1jabref_1_1gui_1_1util_1_1comparator_1_1_numeric_field_comparator.html":[2,0,0,0,2,48,0,0],
-"classorg_1_1jabref_1_1gui_1_1util_1_1comparator_1_1_numeric_field_comparator.html#a708ba982105119e470bcf7ea59adfb4b":[2,0,0,0,2,48,0,0,0],
-"classorg_1_1jabref_1_1gui_1_1util_1_1comparator_1_1_priority_field_comparator.html":[2,0,0,0,2,48,0,1]
+"classorg_1_1jabref_1_1gui_1_1util_1_1comparator_1_1_numeric_field_comparator.html#a708ba982105119e470bcf7ea59adfb4b":[2,0,0,0,2,48,0,0,0]
 };

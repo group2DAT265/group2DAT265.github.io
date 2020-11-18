@@ -225,6 +225,7 @@ var NAVTREEINDEX3 =
 "_search_rules_8java.html":[3,0,0,0,0,0,0,5,5,1,4],
 "_search_short_science_action_8java.html":[3,0,0,0,0,0,0,2,33,16],
 "_search_text_field_8java.html":[3,0,0,0,0,0,0,2,43,3],
+"_semantic_scholar_8java.html":[3,0,0,0,0,0,0,3,13,0,35],
 "_send_as_e_mail_action_8java.html":[3,0,0,0,0,0,0,2,72],
 "_sentence_analyzer_8java.html":[3,0,0,0,0,0,0,5,5,1,5],
 "_sentence_case_formatter_8java.html":[3,0,0,0,0,0,0,3,10,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "_silver_platter_importer_8java.html":[3,0,0,0,0,0,0,3,13,1,23],
 "_simple_command_8java.html":[3,0,0,0,0,0,0,2,0,4],
 "_simple_editor_8java.html":[3,0,0,0,0,0,0,2,22,35],
-"_simple_editor_view_model_8java.html":[3,0,0,0,0,0,0,2,22,36],
-"_smart_constrained_resize_policy_8java.html":[3,0,0,0,0,0,0,2,33,17]
+"_simple_editor_view_model_8java.html":[3,0,0,0,0,0,0,2,22,36]
 };

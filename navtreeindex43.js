@@ -1,5 +1,16 @@
 var NAVTREEINDEX43 =
 {
+"classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_preferences.html#ac9a958883193242c8ab0fb655368d148":[2,0,0,0,3,25,3,3],
+"classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_preferences.html#acbbc442ac979b96a7692159230225188":[2,0,0,0,3,25,3,8],
+"classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_preferences.html#acd9acdbf234874f8dbfb1434fbd1ff31":[2,0,0,0,3,25,3,5],
+"classorg_1_1jabref_1_1logic_1_1protectedterms_1_1_protected_terms_preferences.html#afc3afb4c068edb1b0ef4ef642123126c":[2,0,0,0,3,25,3,1],
+"classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html":[2,0,0,0,3,26,3],
+"classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html#a119e222d7b4c7f8e6d684af20e652d73":[2,0,0,0,3,26,3,4],
+"classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html#a2690457b4ec231eda7a383c04564364b":[2,0,0,0,3,26,3,8],
+"classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html#a609e7d90580e2dd15ac57fc6fdc63856":[2,0,0,0,3,26,3,6],
+"classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html#a9cdb53a4a5a1f166c3ab2b7bc8af91f6":[2,0,0,0,3,26,3,3],
+"classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html#aa05b6e826b78041cd0cb6bc03a8f0409":[2,0,0,0,3,26,3,2],
+"classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html#acf7840e6af154e2e57cf76adf636d3b6":[2,0,0,0,3,26,3,1],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html#adedc0138460b3c733b7871e27125bad9":[2,0,0,0,3,26,3,7],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html#af4de6ca6d4315c2dd177677f6bac7ecd":[2,0,0,0,3,26,3,0],
 "classorg_1_1jabref_1_1logic_1_1remote_1_1_remote_preferences.html#af956b11eca1d3e138d2e4075070793ac":[2,0,0,0,3,26,3,5],
@@ -238,16 +249,5 @@ var NAVTREEINDEX43 =
 "classorg_1_1jabref_1_1logic_1_1shared_1_1_oracle_processor.html#abc1034353d6cd20d613f89f48fb39c88":[2,0,0,0,3,28,17,0],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1_oracle_processor.html#abd2f2308cdb4b8b6b962cfea7594c62a":[2,0,0,0,3,28,17,10],
 "classorg_1_1jabref_1_1logic_1_1shared_1_1_oracle_processor.html#ad67c063be5ce4c8c8d5b82565db82fe7":[2,0,0,0,3,28,17,7],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1_postgre_s_q_l_processor.html":[2,0,0,0,3,28,18],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1_postgre_s_q_l_processor.html#a041cae0692f15269f4fb8646a1c10ad8":[2,0,0,0,3,28,18,4],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1_postgre_s_q_l_processor.html#a1478c667b02b8fe2a4f56e15ab985284":[2,0,0,0,3,28,18,0],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1_postgre_s_q_l_processor.html#a7b45ad02dfc724919644b19b1cbdc2e7":[2,0,0,0,3,28,18,7],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1_postgre_s_q_l_processor.html#a91c168642aa48e7e5ac24e0d2d7261a4":[2,0,0,0,3,28,18,3],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1_postgre_s_q_l_processor.html#aa6bc676ca792963db2a9314fc7295de9":[2,0,0,0,3,28,18,1],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1_postgre_s_q_l_processor.html#ac5b7f1cf6c706de1a014de50c5f92a5f":[2,0,0,0,3,28,18,5],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1_postgre_s_q_l_processor.html#ac7c1f3c0352d2ad405fe3e939a95f966":[2,0,0,0,3,28,18,6],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1_postgre_s_q_l_processor.html#ad3fcc3494d89f4b56f8fff2e598e28e1":[2,0,0,0,3,28,18,2],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_connection_lost_event.html":[2,0,0,0,3,28,0,0],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_connection_lost_event.html#a51e41f195e4188a357df3dd4bdd0c90f":[2,0,0,0,3,28,0,0,2],
-"classorg_1_1jabref_1_1logic_1_1shared_1_1event_1_1_connection_lost_event.html#a94ddfc549909eab12025b37395ae9b98":[2,0,0,0,3,28,0,0,0]
+"classorg_1_1jabref_1_1logic_1_1shared_1_1_postgre_s_q_l_processor.html":[2,0,0,0,3,28,18]
 };

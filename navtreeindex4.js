@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"_smart_constrained_resize_policy_8java.html":[3,0,0,0,0,0,0,2,33,17],
 "_source_tab_8java.html":[3,0,0,0,0,0,0,2,17,17],
 "_sources_8java.html":[3,0,0,0,0,0,0,2,0,5],
 "_special_field_8java.html":[3,0,0,0,0,0,0,5,1,1,8],
@@ -12,8 +13,8 @@ var NAVTREEINDEX4 =
 "_special_field_view_model_8java.html":[3,0,0,0,0,0,0,2,45,5],
 "_special_fields_preferences_8java.html":[3,0,0,0,0,0,0,2,45,3],
 "_special_fields_utils_8java.html":[3,0,0,0,0,0,0,3,29,0],
-"_springer_fetcher_8java.html":[3,0,0,0,0,0,0,3,13,0,35],
-"_springer_link_8java.html":[3,0,0,0,0,0,0,3,13,0,36],
+"_springer_fetcher_8java.html":[3,0,0,0,0,0,0,3,13,0,36],
+"_springer_link_8java.html":[3,0,0,0,0,0,0,3,13,0,37],
 "_standard_actions_8java.html":[3,0,0,0,0,0,0,2,0,6],
 "_standard_entry_type_8java.html":[3,0,0,0,0,0,0,5,1,3,7],
 "_standard_external_file_type_8java.html":[3,0,0,0,0,0,0,2,21,8],
@@ -59,7 +60,7 @@ var NAVTREEINDEX4 =
 "_title_8java.html":[3,0,0,0,0,0,0,3,10,1,4],
 "_title_case_formatter_8java.html":[3,0,0,0,0,0,0,3,10,1,5],
 "_title_checker_8java.html":[3,0,0,0,0,0,0,3,14,32],
-"_title_fetcher_8java.html":[3,0,0,0,0,0,0,3,13,0,37],
+"_title_fetcher_8java.html":[3,0,0,0,0,0,0,3,13,0,38],
 "_title_parser_8java.html":[3,0,0,0,0,0,0,3,10,1,6],
 "_to_lower_case_8java.html":[3,0,0,0,0,0,0,3,17,0,67],
 "_to_upper_case_8java.html":[3,0,0,0,0,0,0,3,17,0,68],
@@ -68,7 +69,7 @@ var NAVTREEINDEX4 =
 "_tree_node_8java.html":[3,0,0,0,0,0,0,5,12],
 "_trim_whitespace_formatter_8java.html":[3,0,0,0,0,0,0,3,10,0,22],
 "_truncate_formatter_8java.html":[3,0,0,0,0,0,0,3,10,2,1],
-"_trust_level_8java.html":[3,0,0,0,0,0,0,3,13,0,38],
+"_trust_level_8java.html":[3,0,0,0,0,0,0,3,13,0,39],
 "_type_checker_8java.html":[3,0,0,0,0,0,0,3,14,33],
 "_type_editor_view_model_8java.html":[3,0,0,0,0,0,0,2,22,38],
 "_typed_bib_entry_8java.html":[3,0,0,0,0,0,0,3,35],
@@ -165,7 +166,7 @@ var NAVTREEINDEX4 =
 "_xmp_util_writer_8java.html":[3,0,0,0,0,0,0,3,33,6],
 "_year_checker_8java.html":[3,0,0,0,0,0,0,3,14,37],
 "_yes_no_editor_view_model_8java.html":[3,0,0,0,0,0,0,2,22,42],
-"_zb_m_a_t_h_8java.html":[3,0,0,0,0,0,0,3,13,0,39],
+"_zb_m_a_t_h_8java.html":[3,0,0,0,0,0,0,3,13,0,40],
 "_zip_file_chooser_8java.html":[3,0,0,0,0,0,0,2,48,39],
 "annotated.html":[2,0],
 "citationkeypattern_2_citation_key_pattern_panel_8java.html":[3,0,0,0,0,0,0,2,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#ac11a1de0751bd8572c70928690908bb6":[2,0,0,0,1,4,40],
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#ac29fd8954cbd5635afcb0e9a635b2157":[2,0,0,0,1,4,34],
 "classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#aca895d4ea589be21ba802c531e09f405":[2,0,0,0,1,4,24],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#acd680e1c6817d10511f6ff37c057a5e8":[2,0,0,0,1,4,16],
-"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#acefae0c8a904c8fa3cfd1e48dbc72224":[2,0,0,0,1,4,12]
+"classorg_1_1jabref_1_1cli_1_1_jab_ref_c_l_i.html#acd680e1c6817d10511f6ff37c057a5e8":[2,0,0,0,1,4,16]
 };
