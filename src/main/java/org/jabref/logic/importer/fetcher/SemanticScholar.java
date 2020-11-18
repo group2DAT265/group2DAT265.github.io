@@ -1,6 +1,6 @@
 package org.jabref.logic.importer.fetcher;
 
-import com.google.gson.JsonPrimitive;
+import com.microsoft.applicationinsights.core.dependencies.http.HttpException;
 import kong.unirest.json.JSONArray;
 import kong.unirest.json.JSONObject;
 
@@ -18,7 +18,7 @@ public class SemanticScholar {
     private static final String CITATIONS_KEY = "citations";
     private static final String YEAR_KEY = "year";
 
-    public static HashMap<String, Integer> getOneCitationReportByDOI(String DOI) throws IOException, InterruptedException {
+    public static HashMap<String, Integer> getOneCitationReportByDOI(String DOI) throws IOException, InterruptedException, HttpException {
         String urlString = getPaperQuery(DOI);
 
         HttpClient client = HttpClient.newHttpClient();
@@ -28,14 +28,18 @@ public class SemanticScholar {
 
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
-        // TODO: Add error handling
-        // TODO: HTTP 429
+        if (response.statusCode() != 200) {
+            String exceptionMessage = String.format("%d", response.statusCode());
+            throw new HttpException(exceptionMessage);
+        }
+
         JSONObject responseObject = getResponseJSON(response.body());
         JSONArray citationsArray = responseObject.getJSONArray(CITATIONS_KEY);
         return getCitationYears(citationsArray);
     }
 
-    public static HashMap<String, Integer> getCitationReportsByDOIs(ArrayList<String> DOIs) throws IOException, InterruptedException {
+    public static HashMap<String, Integer> getCitationReportsByDOIs(ArrayList<String> DOIs) throws IOException, InterruptedException, HttpException {
+
         ArrayList<HashMap<String, Integer>> citationReports = new ArrayList<>();
         for (String doIs : DOIs) {
             HashMap<String, Integer> citationReport = getOneCitationReportByDOI(doIs);
