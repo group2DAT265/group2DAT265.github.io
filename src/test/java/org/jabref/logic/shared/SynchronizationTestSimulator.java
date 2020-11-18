@@ -11,19 +11,16 @@ import org.jabref.model.entry.field.UnknownField;
 import org.jabref.model.entry.types.StandardEntryType;
 import org.jabref.model.util.DummyFileUpdateMonitor;
 import org.jabref.testutils.category.DatabaseTest;
-
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.parallel.Execution;
-import org.junit.jupiter.api.parallel.ExecutionMode;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.parallel.Execution;
+import org.junit.jupiter.api.parallel.ExecutionMode;
 
 @DatabaseTest
 @Execution(ExecutionMode.SAME_THREAD)
@@ -117,7 +114,6 @@ public class SynchronizationTestSimulator {
     }
 
     @Test
-    @Disabled("Not our problem.")
     public void simulateUpdateOnNoLongerExistingEntry() throws Exception {
         BibEntry bibEntryOfClientA = getBibEntryExample(1);
         // client A inserts an entry
@@ -144,7 +140,6 @@ public class SynchronizationTestSimulator {
     }
 
     @Test
-    @Disabled("Not our problem.")
     public void simulateEntryChangeConflicts() {
         BibEntry bibEntryOfClientA = getBibEntryExample(1);
         // client A inserts an entry

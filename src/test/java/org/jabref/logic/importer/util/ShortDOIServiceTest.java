@@ -2,13 +2,10 @@ package org.jabref.logic.importer.util;
 
 import org.jabref.model.entry.identifier.DOI;
 import org.jabref.testutils.category.FetcherTest;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 @FetcherTest
 class ShortDOIServiceTest {
@@ -31,7 +28,6 @@ class ShortDOIServiceTest {
     }
 
     @Test
-    @Disabled("Not our problem.")
     void shouldThrowExceptionWhenDOIWasNotFound() throws ShortDOIServiceException {
         assertThrows(ShortDOIServiceException.class, () -> sut.getShortDOI(notExistingDoi));
     }

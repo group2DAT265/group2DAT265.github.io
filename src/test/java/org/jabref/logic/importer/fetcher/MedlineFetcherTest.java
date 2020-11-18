@@ -9,13 +9,10 @@ import org.jabref.model.entry.field.StandardField;
 import org.jabref.model.entry.field.UnknownField;
 import org.jabref.model.entry.types.StandardEntryType;
 import org.jabref.testutils.category.FetcherTest;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 @FetcherTest
 public class MedlineFetcherTest {
@@ -170,7 +167,6 @@ public class MedlineFetcherTest {
         assertEquals(Optional.of(bibEntrySari), fetchedEntry);
     }
 
-    @Disabled("Not our problem")
     @Test
     public void testMultipleEntries() throws Exception {
         List<BibEntry> entryList = fetcher.performSearch("java");

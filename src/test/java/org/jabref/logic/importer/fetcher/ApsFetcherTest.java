@@ -6,12 +6,9 @@ import java.util.Optional;
 import org.jabref.model.entry.BibEntry;
 import org.jabref.model.entry.field.StandardField;
 import org.jabref.testutils.category.FetcherTest;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 @FetcherTest
 class ApsFetcherTest {
@@ -23,14 +20,12 @@ class ApsFetcherTest {
         finder = new ApsFetcher();
     }
 
-    @Disabled("Not our problem")
     @Test
     void findFullTextFromDoi() throws Exception {
         BibEntry entry = new BibEntry().withField(StandardField.DOI, "10.1103/PhysRevLett.116.061102");
         assertEquals(Optional.of(new URL("https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.116.061102")), finder.findFullText(entry));
     }
 
-    @Disabled("Not our problem")
     @Test
     void findFullTextFromLowercaseDoi() throws Exception {
         BibEntry entry = new BibEntry().withField(StandardField.DOI, "10.1103/physrevlett.124.029002");

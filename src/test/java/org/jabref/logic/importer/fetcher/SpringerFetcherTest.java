@@ -31,7 +31,6 @@ class SpringerFetcherTest implements SearchBasedFetcherCapabilityTest {
     }
 
     @Test
-    @Disabled("Not our problem.")
     void searchByQueryFindsEntry() throws Exception {
         BibEntry expected = new BibEntry(StandardEntryType.ARTICLE)
                 .withField(StandardField.AUTHOR, "Steinmacher, Igor and Gerosa, Marco and Conte, Tayana U. and Redmiles, David F.")
@@ -94,7 +93,6 @@ class SpringerFetcherTest implements SearchBasedFetcherCapabilityTest {
     }
 
     @Test
-    @Disabled("Not our problem.")
     public void supportsPhraseSearch() throws Exception {
         // Normal search should match due to Redmiles, Elissa M., phrase search on the other hand should not find it.
         BibEntry expected = new BibEntry(StandardEntryType.IN_COLLECTION)
