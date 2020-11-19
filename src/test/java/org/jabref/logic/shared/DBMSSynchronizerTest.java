@@ -22,16 +22,13 @@ import org.jabref.model.entry.types.StandardEntryType;
 import org.jabref.model.metadata.MetaData;
 import org.jabref.model.util.DummyFileUpdateMonitor;
 import org.jabref.testutils.category.DatabaseTest;
-
 import org.junit.jupiter.api.AfterEach;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @DatabaseTest
 @Execution(ExecutionMode.SAME_THREAD)
@@ -89,7 +86,6 @@ public class DBMSSynchronizerTest {
     }
 
     @Test
-    @Disabled("Not our problem.")
     public void twoLocalFieldChangesAreSynchronizedCorrectly() throws Exception {
         BibEntry expectedEntry = createExampleBibEntry(1);
         expectedEntry.registerListener(dbmsSynchronizer);
@@ -143,7 +139,6 @@ public class DBMSSynchronizerTest {
     }
 
     @Test
-    @Disabled("Not our problem.")
     public void testMetaDataChangedEventListener() throws Exception {
         MetaData testMetaData = new MetaData();
         testMetaData.registerListener(dbmsSynchronizer);
@@ -187,7 +182,6 @@ public class DBMSSynchronizerTest {
     }
 
     @Test
-    @Disabled("Not our problem.")
     public void testSynchronizeLocalDatabaseWithEntryUpdate() throws Exception {
         BibEntry bibEntry = createExampleBibEntry(1);
         bibDatabase.insertEntry(bibEntry);

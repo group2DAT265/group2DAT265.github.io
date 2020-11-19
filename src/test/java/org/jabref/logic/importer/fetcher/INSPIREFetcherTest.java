@@ -10,12 +10,9 @@ import org.jabref.model.entry.field.StandardField;
 import org.jabref.model.entry.field.UnknownField;
 import org.jabref.model.entry.types.StandardEntryType;
 import org.jabref.testutils.category.FetcherTest;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -32,7 +29,6 @@ class INSPIREFetcherTest {
     }
 
     @Test
-    @Disabled("Not our problem.")
     void searchByQueryFindsEntry() throws Exception {
         BibEntry master = new BibEntry(StandardEntryType.MASTER_THESIS)
                 .withCiteKey("Diez:2014ppa")
