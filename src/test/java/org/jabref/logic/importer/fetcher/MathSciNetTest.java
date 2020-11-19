@@ -11,13 +11,10 @@ import org.jabref.model.entry.field.StandardField;
 import org.jabref.model.entry.types.StandardEntryType;
 import org.jabref.support.DisabledOnCIServer;
 import org.jabref.testutils.category.FetcherTest;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -63,7 +60,6 @@ class MathSciNetTest {
 
     @Test
     @DisabledOnCIServer("CI server has no subscription to MathSciNet and thus gets 401 response")
-    @Disabled("Not our problem.")
     void searchByIdInEntryFindsEntry() throws Exception {
         BibEntry searchEntry = new BibEntry();
         searchEntry.setField(StandardField.MR_NUMBER, "3537908");
@@ -74,7 +70,6 @@ class MathSciNetTest {
 
     @Test
     @DisabledOnCIServer("CI server has no subscription to MathSciNet and thus gets 401 response")
-    @Disabled("Not our problem.")
     void searchByQueryFindsEntry() throws Exception {
         List<BibEntry> fetchedEntries = fetcher.performSearch("Existence and uniqueness theorems Two-Dimensional Ericksen Leslie System");
         assertFalse(fetchedEntries.isEmpty());
@@ -83,7 +78,6 @@ class MathSciNetTest {
 
     @Test
     @DisabledOnCIServer("CI server has no subscription to MathSciNet and thus gets 401 response")
-    @Disabled("Not our problem.")
     void searchByIdFindsEntry() throws Exception {
         Optional<BibEntry> fetchedEntry = fetcher.performSearchById("3537908");
         assertEquals(Optional.of(ratiuEntry), fetchedEntry);

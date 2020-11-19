@@ -8,13 +8,10 @@ import org.jabref.model.entry.BibEntry;
 import org.jabref.model.entry.field.StandardField;
 import org.jabref.model.entry.types.StandardEntryType;
 import org.jabref.testutils.category.FetcherTest;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.Answers;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
 
 @FetcherTest
@@ -44,7 +41,6 @@ public class TitleFetcherTest {
     }
 
     @Test
-    @Disabled("Not our problem.")
     public void testPerformSearchKopp2007() throws FetcherException {
         Optional<BibEntry> fetchedEntry = fetcher.performSearchById("BPELscript: A simplified script syntax for WS-BPEL 2.0");
         assertEquals(Optional.of(bibEntryBischof2009), fetchedEntry);

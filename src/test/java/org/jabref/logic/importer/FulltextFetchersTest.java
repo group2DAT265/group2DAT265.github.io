@@ -9,13 +9,10 @@ import java.util.Set;
 import org.jabref.logic.importer.fetcher.TrustLevel;
 import org.jabref.model.entry.BibEntry;
 import org.jabref.testutils.category.FetcherTest;
-
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -60,7 +57,6 @@ public class FulltextFetchersTest {
     }
 
     @Test
-    @Disabled("Not our problem.")
     public void higherTrustLevelWins() throws IOException, FetcherException {
         final URL lowUrl = new URL("http://docs.oasis-open.org/opencsa/sca-bpel/sca-bpel-1.1-spec-cd-01.pdf");
         final URL highUrl = new URL("http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.pdf");

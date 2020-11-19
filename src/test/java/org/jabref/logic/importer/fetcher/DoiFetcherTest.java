@@ -8,14 +8,11 @@ import org.jabref.model.entry.BibEntry;
 import org.jabref.model.entry.field.StandardField;
 import org.jabref.model.entry.types.StandardEntryType;
 import org.jabref.testutils.category.FetcherTest;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
-import org.mockito.Answers;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.Answers;
 import static org.mockito.Mockito.mock;
 
 @FetcherTest
@@ -104,7 +101,6 @@ public class DoiFetcherTest {
         assertThrows(FetcherException.class, () -> fetcher.performSearchById("10.1002/9781118257517F"));
     }
 
-    @Disabled("Not our problem")
     @Test
     public void testPerformSearchNonTrimmedDOI() throws FetcherException {
         Optional<BibEntry> fetchedEntry = fetcher.performSearchById("http s://doi.org/ 10.1109 /ICWS .2007.59 ");

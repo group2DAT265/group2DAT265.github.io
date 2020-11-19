@@ -20,16 +20,14 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.junit.jupiter.api.Disabled;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.testfx.framework.junit5.ApplicationExtension;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 // Need to run on JavaFX thread since we are parsing FXML files
 @ExtendWith(ApplicationExtension.class)
@@ -87,7 +85,6 @@ class LocalizationConsistencyTest {
         }
     }
 
-    @Disabled("Not our problem.")
     @Test
     void languageKeysShouldNotBeQuotedInFiles() throws IOException {
         final List<LocalizationEntry> quotedEntries = LocalizationParser
@@ -105,7 +102,6 @@ class LocalizationConsistencyTest {
                                 .collect(Collectors.toList()));
     }
 
-    @Disabled("Not our problem.")
     @Test
     void findMissingLocalizationKeys() throws IOException {
         List<LocalizationEntry> missingKeys = LocalizationParser.find(LocalizationBundleForTest.LANG)
@@ -122,7 +118,6 @@ class LocalizationConsistencyTest {
                                    .collect(Collectors.joining("\n", "\n", "\n")));
     }
 
-    @Disabled("Not our problem.")
     @Test
     void findObsoleteLocalizationKeys() throws IOException {
         Set<String> obsoleteKeys = LocalizationParser.findObsolete(LocalizationBundleForTest.LANG);
@@ -135,7 +130,6 @@ class LocalizationConsistencyTest {
                         "2. REMOVE THESE FROM THE ENGLISH LANGUAGE FILE\n");
     }
 
-    @Disabled("Not our problem.")
     @Test
     void localizationParameterMustIncludeAString() throws IOException {
         // Must start or end with "
