@@ -12,13 +12,24 @@
     <content>
         <VBox prefHeight="200.0" prefWidth="400.0" spacing="10.0">
             <children>
-                <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
+                <HBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
                     <children>
-                        <Label text="Citations per year" />
-                        <VBox fx:id="citationsBox" />
+                    	<VBox>
+                    		<Label text="Citations per year" />
+                        	<VBox fx:id="citationsBox" />
+                        </VBox>
+						<VBox>
+                    		<Label text="Author Occurrences" />
+                        	<VBox fx:id="authBox" />
+                        </VBox>
+                        <VBox>
+                    		<Label text="Years published" />
+                        	<VBox fx:id="yearBox" />
+                        </VBox>
+                        
+                        
                     </children>
-                </VBox>
-                <Label text="Preview" />
+                </HBox>
             </children>
         </VBox>
     </content>
