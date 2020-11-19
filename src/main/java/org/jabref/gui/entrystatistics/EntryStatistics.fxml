@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 
 <?import javafx.scene.image.ImageView?>
-<DialogPane prefWidth="476.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jabref.gui.webofscience.WebOfScienceView">
+<DialogPane prefWidth="476.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jabref.gui.entrystatistics.EntryStatisticsView">
     <buttonTypes>
         <ButtonType fx:constant="CANCEL" />
         <ButtonType fx:id="downloadButton" buttonData="OK_DONE" text="%Save" />
@@ -12,17 +12,13 @@
     <content>
         <VBox prefHeight="200.0" prefWidth="400.0" spacing="10.0">
             <children>
-                <HBox>
+                <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
                     <children>
-                        <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
-                            <children>
-                                <Label text="Graph" />
-                            </children>
-                        </VBox>
+                        <Label text="Citations per year" />
+                        <VBox fx:id="citationsBox" />
                     </children>
-                </HBox>
+                </VBox>
                 <Label text="Preview" />
-                <ImageView fx:id="webOfScienceView" fitWidth="350.0" preserveRatio="true" />
             </children>
         </VBox>
     </content>
