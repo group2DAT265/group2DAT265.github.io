@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.*?>
 
 <?import javafx.scene.image.ImageView?>
 <DialogPane prefWidth="476.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jabref.gui.entrystatistics.EntryStatisticsView">
@@ -10,26 +11,33 @@
         <ButtonType fx:id="downloadButton" buttonData="OK_DONE" text="%Save" />
     </buttonTypes>
     <content>
-        <VBox prefHeight="200.0" prefWidth="400.0" spacing="10.0">
+        <VBox prefHeight="400.0" prefWidth="400.0" spacing="10.0">
             <children>
-                <HBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
+                <VBox maxWidth="Infinity">
                     <children>
-                    	<VBox>
-                    		<Label text="Citations per year" />
-                        	<VBox fx:id="citationsBox" />
-                        </VBox>
-						<VBox>
-                    		<Label text="Author Occurrences" />
-                        	<VBox fx:id="authBox" />
-                        </VBox>
-                        <VBox>
-                    		<Label text="Years published" />
-                        	<VBox fx:id="yearBox" />
-                        </VBox>
-                        
-                        
+                        <Label text="Citations per year" />
+                        <BarChart fx:id="citationsChart">
+                            <xAxis>
+                                <CategoryAxis fx:id="xAxis" side="BOTTOM" />
+                            </xAxis>
+                            <yAxis>
+                                 <NumberAxis fx:id="yAxis" side="LEFT"  />
+                            </yAxis>
+                        </BarChart>
+                        <HBox maxWidth="Infinity" HBox.hgrow="ALWAYS" spacing="20.0">
+                            <children>
+                                <VBox>
+                                    <Label text="Author Occurrences" />
+                                    <VBox fx:id="authBox" />
+                                </VBox>
+                                <VBox>
+                                    <Label text="Years published" />
+                                    <VBox fx:id="yearBox" />
+                                </VBox>
+                            </children>
+                        </HBox>
                     </children>
-                </HBox>
+                </VBox>
             </children>
         </VBox>
     </content>

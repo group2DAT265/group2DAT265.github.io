@@ -1,21 +1,21 @@
 package org.jabref.model.entrystatistics;
 
 import java.util.HashMap;
+import java.util.TreeMap;
 
 public class EntryStatistics {
-    // TODO: CitationReport
-    private HashMap<String, Integer> citationReport;
+    private TreeMap<String, Integer> citationReport;
     private HashMap<String, Integer> yearPubReport;
     private HashMap<String, Integer> authCountReport;
 
     public EntryStatistics() {
     }
 
-    public void setCitationReport(HashMap<String, Integer> citationReport) {
+    public void setCitationReport(TreeMap<String, Integer> citationReport) {
         this.citationReport = citationReport;
     }
 
-    public HashMap<String, Integer> getCitationReport() {
+    public TreeMap<String, Integer> getCitationReport() {
         return this.citationReport;
     }
 

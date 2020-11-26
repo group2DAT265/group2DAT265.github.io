@@ -15,6 +15,7 @@ import org.jabref.model.entrystatistics.EntryStatistics;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.TreeMap;
 
 import javafx.collections.ObservableList;
 
@@ -51,7 +52,7 @@ public class EntryStatisticsAction extends SimpleCommand {
 
         ArrayList<String> selectedEntriesDOI = getDOIsFromSelectedEntries();
         try {
-            HashMap<String, Integer> citationReport = SemanticScholar.getCitationReportsByDOIs(selectedEntriesDOI);
+            TreeMap<String, Integer> citationReport = SemanticScholar.getCitationReportsByDOIs(selectedEntriesDOI);
             entryStatistics.setCitationReport(citationReport);
         } catch (IOException | InterruptedException | HttpException e) {
             e.printStackTrace();

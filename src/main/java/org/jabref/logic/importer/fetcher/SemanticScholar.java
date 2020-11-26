@@ -3,6 +3,7 @@ package org.jabref.logic.importer.fetcher;
 import com.microsoft.applicationinsights.core.dependencies.http.HttpException;
 import kong.unirest.json.JSONArray;
 import kong.unirest.json.JSONObject;
+import org.antlr.runtime.tree.Tree;
 
 import java.io.IOException;
 import java.net.URI;
@@ -11,6 +12,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.TreeMap;
 
 public class SemanticScholar {
 
@@ -38,7 +40,7 @@ public class SemanticScholar {
         return getCitationYears(citationsArray);
     }
 
-    public static HashMap<String, Integer> getCitationReportsByDOIs(ArrayList<String> DOIs) throws IOException, InterruptedException, HttpException {
+    public static TreeMap<String, Integer> getCitationReportsByDOIs(ArrayList<String> DOIs) throws IOException, InterruptedException, HttpException {
 
         ArrayList<HashMap<String, Integer>> citationReports = new ArrayList<>();
         for (String doIs : DOIs) {
@@ -71,13 +73,13 @@ public class SemanticScholar {
         return citationReport;
     }
 
-    private static HashMap<String, Integer> combineReports(ArrayList<HashMap<String, Integer>> citationReports) {
+    private static TreeMap<String, Integer> combineReports(ArrayList<HashMap<String, Integer>> citationReports) {
         HashMap<String, Integer> combinedReports = new HashMap<>();
 
         for (HashMap<String, Integer> report: citationReports) {
             report.forEach((k, v) -> combinedReports.merge(k, v, Integer::sum));
         }
 
-        return combinedReports;
+        return new TreeMap<>(combinedReports);
     }
 }
