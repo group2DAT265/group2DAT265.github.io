@@ -18,23 +18,31 @@
                         <Label text="Citations per year" />
                         <BarChart fx:id="citationsChart">
                             <xAxis>
-                                <CategoryAxis fx:id="xAxis" side="BOTTOM" />
+                                <CategoryAxis fx:id="citXAxis" side="BOTTOM" />
                             </xAxis>
                             <yAxis>
-                                 <NumberAxis fx:id="yAxis" side="LEFT"  />
+                                 <NumberAxis fx:id="citYAxis" side="LEFT"  />
+                            </yAxis>
+                        </BarChart>
+                        <Label text="Author Occurrences" />
+                        <BarChart fx:id="authorChart">
+                            <xAxis>
+                                <CategoryAxis fx:id="authXAxis" side="BOTTOM" />
+                            </xAxis>
+                            <yAxis>
+                                 <NumberAxis fx:id="authYAxis" side="LEFT"  />
+                            </yAxis>
+                        </BarChart>
+                        <Label text="Years published" />
+                        <BarChart fx:id="yearChart">
+                            <xAxis>
+                                <CategoryAxis fx:id="yearXAxis" side="BOTTOM" />
+                            </xAxis>
+                            <yAxis>
+                                 <NumberAxis fx:id="yearYAxis" side="LEFT"  />
                             </yAxis>
                         </BarChart>
                         <HBox maxWidth="Infinity" HBox.hgrow="ALWAYS" spacing="20.0">
-                            <children>
-                                <VBox>
-                                    <Label text="Author Occurrences" />
-                                    <VBox fx:id="authBox" />
-                                </VBox>
-                                <VBox>
-                                    <Label text="Years published" />
-                                    <VBox fx:id="yearBox" />
-                                </VBox>
-                            </children>
                         </HBox>
                     </children>
                 </VBox>

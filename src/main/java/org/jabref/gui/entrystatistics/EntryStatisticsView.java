@@ -2,13 +2,14 @@ package org.jabref.gui.entrystatistics;
 
 import com.airhacks.afterburner.views.ViewLoader;
 
+import javafx.embed.swing.SwingFXUtils;
 import javafx.fxml.FXML;
 import javafx.scene.chart.BarChart;
 import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.ButtonType;
-import javafx.scene.control.Label;
+import javafx.scene.image.WritableImage;
 import javafx.scene.layout.VBox;
 import org.jabref.gui.BasePanel;
 import org.jabref.gui.DialogService;
@@ -18,7 +19,11 @@ import org.jabref.logic.l10n.Localization;
 
 import org.jabref.model.entrystatistics.EntryStatistics;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Map;
+
+import javax.imageio.ImageIO;
 
 public class EntryStatisticsView extends BaseDialog<EntryStatistics> {
     @FXML
@@ -30,9 +35,15 @@ public class EntryStatisticsView extends BaseDialog<EntryStatistics> {
     @FXML
     private BarChart<String, Integer> citationsChart;
     @FXML
-    private NumberAxis yAxis;
+    private NumberAxis citYAxis;
     @FXML
-    private CategoryAxis xAxis;
+    private CategoryAxis citXAxis;
+    @FXML private BarChart<String, Integer> authorChart;
+    @FXML private NumberAxis authYAxis;
+    @FXML private CategoryAxis authXAxis;
+    @FXML private BarChart<String, Integer> yearChart;
+    @FXML private NumberAxis yearYAxis;
+    @FXML private CategoryAxis yearXAxis;
 
     private final BasePanel basePanel;
     private final DialogService dialogService;
@@ -46,35 +57,73 @@ public class EntryStatisticsView extends BaseDialog<EntryStatistics> {
                 .load()
                 .setAsDialogPane(this);
 
-        ControlHelper.setAction(downloadButton, this.getDialogPane(), event -> System.out.println("Graph"));
+        ControlHelper.setAction(downloadButton, this.getDialogPane(), event -> saveCharts());
     }
 
 
     public void setStatistics(EntryStatistics statistics) {
 
-        xAxis.setLabel("Year");
-        xAxis.setTickLabelRotation(90);
-        yAxis.setLabel("Citations");
+        citXAxis.setLabel("Year");
+        citXAxis.setTickLabelRotation(90);
+        citYAxis.setLabel("Citations");
 
-        XYChart.Series<String, Integer> series = new XYChart.Series<>();
-        series.setName("Citations per year");
+        XYChart.Series<String, Integer> citSeries = new XYChart.Series<>();
+        citSeries.setName("Citations per year");
         for (Map.Entry<String, Integer> entry : statistics.getCitationReport().entrySet()) {
             String tmpString = entry.getKey();
             Integer tmpValue = entry.getValue();
             XYChart.Data<String, Integer> d = new XYChart.Data<>(tmpString, tmpValue);
-            series.getData().add(d);
+            citSeries.getData().add(d);
         }
 
-        citationsChart.getData().add(series);
+        citationsChart.getData().add(citSeries);
 
-        for (String author : statistics.getAuthCountReport().keySet()) {
-            String labelText = String.format("%s – %d", author, statistics.getAuthCountReport().get(author));
-            authBox.getChildren().add(new Label(labelText));
+        authXAxis.setLabel("Author");
+        authXAxis.setTickLabelRotation(90);
+        authYAxis.setLabel("Author credits");
+
+        XYChart.Series<String, Integer> authSeries = new XYChart.Series<>();
+        authSeries.setName("Author Occurrences");
+        for (Map.Entry<String, Integer> entry : statistics.getAuthCountReport().entrySet()) {
+            String tmpString = entry.getKey();
+            Integer tmpValue = entry.getValue();
+            XYChart.Data<String, Integer> d = new XYChart.Data<>(tmpString, tmpValue);
+            authSeries.getData().add(d);
         }
 
-        for (String year : statistics.getYearPubReport().keySet()) {
-            String labelText = String.format("%s – %d", year, statistics.getYearPubReport().get(year));
-            yearBox.getChildren().add(new Label(labelText));
+        authorChart.getData().add(authSeries);
+
+        yearXAxis.setLabel("Year");
+        yearXAxis.setTickLabelRotation(90);
+        yearYAxis.setLabel("Papers published");
+
+        XYChart.Series<String, Integer> yearSeries = new XYChart.Series<>();
+        yearSeries.setName("Aggregated year of publication");
+        for (Map.Entry<String, Integer> entry : statistics.getYearPubReport().entrySet()) {
+            String tmpString = entry.getKey();
+            Integer tmpValue = entry.getValue();
+            XYChart.Data<String, Integer> d = new XYChart.Data<>(tmpString, tmpValue);
+            yearSeries.getData().add(d);
+        }
+
+        yearChart.getData().add(yearSeries);
+    }
+
+    private void saveCharts() {
+
+        try {
+            WritableImage snapShot = citationsChart.snapshot(null, null);
+            ImageIO.write(SwingFXUtils.fromFXImage(snapShot, null), "png", new File("citations.png"));
+
+            snapShot = authorChart.snapshot(null, null);
+            ImageIO.write(SwingFXUtils.fromFXImage(snapShot, null), "png", new File("authors.png"));
+
+            snapShot = yearChart.snapshot(null, null);
+            ImageIO.write(SwingFXUtils.fromFXImage(snapShot, null), "png", new File("years.png"));
+
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
         }
     }
 
