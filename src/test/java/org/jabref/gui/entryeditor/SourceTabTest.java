@@ -7,7 +7,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.stage.Stage;
-
+import org.fxmisc.richtext.CodeArea;
 import org.jabref.gui.DialogService;
 import org.jabref.gui.StateManager;
 import org.jabref.gui.keyboard.KeyBindingRepository;
@@ -21,16 +21,13 @@ import org.jabref.model.entry.BibEntry;
 import org.jabref.model.entry.field.UnknownField;
 import org.jabref.model.util.DummyFileUpdateMonitor;
 import org.jabref.testutils.category.GUITest;
-
-import org.fxmisc.richtext.CodeArea;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 import org.testfx.api.FxRobot;
 import org.testfx.framework.junit5.ApplicationExtension;
 import org.testfx.framework.junit5.Start;
-
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 @GUITest
 @ExtendWith(ApplicationExtension.class)
