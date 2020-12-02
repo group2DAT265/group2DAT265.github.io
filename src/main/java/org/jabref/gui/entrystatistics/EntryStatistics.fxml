@@ -5,45 +5,44 @@
 <?import javafx.scene.chart.*?>
 
 <?import javafx.scene.image.ImageView?>
-<DialogPane prefWidth="476.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jabref.gui.entrystatistics.EntryStatisticsView">
+<DialogPane prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jabref.gui.entrystatistics.EntryStatisticsView">
     <buttonTypes>
         <ButtonType fx:constant="CANCEL" />
         <ButtonType fx:id="downloadButton" buttonData="OK_DONE" text="%Save" />
     </buttonTypes>
     <content>
-        <VBox prefHeight="400.0" prefWidth="400.0" spacing="10.0">
+        <VBox prefHeight="800.0" prefWidth="800.0" spacing="10.0">
             <children>
                 <VBox maxWidth="Infinity">
                     <children>
-                        <Label text="Citations per year" />
-                        <BarChart fx:id="citationsChart">
-                            <xAxis>
-                                <CategoryAxis fx:id="citXAxis" side="BOTTOM" />
-                            </xAxis>
-                            <yAxis>
-                                 <NumberAxis fx:id="citYAxis" side="LEFT"  />
-                            </yAxis>
-                        </BarChart>
-                        <Label text="Author Occurrences" />
-                        <BarChart fx:id="authorChart">
-                            <xAxis>
-                                <CategoryAxis fx:id="authXAxis" side="BOTTOM" />
-                            </xAxis>
-                            <yAxis>
-                                 <NumberAxis fx:id="authYAxis" side="LEFT"  />
-                            </yAxis>
-                        </BarChart>
-                        <Label text="Years published" />
-                        <BarChart fx:id="yearChart">
-                            <xAxis>
-                                <CategoryAxis fx:id="yearXAxis" side="BOTTOM" />
-                            </xAxis>
-                            <yAxis>
-                                 <NumberAxis fx:id="yearYAxis" side="LEFT"  />
-                            </yAxis>
-                        </BarChart>
-                        <HBox maxWidth="Infinity" HBox.hgrow="ALWAYS" spacing="20.0">
-                        </HBox>
+                        <VBox maxWidth="Infinity">
+                        	<HBox prefHeight="400.0" maxWidth="Infinity" HBox.hgrow="ALWAYS" spacing="20.0">
+                        		<BarChart fx:id="citationsChart">
+                        		 <xAxis>
+                                	<CategoryAxis fx:id="citXAxis" side="BOTTOM" />
+                            	</xAxis>
+                            	<yAxis>
+                                 	<NumberAxis fx:id="citYAxis" side="LEFT"  />
+                            	</yAxis>
+                        	</BarChart>
+                        	<BarChart fx:id="yearChart">
+                            	<xAxis>
+                                	<CategoryAxis fx:id="yearXAxis" side="BOTTOM" />
+                            	</xAxis>
+                            	<yAxis>
+                                 	<NumberAxis fx:id="yearYAxis" side="LEFT"  />
+                            	</yAxis>
+                        	</BarChart>
+                        	</HBox>
+                        	<BarChart fx:id="authorChart" prefHeight="600.0" maxWidth="Infinity" HBox.hgrow="ALWAYS">
+                            	<xAxis>
+                                	<CategoryAxis fx:id="authXAxis" side="BOTTOM" />
+                            	</xAxis>
+                            	<yAxis>
+                                 	<NumberAxis fx:id="authYAxis" side="LEFT"  />
+                            	</yAxis>
+                        	</BarChart>
+                        </VBox>
                     </children>
                 </VBox>
             </children>

@@ -21,9 +21,14 @@ import org.jabref.model.entrystatistics.EntryStatistics;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Map;
 
 import javax.imageio.ImageIO;
+import javax.swing.JFileChooser;
 
 public class EntryStatisticsView extends BaseDialog<EntryStatistics> {
     @FXML
@@ -47,6 +52,7 @@ public class EntryStatisticsView extends BaseDialog<EntryStatistics> {
 
     private final BasePanel basePanel;
     private final DialogService dialogService;
+    JFileChooser chooser;
 
     public EntryStatisticsView(BasePanel basePanel, DialogService dialogService) {
         this.basePanel = basePanel;
@@ -83,7 +89,7 @@ public class EntryStatisticsView extends BaseDialog<EntryStatistics> {
         authYAxis.setLabel("Author credits");
 
         XYChart.Series<String, Integer> authSeries = new XYChart.Series<>();
-        authSeries.setName("Author Occurrences");
+        authSeries.setName("Author credits");
         for (Map.Entry<String, Integer> entry : statistics.getAuthCountReport().entrySet()) {
             String tmpString = entry.getKey();
             Integer tmpValue = entry.getValue();
@@ -98,7 +104,7 @@ public class EntryStatisticsView extends BaseDialog<EntryStatistics> {
         yearYAxis.setLabel("Papers published");
 
         XYChart.Series<String, Integer> yearSeries = new XYChart.Series<>();
-        yearSeries.setName("Aggregated year of publication");
+        yearSeries.setName("Papers published per year");
         for (Map.Entry<String, Integer> entry : statistics.getYearPubReport().entrySet()) {
             String tmpString = entry.getKey();
             Integer tmpValue = entry.getValue();
@@ -110,19 +116,22 @@ public class EntryStatisticsView extends BaseDialog<EntryStatistics> {
     }
 
     private void saveCharts() {
-
         try {
+            Date date = Calendar.getInstance().getTime();
+            DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd-hh-mm-ss");
+            String strDate = dateFormat.format(date);
+
             WritableImage snapShot = citationsChart.snapshot(null, null);
-            ImageIO.write(SwingFXUtils.fromFXImage(snapShot, null), "png", new File("citations.png"));
+            ImageIO.write(SwingFXUtils.fromFXImage(snapShot, null), "png", new File("citations" + strDate + ".png"));
 
             snapShot = authorChart.snapshot(null, null);
-            ImageIO.write(SwingFXUtils.fromFXImage(snapShot, null), "png", new File("authors.png"));
+            ImageIO.write(SwingFXUtils.fromFXImage(snapShot, null), "png", new File("authors" + strDate + ".png"));
 
             snapShot = yearChart.snapshot(null, null);
-            ImageIO.write(SwingFXUtils.fromFXImage(snapShot, null), "png", new File("years.png"));
-
+            ImageIO.write(SwingFXUtils.fromFXImage(snapShot, null), "png", new File("years" + strDate + ".png"));
+            dialogService.notify(Localization.lang("Charts saved!"));
         } catch (IOException e) {
-            // TODO Auto-generated catch block
+            dialogService.notify(Localization.lang("Failed to save charts!"));
             e.printStackTrace();
         }
     }
