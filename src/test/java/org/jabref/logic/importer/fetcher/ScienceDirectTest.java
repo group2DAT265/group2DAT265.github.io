@@ -27,7 +27,6 @@ class ScienceDirectTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server is blocked")
     void findByDOIOldPage() throws IOException {
         entry.setField(StandardField.DOI, "10.1016/j.jrmge.2015.08.004");
 
@@ -38,7 +37,6 @@ class ScienceDirectTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server is blocked")
     void findByDOINewPage() throws IOException {
         entry.setField(StandardField.DOI, "10.1016/j.aasri.2014.09.002");
 
@@ -49,7 +47,6 @@ class ScienceDirectTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server is blocked")
     void findByDoiWorksForBoneArticle() throws IOException {
         // The DOI is an example by a user taken from https://github.com/JabRef/jabref/issues/5860
         entry.setField(StandardField.DOI, "https://doi.org/10.1016/j.bone.2020.115226");
@@ -61,7 +58,6 @@ class ScienceDirectTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server is blocked")
     void notFoundByDOI() throws IOException {
         entry.setField(StandardField.DOI, "10.1016/j.aasri.2014.0559.002");
 

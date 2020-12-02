@@ -37,7 +37,6 @@ class GoogleScholarTest implements SearchBasedFetcherCapabilityTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server is blocked by Google")
     void linkFound() throws IOException, FetcherException {
         entry.setField(StandardField.TITLE, "Towards Application Portability in Platform as a Service");
 
@@ -48,7 +47,6 @@ class GoogleScholarTest implements SearchBasedFetcherCapabilityTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server is blocked by Google")
     void noLinkFound() throws IOException, FetcherException {
         entry.setField(StandardField.TITLE, "Curriculum programme of career-oriented java specialty guided by principles of software engineering");
 
@@ -56,7 +54,6 @@ class GoogleScholarTest implements SearchBasedFetcherCapabilityTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server is blocked by Google")
     void findSingleEntry() throws FetcherException {
         entry.setType(StandardEntryType.IN_PROCEEDINGS);
         entry.setCiteKey("geiger2013detecting");
@@ -72,7 +69,6 @@ class GoogleScholarTest implements SearchBasedFetcherCapabilityTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server is blocked by Google")
     void findManyEntries() throws FetcherException {
         List<BibEntry> foundEntries = finder.performSearch("random test string");
 

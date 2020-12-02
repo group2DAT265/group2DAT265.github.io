@@ -37,7 +37,6 @@ public class SpringerLinkTest {
         assertEquals(Optional.empty(), finder.findFullText(entry));
     }
 
-    @DisabledOnCIServer("Disable on CI Server to not hit the API call limit")
     @Test
     public void findByDOI() throws IOException {
         entry.setField(StandardField.DOI, "10.1186/s13677-015-0042-8");
@@ -46,7 +45,6 @@ public class SpringerLinkTest {
                 finder.findFullText(entry));
     }
 
-    @DisabledOnCIServer("Disable on CI Server to not hit the API call limit")
     @Test
     public void notFoundByDOI() throws IOException {
         entry.setField(StandardField.DOI, "10.1186/unknown-doi");

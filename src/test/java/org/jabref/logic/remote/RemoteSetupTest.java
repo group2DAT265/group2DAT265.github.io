@@ -26,7 +26,6 @@ import static org.mockito.Mockito.verify;
 /**
  * Tests where the remote client and server setup is wrong.
  */
-@DisabledOnCIServer("Tests fails sporadically on CI server")
 class RemoteSetupTest {
 
     private MessageHandler messageHandler;

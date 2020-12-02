@@ -30,7 +30,6 @@ class PdfContentImporterTestFiles {
 
     @ParameterizedTest
     @MethodSource("fileNames")
-    @Disabled("bib file does not contain linked file")
     void testImportEntries(String fileName) throws Exception {
         ImporterTestEngine.testImportEntries(new PdfContentImporter(mock(ImportFormatPreferences.class)), fileName, FILE_ENDING);
     }

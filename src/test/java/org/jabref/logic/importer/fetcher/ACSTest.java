@@ -26,7 +26,6 @@ class ACSTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server is unreliable")
     void findByDOI() throws IOException {
         entry.setField(StandardField.DOI, "10.1021/bk-2006-STYG.ch014");
 
@@ -37,7 +36,6 @@ class ACSTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server is unreliable")
     void notFoundByDOI() throws IOException {
         entry.setField(StandardField.DOI, "10.1021/bk-2006-WWW.ch014");
 

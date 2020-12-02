@@ -19,7 +19,6 @@ class CiteSeerTest {
     private final CiteSeer fetcher = new CiteSeer();
 
     @Test
-    @Disabled("CiteseerX currently has issues with ncites query")
     void searchByQueryFindsEntryRigorousDerivation() throws Exception {
         BibEntry expected = new BibEntry(StandardEntryType.MISC)
                 .withField(StandardField.AUTHOR, "Wang Wei and Zhang Pingwen and Zhang Zhifei")
