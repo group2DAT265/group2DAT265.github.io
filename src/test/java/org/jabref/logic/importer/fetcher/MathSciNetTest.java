@@ -59,7 +59,6 @@ class MathSciNetTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server has no subscription to MathSciNet and thus gets 401 response")
     void searchByIdInEntryFindsEntry() throws Exception {
         BibEntry searchEntry = new BibEntry();
         searchEntry.setField(StandardField.MR_NUMBER, "3537908");
@@ -69,7 +68,6 @@ class MathSciNetTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server has no subscription to MathSciNet and thus gets 401 response")
     void searchByQueryFindsEntry() throws Exception {
         List<BibEntry> fetchedEntries = fetcher.performSearch("Existence and uniqueness theorems Two-Dimensional Ericksen Leslie System");
         assertFalse(fetchedEntries.isEmpty());
@@ -77,7 +75,6 @@ class MathSciNetTest {
     }
 
     @Test
-    @DisabledOnCIServer("CI server has no subscription to MathSciNet and thus gets 401 response")
     void searchByIdFindsEntry() throws Exception {
         Optional<BibEntry> fetchedEntry = fetcher.performSearchById("3537908");
         assertEquals(Optional.of(ratiuEntry), fetchedEntry);

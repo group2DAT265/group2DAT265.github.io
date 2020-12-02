@@ -4,13 +4,9 @@ import org.jabref.logic.l10n.Localization;
 import org.jabref.logic.util.TestEntry;
 import org.jabref.model.entry.BibEntry;
 import org.jabref.model.entry.field.StandardField;
-
-import org.junit.jupiter.api.Disabled;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-@Disabled("For some reason, instead of vol and pp we get null. No idea about the origin of this problem.")
 class CitationStyleGeneratorTest {
 
     @Test

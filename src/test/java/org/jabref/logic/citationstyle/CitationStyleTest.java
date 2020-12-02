@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@Disabled("For some reason, instead of vol and pp we get null. No idea about the origin of this problem.")
 class CitationStyleTest {
 
     @Test

@@ -73,7 +73,6 @@ class MergeReviewIntoCommentActionMigrationTest {
     }
 
     @Test
-    @Disabled("Re-enable if the MergeReviewIntoCommentMigration.mergeCommentFieldIfPresent() does not block and wait for user input.")
     public void reviewAndCommentField() {
         BibEntry actualEntry = createMinimalBibEntry();
         actualEntry.setField(StandardField.REVIEW, "My Review");

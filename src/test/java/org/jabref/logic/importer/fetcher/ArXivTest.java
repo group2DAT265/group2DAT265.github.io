@@ -231,13 +231,11 @@ class ArXivTest implements SearchBasedFetcherCapabilityTest {
         return List.of("\"Tobias Diez\"");
     }
 
-    @Disabled("Is not supported by the current API")
     @Test
     @Override
     public void supportsYearSearch() throws Exception {
     }
 
-    @Disabled("Is not supported by the current API")
     @Test
     @Override
     public void supportsYearRangeSearch() throws Exception {

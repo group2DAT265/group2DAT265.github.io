@@ -99,7 +99,6 @@ class LatexToUnicodeFormatterTest {
         assertEquals("ḩ", formatter.format("{\\c{h}}"));
     }
 
-    @Disabled("This is not a standard LaTeX command. It is debatable why we should convert this.")
     @Test
     void testCombiningAccentsCase2() {
         assertEquals("a͍", formatter.format("\\spreadlips{a}"));
