@@ -24,6 +24,7 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.Map;
 
@@ -94,9 +95,11 @@ public class EntryStatisticsView extends BaseDialog<EntryStatistics> {
             String tmpString = entry.getKey();
             Integer tmpValue = entry.getValue();
             XYChart.Data<String, Integer> d = new XYChart.Data<>(tmpString, tmpValue);
+
             authSeries.getData().add(d);
         }
 
+        authSeries.getData().sort(Comparator.comparingDouble(d -> d.getYValue().doubleValue() * -1));
         authorChart.getData().add(authSeries);
 
         yearXAxis.setLabel("Year");
@@ -112,6 +115,7 @@ public class EntryStatisticsView extends BaseDialog<EntryStatistics> {
             yearSeries.getData().add(d);
         }
 
+        yearSeries.getData().sort(Comparator.comparing(d -> d.getXValue()));
         yearChart.getData().add(yearSeries);
     }
 
