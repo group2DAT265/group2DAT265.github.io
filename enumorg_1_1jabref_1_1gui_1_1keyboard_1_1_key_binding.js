@@ -90,6 +90,7 @@ var enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding =
     [ "TOGGLE_GROUPS_INTERFACE", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a16037ff4f15a8a39948dccfd5381f7c8", null ],
     [ "UNABBREVIATE", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a2202e8c563c4980de474be16735ee259", null ],
     [ "UNDO", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#ac98540b27bb8ae342504932a7d069926", null ],
+    [ "WEB_OF_SCIENCE", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a13d322f46769a785625a500aac621c91", null ],
     [ "WEB_SEARCH", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a5d0f26b48dd3aad2002d7d9ad26b2c18", null ],
     [ "WRITE_XMP", "enumorg_1_1jabref_1_1gui_1_1keyboard_1_1_key_binding.html#a1cbcd06f3563c441c91963dd79794b41", null ]
 ];

@@ -57,6 +57,7 @@ var enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons =
     [ "EDIT_STRINGS", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a7d3229c3d0da75fb8fa3c7a30a3c29eb", null ],
     [ "EMAIL", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#acf57847791f1e49060486d96712d9425", null ],
     [ "ENTRY_TYPE", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a4cfe6656b3d88d58460b7b0c93e1b704", null ],
+    [ "ENTRYSTATISTICS", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a93bf939100a64521882af047cbe3f748", null ],
     [ "ERROR", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#acc2f58785ad8174fd7b0a28c7f4e6b6f", null ],
     [ "EXPORT", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a4cdb4c207dd938d63ff383194db1b15d", null ],
     [ "EXPORT_TO_CLIPBOARD", "enumorg_1_1jabref_1_1gui_1_1icon_1_1_icon_theme_1_1_jab_ref_icons.html#a8001ed7be3f98cc78d38699a02b49217", null ],

@@ -2,6 +2,7 @@ var namespaceorg_1_1jabref_1_1model =
 [
     [ "database", "namespaceorg_1_1jabref_1_1model_1_1database.html", "namespaceorg_1_1jabref_1_1model_1_1database" ],
     [ "entry", "namespaceorg_1_1jabref_1_1model_1_1entry.html", "namespaceorg_1_1jabref_1_1model_1_1entry" ],
+    [ "entrystatistics", "namespaceorg_1_1jabref_1_1model_1_1entrystatistics.html", "namespaceorg_1_1jabref_1_1model_1_1entrystatistics" ],
     [ "groups", "namespaceorg_1_1jabref_1_1model_1_1groups.html", "namespaceorg_1_1jabref_1_1model_1_1groups" ],
     [ "metadata", "namespaceorg_1_1jabref_1_1model_1_1metadata.html", "namespaceorg_1_1jabref_1_1model_1_1metadata" ],
     [ "pdf", "namespaceorg_1_1jabref_1_1model_1_1pdf.html", "namespaceorg_1_1jabref_1_1model_1_1pdf" ],

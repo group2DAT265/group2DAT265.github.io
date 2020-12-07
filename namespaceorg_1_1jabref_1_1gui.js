@@ -18,6 +18,7 @@ var namespaceorg_1_1jabref_1_1gui =
     [ "duplicationFinder", "namespaceorg_1_1jabref_1_1gui_1_1duplication_finder.html", "namespaceorg_1_1jabref_1_1gui_1_1duplication_finder" ],
     [ "edit", "namespaceorg_1_1jabref_1_1gui_1_1edit.html", "namespaceorg_1_1jabref_1_1gui_1_1edit" ],
     [ "entryeditor", "namespaceorg_1_1jabref_1_1gui_1_1entryeditor.html", "namespaceorg_1_1jabref_1_1gui_1_1entryeditor" ],
+    [ "entrystatistics", "namespaceorg_1_1jabref_1_1gui_1_1entrystatistics.html", "namespaceorg_1_1jabref_1_1gui_1_1entrystatistics" ],
     [ "errorconsole", "namespaceorg_1_1jabref_1_1gui_1_1errorconsole.html", "namespaceorg_1_1jabref_1_1gui_1_1errorconsole" ],
     [ "exporter", "namespaceorg_1_1jabref_1_1gui_1_1exporter.html", "namespaceorg_1_1jabref_1_1gui_1_1exporter" ],
     [ "externalfiles", "namespaceorg_1_1jabref_1_1gui_1_1externalfiles.html", "namespaceorg_1_1jabref_1_1gui_1_1externalfiles" ],

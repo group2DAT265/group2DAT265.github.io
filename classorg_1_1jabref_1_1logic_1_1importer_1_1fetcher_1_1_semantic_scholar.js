@@ -1,7 +1,7 @@
 var classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar =
 [
-    [ "combineReports", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar.html#ad292bc9d3b1b3bf4ba6956d0ebf2afe1", null ],
-    [ "getCitationReportsByDOIs", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar.html#a581feebe2ac83314c775ee1718bcdad8", null ],
+    [ "combineReports", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar.html#a983918fab8c22512c2a529d9bd34a633", null ],
+    [ "getCitationReportsByDOIs", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar.html#a09a0a5b44c079b732ca4a1382510aa89", null ],
     [ "getCitationYears", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar.html#a30fbc5bf1415f5c51b1772cd8a059872", null ],
     [ "getOneCitationReportByDOI", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar.html#a47a3ff7184ba1bce5a4cbf99260b1c98", null ],
     [ "getPaperQuery", "classorg_1_1jabref_1_1logic_1_1importer_1_1fetcher_1_1_semantic_scholar.html#aabacfce83530aecbb9e86d0eb626f7de", null ],

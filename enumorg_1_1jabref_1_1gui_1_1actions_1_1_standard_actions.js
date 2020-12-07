@@ -57,6 +57,7 @@ var enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions =
     [ "EDIT_ENTRY", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a8aff92de30fdce847931979652cc9d5d", null ],
     [ "EDIT_PREAMBLE", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a344c29a0f3589e54bf9389e45aceaf1e", null ],
     [ "EDIT_STRINGS", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a4c19e34b5cd8c649b62119545ef6c8ee", null ],
+    [ "ENTRY_STATISTICS", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a44aabff79ab3a564b3b2fa3a90a02c17", null ],
     [ "ERROR_CONSOLE", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a2927777ca7a699085f3b7ddeb4747848", null ],
     [ "EXPORT", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#a59bf22363107c65a1b3bb122bd0328dd", null ],
     [ "EXPORT_ALL", "enumorg_1_1jabref_1_1gui_1_1actions_1_1_standard_actions.html#af4eb21fdfdf8bacca6075da6576d30fd", null ],

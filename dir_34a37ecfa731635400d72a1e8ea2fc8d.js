@@ -18,6 +18,7 @@ var dir_34a37ecfa731635400d72a1e8ea2fc8d =
     [ "duplicationFinder", "dir_f2d3f2cf53e80ccc8375f449397e96ec.html", "dir_f2d3f2cf53e80ccc8375f449397e96ec" ],
     [ "edit", "dir_416605b0833b0981c4a9f64519ec8da8.html", "dir_416605b0833b0981c4a9f64519ec8da8" ],
     [ "entryeditor", "dir_09ef8d86f533ea80ed6131a9ba976674.html", "dir_09ef8d86f533ea80ed6131a9ba976674" ],
+    [ "entrystatistics", "dir_9454c5421fd773bbd11afd681fc5acc1.html", "dir_9454c5421fd773bbd11afd681fc5acc1" ],
     [ "errorconsole", "dir_6554a9fd2bb2057ce51ca9a85f284cd6.html", "dir_6554a9fd2bb2057ce51ca9a85f284cd6" ],
     [ "exporter", "dir_8bdb27a2c5c6113387573a3efb783e8b.html", "dir_8bdb27a2c5c6113387573a3efb783e8b" ],
     [ "externalfiles", "dir_e527e418693eb95c2bf80730da5cd0eb.html", "dir_e527e418693eb95c2bf80730da5cd0eb" ],
