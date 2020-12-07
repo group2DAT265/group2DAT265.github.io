@@ -119,6 +119,7 @@ import org.jabref.gui.undo.CountingUndoManager;
 import org.jabref.gui.undo.UndoRedoAction;
 import org.jabref.gui.util.BackgroundTask;
 import org.jabref.gui.util.DefaultTaskExecutor;
+import org.jabref.gui.entrystatistics.EntryStatisticsAction;
 import org.jabref.gui.wordcloud.GenerateWordCloudAction;
 import org.jabref.logic.autosaveandbackup.AutosaveManager;
 import org.jabref.logic.autosaveandbackup.BackupManager;
@@ -548,7 +549,8 @@ public class JabRefFrame extends BorderPane {
                         pushToApplicationButton,
                         factory.createIconButton(StandardActions.GENERATE_CITE_KEYS, new GenerateCitationKeyAction(this, dialogService, stateManager)),
                         factory.createIconButton(StandardActions.CLEANUP_ENTRIES, new CleanupAction(this, prefs, dialogService, stateManager)),
-                        factory.createIconButton(StandardActions.GENERATE_WORDCLOUD, new GenerateWordCloudAction(this, dialogService, stateManager))
+                        factory.createIconButton(StandardActions.GENERATE_WORDCLOUD, new GenerateWordCloudAction(this, dialogService, stateManager)),
+                        factory.createIconButton(StandardActions.ENTRY_STATISTICS, new EntryStatisticsAction(this, dialogService, stateManager))
                 ),
 
                 new Separator(Orientation.VERTICAL),

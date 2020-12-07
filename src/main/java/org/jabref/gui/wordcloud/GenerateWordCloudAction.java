@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -87,6 +89,25 @@ public class GenerateWordCloudAction extends SimpleCommand {
         });
     }
 
+    public void generatePublishedYear() {
+
+        ObservableList<BibEntry> listOfSelectedEntries = stateManager.getSelectedEntries();
+
+        HashMap<String, Integer> authorOccurrances = new HashMap<>();
+
+        Iterator<BibEntry> it = listOfSelectedEntries.iterator();
+
+        while (it.hasNext()) {
+            BibEntry entry = it.next();
+            if (entry.hasField(StandardField.AUTHOR)) {
+                String auths = entry.getField(StandardField.AUTHOR).get();
+                if (auths != null) {
+
+                }
+            }
+        }
+    }
+
     public void generateWordCloud(WordCloudPreset wordCloudPreset) throws IOException {
         // Reads file with stopword, words to be removed, to be able to remove all those words from the abstracts before word cloud generation
         List<String> stopWords = Files.readAllLines(Path.of("./src/main/resources/wordcloud/stopwords.txt"));
@@ -100,11 +121,11 @@ public class GenerateWordCloudAction extends SimpleCommand {
             FileWriter writer = new FileWriter(tmpFile);
             listOfSelectedEntries.forEach((entry) -> {
                 String words = "";
-                if ((wordCloudPreset.getContent() == "Abstract" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.ABSTRACT)) {
+                if (((wordCloudPreset.getContent() == "Abstract") || (wordCloudPreset.getContent() == "All")) && entry.hasField(StandardField.ABSTRACT)) {
                     words += entry.getField(StandardField.ABSTRACT).get();
-                } else if ((wordCloudPreset.getContent() == "Title" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.TITLE)) {
+                } else if (((wordCloudPreset.getContent() == "Title") || (wordCloudPreset.getContent() == "All")) && entry.hasField(StandardField.TITLE)) {
                     words += entry.getField(StandardField.TITLE).get();
-                } else if ((wordCloudPreset.getContent() == "Keywords" || wordCloudPreset.getContent() == "All") && entry.hasField(StandardField.KEYWORDS)) {
+                } else if (((wordCloudPreset.getContent() == "Keywords") || (wordCloudPreset.getContent() == "All")) && entry.hasField(StandardField.KEYWORDS)) {
                     words += entry.getField(StandardField.KEYWORDS).get();
                 }
 

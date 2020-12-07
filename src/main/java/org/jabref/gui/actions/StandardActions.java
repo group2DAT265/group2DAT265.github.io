@@ -158,7 +158,8 @@ public enum StandardActions implements Action {
     ERROR_CONSOLE(Localization.lang("View event log"), Localization.lang("Display all error messages")),
     SEARCH_FOR_UPDATES(Localization.lang("Check for updates")),
     ABOUT(Localization.lang("About JabRef"), Localization.lang("About JabRef")),
-    GENERATE_WORDCLOUD(Localization.lang("Generate wordcloud"), IconTheme.JabRefIcons.WORDCLOUD, KeyBinding.GENERATE_WORDCLOUD);
+    GENERATE_WORDCLOUD(Localization.lang("Generate wordcloud"), IconTheme.JabRefIcons.WORDCLOUD, KeyBinding.GENERATE_WORDCLOUD),
+    ENTRY_STATISTICS(Localization.lang("Web of Science"), IconTheme.JabRefIcons.ENTRYSTATISTICS, KeyBinding.WEB_OF_SCIENCE);
 
     // Constant to avoid duplication and critical code smells
     private static class Constants {
