@@ -24,7 +24,7 @@ GEM
     csl-styles (1.0.1.10)
       csl (~> 1.0)
     diff-lcs (1.4.4)
-    diffy (3.4.0)
+    diffy (3.4.2)
     dotenv (2.7.6)
     fuubar (2.5.0)
       rspec-core (~> 3.0)
